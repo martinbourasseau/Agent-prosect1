@@ -63,6 +63,15 @@ class Prospect:
     website: str = ""
     process_hint: str = ""  # processus concret observé (devis, RDV, e-mails entrants…)
     demo_detail: str = ""  # précision optionnelle du livrable limité de la démo gratuite
+    custom_hook: str = ""  # accroche sur mesure (v3) — sinon générée depuis les preuves
+    custom_subject: str = ""  # objet sur mesure (v3) — sinon généré depuis le besoin
+    example_urls: list[str] = field(default_factory=list)  # liens réalisations (whitelist obligatoire)
+    city: str = ""
+    department: str = ""
+    phone: str = ""
+    contact_role: str = ""
+    source: str = ""  # source de découverte (plateforme, presse, annuaire…)
+    publication_date: str = ""  # date de publication du besoin, si connue
     notes: str = ""
 
     @property

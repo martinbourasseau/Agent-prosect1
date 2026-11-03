@@ -1,13 +1,17 @@
-"""Qualification des prospects : score fondé sur les preuves, dédoublonnage.
+"""Qualification v3 : score fondé preuves + niveaux de priorité CRM + dédoublonnage.
 
-Barème (docs/strategie-commerciale.md §5) :
-- besoin exprimé publiquement : +50 (signal le plus fort, qualifie à lui seul)
+Barème :
+- besoin exprimé publiquement : +50 (signal le plus fort)
 - lacune vérifiée sur le site : +20 chacune (plafond 40)
-- opportunité sectorielle : +10
+- opportunité sectorielle documentée : +10
 - secteur connu : +10
 - prénom du contact connu : +5
 
-Qualifié si score >= 50, email valide, au moins une preuve, jamais déjà contacté.
+Niveaux (mission v3) :
+- haute          : besoin explicitement exprimé + contact email exploitable
+- moyenne        : besoin fortement probable, éléments concrets + contact
+- a_approfondir  : opportunité intéressante mais informations insuffisantes
+On ne rejette pas les opportunités moyennes : elles sont conservées avec leur niveau.
 """
 from __future__ import annotations
 
@@ -16,7 +20,7 @@ from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Any
 
-from .config import HISTORY_DIR
+from .config import HISTORY_DIR, TIER_HAUTE, TIER_MOYENNE, TIER_A_APPROFONDIR
 from .models import (
     Prospect,
     EVIDENCE_PUBLIC_NEED,
@@ -30,6 +34,12 @@ REVIEW = "a_revoir"
 NOT_QUALIFIED = "non_qualifie"
 EXCLUDED = "exclu"
 
+_TIER_TO_STATUS = {
+    TIER_HAUTE: QUALIFIED,
+    TIER_MOYENNE: REVIEW,
+    TIER_A_APPROFONDIR: NOT_QUALIFIED,
+}
+
 
 @dataclass
 class QualificationResult:
@@ -37,6 +47,7 @@ class QualificationResult:
     score: int
     status: str
     reasons: list[str] = field(default_factory=list)
+    tier: str = TIER_A_APPROFONDIR
 
     def to_dict(self) -> dict[str, Any]:
         return {
@@ -44,12 +55,12 @@ class QualificationResult:
             "contact_email": self.prospect.contact_email,
             "score": self.score,
             "status": self.status,
+            "tier": self.tier,
             "reasons": self.reasons,
         }
 
 
 def load_contacted_emails(history_dir: Path | None = None) -> set[str]:
-    """Emails déjà contactés (historique versionné), pour dédoublonnage."""
     history_dir = history_dir or HISTORY_DIR
     contacted: set[str] = set()
     if not history_dir.exists():
@@ -88,14 +99,12 @@ def qualify(
 
     errors = prospect.validate()
     if errors:
-        return QualificationResult(prospect, 0, NOT_QUALIFIED, [f"invalide : {e}" for e in errors])
+        return QualificationResult(prospect, 0, NOT_QUALIFIED, [f"invalide : {e}" for e in errors], TIER_A_APPROFONDIR)
 
     email = prospect.contact_email.strip().lower()
     domain = (prospect.domain or "").strip().lower()
     if email in contacted_emails or (domain and domain in contacted_domains):
-        return QualificationResult(
-            prospect, 0, EXCLUDED, ["déjà contacté (historique d'envois)"]
-        )
+        return QualificationResult(prospect, 0, EXCLUDED, ["déjà contacté (historique d'envois)"], TIER_A_APPROFONDIR)
 
     public = [e for e in prospect.evidences if e.kind == EVIDENCE_PUBLIC_NEED]
     gaps = [e for e in prospect.evidences if e.kind == EVIDENCE_WEBSITE_GAP]
@@ -118,13 +127,17 @@ def qualify(
         score += 5
         reasons.append("prénom du contact connu (+5)")
 
-    if score >= 50:
-        status = QUALIFIED
-    elif score >= 30:
-        status = REVIEW
+    # Niveau de priorité (ne pas rejeter les opportunités moyennes).
+    has_email = bool(prospect.contact_email and "@" in prospect.contact_email)
+    if public and has_email:
+        tier = TIER_HAUTE
+    elif has_email and (gaps or sector_opps or score >= 40):
+        tier = TIER_MOYENNE
     else:
-        status = NOT_QUALIFIED
-    return QualificationResult(prospect, score, status, reasons)
+        tier = TIER_A_APPROFONDIR
+
+    status = _TIER_TO_STATUS[tier]
+    return QualificationResult(prospect, score, status, reasons, tier)
 
 
 def qualify_batch(prospects: list[Prospect]) -> list[QualificationResult]:
@@ -136,7 +149,7 @@ def qualify_batch(prospects: list[Prospect]) -> list[QualificationResult]:
         res = qualify(p, contacted_emails, contacted_domains)
         key = p.contact_email.strip().lower()
         if key in seen:
-            res = QualificationResult(p, res.score, EXCLUDED, ["doublon dans le lot"])
+            res = QualificationResult(p, res.score, EXCLUDED, ["doublon dans le lot"], res.tier)
         seen.add(key)
         results.append(res)
     return results

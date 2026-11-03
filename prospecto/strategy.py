@@ -1,11 +1,13 @@
-"""Stratégie commerciale v2 : personnalisation intelligente et démo gratuite.
+"""Stratégie commerciale v3 — hook percutant, prestation unique, démo gratuite.
 
-Implémente docs/strategie-commerciale.md :
-- première phrase adaptée au besoin réel (besoin public cité en priorité) ;
-- une seule prestation principale par email ;
-- exemples de réalisations adaptés au secteur ;
-- objet décliné de « Une idée pour [Entreprise] ? » ;
-- démonstration gratuite limitée selon le besoin.
+Implémente docs/strategie-commerciale-v3.md :
+- accroche (hook) dès la première phrase, fondée sur une preuve vérifiable ;
+- une seule prestation principale (web OU IA/automatisation), pas le catalogue ;
+- objet court, naturel, personnalisé et intrigant sans être racoleur ;
+- démonstration gratuite limitée, argument central ;
+- appel à l'action simple.
+Les accroches/objets sur mesure (custom_hook/custom_subject) priment sur les
+valeurs générées, pour une personnalisation maximale sans sacrifier les garde-fous.
 """
 from __future__ import annotations
 
@@ -21,98 +23,91 @@ from .models import (
 )
 
 # ---------------------------------------------------------------------------
-# Démonstration gratuite par besoin (toujours limitée, jamais une réalisation
-# complète — docs/strategie-commerciale.md §4).
+# Démonstration gratuite par besoin (toujours limitée, jamais complète).
 # ---------------------------------------------------------------------------
 DEMO_OFFERS: dict[str, str] = {
-    NEED_SITE_WEB: (
-        "une première maquette de page d'accueil personnalisée pour votre entreprise"
-    ),
-    NEED_REFONTE: (
-        "un aperçu visuel d'amélioration d'une page clé de votre site"
-    ),
-    NEED_AGENT_IA: (
-        "un exemple concret de fonctionnement adapté à votre activité"
-    ),
-    NEED_AUTOMATISATION: (
-        "une illustration du processus qui pourrait être automatisé chez vous"
-    ),
+    NEED_SITE_WEB: "une première maquette de page d'accueil personnalisée pour votre entreprise",
+    NEED_REFONTE: "un aperçu visuel d'une nouvelle direction graphique pour votre site",
+    NEED_AGENT_IA: "la démonstration d'un cas d'usage concret adapté à votre activité",
+    NEED_AUTOMATISATION: "une illustration du fonctionnement d'un processus automatisé chez vous",
 }
 
-DEMO_SENTENCE = (
-    "Je vous propose de créer une première démonstration personnalisée, "
-    "gratuitement et sans engagement : {demo}."
+DEMO_TEMPLATE = (
+    "Je peux vous préparer gratuitement une première démonstration personnalisée, "
+    "sans engagement : {offer}."
 )
 
 # ---------------------------------------------------------------------------
-# Prestation principale (une seule par email) et positionnement.
+# Prestation unique (une seule par email), orientée bénéfice.
 # ---------------------------------------------------------------------------
-POSITIONING: dict[str, str] = {
+POSITIONING_V3: dict[str, str] = {
     NEED_SITE_WEB: (
-        "Je crée des sites web modernes et professionnels pour des entreprises "
-        "comme la vôtre"
+        "Je crée des sites web modernes et professionnels, pensés pour valoriser "
+        "votre savoir-faire et transformer vos visiteurs en clients."
     ),
     NEED_REFONTE: (
-        "Je conçois et modernise des sites web pour des entreprises comme la vôtre"
+        "Je modernise les sites web pour les rendre plus clairs, plus rapides "
+        "et plus convaincants."
     ),
     NEED_AGENT_IA: (
-        "Je crée des agents IA qui automatisent des tâches et font gagner du temps "
-        "aux entreprises comme la vôtre"
+        "Je développe des agents IA qui traitent automatiquement les demandes, "
+        "réponses et tâches répétitives."
     ),
     NEED_AUTOMATISATION: (
-        "Je mets en place des automatisations qui font gagner du temps "
-        "aux entreprises comme la vôtre"
+        "Je mets en place des automatisations qui font gagner du temps sur "
+        "les tâches répétitives."
     ),
 }
 
 # ---------------------------------------------------------------------------
-# Objets : déclinaisons courtes de « Une idée pour [Entreprise] ? ».
+# Objets v3 : courts, naturels, intrigants mais honnêtes.
 # ---------------------------------------------------------------------------
-SUBJECTS: dict[str, list[str]] = {
+SUBJECTS_V3: dict[str, list[str]] = {
     NEED_SITE_WEB: [
         "Une idée pour {company} ?",
-        "Une idée pour votre présence en ligne ?",
+        "{company} : votre site vitrine ?",
+        "Et si {company} avait son site ?",
     ],
     NEED_REFONTE: [
         "Une idée pour le site {company_de} ?",
-        "Une idée pour {company} ?",
+        "{company} : un coup de neuf ?",
+        "Votre site {company_de}, en mieux ?",
     ],
     NEED_AGENT_IA: [
-        "Une idée pour gagner du temps chez {company} ?",
-        "Une idée pour {company} ?",
+        "Un assistant IA pour {company} ?",
+        "Une idée pour vos demandes clients",
+        "{company} : du temps en plus ?",
     ],
     NEED_AUTOMATISATION: [
-        "Une idée pour vos {process} chez {company} ?",
-        "Une idée pour gagner du temps chez {company} ?",
+        "{company} : automatiser {process} ?",
+        "Une idée pour gagner du temps",
+        "Gagner du temps chez {company} ?",
     ],
 }
 
-# ---------------------------------------------------------------------------
-# Exemples de réalisations, adaptés au secteur (1 maximum par email).
-# Références réelles : prospecto.website (réalisations présentées) et SYNATRAP
-# (agent IA de tri de tickets, projet de Martin — cité, jamais modifié).
-# ---------------------------------------------------------------------------
+# Exemples de réalisations par secteur (fallback, utilisés seulement si pas de
+# lien whitelist fourni). Références réelles : prospecto.website, SYNATRAP.
 REALISATIONS: dict[str, dict[str, str]] = {
     "batiment": {
-        NEED_SITE_WEB: "présentation claire des prestations et demande de devis en ligne",
-        NEED_REFONTE: "mise en avant des réalisations et demande de devis simplifiée",
-        NEED_AGENT_IA: "tri des demandes de devis et préparation de premières réponses",
-        NEED_AUTOMATISATION: "confirmations et rappels de rendez-vous envoyés automatiquement",
+        NEED_SITE_WEB: "présentation des prestations et demande de devis en ligne",
+        NEED_REFONTE: "mise en avant des réalisations et devis simplifié",
+        NEED_AGENT_IA: "tri des demandes de devis et premières réponses",
+        NEED_AUTOMATISATION: "confirmations et rappels de rendez-vous",
     },
     "architecture": {
         NEED_SITE_WEB: "portfolio de projets et prise de contact facilitée",
         NEED_REFONTE: "mise en valeur des projets et navigation modernisée",
-        NEED_AGENT_IA: "qualification des demandes entrantes avant réponse",
+        NEED_AGENT_IA: "qualification des demandes entrantes",
         NEED_AUTOMATISATION: "suivi automatique des demandes de devis",
     },
     "automobile": {
-        NEED_SITE_WEB: "présentation des véhicules et services, prise de RDV en ligne",
+        NEED_SITE_WEB: "présentation des véhicules et prise de RDV en ligne",
         NEED_REFONTE: "prise de rendez-vous atelier simplifiée",
         NEED_AGENT_IA: "réponse aux demandes d'essai et de devis",
-        NEED_AUTOMATISATION: "rappels d'entretien et de rendez-vous atelier",
+        NEED_AUTOMATISATION: "rappels d'entretien et de rendez-vous",
     },
     "services": {
-        NEED_SITE_WEB: "présentation des services et demande de devis en ligne",
+        NEED_SITE_WEB: "présentation des services et devis en ligne",
         NEED_REFONTE: "parcours de demande de devis simplifié",
         NEED_AGENT_IA: "tri et première réponse aux e-mails entrants",
         NEED_AUTOMATISATION: "traitement automatique des demandes entrantes",
@@ -126,29 +121,26 @@ REALISATIONS: dict[str, dict[str, str]] = {
     "restauration": {
         NEED_SITE_WEB: "menu, horaires et réservation en ligne",
         NEED_REFONTE: "réservation et mise en avant de la carte",
-        NEED_AGENT_IA: "réponse aux demandes de réservation et d'événements",
+        NEED_AGENT_IA: "réponse aux demandes de réservation",
         NEED_AUTOMATISATION: "confirmations et rappels de réservation",
     },
     "sante": {
         NEED_SITE_WEB: "présentation du cabinet et prise de rendez-vous",
-        NEED_REFONTE: "prise de rendez-vous et informations patients clarifiées",
+        NEED_REFONTE: "prise de rendez-vous et informations patients",
         NEED_AGENT_IA: "orientation des demandes patients",
         NEED_AUTOMATISATION: "rappels de rendez-vous",
     },
     "default": {
-        NEED_SITE_WEB: "présentation de l'activité et prise de contact facilitée",
-        NEED_REFONTE: "design et navigation modernisés, contact simplifié",
-        NEED_AGENT_IA: "tri des demandes entrantes et premières réponses préparées",
+        NEED_SITE_WEB: "présentation de l'activité et contact facilité",
+        NEED_REFONTE: "design et navigation modernisés",
+        NEED_AGENT_IA: "tri des demandes et premières réponses",
         NEED_AUTOMATISATION: "processus répétitifs traités automatiquement",
     },
 }
-
-# Secteurs connus pour le bonus de qualification.
 KNOWN_SECTORS = set(REALISATIONS) - {"default"}
 
 
 def realisation_example(sector: str, need: str) -> str:
-    """Un exemple de réalisation adapté au secteur, ou None si non pertinent."""
     table = REALISATIONS.get(sector, REALISATIONS["default"])
     return table.get(need, "")
 
@@ -172,56 +164,58 @@ def de_company(name: str) -> str:
 
 
 def build_subject(prospect: Prospect) -> str:
-    """Objet court, décliné selon le besoin principal."""
+    """Objet court : sur mesure si fourni, sinon décliné selon le besoin."""
+    if prospect.custom_subject.strip():
+        subject = prospect.custom_subject.strip()
+        return subject if len(subject) <= 70 else "Une idée pour votre entreprise ?"
     need = prospect.primary_need or NEED_SITE_WEB
-    variants = SUBJECTS[need]
-    # Choix déterministe : variante orientée processus si un processus est observé.
-    idx = 0
-    if need == NEED_AUTOMATISATION and prospect.process_hint:
-        idx = 0
+    variants = SUBJECTS_V3[need]
+    # Variation déterministe basée sur le nom (pas d'aléatoire reproductible cassé).
+    idx = sum(ord(c) for c in prospect.company) % len(variants)
     fmt = dict(
         company=prospect.company,
         company_de=de_company(prospect.company),
-        process=prospect.process_hint or "tâches",
+        process=prospect.process_hint or "certaines tâches",
     )
     subject = variants[idx].format(**fmt)
     if len(subject) > 70:
-        subject = variants[-1].format(**fmt)
+        subject = variants[0].format(**fmt)
     if len(subject) > 70:
-        # Repli sans nom d'entreprise : l'objet reste court en toutes circonstances.
         subject = "Une idée pour votre entreprise ?"
     return subject
 
 
-def build_opening(prospect: Prospect) -> str:
-    """Première(s) phrase(s) : au besoin réellement identifié, jamais inventé.
+def build_hook(prospect: Prospect) -> str:
+    """Accroche v3 : spécifique, crédible, fondée sur une preuve.
 
-    Priorité 1 : besoin exprimé publiquement → on cite la demande et sa source.
-    Priorité 2 : lacunes vérifiées sur le site → constats factuels bornés.
-    Sinon : découverte neutre et honnête (pas de problème prétendu).
+    Priorité : custom_hook > besoin public > lacune site > processus > neutre.
+    Jamais de problème inventé, jamais de fausse urgence ni flatterie.
     """
+    if prospect.custom_hook.strip():
+        return prospect.custom_hook.strip()
+
     public = public_need_evidence(prospect)
     if public is not None:
-        detail = public.detail or public.quote
-        return f"J'ai vu que {detail}."
+        detail = (public.detail or public.quote).strip()
+        return f"J'ai lu votre annonce : {detail}."
 
     gaps = website_gap_evidences(prospect)
     if gaps and prospect.primary_need in (NEED_REFONTE, NEED_SITE_WEB):
-        lines = [
-            f"J'ai consulté quelques pages de votre site ({prospect.domain}) ; "
-            "voici ce que j'y ai relevé :"
-        ]
-        for ev in gaps[:3]:
-            lines.append(f"— {ev.detail or ev.quote}")
-        return "\n\n".join([lines[0], "\n".join(lines[1:])])
+        first = (gaps[0].detail or gaps[0].quote).strip()
+        return f"En parcourant votre site ({prospect.domain}), j'ai relevé un point concret : {first}"
 
     if prospect.primary_need in (NEED_AGENT_IA, NEED_AUTOMATISATION) and prospect.process_hint:
         return (
-            f"En découvrant {prospect.company}, j'ai identifié une piste concrète "
-            f"autour de {prospect.process_hint}."
+            f"En découvrant {prospect.company}, j'ai vu que {prospect.process_hint} : "
+            "une piste concrète pour vous faire gagner du temps."
         )
 
     return (
-        f"J'ai découvert {prospect.company} et identifié quelques possibilités "
-        "pour développer votre activité grâce au web et à l'intelligence artificielle."
+        f"En découvrant {prospect.company}, j'ai identifié une possibilité intéressante "
+        "pour développer votre activité."
     )
+
+
+# Compat ascendante (tests / ancien code).
+def build_opening(prospect: Prospect) -> str:
+    return build_hook(prospect)

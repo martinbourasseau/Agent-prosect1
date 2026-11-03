@@ -1,4 +1,4 @@
-"""Tests de la stratégie v2 : personnalisation et démonstration gratuite."""
+"""Tests stratégie v3 : hooks, objets, démo gratuite, prestation unique."""
 import unittest
 
 from prospecto.models import (
@@ -7,7 +7,7 @@ from prospecto.models import (
     EVIDENCE_PUBLIC_NEED, EVIDENCE_WEBSITE_GAP,
 )
 from prospecto.strategy import (
-    DEMO_OFFERS, build_subject, build_opening, realisation_example,
+    DEMO_OFFERS, build_subject, build_hook, realisation_example, de_company,
 )
 
 
@@ -23,7 +23,7 @@ def make_prospect(**kw):
             source_url="http://atelier-dupont.fr",
             quote="pas de HTTPS",
             observed_at="2026-11-03",
-            detail="Le site ne s'affichait pas en connexion sécurisée (HTTPS) lors de mon passage.",
+            detail="le site ne s'affichait pas en connexion sécurisée (HTTPS) lors de mon passage.",
         )],
     )
     base.update(kw)
@@ -33,9 +33,9 @@ def make_prospect(**kw):
 class TestDemoOffers(unittest.TestCase):
     def test_demo_offer_per_need(self):
         self.assertIn("maquette", DEMO_OFFERS[NEED_SITE_WEB])
-        self.assertIn("aperçu visuel", DEMO_OFFERS[NEED_REFONTE])
-        self.assertIn("exemple concret", DEMO_OFFERS[NEED_AGENT_IA])
-        self.assertIn("illustration du processus", DEMO_OFFERS[NEED_AUTOMATISATION])
+        self.assertIn("direction graphique", DEMO_OFFERS[NEED_REFONTE])
+        self.assertIn("cas d'usage", DEMO_OFFERS[NEED_AGENT_IA])
+        self.assertIn("processus automatisé", DEMO_OFFERS[NEED_AUTOMATISATION])
 
     def test_demo_never_promises_full_build(self):
         for offer in DEMO_OFFERS.values():
@@ -44,91 +44,72 @@ class TestDemoOffers(unittest.TestCase):
 
 
 class TestSubjects(unittest.TestCase):
-    def test_subject_reference_and_short(self):
+    def test_subject_short_for_all_needs(self):
         for need in (NEED_SITE_WEB, NEED_REFONTE, NEED_AGENT_IA, NEED_AUTOMATISATION):
-            p = make_prospect(needs=[need], process_hint="vos demandes de devis")
-            subject = build_subject(p)
-            self.assertIn("idée", subject.lower())
-            self.assertLessEqual(len(subject), 70)
+            p = make_prospect(needs=[need], process_hint="vos devis")
+            s = build_subject(p)
+            self.assertTrue(s.strip())
+            self.assertLessEqual(len(s), 70)
 
-    def test_subject_contains_company(self):
-        p = make_prospect(needs=[NEED_REFONTE])
-        self.assertIn("Atelier Dupont", build_subject(p))
+    def test_custom_subject_override(self):
+        p = make_prospect(custom_subject="Votre annonce m'a interpellé")
+        self.assertEqual(build_subject(p), "Votre annonce m'a interpellé")
 
-    def test_subject_elision(self):
-        p = make_prospect(company="Akla Architectes", needs=[NEED_REFONTE])
-        self.assertIn("le site d'Akla Architectes", build_subject(p))
-        p = make_prospect(company="Quattro Architectes", needs=[NEED_REFONTE])
-        self.assertIn("le site de Quattro Architectes", build_subject(p))
-
-    def test_long_company_falls_back_to_short_subject(self):
+    def test_long_company_falls_back_short(self):
         p = make_prospect(
             company="Entreprise Avec Un Nom Vraiment Très Long Pour Tester Les Limites",
-            needs=[NEED_AUTOMATISATION],
-            process_hint="les demandes de devis entrantes par e-mail",
+            needs=[NEED_AUTOMATISATION], process_hint="les demandes de devis entrantes par e-mail",
         )
         self.assertLessEqual(len(build_subject(p)), 70)
 
+    def test_elision(self):
+        self.assertEqual(de_company("Akla Architectes"), "d'Akla Architectes")
+        self.assertEqual(de_company("Quattro Architectes"), "de Quattro Architectes")
 
-class TestOpening(unittest.TestCase):
-    def test_public_need_has_priority_and_is_cited(self):
-        p = make_prospect(
-            needs=[NEED_SITE_WEB],
-            evidences=[
-                Evidence(EVIDENCE_WEBSITE_GAP, "http://x.fr", "gap", "2026-11-03", "un constat"),
-                Evidence(
-                    EVIDENCE_PUBLIC_NEED,
-                    "https://facebook.com/post/123",
-                    "cherche quelqu'un pour créer notre site",
-                    "2026-10-28",
-                    "vous cherchiez quelqu'un pour créer votre site (post Facebook du 28 octobre)",
-                ),
-            ],
-        )
-        opening = build_opening(p)
-        self.assertIn("post Facebook du 28 octobre", opening)
-        self.assertNotIn("relevé", opening)
 
-    def test_website_gaps_are_factual_and_bounded(self):
+class TestHooks(unittest.TestCase):
+    def test_public_need_hook_cites_detail(self):
+        p = make_prospect(needs=[NEED_SITE_WEB], evidences=[Evidence(
+            EVIDENCE_PUBLIC_NEED, "https://codeur.com/p/1",
+            "nous cherchons à créer notre site", "2026-11-01",
+            "vous cherchez à créer votre site vitrine (Codeur.com, 1er novembre)",
+        )])
+        hook = build_hook(p)
+        self.assertIn("votre site vitrine", hook)
+        self.assertIn("annonce", hook)
+
+    def test_custom_hook_override(self):
+        p = make_prospect(custom_hook="Votre projet de terrasse m'a donné une idée.")
+        self.assertEqual(build_hook(p), "Votre projet de terrasse m'a donné une idée.")
+
+    def test_website_gap_hook_factual(self):
         p = make_prospect()
-        opening = build_opening(p)
-        self.assertIn("voici ce que j'y ai relevé", opening)
-        self.assertIn("HTTPS", opening)
-        self.assertIn("atelier-dupont.fr", opening)
+        hook = build_hook(p)
+        self.assertIn("relevé un point concret", hook)
+        self.assertIn("HTTPS", hook)
 
-    def test_no_invented_problem_without_evidence(self):
-        p = make_prospect(
-            needs=[NEED_AGENT_IA],
-            evidences=[Evidence(
-                EVIDENCE_PUBLIC_NEED, "https://linkedin.com/post/1",
-                "nous croulons sous les e-mails", "2026-11-01",
-                "vous indiquiez sur LinkedIn (1er novembre) être débordé par les e-mails entrants",
-            )],
-            process_hint="",
-        )
-        opening = build_opening(p)
-        self.assertIn("LinkedIn", opening)
+    def test_process_hook(self):
+        p = make_prospect(needs=[NEED_AUTOMATISATION], process_hint="vos demandes de devis arrivent par e-mail",
+                          evidences=[Evidence(EVIDENCE_PUBLIC_NEED, "https://x.fr", "x", "2026-11-03", "détail")])
+        # public need prime ; on teste le fallback processus sans public_need
+        p.evidences = [Evidence("sector_opportunity", "https://x.fr", "devis", "2026-11-03", "devis par e-mail")]
+        hook = build_hook(p)
+        self.assertIn("piste concrète", hook)
 
-    def test_neutral_opening_when_no_specific_signal(self):
-        p = make_prospect(
-            needs=[NEED_AGENT_IA],
-            evidences=[Evidence(
-                EVIDENCE_PUBLIC_NEED, "https://example.com", "x", "2026-11-03", "",
-            )],
-            process_hint="",
-        )
-        # Sans detail, la citation brute est utilisée — jamais de problème inventé.
-        opening = build_opening(p)
-        self.assertTrue(opening.startswith("J'ai vu que"))
+    def test_neutral_hook_no_invention(self):
+        p = make_prospect(needs=[NEED_AGENT_IA], process_hint="",
+                          evidences=[Evidence("sector_opportunity", "https://x.fr", "x", "2026-11-03", "")])
+        hook = build_hook(p)
+        self.assertIn("possibilité intéressante", hook)
 
 
 class TestRealisations(unittest.TestCase):
-    def test_sector_adapted_example(self):
+    def test_sector_adapted(self):
         self.assertIn("devis", realisation_example("batiment", NEED_REFONTE))
         self.assertIn("rendez-vous", realisation_example("automobile", NEED_AUTOMATISATION))
 
-    def test_unknown_sector_falls_back(self):
-        self.assertTrue(realisation_example("secteur-inconnu", NEED_SITE_WEB))
+    def test_unknown_sector_fallback(self):
+        self.assertTrue(realisation_example("inconnu", NEED_SITE_WEB))
 
 
 if __name__ == "__main__":

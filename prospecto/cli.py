@@ -12,7 +12,8 @@ from .generator import generate_email, GenerationError
 from .queue import ValidationQueue, STATUSES
 from .gmail_export import export_for_gmail, export_eml
 from .research import audit_html
-from .config import CAMPAIGNS_DIR, QUEUE_PATH
+from .crm import CRM
+from .config import CAMPAIGNS_DIR, QUEUE_PATH, TIER_HAUTE, TIER_MOYENNE
 
 
 def _load_prospects(path: Path) -> list[Prospect]:
@@ -25,11 +26,12 @@ def cmd_qualify(args: argparse.Namespace) -> int:
     prospects = _load_prospects(Path(args.prospects))
     results = qualify_batch(prospects)
     for res in results:
-        print(f"[{res.status:>12}] {res.score:>3}  {res.prospect.company} <{res.prospect.contact_email}>")
+        print(f"[{res.tier:>14}] {res.score:>3}  {res.prospect.company} <{res.prospect.contact_email}>")
         for reason in res.reasons:
             print(f"               - {reason}")
-    qualified = [r for r in results if r.status == QUALIFIED]
-    print(f"\n{len(qualified)}/{len(results)} prospects qualifiés.")
+    haute = [r for r in results if r.tier == TIER_HAUTE]
+    moyenne = [r for r in results if r.tier == TIER_MOYENNE]
+    print(f"\n{len(haute)} priorité haute, {len(moyenne)} moyenne, {len(results)} au total.")
     return 0
 
 
@@ -37,10 +39,14 @@ def cmd_generate(args: argparse.Namespace) -> int:
     prospects = _load_prospects(Path(args.prospects))
     results = qualify_batch(prospects)
     queue = ValidationQueue(Path(args.queue) if args.queue else None)
+    crm = CRM()
+    wanted = {TIER_HAUTE, TIER_MOYENNE} if args.include_moyenne else {TIER_HAUTE}
     generated = []
     for res in results:
-        if res.status != QUALIFIED:
-            print(f"ignoré ({res.status}) : {res.prospect.company}")
+        # Enregistrer dans le CRM (sans écraser), quel que soit le niveau.
+        rec, created = crm.import_prospect(res.prospect, res)
+        if res.tier not in wanted:
+            print(f"CRM {'+' if created else '='} {res.prospect.company} [{res.tier}] (pas d'email)")
             continue
         try:
             email = generate_email(res.prospect)
@@ -48,27 +54,56 @@ def cmd_generate(args: argparse.Namespace) -> int:
             print(f"ÉCHEC génération {res.prospect.company} : {exc}")
             continue
         if args.dry_run:
-            print(f"--- {res.prospect.company} ---\nObjet : {email.subject}\n{email.body}")
+            print(f"--- {res.prospect.company} [{res.tier}] ---\nObjet : {email.subject}\n{email.body}")
             continue
         try:
             item = queue.add(email, campaign=args.campaign)
         except ValueError as exc:
             print(f"déjà en file : {exc}")
             continue
-        generated.append({"queue_id": item.id, **email.to_dict(), "score": res.score})
-        print(f"en file : {item.id} → {email.to} | {email.subject}")
+        rec["status"] = "email_préparé"
+        rec["proposed_email"] = {"subject": email.subject, "body": email.body, "queue_id": item.id}
+        generated.append({"queue_id": item.id, **email.to_dict(), "score": res.score, "tier": res.tier})
+        print(f"en file : {item.id} [{res.tier}] → {email.to} | {email.subject}")
 
+    crm.save()
     if generated and not args.dry_run:
         CAMPAIGNS_DIR.mkdir(parents=True, exist_ok=True)
         out = CAMPAIGNS_DIR / f"{args.campaign}.json"
         payload = {
             "campaign": args.campaign,
-            "strategy": "v2 — démonstration gratuite personnalisée (docs/strategie-commerciale.md)",
+            "strategy": "v3 — hook percutant + démo gratuite (docs/strategie-commerciale-v3.md)",
             "generated_count": len(generated),
             "emails": generated,
         }
         out.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
         print(f"\nCampagne écrite : {out}")
+    return 0
+
+
+def cmd_crm(args: argparse.Namespace) -> int:
+    crm = CRM()
+    if args.action == "import":
+        prospects = _load_prospects(Path(args.prospects))
+        results = qualify_batch(prospects)
+        created = 0
+        for res in results:
+            _, was_created = crm.import_prospect(res.prospect, res)
+            created += 1 if was_created else 0
+            print(f"{'+' if was_created else '='} {res.prospect.company} [{res.tier}]")
+        crm.save()
+        print(f"\n{created} nouveaux, {len(results) - created} fusionnés. Total CRM : {len(crm.records)}")
+    elif args.action == "init-history":
+        n = crm.mark_history_contacted()
+        crm.save()
+        print(f"{n} entreprises de l'historique marquées contactées. Total CRM : {len(crm.records)}")
+    elif args.action == "list":
+        for r in crm.records:
+            if args.tier and r.get("tier") != args.tier:
+                continue
+            print(f"[{r.get('tier', '?'):>14}] {r.get('company')} <{r.get('email', '')}> — {r.get('need', '')} ({r.get('status', '')})")
+    elif args.action == "stats":
+        print(json.dumps(crm.stats(), ensure_ascii=False, indent=2))
     return 0
 
 
@@ -129,19 +164,26 @@ def cmd_audit(args: argparse.Namespace) -> int:
 
 
 def build_parser() -> argparse.ArgumentParser:
-    parser = argparse.ArgumentParser(prog="prospecto", description="Moteur de prospection Prospecto (v2)")
+    parser = argparse.ArgumentParser(prog="prospecto", description="Moteur de prospection Prospecto (v3)")
     sub = parser.add_subparsers(dest="command", required=True)
 
-    p = sub.add_parser("qualify", help="qualifier des prospects (score + preuves)")
+    p = sub.add_parser("qualify", help="qualifier des prospects (score + preuves + niveau)")
     p.add_argument("prospects", help="fichier JSON des prospects")
     p.set_defaults(func=cmd_qualify)
 
-    p = sub.add_parser("generate", help="générer les emails des prospects qualifiés et les mettre en file")
+    p = sub.add_parser("generate", help="générer les emails (haute, +moyenne si demandé) et les mettre en file")
     p.add_argument("prospects", help="fichier JSON des prospects")
-    p.add_argument("--campaign", required=True, help="nom de campagne (ex. 2026-11-03-v2)")
+    p.add_argument("--campaign", required=True, help="nom de campagne (ex. 2026-11-03-v3)")
     p.add_argument("--queue", help="chemin de la file (défaut : data/queue/validation_queue.json)")
     p.add_argument("--dry-run", action="store_true", help="afficher sans mettre en file")
+    p.add_argument("--include-moyenne", action="store_true", help="inclure les prospects de priorité moyenne")
     p.set_defaults(func=cmd_generate)
+
+    p = sub.add_parser("crm", help="base de prospects enrichie (import, list, stats, init-history)")
+    p.add_argument("action", choices=["import", "list", "stats", "init-history"])
+    p.add_argument("prospects", nargs="?", help="fichier JSON à importer (action import)")
+    p.add_argument("--tier", choices=["haute", "moyenne", "a_approfondir"], help="filtre (list)")
+    p.set_defaults(func=cmd_crm)
 
     p = sub.add_parser("queue", help="file de validation humaine")
     p.add_argument("action", choices=["list", "show", "approve", "reject", "attach-draft", "mark-sent"])

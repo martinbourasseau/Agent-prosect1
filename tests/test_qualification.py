@@ -1,4 +1,4 @@
-"""Tests de qualification : barème, preuves obligatoires, dédoublonnage."""
+"""Tests qualification v3 : barème, niveaux de priorité, dédoublonnage."""
 import unittest
 
 from prospecto.models import (
@@ -9,14 +9,13 @@ from prospecto.qualification import (
     qualify, qualify_batch, load_contacted_emails,
     QUALIFIED, NOT_QUALIFIED, EXCLUDED, REVIEW,
 )
+from prospecto.config import TIER_HAUTE, TIER_MOYENNE, TIER_A_APPROFONDIR
 
 
 def base_prospect(**kw):
     base = dict(
-        company="Nouvelle Entreprise",
-        domain="nouvelle-entreprise.fr",
-        contact_email="contact@nouvelle-entreprise.fr",
-        sector="services",
+        company="Nouvelle Entreprise", domain="nouvelle-entreprise.fr",
+        contact_email="contact@nouvelle-entreprise.fr", sector="services",
         needs=[NEED_REFONTE],
         evidences=[Evidence(
             EVIDENCE_WEBSITE_GAP, "http://nouvelle-entreprise.fr",
@@ -28,65 +27,64 @@ def base_prospect(**kw):
 
 
 class TestQualification(unittest.TestCase):
-    def test_public_need_qualifies(self):
-        p = base_prospect(
-            needs=[NEED_SITE_WEB],
-            evidences=[Evidence(
-                EVIDENCE_PUBLIC_NEED, "https://facebook.com/post/9",
-                "cherche à créer son site", "2026-11-01",
-                "vous cherchiez à créer votre site (Facebook, 1er novembre)",
-            )],
-        )
+    def test_public_need_haute(self):
+        p = base_prospect(needs=[NEED_SITE_WEB], evidences=[Evidence(
+            EVIDENCE_PUBLIC_NEED, "https://codeur.com/p/9",
+            "cherche à créer son site", "2026-11-01", "vous cherchez à créer votre site",
+        )])
         res = qualify(p, contacted_emails=set(), contacted_domains=set())
+        self.assertEqual(res.tier, TIER_HAUTE)
         self.assertEqual(res.status, QUALIFIED)
         self.assertGreaterEqual(res.score, 50)
 
-    def test_two_gaps_plus_sector_qualifies(self):
+    def test_two_gaps_moyenne(self):
         p = base_prospect(evidences=[
             Evidence(EVIDENCE_WEBSITE_GAP, "http://x.fr", "https", "2026-11-03", "pas de HTTPS"),
             Evidence(EVIDENCE_WEBSITE_GAP, "http://x.fr", "form", "2026-11-03", "pas de formulaire"),
         ])
         res = qualify(p, contacted_emails=set(), contacted_domains=set())
-        self.assertEqual(res.status, QUALIFIED)  # 40 (2 lacunes) + 10 secteur = 50
+        self.assertEqual(res.tier, TIER_MOYENNE)
+        self.assertEqual(res.status, REVIEW)
         self.assertGreaterEqual(res.score, 50)
 
     def test_no_evidence_not_qualified(self):
         p = base_prospect(evidences=[])
         res = qualify(p, contacted_emails=set(), contacted_domains=set())
         self.assertEqual(res.status, NOT_QUALIFIED)
+        self.assertEqual(res.tier, TIER_A_APPROFONDIR)
 
-    def test_invalid_email_not_qualified(self):
+    def test_invalid_email(self):
         p = base_prospect(contact_email="invalide")
-        res = qualify(p, contacted_emails=set(), contacted_domains=set())
-        self.assertEqual(res.status, NOT_QUALIFIED)
+        self.assertEqual(qualify(p, set(), set()).status, NOT_QUALIFIED)
 
     def test_already_contacted_excluded(self):
         p = base_prospect(contact_email="contact@superchi.fr", domain="superchi.fr")
-        res = qualify(p)  # historique réel du dépôt
-        self.assertEqual(res.status, EXCLUDED)
+        self.assertEqual(qualify(p).status, EXCLUDED)
 
-    def test_history_loaded_from_repo(self):
+    def test_history_loaded(self):
         contacted = load_contacted_emails()
         self.assertIn("contact@superchi.fr", contacted)
-        self.assertIn("multitech.assistance@gmail.com", contacted)
         self.assertEqual(len(contacted), 8)
 
     def test_batch_dedup(self):
-        p1 = base_prospect()
-        p2 = base_prospect(company="Copie Conforme")
-        results = qualify_batch([p1, p2])
+        results = qualify_batch([base_prospect(), base_prospect(company="Copie Conforme")])
         self.assertEqual(results[1].status, EXCLUDED)
 
-    def test_weak_signal_review(self):
-        p = base_prospect(
-            sector="secteur-inconnu",
-            evidences=[
-                Evidence(EVIDENCE_WEBSITE_GAP, "http://x.fr", "https", "2026-11-03", "pas de HTTPS"),
-                Evidence(EVIDENCE_SECTOR_OPPORTUNITY, "https://x.fr", "devis par e-mail", "2026-11-03", "devis traités à la main"),
-            ],
-        )
-        res = qualify(p, contacted_emails=set(), contacted_domains=set())
-        self.assertEqual(res.status, REVIEW)  # 20 + 10 = 30, à revoir
+    def test_weak_signal_moyenne_not_rejected(self):
+        p = base_prospect(sector="inconnu", evidences=[
+            Evidence(EVIDENCE_WEBSITE_GAP, "http://x.fr", "https", "2026-11-03", "pas de HTTPS"),
+            Evidence(EVIDENCE_SECTOR_OPPORTUNITY, "https://x.fr", "devis", "2026-11-03", "devis à la main"),
+        ])
+        res = qualify(p, set(), set())
+        self.assertEqual(res.tier, TIER_MOYENNE)  # conservée, pas rejetée
+        self.assertEqual(res.status, REVIEW)
+
+    def test_public_need_without_email_a_approfondir(self):
+        p = base_prospect(contact_email="", evidences=[Evidence(
+            EVIDENCE_PUBLIC_NEED, "https://x.fr", "besoin", "2026-11-03", "besoin exprimé",
+        )])
+        res = qualify(p, set(), set())
+        self.assertEqual(res.tier, TIER_A_APPROFONDIR)
 
 
 if __name__ == "__main__":

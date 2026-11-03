@@ -1,0 +1,183 @@
+{
+  "updated_at": "2026-11-03T21:04:42+00:00",
+  "count": 10,
+  "prospects": [
+    {
+      "company": "R Premium",
+      "website": "https://renovationpremium.com",
+      "domain": "renovationpremium.com",
+      "sector": "batiment",
+      "city": "",
+      "department": "",
+      "contact_name": "",
+      "contact_role": "",
+      "email": "contact@renovationpremium.com",
+      "phone": "",
+      "source": "",
+      "evidence": [
+        {
+          "kind": "public_need",
+          "source_url": "https://www.codeur.com/pages/appel-offre",
+          "quote": "Bonjour, Je dirige R Premium, une entreprise de rénovation intérieure tous corps d'état… (projet 'Site WordPress, référencement et communication degitale', ouvert, budget 500–1000 €)",
+          "observed_at": "2026-11-03",
+          "detail": "vous recherchez un prestataire pour faire évoluer votre site WordPress, son référencement et votre communication digitale (annonce Codeur.com consultée le 3 novembre)"
+        }
+      ],
+      "publication_date": "",
+      "need": "refonte",
+      "needs": [
+        "refonte"
+      ],
+      "recommended_service": "refonte",
+      "score": 60,
+      "tier": "haute",
+      "status_crm": "qualified",
+      "justification": "besoin exprimé publiquement (+50) : https://www.codeur.com/pages/appel-offre ; secteur connu (batiment) (+10)",
+      "process_hint": "",
+      "demo_detail": "un aperçu visuel d'amélioration de votre page d'accueil",
+      "custom_hook": "",
+      "custom_subject": "",
+      "notes": "Site WordPress existant avec portfolio. Besoin public explicite (refonte/SEO/com). Contact public : contact@renovationpremium.com (site + Houzz + Trustpilot).",
+      "status": "nouveau",
+      "id": "r-premium",
+      "created_at": "2026-11-03T21:04:42+00:00",
+      "updated_at": "2026-11-03T21:04:42+00:00"
+    },
+    {
+      "company": "Secteur 72",
+      "website": "https://lesecteur72.fr",
+      "domain": "lesecteur72.fr",
+      "sector": "services",
+      "city": "",
+      "department": "",
+      "contact_name": "Marc",
+      "contact_role": "",
+      "email": "secteur72fr@gmail.com",
+      "phone": "",
+      "source": "",
+      "evidence": [
+        {
+          "kind": "public_need",
+          "source_url": "https://www.codeur.com/projects/492309-e-commerce-et-site-web-vitrine",
+          "quote": "Nous recherchons un freelance pour animer les réseaux sociaux de Secteur 72, un projet de terrain d'airsoft en Sarthe… avec boutique en ligne d'équipement et une chaîne YouTube.",
+          "observed_at": "2026-11-03",
+          "detail": "vous préparez l'ouverture de votre terrain d'airsoft en Sarthe et cherchez à développer votre communauté en ligne (annonce Codeur.com du 3 novembre)"
+        },
+        {
+          "kind": "sector_opportunity",
+          "source_url": "https://lesecteur72.fr/",
+          "quote": "Réserver ma journée — Une journée a lieu dès 5 inscrits. Préviens-moi de l'ouverture.",
+          "observed_at": "2026-11-03",
+          "detail": "Le site propose déjà la réservation de journées et une alerte d'ouverture : confirmations, rappels et réponses aux questions des joueurs peuvent être automatisés pendant la phase de lancement."
+        }
+      ],
+      "publication_date": "",
+      "need": "automatisation",
+      "needs": [
+        "automatisation"
+      ],
+      "recommended_service": "automatisation",
+      "score": 75,
+      "tier": "haute",
+      "status_crm": "qualified",
+      "justification": "besoin exprimé publiquement (+50) : https://www.codeur.com/projects/492309-e-commerce-et-site-web-vitrine ; opportunité sectorielle documentée (+10) ; secteur connu (services) (+10) ; prénom du contact connu (+5)",
+      "process_hint": "vos réservations de journées et les questions des joueurs",
+      "demo_detail": "une illustration du processus de réservation qui pourrait être automatisé chez vous (confirmations, rappels, réponses aux questions des joueurs)",
+      "custom_hook": "",
+      "custom_subject": "",
+      "notes": "Site récent et soigné (pas de refonte à proposer). Lancement en cours, fondateur Marc Fontaine. Contact public : secteur72fr@gmail.com (presse actu.fr + site). Angle honnête : automatisation du processus de réservation, pas de problème inventé.",
+      "status": "nouveau",
+      "id": "secteur-72",
+      "created_at": "2026-11-03T21:04:42+00:00",
+      "updated_at": "2026-11-03T21:04:42+00:00"
+    },
+    {
+      "company": "Multitech Assistance",
+      "domain": "multitech-assistance.fr",
+      "email": "multitech.assistance@gmail.com",
+      "status": "contacté",
+      "source": "historique Gmail",
+      "evidence": [],
+      "id": "multitech-assistance",
+      "created_at": "2026-11-03T21:04:42+00:00",
+      "updated_at": "2026-11-03T21:04:42+00:00"
+    },
+    {
+      "company": "Garage Villedieu Automobiles",
+      "domain": "villedieu-automobiles.fr",
+      "email": "villedieu.automobiles@gmail.com",
+      "status": "contacté",
+      "source": "historique Gmail",
+      "evidence": [],
+      "id": "garage-villedieu-automobiles",
+      "created_at": "2026-11-03T21:04:42+00:00",
+      "updated_at": "2026-11-03T21:04:42+00:00"
+    },
+    {
+      "company": "Le Serrurier d'A Cote",
+      "domain": "leserrurierdacote.fr",
+      "email": "leserrurierdacote@gmail.com",
+      "status": "contacté",
+      "source": "historique Gmail",
+      "evidence": [],
+      "id": "le-serrurier-d-a-cote",
+      "created_at": "2026-11-03T21:04:42+00:00",
+      "updated_at": "2026-11-03T21:04:42+00:00"
+    },
+    {
+      "company": "Superchi Architectes",
+      "domain": "superchi.fr",
+      "email": "contact@superchi.fr",
+      "status": "contacté",
+      "source": "historique Gmail",
+      "evidence": [],
+      "id": "superchi-architectes",
+      "created_at": "2026-11-03T21:04:42+00:00",
+      "updated_at": "2026-11-03T21:04:42+00:00"
+    },
+    {
+      "company": "L'Etabli du Menuisier",
+      "domain": "letablidumenuisier.com",
+      "email": "letablidumenuisier@gmail.com",
+      "status": "contacté",
+      "source": "historique Gmail",
+      "evidence": [],
+      "id": "l-etabli-du-menuisier",
+      "created_at": "2026-11-03T21:04:42+00:00",
+      "updated_at": "2026-11-03T21:04:42+00:00"
+    },
+    {
+      "company": "Quattro Architectes",
+      "domain": "quattroarchi.fr",
+      "email": "contact@quattroarchi.fr",
+      "status": "contacté",
+      "source": "historique Gmail",
+      "evidence": [],
+      "id": "quattro-architectes",
+      "created_at": "2026-11-03T21:04:42+00:00",
+      "updated_at": "2026-11-03T21:04:42+00:00"
+    },
+    {
+      "company": "The Architectes",
+      "domain": "thearchitectes.com",
+      "email": "contact@thearchitectes.com",
+      "status": "contacté",
+      "source": "historique Gmail",
+      "evidence": [],
+      "id": "the-architectes",
+      "created_at": "2026-11-03T21:04:42+00:00",
+      "updated_at": "2026-11-03T21:04:42+00:00"
+    },
+    {
+      "company": "Akla Architectes",
+      "domain": "akla-architectes.com",
+      "email": "atelier@akla-architectes.com",
+      "status": "contacté",
+      "source": "historique Gmail",
+      "evidence": [],
+      "id": "akla-architectes",
+      "created_at": "2026-11-03T21:04:42+00:00",
+      "updated_at": "2026-11-03T21:04:42+00:00"
+    }
+  ]
+}
