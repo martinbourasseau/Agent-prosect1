@@ -67,7 +67,9 @@ def generate_email(prospect: Prospect) -> GeneratedEmail:
     subject = build_subject(prospect)
     opening = build_opening(prospect)
     positioning = _positioning_sentence(prospect)
-    demo = DEMO_SENTENCE.format(demo=DEMO_OFFERS[need])
+    # Démo gratuite : précision par prospect si fournie, sinon offre standard du besoin.
+    demo_offer = prospect.demo_detail.strip() or DEMO_OFFERS[need]
+    demo = DEMO_SENTENCE.format(demo=demo_offer)
 
     parts = [
         _greeting(prospect),

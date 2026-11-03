@@ -90,6 +90,20 @@ class TestGeneration(unittest.TestCase):
         self.assertEqual(email.need, NEED_AGENT_IA)
         self.assertIn("agents IA", email.body)
 
+    def test_demo_detail_personalizes_limited_offer(self):
+        p = prospect_refonte()
+        p.demo_detail = "un aperçu visuel d'amélioration de votre page d'accueil"
+        email = generate_email(p)
+        self.assertIn("votre page d'accueil", email.body)
+        self.assertIn("gratuitement et sans engagement", email.body)
+        self.assertEqual(check_email(email, p), [])
+
+    def test_demo_detail_cannot_promise_full_build(self):
+        p = prospect_refonte()
+        p.demo_detail = "une refonte complète gratuite de votre site"
+        with self.assertRaises(GenerationError):
+            generate_email(p)
+
     def test_invalid_prospect_rejected(self):
         p = prospect_refonte()
         p.contact_email = "pas-un-email"

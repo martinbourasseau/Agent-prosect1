@@ -62,6 +62,7 @@ class Prospect:
     contact_name: str = ""  # prénom du contact, seulement s'il est connu avec certitude
     website: str = ""
     process_hint: str = ""  # processus concret observé (devis, RDV, e-mails entrants…)
+    demo_detail: str = ""  # précision optionnelle du livrable limité de la démo gratuite
     notes: str = ""
 
     @property
