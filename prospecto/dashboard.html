@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Espace Prospecto — CRM & Validation</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{
+  --abyss:#03050a;--night:#08101f;--anthracite:#161b25;--steel:#5f7499;
+  --silver:#c7d0dd;--light:#f1f4f9;--glacier:#9cbcff;--tide:#79d2d6;
+  --text:#e9edf4;--dim:#9aa6b8;--line:rgba(255,255,255,.09);
+  --radius:20px;--ease:cubic-bezier(.22,1,.36,1);
+}
+*{box-sizing:border-box}
+html{color-scheme:dark}
+body{margin:0;background:radial-gradient(1400px 700px at 70% -10%,#0b1626 0%,var(--abyss) 55%) fixed;
+  color:var(--text);font-family:Archivo,system-ui,sans-serif;font-size:15px;line-height:1.55;min-height:100vh}
+a{color:var(--glacier);text-decoration:none}
+.wrap{max-width:1240px;margin:0 auto;padding:0 clamp(16px,4vw,48px)}
+header{position:sticky;top:0;z-index:20;backdrop-filter:blur(14px);
+  background:rgba(3,5,10,.72);border-bottom:1px solid var(--line)}
+.bar{display:flex;align-items:center;gap:18px;height:68px}
+.mark{font-weight:800;font-size:21px;letter-spacing:.01em}
+.mark span{color:var(--glacier)}
+.tag{font-size:12px;color:var(--dim);border:1px solid var(--line);padding:4px 10px;border-radius:999px}
+.spacer{flex:1}
+.ghost{font-size:13px;color:var(--dim);border:1px solid var(--line);padding:8px 14px;border-radius:10px;transition:.2s var(--ease)}
+.ghost:hover{color:var(--text);border-color:var(--steel)}
+main{padding:34px 0 80px}
+h1{font-size:clamp(24px,3.4vw,34px);font-weight:800;margin:0 0 6px;letter-spacing:-.01em}
+.lede{color:var(--dim);margin:0 0 28px;max-width:640px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:14px;margin-bottom:30px}
+.card{background:linear-gradient(180deg,var(--night),#060b16);border:1px solid var(--line);
+  border-radius:var(--radius);padding:18px 20px}
+.card .n{font-size:30px;font-weight:800;line-height:1.1}
+.card .l{font-size:12.5px;color:var(--dim);margin-top:4px}
+.card.haute .n{color:var(--tide)} .card.moyenne .n{color:var(--glacier)}
+.tabs{display:flex;gap:8px;margin-bottom:22px;flex-wrap:wrap}
+.tab{padding:9px 18px;border-radius:999px;border:1px solid var(--line);background:transparent;
+  color:var(--dim);font-size:14px;font-weight:600;cursor:pointer;font-family:inherit;transition:.2s var(--ease)}
+.tab:hover{color:var(--text)}
+.tab.active{background:linear-gradient(90deg,var(--glacier),var(--tide));color:#04101c;border-color:transparent}
+.panel{display:none}.panel.active{display:block}
+.toolbar{display:flex;gap:10px;align-items:center;margin-bottom:16px;flex-wrap:wrap}
+select,input[type=search]{background:var(--anthracite);border:1px solid var(--line);color:var(--text);
+  padding:9px 12px;border-radius:10px;font-family:inherit;font-size:13.5px;outline:none}
+select:focus,input:focus{border-color:var(--glacier)}
+table{width:100%;border-collapse:collapse;font-size:13.5px}
+th{text-align:left;color:var(--dim);font-weight:600;font-size:12px;text-transform:uppercase;
+  letter-spacing:.04em;padding:10px 12px;border-bottom:1px solid var(--line)}
+td{padding:13px 12px;border-bottom:1px solid var(--line);vertical-align:top}
+tr:hover td{background:rgba(255,255,255,.02)}
+.co{font-weight:600;color:var(--light)}
+.sub{color:var(--dim);font-size:12px}
+.badge{display:inline-block;padding:3px 10px;border-radius:999px;font-size:11.5px;font-weight:600;white-space:nowrap}
+.badge.haute{background:rgba(121,210,214,.14);color:var(--tide)}
+.badge.moyenne{background:rgba(156,188,255,.14);color:var(--glacier)}
+.badge.a_approfondir{background:rgba(154,166,184,.14);color:var(--dim)}
+.badge.pending{background:rgba(255,205,120,.14);color:#ffcd78}
+.badge.approved{background:rgba(121,210,214,.16);color:var(--tide)}
+.badge.rejected{background:rgba(255,155,155,.14);color:#ff9b9b}
+.badge.sent{background:rgba(156,188,255,.16);color:var(--glacier)}
+.mono{font-variant-numeric:tabular-nums}
+.qitem{background:linear-gradient(180deg,var(--night),#060b16);border:1px solid var(--line);
+  border-radius:var(--radius);padding:20px 22px;margin-bottom:14px}
+.qhead{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:8px}
+.qsub{font-weight:700;font-size:15.5px;color:var(--light)}
+.qmeta{color:var(--dim);font-size:12.5px;margin-bottom:12px}
+pre.body{white-space:pre-wrap;font-family:inherit;font-size:13.5px;color:var(--silver);
+  background:var(--abyss);border:1px solid var(--line);border-radius:12px;padding:16px;margin:0 0 14px;line-height:1.6}
+.actions{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+.btn{padding:8px 16px;border-radius:10px;border:1px solid var(--line);background:transparent;
+  color:var(--text);font-family:inherit;font-size:13px;font-weight:600;cursor:pointer;transition:.2s var(--ease)}
+.btn.approve{background:linear-gradient(90deg,var(--glacier),var(--tide));color:#04101c;border-color:transparent}
+.btn.reject{color:#ff9b9b;border-color:rgba(255,155,155,.3)}
+.btn:hover{filter:brightness(1.08)}
+.note{font-size:12.5px;color:var(--dim);background:rgba(156,188,255,.06);
+  border:1px solid var(--line);border-radius:12px;padding:12px 16px;margin-bottom:20px}
+.empty{color:var(--dim);padding:40px;text-align:center;border:1px dashed var(--line);border-radius:var(--radius)}
+.ev{font-size:12px}
+.camp{display:flex;align-items:center;gap:16px;background:var(--night);border:1px solid var(--line);
+  border-radius:14px;padding:16px 20px;margin-bottom:12px}
+.camp .cid{font-weight:700}
+footer{border-top:1px solid var(--line);padding:24px 0;color:var(--dim);font-size:12.5px}
+@media(max-width:720px){.hide-sm{display:none}td,th{padding:10px 8px}}
+</style>
+</head>
+<body>
+<header><div class="wrap bar">
+  <div class="mark">Prospecto<span>.</span></div>
+  <div class="tag">Espace Prospecto</div>
+  <div class="spacer"></div>
+  <a class="ghost" href="https://prospecto.website">← Site</a>
+  <a class="ghost" href="/logout">Déconnexion</a>
+</div></header>
+
+<main class="wrap">
+  <h1>Tableau de bord prospection</h1>
+  <p class="lede">CRM enrichi, file de validation et campagnes. Chaque email est adossé à une preuve publique. Aucun envoi n'est déclenché ici.</p>
+
+  <div class="cards" id="cards"></div>
+
+  <div class="tabs">
+    <button class="tab active" data-tab="prospects">Prospects</button>
+    <button class="tab" data-tab="validation">Validation</button>
+    <button class="tab" data-tab="campaigns">Campagnes</button>
+  </div>
+
+  <section class="panel active" id="panel-prospects">
+    <div class="toolbar">
+      <select id="tierFilter">
+        <option value="">Tous les niveaux</option>
+        <option value="haute">Priorité haute</option>
+        <option value="moyenne">Priorité moyenne</option>
+        <option value="a_approfondir">À approfondir</option>
+      </select>
+      <input type="search" id="search" placeholder="Rechercher une entreprise, ville, secteur…">
+      <span class="sub" id="prosCount"></span>
+    </div>
+    <div style="overflow-x:auto"><table>
+      <thead><tr><th>Entreprise</th><th>Niveau</th><th class="hide-sm">Secteur / Lieu</th><th>Besoin</th><th class="hide-sm">Contact</th><th class="hide-sm">Preuve</th><th>Statut</th></tr></thead>
+      <tbody id="prosBody"></tbody>
+    </table></div>
+  </section>
+
+  <section class="panel" id="panel-validation">
+    <div class="note">Approuver un email change uniquement son statut : <strong>aucun envoi automatique</strong>. L'envoi reste manuel (Gmail) après votre validation explicite.</div>
+    <div class="toolbar">
+      <select id="statusFilter">
+        <option value="">Tous les statuts</option>
+        <option value="pending" selected>En attente</option>
+        <option value="approved">Approuvés</option>
+        <option value="rejected">Rejetés</option>
+        <option value="sent">Envoyés</option>
+      </select>
+      <span class="sub" id="queueCount"></span>
+    </div>
+    <div id="queueList"></div>
+  </section>
+
+  <section class="panel" id="panel-campaigns">
+    <div id="campList"></div>
+  </section>
+</main>
+
+<footer><div class="wrap">Prospecto — Martin BOURASSEAU · Création web · Agents IA · Automatisation · <a href="https://prospecto.website">prospecto.website</a></div></footer>
+
+<script>
+const NEED_LABEL={site_web:"Création site",refonte:"Refonte / SEO",agent_ia:"Agent IA",automatisation:"Automatisation"};
+const TIER_LABEL={haute:"Haute",moyenne:"Moyenne",a_approfondir:"À approfondir"};
+const STATUS_LABEL={pending:"En attente",approved:"Approuvé",rejected:"Rejeté",sent:"Envoyé"};
+let PROS=[],QUEUE=[];
+const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+
+async function jget(u){const r=await fetch(u);if(r.status===401){location.href="/login";throw new Error("auth");}return r.json();}
+
+async function loadStats(){
+  const s=await jget("/api/stats");const c=s.crm,q=s.queue;
+  const cards=[
+    {n:c.total,l:"Prospects au CRM"},
+    {n:c.by_tier.haute||0,l:"Priorité haute",cls:"haute"},
+    {n:c.by_tier.moyenne||0,l:"Priorité moyenne",cls:"moyenne"},
+    {n:c.by_tier.a_approfondir||0,l:"À approfondir"},
+    {n:c.expressed_needs||0,l:"Besoins exprimés"},
+    {n:q.pending||0,l:"Emails en attente"},
+    {n:c.contacted||0,l:"Déjà contactés"},
+  ];
+  document.getElementById("cards").innerHTML=cards.map(x=>
+    `<div class="card ${x.cls||""}"><div class="n mono">${x.n}</div><div class="l">${x.l}</div></div>`).join("");
+}
+
+function renderPros(){
+  const tier=document.getElementById("tierFilter").value;
+  const q=document.getElementById("search").value.toLowerCase();
+  const rows=PROS.filter(p=>(!tier||p.tier===tier)&&
+    (!q||[p.company,p.city,p.sector,p.department,p.email].join(" ").toLowerCase().includes(q)));
+  document.getElementById("prosCount").textContent=rows.length+" / "+PROS.length;
+  document.getElementById("prosBody").innerHTML=rows.map(p=>{
+    const ev=(p.evidence&&p.evidence[0])?p.evidence[0]:null;
+    const evLink=ev&&ev.source_url?`<a class="ev" href="${esc(ev.source_url)}" target="_blank" rel="noopener">source ↗</a>`:"—";
+    return `<tr>
+      <td><div class="co">${esc(p.company)}</div><div class="sub">${esc(p.contact_name||"")}</div></td>
+      <td><span class="badge ${esc(p.tier)}">${TIER_LABEL[p.tier]||esc(p.tier)}</span></td>
+      <td class="hide-sm"><div>${esc(p.sector||"—")}</div><div class="sub">${esc(p.city||"")}${p.department?" ("+esc(p.department)+")":""}</div></td>
+      <td>${NEED_LABEL[p.need]||esc(p.need||"—")}</td>
+      <td class="hide-sm"><div class="sub">${esc(p.email||"à trouver")}</div></td>
+      <td class="hide-sm">${evLink}</td>
+      <td><span class="sub">${esc(p.status||"")}</span></td>
+    </tr>`;}).join("")||`<tr><td colspan="7"><div class="empty">Aucun prospect.</div></td></tr>`;
+}
+
+function renderQueue(){
+  const st=document.getElementById("statusFilter").value;
+  const items=QUEUE.filter(i=>!st||i.status===st);
+  document.getElementById("queueCount").textContent=items.length+" / "+QUEUE.length;
+  document.getElementById("queueList").innerHTML=items.map(i=>{
+    const canAct=i.status==="pending";
+    return `<div class="qitem">
+      <div class="qhead"><span class="qsub">${esc(i.subject)}</span><span class="badge ${esc(i.status)}">${STATUS_LABEL[i.status]||esc(i.status)}</span></div>
+      <div class="qmeta">→ ${esc(i.to)} · ${esc(i.company)} · campagne ${esc(i.campaign||"—")} · ${esc(i.id)}${i.gmail_draft_id?" · brouillon Gmail lié":""}</div>
+      <pre class="body">${esc(i.body)}</pre>
+      <div class="actions">
+        ${canAct?`<button class="btn approve" onclick="act('${esc(i.id)}','approve')">Approuver</button>
+        <button class="btn reject" onclick="act('${esc(i.id)}','reject')">Rejeter</button>`:""}
+        <span class="sub">${i.status==="approved"?"Prêt pour envoi manuel.":i.status==="rejected"?"Rejeté.":""}</span>
+      </div>
+    </div>`;}).join("")||`<div class="empty">Aucun email dans la file.</div>`;
+}
+
+async function act(id,action){
+  let body={};
+  if(action==="reject"){const r=prompt("Raison du rejet (optionnel) :","");if(r===null)return;body.reason=r;}
+  const res=await fetch(`/api/queue/${id}/${action}`,{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify(body)});
+  if(res.status===401){location.href="/login";return;}
+  await refresh();
+}
+
+async function loadCampaigns(){
+  const camps=await jget("/api/campaigns");
+  document.getElementById("campList").innerHTML=camps.map(c=>
+    `<div class="camp"><div class="cid">${esc(c.id)}</div><div class="sub">${c.generated_count} email(s)</div><div class="spacer"></div><div class="sub hide-sm">${esc(c.strategy||"")}</div></div>`).join("")
+    ||`<div class="empty">Aucune campagne.</div>`;
+}
+
+async function refresh(){
+  await loadStats();
+  PROS=await jget("/api/prospects");renderPros();
+  QUEUE=await jget("/api/queue");renderQueue();
+  await loadCampaigns();
+}
+
+document.querySelectorAll(".tab").forEach(t=>t.addEventListener("click",()=>{
+  document.querySelectorAll(".tab").forEach(x=>x.classList.remove("active"));
+  document.querySelectorAll(".panel").forEach(x=>x.classList.remove("active"));
+  t.classList.add("active");document.getElementById("panel-"+t.dataset.tab).classList.add("active");
+}));
+document.getElementById("tierFilter").addEventListener("change",renderPros);
+document.getElementById("search").addEventListener("input",renderPros);
+document.getElementById("statusFilter").addEventListener("change",renderQueue);
+refresh();
+</script>
+</body>
+</html>

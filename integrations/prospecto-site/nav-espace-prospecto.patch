@@ -1,0 +1,32 @@
+--- Nav.original.tsx	2026-11-03 21:19:15.232430855 +0000
++++ Nav.proposed.tsx	2026-11-03 21:19:25.916484824 +0000
+@@ -13,6 +13,9 @@
+   { id: "contact", label: "Contact" },
+ ];
+ 
++// URL de l'Espace Prospecto (dashboard). À adapter au domaine de déploiement réel.
++const APP_URL = "https://app.prospecto.website";
++
+ const useIso = typeof window === "undefined" ? useEffect : useLayoutEffect;
+ 
+ export default function Nav() {
+@@ -106,6 +109,9 @@
+           </ul>
+ 
+           <div className="flex items-center gap-2">
++            <a href={APP_URL} className="btn btn-glass glass hidden !min-h-[44px] !px-5 text-[0.9rem] lg:inline-flex">
++              Espace Prospecto
++            </a>
+             <a href="/#contact" className="btn btn-primary hidden !min-h-[44px] !px-5 text-[0.9rem] sm:inline-flex" data-glow data-magnetic>
+               Parlons de votre projet
+             </a>
+@@ -144,6 +150,9 @@
+             ))}
+           </ul>
+           <div className="menu-foot" style={{ ["--i" as string]: links.length }}>
++            <a href={APP_URL} className="btn btn-glass glass w-full">
++              Espace Prospecto
++            </a>
+             <a href="/#contact" onClick={() => setOpen(false)} className="btn btn-primary w-full">
+               Parlons de votre projet
+             </a>

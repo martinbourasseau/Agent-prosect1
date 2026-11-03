@@ -27,3 +27,7 @@ scratch/
 
 #Exports locaux sensibles (brouillons Gmail exportés avec en-têtes)
 data/local_exports/
+
+# Dashboard — secrets d'accès (jamais committés)
+data/.dash_password
+data/.dash_secret

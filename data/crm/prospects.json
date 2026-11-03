@@ -35,7 +35,7 @@
       "needs": [
         "refonte"
       ],
-      "recommended_service": "refonte",
+      "recommended_service": "une optimisation de votre site WordPress pour le rendre plus rapide et mieux référencé, sans tout reconstruire",
       "score": 60,
       "tier": "haute",
       "status_crm": "qualified",
@@ -102,7 +102,7 @@
       "needs": [
         "automatisation"
       ],
-      "recommended_service": "automatisation",
+      "recommended_service": "une automatisation de vos réservations et rappels de sessions, pour ouvrir sans y passer vos soirées",
       "score": 75,
       "tier": "haute",
       "status_crm": "qualified",
@@ -236,7 +236,7 @@
       "needs": [
         "automatisation"
       ],
-      "recommended_service": "automatisation",
+      "recommended_service": "une automatisation qui prépare et envoie votre newsletter mensuelle à vos agences clientes, sans y repasser chaque mois",
       "score": 60,
       "tier": "haute",
       "status_crm": "qualified",
@@ -282,7 +282,7 @@
       "needs": [
         "automatisation"
       ],
-      "recommended_service": "automatisation",
+      "recommended_service": "une automatisation de vos inscriptions, rappels de séances et réponses aux questions des adhérents",
       "score": 25,
       "tier": "moyenne",
       "status_crm": "a_revoir",
@@ -328,7 +328,7 @@
       "needs": [
         "site_web"
       ],
-      "recommended_service": "site_web",
+      "recommended_service": "un site vitrine clair et rapide qui présente votre activité d'élagage et donne envie de vous contacter",
       "score": 25,
       "tier": "moyenne",
       "status_crm": "a_revoir",
@@ -374,7 +374,7 @@
       "needs": [
         "site_web"
       ],
-      "recommended_service": "site_web",
+      "recommended_service": "une boutique en ligne pour vendre vos objets personnalisés au-delà de votre zone locale",
       "score": 0,
       "tier": "a_approfondir",
       "status_crm": "non_qualifie",
@@ -415,7 +415,7 @@
       "needs": [
         "site_web"
       ],
-      "recommended_service": "site_web",
+      "recommended_service": "une page one-page multilingue avec carte interactive et liens de réservation, prête avant la Coupe du Monde",
       "score": 0,
       "tier": "a_approfondir",
       "status_crm": "exclu",
@@ -456,7 +456,7 @@
       "needs": [
         "automatisation"
       ],
-      "recommended_service": "automatisation",
+      "recommended_service": "une automatisation de la publication et des réponses sur vos réseaux sociaux",
       "score": 0,
       "tier": "a_approfondir",
       "status_crm": "exclu",

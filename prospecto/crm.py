@@ -107,7 +107,7 @@ class CRM:
             "publication_date": prospect.publication_date,
             "need": prospect.primary_need,
             "needs": prospect.needs,
-            "recommended_service": prospect.primary_need,
+            "recommended_service": prospect.recommended_service or prospect.primary_need,
             "score": result.score,
             "tier": result.tier,
             "status_crm": result.status,

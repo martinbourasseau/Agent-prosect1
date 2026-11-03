@@ -72,6 +72,7 @@ class Prospect:
     contact_role: str = ""
     source: str = ""  # source de découverte (plateforme, presse, annuaire…)
     publication_date: str = ""  # date de publication du besoin, si connue
+    recommended_service: str = ""  # prestation unique recommandée (formulation bénéfique)
     notes: str = ""
 
     @property
