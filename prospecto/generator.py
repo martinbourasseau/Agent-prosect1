@@ -32,7 +32,9 @@ class GenerationError(ValueError):
 
 def _greeting(prospect: Prospect) -> str:
     if prospect.contact_name:
-        return f"Bonjour {prospect.contact_name},"
+        # Prénom seul pour une salutation naturelle et chaleureuse (TPE/dirigeants).
+        first_name = prospect.contact_name.strip().split()[0]
+        return f"Bonjour {first_name},"
     return "Bonjour,"
 
 

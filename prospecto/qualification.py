@@ -147,9 +147,12 @@ def qualify_batch(prospects: list[Prospect]) -> list[QualificationResult]:
     results = []
     for p in prospects:
         res = qualify(p, contacted_emails, contacted_domains)
-        key = p.contact_email.strip().lower()
-        if key in seen:
+        # Clé de dédoublonnage : domaine > email > nom (les prospects sans
+        # domaine/email ne doivent pas collisionner sur une clé vide).
+        key = (p.domain or "").strip().lower() or p.contact_email.strip().lower() or p.company.strip().lower()
+        if key and key in seen:
             res = QualificationResult(p, res.score, EXCLUDED, ["doublon dans le lot"], res.tier)
-        seen.add(key)
+        if key:
+            seen.add(key)
         results.append(res)
     return results
