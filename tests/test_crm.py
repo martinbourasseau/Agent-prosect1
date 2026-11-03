@@ -74,6 +74,15 @@ class TestCRM(unittest.TestCase):
         self.assertEqual(stats["expressed_needs"], 1)
         self.assertEqual(stats["by_tier"]["haute"], 1)
 
+    def test_stats_excludes_contacted_from_pipeline(self):
+        rec, _ = self.crm.import_prospect(prospect())
+        rec["status"] = "contacté"
+        stats = self.crm.stats()
+        self.assertEqual(stats["total"], 1)
+        self.assertEqual(stats["contacted"], 1)
+        self.assertEqual(stats["by_tier"], {})  # exclue du pipeline actif
+        self.assertEqual(stats["with_email"], 1)  # coordonnée toujours comptée
+
 
 if __name__ == "__main__":
     unittest.main()

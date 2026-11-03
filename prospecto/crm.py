@@ -149,14 +149,16 @@ class CRM:
         expressed = 0
         contacted = 0
         for r in self.records:
-            tier = r.get("tier", "a_approfondir")
-            by_tier[tier] = by_tier.get(tier, 0) + 1
+            if r.get("status") == "contacté":
+                contacted += 1
+            else:
+                # Pipeline actif : répartition par niveau (les contactées en sont exclues).
+                tier = r.get("tier", "a_approfondir")
+                by_tier[tier] = by_tier.get(tier, 0) + 1
             if r.get("email"):
                 with_email += 1
             if any(e.get("kind") == "public_need" for e in r.get("evidence", [])):
                 expressed += 1
-            if r.get("status") == "contacté":
-                contacted += 1
         return {
             "total": total,
             "by_tier": by_tier,
