@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-04T19:29:42+00:00",
+  "updated_at": "2026-11-04T20:39:34+00:00",
   "items": [
     {
       "id": "2026-11-03-v2-001",
@@ -796,6 +796,192 @@
           "at": "2026-11-04T19:29:42+00:00",
           "action": "gmail_draft_created",
           "draft_id": "r-5663246394203838970"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-04-lot3-001",
+      "campaign": "2026-11-04-lot3",
+      "to": "canoesomme@gmail.com",
+      "company": "Base nautique de Picquigny",
+      "subject": "Base nautique de Picquigny : automatiser les devis groupes",
+      "body": "Bonjour Johann,\n\nVotre base nautique de Picquigny prend déjà les réservations individuelles en ligne, mais les groupes (entreprises, collèges, centres de loisirs) doivent encore demander un devis par email ou téléphone.\n\nJe peux vous proposer une automatisation des demandes de devis groupes (dates, effectifs, disponibilités, réponse rapide).\n\nCôté agents IA, voici SYNATRAP, la plateforme que je développe avec mon groupe : https://synatrap.com\n\nJe peux vous montrer gratuitement une démonstration concrète de la solution envisagée, sans engagement, sur un cas réel de votre activité.\n\nCela vous dirait de la découvrir ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin Boisseau\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+      "need": "automatisation",
+      "evidence_sources": [
+        "https://www.canoe-somme.com/",
+        "https://www.canoe-somme.com/"
+      ],
+      "status": "pending",
+      "created_at": "2026-11-04T20:37:07+00:00",
+      "updated_at": "2026-11-04T20:39:33+00:00",
+      "gmail_draft_id": "r-3787275227626326877",
+      "gmail_message_id": null,
+      "decision_reason": "",
+      "history": [
+        {
+          "at": "2026-11-04T20:37:07+00:00",
+          "action": "created",
+          "status": "pending"
+        },
+        {
+          "at": "2026-11-04T20:39:33+00:00",
+          "action": "gmail_draft_created",
+          "draft_id": "r-3787275227626326877"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-04-lot3-002",
+      "campaign": "2026-11-04-lot3",
+      "to": "brasserievdl74@gmail.com",
+      "company": "Brasserie VDL",
+      "subject": "Brasserie VDL : commandes à emporter sans téléphone",
+      "body": "Bonjour David,\n\nÀ la Brasserie VDL, les commandes à emporter passent uniquement par téléphone, même quand la carte est déjà consultable en ligne.\n\nJe peux vous proposer un module de commande en ligne / click & collect pour la vente à emporter.\n\nÀ titre d'exemple, voici le site institutionnel que j'ai conçu pour mon groupe : https://groupebourasseau.com\n\nJe peux vous préparer gratuitement une première démonstration personnalisée, sans engagement : une maquette de commande en ligne pour la Brasserie VDL.\n\nCela vous dirait de la découvrir ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin Boisseau\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+      "need": "site_web",
+      "evidence_sources": [
+        "https://www.brasserie-vdl.fr/la-brasserie/",
+        "https://www.brasserie-vdl.fr/contact/"
+      ],
+      "status": "pending",
+      "created_at": "2026-11-04T20:37:07+00:00",
+      "updated_at": "2026-11-04T20:39:33+00:00",
+      "gmail_draft_id": "r-640883466194859786",
+      "gmail_message_id": null,
+      "decision_reason": "",
+      "history": [
+        {
+          "at": "2026-11-04T20:37:07+00:00",
+          "action": "created",
+          "status": "pending"
+        },
+        {
+          "at": "2026-11-04T20:39:33+00:00",
+          "action": "gmail_draft_created",
+          "draft_id": "r-640883466194859786"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-04-lot3-003",
+      "campaign": "2026-11-04-lot3",
+      "to": "contact@dance-center.fr",
+      "company": "Dance Center",
+      "subject": "Dance Center : inscriptions en ligne pour la rentrée",
+      "body": "Bonjour Pauline,\n\nLes inscriptions au Dance Center se font encore sur place, avec une fiche à télécharger et des règlements par chèques.\n\nJe peux vous proposer un parcours d'inscription en ligne (choix des cours, coordonnées, paiement) pour réduire la paperasse de rentrée.\n\nÀ titre d'exemple, voici le site institutionnel que j'ai conçu pour mon groupe : https://groupebourasseau.com\n\nJe peux vous préparer gratuitement une première démonstration personnalisée, sans engagement : une maquette d'inscription en ligne pour le Dance Center.\n\nCela vous dirait de la découvrir ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin Boisseau\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+      "need": "site_web",
+      "evidence_sources": [
+        "https://www.dance-center.fr/inscriptions-2026/27",
+        "https://www.dance-center.fr/inscriptions-2026/27"
+      ],
+      "status": "pending",
+      "created_at": "2026-11-04T20:37:07+00:00",
+      "updated_at": "2026-11-04T20:39:33+00:00",
+      "gmail_draft_id": "r-8638899377923513656",
+      "gmail_message_id": null,
+      "decision_reason": "",
+      "history": [
+        {
+          "at": "2026-11-04T20:37:07+00:00",
+          "action": "created",
+          "status": "pending"
+        },
+        {
+          "at": "2026-11-04T20:39:33+00:00",
+          "action": "gmail_draft_created",
+          "draft_id": "r-8638899377923513656"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-04-lot3-004",
+      "campaign": "2026-11-04-lot3",
+      "to": "contact@sam31.fr",
+      "company": "SAM31",
+      "subject": "SAM31 : pré-inscription en ligne pour vos élèves",
+      "body": "Bonjour Océane,\n\nChez SAM31, le dossier d'inscription s'obtient encore par téléphone, email ou en agence.\n\nJe peux vous proposer une pré-inscription en ligne avec dépôt des pièces et suivi de dossier.\n\nÀ titre d'exemple, voici le site institutionnel que j'ai conçu pour mon groupe : https://groupebourasseau.com\n\nJe peux vous préparer gratuitement une première démonstration personnalisée, sans engagement : une maquette de pré-inscription en ligne pour SAM31.\n\nCela vous dirait de la découvrir ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin Boisseau\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+      "need": "site_web",
+      "evidence_sources": [
+        "https://sam31-autoecole.fr/",
+        "https://sam31-autoecole.fr/a-propos/"
+      ],
+      "status": "pending",
+      "created_at": "2026-11-04T20:37:07+00:00",
+      "updated_at": "2026-11-04T20:39:33+00:00",
+      "gmail_draft_id": "r-5558695767684022470",
+      "gmail_message_id": null,
+      "decision_reason": "",
+      "history": [
+        {
+          "at": "2026-11-04T20:37:07+00:00",
+          "action": "created",
+          "status": "pending"
+        },
+        {
+          "at": "2026-11-04T20:39:33+00:00",
+          "action": "gmail_draft_created",
+          "draft_id": "r-5558695767684022470"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-04-lot3-005",
+      "campaign": "2026-11-04-lot3",
+      "to": "cedmu@yahoo.fr",
+      "company": "La Bruchoise / Casa Blu",
+      "subject": "La Bruchoise : commandes à emporter en ligne",
+      "body": "Bonjour Cédric,\n\nLa Bruchoise indique que les commandes à emporter se font uniquement par téléphone.\n\nJe peux vous proposer un module de commande en ligne / click & collect pour la vente à emporter.\n\nÀ titre d'exemple, voici le site institutionnel que j'ai conçu pour mon groupe : https://groupebourasseau.com\n\nJe peux vous préparer gratuitement une première démonstration personnalisée, sans engagement : une maquette de commande en ligne pour La Bruchoise.\n\nCela vous dirait de la découvrir ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin Boisseau\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+      "need": "site_web",
+      "evidence_sources": [
+        "https://www.casa-blu.fr/contact.html",
+        "https://www.casa-blu.fr/"
+      ],
+      "status": "pending",
+      "created_at": "2026-11-04T20:37:07+00:00",
+      "updated_at": "2026-11-04T20:39:34+00:00",
+      "gmail_draft_id": "r4467495994281543374",
+      "gmail_message_id": null,
+      "decision_reason": "",
+      "history": [
+        {
+          "at": "2026-11-04T20:37:07+00:00",
+          "action": "created",
+          "status": "pending"
+        },
+        {
+          "at": "2026-11-04T20:39:34+00:00",
+          "action": "gmail_draft_created",
+          "draft_id": "r4467495994281543374"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-04-lot3-006",
+      "campaign": "2026-11-04-lot3",
+      "to": "directionloccidentale@gmail.com",
+      "company": "L'Occidentale",
+      "subject": "L'Occidentale : réponses plus rapides aux demandes de devis",
+      "body": "Bonjour Schéhérazade,\n\nL'Occidentale reçoit les demandes de devis mariage/séminaire par téléphone, email ou formulaire, avec des tarifs qui varient selon la période.\n\nJe peux vous proposer un agent IA de pré-qualification des demandes de devis (date, convives, disponibilités, fourchette tarifaire) et de réponse rapide.\n\nCôté agents IA, voici SYNATRAP, la plateforme que je développe avec mon groupe : https://synatrap.com\n\nJe peux vous montrer gratuitement une démonstration concrète de la solution envisagée, sans engagement, sur un cas réel de votre activité.\n\nCela vous dirait de la découvrir ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin Boisseau\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+      "need": "automatisation",
+      "evidence_sources": [
+        "https://www.loccidentale.fr/reception-mariage-w1",
+        "https://www.loccidentale.fr/contact"
+      ],
+      "status": "pending",
+      "created_at": "2026-11-04T20:37:07+00:00",
+      "updated_at": "2026-11-04T20:39:34+00:00",
+      "gmail_draft_id": "r-4581943460065111604",
+      "gmail_message_id": null,
+      "decision_reason": "",
+      "history": [
+        {
+          "at": "2026-11-04T20:37:07+00:00",
+          "action": "created",
+          "status": "pending"
+        },
+        {
+          "at": "2026-11-04T20:39:34+00:00",
+          "action": "gmail_draft_created",
+          "draft_id": "r-4581943460065111604"
         }
       ]
     }

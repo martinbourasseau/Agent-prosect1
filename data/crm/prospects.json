@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-04T19:26:46+00:00",
-  "count": 36,
+  "updated_at": "2026-11-04T20:37:07+00:00",
+  "count": 42,
   "prospects": [
     {
       "company": "R Premium",
@@ -1525,6 +1525,360 @@
         "queue_id": "2026-11-04-lot2-007",
         "gmail_draft_id": "r-5663246394203838970"
       }
+    },
+    {
+      "company": "Base nautique de Picquigny",
+      "website": "https://www.canoe-somme.com/",
+      "domain": "canoe-somme.com",
+      "sector": "Loisirs nautiques / tourisme",
+      "city": "Picquigny",
+      "department": "80",
+      "contact_name": "Johann Beldame",
+      "contact_role": "",
+      "email": "canoesomme@gmail.com",
+      "phone": "06 29 38 67 73",
+      "source": "canoe-somme.com",
+      "evidence": [
+        {
+          "kind": "website_gap",
+          "source_url": "https://www.canoe-somme.com/",
+          "quote": "Pour les groupes (entreprises, collèges, lycées, centres d'accueil jeunesse) : Veuillez nous contacter directement par email ... ou par la fiche contact pour obtenir un devis personnalisé.",
+          "observed_at": "2026-11-04",
+          "detail": "Les groupes doivent demander un devis personnalisé par email/téléphone ; aucun parcours de devis groupes en ligne n'est visible."
+        },
+        {
+          "kind": "website_gap",
+          "source_url": "https://www.canoe-somme.com/",
+          "quote": "Modes de paiement : - Virement - Chèque - Espèces (à limiter, faire l'appoint)",
+          "observed_at": "2026-11-04",
+          "detail": "Paiements et devis groupes restent manuels (virement/chèque/espèces), ce qui crée des allers-retours administratifs."
+        }
+      ],
+      "publication_date": "",
+      "need": "automatisation",
+      "needs": [
+        "automatisation"
+      ],
+      "recommended_service": "une automatisation des demandes de devis groupes (dates, effectifs, disponibilités, réponse rapide)",
+      "email_verification": "verified",
+      "score": 45,
+      "tier": "moyenne",
+      "status_crm": "brouillon_créé",
+      "justification": "2 lacune(s) vérifiée(s) sur le site (+40) ; prénom du contact connu (+5)",
+      "process_hint": "Votre base nautique de Picquigny prend déjà les réservations individuelles en ligne, mais les groupes (entreprises, collèges, centres de loisirs) doivent encore demander un devis par email ou téléphone.",
+      "demo_detail": "",
+      "custom_hook": "Votre base nautique de Picquigny prend déjà les réservations individuelles en ligne, mais les groupes (entreprises, collèges, centres de loisirs) doivent encore demander un devis par email ou téléphone.",
+      "custom_subject": "Base nautique de Picquigny : automatiser les devis groupes",
+      "notes": "Lot 3. Opportunité probable étayée, pas un besoin exprimé publiquement. Lacune précise : parcours groupes manuel alors que l'individuel est déjà en ligne. Responsable public : Johann Beldame. Région Hauts-de-France (80), nouveau secteur.",
+      "status": "brouillon_créé",
+      "id": "base-nautique-de-picquigny",
+      "created_at": "2026-11-04T20:37:02+00:00",
+      "updated_at": "2026-11-04T00:00:00Z",
+      "campaign": "2026-11-04-lot3",
+      "variant": "synatrap_ia",
+      "reference_id": "synatrap",
+      "message_version": "v4",
+      "proposed_email": {
+        "subject": "Base nautique de Picquigny : automatiser les devis groupes",
+        "body": "Bonjour Johann,\n\nVotre base nautique de Picquigny prend déjà les réservations individuelles en ligne, mais les groupes (entreprises, collèges, centres de loisirs) doivent encore demander un devis par email ou téléphone.\n\nJe peux vous proposer une automatisation des demandes de devis groupes (dates, effectifs, disponibilités, réponse rapide).\n\nCôté agents IA, voici SYNATRAP, la plateforme que je développe avec mon groupe : https://synatrap.com\n\nJe peux vous montrer gratuitement une démonstration concrète de la solution envisagée, sans engagement, sur un cas réel de votre activité.\n\nCela vous dirait de la découvrir ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin Boisseau\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+        "queue_id": "2026-11-04-lot3-001"
+      },
+      "gmail_draft_id": "r-3787275227626326877"
+    },
+    {
+      "company": "Brasserie VDL",
+      "website": "https://www.brasserie-vdl.fr/",
+      "domain": "brasserie-vdl.fr",
+      "sector": "Brasserie artisanale / brewpub",
+      "city": "Thônes",
+      "department": "74",
+      "contact_name": "David Molicard",
+      "contact_role": "",
+      "email": "brasserievdl74@gmail.com",
+      "phone": "04 50 68 15 05",
+      "source": "brasserie-vdl.fr",
+      "evidence": [
+        {
+          "kind": "website_gap",
+          "source_url": "https://www.brasserie-vdl.fr/la-brasserie/",
+          "quote": "Commande uniquement par téléphone !",
+          "observed_at": "2026-11-04",
+          "detail": "La vente à emporter est explicitement limitée au téléphone ; aucune commande en ligne n'est proposée."
+        },
+        {
+          "kind": "website_gap",
+          "source_url": "https://www.brasserie-vdl.fr/contact/",
+          "quote": "Les commandes à emporter se font uniquement par téléphone.",
+          "observed_at": "2026-11-04",
+          "detail": "La page contact confirme l'absence de commande en ligne pour l'emporter."
+        }
+      ],
+      "publication_date": "",
+      "need": "site_web",
+      "needs": [
+        "site_web"
+      ],
+      "recommended_service": "un module de commande en ligne / click & collect pour la vente à emporter",
+      "email_verification": "verified",
+      "score": 45,
+      "tier": "moyenne",
+      "status_crm": "brouillon_créé",
+      "justification": "2 lacune(s) vérifiée(s) sur le site (+40) ; prénom du contact connu (+5)",
+      "process_hint": "À la Brasserie VDL, les commandes à emporter passent uniquement par téléphone, même quand la carte est déjà consultable en ligne.",
+      "demo_detail": "une maquette de commande en ligne pour la Brasserie VDL",
+      "custom_hook": "À la Brasserie VDL, les commandes à emporter passent uniquement par téléphone, même quand la carte est déjà consultable en ligne.",
+      "custom_subject": "Brasserie VDL : commandes à emporter sans téléphone",
+      "notes": "Lot 3. Opportunité probable étayée. Lacune précise : 'Commande uniquement par téléphone !' pour l'emporter. Responsable/publicateur : David Molicard (EI, SIRET 51323030000057). Auvergne-Rhône-Alpes (74).",
+      "status": "brouillon_créé",
+      "id": "brasserie-vdl",
+      "created_at": "2026-11-04T20:37:02+00:00",
+      "updated_at": "2026-11-04T00:00:00Z",
+      "campaign": "2026-11-04-lot3",
+      "variant": "demo_site",
+      "reference_id": "groupe-bourasseau",
+      "message_version": "v4",
+      "proposed_email": {
+        "subject": "Brasserie VDL : commandes à emporter sans téléphone",
+        "body": "Bonjour David,\n\nÀ la Brasserie VDL, les commandes à emporter passent uniquement par téléphone, même quand la carte est déjà consultable en ligne.\n\nJe peux vous proposer un module de commande en ligne / click & collect pour la vente à emporter.\n\nÀ titre d'exemple, voici le site institutionnel que j'ai conçu pour mon groupe : https://groupebourasseau.com\n\nJe peux vous préparer gratuitement une première démonstration personnalisée, sans engagement : une maquette de commande en ligne pour la Brasserie VDL.\n\nCela vous dirait de la découvrir ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin Boisseau\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+        "queue_id": "2026-11-04-lot3-002"
+      },
+      "gmail_draft_id": "r-640883466194859786"
+    },
+    {
+      "company": "Dance Center",
+      "website": "https://www.dance-center.fr/",
+      "domain": "dance-center.fr",
+      "sector": "École de danse / Pilates",
+      "city": "Valenciennes",
+      "department": "59",
+      "contact_name": "Pauline Lefebvre",
+      "contact_role": "",
+      "email": "contact@dance-center.fr",
+      "phone": "07 83 28 96 23",
+      "source": "dance-center.fr",
+      "evidence": [
+        {
+          "kind": "website_gap",
+          "source_url": "https://www.dance-center.fr/inscriptions-2026/27",
+          "quote": "Les inscriptions ont lieu au Dance-Center au 2bis rue du St Cordon à Valenciennes",
+          "observed_at": "2026-11-04",
+          "detail": "Les inscriptions 2026/27 se font sur place ; la fiche est un PDF à télécharger et remplir avant de venir."
+        },
+        {
+          "kind": "website_gap",
+          "source_url": "https://www.dance-center.fr/inscriptions-2026/27",
+          "quote": "Les 3 chèques correspondant aux 3 trimestres ... Il est possible de régler les cotisations en CB ou espèces (uniquement en réglant l'année entière)",
+          "observed_at": "2026-11-04",
+          "detail": "Règlement principalement par chèques trimestriels ; un parcours d'inscription/paiement en ligne simplifierait la rentrée."
+        }
+      ],
+      "publication_date": "",
+      "need": "site_web",
+      "needs": [
+        "site_web"
+      ],
+      "recommended_service": "un parcours d'inscription en ligne (choix des cours, coordonnées, paiement) pour réduire la paperasse de rentrée",
+      "email_verification": "verified",
+      "score": 45,
+      "tier": "moyenne",
+      "status_crm": "brouillon_créé",
+      "justification": "2 lacune(s) vérifiée(s) sur le site (+40) ; prénom du contact connu (+5)",
+      "process_hint": "Les inscriptions au Dance Center se font encore sur place, avec une fiche à télécharger et des règlements par chèques.",
+      "demo_detail": "une maquette d'inscription en ligne pour le Dance Center",
+      "custom_hook": "Les inscriptions au Dance Center se font encore sur place, avec une fiche à télécharger et des règlements par chèques.",
+      "custom_subject": "Dance Center : inscriptions en ligne pour la rentrée",
+      "notes": "Lot 3. Opportunité probable étayée. SARL DANCE CENTER, SIRET 95361233000019, gérants publics Pauline Lefebvre et Olivier Vathananonh. Hauts-de-France (59), nouveau secteur.",
+      "status": "brouillon_créé",
+      "id": "dance-center",
+      "created_at": "2026-11-04T20:37:02+00:00",
+      "updated_at": "2026-11-04T00:00:00Z",
+      "campaign": "2026-11-04-lot3",
+      "variant": "demo_site",
+      "reference_id": "groupe-bourasseau",
+      "message_version": "v4",
+      "proposed_email": {
+        "subject": "Dance Center : inscriptions en ligne pour la rentrée",
+        "body": "Bonjour Pauline,\n\nLes inscriptions au Dance Center se font encore sur place, avec une fiche à télécharger et des règlements par chèques.\n\nJe peux vous proposer un parcours d'inscription en ligne (choix des cours, coordonnées, paiement) pour réduire la paperasse de rentrée.\n\nÀ titre d'exemple, voici le site institutionnel que j'ai conçu pour mon groupe : https://groupebourasseau.com\n\nJe peux vous préparer gratuitement une première démonstration personnalisée, sans engagement : une maquette d'inscription en ligne pour le Dance Center.\n\nCela vous dirait de la découvrir ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin Boisseau\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+        "queue_id": "2026-11-04-lot3-003"
+      },
+      "gmail_draft_id": "r-8638899377923513656"
+    },
+    {
+      "company": "SAM31",
+      "website": "https://sam31-autoecole.fr/",
+      "domain": "sam31-autoecole.fr",
+      "sector": "Auto-école / formation conduite",
+      "city": "Toulouse",
+      "department": "31",
+      "contact_name": "Océane SAMR",
+      "contact_role": "",
+      "email": "contact@sam31.fr",
+      "phone": "05 61 80 65 80",
+      "source": "sam31-autoecole.fr",
+      "evidence": [
+        {
+          "kind": "website_gap",
+          "source_url": "https://sam31-autoecole.fr/",
+          "quote": "Pour obtenir un dossier d'inscription chez SAM31, vous pouvez simplement nous contacter par téléphone ... ou par email ... Vous pouvez également vous rendre directement à notre agence",
+          "observed_at": "2026-11-04",
+          "detail": "Le dossier d'inscription est délivré par téléphone/email/agence ; pas de pré-inscription en ligne avec dépôt de pièces visible."
+        },
+        {
+          "kind": "website_gap",
+          "source_url": "https://sam31-autoecole.fr/a-propos/",
+          "quote": "Démarches Administratives, ANTS suivi de dossier d'inscription 290€",
+          "observed_at": "2026-11-04",
+          "detail": "Le suivi administratif ANTS est une prestation facturée ; un parcours en ligne pourrait réduire la charge de saisie et de suivi."
+        }
+      ],
+      "publication_date": "",
+      "need": "site_web",
+      "needs": [
+        "site_web"
+      ],
+      "recommended_service": "une pré-inscription en ligne avec dépôt des pièces et suivi de dossier",
+      "email_verification": "verified",
+      "score": 45,
+      "tier": "moyenne",
+      "status_crm": "brouillon_créé",
+      "justification": "2 lacune(s) vérifiée(s) sur le site (+40) ; prénom du contact connu (+5)",
+      "process_hint": "Chez SAM31, le dossier d'inscription s'obtient encore par téléphone, email ou en agence.",
+      "demo_detail": "une maquette de pré-inscription en ligne pour SAM31",
+      "custom_hook": "Chez SAM31, le dossier d'inscription s'obtient encore par téléphone, email ou en agence.",
+      "custom_subject": "SAM31 : pré-inscription en ligne pour vos élèves",
+      "notes": "Lot 3. Opportunité probable étayée. L'auto-école a des formulaires de contact/réservation, mais le dossier d'inscription reste manuel. Équipe publique : Océane SAMR et Bouchaib SAMR. Occitanie (31), nouveau secteur.",
+      "status": "brouillon_créé",
+      "id": "sam31",
+      "created_at": "2026-11-04T20:37:02+00:00",
+      "updated_at": "2026-11-04T00:00:00Z",
+      "campaign": "2026-11-04-lot3",
+      "variant": "demo_site",
+      "reference_id": "groupe-bourasseau",
+      "message_version": "v4",
+      "proposed_email": {
+        "subject": "SAM31 : pré-inscription en ligne pour vos élèves",
+        "body": "Bonjour Océane,\n\nChez SAM31, le dossier d'inscription s'obtient encore par téléphone, email ou en agence.\n\nJe peux vous proposer une pré-inscription en ligne avec dépôt des pièces et suivi de dossier.\n\nÀ titre d'exemple, voici le site institutionnel que j'ai conçu pour mon groupe : https://groupebourasseau.com\n\nJe peux vous préparer gratuitement une première démonstration personnalisée, sans engagement : une maquette de pré-inscription en ligne pour SAM31.\n\nCela vous dirait de la découvrir ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin Boisseau\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+        "queue_id": "2026-11-04-lot3-004"
+      },
+      "gmail_draft_id": "r-5558695767684022470"
+    },
+    {
+      "company": "La Bruchoise / Casa Blu",
+      "website": "https://www.casa-blu.fr/",
+      "domain": "casa-blu.fr",
+      "sector": "Restaurant / pizzeria",
+      "city": "Muhlbach-sur-Bruche",
+      "department": "67",
+      "contact_name": "Cédric Fischer",
+      "contact_role": "",
+      "email": "cedmu@yahoo.fr",
+      "phone": "03 88 47 90 35",
+      "source": "casa-blu.fr",
+      "evidence": [
+        {
+          "kind": "website_gap",
+          "source_url": "https://www.casa-blu.fr/contact.html",
+          "quote": "*Commande uniquement par téléphone",
+          "observed_at": "2026-11-04",
+          "detail": "La page contact indique explicitement que les commandes se font uniquement par téléphone ; pas de commande en ligne."
+        },
+        {
+          "kind": "website_gap",
+          "source_url": "https://www.casa-blu.fr/",
+          "quote": "notre service de commande à emporter",
+          "observed_at": "2026-11-04",
+          "detail": "La vente à emporter existe mais le canal de commande en ligne n'est pas proposé."
+        }
+      ],
+      "publication_date": "",
+      "need": "site_web",
+      "needs": [
+        "site_web"
+      ],
+      "recommended_service": "un module de commande en ligne / click & collect pour la vente à emporter",
+      "email_verification": "verified",
+      "score": 45,
+      "tier": "moyenne",
+      "status_crm": "brouillon_créé",
+      "justification": "2 lacune(s) vérifiée(s) sur le site (+40) ; prénom du contact connu (+5)",
+      "process_hint": "La Bruchoise indique que les commandes à emporter se font uniquement par téléphone.",
+      "demo_detail": "une maquette de commande en ligne pour La Bruchoise",
+      "custom_hook": "La Bruchoise indique que les commandes à emporter se font uniquement par téléphone.",
+      "custom_subject": "La Bruchoise : commandes à emporter en ligne",
+      "notes": "Lot 3. Opportunité probable étayée. Représentant légal public : Cédric Fischer (mentions légales). Grand Est (67), nouveau secteur. Téléphone commercial 03 88 47 90 35 ; téléphone mentions légales 03 88 47 37 56.",
+      "status": "brouillon_créé",
+      "id": "la-bruchoise-casa-blu",
+      "created_at": "2026-11-04T20:37:02+00:00",
+      "updated_at": "2026-11-04T00:00:00Z",
+      "campaign": "2026-11-04-lot3",
+      "variant": "demo_site",
+      "reference_id": "groupe-bourasseau",
+      "message_version": "v4",
+      "proposed_email": {
+        "subject": "La Bruchoise : commandes à emporter en ligne",
+        "body": "Bonjour Cédric,\n\nLa Bruchoise indique que les commandes à emporter se font uniquement par téléphone.\n\nJe peux vous proposer un module de commande en ligne / click & collect pour la vente à emporter.\n\nÀ titre d'exemple, voici le site institutionnel que j'ai conçu pour mon groupe : https://groupebourasseau.com\n\nJe peux vous préparer gratuitement une première démonstration personnalisée, sans engagement : une maquette de commande en ligne pour La Bruchoise.\n\nCela vous dirait de la découvrir ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin Boisseau\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+        "queue_id": "2026-11-04-lot3-005"
+      },
+      "gmail_draft_id": "r4467495994281543374"
+    },
+    {
+      "company": "L'Occidentale",
+      "website": "https://www.loccidentale.fr/",
+      "domain": "loccidentale.fr",
+      "sector": "Lieu de réception / événementiel",
+      "city": "Montauroux",
+      "department": "83",
+      "contact_name": "Schéhérazade",
+      "contact_role": "",
+      "email": "directionloccidentale@gmail.com",
+      "phone": "04 69 00 15 35",
+      "source": "loccidentale.fr",
+      "evidence": [
+        {
+          "kind": "website_gap",
+          "source_url": "https://www.loccidentale.fr/reception-mariage-w1",
+          "quote": "Tarifs : de 800 € à 5000 € selon la période. Demander un devis par téléphone ou par email !",
+          "observed_at": "2026-11-04",
+          "detail": "Les demandes de devis passent par téléphone/email ; aucune disponibilité ni estimation instantanée n'est affichée."
+        },
+        {
+          "kind": "website_gap",
+          "source_url": "https://www.loccidentale.fr/contact",
+          "quote": "directionloccidentale@gmail.com",
+          "observed_at": "2026-11-04",
+          "detail": "Email professionnel publié sur la page contact officielle (DS RECEPTION, Montauroux)."
+        }
+      ],
+      "publication_date": "",
+      "need": "automatisation",
+      "needs": [
+        "automatisation"
+      ],
+      "recommended_service": "un agent IA de pré-qualification des demandes de devis (date, convives, disponibilités, fourchette tarifaire) et de réponse rapide",
+      "email_verification": "verified",
+      "score": 45,
+      "tier": "moyenne",
+      "status_crm": "brouillon_créé",
+      "justification": "2 lacune(s) vérifiée(s) sur le site (+40) ; prénom du contact connu (+5)",
+      "process_hint": "L'Occidentale reçoit les demandes de devis mariage/séminaire par téléphone, email ou formulaire, avec des tarifs qui varient selon la période.",
+      "demo_detail": "",
+      "custom_hook": "L'Occidentale reçoit les demandes de devis mariage/séminaire par téléphone, email ou formulaire, avec des tarifs qui varient selon la période.",
+      "custom_subject": "L'Occidentale : réponses plus rapides aux demandes de devis",
+      "notes": "Lot 3. Opportunité probable, plus prudente : un formulaire de devis existe déjà, mais la réponse (disponibilités, tarifs, devis personnalisé) reste manuelle. Responsable public : Schéhérazade (DS RECEPTION). PACA (83). Email publié sur la page contact officielle (extrait indexé).",
+      "status": "brouillon_créé",
+      "id": "l-occidentale",
+      "created_at": "2026-11-04T20:37:02+00:00",
+      "updated_at": "2026-11-04T00:00:00Z",
+      "campaign": "2026-11-04-lot3",
+      "variant": "synatrap_ia",
+      "reference_id": "synatrap",
+      "message_version": "v4",
+      "proposed_email": {
+        "subject": "L'Occidentale : réponses plus rapides aux demandes de devis",
+        "body": "Bonjour Schéhérazade,\n\nL'Occidentale reçoit les demandes de devis mariage/séminaire par téléphone, email ou formulaire, avec des tarifs qui varient selon la période.\n\nJe peux vous proposer un agent IA de pré-qualification des demandes de devis (date, convives, disponibilités, fourchette tarifaire) et de réponse rapide.\n\nCôté agents IA, voici SYNATRAP, la plateforme que je développe avec mon groupe : https://synatrap.com\n\nJe peux vous montrer gratuitement une démonstration concrète de la solution envisagée, sans engagement, sur un cas réel de votre activité.\n\nCela vous dirait de la découvrir ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin Boisseau\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+        "queue_id": "2026-11-04-lot3-006"
+      },
+      "gmail_draft_id": "r-4581943460065111604"
     }
   ]
 }
