@@ -118,6 +118,15 @@ class CRM:
             "custom_hook": prospect.custom_hook,
             "custom_subject": prospect.custom_subject,
             "notes": prospect.notes,
+            "lot": prospect.lot,
+            "discovered_at": prospect.discovered_at,
+            "email_status": prospect.email_status or "non_contacté",
+            "next_action": prospect.next_action,
+            "scores": prospect.scores,
+            "commercial_priority": prospect.commercial_priority,
+            "email_dns_status": prospect.email_dns_status,
+            "phone_verification": prospect.phone_verification,
+            "contact_name_source": prospect.contact_name_source,
             "status": "nouveau",
         }
         return self.upsert(record)

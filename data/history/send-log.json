@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-04T21:30:00+00:00",
+  "updated_at": "2026-11-04T22:09:57+00:00",
   "count": 23,
   "entries": [
     {
@@ -154,13 +154,16 @@
     },
     {
       "at": "2026-11-04T21:26:00+00:00",
-      "status": "sent",
+      "status": "bounced",
       "queue_id": "2026-11-04-lot2-006",
       "to": "contact@severine-lesourd.com",
       "subject": "Pension Séverine Lesourd : automatiser les inscriptions ?",
       "gmail_message_id": "1a1a87422963e03d",
       "transport": "gmail_manual_observed",
-      "campaign": "2026-11-04-lot2"
+      "campaign": "2026-11-04-lot2",
+      "bounce_severity": "dur",
+      "bounced_at": "2026-11-04T22:09:57+00:00",
+      "bounce_message_id": "1a1a87452d7ca7c0"
     },
     {
       "at": "2026-11-04T21:26:00+00:00",

@@ -1,0 +1,236 @@
+[
+  {
+    "company": "Base nautique de Picquigny",
+    "sector": "Loisirs nautiques / tourisme",
+    "city": "Picquigny",
+    "department": "80",
+    "website": "https://www.canoe-somme.com/",
+    "contact_email": "canoesomme@gmail.com",
+    "email_verification": "verified",
+    "contact_name": "Johann Beldame",
+    "needs": [
+      "automatisation"
+    ],
+    "recommended_service": "une automatisation des demandes de devis groupes (dates, effectifs, disponibilités, réponse rapide)",
+    "demo_detail": "",
+    "custom_subject": "Base nautique de Picquigny : automatiser les devis groupes",
+    "custom_hook": "Votre base nautique de Picquigny prend déjà les réservations individuelles en ligne, mais les groupes (entreprises, collèges, centres de loisirs) doivent encore demander un devis par email ou téléphone.",
+    "notes": "Lot 3. Opportunité probable étayée, pas un besoin exprimé publiquement. Lacune précise : parcours groupes manuel alors que l'individuel est déjà en ligne. Responsable public : Johann Beldame. Région Hauts-de-France (80), nouveau secteur.",
+    "evidences": [
+      {
+        "kind": "website_gap",
+        "source_url": "https://www.canoe-somme.com/",
+        "quote": "Pour les groupes (entreprises, collèges, lycées, centres d'accueil jeunesse) : Veuillez nous contacter directement par email ... ou par la fiche contact pour obtenir un devis personnalisé.",
+        "observed_at": "2026-11-04",
+        "detail": "Les groupes doivent demander un devis personnalisé par email/téléphone ; aucun parcours de devis groupes en ligne n'est visible."
+      },
+      {
+        "kind": "website_gap",
+        "source_url": "https://www.canoe-somme.com/",
+        "quote": "Modes de paiement : - Virement - Chèque - Espèces (à limiter, faire l'appoint)",
+        "observed_at": "2026-11-04",
+        "detail": "Paiements et devis groupes restent manuels (virement/chèque/espèces), ce qui crée des allers-retours administratifs."
+      }
+    ],
+    "domain": "canoe-somme.com",
+    "phone": "06 29 38 67 73",
+    "location": "Picquigny (80)",
+    "source": "canoe-somme.com",
+    "process_hint": "Votre base nautique de Picquigny prend déjà les réservations individuelles en ligne, mais les groupes (entreprises, collèges, centres de loisirs) doivent encore demander un devis par email ou téléphone."
+  },
+  {
+    "company": "Brasserie VDL",
+    "sector": "Brasserie artisanale / brewpub",
+    "city": "Thônes",
+    "department": "74",
+    "website": "https://www.brasserie-vdl.fr/",
+    "contact_email": "brasserievdl74@gmail.com",
+    "email_verification": "verified",
+    "contact_name": "David Molicard",
+    "needs": [
+      "site_web"
+    ],
+    "recommended_service": "un module de commande en ligne / click & collect pour la vente à emporter",
+    "demo_detail": "une maquette de commande en ligne pour la Brasserie VDL",
+    "custom_subject": "Brasserie VDL : commandes à emporter sans téléphone",
+    "custom_hook": "À la Brasserie VDL, les commandes à emporter passent uniquement par téléphone, même quand la carte est déjà consultable en ligne.",
+    "notes": "Lot 3. Opportunité probable étayée. Lacune précise : 'Commande uniquement par téléphone !' pour l'emporter. Responsable/publicateur : David Molicard (EI, SIRET 51323030000057). Auvergne-Rhône-Alpes (74).",
+    "evidences": [
+      {
+        "kind": "website_gap",
+        "source_url": "https://www.brasserie-vdl.fr/la-brasserie/",
+        "quote": "Commande uniquement par téléphone !",
+        "observed_at": "2026-11-04",
+        "detail": "La vente à emporter est explicitement limitée au téléphone ; aucune commande en ligne n'est proposée."
+      },
+      {
+        "kind": "website_gap",
+        "source_url": "https://www.brasserie-vdl.fr/contact/",
+        "quote": "Les commandes à emporter se font uniquement par téléphone.",
+        "observed_at": "2026-11-04",
+        "detail": "La page contact confirme l'absence de commande en ligne pour l'emporter."
+      }
+    ],
+    "domain": "brasserie-vdl.fr",
+    "phone": "04 50 68 15 05",
+    "location": "Thônes (74)",
+    "source": "brasserie-vdl.fr",
+    "process_hint": "À la Brasserie VDL, les commandes à emporter passent uniquement par téléphone, même quand la carte est déjà consultable en ligne."
+  },
+  {
+    "company": "Dance Center",
+    "sector": "École de danse / Pilates",
+    "city": "Valenciennes",
+    "department": "59",
+    "website": "https://www.dance-center.fr/",
+    "contact_email": "contact@dance-center.fr",
+    "email_verification": "verified",
+    "contact_name": "Pauline Lefebvre",
+    "needs": [
+      "site_web"
+    ],
+    "recommended_service": "un parcours d'inscription en ligne (choix des cours, coordonnées, paiement) pour réduire la paperasse de rentrée",
+    "demo_detail": "une maquette d'inscription en ligne pour le Dance Center",
+    "custom_subject": "Dance Center : inscriptions en ligne pour la rentrée",
+    "custom_hook": "Les inscriptions au Dance Center se font encore sur place, avec une fiche à télécharger et des règlements par chèques.",
+    "notes": "Lot 3. Opportunité probable étayée. SARL DANCE CENTER, SIRET 95361233000019, gérants publics Pauline Lefebvre et Olivier Vathananonh. Hauts-de-France (59), nouveau secteur.",
+    "evidences": [
+      {
+        "kind": "website_gap",
+        "source_url": "https://www.dance-center.fr/inscriptions-2026/27",
+        "quote": "Les inscriptions ont lieu au Dance-Center au 2bis rue du St Cordon à Valenciennes",
+        "observed_at": "2026-11-04",
+        "detail": "Les inscriptions 2026/27 se font sur place ; la fiche est un PDF à télécharger et remplir avant de venir."
+      },
+      {
+        "kind": "website_gap",
+        "source_url": "https://www.dance-center.fr/inscriptions-2026/27",
+        "quote": "Les 3 chèques correspondant aux 3 trimestres ... Il est possible de régler les cotisations en CB ou espèces (uniquement en réglant l'année entière)",
+        "observed_at": "2026-11-04",
+        "detail": "Règlement principalement par chèques trimestriels ; un parcours d'inscription/paiement en ligne simplifierait la rentrée."
+      }
+    ],
+    "domain": "dance-center.fr",
+    "phone": "07 83 28 96 23",
+    "location": "Valenciennes (59)",
+    "source": "dance-center.fr",
+    "process_hint": "Les inscriptions au Dance Center se font encore sur place, avec une fiche à télécharger et des règlements par chèques."
+  },
+  {
+    "company": "SAM31",
+    "sector": "Auto-école / formation conduite",
+    "city": "Toulouse",
+    "department": "31",
+    "website": "https://sam31-autoecole.fr/",
+    "contact_email": "contact@sam31.fr",
+    "email_verification": "verified",
+    "contact_name": "Océane SAMR",
+    "needs": [
+      "site_web"
+    ],
+    "recommended_service": "une pré-inscription en ligne avec dépôt des pièces et suivi de dossier",
+    "demo_detail": "une maquette de pré-inscription en ligne pour SAM31",
+    "custom_subject": "SAM31 : pré-inscription en ligne pour vos élèves",
+    "custom_hook": "Chez SAM31, le dossier d'inscription s'obtient encore par téléphone, email ou en agence.",
+    "notes": "Lot 3. Opportunité probable étayée. L'auto-école a des formulaires de contact/réservation, mais le dossier d'inscription reste manuel. Équipe publique : Océane SAMR et Bouchaib SAMR. Occitanie (31), nouveau secteur.",
+    "evidences": [
+      {
+        "kind": "website_gap",
+        "source_url": "https://sam31-autoecole.fr/",
+        "quote": "Pour obtenir un dossier d'inscription chez SAM31, vous pouvez simplement nous contacter par téléphone ... ou par email ... Vous pouvez également vous rendre directement à notre agence",
+        "observed_at": "2026-11-04",
+        "detail": "Le dossier d'inscription est délivré par téléphone/email/agence ; pas de pré-inscription en ligne avec dépôt de pièces visible."
+      },
+      {
+        "kind": "website_gap",
+        "source_url": "https://sam31-autoecole.fr/a-propos/",
+        "quote": "Démarches Administratives, ANTS suivi de dossier d'inscription 290€",
+        "observed_at": "2026-11-04",
+        "detail": "Le suivi administratif ANTS est une prestation facturée ; un parcours en ligne pourrait réduire la charge de saisie et de suivi."
+      }
+    ],
+    "domain": "sam31-autoecole.fr",
+    "phone": "05 61 80 65 80",
+    "location": "Toulouse (31)",
+    "source": "sam31-autoecole.fr",
+    "process_hint": "Chez SAM31, le dossier d'inscription s'obtient encore par téléphone, email ou en agence."
+  },
+  {
+    "company": "La Bruchoise / Casa Blu",
+    "sector": "Restaurant / pizzeria",
+    "city": "Muhlbach-sur-Bruche",
+    "department": "67",
+    "website": "https://www.casa-blu.fr/",
+    "contact_email": "cedmu@yahoo.fr",
+    "email_verification": "verified",
+    "contact_name": "Cédric Fischer",
+    "needs": [
+      "site_web"
+    ],
+    "recommended_service": "un module de commande en ligne / click & collect pour la vente à emporter",
+    "demo_detail": "une maquette de commande en ligne pour La Bruchoise",
+    "custom_subject": "La Bruchoise : commandes à emporter en ligne",
+    "custom_hook": "La Bruchoise indique que les commandes à emporter se font uniquement par téléphone.",
+    "notes": "Lot 3. Opportunité probable étayée. Représentant légal public : Cédric Fischer (mentions légales). Grand Est (67), nouveau secteur. Téléphone commercial 03 88 47 90 35 ; téléphone mentions légales 03 88 47 37 56.",
+    "evidences": [
+      {
+        "kind": "website_gap",
+        "source_url": "https://www.casa-blu.fr/contact.html",
+        "quote": "*Commande uniquement par téléphone",
+        "observed_at": "2026-11-04",
+        "detail": "La page contact indique explicitement que les commandes se font uniquement par téléphone ; pas de commande en ligne."
+      },
+      {
+        "kind": "website_gap",
+        "source_url": "https://www.casa-blu.fr/",
+        "quote": "notre service de commande à emporter",
+        "observed_at": "2026-11-04",
+        "detail": "La vente à emporter existe mais le canal de commande en ligne n'est pas proposé."
+      }
+    ],
+    "domain": "casa-blu.fr",
+    "phone": "03 88 47 90 35",
+    "location": "Muhlbach-sur-Bruche (67)",
+    "source": "casa-blu.fr",
+    "process_hint": "La Bruchoise indique que les commandes à emporter se font uniquement par téléphone."
+  },
+  {
+    "company": "L'Occidentale",
+    "sector": "Lieu de réception / événementiel",
+    "city": "Montauroux",
+    "department": "83",
+    "website": "https://www.loccidentale.fr/",
+    "contact_email": "directionloccidentale@gmail.com",
+    "email_verification": "verified",
+    "contact_name": "Schéhérazade",
+    "needs": [
+      "automatisation"
+    ],
+    "recommended_service": "un agent IA de pré-qualification des demandes de devis (date, convives, disponibilités, fourchette tarifaire) et de réponse rapide",
+    "demo_detail": "",
+    "custom_subject": "L'Occidentale : réponses plus rapides aux demandes de devis",
+    "custom_hook": "L'Occidentale reçoit les demandes de devis mariage/séminaire par téléphone, email ou formulaire, avec des tarifs qui varient selon la période.",
+    "notes": "Lot 3. Opportunité probable, plus prudente : un formulaire de devis existe déjà, mais la réponse (disponibilités, tarifs, devis personnalisé) reste manuelle. Responsable public : Schéhérazade (DS RECEPTION). PACA (83). Email publié sur la page contact officielle (extrait indexé).",
+    "evidences": [
+      {
+        "kind": "website_gap",
+        "source_url": "https://www.loccidentale.fr/reception-mariage-w1",
+        "quote": "Tarifs : de 800 € à 5000 € selon la période. Demander un devis par téléphone ou par email !",
+        "observed_at": "2026-11-04",
+        "detail": "Les demandes de devis passent par téléphone/email ; aucune disponibilité ni estimation instantanée n'est affichée."
+      },
+      {
+        "kind": "website_gap",
+        "source_url": "https://www.loccidentale.fr/contact",
+        "quote": "directionloccidentale@gmail.com",
+        "observed_at": "2026-11-04",
+        "detail": "Email professionnel publié sur la page contact officielle (DS RECEPTION, Montauroux)."
+      }
+    ],
+    "domain": "loccidentale.fr",
+    "phone": "04 69 00 15 35",
+    "location": "Montauroux (83)",
+    "source": "loccidentale.fr",
+    "process_hint": "L'Occidentale reçoit les demandes de devis mariage/séminaire par téléphone, email ou formulaire, avec des tarifs qui varient selon la période."
+  }
+]

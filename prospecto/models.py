@@ -18,6 +18,19 @@ EVIDENCE_PUBLIC_NEED = "public_need"        # besoin exprimé publiquement (prio
 EVIDENCE_WEBSITE_GAP = "website_gap"        # lacune vérifiée sur le site (priorité 2)
 EVIDENCE_SECTOR_OPPORTUNITY = "sector_opportunity"  # opportunité sectorielle (priorité 3)
 
+# Types de preuves ajoutés au lot 5 : ils alimentent les trois scores indépendants.
+EVIDENCE_SITE_ABSENT = "site_absent"          # aucune présence en ligne exploitable
+EVIDENCE_SITE_DOWN = "site_indisponible"      # site hors service / hébergement suspendu
+EVIDENCE_SITE_OBSOLETE = "site_obsolete"      # site daté (techno, ergonomie, mobile)
+EVIDENCE_PROCESS_MANUAL = "processus_manuel"  # processus administratif répétitif observé
+EVIDENCE_JOURNEY_GAP = "parcours_incomplet"   # parcours client cassé ou inachevé
+
+EVIDENCE_KINDS = (
+    EVIDENCE_PUBLIC_NEED, EVIDENCE_WEBSITE_GAP, EVIDENCE_SECTOR_OPPORTUNITY,
+    EVIDENCE_SITE_ABSENT, EVIDENCE_SITE_DOWN, EVIDENCE_SITE_OBSOLETE,
+    EVIDENCE_PROCESS_MANUAL, EVIDENCE_JOURNEY_GAP,
+)
+
 # Niveaux de vérification d'un email (v4) — ne jamais présenter un supposé comme vérifié.
 EMAIL_VERIFIED = "verified"                    # vérifié (source fiable / testé)
 EMAIL_PUBLIC_UNVERIFIED = "public_unverified"  # public mais non vérifié
@@ -40,11 +53,7 @@ class Evidence:
 
     def validate(self) -> list[str]:
         errors = []
-        if self.kind not in (
-            EVIDENCE_PUBLIC_NEED,
-            EVIDENCE_WEBSITE_GAP,
-            EVIDENCE_SECTOR_OPPORTUNITY,
-        ):
+        if self.kind not in EVIDENCE_KINDS:
             errors.append(f"type de preuve inconnu : {self.kind}")
         if not self.source_url:
             errors.append("preuve sans source URL")
@@ -82,6 +91,16 @@ class Prospect:
     recommended_service: str = ""  # prestation unique recommandée (formulation bénéfique)
     email_verification: str = EMAIL_PUBLIC_UNVERIFIED  # niveau de vérification de l'email (v4)
     notes: str = ""
+    # Suivi de portefeuille (lot 5).
+    lot: str = ""                       # campagne / lot de découverte
+    discovered_at: str = ""             # date de découverte (ISO)
+    email_status: str = ""              # statut du cycle email (préparé, brouillon, rebond…)
+    next_action: str = ""               # prochaine action commerciale explicite
+    scores: dict[str, Any] = field(default_factory=dict)  # 3 axes indépendants + priorité
+    commercial_priority: str = ""       # haute / moyenne / basse / a_approfondir
+    email_dns_status: str = ""          # contrôle MX du domaine (voir email_verify)
+    phone_verification: str = ""        # niveau de vérification du téléphone
+    contact_name_source: str = ""       # URL où le responsable est publié
 
     @property
     def primary_need(self) -> str | None:

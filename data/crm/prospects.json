@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-04T21:39:56+00:00",
-  "count": 50,
+  "updated_at": "2026-11-04T22:13:06+00:00",
+  "count": 57,
   "prospects": [
     {
       "company": "R Premium",
@@ -60,7 +60,14 @@
       "variant": "public_need",
       "reference_id": "groupe-bourasseau",
       "message_version": "v4",
-      "gmail_message_id": "1a1a8727fb3c7644"
+      "gmail_message_id": "1a1a8727fb3c7644",
+      "lot": "2026-11-04-lot1",
+      "discovered_at": "2026-11-04",
+      "email_status": "envoyé",
+      "next_action": "Surveiller réponse / rebond dans la boîte de réception",
+      "email_dns_status": "mx_ok",
+      "email_dns_checked_at": "2026-11-04T22:11:15+00:00",
+      "email_dns_detail": "5 MX publiés"
     },
     {
       "company": "Secteur 72",
@@ -134,7 +141,14 @@
       "variant": "public_need",
       "reference_id": "synatrap",
       "message_version": "v4",
-      "gmail_message_id": "1a1a872a52f17fd0"
+      "gmail_message_id": "1a1a872a52f17fd0",
+      "lot": "2026-11-04-lot1",
+      "discovered_at": "2026-11-04",
+      "email_status": "envoyé",
+      "next_action": "Surveiller réponse / rebond dans la boîte de réception",
+      "email_dns_status": "mx_ok",
+      "email_dns_checked_at": "2026-11-04T22:11:15+00:00",
+      "email_dns_detail": "5 MX publiés"
     },
     {
       "company": "Multitech Assistance",
@@ -146,7 +160,14 @@
       "id": "multitech-assistance",
       "created_at": "2026-11-03T21:04:42+00:00",
       "updated_at": "2026-11-03T21:04:42+00:00",
-      "email_verification": "public_unverified"
+      "email_verification": "public_unverified",
+      "lot": "historique-gmail-antérieur",
+      "discovered_at": "",
+      "email_status": "envoyé",
+      "next_action": "Surveiller réponse / rebond",
+      "email_dns_status": "mx_ok",
+      "email_dns_checked_at": "2026-11-04T22:11:15+00:00",
+      "email_dns_detail": "5 MX publiés"
     },
     {
       "company": "Garage Villedieu Automobiles",
@@ -158,7 +179,14 @@
       "id": "garage-villedieu-automobiles",
       "created_at": "2026-11-03T21:04:42+00:00",
       "updated_at": "2026-11-03T21:04:42+00:00",
-      "email_verification": "public_unverified"
+      "email_verification": "public_unverified",
+      "lot": "historique-gmail-antérieur",
+      "discovered_at": "",
+      "email_status": "envoyé",
+      "next_action": "Surveiller réponse / rebond",
+      "email_dns_status": "mx_ok",
+      "email_dns_checked_at": "2026-11-04T22:11:15+00:00",
+      "email_dns_detail": "5 MX publiés"
     },
     {
       "company": "Le Serrurier d'A Cote",
@@ -170,7 +198,14 @@
       "id": "le-serrurier-d-a-cote",
       "created_at": "2026-11-03T21:04:42+00:00",
       "updated_at": "2026-11-03T21:04:42+00:00",
-      "email_verification": "public_unverified"
+      "email_verification": "public_unverified",
+      "lot": "historique-gmail-antérieur",
+      "discovered_at": "",
+      "email_status": "envoyé",
+      "next_action": "Surveiller réponse / rebond",
+      "email_dns_status": "mx_ok",
+      "email_dns_checked_at": "2026-11-04T22:11:15+00:00",
+      "email_dns_detail": "5 MX publiés"
     },
     {
       "company": "Superchi Architectes",
@@ -182,7 +217,14 @@
       "id": "superchi-architectes",
       "created_at": "2026-11-03T21:04:42+00:00",
       "updated_at": "2026-11-03T21:04:42+00:00",
-      "email_verification": "public_unverified"
+      "email_verification": "public_unverified",
+      "lot": "historique-gmail-antérieur",
+      "discovered_at": "",
+      "email_status": "envoyé",
+      "next_action": "Surveiller réponse / rebond",
+      "email_dns_status": "mx_ok",
+      "email_dns_checked_at": "2026-11-04T22:11:15+00:00",
+      "email_dns_detail": "3 MX publiés"
     },
     {
       "company": "L'Etabli du Menuisier",
@@ -194,7 +236,14 @@
       "id": "l-etabli-du-menuisier",
       "created_at": "2026-11-03T21:04:42+00:00",
       "updated_at": "2026-11-03T21:04:42+00:00",
-      "email_verification": "public_unverified"
+      "email_verification": "public_unverified",
+      "lot": "historique-gmail-antérieur",
+      "discovered_at": "",
+      "email_status": "envoyé",
+      "next_action": "Surveiller réponse / rebond",
+      "email_dns_status": "mx_ok",
+      "email_dns_checked_at": "2026-11-04T22:11:15+00:00",
+      "email_dns_detail": "5 MX publiés"
     },
     {
       "company": "Quattro Architectes",
@@ -206,7 +255,14 @@
       "id": "quattro-architectes",
       "created_at": "2026-11-03T21:04:42+00:00",
       "updated_at": "2026-11-03T21:04:42+00:00",
-      "email_verification": "public_unverified"
+      "email_verification": "public_unverified",
+      "lot": "historique-gmail-antérieur",
+      "discovered_at": "",
+      "email_status": "envoyé",
+      "next_action": "Surveiller réponse / rebond",
+      "email_dns_status": "mx_ok",
+      "email_dns_checked_at": "2026-11-04T22:11:15+00:00",
+      "email_dns_detail": "1 MX publiés"
     },
     {
       "company": "The Architectes",
@@ -218,7 +274,14 @@
       "id": "the-architectes",
       "created_at": "2026-11-03T21:04:42+00:00",
       "updated_at": "2026-11-03T21:04:42+00:00",
-      "email_verification": "public_unverified"
+      "email_verification": "public_unverified",
+      "lot": "historique-gmail-antérieur",
+      "discovered_at": "",
+      "email_status": "envoyé",
+      "next_action": "Surveiller réponse / rebond",
+      "email_dns_status": "mx_ok",
+      "email_dns_checked_at": "2026-11-04T22:11:15+00:00",
+      "email_dns_detail": "2 MX publiés"
     },
     {
       "company": "Akla Architectes",
@@ -230,7 +293,14 @@
       "id": "akla-architectes",
       "created_at": "2026-11-03T21:04:42+00:00",
       "updated_at": "2026-11-03T21:04:42+00:00",
-      "email_verification": "public_unverified"
+      "email_verification": "public_unverified",
+      "lot": "historique-gmail-antérieur",
+      "discovered_at": "",
+      "email_status": "envoyé",
+      "next_action": "Surveiller réponse / rebond",
+      "email_dns_status": "mx_ok",
+      "email_dns_checked_at": "2026-11-04T22:11:16+00:00",
+      "email_dns_detail": "1 MX publiés"
     },
     {
       "company": "BSP Auto",
@@ -268,7 +338,7 @@
       "custom_hook": "J'ai vu votre projet de newsletter mensuelle pour vos agences de voyages clientes.",
       "custom_subject": "Votre newsletter mensuelle, en pilote automatique ?",
       "notes": "",
-      "status": "contacté",
+      "status": "auto_reply",
       "id": "bsp-auto",
       "created_at": "2026-11-03T21:13:01+00:00",
       "updated_at": "2026-11-04T21:30:00+00:00",
@@ -283,7 +353,33 @@
       "variant": "public_need",
       "reference_id": "synatrap",
       "message_version": "v4",
-      "gmail_message_id": "1a1a872c5c05ac8d"
+      "gmail_message_id": "1a1a872c5c05ac8d",
+      "lot": "2026-11-04-lot1",
+      "discovered_at": "2026-11-04",
+      "email_status": "auto_reply",
+      "next_action": "Accusé automatique reçu : attendre une réponse humaine avant toute relance",
+      "last_inbound_at": "2026-11-04T22:09:57+00:00",
+      "reply_intent": "auto_reply",
+      "reply_received": false,
+      "delivery_confirmed": true,
+      "exchange_history": [
+        {
+          "at": "2026-11-04T22:09:57+00:00",
+          "direction": "in",
+          "intent": "auto_reply",
+          "severity": "",
+          "subject": "Bsp-auto : Ticket Reçu - Votre newsletter mensuelle, en pilote automatique ?",
+          "message_id": "1a1a8773ff8d4b90",
+          "thread_id": "1a1a8773ff8d4b90",
+          "from": "resa@bsp-auto.com",
+          "recipient": "resa@bsp-auto.com",
+          "matched_by": "domaine_expediteur",
+          "excerpt": "Cher client, Votre demande a bien été prise en compte par nos services. Nous vous remercions pour votre compréhension. Cordialement, L'équipe BSP-AUTO — Dear customer, Your request has been taken into account by our services. We thank you for your understanding. Yours sincerely, The BSP-AUTO team"
+        }
+      ],
+      "email_dns_status": "mx_ok",
+      "email_dns_checked_at": "2026-11-04T22:11:16+00:00",
+      "email_dns_detail": "2 MX publiés"
     },
     {
       "company": "CERF Athletic Training",
@@ -336,7 +432,14 @@
       "variant": "synatrap_ia",
       "reference_id": "synatrap",
       "message_version": "v4",
-      "gmail_message_id": "1a1a872eb5773975"
+      "gmail_message_id": "1a1a872eb5773975",
+      "lot": "2026-11-04-lot1",
+      "discovered_at": "2026-11-04",
+      "email_status": "envoyé",
+      "next_action": "Surveiller réponse / rebond dans la boîte de réception",
+      "email_dns_status": "mx_ok",
+      "email_dns_checked_at": "2026-11-04T22:11:16+00:00",
+      "email_dns_detail": "4 MX publiés"
     },
     {
       "company": "Charme de l'Hêtre",
@@ -389,7 +492,14 @@
       "variant": "no_site",
       "reference_id": "groupe-bourasseau",
       "message_version": "v4",
-      "gmail_message_id": "1a1a87311bac39c7"
+      "gmail_message_id": "1a1a87311bac39c7",
+      "lot": "2026-11-04-lot1",
+      "discovered_at": "2026-11-04",
+      "email_status": "envoyé",
+      "next_action": "Surveiller réponse / rebond dans la boîte de réception",
+      "email_dns_status": "mx_ok",
+      "email_dns_checked_at": "2026-11-04T22:11:15+00:00",
+      "email_dns_detail": "5 MX publiés"
     },
     {
       "company": "Carot's",
@@ -431,7 +541,11 @@
       "id": "carot-s",
       "created_at": "2026-11-03T21:13:01+00:00",
       "updated_at": "2026-11-04T18:50:25+00:00",
-      "email_verification": "public_unverified"
+      "email_verification": "public_unverified",
+      "lot": "2026-11-03-v3",
+      "discovered_at": "",
+      "email_status": "non_contacté",
+      "next_action": "Coordonnées à compléter avant tout contact"
     },
     {
       "company": "Matabiau Locker Hub",
@@ -473,7 +587,11 @@
       "id": "matabiau-locker-hub",
       "created_at": "2026-11-03T21:13:01+00:00",
       "updated_at": "2026-11-04T18:50:25+00:00",
-      "email_verification": "public_unverified"
+      "email_verification": "public_unverified",
+      "lot": "2026-11-03-v3",
+      "discovered_at": "",
+      "email_status": "non_contacté",
+      "next_action": "Coordonnées à compléter avant tout contact"
     },
     {
       "company": "GELA",
@@ -515,7 +633,11 @@
       "id": "gela",
       "created_at": "2026-11-03T21:13:01+00:00",
       "updated_at": "2026-11-04T18:50:25+00:00",
-      "email_verification": "public_unverified"
+      "email_verification": "public_unverified",
+      "lot": "2026-11-03-v3",
+      "discovered_at": "",
+      "email_status": "non_contacté",
+      "next_action": "Coordonnées à compléter avant tout contact"
     },
     {
       "company": "Restaurant traditionnel des quais de Quimper",
@@ -557,7 +679,11 @@
       "status": "nouveau",
       "id": "restaurant-traditionnel-des-quais-de-quimper",
       "created_at": "2026-11-04T18:26:09+00:00",
-      "updated_at": "2026-11-04T18:28:09+00:00"
+      "updated_at": "2026-11-04T18:28:09+00:00",
+      "lot": "2026-11-04-v4",
+      "discovered_at": "",
+      "email_status": "non_contacté",
+      "next_action": "Coordonnées à compléter avant tout contact"
     },
     {
       "company": "Parfumerie indépendante de Paris",
@@ -599,7 +725,11 @@
       "status": "nouveau",
       "id": "parfumerie-ind-pendante-de-paris",
       "created_at": "2026-11-04T18:26:09+00:00",
-      "updated_at": "2026-11-04T18:28:09+00:00"
+      "updated_at": "2026-11-04T18:28:09+00:00",
+      "lot": "2026-11-04-v4",
+      "discovered_at": "",
+      "email_status": "non_contacté",
+      "next_action": "Coordonnées à compléter avant tout contact"
     },
     {
       "company": "Organisme de formation — relance prospects",
@@ -641,7 +771,11 @@
       "status": "nouveau",
       "id": "organisme-de-formation-relance-prospects",
       "created_at": "2026-11-04T18:26:09+00:00",
-      "updated_at": "2026-11-04T18:28:09+00:00"
+      "updated_at": "2026-11-04T18:28:09+00:00",
+      "lot": "2026-11-04-v4",
+      "discovered_at": "",
+      "email_status": "non_contacté",
+      "next_action": "Coordonnées à compléter avant tout contact"
     },
     {
       "company": "Activité de revente Vinted — outil IA",
@@ -683,7 +817,11 @@
       "status": "nouveau",
       "id": "activit-de-revente-vinted-outil-ia",
       "created_at": "2026-11-04T18:26:09+00:00",
-      "updated_at": "2026-11-04T18:28:09+00:00"
+      "updated_at": "2026-11-04T18:28:09+00:00",
+      "lot": "2026-11-04-v4",
+      "discovered_at": "",
+      "email_status": "non_contacté",
+      "next_action": "Coordonnées à compléter avant tout contact"
     },
     {
       "company": "Camping Mer et Camargue — Restaurant Le Pano",
@@ -741,7 +879,14 @@
         "subject": "Un agent IA pour Camping Mer et Camargue — Restaurant Le Pano ?",
         "body": "Bonjour,\n\nEn parcourant votre site (campingmeretcamargue.fr), j'ai relevé un point concret : les réservations du restaurant et des événements se font uniquement par téléphone, sans réservation en ligne.\n\nJe peux vous proposer la réservation en ligne et le traitement automatique des demandes pour votre restaurant et vos événements\n\nCôté agents IA, voici SYNATRAP, la plateforme que je développe avec mon groupe : https://synatrap.com\n\nJe peux vous montrer gratuitement une démonstration concrète de la solution envisagée, sans engagement, sur un cas réel de votre activité.\n\nCela vous dirait de la découvrir ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation web · Agents IA · Automatisation\nhttps://prospecto.website\n",
         "queue_id": "2026-11-04-v4-001"
-      }
+      },
+      "lot": "2026-11-04-v4",
+      "discovered_at": "2026-11-04",
+      "email_status": "en_attente_validation",
+      "next_action": "Valider le brouillon puis lever les blocages Gmail",
+      "email_dns_status": "mx_ok",
+      "email_dns_checked_at": "2026-11-04T22:11:16+00:00",
+      "email_dns_detail": "2 MX publiés"
     },
     {
       "company": "Fabricant de sacs à dos sur mesure",
@@ -783,7 +928,11 @@
       "status": "nouveau",
       "id": "fabricant-de-sacs-dos-sur-mesure",
       "created_at": "2026-11-04T18:50:16+00:00",
-      "updated_at": "2026-11-04T18:50:17+00:00"
+      "updated_at": "2026-11-04T18:50:17+00:00",
+      "lot": "2026-11-04-lot1",
+      "discovered_at": "",
+      "email_status": "non_contacté",
+      "next_action": "Coordonnées à compléter avant tout contact"
     },
     {
       "company": "Boutique e-commerce de produits haut de gamme",
@@ -825,7 +974,11 @@
       "status": "nouveau",
       "id": "boutique-e-commerce-de-produits-haut-de-gamme",
       "created_at": "2026-11-04T18:50:16+00:00",
-      "updated_at": "2026-11-04T18:50:17+00:00"
+      "updated_at": "2026-11-04T18:50:17+00:00",
+      "lot": "2026-11-04-lot1",
+      "discovered_at": "",
+      "email_status": "non_contacté",
+      "next_action": "Coordonnées à compléter avant tout contact"
     },
     {
       "company": "Projet de boutique Shopify (dizaine de produits)",
@@ -867,7 +1020,11 @@
       "status": "nouveau",
       "id": "projet-de-boutique-shopify-dizaine-de-produits",
       "created_at": "2026-11-04T18:50:16+00:00",
-      "updated_at": "2026-11-04T18:50:17+00:00"
+      "updated_at": "2026-11-04T18:50:17+00:00",
+      "lot": "2026-11-04-lot1",
+      "discovered_at": "",
+      "email_status": "non_contacté",
+      "next_action": "Coordonnées à compléter avant tout contact"
     },
     {
       "company": "Vente d'espaces publicitaires TV — outil IA",
@@ -909,7 +1066,11 @@
       "status": "nouveau",
       "id": "vente-d-espaces-publicitaires-tv-outil-ia",
       "created_at": "2026-11-04T18:50:16+00:00",
-      "updated_at": "2026-11-04T18:50:17+00:00"
+      "updated_at": "2026-11-04T18:50:17+00:00",
+      "lot": "2026-11-04-lot1",
+      "discovered_at": "",
+      "email_status": "non_contacté",
+      "next_action": "Coordonnées à compléter avant tout contact"
     },
     {
       "company": "Marque de soins — réponses aux commentaires",
@@ -951,7 +1112,11 @@
       "status": "nouveau",
       "id": "marque-de-soins-r-ponses-aux-commentaires",
       "created_at": "2026-11-04T18:50:16+00:00",
-      "updated_at": "2026-11-04T18:50:17+00:00"
+      "updated_at": "2026-11-04T18:50:17+00:00",
+      "lot": "2026-11-04-lot1",
+      "discovered_at": "",
+      "email_status": "non_contacté",
+      "next_action": "Coordonnées à compléter avant tout contact"
     },
     {
       "company": "Camping Le Galet",
@@ -1011,7 +1176,14 @@
         "queue_id": "2026-11-04-lancement-001",
         "gmail_draft_id": "r-8798186389434120513"
       },
-      "gmail_message_id": "1a1a8720126c3fca"
+      "gmail_message_id": "1a1a8720126c3fca",
+      "lot": "2026-11-04-lot1",
+      "discovered_at": "2026-11-04",
+      "email_status": "envoyé",
+      "next_action": "Surveiller réponse / rebond dans la boîte de réception",
+      "email_dns_status": "mx_ok",
+      "email_dns_checked_at": "2026-11-04T22:11:16+00:00",
+      "email_dns_detail": "3 MX publiés"
     },
     {
       "company": "Restaurant La Renardière",
@@ -1071,7 +1243,14 @@
         "queue_id": "2026-11-04-lancement-002",
         "gmail_draft_id": "r-1177897821053495312"
       },
-      "gmail_message_id": "1a1a87226afeb2f8"
+      "gmail_message_id": "1a1a87226afeb2f8",
+      "lot": "2026-11-04-lot1",
+      "discovered_at": "2026-11-04",
+      "email_status": "envoyé",
+      "next_action": "Surveiller réponse / rebond dans la boîte de réception",
+      "email_dns_status": "mx_ok",
+      "email_dns_checked_at": "2026-11-04T22:11:15+00:00",
+      "email_dns_detail": "5 MX publiés"
     },
     {
       "company": "Restaurant Les Santons",
@@ -1124,7 +1303,14 @@
         "queue_id": "2026-11-04-lancement-003",
         "gmail_draft_id": "r803404552435909425"
       },
-      "gmail_message_id": "1a1a8724e43b4818"
+      "gmail_message_id": "1a1a8724e43b4818",
+      "lot": "2026-11-04-lot1",
+      "discovered_at": "2026-11-04",
+      "email_status": "envoyé",
+      "next_action": "Surveiller réponse / rebond dans la boîte de réception",
+      "email_dns_status": "mx_ok",
+      "email_dns_checked_at": "2026-11-04T22:11:15+00:00",
+      "email_dns_detail": "5 MX publiés"
     },
     {
       "company": "Centre Équestre de la Renarde",
@@ -1184,7 +1370,14 @@
         "queue_id": "2026-11-04-lot2-001",
         "gmail_draft_id": "r5727304419519268391"
       },
-      "gmail_message_id": "1a1a873377151814"
+      "gmail_message_id": "1a1a873377151814",
+      "lot": "2026-11-04-lot2",
+      "discovered_at": "2026-11-04",
+      "email_status": "envoyé",
+      "next_action": "Surveiller réponse / rebond dans la boîte de réception",
+      "email_dns_status": "mx_ok",
+      "email_dns_checked_at": "2026-11-04T22:11:15+00:00",
+      "email_dns_detail": "5 MX publiés"
     },
     {
       "company": "Domaine Roche des Bancs",
@@ -1244,7 +1437,14 @@
         "queue_id": "2026-11-04-lot2-002",
         "gmail_draft_id": "r-6532114368305123947"
       },
-      "gmail_message_id": "1a1a8735852ed02a"
+      "gmail_message_id": "1a1a8735852ed02a",
+      "lot": "2026-11-04-lot2",
+      "discovered_at": "2026-11-04",
+      "email_status": "envoyé",
+      "next_action": "Surveiller réponse / rebond dans la boîte de réception",
+      "email_dns_status": "mx_ok",
+      "email_dns_checked_at": "2026-11-04T22:11:17+00:00",
+      "email_dns_detail": "5 MX publiés"
     },
     {
       "company": "Domaine Courbin Héritage",
@@ -1305,7 +1505,14 @@
         "queue_id": "2026-11-04-lot2-003",
         "gmail_draft_id": "r-1501974926925651509"
       },
-      "gmail_message_id": "1a1a8738353a1cd1"
+      "gmail_message_id": "1a1a8738353a1cd1",
+      "lot": "2026-11-04-lot2",
+      "discovered_at": "2026-11-04",
+      "email_status": "envoyé",
+      "next_action": "Surveiller réponse / rebond dans la boîte de réception",
+      "email_dns_status": "mx_ok",
+      "email_dns_checked_at": "2026-11-04T22:11:16+00:00",
+      "email_dns_detail": "2 MX publiés"
     },
     {
       "company": "iTelecom",
@@ -1359,7 +1566,14 @@
         "queue_id": "2026-11-04-lot2-004",
         "gmail_draft_id": "r-4468344804886464612"
       },
-      "gmail_message_id": "1a1a873d7bbca94b"
+      "gmail_message_id": "1a1a873d7bbca94b",
+      "lot": "2026-11-04-lot2",
+      "discovered_at": "2026-11-04",
+      "email_status": "envoyé",
+      "next_action": "Surveiller réponse / rebond dans la boîte de réception",
+      "email_dns_status": "mx_ok",
+      "email_dns_checked_at": "2026-11-04T22:11:17+00:00",
+      "email_dns_detail": "1 MX publiés"
     },
     {
       "company": "K6 Pension",
@@ -1419,7 +1633,14 @@
         "queue_id": "2026-11-04-lot2-005",
         "gmail_draft_id": "r-4359901380147314673"
       },
-      "gmail_message_id": "1a1a873f35d975df"
+      "gmail_message_id": "1a1a873f35d975df",
+      "lot": "2026-11-04-lot2",
+      "discovered_at": "2026-11-04",
+      "email_status": "envoyé",
+      "next_action": "Surveiller réponse / rebond dans la boîte de réception",
+      "email_dns_status": "mx_ok",
+      "email_dns_checked_at": "2026-11-04T22:11:17+00:00",
+      "email_dns_detail": "2 MX publiés"
     },
     {
       "company": "Séverine Lesourd — Pension & Éducation Canine",
@@ -1465,7 +1686,7 @@
       "custom_hook": "",
       "custom_subject": "",
       "notes": "Éducatrice canin comportementaliste, pension 35 places, cours + éducation + pension. Email public dans l'en-tête du site officiel.",
-      "status": "contacté",
+      "status": "rebond",
       "id": "s-verine-lesourd-pension-ducation-canine",
       "created_at": "2026-11-04T19:26:41+00:00",
       "updated_at": "2026-11-04T21:30:00+00:00",
@@ -1479,7 +1700,34 @@
         "queue_id": "2026-11-04-lot2-006",
         "gmail_draft_id": "r-8589508876597680618"
       },
-      "gmail_message_id": "1a1a87422963e03d"
+      "gmail_message_id": "1a1a87422963e03d",
+      "lot": "2026-11-04-lot2",
+      "discovered_at": "2026-11-04",
+      "email_status": "rebond",
+      "next_action": "Adresse non délivrable : corriger le domaine puis revérifier (aucun envoi)",
+      "last_inbound_at": "2026-11-04T22:09:57+00:00",
+      "reply_intent": "rebond",
+      "reply_received": false,
+      "bounce_severity": "dur",
+      "bounced_address": "contact@severine-lesourd.com",
+      "exchange_history": [
+        {
+          "at": "2026-11-04T22:09:57+00:00",
+          "direction": "in",
+          "intent": "rebond",
+          "severity": "dur",
+          "subject": "Delivery Status Notification (Failure)",
+          "message_id": "1a1a87452d7ca7c0",
+          "thread_id": "1a1a80998e3c956d",
+          "from": "mailer-daemon@googlemail.com",
+          "recipient": "contact@severine-lesourd.com",
+          "matched_by": "email_exact",
+          "excerpt": "\r\n** Adresse introuvable **\r\n\r\nVotre message n'est pas parvenu à contact@severine-lesourd.com, car le domaine severine-lesourd.com est introuvable. Vérifiez qu'il ne contient pas de fautes de frappe ni d'espaces superflus, puis réessayez.\r\n\r\nCliquez ici pour en savoir plus : https://support.google.com/mail/?p=BadRcptDomain\r\n\r\nLa réponse était :\r\n\r\nDNS Error: DNS type 'mx' lookup of severine-lesour"
+        }
+      ],
+      "email_dns_status": "nxdomain",
+      "email_dns_checked_at": "2026-11-04T22:11:17+00:00",
+      "email_dns_detail": "le domaine n'existe pas (NXDOMAIN)"
     },
     {
       "company": "Centre Cynophile de Ruy",
@@ -1539,7 +1787,14 @@
         "queue_id": "2026-11-04-lot2-007",
         "gmail_draft_id": "r-5663246394203838970"
       },
-      "gmail_message_id": "1a1a87445a8cefa4"
+      "gmail_message_id": "1a1a87445a8cefa4",
+      "lot": "2026-11-04-lot2",
+      "discovered_at": "2026-11-04",
+      "email_status": "envoyé",
+      "next_action": "Surveiller réponse / rebond dans la boîte de réception",
+      "email_dns_status": "mx_ok",
+      "email_dns_checked_at": "2026-11-04T22:11:15+00:00",
+      "email_dns_detail": "5 MX publiés"
     },
     {
       "company": "Base nautique de Picquigny",
@@ -1599,7 +1854,14 @@
         "queue_id": "2026-11-04-lot3-001"
       },
       "gmail_draft_id": "r-3787275227626326877",
-      "gmail_message_id": "1a1a874841970c60"
+      "gmail_message_id": "1a1a874841970c60",
+      "lot": "2026-11-04-lot3",
+      "discovered_at": "2026-11-04",
+      "email_status": "envoyé",
+      "next_action": "Surveiller réponse / rebond dans la boîte de réception",
+      "email_dns_status": "mx_ok",
+      "email_dns_checked_at": "2026-11-04T22:11:15+00:00",
+      "email_dns_detail": "5 MX publiés"
     },
     {
       "company": "Brasserie VDL",
@@ -1659,7 +1921,14 @@
         "queue_id": "2026-11-04-lot3-002"
       },
       "gmail_draft_id": "r-640883466194859786",
-      "gmail_message_id": "1a1a874a4fcaa4d2"
+      "gmail_message_id": "1a1a874a4fcaa4d2",
+      "lot": "2026-11-04-lot3",
+      "discovered_at": "2026-11-04",
+      "email_status": "envoyé",
+      "next_action": "Surveiller réponse / rebond dans la boîte de réception",
+      "email_dns_status": "mx_ok",
+      "email_dns_checked_at": "2026-11-04T22:11:15+00:00",
+      "email_dns_detail": "5 MX publiés"
     },
     {
       "company": "Dance Center",
@@ -1719,7 +1988,14 @@
         "queue_id": "2026-11-04-lot3-003"
       },
       "gmail_draft_id": "r-8638899377923513656",
-      "gmail_message_id": "1a1a874c31f4eb31"
+      "gmail_message_id": "1a1a874c31f4eb31",
+      "lot": "2026-11-04-lot3",
+      "discovered_at": "2026-11-04",
+      "email_status": "envoyé",
+      "next_action": "Surveiller réponse / rebond dans la boîte de réception",
+      "email_dns_status": "mx_ok",
+      "email_dns_checked_at": "2026-11-04T22:11:17+00:00",
+      "email_dns_detail": "2 MX publiés"
     },
     {
       "company": "SAM31",
@@ -1779,7 +2055,14 @@
         "queue_id": "2026-11-04-lot3-004"
       },
       "gmail_draft_id": "r-5558695767684022470",
-      "gmail_message_id": "1a1a874e162b9146"
+      "gmail_message_id": "1a1a874e162b9146",
+      "lot": "2026-11-04-lot3",
+      "discovered_at": "2026-11-04",
+      "email_status": "envoyé",
+      "next_action": "Surveiller réponse / rebond dans la boîte de réception",
+      "email_dns_status": "mx_ok",
+      "email_dns_checked_at": "2026-11-04T22:11:17+00:00",
+      "email_dns_detail": "1 MX publiés"
     },
     {
       "company": "La Bruchoise / Casa Blu",
@@ -1839,7 +2122,14 @@
         "queue_id": "2026-11-04-lot3-005"
       },
       "gmail_draft_id": "r4467495994281543374",
-      "gmail_message_id": "1a1a8751810b09c2"
+      "gmail_message_id": "1a1a8751810b09c2",
+      "lot": "2026-11-04-lot3",
+      "discovered_at": "2026-11-04",
+      "email_status": "envoyé",
+      "next_action": "Surveiller réponse / rebond dans la boîte de réception",
+      "email_dns_status": "mx_ok",
+      "email_dns_checked_at": "2026-11-04T22:11:17+00:00",
+      "email_dns_detail": "1 MX publiés"
     },
     {
       "company": "L'Occidentale",
@@ -1899,7 +2189,14 @@
         "queue_id": "2026-11-04-lot3-006"
       },
       "gmail_draft_id": "r-4581943460065111604",
-      "gmail_message_id": "1a1a8753daf0bfe6"
+      "gmail_message_id": "1a1a8753daf0bfe6",
+      "lot": "2026-11-04-lot3",
+      "discovered_at": "2026-11-04",
+      "email_status": "envoyé",
+      "next_action": "Surveiller réponse / rebond dans la boîte de réception",
+      "email_dns_status": "mx_ok",
+      "email_dns_checked_at": "2026-11-04T22:11:15+00:00",
+      "email_dns_detail": "5 MX publiés"
     },
     {
       "company": "Restaurant Le Canotier",
@@ -1959,7 +2256,14 @@
         "queue_id": "2026-11-04-lot4-001"
       },
       "qualification_tier": "haute",
-      "gmail_draft_id": "r-441106915474065912"
+      "gmail_draft_id": "r-441106915474065912",
+      "lot": "2026-11-04-lot4",
+      "discovered_at": "2026-11-04",
+      "email_status": "en_attente_validation",
+      "next_action": "Valider le brouillon puis lever les blocages Gmail",
+      "email_dns_status": "mx_ok",
+      "email_dns_checked_at": "2026-11-04T22:11:17+00:00",
+      "email_dns_detail": "4 MX publiés"
     },
     {
       "company": "Boucherie Florian",
@@ -2019,7 +2323,14 @@
         "queue_id": "2026-11-04-lot4-002"
       },
       "qualification_tier": "haute",
-      "gmail_draft_id": "r-2227193041875889795"
+      "gmail_draft_id": "r-2227193041875889795",
+      "lot": "2026-11-04-lot4",
+      "discovered_at": "2026-11-04",
+      "email_status": "en_attente_validation",
+      "next_action": "Valider le brouillon puis lever les blocages Gmail",
+      "email_dns_status": "mx_ok",
+      "email_dns_checked_at": "2026-11-04T22:11:18+00:00",
+      "email_dns_detail": "3 MX publiés"
     },
     {
       "company": "La Fromagerie Les 2 Alpes",
@@ -2079,7 +2390,14 @@
         "queue_id": "2026-11-04-lot4-003"
       },
       "qualification_tier": "haute",
-      "gmail_draft_id": "r-3261002470483516264"
+      "gmail_draft_id": "r-3261002470483516264",
+      "lot": "2026-11-04-lot4",
+      "discovered_at": "2026-11-04",
+      "email_status": "en_attente_validation",
+      "next_action": "Valider le brouillon puis lever les blocages Gmail",
+      "email_dns_status": "mx_ok",
+      "email_dns_checked_at": "2026-11-04T22:11:15+00:00",
+      "email_dns_detail": "5 MX publiés"
     },
     {
       "company": "Fromagerie et Baratte",
@@ -2138,7 +2456,14 @@
         "body": "Bonjour Brigitte,\n\nVotre site précise que « Les commandes finales de plateaux se font uniquement par téléphone ou en boutique », malgré une pré-commande de plateau.\n\nJe peux vous proposer une commande de plateaux en ligne avec créneau de retrait.\n\nÀ titre d'exemple, voici le site institutionnel que j'ai conçu pour mon groupe : https://groupebourasseau.com\n\nJe peux vous préparer gratuitement une première démonstration personnalisée, sans engagement : maquette de commande de plateaux avec choix du retrait J+1.\n\nCela vous dirait de la découvrir ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
         "queue_id": "2026-11-04-lot4-004"
       },
-      "gmail_draft_id": "r2349920759718953430"
+      "gmail_draft_id": "r2349920759718953430",
+      "lot": "2026-11-04-lot4",
+      "discovered_at": "2026-11-04",
+      "email_status": "en_attente_validation",
+      "next_action": "Valider le brouillon puis lever les blocages Gmail",
+      "email_dns_status": "mx_ok",
+      "email_dns_checked_at": "2026-11-04T22:11:18+00:00",
+      "email_dns_detail": "2 MX publiés"
     },
     {
       "company": "La Chocolatisserie",
@@ -2197,7 +2522,14 @@
         "body": "Bonjour,\n\nVotre page contact demande de « privilégier le contact par téléphone pour passer vos commandes », alors que toutes les créations sont disponibles à la commande.\n\nJe peux vous proposer un parcours de commande en ligne pour créations et gâteaux sur-mesure.\n\nÀ titre d'exemple, voici le site institutionnel que j'ai conçu pour mon groupe : https://groupebourasseau.com\n\nJe peux vous préparer gratuitement une première démonstration personnalisée, sans engagement : maquette de commande de gâteaux sur-mesure et click & collect.\n\nCela vous dirait de la découvrir ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
         "queue_id": "2026-11-04-lot4-005"
       },
-      "gmail_draft_id": "r-8188127379332518233"
+      "gmail_draft_id": "r-8188127379332518233",
+      "lot": "2026-11-04-lot4",
+      "discovered_at": "2026-11-04",
+      "email_status": "en_attente_validation",
+      "next_action": "Valider le brouillon puis lever les blocages Gmail",
+      "email_dns_status": "mx_ok",
+      "email_dns_checked_at": "2026-11-04T22:11:18+00:00",
+      "email_dns_detail": "2 MX publiés"
     },
     {
       "company": "Matproloc",
@@ -2256,7 +2588,14 @@
         "body": "Bonjour Vincent,\n\nVotre site propose un catalogue de machines et un formulaire contact, mais les devis/réservations passent encore par téléphone ou email.\n\nJe peux vous proposer un parcours de réservation de matériel en ligne avec disponibilités.\n\nÀ titre d'exemple, voici le site institutionnel que j'ai conçu pour mon groupe : https://groupebourasseau.com\n\nJe peux vous préparer gratuitement une première démonstration personnalisée, sans engagement : maquette de réservation de matériel avec créneaux et demande de devis.\n\nCela vous dirait de la découvrir ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
         "queue_id": "2026-11-04-lot4-006"
       },
-      "gmail_draft_id": "r8133168118816518162"
+      "gmail_draft_id": "r8133168118816518162",
+      "lot": "2026-11-04-lot4",
+      "discovered_at": "2026-11-04",
+      "email_status": "en_attente_validation",
+      "next_action": "Valider le brouillon puis lever les blocages Gmail",
+      "email_dns_status": "mx_ok",
+      "email_dns_checked_at": "2026-11-04T22:11:18+00:00",
+      "email_dns_detail": "5 MX publiés"
     },
     {
       "company": "Allo'cation",
@@ -2315,7 +2654,14 @@
         "body": "Bonjour,\n\nVotre formulaire de devis livraison collecte déjà dates, liste détaillée et accès, mais le traitement des disponibilités et devis reste manuel.\n\nJe peux vous proposer une automatisation des demandes de devis et de la vérification des disponibilités.\n\nCôté agents IA, voici SYNATRAP, la plateforme que je développe avec mon groupe : https://synatrap.com\n\nJe peux vous montrer gratuitement une démonstration concrète de la solution envisagée, sans engagement, sur un cas réel de votre activité.\n\nCela vous dirait de la découvrir ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
         "queue_id": "2026-11-04-lot4-007"
       },
-      "gmail_draft_id": "r6132347275537598063"
+      "gmail_draft_id": "r6132347275537598063",
+      "lot": "2026-11-04-lot4",
+      "discovered_at": "2026-11-04",
+      "email_status": "en_attente_validation",
+      "next_action": "Valider le brouillon puis lever les blocages Gmail",
+      "email_dns_status": "mx_ok",
+      "email_dns_checked_at": "2026-11-04T22:11:18+00:00",
+      "email_dns_detail": "2 MX publiés"
     },
     {
       "company": "Restaurant Goudale Orchies",
@@ -2374,7 +2720,761 @@
         "body": "Bonjour,\n\nLa page du restaurant d'Orchies indique « Réservation Uniquement par téléphone », alors que d'autres sites du groupe acceptent déjà la réservation en ligne.\n\nJe peux vous proposer une réservation en ligne pour le site d'Orchies.\n\nÀ titre d'exemple, voici le site institutionnel que j'ai conçu pour mon groupe : https://groupebourasseau.com\n\nJe peux vous préparer gratuitement une première démonstration personnalisée, sans engagement : maquette de réservation en ligne pour le restaurant d'Orchies.\n\nCela vous dirait de la découvrir ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
         "queue_id": "2026-11-04-lot4-008"
       },
-      "gmail_draft_id": "r4069016850255698710"
+      "gmail_draft_id": "r4069016850255698710",
+      "lot": "2026-11-04-lot4",
+      "discovered_at": "2026-11-04",
+      "email_status": "en_attente_validation",
+      "next_action": "Valider le brouillon puis lever les blocages Gmail",
+      "email_dns_status": "mx_ok",
+      "email_dns_checked_at": "2026-11-04T22:11:15+00:00",
+      "email_dns_detail": "5 MX publiés"
+    },
+    {
+      "company": "ATOMER",
+      "website": "http://www.atomer.fr/",
+      "domain": "atomer.fr",
+      "sector": "Organisme de formation continue / analyses et R&D industrielle",
+      "city": "Groslay",
+      "department": "95",
+      "contact_name": "",
+      "contact_role": "Laurent CANCOUËT, Directeur Général",
+      "email": "contact@atomer.fr",
+      "phone": "06 52 34 17 63",
+      "source": "",
+      "evidence": [
+        {
+          "kind": "processus_manuel",
+          "source_url": "http://www.atomer.fr/4/Bulletin_inscription_formation_ATOMER.pdf",
+          "quote": "Les inscriptions doivent être confirmées par écrit à l'aide d'un bulletin d'inscription dument complète et renvoyé par e-mail ou par courrier. En cas de bulletin incomplet, votre demande sera en attente jusqu'à l'obtention des informations nécessaires.",
+          "observed_at": "2026-11-04",
+          "detail": "L'inscription est un formulaire PDF à compléter, signer, cacheter puis renvoyer ; les dossiers incomplets sont mis en attente manuellement."
+        },
+        {
+          "kind": "processus_manuel",
+          "source_url": "http://www.atomer.fr/4/Bulletin_inscription_formation_ATOMER.pdf",
+          "quote": "A réception des inscriptions, ATOMER transmet à l'entreprise la ou les convention(s)-convocation(s) de formation confirmant la date, l'heure, le lieu de formation et les modalités pratiques, ainsi qu'un plan d'accès.",
+          "observed_at": "2026-11-04",
+          "detail": "Chaque inscription déclenche l'émission manuelle de conventions et convocations, puis de la facture, de la feuille d'émargement et de l'attestation de présence."
+        },
+        {
+          "kind": "site_obsolete",
+          "source_url": "http://www.atomer.fr/",
+          "quote": "© ATOMER 1997 - 2024 — Téléchargez notre catalogue Formations continues 2026 (v1.0) — Bulletin d'inscription",
+          "observed_at": "2026-11-04",
+          "detail": "Navigation entièrement en images GIF, mise en page en tableaux, site en HTTP, catalogue et programmes exclusivement en PDF : aucun parcours d'inscription en ligne."
+        }
+      ],
+      "publication_date": "",
+      "need": "automatisation",
+      "needs": [
+        "automatisation",
+        "refonte"
+      ],
+      "recommended_service": "un parcours d'inscription en ligne qui remplace le bulletin PDF et génère conventions, convocations et pièces de fin de formation.",
+      "email_verification": "verified",
+      "score": 70,
+      "tier": "haute",
+      "status_crm": "qualified",
+      "justification": "processus manuel documenté (+50) : http://www.atomer.fr/4/Bulletin_inscription_formation_ATOMER.pdf ; 1 lacune(s) vérifiée(s) sur le site (+20)",
+      "process_hint": "inscriptions par bulletin PDF signé renvoyé par e-mail, puis conventions-convocations, factures, feuilles d'émargement et attestations adressées par courrier électronique",
+      "demo_detail": "maquette du parcours d'inscription en ligne et démo du générateur de convention-convocation",
+      "custom_hook": "Vos conditions générales précisent que les inscriptions doivent être confirmées par un bulletin d'inscription « renvoyé par e-mail ou par courrier », et qu'un bulletin incomplet met la demande en attente.",
+      "custom_subject": "ATOMER : vos inscriptions encore par bulletin PDF ?",
+      "notes": "Lot 5. Besoin réel documenté par les CGV officielles : chaîne d'inscription entièrement documentaire (bulletin, convention-convocation, émargement, attestation). Site en tableaux et images GIF, copyright 1997-2024, catalogues et programmes uniquement en PDF. Responsable public : Laurent CANCOUËT, Directeur Général (page « Le mot du Directeur »). Adresse officielle : 13 rue de la Coque, 95410 Groslay. Seconde adresse publiée : atomer_technopole@yahoo.fr (non utilisée).",
+      "lot": "2026-11-04-lot5",
+      "discovered_at": "2026-11-04",
+      "email_status": "brouillon_créé",
+      "next_action": "Valider le brouillon dans Gmail ; envoi bloqué (enabled=false, DKIM absent, gmail.com)",
+      "scores": {
+        "site_web": {
+          "axis": "site_web",
+          "score": 5,
+          "level": "faible",
+          "reasons": [
+            "un site est déjà en ligne : pas de création à proprement parler",
+            "aucune preuve directe sur cet axe : score volontairement bas"
+          ]
+        },
+        "refonte": {
+          "axis": "refonte",
+          "score": 55,
+          "level": "moyen",
+          "reasons": [
+            "site existant à moderniser",
+            "+50 site_obsolete : « © ATOMER 1997 - 2024 — Téléchargez notre catalogue Formations continues 2026 (v1.0) — Bulletin d'inscription » (http://www.atomer.fr/)"
+          ]
+        },
+        "ia_automatisation": {
+          "axis": "ia_automatisation",
+          "score": 100,
+          "level": "fort",
+          "reasons": [
+            "processus concret observé : inscriptions par bulletin PDF signé renvoyé par e-mail, puis conventions-convocations, factures, feuilles d'émargement e",
+            "+60 processus_manuel : « Les inscriptions doivent être confirmées par écrit à l'aide d'un bulletin d'inscription dument complète et … » (http://www.atomer.fr/4/Bulletin_inscription_formation_ATOMER.pdf)",
+            "+60 processus_manuel : « A réception des inscriptions, ATOMER transmet à l'entreprise la ou les convention(s)-convocation(s) de form… » (http://www.atomer.fr/4/Bulletin_inscription_formation_ATOMER.pdf)"
+          ]
+        },
+        "priority": "haute",
+        "best_axis": "ia_automatisation"
+      },
+      "commercial_priority": "haute",
+      "email_dns_status": "mx_ok",
+      "phone_verification": "verified",
+      "contact_name_source": "http://www.atomer.fr/3/3a.html",
+      "status": "brouillon_créé",
+      "id": "atomer",
+      "created_at": "2026-11-04T22:08:05+00:00",
+      "updated_at": "2026-11-04T22:08:42+00:00",
+      "campaign": "2026-11-04-lot5",
+      "variant": "synatrap_ia",
+      "reference_id": "synatrap",
+      "message_version": "v4",
+      "proposed_email": {
+        "subject": "ATOMER : vos inscriptions encore par bulletin PDF ?",
+        "body": "Bonjour,\n\nVos conditions générales précisent que les inscriptions doivent être confirmées par un bulletin d'inscription « renvoyé par e-mail ou par courrier », et qu'un bulletin incomplet met la demande en attente.\n\nJe peux vous proposer un parcours d'inscription en ligne qui remplace le bulletin PDF et génère conventions, convocations et pièces de fin de formation.\n\nCôté agents IA, voici SYNATRAP, la plateforme que je développe avec mon groupe : https://synatrap.com\n\nJe peux vous préparer gratuitement une maquette du parcours d'inscription et une démonstration du générateur de convention-convocation, sans engagement.\n\nSeriez-vous disponible pour un court échange là-dessus ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+        "queue_id": "2026-11-04-lot5-001"
+      },
+      "gmail_draft_id": "r-3672069521747812245",
+      "gmail_message_id": "1a1a89d0cf0cdd0e",
+      "gmail_thread_id": "1a1a89d0cf0cdd0e",
+      "gmail_label": "Prospection/2026-11-04-lot5",
+      "email_dns_checked_at": "2026-11-04T22:11:18+00:00",
+      "email_dns_detail": "1 MX publiés"
+    },
+    {
+      "company": "NETTOYAGE INDUSTRIEL",
+      "website": "https://www.nettoyage-industriel39.com/",
+      "domain": "nettoyage-industriel39.com",
+      "sector": "Propreté industrielle et services aux entreprises",
+      "city": "Lons-le-Saunier",
+      "department": "39",
+      "contact_name": "",
+      "contact_role": "Michael Rigaud (contact publié sur la page Contact)",
+      "email": "nettoyage.industriel@wanadoo.fr",
+      "phone": "03 84 86 01 50",
+      "source": "",
+      "evidence": [
+        {
+          "kind": "website_gap",
+          "source_url": "https://www.nettoyage-industriel39.com/contact/",
+          "quote": "Formulaire de contact — Nom: * Adresse email: * Message: * Captcha (code anti-spam) *",
+          "observed_at": "2026-11-04",
+          "detail": "Le seul canal en ligne est un formulaire de message libre protégé par captcha image : aucune qualification du besoin (surface, fréquence, nature des locaux) n'est demandée."
+        },
+        {
+          "kind": "site_obsolete",
+          "source_url": "https://www.nettoyage-industriel39.com/",
+          "quote": "Affichage Web  Affichage Mobile — Connexion — Déconnexion | Modifier",
+          "observed_at": "2026-11-04",
+          "detail": "Site généré par un éditeur d'hébergeur avec bascule manuelle entre version web et mobile, et liens d'administration laissés publics en pied de page."
+        },
+        {
+          "kind": "public_need",
+          "source_url": "https://www.nettoyage-industriel39.com/",
+          "quote": "Nos responsables de chantier répartis sur le département du JURA, sont présents au quotidien chez nos clients pour s'assurer de la qualité de nos prestations dans vos locaux.",
+          "observed_at": "2026-11-04",
+          "detail": "Organisation en chantiers récurrents suivis par des responsables : le suivi qualité et la planification sont des tâches répétitives."
+        }
+      ],
+      "publication_date": "",
+      "need": "refonte",
+      "needs": [
+        "refonte",
+        "automatisation"
+      ],
+      "recommended_service": "une demande de devis en ligne qui qualifie la surface, la fréquence et le type de locaux avant votre rappel.",
+      "email_verification": "verified",
+      "score": 90,
+      "tier": "haute",
+      "status_crm": "qualified",
+      "justification": "besoin exprimé publiquement (+50) : https://www.nettoyage-industriel39.com/ ; 2 lacune(s) vérifiée(s) sur le site (+40)",
+      "process_hint": "demandes entrantes par formulaire libre ou téléphone, sans pré-qualification, pour des prestations récurrentes en locaux industriels et tertiaires",
+      "demo_detail": "maquette du formulaire de devis qualifié (type de locaux, surface, fréquence) et démo du récapitulatif automatique",
+      "custom_hook": "Votre page Contact ne propose qu'un formulaire libre « Nom, Adresse email, Message » avec un captcha, sans aucune question sur la surface, la fréquence ou le type de locaux à entretenir.",
+      "custom_subject": "Nettoyage Industriel : qualifier vos demandes de devis",
+      "notes": "Lot 5. Opportunité probable : entreprise B2B depuis 1995, prestations récurrentes (agro-alimentaire, plastique, mécanique, bureaux, hôtels), donc devis et plannings répétitifs. Site construit avec l'éditeur IONOS MyWebsite, bascule manuelle « Affichage Web / Affichage Mobile » et liens d'administration encore visibles en pied de page. Responsable public : Michael Rigaud.",
+      "lot": "2026-11-04-lot5",
+      "discovered_at": "2026-11-04",
+      "email_status": "brouillon_créé",
+      "next_action": "Valider le brouillon dans Gmail ; envoi bloqué (enabled=false, DKIM absent, gmail.com)",
+      "scores": {
+        "site_web": {
+          "axis": "site_web",
+          "score": 5,
+          "level": "faible",
+          "reasons": [
+            "un site est déjà en ligne : pas de création à proprement parler",
+            "aucune preuve directe sur cet axe : score volontairement bas"
+          ]
+        },
+        "refonte": {
+          "axis": "refonte",
+          "score": 85,
+          "level": "fort",
+          "reasons": [
+            "site existant à moderniser",
+            "+30 website_gap : « Formulaire de contact — Nom: * Adresse email: * Message: * Captcha (code anti-spam) * » (https://www.nettoyage-industriel39.com/contact/)",
+            "+50 site_obsolete : « Affichage Web  Affichage Mobile — Connexion — Déconnexion | Modifier » (https://www.nettoyage-industriel39.com/)"
+          ]
+        },
+        "ia_automatisation": {
+          "axis": "ia_automatisation",
+          "score": 40,
+          "level": "moyen",
+          "reasons": [
+            "processus concret observé : demandes entrantes par formulaire libre ou téléphone, sans pré-qualification, pour des prestations récurrentes en locaux",
+            "+30 public_need : « Nos responsables de chantier répartis sur le département du JURA, sont présents au quotidien chez nos clien… » (https://www.nettoyage-industriel39.com/)"
+          ]
+        },
+        "priority": "haute",
+        "best_axis": "refonte"
+      },
+      "commercial_priority": "haute",
+      "email_dns_status": "mx_ok",
+      "phone_verification": "verified",
+      "contact_name_source": "https://www.nettoyage-industriel39.com/contact/",
+      "status": "brouillon_créé",
+      "id": "nettoyage-industriel",
+      "created_at": "2026-11-04T22:08:05+00:00",
+      "updated_at": "2026-11-04T22:08:42+00:00",
+      "campaign": "2026-11-04-lot5",
+      "variant": "public_need",
+      "reference_id": "groupe-bourasseau",
+      "message_version": "v4",
+      "proposed_email": {
+        "subject": "Nettoyage Industriel : qualifier vos demandes de devis",
+        "body": "Bonjour,\n\nVotre page Contact ne propose qu'un formulaire libre « Nom, Adresse email, Message » avec un captcha, sans aucune question sur la surface, la fréquence ou le type de locaux à entretenir.\n\nJe peux vous proposer une demande de devis en ligne qui qualifie la surface, la fréquence et le type de locaux avant votre rappel.\n\nÀ titre d'exemple, voici le site institutionnel de mon groupe : https://groupebourasseau.com\n\nJe peux vous préparer gratuitement une première démonstration personnalisée, sans engagement : maquette du formulaire de devis qualifié (type de locaux, surface, fréquence) et démo du récapitulatif automatique.\n\nUn aperçu vous intéresserait ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+        "queue_id": "2026-11-04-lot5-002"
+      },
+      "gmail_draft_id": "r-2030763522328067709",
+      "gmail_message_id": "1a1a89d18d7866e1",
+      "gmail_thread_id": "1a1a89d18d7866e1",
+      "gmail_label": "Prospection/2026-11-04-lot5",
+      "email_dns_checked_at": "2026-11-04T22:11:18+00:00",
+      "email_dns_detail": "2 MX publiés"
+    },
+    {
+      "company": "Vignerons et Caviste",
+      "website": "https://vignerons-et-caviste.fr/",
+      "domain": "vignerons-et-caviste.fr",
+      "sector": "Caviste / ateliers d'œnologie",
+      "city": "Paris",
+      "department": "75",
+      "contact_name": "",
+      "contact_role": "Stéphane (accueil boutique, prénom publié sur le site)",
+      "email": "vigneronsetcaviste@gmail.com",
+      "phone": "07 62 18 14 45",
+      "source": "",
+      "evidence": [
+        {
+          "kind": "parcours_incomplet",
+          "source_url": "https://vignerons-et-caviste.fr/",
+          "quote": "IMPORTANT : Avant toute réservation en ligne, merci de nous écrire un mail au préalable ou de nous contacter par téléphone pour s'assurer des disponibilités -sur vigneronsetcaviste@gmail.com ou au 0762181445.",
+          "observed_at": "2026-11-04",
+          "detail": "La réservation en ligne des cours d'œnologie est conditionnée à un échange manuel préalable : le calendrier et les places ne sont pas synchronisés."
+        },
+        {
+          "kind": "website_gap",
+          "source_url": "https://vignerons-et-caviste.fr/",
+          "quote": "25.00€ — 2 en stock — quantité de Cours d'œnologie mensuel - niveau 1 — Ajouter au panier",
+          "observed_at": "2026-11-04",
+          "detail": "L'atelier est vendu comme un produit en stock, sans date ni créneau : le système de vente ne gère pas la réservation par session."
+        }
+      ],
+      "publication_date": "",
+      "need": "refonte",
+      "needs": [
+        "refonte",
+        "automatisation"
+      ],
+      "recommended_service": "un module de réservation des cours d'œnologie qui affiche les places réellement disponibles.",
+      "email_verification": "verified",
+      "score": 50,
+      "tier": "moyenne",
+      "status_crm": "a_revoir",
+      "justification": "parcours client incomplet (+30) : https://vignerons-et-caviste.fr/ ; 1 lacune(s) vérifiée(s) sur le site (+20)",
+      "process_hint": "disponibilités des cours d'œnologie vérifiées à la main par mail ou téléphone avant chaque achat en ligne",
+      "demo_detail": "maquette du calendrier de réservation des cours d'œnologie avec places restantes en temps réel",
+      "custom_hook": "Votre page indique qu'avant toute réservation en ligne il faut d'abord vous écrire ou vous appeler « pour s'assurer des disponibilités », alors que le panier affiche déjà un stock.",
+      "custom_subject": "Vos cours d'œnologie : réserver sans appeler ?",
+      "notes": "Lot 5. Besoin réel : le parcours de réservation est cassé — la boutique en ligne existe (WooCommerce) mais l'atelier impose une confirmation manuelle préalable. Deux prénoms publiés : Stéphane (accueil) et Raphaël (préparation des cartons) ; aucun nom de famille publié, donc salutation neutre.",
+      "lot": "2026-11-04-lot5",
+      "discovered_at": "2026-11-04",
+      "email_status": "brouillon_créé",
+      "next_action": "Valider le brouillon dans Gmail ; envoi bloqué (enabled=false, DKIM absent, gmail.com)",
+      "scores": {
+        "site_web": {
+          "axis": "site_web",
+          "score": 5,
+          "level": "faible",
+          "reasons": [
+            "un site est déjà en ligne : pas de création à proprement parler",
+            "aucune preuve directe sur cet axe : score volontairement bas"
+          ]
+        },
+        "refonte": {
+          "axis": "refonte",
+          "score": 75,
+          "level": "fort",
+          "reasons": [
+            "site existant à moderniser",
+            "+40 parcours_incomplet : « IMPORTANT : Avant toute réservation en ligne, merci de nous écrire un mail au préalable ou de nous contacte… » (https://vignerons-et-caviste.fr/)",
+            "+30 website_gap : « 25.00€ — 2 en stock — quantité de Cours d'œnologie mensuel - niveau 1 — Ajouter au panier » (https://vignerons-et-caviste.fr/)"
+          ]
+        },
+        "ia_automatisation": {
+          "axis": "ia_automatisation",
+          "score": 30,
+          "level": "faible",
+          "reasons": [
+            "processus concret observé : disponibilités des cours d'œnologie vérifiées à la main par mail ou téléphone avant chaque achat en ligne",
+            "+20 parcours_incomplet : « IMPORTANT : Avant toute réservation en ligne, merci de nous écrire un mail au préalable ou de nous contacte… » (https://vignerons-et-caviste.fr/)"
+          ]
+        },
+        "priority": "haute",
+        "best_axis": "refonte"
+      },
+      "commercial_priority": "haute",
+      "email_dns_status": "mx_ok",
+      "phone_verification": "verified",
+      "contact_name_source": "https://vignerons-et-caviste.fr/",
+      "status": "brouillon_créé",
+      "id": "vignerons-et-caviste",
+      "created_at": "2026-11-04T22:08:05+00:00",
+      "updated_at": "2026-11-04T22:08:42+00:00",
+      "campaign": "2026-11-04-lot5",
+      "variant": "refonte",
+      "reference_id": "groupe-bourasseau",
+      "message_version": "v4",
+      "proposed_email": {
+        "subject": "Vos cours d'œnologie : réserver sans appeler ?",
+        "body": "Bonjour,\n\nVotre page indique qu'avant toute réservation en ligne il faut d'abord vous écrire ou vous appeler « pour s'assurer des disponibilités », alors que le panier affiche déjà un stock.\n\nJe peux vous proposer un module de réservation des cours d'œnologie qui affiche les places réellement disponibles.\n\nÀ titre d'exemple, voici le site institutionnel de mon groupe : https://groupebourasseau.com\n\nJe vous prépare gratuitement une maquette du calendrier de vos cours d'œnologie, avec les places restantes par session, sans engagement.\n\nPuis-je vous montrer à quoi cela ressemblerait ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+        "queue_id": "2026-11-04-lot5-003"
+      },
+      "gmail_draft_id": "r-7012393960743457622",
+      "gmail_message_id": "1a1a89d241a60252",
+      "gmail_thread_id": "1a1a89d241a60252",
+      "gmail_label": "Prospection/2026-11-04-lot5",
+      "email_dns_checked_at": "2026-11-04T22:11:15+00:00",
+      "email_dns_detail": "5 MX publiés"
+    },
+    {
+      "company": "La Caviste",
+      "website": "https://www.lacavistelh.fr/",
+      "domain": "lacavistelh.fr",
+      "sector": "Caviste indépendant",
+      "city": "Le Havre",
+      "department": "76",
+      "contact_name": "Frédérique",
+      "contact_role": "Frédérique Lecaudé, fondatrice et Maître Caviste",
+      "email": "boutique@lacaviste.fr",
+      "phone": "09 83 87 48 08",
+      "source": "",
+      "evidence": [
+        {
+          "kind": "parcours_incomplet",
+          "source_url": "https://www.lacavistelh.fr/nous-contacter/",
+          "quote": "Nous donnons très peu de renseignements par téléphone, car nous privilégions le service des clients en boutique. N'hésitez pas à venir nous rencontrer pour préparer plus aisément vos demandes spéciales.",
+          "observed_at": "2026-11-04",
+          "detail": "Le téléphone est volontairement peu utilisé et aucune commande en ligne n'existe : les demandes spéciales passent par e-mail ou par un déplacement."
+        },
+        {
+          "kind": "website_gap",
+          "source_url": "https://www.lacavistelh.fr/",
+          "quote": "Vous recherchez une bouteille en particulier ? Vous avez besoin d'un avis, un conseil ou de plus de renseignements ? N'hésitez pas à nous contacter par mail !",
+          "observed_at": "2026-11-04",
+          "detail": "Site vitrine sans panier, sans click & collect et sans réservation de dégustation : tout revient à un échange d'emails."
+        }
+      ],
+      "publication_date": "",
+      "need": "refonte",
+      "needs": [
+        "refonte",
+        "automatisation"
+      ],
+      "recommended_service": "un module de commande à préparer en boutique, pour traiter les demandes sans échange d'emails aller-retour.",
+      "email_verification": "verified",
+      "score": 55,
+      "tier": "moyenne",
+      "status_crm": "a_revoir",
+      "justification": "parcours client incomplet (+30) : https://www.lacavistelh.fr/nous-contacter/ ; 1 lacune(s) vérifiée(s) sur le site (+20) ; prénom du contact connu (+5)",
+      "process_hint": "demandes spéciales et préparations de commandes traitées par e-mail ou via un formulaire libre, sans commande en ligne",
+      "demo_detail": "maquette d'une commande à préparer en boutique (click & collect) reliée à votre sélection",
+      "custom_hook": "Votre page contact précise que vous donnez très peu de renseignements par téléphone pour privilégier le service en boutique, et invite à passer par mail pour toute demande particulière.",
+      "custom_subject": "La Caviste : vos commandes préparées sans emails",
+      "notes": "Lot 5. Opportunité probable : caviste indépendant distingué Maître Caviste 2022, site vitrine Jimdo sans aucune vente ni réservation en ligne ; les demandes spéciales sont traitées par e-mail. Le domaine de l'adresse email (lacaviste.fr) diffère du domaine du site (lacavistelh.fr) : les deux ont été contrôlés, MX valides. Responsable public : Frédérique Lecaudé.",
+      "lot": "2026-11-04-lot5",
+      "discovered_at": "2026-11-04",
+      "email_status": "brouillon_créé",
+      "next_action": "Valider le brouillon dans Gmail ; envoi bloqué (enabled=false, DKIM absent, gmail.com)",
+      "scores": {
+        "site_web": {
+          "axis": "site_web",
+          "score": 5,
+          "level": "faible",
+          "reasons": [
+            "un site est déjà en ligne : pas de création à proprement parler",
+            "aucune preuve directe sur cet axe : score volontairement bas"
+          ]
+        },
+        "refonte": {
+          "axis": "refonte",
+          "score": 75,
+          "level": "fort",
+          "reasons": [
+            "site existant à moderniser",
+            "+40 parcours_incomplet : « Nous donnons très peu de renseignements par téléphone, car nous privilégions le service des clients en bout… » (https://www.lacavistelh.fr/nous-contacter/)",
+            "+30 website_gap : « Vous recherchez une bouteille en particulier ? Vous avez besoin d'un avis, un conseil ou de plus de renseig… » (https://www.lacavistelh.fr/)"
+          ]
+        },
+        "ia_automatisation": {
+          "axis": "ia_automatisation",
+          "score": 30,
+          "level": "faible",
+          "reasons": [
+            "processus concret observé : demandes spéciales et préparations de commandes traitées par e-mail ou via un formulaire libre, sans commande en ligne",
+            "+20 parcours_incomplet : « Nous donnons très peu de renseignements par téléphone, car nous privilégions le service des clients en bout… » (https://www.lacavistelh.fr/nous-contacter/)"
+          ]
+        },
+        "priority": "haute",
+        "best_axis": "refonte"
+      },
+      "commercial_priority": "haute",
+      "email_dns_status": "mx_ok",
+      "phone_verification": "verified",
+      "contact_name_source": "https://www.lacavistelh.fr/",
+      "status": "brouillon_créé",
+      "id": "la-caviste",
+      "created_at": "2026-11-04T22:08:05+00:00",
+      "updated_at": "2026-11-04T22:08:42+00:00",
+      "campaign": "2026-11-04-lot5",
+      "variant": "refonte",
+      "reference_id": "groupe-bourasseau",
+      "message_version": "v4",
+      "proposed_email": {
+        "subject": "La Caviste : vos commandes préparées sans emails",
+        "body": "Bonjour Frédérique,\n\nVotre page contact précise que vous donnez très peu de renseignements par téléphone pour privilégier le service en boutique, et invite à passer par mail pour toute demande particulière.\n\nJe peux vous proposer un module de commande à préparer en boutique, pour traiter les demandes sans échange d'emails aller-retour.\n\nÀ titre d'exemple, voici le site institutionnel de mon groupe : https://groupebourasseau.com\n\nJe peux vous envoyer gratuitement une maquette de commande à préparer en boutique, sans engagement : vous me dites si cela vous ressemble.\n\nSouhaitez-vous que je vous prépare cet aperçu ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+        "queue_id": "2026-11-04-lot5-004"
+      },
+      "gmail_draft_id": "r-3517500887937529637",
+      "gmail_message_id": "1a1a89d2e929da56",
+      "gmail_thread_id": "1a1a89d2e929da56",
+      "gmail_label": "Prospection/2026-11-04-lot5",
+      "email_dns_checked_at": "2026-11-04T22:11:18+00:00",
+      "email_dns_detail": "1 MX publiés"
+    },
+    {
+      "company": "ALPHA MECANIQUE",
+      "website": "https://www.alphamecanique.fr/",
+      "domain": "alphamecanique.fr",
+      "sector": "Usinage de précision / sous-traitance industrielle",
+      "city": "Vénissieux",
+      "department": "69",
+      "contact_name": "",
+      "contact_role": "",
+      "email": "contact@alphamecanique.fr",
+      "phone": "04 72 90 87 00",
+      "source": "",
+      "evidence": [
+        {
+          "kind": "processus_manuel",
+          "source_url": "https://www.alphamecanique.fr/",
+          "quote": "Dès réception de vos plans, nous analysons les dimensions, les tolérances, la matière, les traitements de surface et les quantités pour vous établir un devis précis et rapide.",
+          "observed_at": "2026-11-04",
+          "detail": "Chaque demande de devis impose une lecture manuelle du plan et la vérification d'un jeu fixe d'informations (dimensions, tolérances, matière, traitements, quantités)."
+        },
+        {
+          "kind": "processus_manuel",
+          "source_url": "https://www.alphamecanique.fr/",
+          "quote": "Nous vous envoyons votre devis rapidement, généralement sous 24 à 48h. Le client nous envoie sa commande et nous démarrons la fabrication.",
+          "observed_at": "2026-11-04",
+          "detail": "Le cycle devis puis commande se fait par retour d'e-mail, sans accusé de réception automatisé ni relance des devis sans réponse."
+        }
+      ],
+      "publication_date": "",
+      "need": "automatisation",
+      "needs": [
+        "automatisation"
+      ],
+      "recommended_service": "un assistant qui réceptionne les plans, vérifie qu'il ne manque rien et prépare la trame du devis.",
+      "email_verification": "verified",
+      "score": 50,
+      "tier": "haute",
+      "status_crm": "qualified",
+      "justification": "processus manuel documenté (+50) : https://www.alphamecanique.fr/",
+      "process_hint": "réception des plans par e-mail, analyse manuelle des tolérances/matière/quantités, devis sous 24 à 48 h, commande par retour",
+      "demo_detail": "démo d'un assistant de réception de plans qui contrôle les informations manquantes avant chiffrage",
+      "custom_hook": "Votre site décrit le chiffrage « dès réception de vos plans », avec analyse des tolérances, de la matière et des quantités, puis un devis sous 24 à 48 h.",
+      "custom_subject": "Alpha Mécanique : vos demandes de devis sur plans",
+      "notes": "Lot 5. Besoin réel : le processus de devis est décrit publiquement, étape par étape, et repose entièrement sur des échanges d'emails. Aucun responsable nommé n'est publié sur le site : salutation neutre. Le site est correct : le besoin n'est pas une refonte mais l'automatisation du flux entrant.",
+      "lot": "2026-11-04-lot5",
+      "discovered_at": "2026-11-04",
+      "email_status": "brouillon_créé",
+      "next_action": "Valider le brouillon dans Gmail ; envoi bloqué (enabled=false, DKIM absent, gmail.com)",
+      "scores": {
+        "site_web": {
+          "axis": "site_web",
+          "score": 5,
+          "level": "faible",
+          "reasons": [
+            "un site est déjà en ligne : pas de création à proprement parler",
+            "aucune preuve directe sur cet axe : score volontairement bas"
+          ]
+        },
+        "refonte": {
+          "axis": "refonte",
+          "score": 5,
+          "level": "faible",
+          "reasons": [
+            "site existant à moderniser",
+            "aucune preuve directe sur cet axe : score volontairement bas"
+          ]
+        },
+        "ia_automatisation": {
+          "axis": "ia_automatisation",
+          "score": 100,
+          "level": "fort",
+          "reasons": [
+            "processus concret observé : réception des plans par e-mail, analyse manuelle des tolérances/matière/quantités, devis sous 24 à 48 h, commande par re",
+            "+60 processus_manuel : « Dès réception de vos plans, nous analysons les dimensions, les tolérances, la matière, les traitements de s… » (https://www.alphamecanique.fr/)",
+            "+60 processus_manuel : « Nous vous envoyons votre devis rapidement, généralement sous 24 à 48h. Le client nous envoie sa commande et… » (https://www.alphamecanique.fr/)"
+          ]
+        },
+        "priority": "haute",
+        "best_axis": "ia_automatisation"
+      },
+      "commercial_priority": "haute",
+      "email_dns_status": "mx_ok",
+      "phone_verification": "verified",
+      "contact_name_source": "",
+      "status": "brouillon_créé",
+      "id": "alpha-mecanique",
+      "created_at": "2026-11-04T22:08:05+00:00",
+      "updated_at": "2026-11-04T22:08:42+00:00",
+      "campaign": "2026-11-04-lot5",
+      "variant": "synatrap_ia",
+      "reference_id": "synatrap",
+      "message_version": "v4",
+      "proposed_email": {
+        "subject": "Alpha Mécanique : vos demandes de devis sur plans",
+        "body": "Bonjour,\n\nVotre site décrit le chiffrage « dès réception de vos plans », avec analyse des tolérances, de la matière et des quantités, puis un devis sous 24 à 48 h.\n\nJe peux vous proposer un assistant qui réceptionne les plans, vérifie qu'il ne manque rien et prépare la trame du devis.\n\nCôté agents IA, voici SYNATRAP, la plateforme que je développe avec mon groupe : https://synatrap.com\n\nJe peux vous montrer gratuitement une démonstration sur un de vos cas types, sans engagement : réception du plan, contrôle des informations manquantes, trame de devis.\n\nEst-ce un sujet d'actualité chez vous ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+        "queue_id": "2026-11-04-lot5-005"
+      },
+      "gmail_draft_id": "r9082772945695603666",
+      "gmail_message_id": "1a1a89d45029f782",
+      "gmail_thread_id": "1a1a89d45029f782",
+      "gmail_label": "Prospection/2026-11-04-lot5",
+      "email_dns_checked_at": "2026-11-04T22:11:18+00:00",
+      "email_dns_detail": "2 MX publiés"
+    },
+    {
+      "company": "SARL Ambulances Sainte-Marie",
+      "website": "https://ambulances-sainte-marie.fr/",
+      "domain": "ambulances-sainte-marie.fr",
+      "sector": "Transport sanitaire / services aux établissements de santé",
+      "city": "Couzeix",
+      "department": "87",
+      "contact_name": "",
+      "contact_role": "Christophe Duprat, fondateur (1990)",
+      "email": "ambulancestemarie@gmail.com",
+      "phone": "05 55 36 45 83",
+      "source": "",
+      "evidence": [
+        {
+          "kind": "processus_manuel",
+          "source_url": "https://ambulances-sainte-marie.fr/",
+          "quote": "Gestion des demandes d'\"entente au préalable\" — Tiers payant et mutuelles — 20 employés — 12 véhicules",
+          "observed_at": "2026-11-04",
+          "detail": "L'entreprise assume publiquement la constitution des dossiers d'entente préalable et la gestion du tiers payant pour une flotte de 12 véhicules : tâches administratives répétitives."
+        },
+        {
+          "kind": "website_gap",
+          "source_url": "https://ambulances-sainte-marie.fr/",
+          "quote": "Votre demande* Ambulance Taxi VSL — Message — Combien font deux plus dix",
+          "observed_at": "2026-11-04",
+          "detail": "Le formulaire ne collecte que le choix du véhicule et un message libre, avec une question anti-spam : aucune pré-qualification de la demande ni créneau souhaité."
+        }
+      ],
+      "publication_date": "",
+      "need": "automatisation",
+      "needs": [
+        "automatisation",
+        "refonte"
+      ],
+      "recommended_service": "un assistant qui trie les demandes de transport et prépare les dossiers d'entente préalable.",
+      "email_verification": "verified",
+      "score": 70,
+      "tier": "haute",
+      "status_crm": "qualified",
+      "justification": "processus manuel documenté (+50) : https://ambulances-sainte-marie.fr/ ; 1 lacune(s) vérifiée(s) sur le site (+20)",
+      "process_hint": "demandes de transport par formulaire libre ou téléphone, puis constitution des dossiers d'entente préalable et gestion du tiers payant",
+      "demo_detail": "démo d'un assistant de tri des demandes de transport et de préparation des dossiers d'entente préalable",
+      "custom_hook": "Votre site met en avant la gestion des demandes d'entente au préalable et du tiers payant, alors que le formulaire en ligne ne demande que le type de véhicule et un message libre.",
+      "custom_subject": "Ambulances Sainte-Marie : vos ententes préalables",
+      "notes": "Lot 5. Opportunité probable : 20 salariés et 12 véhicules, donc un volume administratif régulier. Aucune donnée de santé n'est collectée ni traitée : seules des informations publiques de l'entreprise sont utilisées. Responsable public : Christophe Duprat, fondateur.",
+      "lot": "2026-11-04-lot5",
+      "discovered_at": "2026-11-04",
+      "email_status": "brouillon_créé",
+      "next_action": "Valider le brouillon dans Gmail ; envoi bloqué (enabled=false, DKIM absent, gmail.com)",
+      "scores": {
+        "site_web": {
+          "axis": "site_web",
+          "score": 5,
+          "level": "faible",
+          "reasons": [
+            "un site est déjà en ligne : pas de création à proprement parler",
+            "aucune preuve directe sur cet axe : score volontairement bas"
+          ]
+        },
+        "refonte": {
+          "axis": "refonte",
+          "score": 35,
+          "level": "faible",
+          "reasons": [
+            "site existant à moderniser",
+            "+30 website_gap : « Votre demande* Ambulance Taxi VSL — Message — Combien font deux plus dix » (https://ambulances-sainte-marie.fr/)"
+          ]
+        },
+        "ia_automatisation": {
+          "axis": "ia_automatisation",
+          "score": 70,
+          "level": "fort",
+          "reasons": [
+            "processus concret observé : demandes de transport par formulaire libre ou téléphone, puis constitution des dossiers d'entente préalable et gestion d",
+            "+60 processus_manuel : « Gestion des demandes d'\"entente au préalable\" — Tiers payant et mutuelles — 20 employés — 12 véhicules » (https://ambulances-sainte-marie.fr/)"
+          ]
+        },
+        "priority": "haute",
+        "best_axis": "ia_automatisation"
+      },
+      "commercial_priority": "haute",
+      "email_dns_status": "mx_ok",
+      "phone_verification": "verified",
+      "contact_name_source": "https://ambulances-sainte-marie.fr/",
+      "status": "brouillon_créé",
+      "id": "sarl-ambulances-sainte-marie",
+      "created_at": "2026-11-04T22:08:05+00:00",
+      "updated_at": "2026-11-04T22:08:42+00:00",
+      "campaign": "2026-11-04-lot5",
+      "variant": "synatrap_ia",
+      "reference_id": "synatrap",
+      "message_version": "v4",
+      "proposed_email": {
+        "subject": "Ambulances Sainte-Marie : vos ententes préalables",
+        "body": "Bonjour,\n\nVotre site met en avant la gestion des demandes d'entente au préalable et du tiers payant, alors que le formulaire en ligne ne demande que le type de véhicule et un message libre.\n\nJe peux vous proposer un assistant qui trie les demandes de transport et prépare les dossiers d'entente préalable.\n\nCôté agents IA, voici SYNATRAP, la plateforme que je développe avec mon groupe : https://synatrap.com\n\nJe peux vous montrer gratuitement une démonstration du tri des demandes et de la préparation d'un dossier, sans engagement et sur des exemples fictifs.\n\nCela vaut-il un échange de dix minutes ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+        "queue_id": "2026-11-04-lot5-006"
+      },
+      "gmail_draft_id": "r-7886629766998266627",
+      "gmail_message_id": "1a1a89d51416064a",
+      "gmail_thread_id": "1a1a89d51416064a",
+      "gmail_label": "Prospection/2026-11-04-lot5",
+      "email_dns_checked_at": "2026-11-04T22:11:15+00:00",
+      "email_dns_detail": "5 MX publiés"
+    },
+    {
+      "company": "Blanchisserie des 3 Régions (B3R)",
+      "website": "https://blanchisseriedes3regions.fr/",
+      "domain": "blanchisseriedes3regions.fr",
+      "sector": "Blanchisserie industrielle / location de linge professionnel",
+      "city": "Cherisy",
+      "department": "28",
+      "contact_name": "",
+      "contact_role": "",
+      "email": "contact@blanchisseriedes3regions.fr",
+      "phone": "02 36 69 03 93",
+      "source": "",
+      "evidence": [
+        {
+          "kind": "site_indisponible",
+          "source_url": "https://blanchisseriedes3regions.fr/",
+          "quote": "Website unavailable — This site is currently suspended. The site administrator has been informed.",
+          "observed_at": "2026-11-04",
+          "detail": "Le site institutionnel est hors ligne : l'hébergeur affiche une page de suspension, aussi bien sur la racine que sur une page intérieure."
+        },
+        {
+          "kind": "public_need",
+          "source_url": "https://blanchisseriedes3regions.fr/pressing-livraison-blanchisserie-des-3-regions/",
+          "quote": "Blanchisserie industrielle familiale spécialisée dans l'entretien et la location de linge pour les professionnels. Acteur engagé en développement durable en Normandie, Centre-Val de Loire et Île-de-France.",
+          "observed_at": "2026-11-04",
+          "detail": "Activité B2B multi-régions (entretien et location de linge professionnel) dont la vitrine en ligne est indisponible : les demandes de devis ne peuvent plus aboutir par le site."
+        }
+      ],
+      "publication_date": "",
+      "need": "site_web",
+      "needs": [
+        "site_web",
+        "refonte"
+      ],
+      "recommended_service": "la remise en ligne de votre site, avec une demande de devis et de tournée de collecte.",
+      "email_verification": "public_unverified",
+      "score": 100,
+      "tier": "haute",
+      "status_crm": "qualified",
+      "justification": "besoin exprimé publiquement (+50) : https://blanchisseriedes3regions.fr/pressing-livraison-blanchisserie-des-3-regions/ ; site indisponible constaté (+50) : https://blanchisseriedes3regions.fr/",
+      "process_hint": "devis et organisation des tournées de collecte pour les professionnels de l'hôtellerie et de la restauration",
+      "demo_detail": "maquette de votre site remis en ligne avec demande de devis et de collecte",
+      "custom_hook": "En consultant blanchisseriedes3regions.fr aujourd'hui, on tombe sur la page de l'hébergeur : « This site is currently suspended ».",
+      "custom_subject": "B3R : votre site affiche une page d'hébergement suspendu",
+      "notes": "Lot 5. Besoin réel et daté : le site entier renvoie la page de suspension OVH (contrôlé le 2026-11-04, racine et page intérieure). Coordonnées publiées sur le contenu indexé du site officiel mais non revérifiables sur une page vivante : classées public_unverified. Le domaine publie bien des MX (Microsoft 365) : la messagerie est indépendante de l'hébergement web suspendu, l'adresse reste routable. Aucune donnée supprimée.",
+      "lot": "2026-11-04-lot5",
+      "discovered_at": "2026-11-04",
+      "email_status": "brouillon_créé",
+      "next_action": "Valider le brouillon dans Gmail ; envoi bloqué (enabled=false, DKIM absent, gmail.com)",
+      "scores": {
+        "site_web": {
+          "axis": "site_web",
+          "score": 90,
+          "level": "fort",
+          "reasons": [
+            "site existant mais indisponible : présence en ligne à reconstruire",
+            "+15 site_indisponible : « Website unavailable — This site is currently suspended. The site administrator has been informed. » (https://blanchisseriedes3regions.fr/)"
+          ]
+        },
+        "refonte": {
+          "axis": "refonte",
+          "score": 35,
+          "level": "faible",
+          "reasons": [
+            "site existant à moderniser",
+            "+20 site_indisponible : « Website unavailable — This site is currently suspended. The site administrator has been informed. » (https://blanchisseriedes3regions.fr/)",
+            "+10 public_need : « Blanchisserie industrielle familiale spécialisée dans l'entretien et la location de linge pour les professi… » (https://blanchisseriedes3regions.fr/pressing-livraison-blanchisserie-des-3-regions/)"
+          ]
+        },
+        "ia_automatisation": {
+          "axis": "ia_automatisation",
+          "score": 40,
+          "level": "moyen",
+          "reasons": [
+            "processus concret observé : devis et organisation des tournées de collecte pour les professionnels de l'hôtellerie et de la restauration",
+            "+30 public_need : « Blanchisserie industrielle familiale spécialisée dans l'entretien et la location de linge pour les professi… » (https://blanchisseriedes3regions.fr/pressing-livraison-blanchisserie-des-3-regions/)"
+          ]
+        },
+        "priority": "moyenne",
+        "best_axis": "site_web"
+      },
+      "commercial_priority": "moyenne",
+      "email_dns_status": "mx_ok",
+      "phone_verification": "public_unverified",
+      "contact_name_source": "",
+      "status": "brouillon_créé",
+      "id": "blanchisserie-des-3-r-gions-b3r",
+      "created_at": "2026-11-04T22:08:05+00:00",
+      "updated_at": "2026-11-04T22:08:42+00:00",
+      "campaign": "2026-11-04-lot5",
+      "variant": "public_need",
+      "reference_id": "groupe-bourasseau",
+      "message_version": "v4",
+      "proposed_email": {
+        "subject": "B3R : votre site affiche une page d'hébergement suspendu",
+        "body": "Bonjour,\n\nEn consultant blanchisseriedes3regions.fr aujourd'hui, on tombe sur la page de l'hébergeur : « This site is currently suspended ».\n\nJe peux vous proposer la remise en ligne de votre site, avec une demande de devis et de tournée de collecte.\n\nÀ titre d'exemple, voici le site institutionnel de mon groupe : https://groupebourasseau.com\n\nJe peux vous envoyer gratuitement une maquette de votre site remis en ligne, avec demande de devis et de collecte, sans engagement.\n\nVoulez-vous que je vous montre cette maquette ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+        "queue_id": "2026-11-04-lot5-007"
+      },
+      "gmail_draft_id": "r1203180346807190290",
+      "gmail_message_id": "1a1a89d5f37cca29",
+      "gmail_thread_id": "1a1a89d5f37cca29",
+      "gmail_label": "Prospection/2026-11-04-lot5",
+      "email_dns_checked_at": "2026-11-04T22:11:18+00:00",
+      "email_dns_detail": "1 MX publiés"
     }
   ]
 }

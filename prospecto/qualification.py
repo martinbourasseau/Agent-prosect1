@@ -3,6 +3,10 @@
 Barème :
 - besoin exprimé publiquement : +50 (signal le plus fort)
 - lacune vérifiée sur le site : +20 chacune (plafond 40)
+- processus manuel documenté (lot 5) : +50 (besoin réel, aussi fort qu'un besoin exprimé)
+- site indisponible / absent (lot 5) : +50 / +40
+- parcours client incomplet (lot 5) : +30
+- site daté (lot 5) : +20 (compté dans le plafond « lacunes »)
 - opportunité sectorielle documentée : +10
 - secteur connu : +10
 - prénom du contact connu : +5
@@ -26,6 +30,12 @@ from .models import (
     EVIDENCE_PUBLIC_NEED,
     EVIDENCE_WEBSITE_GAP,
     EVIDENCE_SECTOR_OPPORTUNITY,
+    EVIDENCE_SITE_ABSENT,
+    EVIDENCE_SITE_DOWN,
+    EVIDENCE_SITE_OBSOLETE,
+    EVIDENCE_PROCESS_MANUAL,
+    EVIDENCE_JOURNEY_GAP,
+    EMAIL_VERIFIED,
 )
 from .strategy import KNOWN_SECTORS
 
@@ -107,12 +117,28 @@ def qualify(
         return QualificationResult(prospect, 0, EXCLUDED, ["déjà contacté (historique d'envois)"], TIER_A_APPROFONDIR)
 
     public = [e for e in prospect.evidences if e.kind == EVIDENCE_PUBLIC_NEED]
-    gaps = [e for e in prospect.evidences if e.kind == EVIDENCE_WEBSITE_GAP]
+    gaps = [e for e in prospect.evidences if e.kind in (EVIDENCE_WEBSITE_GAP, EVIDENCE_SITE_OBSOLETE)]
     sector_opps = [e for e in prospect.evidences if e.kind == EVIDENCE_SECTOR_OPPORTUNITY]
+    manual = [e for e in prospect.evidences if e.kind == EVIDENCE_PROCESS_MANUAL]
+    down = [e for e in prospect.evidences if e.kind == EVIDENCE_SITE_DOWN]
+    absent = [e for e in prospect.evidences if e.kind == EVIDENCE_SITE_ABSENT]
+    journey = [e for e in prospect.evidences if e.kind == EVIDENCE_JOURNEY_GAP]
 
     if public:
         score += 50
         reasons.append(f"besoin exprimé publiquement (+50) : {public[0].source_url}")
+    if manual:
+        score += 50
+        reasons.append(f"processus manuel documenté (+50) : {manual[0].source_url}")
+    if down:
+        score += 50
+        reasons.append(f"site indisponible constaté (+50) : {down[0].source_url}")
+    elif absent:
+        score += 40
+        reasons.append(f"aucune présence en ligne exploitable (+40) : {absent[0].source_url}")
+    if journey:
+        score += 30
+        reasons.append(f"parcours client incomplet (+30) : {journey[0].source_url}")
     if gaps:
         bonus = min(20 * len(gaps), 40)
         score += bonus
@@ -129,9 +155,10 @@ def qualify(
 
     # Niveau de priorité (ne pas rejeter les opportunités moyennes).
     has_email = bool(prospect.contact_email and "@" in prospect.contact_email)
-    if public and has_email:
+    documented = bool(public or manual or down)
+    if documented and has_email:
         tier = TIER_HAUTE
-    elif has_email and (gaps or sector_opps or score >= 40):
+    elif has_email and (gaps or sector_opps or journey or absent or score >= 40):
         tier = TIER_MOYENNE
     else:
         tier = TIER_A_APPROFONDIR

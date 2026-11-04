@@ -351,6 +351,77 @@ def cmd_suppression(args: argparse.Namespace) -> int:
     return 0
 
 
+def cmd_verify_emails(args: argparse.Namespace) -> int:
+    """Contrôle DNS (MX) des adresses du CRM — aucune connexion SMTP, aucun envoi."""
+    from .email_verify import verify_records, verify_email, DomainCache
+
+    if args.email:
+        print(json.dumps(verify_email(args.email), ensure_ascii=False, indent=2))
+        return 0
+    crm = CRM()
+    summary = verify_records(crm.records, cache=DomainCache(), refresh=args.refresh)
+    if args.apply:
+        crm.save()
+    print(json.dumps(summary, ensure_ascii=False, indent=2))
+    print(f"\n{summary['checked']} adresses contrôlées — "
+          f"{summary['deliverable']} routables, {summary['risky']} à risque, "
+          f"{summary['blocking']} non délivrables")
+    if not args.apply:
+        print("(lecture seule : utiliser --apply pour enregistrer dans le CRM)")
+    return 1 if summary["blocking"] else 0
+
+
+def cmd_audit_inbox(args: argparse.Namespace) -> int:
+    """Audit de la boîte : rebonds, accusés automatiques, réponses humaines."""
+    from .inbox_audit import audit_inbox, apply_findings, save_audit
+    from .sender import SendLog
+
+    raw = json.loads(Path(args.file).read_text(encoding="utf-8"))
+    messages = raw.get("messages", raw) if isinstance(raw, dict) else raw
+    crm = CRM()
+    queue = ValidationQueue()
+    findings = audit_inbox(messages, crm.records, queue.items)
+    for f in findings:
+        tag = f"{f.intent}/{f.severity}" if f.severity else f.intent
+        print(f"[{tag}] {f.company or 'NON RATTACHÉ'} ← {f.from_email} "
+              f"(destinataire réel : {f.recipient or '?'}, via {f.matched_by})")
+        print(f"    {f.subject}")
+    if args.apply:
+        report = apply_findings(findings, crm, SuppressionList(), SendLog(), queue)
+        save_audit(findings)
+        print("\n" + json.dumps(report, ensure_ascii=False, indent=2))
+    else:
+        save_audit(findings)
+        print("\n(constats enregistrés ; CRM non modifié — utiliser --apply)")
+    return 0
+
+
+def cmd_scores(args: argparse.Namespace) -> int:
+    """(Re)calcule les trois scores indépendants et la priorité commerciale."""
+    from .scoring import scores_from_record, AXIS_SITE_WEB, AXIS_REFONTE, AXIS_IA
+
+    crm = CRM()
+    touched = 0
+    for rec in crm.records:
+        if args.lot and (rec.get("lot") or "") != args.lot:
+            continue
+        scores = scores_from_record(rec)
+        rec["scores"] = scores
+        rec["commercial_priority"] = scores["priority"]
+        touched += 1
+        if args.verbose:
+            print(f"\n{rec.get('company')} — priorité {scores['priority']}")
+            for axis in (AXIS_SITE_WEB, AXIS_REFONTE, AXIS_IA):
+                data = scores[axis]
+                print(f"  {axis:<18} {data['score']:>3}/100 ({data['level']})")
+                for reason in data["reasons"]:
+                    print(f"      · {reason}")
+    if args.apply:
+        crm.save()
+    print(f"\n{touched} fiches scorées" + ("" if args.apply else " (lecture seule, --apply pour enregistrer)"))
+    return 0
+
+
 def cmd_metrics(args: argparse.Namespace) -> int:
     print(json.dumps(compute_metrics(), ensure_ascii=False, indent=2))
     return 0
@@ -439,6 +510,23 @@ def build_parser() -> argparse.ArgumentParser:
 
     p = sub.add_parser("metrics", help="métriques agrégées (CRM, envois, réponses, performance)")
     p.set_defaults(func=cmd_metrics)
+
+    p = sub.add_parser("verify-emails", help="contrôle DNS/MX des adresses (aucun envoi, aucune connexion SMTP)")
+    p.add_argument("--email", help="vérifier une adresse isolée")
+    p.add_argument("--apply", action="store_true", help="enregistrer le résultat dans le CRM")
+    p.add_argument("--refresh", action="store_true", help="ignorer le cache DNS")
+    p.set_defaults(func=cmd_verify_emails)
+
+    p = sub.add_parser("audit-inbox", help="audit fiable des rebonds / accusés / réponses")
+    p.add_argument("--file", required=True, help="JSON des messages Gmail récupérés")
+    p.add_argument("--apply", action="store_true", help="appliquer au CRM, suppression, journal, file")
+    p.set_defaults(func=cmd_audit_inbox)
+
+    p = sub.add_parser("scores", help="trois scores indépendants (site, refonte, IA) + priorité")
+    p.add_argument("--lot", help="limiter à un lot")
+    p.add_argument("--apply", action="store_true", help="enregistrer dans le CRM")
+    p.add_argument("--verbose", action="store_true", help="afficher les justifications")
+    p.set_defaults(func=cmd_scores)
 
     return parser
 

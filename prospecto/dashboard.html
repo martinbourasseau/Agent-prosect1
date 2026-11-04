@@ -65,6 +65,8 @@ tr:hover td{background:rgba(255,255,255,.02)}
 .badge.verified{background:rgba(121,210,214,.16);color:var(--tide)}
 .badge.public_unverified{background:rgba(255,205,120,.12);color:var(--warn)}
 .badge.probable{background:rgba(154,166,184,.14);color:var(--dim)}
+.badge.bad{background:rgba(255,155,155,.14);color:var(--bad)}
+td .tide{color:var(--tide);font-weight:700}
 .mono{font-variant-numeric:tabular-nums}
 .qitem{background:linear-gradient(180deg,var(--night),#060b16);border:1px solid var(--line);border-radius:var(--radius);padding:18px 20px;margin-bottom:13px}
 .qhead{display:flex;align-items:center;gap:11px;flex-wrap:wrap;margin-bottom:7px}
@@ -118,6 +120,7 @@ footer{border-top:1px solid var(--line);padding:22px 0;color:var(--dim);font-siz
     <button class="tab" data-tab="references">Références</button>
     <button class="tab" data-tab="campaigns">Campagnes</button>
     <button class="tab" data-tab="sending">Envoi & Performance</button>
+    <button class="tab" data-tab="deliverability">Délivrabilité & Lots</button>
   </div>
 
   <section class="panel active" id="panel-prospects">
@@ -126,12 +129,13 @@ footer{border-top:1px solid var(--line);padding:22px 0;color:var(--dim);font-siz
       <select id="fSector"><option value="">Secteur : tous</option></select>
       <select id="fNeed"><option value="">Service : tous</option><option value="site_web">Création site</option><option value="refonte">Refonte</option><option value="agent_ia">Agent IA</option><option value="automatisation">Automatisation</option></select>
       <select id="fSource"><option value="">Source : toutes</option></select>
+      <select id="fLot"><option value="">Lot : tous</option></select>
       <select id="fStatus"><option value="">Statut : tous</option></select>
       <input type="search" id="search" placeholder="Rechercher…">
       <span class="sub" id="prosCount"></span>
     </div>
     <div style="overflow-x:auto"><table>
-      <thead><tr><th>Entreprise</th><th>Niveau</th><th class="hide-sm">Secteur / Lieu</th><th>Service</th><th class="hide-sm">Email (vérif.)</th><th class="hide-sm">Source</th><th>Statut</th></tr></thead>
+      <thead><tr><th>Entreprise</th><th>Niveau</th><th class="hide-sm">Secteur / Lieu</th><th>Service</th><th class="hide-sm">Scores S / R / IA</th><th class="hide-sm">Email (vérif. + DNS)</th><th class="hide-sm">Lot / découverte</th><th>Statut & prochaine action</th></tr></thead>
       <tbody id="prosBody"></tbody>
     </table></div>
   </section>
@@ -151,6 +155,15 @@ footer{border-top:1px solid var(--line);padding:22px 0;color:var(--dim);font-siz
   </section>
 
   <section class="panel" id="panel-campaigns"><div id="campList"></div></section>
+
+  <section class="panel" id="panel-deliverability">
+    <div class="grid2">
+      <div class="box"><h3>Envoyé ≠ délivré</h3><div id="delivReal"></div></div>
+      <div class="box"><h3>Trois scores indépendants</h3><div id="scoresBox"></div></div>
+    </div>
+    <div class="box" style="margin-top:16px"><h3>Ventilation par lot</h3><div style="overflow-x:auto" id="lotBox"></div></div>
+    <div class="box" style="margin-top:16px"><h3>Adresses non délivrables (contrôle DNS)</h3><div id="dnsBox"></div></div>
+  </section>
 
   <section class="panel" id="panel-sending">
     <div class="grid2">
@@ -192,8 +205,9 @@ function renderCards(){
     {n:co.phones,l:"Téléphones récupérés"},
     {n:(q.pending||0)+(q.approved||0)+(q.sent||0),l:"Emails préparés"},
     {n:s.sent,l:"Emails envoyés",cls:"tide"},
-    {n:s.bounced,l:"Rejetés / rebonds",cls:s.bounced?"bad":""},
-    {n:r.total,l:"Réponses reçues",cls:"glacier"},
+    {n:(m.deliverability||{}).hard_bounces??s.bounced,l:"Rebonds durs constatés",cls:((m.deliverability||{}).hard_bounces||s.bounced)?"bad":""},
+    {n:(m.deliverability||{}).human_replies??0,l:"Réponses humaines",cls:"glacier"},
+    {n:(m.deliverability||{}).auto_replies??0,l:"Accusés automatiques"},
     {n:r.positive,l:"Réponses positives",cls:"tide"},
     {n:r.demos_requested,l:"Démos / RDV demandés",cls:"tide"},
   ];
@@ -207,13 +221,16 @@ function fillFilters(){
   document.getElementById("fSector").innerHTML='<option value="">Secteur : tous</option>'+opts(sectors);
   document.getElementById("fSource").innerHTML='<option value="">Source : toutes</option>'+opts(sources);
   document.getElementById("fStatus").innerHTML='<option value="">Statut : tous</option>'+opts(statuses);
+  const lots=[...new Set(PROS.map(p=>p.lot).filter(Boolean))].sort();
+  document.getElementById("fLot").innerHTML='<option value="">Lot : tous</option>'+opts(lots);
 }
 function renderPros(){
   const t=document.getElementById("fTier").value,sec=document.getElementById("fSector").value,
     need=document.getElementById("fNeed").value,src=document.getElementById("fSource").value,
-    st=document.getElementById("fStatus").value,q=document.getElementById("search").value.toLowerCase();
+    st=document.getElementById("fStatus").value,lot=document.getElementById("fLot").value,
+    q=document.getElementById("search").value.toLowerCase();
   const rows=PROS.filter(p=>(!t||p.tier===t)&&(!sec||p.sector===sec)&&(!need||p.need===need)&&
-    (!src||p.source===src)&&(!st||p.status===st)&&
+    (!src||p.source===src)&&(!st||p.status===st)&&(!lot||p.lot===lot)&&
     (!q||[p.company,p.city,p.sector,p.department,p.email,p.contact_name].join(" ").toLowerCase().includes(q)));
   document.getElementById("prosCount").textContent=rows.length+" / "+PROS.length;
   document.getElementById("prosBody").innerHTML=rows.map(p=>{
@@ -225,10 +242,11 @@ function renderPros(){
       <td><span class="badge ${esc(p.tier)}">${TIER_LABEL[p.tier]||esc(p.tier||"?")}</span></td>
       <td class="hide-sm"><div>${esc(p.sector||"—")}</div><div class="sub">${esc(p.city||"")}${p.department?" ("+esc(p.department)+")":""}</div></td>
       <td>${NEED_LABEL[p.need]||esc(p.need||"—")}</td>
-      <td class="hide-sm"><div class="sub">${esc(p.email||"à trouver")}</div><span class="badge ${esc(verif)}">${VERIF_LABEL[verif]||verif}</span></td>
-      <td class="hide-sm"><div class="sub">${esc(p.source||"—")}</div>${evLink}</td>
-      <td><span class="sub">${esc(p.status||"")}</span></td>
-    </tr>`;}).join("")||`<tr><td colspan="7"><div class="empty">Aucun prospect ne correspond aux filtres.</div></td></tr>`;
+      <td class="hide-sm mono">${scoreCell(p)}</td>
+      <td class="hide-sm"><div class="sub">${esc(p.email||"à trouver")}</div><span class="badge ${esc(verif)}">${VERIF_LABEL[verif]||verif}</span> ${dnsBadge(p)}</td>
+      <td class="hide-sm"><div class="sub">${esc(p.lot||"—")}</div><div class="sub">${esc(p.discovered_at||"")}</div>${evLink}</td>
+      <td><span class="sub">${esc(p.status||"")}</span><div class="sub">${esc(p.next_action||"")}</div></td>
+    </tr>`;}).join("")||`<tr><td colspan="8"><div class="empty">Aucun prospect ne correspond aux filtres.</div></td></tr>`;
 }
 function renderQueue(){
   const st=document.getElementById("statusFilter").value;
@@ -267,6 +285,42 @@ async function renderCampaigns(){
     ||`<div class="empty">Aucune campagne.</div>`;
 }
 function kv(k,v){return `<div class="kv"><span>${k}</span><span class="v">${v}</span></div>`;}
+function scoreCell(p){
+  const s=p.scores;if(!s)return '<span class="sub">non scoré</span>';
+  const c=(a)=>{const d=s[a]||{};const col=d.level==="fort"?"tide":(d.level==="moyen"?"":"sub");
+    return `<span class="${col}" title="${esc((d.reasons||[]).join(" | "))}">${d.score??"—"}</span>`;};
+  return c("site_web")+" / "+c("refonte")+" / "+c("ia_automatisation")+
+    `<div class="sub">priorité ${esc(p.commercial_priority||"—")}</div>`;
+}
+function dnsBadge(p){
+  const st=p.email_dns_status;if(!st)return "";
+  const ok=st==="mx_ok";const bad=["nxdomain","no_mx","syntaxe_invalide"].includes(st);
+  return `<span class="badge ${ok?"verified":(bad?"bad":"public_unverified")}" title="contrôle DNS du domaine, pas de la boîte">${ok?"MX ok":esc(st)}</span>`;
+}
+function renderDeliverability(){
+  const d=METRICS.deliverability||{};
+  document.getElementById("delivReal").innerHTML=
+    kv("Messages envoyés",d.sent??0)+kv("Rebonds durs",d.hard_bounces??0)+kv("Rebonds mous",d.soft_bounces??0)+
+    kv("Accusés automatiques",d.auto_replies??0)+kv("Réponses humaines",d.human_replies??0)+
+    kv("Oppositions",d.opt_outs??0)+kv("Taux de rebond",(d.bounce_rate??0)+" %")+
+    kv("Délivrance confirmée",d.delivery_confirmed??0)+kv("Délivrance non confirmée",d.delivery_unconfirmed??0)+
+    `<div class="sub">${esc(d.note||"")}</div>`;
+  const sc=METRICS.scoring||{},ax=sc.axes||{};
+  const line=(k,v)=>kv(k,`fort ${v.fort||0} · moyen ${v.moyen||0} · faible ${v.faible||0}`);
+  document.getElementById("scoresBox").innerHTML=
+    kv("Fiches scorées",sc.scored??0)+line("Création de site",ax.site_web||{})+
+    line("Refonte",ax.refonte||{})+line("Agent IA / automatisation",ax.ia_automatisation||{})+
+    kv("Priorités commerciales",Object.entries(sc.commercial_priority||{}).map(([k,v])=>`${esc(k)} ${v}`).join(" · ")||"—");
+  const lots=METRICS.by_lot||[];
+  document.getElementById("lotBox").innerHTML=lots.length?
+    `<table><thead><tr><th>Lot</th><th>Prospects</th><th>Haute</th><th>Moyenne</th><th>Emails vérifiés</th><th>Brouillons</th><th>Envoyés</th><th>Rebonds</th></tr></thead><tbody>`+
+    lots.map(b=>`<tr><td class="mono">${esc(b.lot)}</td><td>${b.prospects}</td><td>${b.haute}</td><td>${b.moyenne}</td><td>${b.emails_verified}</td><td>${b.brouillons}</td><td>${b.envoyés}</td><td>${b.rebonds}</td></tr>`).join("")+
+    `</tbody></table>`:'<div class="empty">Aucun lot.</div>';
+  const blocked=d.dns_blocking_addresses||[];
+  document.getElementById("dnsBox").innerHTML=blocked.length?blocked.map(b=>
+    kv(esc(b.company),`${esc(b.email)} — <span class="badge bad">${esc(b.status)}</span>`)).join("")
+    :'<div class="sub">Aucune adresse bloquante détectée.</div>';
+}
 function renderSending(){
   const c=METRICS._campaign||{},s=METRICS.sending||{},d=c.deliverability||{},lim=c.limits||{};
   document.getElementById("sendConfig").innerHTML=
@@ -289,14 +343,14 @@ async function refresh(){
   renderBanner();renderCards();
   PROS=await jget("/api/prospects");fillFilters();renderPros();
   QUEUE=await jget("/api/queue");renderQueue();
-  await renderReferences();await renderCampaigns();renderSending();
+  await renderReferences();await renderCampaigns();renderSending();renderDeliverability();
 }
 document.querySelectorAll(".tab").forEach(t=>t.addEventListener("click",()=>{
   document.querySelectorAll(".tab").forEach(x=>x.classList.remove("active"));
   document.querySelectorAll(".panel").forEach(x=>x.classList.remove("active"));
   t.classList.add("active");document.getElementById("panel-"+t.dataset.tab).classList.add("active");
 }));
-["fTier","fSector","fNeed","fSource","fStatus"].forEach(id=>document.getElementById(id).addEventListener("change",renderPros));
+["fTier","fSector","fNeed","fSource","fStatus","fLot"].forEach(id=>document.getElementById(id).addEventListener("change",renderPros));
 document.getElementById("search").addEventListener("input",renderPros);
 document.getElementById("statusFilter").addEventListener("change",renderQueue);
 refresh();

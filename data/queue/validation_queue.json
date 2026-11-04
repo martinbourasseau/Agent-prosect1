@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-04T21:41:35+00:00",
+  "updated_at": "2026-11-04T22:11:07+00:00",
   "items": [
     {
       "id": "2026-11-03-v2-001",
@@ -1152,8 +1152,7 @@
           "action": "gmail_draft_created",
           "draft_id": "r-441106915474065912"
         }
-      ],
-      "tier": "haute"
+      ]
     },
     {
       "id": "2026-11-04-lot4-002",
@@ -1184,8 +1183,7 @@
           "action": "gmail_draft_created",
           "draft_id": "r-2227193041875889795"
         }
-      ],
-      "tier": "haute"
+      ]
     },
     {
       "id": "2026-11-04-lot4-003",
@@ -1216,8 +1214,7 @@
           "action": "gmail_draft_created",
           "draft_id": "r-3261002470483516264"
         }
-      ],
-      "tier": "haute"
+      ]
     },
     {
       "id": "2026-11-04-lot4-004",
@@ -1371,6 +1368,260 @@
           "at": "2026-11-04T21:41:35+00:00",
           "action": "gmail_draft_created",
           "draft_id": "r4069016850255698710"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-04-lot5-001",
+      "campaign": "2026-11-04-lot5",
+      "to": "contact@atomer.fr",
+      "company": "ATOMER",
+      "subject": "ATOMER : vos inscriptions encore par bulletin PDF ?",
+      "body": "Bonjour,\n\nVos conditions générales précisent que les inscriptions doivent être confirmées par un bulletin d'inscription « renvoyé par e-mail ou par courrier », et qu'un bulletin incomplet met la demande en attente.\n\nJe peux vous proposer un parcours d'inscription en ligne qui remplace le bulletin PDF et génère conventions, convocations et pièces de fin de formation.\n\nCôté agents IA, voici SYNATRAP, la plateforme que je développe avec mon groupe : https://synatrap.com\n\nJe peux vous préparer gratuitement une maquette du parcours d'inscription et une démonstration du générateur de convention-convocation, sans engagement.\n\nSeriez-vous disponible pour un court échange là-dessus ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+      "need": "automatisation",
+      "evidence_sources": [
+        "http://www.atomer.fr/4/Bulletin_inscription_formation_ATOMER.pdf",
+        "http://www.atomer.fr/4/Bulletin_inscription_formation_ATOMER.pdf",
+        "http://www.atomer.fr/"
+      ],
+      "status": "pending",
+      "created_at": "2026-11-04T22:08:42+00:00",
+      "updated_at": "2026-11-04T22:11:07+00:00",
+      "gmail_draft_id": "r-3672069521747812245",
+      "gmail_message_id": "1a1a89d0cf0cdd0e",
+      "decision_reason": "",
+      "history": [
+        {
+          "at": "2026-11-04T22:08:42+00:00",
+          "action": "created",
+          "status": "pending"
+        },
+        {
+          "at": "2026-11-04",
+          "action": "personnalisation_lot5",
+          "reason": "CTA et argument démo diversifiés ; paternité de la référence formulée sans attribution non confirmée"
+        },
+        {
+          "at": "2026-11-04T22:11:07+00:00",
+          "action": "gmail_draft_created",
+          "draft_id": "r-3672069521747812245"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-04-lot5-002",
+      "campaign": "2026-11-04-lot5",
+      "to": "nettoyage.industriel@wanadoo.fr",
+      "company": "NETTOYAGE INDUSTRIEL",
+      "subject": "Nettoyage Industriel : qualifier vos demandes de devis",
+      "body": "Bonjour,\n\nVotre page Contact ne propose qu'un formulaire libre « Nom, Adresse email, Message » avec un captcha, sans aucune question sur la surface, la fréquence ou le type de locaux à entretenir.\n\nJe peux vous proposer une demande de devis en ligne qui qualifie la surface, la fréquence et le type de locaux avant votre rappel.\n\nÀ titre d'exemple, voici le site institutionnel de mon groupe : https://groupebourasseau.com\n\nJe peux vous préparer gratuitement une première démonstration personnalisée, sans engagement : maquette du formulaire de devis qualifié (type de locaux, surface, fréquence) et démo du récapitulatif automatique.\n\nUn aperçu vous intéresserait ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+      "need": "refonte",
+      "evidence_sources": [
+        "https://www.nettoyage-industriel39.com/contact/",
+        "https://www.nettoyage-industriel39.com/",
+        "https://www.nettoyage-industriel39.com/"
+      ],
+      "status": "pending",
+      "created_at": "2026-11-04T22:08:42+00:00",
+      "updated_at": "2026-11-04T22:11:07+00:00",
+      "gmail_draft_id": "r-2030763522328067709",
+      "gmail_message_id": "1a1a89d18d7866e1",
+      "decision_reason": "",
+      "history": [
+        {
+          "at": "2026-11-04T22:08:42+00:00",
+          "action": "created",
+          "status": "pending"
+        },
+        {
+          "at": "2026-11-04",
+          "action": "personnalisation_lot5",
+          "reason": "CTA et argument démo diversifiés ; paternité de la référence formulée sans attribution non confirmée"
+        },
+        {
+          "at": "2026-11-04T22:11:07+00:00",
+          "action": "gmail_draft_created",
+          "draft_id": "r-2030763522328067709"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-04-lot5-003",
+      "campaign": "2026-11-04-lot5",
+      "to": "vigneronsetcaviste@gmail.com",
+      "company": "Vignerons et Caviste",
+      "subject": "Vos cours d'œnologie : réserver sans appeler ?",
+      "body": "Bonjour,\n\nVotre page indique qu'avant toute réservation en ligne il faut d'abord vous écrire ou vous appeler « pour s'assurer des disponibilités », alors que le panier affiche déjà un stock.\n\nJe peux vous proposer un module de réservation des cours d'œnologie qui affiche les places réellement disponibles.\n\nÀ titre d'exemple, voici le site institutionnel de mon groupe : https://groupebourasseau.com\n\nJe vous prépare gratuitement une maquette du calendrier de vos cours d'œnologie, avec les places restantes par session, sans engagement.\n\nPuis-je vous montrer à quoi cela ressemblerait ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+      "need": "refonte",
+      "evidence_sources": [
+        "https://vignerons-et-caviste.fr/",
+        "https://vignerons-et-caviste.fr/"
+      ],
+      "status": "pending",
+      "created_at": "2026-11-04T22:08:42+00:00",
+      "updated_at": "2026-11-04T22:11:07+00:00",
+      "gmail_draft_id": "r-7012393960743457622",
+      "gmail_message_id": "1a1a89d241a60252",
+      "decision_reason": "",
+      "history": [
+        {
+          "at": "2026-11-04T22:08:42+00:00",
+          "action": "created",
+          "status": "pending"
+        },
+        {
+          "at": "2026-11-04",
+          "action": "personnalisation_lot5",
+          "reason": "CTA et argument démo diversifiés ; paternité de la référence formulée sans attribution non confirmée"
+        },
+        {
+          "at": "2026-11-04T22:11:07+00:00",
+          "action": "gmail_draft_created",
+          "draft_id": "r-7012393960743457622"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-04-lot5-004",
+      "campaign": "2026-11-04-lot5",
+      "to": "boutique@lacaviste.fr",
+      "company": "La Caviste",
+      "subject": "La Caviste : vos commandes préparées sans emails",
+      "body": "Bonjour Frédérique,\n\nVotre page contact précise que vous donnez très peu de renseignements par téléphone pour privilégier le service en boutique, et invite à passer par mail pour toute demande particulière.\n\nJe peux vous proposer un module de commande à préparer en boutique, pour traiter les demandes sans échange d'emails aller-retour.\n\nÀ titre d'exemple, voici le site institutionnel de mon groupe : https://groupebourasseau.com\n\nJe peux vous envoyer gratuitement une maquette de commande à préparer en boutique, sans engagement : vous me dites si cela vous ressemble.\n\nSouhaitez-vous que je vous prépare cet aperçu ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+      "need": "refonte",
+      "evidence_sources": [
+        "https://www.lacavistelh.fr/nous-contacter/",
+        "https://www.lacavistelh.fr/"
+      ],
+      "status": "pending",
+      "created_at": "2026-11-04T22:08:42+00:00",
+      "updated_at": "2026-11-04T22:11:07+00:00",
+      "gmail_draft_id": "r-3517500887937529637",
+      "gmail_message_id": "1a1a89d2e929da56",
+      "decision_reason": "",
+      "history": [
+        {
+          "at": "2026-11-04T22:08:42+00:00",
+          "action": "created",
+          "status": "pending"
+        },
+        {
+          "at": "2026-11-04",
+          "action": "personnalisation_lot5",
+          "reason": "CTA et argument démo diversifiés ; paternité de la référence formulée sans attribution non confirmée"
+        },
+        {
+          "at": "2026-11-04T22:11:07+00:00",
+          "action": "gmail_draft_created",
+          "draft_id": "r-3517500887937529637"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-04-lot5-005",
+      "campaign": "2026-11-04-lot5",
+      "to": "contact@alphamecanique.fr",
+      "company": "ALPHA MECANIQUE",
+      "subject": "Alpha Mécanique : vos demandes de devis sur plans",
+      "body": "Bonjour,\n\nVotre site décrit le chiffrage « dès réception de vos plans », avec analyse des tolérances, de la matière et des quantités, puis un devis sous 24 à 48 h.\n\nJe peux vous proposer un assistant qui réceptionne les plans, vérifie qu'il ne manque rien et prépare la trame du devis.\n\nCôté agents IA, voici SYNATRAP, la plateforme que je développe avec mon groupe : https://synatrap.com\n\nJe peux vous montrer gratuitement une démonstration sur un de vos cas types, sans engagement : réception du plan, contrôle des informations manquantes, trame de devis.\n\nEst-ce un sujet d'actualité chez vous ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+      "need": "automatisation",
+      "evidence_sources": [
+        "https://www.alphamecanique.fr/",
+        "https://www.alphamecanique.fr/"
+      ],
+      "status": "pending",
+      "created_at": "2026-11-04T22:08:42+00:00",
+      "updated_at": "2026-11-04T22:11:07+00:00",
+      "gmail_draft_id": "r9082772945695603666",
+      "gmail_message_id": "1a1a89d45029f782",
+      "decision_reason": "",
+      "history": [
+        {
+          "at": "2026-11-04T22:08:42+00:00",
+          "action": "created",
+          "status": "pending"
+        },
+        {
+          "at": "2026-11-04",
+          "action": "personnalisation_lot5",
+          "reason": "CTA et argument démo diversifiés ; paternité de la référence formulée sans attribution non confirmée"
+        },
+        {
+          "at": "2026-11-04T22:11:07+00:00",
+          "action": "gmail_draft_created",
+          "draft_id": "r9082772945695603666"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-04-lot5-006",
+      "campaign": "2026-11-04-lot5",
+      "to": "ambulancestemarie@gmail.com",
+      "company": "SARL Ambulances Sainte-Marie",
+      "subject": "Ambulances Sainte-Marie : vos ententes préalables",
+      "body": "Bonjour,\n\nVotre site met en avant la gestion des demandes d'entente au préalable et du tiers payant, alors que le formulaire en ligne ne demande que le type de véhicule et un message libre.\n\nJe peux vous proposer un assistant qui trie les demandes de transport et prépare les dossiers d'entente préalable.\n\nCôté agents IA, voici SYNATRAP, la plateforme que je développe avec mon groupe : https://synatrap.com\n\nJe peux vous montrer gratuitement une démonstration du tri des demandes et de la préparation d'un dossier, sans engagement et sur des exemples fictifs.\n\nCela vaut-il un échange de dix minutes ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+      "need": "automatisation",
+      "evidence_sources": [
+        "https://ambulances-sainte-marie.fr/",
+        "https://ambulances-sainte-marie.fr/"
+      ],
+      "status": "pending",
+      "created_at": "2026-11-04T22:08:42+00:00",
+      "updated_at": "2026-11-04T22:11:07+00:00",
+      "gmail_draft_id": "r-7886629766998266627",
+      "gmail_message_id": "1a1a89d51416064a",
+      "decision_reason": "",
+      "history": [
+        {
+          "at": "2026-11-04T22:08:42+00:00",
+          "action": "created",
+          "status": "pending"
+        },
+        {
+          "at": "2026-11-04",
+          "action": "personnalisation_lot5",
+          "reason": "CTA et argument démo diversifiés ; paternité de la référence formulée sans attribution non confirmée"
+        },
+        {
+          "at": "2026-11-04T22:11:07+00:00",
+          "action": "gmail_draft_created",
+          "draft_id": "r-7886629766998266627"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-04-lot5-007",
+      "campaign": "2026-11-04-lot5",
+      "to": "contact@blanchisseriedes3regions.fr",
+      "company": "Blanchisserie des 3 Régions (B3R)",
+      "subject": "B3R : votre site affiche une page d'hébergement suspendu",
+      "body": "Bonjour,\n\nEn consultant blanchisseriedes3regions.fr aujourd'hui, on tombe sur la page de l'hébergeur : « This site is currently suspended ».\n\nJe peux vous proposer la remise en ligne de votre site, avec une demande de devis et de tournée de collecte.\n\nÀ titre d'exemple, voici le site institutionnel de mon groupe : https://groupebourasseau.com\n\nJe peux vous envoyer gratuitement une maquette de votre site remis en ligne, avec demande de devis et de collecte, sans engagement.\n\nVoulez-vous que je vous montre cette maquette ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+      "need": "site_web",
+      "evidence_sources": [
+        "https://blanchisseriedes3regions.fr/",
+        "https://blanchisseriedes3regions.fr/pressing-livraison-blanchisserie-des-3-regions/"
+      ],
+      "status": "pending",
+      "created_at": "2026-11-04T22:08:42+00:00",
+      "updated_at": "2026-11-04T22:11:07+00:00",
+      "gmail_draft_id": "r1203180346807190290",
+      "gmail_message_id": "1a1a89d5f37cca29",
+      "decision_reason": "",
+      "history": [
+        {
+          "at": "2026-11-04T22:08:42+00:00",
+          "action": "created",
+          "status": "pending"
+        },
+        {
+          "at": "2026-11-04",
+          "action": "personnalisation_lot5",
+          "reason": "CTA et argument démo diversifiés ; paternité de la référence formulée sans attribution non confirmée"
+        },
+        {
+          "at": "2026-11-04T22:11:07+00:00",
+          "action": "gmail_draft_created",
+          "draft_id": "r1203180346807190290"
         }
       ]
     }

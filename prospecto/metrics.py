@@ -25,6 +25,17 @@ def _load_replies() -> list[dict]:
     return []
 
 
+def _load_audit() -> list[dict]:
+    from .inbox_audit import AUDIT_PATH
+
+    if AUDIT_PATH.exists():
+        try:
+            return json.loads(AUDIT_PATH.read_text(encoding="utf-8")).get("findings", [])
+        except (json.JSONDecodeError, OSError):
+            return []
+    return []
+
+
 def compute_metrics() -> dict[str, Any]:
     crm = CRM()
     queue = ValidationQueue()
@@ -110,4 +121,93 @@ def compute_metrics() -> dict[str, Any]:
         },
         "suppression": {"count": suppression.count()},
         "performance": {"by_variant": by_variant, "by_reference": by_reference},
+        "deliverability": _deliverability(log.entries, records, _load_audit()),
+        "by_lot": _by_lot(records, log.entries, queue),
+        "scoring": _scoring_overview(records),
     }
+
+
+def _deliverability(entries: list[dict], records: list[dict], audit: list[dict]) -> dict[str, Any]:
+    """Distinguer « envoyé » de « délivré » : un message envoyé peut rebondir.
+
+    La présence dans le dossier « Envoyés » ne prouve pas la remise. Seuls un
+    accusé de réception, une réponse humaine ou l'absence de rebond après
+    vérification de la boîte le suggèrent — et l'absence de rebond n'est pas une
+    preuve de délivrance.
+    """
+    sent = [e for e in entries if e.get("status") in ("sent", "delivered", "bounced", "complained")]
+    bounced_entries = [e for e in entries if e.get("status") == "bounced"]
+    bounces = [f for f in audit if f.get("intent") == "rebond"]
+    autos = [f for f in audit if f.get("intent") == "auto_reply"]
+    humans = [f for f in audit if f.get("intent") == "reponse_humaine"]
+    opt_outs = [f for f in audit if f.get("intent") == "opposition"]
+    hard = [f for f in bounces if f.get("severity") == "dur"]
+    confirmed = {f.get("company") for f in autos + humans if f.get("company")}
+    bounced_companies = {f.get("company") for f in bounces if f.get("company")}
+    dns_blocking = [r for r in records if r.get("email_dns_status") in ("nxdomain", "no_mx", "syntaxe_invalide")]
+    total_sent = len(sent)
+    return {
+        "sent": total_sent,
+        "hard_bounces": len(hard),
+        "soft_bounces": len(bounces) - len(hard),
+        "auto_replies": len(autos),
+        "human_replies": len(humans),
+        "opt_outs": len(opt_outs),
+        "bounce_rate": round(len(bounces) / total_sent * 100, 1) if total_sent else 0.0,
+        "human_reply_rate": round(len(humans) / total_sent * 100, 1) if total_sent else 0.0,
+        "delivery_confirmed": len(confirmed),
+        "delivery_unconfirmed": max(0, total_sent - len(confirmed) - len(bounced_companies)),
+        "bounced_companies": sorted(c for c in bounced_companies if c),
+        "dns_blocking_addresses": [
+            {"company": r.get("company", ""), "email": r.get("email", ""),
+             "status": r.get("email_dns_status", "")} for r in dns_blocking
+        ],
+        "note": ("La présence dans « Envoyés » ne prouve pas la remise. Seuls les accusés et les "
+                 "réponses humaines confirment une délivrance ; l'absence de rebond ne la garantit pas."),
+    }
+
+
+def _by_lot(records: list[dict], entries: list[dict], queue: Any) -> list[dict[str, Any]]:
+    """Ventilation par lot : découverte, qualification, brouillons, envois, rebonds."""
+    lots: dict[str, dict[str, Any]] = {}
+    for rec in records:
+        lot = rec.get("lot") or "antérieur au suivi par lot"
+        b = lots.setdefault(lot, {"lot": lot, "prospects": 0, "haute": 0, "moyenne": 0,
+                                  "a_approfondir": 0, "emails_verified": 0, "brouillons": 0,
+                                  "envoyés": 0, "rebonds": 0, "réponses": 0})
+        b["prospects"] += 1
+        tier = rec.get("tier") or rec.get("commercial_priority") or ""
+        if tier in b:
+            b[tier] += 1
+        if rec.get("email_verification") == "verified":
+            b["emails_verified"] += 1
+        if rec.get("status") == "brouillon_créé":
+            b["brouillons"] += 1
+        if rec.get("status") == "contacté":
+            b["envoyés"] += 1
+        if rec.get("status") == "rebond":
+            b["rebonds"] += 1
+        if rec.get("reply_received"):
+            b["réponses"] += 1
+    return sorted(lots.values(), key=lambda b: b["lot"])
+
+
+def _scoring_overview(records: list[dict]) -> dict[str, Any]:
+    """Répartition des trois scores indépendants sur les fiches qui les portent."""
+    axes = ("site_web", "refonte", "ia_automatisation")
+    out: dict[str, Any] = {"scored": 0, "axes": {}}
+    for axis in axes:
+        buckets = {"fort": 0, "moyen": 0, "faible": 0}
+        for rec in records:
+            data = (rec.get("scores") or {}).get(axis)
+            if data:
+                buckets[data.get("level", "faible")] = buckets.get(data.get("level", "faible"), 0) + 1
+        out["axes"][axis] = buckets
+    out["scored"] = sum(1 for r in records if r.get("scores"))
+    priorities: dict[str, int] = {}
+    for rec in records:
+        pr = rec.get("commercial_priority")
+        if pr:
+            priorities[pr] = priorities.get(pr, 0) + 1
+    out["commercial_priority"] = priorities
+    return out
