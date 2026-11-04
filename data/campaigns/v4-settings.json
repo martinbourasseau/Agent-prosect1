@@ -14,13 +14,22 @@
   "transport": "gmail_connector",
   "limits": {
     "daily_limit": 20,
-    "ramp_up": [5, 10, 15, 20, 30, 40],
+    "ramp_up": [
+      5,
+      10,
+      15,
+      20,
+      30,
+      40
+    ],
     "ramp_up_day_index": 0,
     "min_delay_seconds": 45,
     "max_per_run": 20
   },
   "quality": {
-    "allowed_email_verification": ["verified"],
+    "allowed_email_verification": [
+      "verified"
+    ],
     "require_professional_relevance": true,
     "min_score": 40
   },
@@ -28,8 +37,27 @@
     "require_spf": true,
     "require_dkim": true,
     "require_dmarc": true,
-    "last_checked_at": "",
-    "last_result": {}
+    "last_checked_at": "2026-11-04T18:15:54+00:00",
+    "last_result": {
+      "domain": "gmail.com",
+      "is_free_provider": true,
+      "provider": "Gmail (gratuit)",
+      "spf_present": true,
+      "spf_record": "v=spf1 redirect=_spf.google.com",
+      "dkim_present": false,
+      "dkim_selector": "",
+      "dmarc_present": true,
+      "dmarc_record": "v=DMARC1; p=none; sp=quarantine; rua=mailto:mailauth-reports@google.com",
+      "dmarc_policy": "none",
+      "dns_checked": true,
+      "warnings": [
+        "Le domaine expéditeur 'gmail.com' est un fournisseur gratuit (Gmail (gratuit)). La prospection commerciale en masse depuis un compte gratuit est contraire aux CGU et dégrade fortement la délivrabilité (voire suspend le compte)."
+      ],
+      "recommendations": [
+        "Utiliser un domaine professionnel dédié (ex. contact@prospecto.website ou un domaine d'envoi dédié) avec SPF, DKIM et DMARC configurés, et un prestataire d'envoi adapté (Google Workspace sur domaine propre, ou ESP : Brevo, Sendgrid, Mailgun…)."
+      ],
+      "ok_for_bulk": false
+    }
   },
   "stop_conditions": {
     "max_bounce_rate": 0.05,

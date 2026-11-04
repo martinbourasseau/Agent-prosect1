@@ -14,6 +14,13 @@ from .gmail_export import export_for_gmail, export_eml
 from .research import audit_html
 from .crm import CRM
 from .config import CAMPAIGNS_DIR, QUEUE_PATH, TIER_HAUTE, TIER_MOYENNE
+from .messaging import compose_email, check_email_v4, select_variant
+from .references import load_references, select_reference
+from .deliverability import analyze_sender, provider_daily_limit
+from .sender import Sender, load_settings, save_settings
+from .suppression import SuppressionList
+from .replies import ReplyHandler
+from .metrics import compute_metrics
 
 
 def _load_prospects(path: Path) -> list[Prospect]:
@@ -163,8 +170,194 @@ def cmd_audit(args: argparse.Namespace) -> int:
     return 0
 
 
+def cmd_generate_v4(args: argparse.Namespace) -> int:
+    """Génère des emails v4 (variantes + références) et les met en file."""
+    prospects = _load_prospects(Path(args.prospects))
+    results = qualify_batch(prospects)
+    queue = ValidationQueue(Path(args.queue) if args.queue else None)
+    crm = CRM()
+    wanted = {TIER_HAUTE, TIER_MOYENNE} if args.include_moyenne else {TIER_HAUTE}
+    generated = []
+    for res in results:
+        rec, created = crm.import_prospect(res.prospect, res)
+        if res.tier not in wanted:
+            print(f"CRM {'+' if created else '='} {res.prospect.company} [{res.tier}] (pas d'email)")
+            continue
+        try:
+            email = compose_email(res.prospect, variant=args.variant or "")
+            problems = check_email_v4(email, res.prospect)
+            if problems:
+                raise GenerationError(" ; ".join(problems))
+        except (GenerationError, ValueError) as exc:
+            print(f"ÉCHEC génération {res.prospect.company} : {exc}")
+            continue
+        if args.dry_run:
+            print(f"--- {res.prospect.company} [{res.tier}] variante={email.variant} réf={email.reference_id or '—'} ---")
+            print(f"Objet : {email.subject}\n{email.body}")
+            continue
+        try:
+            item = queue.add(email, campaign=args.campaign)
+        except ValueError as exc:
+            print(f"déjà en file : {exc}")
+            continue
+        rec["status"] = "email_préparé"
+        rec["campaign"] = args.campaign
+        rec["variant"] = email.variant
+        rec["reference_id"] = email.reference_id
+        rec["message_version"] = "v4"
+        rec["proposed_email"] = {"subject": email.subject, "body": email.body, "queue_id": item.id}
+        generated.append({"queue_id": item.id, **email.to_dict(), "score": res.score, "tier": res.tier})
+        print(f"en file : {item.id} [{res.tier}] v={email.variant} → {email.to} | {email.subject}")
+    crm.save()
+    if generated and not args.dry_run:
+        CAMPAIGNS_DIR.mkdir(parents=True, exist_ok=True)
+        out = CAMPAIGNS_DIR / f"{args.campaign}.json"
+        out.write_text(json.dumps({
+            "campaign": args.campaign, "strategy": "v4 — variantes + références + démo gratuite",
+            "generated_count": len(generated), "emails": generated,
+        }, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+        print(f"\nCampagne écrite : {out}")
+    return 0
+
+
+def cmd_references(args: argparse.Namespace) -> int:
+    refs = load_references()
+    if args.action == "list":
+        for r in refs:
+            print(f"[{'x' if r.enabled else ' '}] {r.id} — {r.name} ({r.kind}) → {r.url}")
+            print(f"    besoins: {', '.join(r.need_tags)} | secteurs: {', '.join(r.sector_tags)}")
+            print(f"    paternité: {r.authorship_status}")
+    elif args.action == "select":
+        prospects = _load_prospects(Path(args.prospects))
+        for p in prospects:
+            ref = select_reference(p, refs)
+            print(f"{p.company} [{p.primary_need}] → {ref.id if ref else 'aucune'}")
+    return 0
+
+
+def cmd_deliverability(args: argparse.Namespace) -> int:
+    settings = load_settings()
+    email = args.email or settings.get("sender", {}).get("email", "")
+    rep = analyze_sender(email)
+    print(json.dumps(rep.to_dict(), ensure_ascii=False, indent=2))
+    print("\nLimite fournisseur indicative :", json.dumps(provider_daily_limit(rep.domain), ensure_ascii=False))
+    return 0
+
+
+def cmd_campaign(args: argparse.Namespace) -> int:
+    sender = Sender()
+    s = sender.settings
+    if args.action == "status":
+        print(json.dumps({
+            "enabled": s.get("enabled"), "dry_run": s.get("dry_run"),
+            "transport": s.get("transport"), "limits": s.get("limits"),
+            "stop_conditions": s.get("stop_conditions"),
+            "last_deliverability": s.get("deliverability", {}).get("last_result", {}),
+        }, ensure_ascii=False, indent=2))
+    elif args.action == "preflight":
+        ok, issues = sender.preflight()
+        print("PRÉ-VOL :", "OK ✅" if ok else "BLOQUÉ ❌")
+        for i in issues:
+            print("  -", i)
+        return 0 if ok else 1
+    elif args.action == "activate":
+        ok, issues = sender.preflight()
+        if not ok and not args.force:
+            print("Activation refusée — contrôles non passés :")
+            for i in issues:
+                print("  -", i)
+            print("Corrigez ces points, ou utilisez --force (déconseillé) après revue humaine.")
+            return 1
+        s["enabled"] = True
+        s["dry_run"] = not args.live
+        s["activated_at"] = __import__("datetime").datetime.now(__import__("datetime").timezone.utc).isoformat(timespec="seconds")
+        s["activated_by"] = args.by or "Martin"
+        save_settings(s)
+        print(f"Campagne activée (dry_run={s['dry_run']}, transport={s.get('transport')}).")
+        if s["dry_run"]:
+            print("Mode simulation. Pour un envoi réel : campaign activate --live (après revue).")
+    elif args.action == "pause":
+        s["enabled"] = False
+        save_settings(s)
+        print("Campagne mise en pause (enabled=false).")
+    elif args.action == "run":
+        if not s.get("enabled"):
+            print("Campagne non activée. Utilisez 'campaign activate' d'abord.")
+            return 1
+        ok, issues = sender.preflight()
+        if not ok and not s.get("dry_run", True):
+            print("Envoi réel bloqué — pré-vol échoué :")
+            for i in issues:
+                print("  -", i)
+            return 1
+        crm = CRM()
+        queue = ValidationQueue()
+        candidates = sender.select_candidates(crm.records, [i.to_dict() for i in queue.items])
+        plan = sender.build_plan(candidates)
+        print(f"{len(candidates)} candidats qualifiés, {len(plan)} dans le plan (limites/ramp-up).")
+        results = sender.execute(plan, transport=args.transport)
+        for r in results:
+            print(f"  [{r.get('status')}] {r.get('to', '')} {r.get('subject', '')}")
+            if r.get("error"):
+                print("      erreur :", r["error"])
+        # Met à jour la file / le CRM pour les envois réels.
+        for r in results:
+            if r.get("status") == "sent" and r.get("queue_id"):
+                try:
+                    queue.mark_sent(r["queue_id"], r.get("message_id", ""))
+                except (KeyError, ValueError):
+                    pass
+        print("Terminé.")
+    return 0
+
+
+def cmd_replies(args: argparse.Namespace) -> int:
+    crm = CRM()
+    handler = ReplyHandler(crm)
+    if args.action == "process":
+        raw = json.loads(Path(args.file).read_text(encoding="utf-8"))
+        messages = raw.get("messages", raw) if isinstance(raw, dict) else raw
+        for m in messages:
+            res = handler.process_reply(
+                from_email=m.get("from", ""), text=m.get("text", m.get("body", "")),
+                subject=m.get("subject", ""), message_id=m.get("message_id", ""),
+                thread_id=m.get("thread_id", ""),
+            )
+            print(f"[{res.intent}] {res.email} ({res.company}) → {res.crm_status} | {res.next_action}")
+            if res.suppressed:
+                print("    → ajouté à la liste de suppression")
+    elif args.action == "list":
+        for rp in handler.replies:
+            print(f"[{rp.get('intent')}] {rp.get('from')} → {rp.get('crm_status')}")
+    elif args.action == "classify":
+        from .replies import classify_intent
+        print(classify_intent(args.text or ""))
+    return 0
+
+
+def cmd_suppression(args: argparse.Namespace) -> int:
+    sl = SuppressionList()
+    if args.action == "add":
+        ok = sl.add(email=args.email or "", domain=args.domain or "", reason=args.reason or "manuel")
+        print("ajouté" if ok else "déjà présent / rien à ajouter")
+    elif args.action == "remove":
+        print("retiré" if sl.remove(args.email or "") else "introuvable")
+    elif args.action == "list":
+        for e in sl.entries:
+            print(f"{e.get('email') or e.get('domain')} — {e.get('reason')} ({e.get('added_at')})")
+        print(f"\nTotal : {sl.count()}")
+    elif args.action == "check":
+        print("SUPPRIMÉ" if sl.is_suppressed(args.email or "") else "non supprimé")
+    return 0
+
+
+def cmd_metrics(args: argparse.Namespace) -> int:
+    print(json.dumps(compute_metrics(), ensure_ascii=False, indent=2))
+    return 0
+
+
 def build_parser() -> argparse.ArgumentParser:
-    parser = argparse.ArgumentParser(prog="prospecto", description="Moteur de prospection Prospecto (v3)")
+    parser = argparse.ArgumentParser(prog="prospecto", description="Moteur de prospection Prospecto (v4)")
     sub = parser.add_subparsers(dest="command", required=True)
 
     p = sub.add_parser("qualify", help="qualifier des prospects (score + preuves + niveau)")
@@ -207,6 +400,45 @@ def build_parser() -> argparse.ArgumentParser:
     p.add_argument("--html", required=True, help="fichier HTML local")
     p.add_argument("--url", required=True, help="URL d'origine (schéma https inclus)")
     p.set_defaults(func=cmd_audit)
+
+    # ---- v4 ----
+    p = sub.add_parser("generate-v4", help="générer des emails v4 (variantes + références) en file")
+    p.add_argument("prospects"); p.add_argument("--campaign", required=True)
+    p.add_argument("--queue"); p.add_argument("--dry-run", action="store_true")
+    p.add_argument("--include-moyenne", action="store_true")
+    p.add_argument("--variant", help="variante forcée (sinon sélection auto)")
+    p.set_defaults(func=cmd_generate_v4)
+
+    p = sub.add_parser("references", help="bibliothèque de références commerciales")
+    p.add_argument("action", choices=["list", "select"])
+    p.add_argument("prospects", nargs="?")
+    p.set_defaults(func=cmd_references)
+
+    p = sub.add_parser("deliverability", help="contrôles SPF/DKIM/DMARC du domaine expéditeur")
+    p.add_argument("--email", help="email expéditeur (défaut : paramètres campagne)")
+    p.set_defaults(func=cmd_deliverability)
+
+    p = sub.add_parser("campaign", help="campagne d'envoi automatisé sous contrôles")
+    p.add_argument("action", choices=["status", "preflight", "activate", "pause", "run"])
+    p.add_argument("--live", action="store_true", help="désactive dry_run (envoi réel)")
+    p.add_argument("--force", action="store_true", help="active malgré pré-vol (déconseillé)")
+    p.add_argument("--by", help="qui active")
+    p.add_argument("--transport", choices=["dry_run", "smtp", "gmail_connector"])
+    p.set_defaults(func=cmd_campaign)
+
+    p = sub.add_parser("replies", help="réception / interprétation des réponses")
+    p.add_argument("action", choices=["process", "list", "classify"])
+    p.add_argument("--file", help="JSON des messages reçus (process)")
+    p.add_argument("--text", help="texte à classifier (classify)")
+    p.set_defaults(func=cmd_replies)
+
+    p = sub.add_parser("suppression", help="liste de suppression centralisée")
+    p.add_argument("action", choices=["add", "remove", "list", "check"])
+    p.add_argument("--email"); p.add_argument("--domain"); p.add_argument("--reason")
+    p.set_defaults(func=cmd_suppression)
+
+    p = sub.add_parser("metrics", help="métriques agrégées (CRM, envois, réponses, performance)")
+    p.set_defaults(func=cmd_metrics)
 
     return parser
 

@@ -108,6 +108,7 @@ class CRM:
             "need": prospect.primary_need,
             "needs": prospect.needs,
             "recommended_service": prospect.recommended_service or prospect.primary_need,
+            "email_verification": prospect.email_verification,
             "score": result.score,
             "tier": result.tier,
             "status_crm": result.status,

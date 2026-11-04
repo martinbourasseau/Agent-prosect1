@@ -1,6 +1,5 @@
 {
-  "_note": "Liste de suppression centralisée. Aucun envoi aux adresses/domaines listés. reason: opt-out | refus | rebond_dur | plainte | manuel. domain_wide=true bloque tout le domaine.",
-  "updated_at": "2026-11-04",
+  "updated_at": "2026-11-04T18:15:54+00:00",
   "count": 0,
   "entries": []
 }

@@ -1,0 +1,2 @@
+# Prospecto — dépendances (stdlib majoritaire ; dnspython pour les contrôles SPF/DKIM/DMARC)
+dnspython>=2.6
