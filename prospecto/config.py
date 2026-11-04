@@ -11,6 +11,11 @@ CAMPAIGNS_DIR = DATA_DIR / "campaigns"
 QUEUE_PATH = DATA_DIR / "queue" / "validation_queue.json"
 CRM_PATH = DATA_DIR / "crm" / "prospects.json"
 REALISATIONS_PATH = DATA_DIR / "realisations.json"
+REFERENCES_PATH = DATA_DIR / "references.json"
+SUPPRESSION_PATH = DATA_DIR / "suppression.json"
+CAMPAIGN_SETTINGS_PATH = DATA_DIR / "campaigns" / "v4-settings.json"
+SEND_LOG_PATH = DATA_DIR / "history" / "send-log.json"
+REPLIES_PATH = DATA_DIR / "history" / "replies.json"
 
 SENDER_NAME = os.environ.get("PROSPECTO_SENDER_NAME", "Martin BOURASSEAU")
 SENDER_EMAIL = os.environ.get("PROSPECTO_SENDER_EMAIL", "martin.bourasseau4@gmail.com")

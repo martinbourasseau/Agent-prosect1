@@ -18,6 +18,13 @@ EVIDENCE_PUBLIC_NEED = "public_need"        # besoin exprimé publiquement (prio
 EVIDENCE_WEBSITE_GAP = "website_gap"        # lacune vérifiée sur le site (priorité 2)
 EVIDENCE_SECTOR_OPPORTUNITY = "sector_opportunity"  # opportunité sectorielle (priorité 3)
 
+# Niveaux de vérification d'un email (v4) — ne jamais présenter un supposé comme vérifié.
+EMAIL_VERIFIED = "verified"                    # vérifié (source fiable / testé)
+EMAIL_PUBLIC_UNVERIFIED = "public_unverified"  # public mais non vérifié
+EMAIL_PROBABLE = "probable"                    # probable, à vérifier
+EMAIL_NONE = "none"                            # aucun email trouvé
+EMAIL_VERIFICATIONS = (EMAIL_VERIFIED, EMAIL_PUBLIC_UNVERIFIED, EMAIL_PROBABLE, EMAIL_NONE)
+
 _EMAIL_RE = re.compile(r"^[^@\s]+@[^@\s]+\.[^@\s]+$")
 
 
@@ -73,6 +80,7 @@ class Prospect:
     source: str = ""  # source de découverte (plateforme, presse, annuaire…)
     publication_date: str = ""  # date de publication du besoin, si connue
     recommended_service: str = ""  # prestation unique recommandée (formulation bénéfique)
+    email_verification: str = EMAIL_PUBLIC_UNVERIFIED  # niveau de vérification de l'email (v4)
     notes: str = ""
 
     @property
@@ -85,6 +93,8 @@ class Prospect:
             errors.append("entreprise sans nom")
         if not _EMAIL_RE.match(self.contact_email or ""):
             errors.append(f"email de contact invalide : {self.contact_email!r}")
+        if self.email_verification not in EMAIL_VERIFICATIONS:
+            errors.append(f"niveau de vérification email inconnu : {self.email_verification!r}")
         if not self.needs:
             errors.append("aucun besoin identifié")
         for need in self.needs:
@@ -117,6 +127,11 @@ class GeneratedEmail:
     company: str
     need: str
     evidence_sources: list[str] = field(default_factory=list)
+    # Métadonnées v4 (variante A/B, référence commerciale, version de message).
+    variant: str = ""
+    reference_id: str = ""
+    example_url: str = ""
+    message_version: str = "v3"
 
     def to_dict(self) -> dict[str, Any]:
         return asdict(self)
