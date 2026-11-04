@@ -1,42 +1,5 @@
 {
-  "updated_at": "2026-11-04T18:29:07+00:00",
-  "count": 3,
-  "entries": [
-    {
-      "at": "2026-11-04T18:29:07+00:00",
-      "to": "contact@renovationpremium.com",
-      "company": "R Premium",
-      "subject": "Votre annonce WordPress + référencement",
-      "status": "dry_run",
-      "campaign": "2026-11-04-v4",
-      "variant": "public_need",
-      "reference_id": "groupe-bourasseau",
-      "queue_id": "2026-11-04-v4-002",
-      "message_id": ""
-    },
-    {
-      "at": "2026-11-04T18:29:07+00:00",
-      "to": "support@bsp-auto.com",
-      "company": "BSP Auto",
-      "subject": "Votre newsletter mensuelle, en pilote automatique ?",
-      "status": "dry_run",
-      "campaign": "2026-11-04-v4",
-      "variant": "public_need",
-      "reference_id": "synatrap",
-      "queue_id": "2026-11-04-v4-004",
-      "message_id": ""
-    },
-    {
-      "at": "2026-11-04T18:29:07+00:00",
-      "to": "campingmeretcamargue@orange.fr",
-      "company": "Camping Mer et Camargue — Restaurant Le Pano",
-      "subject": "Un agent IA pour Camping Mer et Camargue — Restaurant Le Pano ?",
-      "status": "dry_run",
-      "campaign": "2026-11-04-v4",
-      "variant": "synatrap_ia",
-      "reference_id": "synatrap",
-      "queue_id": "2026-11-04-v4-001",
-      "message_id": ""
-    }
-  ]
+  "updated_at": "2026-11-04T18:32:27+00:00",
+  "count": 0,
+  "entries": []
 }
