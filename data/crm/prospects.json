@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-04T18:28:22+00:00",
-  "count": 21,
+  "updated_at": "2026-11-04T18:50:25+00:00",
+  "count": 29,
   "prospects": [
     {
       "company": "R Premium",
@@ -45,17 +45,18 @@
       "custom_hook": "J'ai lu votre annonce : vous voulez faire évoluer votre site WordPress, votre référencement et votre communication.",
       "custom_subject": "Votre annonce WordPress + référencement",
       "notes": "Site WordPress existant avec portfolio. Besoin public explicite (refonte/SEO/com). Contact public : contact@renovationpremium.com (site + Houzz + Trustpilot).",
-      "status": "email_préparé",
+      "status": "brouillon_créé",
       "id": "r-premium",
       "created_at": "2026-11-03T21:04:42+00:00",
-      "updated_at": "2026-11-04T18:28:22+00:00",
+      "updated_at": "2026-11-04T18:50:25+00:00",
       "proposed_email": {
         "subject": "Votre annonce WordPress + référencement",
-        "body": "Bonjour,\n\nJ'ai lu votre annonce : vous voulez faire évoluer votre site WordPress, votre référencement et votre communication.\n\nJe peux vous proposer une optimisation de votre site WordPress pour le rendre plus rapide et mieux référencé, sans tout reconstruire\n\nÀ titre d'exemple, voici le site institutionnel que j'ai conçu pour mon groupe : https://groupebourasseau.com\n\nJe peux vous préparer gratuitement une première démonstration personnalisée, sans engagement : un aperçu de votre page d'accueil optimisée pour le référencement.\n\nCela vous dirait de la découvrir ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation web · Agents IA · Automatisation\nhttps://prospecto.website\n",
-        "queue_id": "2026-11-04-v4-002"
+        "body": "Bonjour,\n\nJ'ai lu votre annonce : vous voulez faire évoluer votre site WordPress, votre référencement et votre communication.\n\nJe peux vous proposer une optimisation de votre site WordPress pour le rendre plus rapide et mieux référencé, sans tout reconstruire.\n\nÀ titre d'exemple, voici le site institutionnel que j'ai conçu pour mon groupe : https://groupebourasseau.com\n\nJe peux vous préparer gratuitement une première démonstration personnalisée, sans engagement : un aperçu de votre page d'accueil optimisée pour le référencement.\n\nCela vous dirait de la découvrir ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin Boisseau\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+        "queue_id": "2026-11-04-lancement-004",
+        "gmail_draft_id": "r-6364247523249990052"
       },
       "email_verification": "verified",
-      "campaign": "2026-11-04-v4",
+      "campaign": "2026-11-04-lancement",
       "variant": "public_need",
       "reference_id": "groupe-bourasseau",
       "message_version": "v4"
@@ -117,17 +118,18 @@
       "custom_hook": "J'ai suivi le lancement de Secteur 72 : vous préparez l'ouverture de votre terrain d'airsoft et le développement de la boutique.",
       "custom_subject": "Secteur 72 : automatiser avant l'ouverture ?",
       "notes": "Site récent et soigné (pas de refonte à proposer). Lancement en cours, fondateur Marc Fontaine. Contact public : secteur72fr@gmail.com (presse actu.fr + site). Angle honnête : automatisation du processus de réservation, pas de problème inventé.",
-      "status": "email_préparé",
+      "status": "brouillon_créé",
       "id": "secteur-72",
       "created_at": "2026-11-03T21:04:42+00:00",
-      "updated_at": "2026-11-04T18:28:22+00:00",
+      "updated_at": "2026-11-04T18:50:25+00:00",
       "proposed_email": {
         "subject": "Secteur 72 : automatiser avant l'ouverture ?",
-        "body": "Bonjour Marc,\n\nJ'ai suivi le lancement de Secteur 72 : vous préparez l'ouverture de votre terrain d'airsoft et le développement de la boutique.\n\nJe peux vous proposer une automatisation de vos réservations et rappels de sessions, pour ouvrir sans y passer vos soirées\n\nCôté agents IA, voici SYNATRAP, la plateforme que je développe avec mon groupe : https://synatrap.com\n\nJe peux vous montrer gratuitement une démonstration concrète de la solution envisagée, sans engagement, sur un cas réel de votre activité.\n\nCela vous dirait de la découvrir ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation web · Agents IA · Automatisation\nhttps://prospecto.website\n",
-        "queue_id": "2026-11-04-v4-003"
+        "body": "Bonjour Marc,\n\nJ'ai suivi le lancement de Secteur 72 : vous préparez l'ouverture de votre terrain d'airsoft et le développement de la boutique.\n\nJe peux vous proposer une automatisation de vos réservations et rappels de sessions, pour ouvrir sans y passer vos soirées.\n\nCôté agents IA, voici SYNATRAP, la plateforme que je développe avec mon groupe : https://synatrap.com\n\nJe peux vous montrer gratuitement une démonstration concrète de la solution envisagée, sans engagement, sur un cas réel de votre activité.\n\nCela vous dirait de la découvrir ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin Boisseau\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+        "queue_id": "2026-11-04-lancement-005",
+        "gmail_draft_id": "r4312329915572637763"
       },
       "email_verification": "public_unverified",
-      "campaign": "2026-11-04-v4",
+      "campaign": "2026-11-04-lancement",
       "variant": "public_need",
       "reference_id": "synatrap",
       "message_version": "v4"
@@ -264,17 +266,18 @@
       "custom_hook": "J'ai vu votre projet de newsletter mensuelle pour vos agences de voyages clientes.",
       "custom_subject": "Votre newsletter mensuelle, en pilote automatique ?",
       "notes": "",
-      "status": "email_préparé",
+      "status": "brouillon_créé",
       "id": "bsp-auto",
       "created_at": "2026-11-03T21:13:01+00:00",
-      "updated_at": "2026-11-04T18:28:22+00:00",
+      "updated_at": "2026-11-04T18:50:25+00:00",
       "proposed_email": {
         "subject": "Votre newsletter mensuelle, en pilote automatique ?",
-        "body": "Bonjour,\n\nJ'ai vu votre projet de newsletter mensuelle pour vos agences de voyages clientes.\n\nJe peux vous proposer une automatisation qui prépare et envoie votre newsletter mensuelle à vos agences clientes, sans y repasser chaque mois\n\nCôté agents IA, voici SYNATRAP, la plateforme que je développe avec mon groupe : https://synatrap.com\n\nJe peux vous montrer gratuitement une démonstration concrète de la solution envisagée, sans engagement, sur un cas réel de votre activité.\n\nCela vous dirait de la découvrir ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation web · Agents IA · Automatisation\nhttps://prospecto.website\n",
-        "queue_id": "2026-11-04-v4-004"
+        "body": "Bonjour,\n\nJ'ai vu votre projet de newsletter mensuelle pour vos agences de voyages clientes.\n\nJe peux vous proposer une automatisation qui prépare et envoie votre newsletter mensuelle à vos agences clientes, sans y repasser chaque mois.\n\nCôté agents IA, voici SYNATRAP, la plateforme que je développe avec mon groupe : https://synatrap.com\n\nJe peux vous montrer gratuitement une démonstration concrète de la solution envisagée, sans engagement, sur un cas réel de votre activité.\n\nCela vous dirait de la découvrir ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin Boisseau\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+        "queue_id": "2026-11-04-lancement-006",
+        "gmail_draft_id": "r-3403551830979936136"
       },
       "email_verification": "verified",
-      "campaign": "2026-11-04-v4",
+      "campaign": "2026-11-04-lancement",
       "variant": "public_need",
       "reference_id": "synatrap",
       "message_version": "v4"
@@ -315,17 +318,18 @@
       "custom_hook": "J'ai suivi l'ouverture de CERF à Mouzillon : petits groupes, coach présent, objectif d'une centaine d'adhérents.",
       "custom_subject": "CERF : automatiser le suivi de vos adhérents ?",
       "notes": "",
-      "status": "email_préparé",
+      "status": "brouillon_créé",
       "id": "cerf-athletic-training",
       "created_at": "2026-11-03T21:13:01+00:00",
-      "updated_at": "2026-11-04T18:28:22+00:00",
+      "updated_at": "2026-11-04T18:50:25+00:00",
       "proposed_email": {
         "subject": "CERF : automatiser le suivi de vos adhérents ?",
-        "body": "Bonjour Elwen,\n\nJ'ai suivi l'ouverture de CERF à Mouzillon : petits groupes, coach présent, objectif d'une centaine d'adhérents.\n\nJe peux vous proposer une automatisation de vos inscriptions, rappels de séances et réponses aux questions des adhérents\n\nCôté agents IA, voici SYNATRAP, la plateforme que je développe avec mon groupe : https://synatrap.com\n\nJe peux vous montrer gratuitement une démonstration concrète de la solution envisagée, sans engagement, sur un cas réel de votre activité.\n\nCela vous dirait de la découvrir ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation web · Agents IA · Automatisation\nhttps://prospecto.website\n",
-        "queue_id": "2026-11-04-v4-005"
+        "body": "Bonjour Elwen,\n\nJ'ai suivi l'ouverture de CERF à Mouzillon : petits groupes, coach présent, objectif d'une centaine d'adhérents.\n\nJe peux vous proposer une automatisation de vos inscriptions, rappels de séances et réponses aux questions des adhérents.\n\nCôté agents IA, voici SYNATRAP, la plateforme que je développe avec mon groupe : https://synatrap.com\n\nJe peux vous montrer gratuitement une démonstration concrète de la solution envisagée, sans engagement, sur un cas réel de votre activité.\n\nCela vous dirait de la découvrir ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin Boisseau\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+        "queue_id": "2026-11-04-lancement-007",
+        "gmail_draft_id": "r-2617817986926944048"
       },
       "email_verification": "verified",
-      "campaign": "2026-11-04-v4",
+      "campaign": "2026-11-04-lancement",
       "variant": "synatrap_ia",
       "reference_id": "synatrap",
       "message_version": "v4"
@@ -366,17 +370,18 @@
       "custom_hook": "Je viens de découvrir Charme de l'Hêtre, votre activité d'arboriste grimpeuse lancée cet été.",
       "custom_subject": "Charme de l'Hêtre : être trouvé sur Google ?",
       "notes": "",
-      "status": "email_préparé",
+      "status": "brouillon_créé",
       "id": "charme-de-l-h-tre",
       "created_at": "2026-11-03T21:13:01+00:00",
-      "updated_at": "2026-11-04T18:28:22+00:00",
+      "updated_at": "2026-11-04T18:50:25+00:00",
       "proposed_email": {
         "subject": "Charme de l'Hêtre : être trouvé sur Google ?",
-        "body": "Bonjour Chloé,\n\nJe viens de découvrir Charme de l'Hêtre, votre activité d'arboriste grimpeuse lancée cet été.\n\nJe peux vous proposer un site vitrine clair et rapide qui présente votre activité d'élagage et donne envie de vous contacter\n\nÀ titre d'exemple, voici le site institutionnel que j'ai conçu pour mon groupe : https://groupebourasseau.com\n\nJe peux vous préparer gratuitement une première démonstration personnalisée, sans engagement : une première maquette de site vitrine pour votre activité d'élagage.\n\nCela vous dirait de la découvrir ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation web · Agents IA · Automatisation\nhttps://prospecto.website\n",
-        "queue_id": "2026-11-04-v4-006"
+        "body": "Bonjour Chloé,\n\nJe viens de découvrir Charme de l'Hêtre, votre activité d'arboriste grimpeuse lancée cet été.\n\nJe peux vous proposer un site vitrine clair et rapide qui présente votre activité d'élagage et donne envie de vous contacter.\n\nÀ titre d'exemple, voici le site institutionnel que j'ai conçu pour mon groupe : https://groupebourasseau.com\n\nJe peux vous préparer gratuitement une première démonstration personnalisée, sans engagement : une première maquette de site vitrine pour votre activité d'élagage.\n\nCela vous dirait de la découvrir ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin Boisseau\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+        "queue_id": "2026-11-04-lancement-008",
+        "gmail_draft_id": "r-4054780296521220721"
       },
       "email_verification": "public_unverified",
-      "campaign": "2026-11-04-v4",
+      "campaign": "2026-11-04-lancement",
       "variant": "no_site",
       "reference_id": "groupe-bourasseau",
       "message_version": "v4"
@@ -420,7 +425,7 @@
       "status": "nouveau",
       "id": "carot-s",
       "created_at": "2026-11-03T21:13:01+00:00",
-      "updated_at": "2026-11-04T18:28:22+00:00",
+      "updated_at": "2026-11-04T18:50:25+00:00",
       "email_verification": "public_unverified"
     },
     {
@@ -462,7 +467,7 @@
       "status": "nouveau",
       "id": "matabiau-locker-hub",
       "created_at": "2026-11-03T21:13:01+00:00",
-      "updated_at": "2026-11-04T18:28:22+00:00",
+      "updated_at": "2026-11-04T18:50:25+00:00",
       "email_verification": "public_unverified"
     },
     {
@@ -504,7 +509,7 @@
       "status": "nouveau",
       "id": "gela",
       "created_at": "2026-11-03T21:13:01+00:00",
-      "updated_at": "2026-11-04T18:28:22+00:00",
+      "updated_at": "2026-11-04T18:50:25+00:00",
       "email_verification": "public_unverified"
     },
     {
@@ -731,6 +736,386 @@
         "subject": "Un agent IA pour Camping Mer et Camargue — Restaurant Le Pano ?",
         "body": "Bonjour,\n\nEn parcourant votre site (campingmeretcamargue.fr), j'ai relevé un point concret : les réservations du restaurant et des événements se font uniquement par téléphone, sans réservation en ligne.\n\nJe peux vous proposer la réservation en ligne et le traitement automatique des demandes pour votre restaurant et vos événements\n\nCôté agents IA, voici SYNATRAP, la plateforme que je développe avec mon groupe : https://synatrap.com\n\nJe peux vous montrer gratuitement une démonstration concrète de la solution envisagée, sans engagement, sur un cas réel de votre activité.\n\nCela vous dirait de la découvrir ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation web · Agents IA · Automatisation\nhttps://prospecto.website\n",
         "queue_id": "2026-11-04-v4-001"
+      }
+    },
+    {
+      "company": "Fabricant de sacs à dos sur mesure",
+      "website": "",
+      "domain": "",
+      "sector": "commerce",
+      "city": "",
+      "department": "",
+      "contact_name": "",
+      "contact_role": "",
+      "email": "",
+      "phone": "",
+      "source": "Codeur.com",
+      "evidence": [
+        {
+          "kind": "public_need",
+          "source_url": "https://www.codeur.com/projects/492260-site-internet-e-commerce",
+          "quote": "Je recherche un développeur WordPress / WooCommerce expérimenté pour concevoir l'intégralité d'un site internet qui conçoit et fabrique des sacs à dos sur mesure.",
+          "observed_at": "2026-11-04",
+          "detail": "Annonce Codeur (budget 1000-10000 EUR) : site e-commerce WordPress/WooCommerce pour un fabricant de sacs à dos sur mesure."
+        }
+      ],
+      "publication_date": "2026-11-02",
+      "need": "site_web",
+      "needs": [
+        "site_web"
+      ],
+      "recommended_service": "une boutique en ligne qui met en valeur vos sacs sur mesure et permet de commander facilement",
+      "email_verification": "none",
+      "score": 60,
+      "tier": "a_approfondir",
+      "status_crm": "non_qualifie",
+      "justification": "besoin exprimé publiquement (+50) : https://www.codeur.com/projects/492260-site-internet-e-commerce ; secteur connu (commerce) (+10)",
+      "process_hint": "",
+      "demo_detail": "une maquette de la boutique avec vos produits et le parcours de commande",
+      "custom_hook": "",
+      "custom_subject": "",
+      "notes": "Porteur anonyme Codeur (URL du site masquée, réservée aux membres Pro). Coordonnées à récupérer.",
+      "status": "nouveau",
+      "id": "fabricant-de-sacs-dos-sur-mesure",
+      "created_at": "2026-11-04T18:50:16+00:00",
+      "updated_at": "2026-11-04T18:50:17+00:00"
+    },
+    {
+      "company": "Boutique e-commerce de produits haut de gamme",
+      "website": "",
+      "domain": "",
+      "sector": "commerce",
+      "city": "",
+      "department": "",
+      "contact_name": "",
+      "contact_role": "",
+      "email": "",
+      "phone": "",
+      "source": "Codeur.com",
+      "evidence": [
+        {
+          "kind": "public_need",
+          "source_url": "https://www.codeur.com/projects/492257-recherche-un-graphiste-web-designer",
+          "quote": "je recherche un designer qui pourrait m'accompagner dans la création d'une boutique e-commerce dédiée à la vente de produits haut de gamme.",
+          "observed_at": "2026-11-04",
+          "detail": "Annonce Codeur (budget 500-1000 EUR) : design + création d'une boutique e-commerce haut de gamme, accompagnement sur l'expérience client."
+        }
+      ],
+      "publication_date": "2026-11-02",
+      "need": "site_web",
+      "needs": [
+        "site_web"
+      ],
+      "recommended_service": "une boutique en ligne élégante, pensée pour mettre en valeur vos produits haut de gamme et guider l'achat",
+      "email_verification": "none",
+      "score": 60,
+      "tier": "a_approfondir",
+      "status_crm": "non_qualifie",
+      "justification": "besoin exprimé publiquement (+50) : https://www.codeur.com/projects/492257-recherche-un-graphiste-web-designer ; secteur connu (commerce) (+10)",
+      "process_hint": "",
+      "demo_detail": "une maquette de la boutique avec une direction graphique haut de gamme",
+      "custom_hook": "",
+      "custom_subject": "",
+      "notes": "Porteur anonyme Codeur. Coordonnées à récupérer.",
+      "status": "nouveau",
+      "id": "boutique-e-commerce-de-produits-haut-de-gamme",
+      "created_at": "2026-11-04T18:50:16+00:00",
+      "updated_at": "2026-11-04T18:50:17+00:00"
+    },
+    {
+      "company": "Projet de boutique Shopify (dizaine de produits)",
+      "website": "",
+      "domain": "",
+      "sector": "commerce",
+      "city": "",
+      "department": "",
+      "contact_name": "",
+      "contact_role": "",
+      "email": "",
+      "phone": "",
+      "source": "Codeur.com",
+      "evidence": [
+        {
+          "kind": "public_need",
+          "source_url": "https://www.codeur.com/projects/492234-creation-site-web-shopify",
+          "quote": "créer un site web de vente en ligne pour seulement une dizaine de produits",
+          "observed_at": "2026-11-04",
+          "detail": "Annonce Codeur (budget 500-1000 EUR) : création d'un site Shopify pour une dizaine de produits."
+        }
+      ],
+      "publication_date": "2026-11-02",
+      "need": "site_web",
+      "needs": [
+        "site_web"
+      ],
+      "recommended_service": "une boutique en ligne simple et efficace pour vendre votre dizaine de produits",
+      "email_verification": "none",
+      "score": 60,
+      "tier": "a_approfondir",
+      "status_crm": "non_qualifie",
+      "justification": "besoin exprimé publiquement (+50) : https://www.codeur.com/projects/492234-creation-site-web-shopify ; secteur connu (commerce) (+10)",
+      "process_hint": "",
+      "demo_detail": "une maquette de la boutique avec vos produits et le paiement",
+      "custom_hook": "",
+      "custom_subject": "",
+      "notes": "Porteur anonyme Codeur. Coordonnées à récupérer.",
+      "status": "nouveau",
+      "id": "projet-de-boutique-shopify-dizaine-de-produits",
+      "created_at": "2026-11-04T18:50:16+00:00",
+      "updated_at": "2026-11-04T18:50:17+00:00"
+    },
+    {
+      "company": "Vente d'espaces publicitaires TV — outil IA",
+      "website": "",
+      "domain": "",
+      "sector": "services",
+      "city": "",
+      "department": "",
+      "contact_name": "",
+      "contact_role": "",
+      "email": "",
+      "phone": "",
+      "source": "Codeur.com",
+      "evidence": [
+        {
+          "kind": "public_need",
+          "source_url": "https://www.codeur.com/projects/492236-outil-ia-centraliser-des-offres-pub-et-generer-des-propositions",
+          "quote": "Je travaille dans la vente d'espaces publicitaires audiovisuels (TV et plateformes de streaming). Une grande partie de l'activité repose sur des offres à durée limitée, reçues chaque semaine.",
+          "observed_at": "2026-11-04",
+          "detail": "Annonce Codeur (budget 1000-10000 EUR) : outil IA pour centraliser les offres pub et générer des propositions commerciales."
+        }
+      ],
+      "publication_date": "2026-11-02",
+      "need": "automatisation",
+      "needs": [
+        "automatisation"
+      ],
+      "recommended_service": "un outil IA qui centralise vos offres publicitaires et génère automatiquement vos propositions commerciales",
+      "email_verification": "none",
+      "score": 60,
+      "tier": "a_approfondir",
+      "status_crm": "non_qualifie",
+      "justification": "besoin exprimé publiquement (+50) : https://www.codeur.com/projects/492236-outil-ia-centraliser-des-offres-pub-et-generer-des-propositions ; secteur connu (services) (+10)",
+      "process_hint": "offres à durée limitée reçues chaque semaine, à centraliser et transformer en propositions",
+      "demo_detail": "une démonstration de l'outil sur vos offres hebdomadaires et une proposition type",
+      "custom_hook": "",
+      "custom_subject": "",
+      "notes": "Porteur anonyme Codeur. Besoin d'automatisation IA très précis. Coordonnées à récupérer.",
+      "status": "nouveau",
+      "id": "vente-d-espaces-publicitaires-tv-outil-ia",
+      "created_at": "2026-11-04T18:50:16+00:00",
+      "updated_at": "2026-11-04T18:50:17+00:00"
+    },
+    {
+      "company": "Marque de soins — réponses aux commentaires",
+      "website": "",
+      "domain": "",
+      "sector": "commerce",
+      "city": "",
+      "department": "",
+      "contact_name": "",
+      "contact_role": "",
+      "email": "",
+      "phone": "",
+      "source": "Codeur.com",
+      "evidence": [
+        {
+          "kind": "public_need",
+          "source_url": "https://www.codeur.com/projects/492285-repondre-aux-commentaires-tiktok-et-facebook-d-une-marque-de-soins",
+          "quote": "Petite marque française de soins cherche une personne pour répondre à quelques commentaires sous ses vidéos (TikTok, Facebook).",
+          "observed_at": "2026-11-04",
+          "detail": "Annonce Codeur (budget <500 EUR) : répondre aux commentaires des réseaux sociaux ; tâche répétitive pouvant être assistée par un agent IA."
+        }
+      ],
+      "publication_date": "2026-11-03",
+      "need": "automatisation",
+      "needs": [
+        "automatisation"
+      ],
+      "recommended_service": "un agent IA qui vous aide à traiter les commentaires sous vos vidéos, pour ne plus rien laisser sans réponse",
+      "email_verification": "none",
+      "score": 60,
+      "tier": "a_approfondir",
+      "status_crm": "non_qualifie",
+      "justification": "besoin exprimé publiquement (+50) : https://www.codeur.com/projects/492285-repondre-aux-commentaires-tiktok-et-facebook-d-une-marque-de-soins ; secteur connu (commerce) (+10)",
+      "process_hint": "commentaires TikTok/Facebook à traiter régulièrement",
+      "demo_detail": "une démonstration de l'agent sur des commentaires types de vos vidéos",
+      "custom_hook": "",
+      "custom_subject": "",
+      "notes": "Porteur anonyme Codeur. Petite marque française de soins. Coordonnées à récupérer.",
+      "status": "nouveau",
+      "id": "marque-de-soins-r-ponses-aux-commentaires",
+      "created_at": "2026-11-04T18:50:16+00:00",
+      "updated_at": "2026-11-04T18:50:17+00:00"
+    },
+    {
+      "company": "Camping Le Galet",
+      "website": "https://camping-galet.com/",
+      "domain": "camping-galet.com",
+      "sector": "services",
+      "city": "Marseillan-Plage",
+      "department": "34",
+      "contact_name": "",
+      "contact_role": "",
+      "email": "reception@camping-galet.com",
+      "phone": "+33 4 67 21 95 61",
+      "source": "camping-galet.com",
+      "evidence": [
+        {
+          "kind": "website_gap",
+          "source_url": "https://camping-galet.com/en/reservations-open-2025/",
+          "quote": "Pour réserver un emplacement, nous vous invitons à nous contacter par téléphone... Pas de réservation en ligne possible.",
+          "observed_at": "2026-11-04",
+          "detail": "les emplacements (tentes, caravanes, camping-cars) se réservent uniquement par téléphone, sans réservation en ligne."
+        },
+        {
+          "kind": "sector_opportunity",
+          "source_url": "https://camping-galet.com/",
+          "quote": "Camping familial à Marseillan Plage... séjours en mobil-home ou sur des emplacements",
+          "observed_at": "2026-11-04",
+          "detail": "Camping familial avec forte activité saisonnière : un volume de demandes de séjour à fluidifier."
+        }
+      ],
+      "publication_date": "",
+      "need": "automatisation",
+      "needs": [
+        "automatisation"
+      ],
+      "recommended_service": "la réservation en ligne de vos emplacements et le traitement automatique des demandes de séjour",
+      "email_verification": "verified",
+      "score": 40,
+      "tier": "moyenne",
+      "status_crm": "a_revoir",
+      "justification": "1 lacune(s) vérifiée(s) sur le site (+20) ; opportunité sectorielle documentée (+10) ; secteur connu (services) (+10)",
+      "process_hint": "réservation des emplacements (tentes, caravanes, camping-cars) uniquement par téléphone",
+      "demo_detail": "un aperçu du parcours de réservation en ligne pour vos emplacements",
+      "custom_hook": "",
+      "custom_subject": "",
+      "notes": "Email public sur le site officiel. Camping 3 étoiles, piscine chauffée. Mobil-homes réservables en ligne mais emplacements par téléphone uniquement = lacune observable.",
+      "status": "brouillon_créé",
+      "id": "camping-le-galet",
+      "created_at": "2026-11-04T18:50:16+00:00",
+      "updated_at": "2026-11-04T18:50:17+00:00",
+      "campaign": "2026-11-04-lancement",
+      "variant": "synatrap_ia",
+      "reference_id": "synatrap",
+      "message_version": "v4",
+      "proposed_email": {
+        "subject": "Un agent IA pour Camping Le Galet ?",
+        "body": "Bonjour,\n\nEn parcourant votre site (camping-galet.com), j'ai relevé un point concret : les emplacements (tentes, caravanes, camping-cars) se réservent uniquement par téléphone, sans réservation en ligne.\n\nJe peux vous proposer la réservation en ligne de vos emplacements et le traitement automatique des demandes de séjour.\n\nCôté agents IA, voici SYNATRAP, la plateforme que je développe avec mon groupe : https://synatrap.com\n\nJe peux vous montrer gratuitement une démonstration concrète de la solution envisagée, sans engagement, sur un cas réel de votre activité.\n\nCela vous dirait de la découvrir ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin Boisseau\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+        "queue_id": "2026-11-04-lancement-001",
+        "gmail_draft_id": "r-8798186389434120513"
+      }
+    },
+    {
+      "company": "Restaurant La Renardière",
+      "website": "https://larenardiere-coldemarcieu.fr/",
+      "domain": "larenardiere-coldemarcieu.fr",
+      "sector": "restauration",
+      "city": "Saint-Bernard-du-Touvet",
+      "department": "38",
+      "contact_name": "Julien",
+      "contact_role": "",
+      "email": "larenardieredelyna@gmail.com",
+      "phone": "+33 4 76 08 30 91",
+      "source": "larenardiere-coldemarcieu.fr",
+      "evidence": [
+        {
+          "kind": "website_gap",
+          "source_url": "https://larenardiere-coldemarcieu.fr/",
+          "quote": "Réservation conseillée au 04 76 08 30 91... n'hésitez pas à nous contacter pour établir un devis.",
+          "observed_at": "2026-11-04",
+          "detail": "les réservations et devis (groupes, séminaires, traiteur) se font par téléphone, sans demande en ligne structurée."
+        },
+        {
+          "kind": "sector_opportunity",
+          "source_url": "https://larenardiere-coldemarcieu.fr/",
+          "quote": "SÉMINAIRES • GROUPES • BANQUETS • GRANDE SALLE PRIVATIVE",
+          "observed_at": "2026-11-04",
+          "detail": "Restaurant, traiteur et séminaires : de nombreuses demandes d'événements à traiter et relancer."
+        }
+      ],
+      "publication_date": "",
+      "need": "automatisation",
+      "needs": [
+        "automatisation"
+      ],
+      "recommended_service": "le traitement automatique des demandes de groupes, séminaires et traiteur, avec devis et confirmations",
+      "email_verification": "verified",
+      "score": 45,
+      "tier": "moyenne",
+      "status_crm": "a_revoir",
+      "justification": "1 lacune(s) vérifiée(s) sur le site (+20) ; opportunité sectorielle documentée (+10) ; secteur connu (restauration) (+10) ; prénom du contact connu (+5)",
+      "process_hint": "réservations et devis groupes/séminaires/traiteur par téléphone",
+      "demo_detail": "un aperçu du parcours de demande de devis pour un groupe ou un séminaire",
+      "custom_hook": "",
+      "custom_subject": "",
+      "notes": "Email public sur le site officiel. Chef Julien Dubourgeat. Restaurant + traiteur + séminaires (salle 150m2, 50 pers). Réservations/devis par téléphone = lacune observable.",
+      "status": "brouillon_créé",
+      "id": "restaurant-la-renardi-re",
+      "created_at": "2026-11-04T18:50:16+00:00",
+      "updated_at": "2026-11-04T18:50:17+00:00",
+      "campaign": "2026-11-04-lancement",
+      "variant": "synatrap_ia",
+      "reference_id": "synatrap",
+      "message_version": "v4",
+      "proposed_email": {
+        "subject": "Restaurant La Renardière : automatiser avec un agent ?",
+        "body": "Bonjour Julien,\n\nEn parcourant votre site (larenardiere-coldemarcieu.fr), j'ai relevé un point concret : les réservations et devis (groupes, séminaires, traiteur) se font par téléphone, sans demande en ligne structurée.\n\nJe peux vous proposer le traitement automatique des demandes de groupes, séminaires et traiteur, avec devis et confirmations.\n\nCôté agents IA, voici SYNATRAP, la plateforme que je développe avec mon groupe : https://synatrap.com\n\nJe peux vous montrer gratuitement une démonstration concrète de la solution envisagée, sans engagement, sur un cas réel de votre activité.\n\nCela vous dirait de la découvrir ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin Boisseau\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+        "queue_id": "2026-11-04-lancement-002",
+        "gmail_draft_id": "r-1177897821053495312"
+      }
+    },
+    {
+      "company": "Restaurant Les Santons",
+      "website": "https://www.les-santons.fr/",
+      "domain": "les-santons.fr",
+      "sector": "restauration",
+      "city": "La Turbie",
+      "department": "06",
+      "contact_name": "",
+      "contact_role": "",
+      "email": "lessantons.laturbie@gmail.com",
+      "phone": "+33 4 93 41 15 76",
+      "source": "les-santons.fr",
+      "evidence": [
+        {
+          "kind": "sector_opportunity",
+          "source_url": "https://www.les-santons.fr/evenementiel/",
+          "quote": "Menu groupe (de 15 à 60 personnes)... Réservations au 04.93.41.15.76 ou par mail... Nous adaptons nos propositions en fonction des envies et contraintes de nos clients.",
+          "observed_at": "2026-11-04",
+          "detail": "Événements et groupes (mariages, anniversaires) avec devis personnalisés traités par téléphone/email : traitement manuel pouvant être automatisé."
+        }
+      ],
+      "publication_date": "",
+      "need": "automatisation",
+      "needs": [
+        "automatisation"
+      ],
+      "recommended_service": "le traitement automatique des demandes d'événements et de groupes (devis, confirmations, relances)",
+      "email_verification": "verified",
+      "score": 20,
+      "tier": "moyenne",
+      "status_crm": "a_revoir",
+      "justification": "opportunité sectorielle documentée (+10) ; secteur connu (restauration) (+10)",
+      "process_hint": "demandes d'événements et de groupes (15 à 60 personnes) par téléphone ou email",
+      "demo_detail": "un aperçu du parcours de demande de devis pour un groupe ou un événement",
+      "custom_hook": "",
+      "custom_subject": "",
+      "notes": "Email public sur le site officiel. 138 Rue de l'Amendola, 06320 La Turbie. Réservation de table en ligne présente, mais devis événements/groupes traités manuellement = opportunité d'automatisation (score plus faible, à approfondir).",
+      "status": "brouillon_créé",
+      "id": "restaurant-les-santons",
+      "created_at": "2026-11-04T18:50:16+00:00",
+      "updated_at": "2026-11-04T18:50:17+00:00",
+      "campaign": "2026-11-04-lancement",
+      "variant": "synatrap_ia",
+      "reference_id": "synatrap",
+      "message_version": "v4",
+      "proposed_email": {
+        "subject": "Un agent IA pour Restaurant Les Santons ?",
+        "body": "Bonjour,\n\nEn découvrant Restaurant Les Santons, j'ai remarqué un point concret : demandes d'événements et de groupes (15 à 60 personnes) par téléphone ou email. Une piste concrète pour vous faire gagner du temps.\n\nJe peux vous proposer le traitement automatique des demandes d'événements et de groupes (devis, confirmations, relances).\n\nCôté agents IA, voici SYNATRAP, la plateforme que je développe avec mon groupe : https://synatrap.com\n\nJe peux vous montrer gratuitement une démonstration concrète de la solution envisagée, sans engagement, sur un cas réel de votre activité.\n\nCela vous dirait de la découvrir ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin Boisseau\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+        "queue_id": "2026-11-04-lancement-003",
+        "gmail_draft_id": "r803404552435909425"
       }
     }
   ]

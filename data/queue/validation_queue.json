@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-04T18:28:22+00:00",
+  "updated_at": "2026-11-04T18:52:40+00:00",
   "items": [
     {
       "id": "2026-11-03-v2-001",
@@ -337,6 +337,249 @@
           "at": "2026-11-04T18:28:22+00:00",
           "action": "created",
           "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-04-lancement-001",
+      "campaign": "2026-11-04-lancement",
+      "to": "reception@camping-galet.com",
+      "company": "Camping Le Galet",
+      "subject": "Un agent IA pour Camping Le Galet ?",
+      "body": "Bonjour,\n\nEn parcourant votre site (camping-galet.com), j'ai relevé un point concret : les emplacements (tentes, caravanes, camping-cars) se réservent uniquement par téléphone, sans réservation en ligne.\n\nJe peux vous proposer la réservation en ligne de vos emplacements et le traitement automatique des demandes de séjour.\n\nCôté agents IA, voici SYNATRAP, la plateforme que je développe avec mon groupe : https://synatrap.com\n\nJe peux vous montrer gratuitement une démonstration concrète de la solution envisagée, sans engagement, sur un cas réel de votre activité.\n\nCela vous dirait de la découvrir ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin Boisseau\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+      "need": "automatisation",
+      "evidence_sources": [
+        "https://camping-galet.com/en/reservations-open-2025/",
+        "https://camping-galet.com/"
+      ],
+      "status": "pending",
+      "created_at": "2026-11-04T18:50:17+00:00",
+      "updated_at": "2026-11-04T18:52:40+00:00",
+      "gmail_draft_id": "r-8798186389434120513",
+      "gmail_message_id": null,
+      "decision_reason": "",
+      "history": [
+        {
+          "at": "2026-11-04T18:50:17+00:00",
+          "action": "created",
+          "status": "pending"
+        },
+        {
+          "at": "2026-11-04T18:52:40+00:00",
+          "action": "gmail_draft_created",
+          "draft_id": "r-8798186389434120513"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-04-lancement-002",
+      "campaign": "2026-11-04-lancement",
+      "to": "larenardieredelyna@gmail.com",
+      "company": "Restaurant La Renardière",
+      "subject": "Restaurant La Renardière : automatiser avec un agent ?",
+      "body": "Bonjour Julien,\n\nEn parcourant votre site (larenardiere-coldemarcieu.fr), j'ai relevé un point concret : les réservations et devis (groupes, séminaires, traiteur) se font par téléphone, sans demande en ligne structurée.\n\nJe peux vous proposer le traitement automatique des demandes de groupes, séminaires et traiteur, avec devis et confirmations.\n\nCôté agents IA, voici SYNATRAP, la plateforme que je développe avec mon groupe : https://synatrap.com\n\nJe peux vous montrer gratuitement une démonstration concrète de la solution envisagée, sans engagement, sur un cas réel de votre activité.\n\nCela vous dirait de la découvrir ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin Boisseau\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+      "need": "automatisation",
+      "evidence_sources": [
+        "https://larenardiere-coldemarcieu.fr/",
+        "https://larenardiere-coldemarcieu.fr/"
+      ],
+      "status": "pending",
+      "created_at": "2026-11-04T18:50:17+00:00",
+      "updated_at": "2026-11-04T18:52:40+00:00",
+      "gmail_draft_id": "r-1177897821053495312",
+      "gmail_message_id": null,
+      "decision_reason": "",
+      "history": [
+        {
+          "at": "2026-11-04T18:50:17+00:00",
+          "action": "created",
+          "status": "pending"
+        },
+        {
+          "at": "2026-11-04T18:52:40+00:00",
+          "action": "gmail_draft_created",
+          "draft_id": "r-1177897821053495312"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-04-lancement-003",
+      "campaign": "2026-11-04-lancement",
+      "to": "lessantons.laturbie@gmail.com",
+      "company": "Restaurant Les Santons",
+      "subject": "Un agent IA pour Restaurant Les Santons ?",
+      "body": "Bonjour,\n\nEn découvrant Restaurant Les Santons, j'ai remarqué un point concret : demandes d'événements et de groupes (15 à 60 personnes) par téléphone ou email. Une piste concrète pour vous faire gagner du temps.\n\nJe peux vous proposer le traitement automatique des demandes d'événements et de groupes (devis, confirmations, relances).\n\nCôté agents IA, voici SYNATRAP, la plateforme que je développe avec mon groupe : https://synatrap.com\n\nJe peux vous montrer gratuitement une démonstration concrète de la solution envisagée, sans engagement, sur un cas réel de votre activité.\n\nCela vous dirait de la découvrir ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin Boisseau\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+      "need": "automatisation",
+      "evidence_sources": [
+        "https://www.les-santons.fr/evenementiel/"
+      ],
+      "status": "pending",
+      "created_at": "2026-11-04T18:50:17+00:00",
+      "updated_at": "2026-11-04T18:52:40+00:00",
+      "gmail_draft_id": "r803404552435909425",
+      "gmail_message_id": null,
+      "decision_reason": "",
+      "history": [
+        {
+          "at": "2026-11-04T18:50:17+00:00",
+          "action": "created",
+          "status": "pending"
+        },
+        {
+          "at": "2026-11-04T18:52:40+00:00",
+          "action": "gmail_draft_created",
+          "draft_id": "r803404552435909425"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-04-lancement-004",
+      "campaign": "2026-11-04-lancement",
+      "to": "contact@renovationpremium.com",
+      "company": "R Premium",
+      "subject": "Votre annonce WordPress + référencement",
+      "body": "Bonjour,\n\nJ'ai lu votre annonce : vous voulez faire évoluer votre site WordPress, votre référencement et votre communication.\n\nJe peux vous proposer une optimisation de votre site WordPress pour le rendre plus rapide et mieux référencé, sans tout reconstruire.\n\nÀ titre d'exemple, voici le site institutionnel que j'ai conçu pour mon groupe : https://groupebourasseau.com\n\nJe peux vous préparer gratuitement une première démonstration personnalisée, sans engagement : un aperçu de votre page d'accueil optimisée pour le référencement.\n\nCela vous dirait de la découvrir ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin Boisseau\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+      "need": "refonte",
+      "evidence_sources": [
+        "https://www.codeur.com/pages/appel-offre"
+      ],
+      "status": "pending",
+      "created_at": "2026-11-04T18:50:25+00:00",
+      "updated_at": "2026-11-04T18:52:40+00:00",
+      "gmail_draft_id": "r-6364247523249990052",
+      "gmail_message_id": null,
+      "decision_reason": "",
+      "history": [
+        {
+          "at": "2026-11-04T18:50:25+00:00",
+          "action": "created",
+          "status": "pending"
+        },
+        {
+          "at": "2026-11-04T18:52:40+00:00",
+          "action": "gmail_draft_created",
+          "draft_id": "r-6364247523249990052"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-04-lancement-005",
+      "campaign": "2026-11-04-lancement",
+      "to": "secteur72fr@gmail.com",
+      "company": "Secteur 72",
+      "subject": "Secteur 72 : automatiser avant l'ouverture ?",
+      "body": "Bonjour Marc,\n\nJ'ai suivi le lancement de Secteur 72 : vous préparez l'ouverture de votre terrain d'airsoft et le développement de la boutique.\n\nJe peux vous proposer une automatisation de vos réservations et rappels de sessions, pour ouvrir sans y passer vos soirées.\n\nCôté agents IA, voici SYNATRAP, la plateforme que je développe avec mon groupe : https://synatrap.com\n\nJe peux vous montrer gratuitement une démonstration concrète de la solution envisagée, sans engagement, sur un cas réel de votre activité.\n\nCela vous dirait de la découvrir ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin Boisseau\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+      "need": "automatisation",
+      "evidence_sources": [
+        "https://www.codeur.com/projects/492309-e-commerce-et-site-web-vitrine",
+        "https://www.actu.fr/pays-de-la-loire/montval-sur-loir_72071/sarthe-il-cherche-un-terrain-pour-son-projet-de-terrain-d-airsoft_64922877.html"
+      ],
+      "status": "pending",
+      "created_at": "2026-11-04T18:50:25+00:00",
+      "updated_at": "2026-11-04T18:52:40+00:00",
+      "gmail_draft_id": "r4312329915572637763",
+      "gmail_message_id": null,
+      "decision_reason": "",
+      "history": [
+        {
+          "at": "2026-11-04T18:50:25+00:00",
+          "action": "created",
+          "status": "pending"
+        },
+        {
+          "at": "2026-11-04T18:52:40+00:00",
+          "action": "gmail_draft_created",
+          "draft_id": "r4312329915572637763"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-04-lancement-006",
+      "campaign": "2026-11-04-lancement",
+      "to": "support@bsp-auto.com",
+      "company": "BSP Auto",
+      "subject": "Votre newsletter mensuelle, en pilote automatique ?",
+      "body": "Bonjour,\n\nJ'ai vu votre projet de newsletter mensuelle pour vos agences de voyages clientes.\n\nJe peux vous proposer une automatisation qui prépare et envoie votre newsletter mensuelle à vos agences clientes, sans y repasser chaque mois.\n\nCôté agents IA, voici SYNATRAP, la plateforme que je développe avec mon groupe : https://synatrap.com\n\nJe peux vous montrer gratuitement une démonstration concrète de la solution envisagée, sans engagement, sur un cas réel de votre activité.\n\nCela vous dirait de la découvrir ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin Boisseau\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+      "need": "automatisation",
+      "evidence_sources": [
+        "https://www.codeur.com/projects/492305-newsletter-location-de-voiture"
+      ],
+      "status": "pending",
+      "created_at": "2026-11-04T18:50:25+00:00",
+      "updated_at": "2026-11-04T18:52:40+00:00",
+      "gmail_draft_id": "r-3403551830979936136",
+      "gmail_message_id": null,
+      "decision_reason": "",
+      "history": [
+        {
+          "at": "2026-11-04T18:50:25+00:00",
+          "action": "created",
+          "status": "pending"
+        },
+        {
+          "at": "2026-11-04T18:52:40+00:00",
+          "action": "gmail_draft_created",
+          "draft_id": "r-3403551830979936136"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-04-lancement-007",
+      "campaign": "2026-11-04-lancement",
+      "to": "contact@cerf-athletic-training.fr",
+      "company": "CERF Athletic Training",
+      "subject": "CERF : automatiser le suivi de vos adhérents ?",
+      "body": "Bonjour Elwen,\n\nJ'ai suivi l'ouverture de CERF à Mouzillon : petits groupes, coach présent, objectif d'une centaine d'adhérents.\n\nJe peux vous proposer une automatisation de vos inscriptions, rappels de séances et réponses aux questions des adhérents.\n\nCôté agents IA, voici SYNATRAP, la plateforme que je développe avec mon groupe : https://synatrap.com\n\nJe peux vous montrer gratuitement une démonstration concrète de la solution envisagée, sans engagement, sur un cas réel de votre activité.\n\nCela vous dirait de la découvrir ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin Boisseau\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+      "need": "automatisation",
+      "evidence_sources": [
+        "https://actu.fr/pays-de-la-loire/mouzillon_44108/elle-va-ouvrir-dans-le-vignoble-nantais-que-propose-cette-salle-de-sport-qui-defend-une-autre-approche_64655582.html"
+      ],
+      "status": "pending",
+      "created_at": "2026-11-04T18:50:25+00:00",
+      "updated_at": "2026-11-04T18:52:40+00:00",
+      "gmail_draft_id": "r-2617817986926944048",
+      "gmail_message_id": null,
+      "decision_reason": "",
+      "history": [
+        {
+          "at": "2026-11-04T18:50:25+00:00",
+          "action": "created",
+          "status": "pending"
+        },
+        {
+          "at": "2026-11-04T18:52:40+00:00",
+          "action": "gmail_draft_created",
+          "draft_id": "r-2617817986926944048"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-04-lancement-008",
+      "campaign": "2026-11-04-lancement",
+      "to": "charmedelhetre50@gmail.com",
+      "company": "Charme de l'Hêtre",
+      "subject": "Charme de l'Hêtre : être trouvé sur Google ?",
+      "body": "Bonjour Chloé,\n\nJe viens de découvrir Charme de l'Hêtre, votre activité d'arboriste grimpeuse lancée cet été.\n\nJe peux vous proposer un site vitrine clair et rapide qui présente votre activité d'élagage et donne envie de vous contacter.\n\nÀ titre d'exemple, voici le site institutionnel que j'ai conçu pour mon groupe : https://groupebourasseau.com\n\nJe peux vous préparer gratuitement une première démonstration personnalisée, sans engagement : une première maquette de site vitrine pour votre activité d'élagage.\n\nCela vous dirait de la découvrir ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin Boisseau\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+      "need": "site_web",
+      "evidence_sources": [
+        "https://actu.fr/normandie/la-chapelle-uree_50124/dans-le-sud-manche-elle-a-cree-son-entreprise-darboriste-grimpeuse-pour-mettre-en-valeur-les-vegetaux_64675166.html"
+      ],
+      "status": "pending",
+      "created_at": "2026-11-04T18:50:25+00:00",
+      "updated_at": "2026-11-04T18:52:40+00:00",
+      "gmail_draft_id": "r-4054780296521220721",
+      "gmail_message_id": null,
+      "decision_reason": "",
+      "history": [
+        {
+          "at": "2026-11-04T18:50:25+00:00",
+          "action": "created",
+          "status": "pending"
+        },
+        {
+          "at": "2026-11-04T18:52:40+00:00",
+          "action": "gmail_draft_created",
+          "draft_id": "r-4054780296521220721"
         }
       ]
     }

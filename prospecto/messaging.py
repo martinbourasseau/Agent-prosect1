@@ -143,6 +143,8 @@ def _proposition(prospect: Prospect) -> str:
     tail = SECTOR_TAIL.get((prospect.sector or "").lower(), "")
     if tail and need in (NEED_SITE_WEB, NEED_REFONTE) and not prospect.recommended_service.strip():
         base = base.rstrip(".") + " — " + tail + "."
+    if base and base[-1] not in ".!?":
+        base += "."
     return base
 
 

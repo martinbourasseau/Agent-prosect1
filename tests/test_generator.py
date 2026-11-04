@@ -64,8 +64,9 @@ class TestGeneration(unittest.TestCase):
         self.assertTrue(generate_email(prospect_refonte()).body.startswith("Bonjour,"))
 
     def test_signature_portfolio(self):
+        from prospecto import config
         email = generate_email(prospect_refonte())
-        self.assertIn("Martin BOURASSEAU", email.body)
+        self.assertIn(config.SENDER_NAME, email.body)
         self.assertIn("https://prospecto.website", email.body)
 
     def test_opt_out(self):

@@ -17,11 +17,11 @@ CAMPAIGN_SETTINGS_PATH = DATA_DIR / "campaigns" / "v4-settings.json"
 SEND_LOG_PATH = DATA_DIR / "history" / "send-log.json"
 REPLIES_PATH = DATA_DIR / "history" / "replies.json"
 
-SENDER_NAME = os.environ.get("PROSPECTO_SENDER_NAME", "Martin BOURASSEAU")
+SENDER_NAME = os.environ.get("PROSPECTO_SENDER_NAME", "Martin Boisseau")
 SENDER_EMAIL = os.environ.get("PROSPECTO_SENDER_EMAIL", "martin.bourasseau4@gmail.com")
 PORTFOLIO_URL = os.environ.get("PROSPECTO_PORTFOLIO_URL", "https://prospecto.website")
 
-SIGNATURE_TAGLINE = "Création web · Agents IA · Automatisation"
+SIGNATURE_TAGLINE = "Création de sites web · Refonte · Agents IA · Automatisation"
 
 # Garde-fous de génération v3 (email très court, hook dès la 1re phrase).
 MAX_BODY_WORDS = 150
