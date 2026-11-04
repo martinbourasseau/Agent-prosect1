@@ -29,6 +29,9 @@ from urllib.parse import urlparse, parse_qs
 from . import config
 from .crm import CRM
 from .queue import ValidationQueue, PENDING, APPROVED, REJECTED
+from .metrics import compute_metrics
+from .references import load_references
+from .sender import load_settings
 
 HERE = Path(__file__).resolve().parent
 DASHBOARD_HTML = HERE / "dashboard.html"
@@ -107,6 +110,8 @@ def api_campaigns() -> list:
     out = []
     if config.CAMPAIGNS_DIR.exists():
         for p in sorted(config.CAMPAIGNS_DIR.glob("*.json")):
+            if p.name == "v4-settings.json":
+                continue
             try:
                 data = json.loads(p.read_text(encoding="utf-8"))
             except (json.JSONDecodeError, OSError):
@@ -118,6 +123,30 @@ def api_campaigns() -> list:
                 "strategy": data.get("strategy", ""),
             })
     return out
+
+
+def api_metrics() -> dict:
+    return compute_metrics()
+
+
+def api_references() -> list:
+    return [
+        {"id": r.id, "name": r.name, "url": r.url, "kind": r.kind, "enabled": r.enabled,
+         "need_tags": r.need_tags, "sector_tags": r.sector_tags, "best_for": r.best_for,
+         "authorship_status": r.authorship_status, "claim": r.claim}
+        for r in load_references()
+    ]
+
+
+def api_campaign_status() -> dict:
+    s = load_settings()
+    return {
+        "enabled": s.get("enabled", False), "dry_run": s.get("dry_run", True),
+        "transport": s.get("transport", ""), "limits": s.get("limits", {}),
+        "stop_conditions": s.get("stop_conditions", {}),
+        "deliverability": s.get("deliverability", {}).get("last_result", {}),
+        "follow_up": s.get("follow_up", {}),
+    }
 
 
 # ---------------------------------------------------------------------------
@@ -210,6 +239,12 @@ class Handler(BaseHTTPRequestHandler):
                 self._json(200, api_queue())
             elif path == "/api/campaigns":
                 self._json(200, api_campaigns())
+            elif path == "/api/metrics":
+                self._json(200, api_metrics())
+            elif path == "/api/references":
+                self._json(200, api_references())
+            elif path == "/api/campaign":
+                self._json(200, api_campaign_status())
             else:
                 self._json(404, {"error": "route inconnue"})
             return

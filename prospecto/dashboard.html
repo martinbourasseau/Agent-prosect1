@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Espace Prospecto — CRM & Validation</title>
+<title>Espace Prospecto — Agent commercial IA</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <style>
@@ -12,85 +12,94 @@
   --silver:#c7d0dd;--light:#f1f4f9;--glacier:#9cbcff;--tide:#79d2d6;
   --text:#e9edf4;--dim:#9aa6b8;--line:rgba(255,255,255,.09);
   --radius:20px;--ease:cubic-bezier(.22,1,.36,1);
+  --ok:#79d2d6;--warn:#ffcd78;--bad:#ff9b9b;
 }
 *{box-sizing:border-box}
 html{color-scheme:dark}
 body{margin:0;background:radial-gradient(1400px 700px at 70% -10%,#0b1626 0%,var(--abyss) 55%) fixed;
   color:var(--text);font-family:Archivo,system-ui,sans-serif;font-size:15px;line-height:1.55;min-height:100vh}
 a{color:var(--glacier);text-decoration:none}
-.wrap{max-width:1240px;margin:0 auto;padding:0 clamp(16px,4vw,48px)}
+.wrap{max-width:1280px;margin:0 auto;padding:0 clamp(16px,4vw,48px)}
 header{position:sticky;top:0;z-index:20;backdrop-filter:blur(14px);
   background:rgba(3,5,10,.72);border-bottom:1px solid var(--line)}
 .bar{display:flex;align-items:center;gap:18px;height:68px}
-.mark{font-weight:800;font-size:21px;letter-spacing:.01em}
-.mark span{color:var(--glacier)}
+.mark{font-weight:800;font-size:21px}.mark span{color:var(--glacier)}
 .tag{font-size:12px;color:var(--dim);border:1px solid var(--line);padding:4px 10px;border-radius:999px}
 .spacer{flex:1}
 .ghost{font-size:13px;color:var(--dim);border:1px solid var(--line);padding:8px 14px;border-radius:10px;transition:.2s var(--ease)}
 .ghost:hover{color:var(--text);border-color:var(--steel)}
-main{padding:34px 0 80px}
+main{padding:30px 0 80px}
 h1{font-size:clamp(24px,3.4vw,34px);font-weight:800;margin:0 0 6px;letter-spacing:-.01em}
-.lede{color:var(--dim);margin:0 0 28px;max-width:640px}
-.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:14px;margin-bottom:30px}
-.card{background:linear-gradient(180deg,var(--night),#060b16);border:1px solid var(--line);
-  border-radius:var(--radius);padding:18px 20px}
-.card .n{font-size:30px;font-weight:800;line-height:1.1}
-.card .l{font-size:12.5px;color:var(--dim);margin-top:4px}
-.card.haute .n{color:var(--tide)} .card.moyenne .n{color:var(--glacier)}
-.tabs{display:flex;gap:8px;margin-bottom:22px;flex-wrap:wrap}
-.tab{padding:9px 18px;border-radius:999px;border:1px solid var(--line);background:transparent;
-  color:var(--dim);font-size:14px;font-weight:600;cursor:pointer;font-family:inherit;transition:.2s var(--ease)}
-.tab:hover{color:var(--text)}
-.tab.active{background:linear-gradient(90deg,var(--glacier),var(--tide));color:#04101c;border-color:transparent}
+.lede{color:var(--dim);margin:0 0 20px;max-width:680px}
+.banner{display:flex;align-items:center;gap:14px;flex-wrap:wrap;background:var(--night);
+  border:1px solid var(--line);border-radius:14px;padding:14px 18px;margin-bottom:22px;font-size:13.5px}
+.dot{width:9px;height:9px;border-radius:50%;display:inline-block;margin-right:6px}
+.dot.on{background:var(--ok)}.dot.off{background:var(--bad)}.dot.warn{background:var(--warn)}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:12px;margin-bottom:26px}
+.card{background:linear-gradient(180deg,var(--night),#060b16);border:1px solid var(--line);border-radius:16px;padding:15px 17px}
+.card .n{font-size:27px;font-weight:800;line-height:1.1}
+.card .l{font-size:12px;color:var(--dim);margin-top:3px}
+.card.tide .n{color:var(--tide)}.card.glacier .n{color:var(--glacier)}.card.warn .n{color:var(--warn)}.card.bad .n{color:var(--bad)}
+.tabs{display:flex;gap:8px;margin-bottom:20px;flex-wrap:wrap}
+.tab{padding:9px 16px;border-radius:999px;border:1px solid var(--line);background:transparent;color:var(--dim);
+  font-size:13.5px;font-weight:600;cursor:pointer;font-family:inherit;transition:.2s var(--ease)}
+.tab:hover{color:var(--text)}.tab.active{background:linear-gradient(90deg,var(--glacier),var(--tide));color:#04101c;border-color:transparent}
 .panel{display:none}.panel.active{display:block}
-.toolbar{display:flex;gap:10px;align-items:center;margin-bottom:16px;flex-wrap:wrap}
+.toolbar{display:flex;gap:9px;align-items:center;margin-bottom:15px;flex-wrap:wrap}
 select,input[type=search]{background:var(--anthracite);border:1px solid var(--line);color:var(--text);
-  padding:9px 12px;border-radius:10px;font-family:inherit;font-size:13.5px;outline:none}
+  padding:8px 11px;border-radius:10px;font-family:inherit;font-size:13px;outline:none}
 select:focus,input:focus{border-color:var(--glacier)}
-table{width:100%;border-collapse:collapse;font-size:13.5px}
-th{text-align:left;color:var(--dim);font-weight:600;font-size:12px;text-transform:uppercase;
-  letter-spacing:.04em;padding:10px 12px;border-bottom:1px solid var(--line)}
-td{padding:13px 12px;border-bottom:1px solid var(--line);vertical-align:top}
+table{width:100%;border-collapse:collapse;font-size:13px}
+th{text-align:left;color:var(--dim);font-weight:600;font-size:11.5px;text-transform:uppercase;letter-spacing:.04em;padding:9px 11px;border-bottom:1px solid var(--line)}
+td{padding:12px 11px;border-bottom:1px solid var(--line);vertical-align:top}
 tr:hover td{background:rgba(255,255,255,.02)}
-.co{font-weight:600;color:var(--light)}
-.sub{color:var(--dim);font-size:12px}
-.badge{display:inline-block;padding:3px 10px;border-radius:999px;font-size:11.5px;font-weight:600;white-space:nowrap}
+.co{font-weight:600;color:var(--light)}.sub{color:var(--dim);font-size:12px}
+.badge{display:inline-block;padding:3px 9px;border-radius:999px;font-size:11px;font-weight:600;white-space:nowrap}
 .badge.haute{background:rgba(121,210,214,.14);color:var(--tide)}
 .badge.moyenne{background:rgba(156,188,255,.14);color:var(--glacier)}
 .badge.a_approfondir{background:rgba(154,166,184,.14);color:var(--dim)}
-.badge.pending{background:rgba(255,205,120,.14);color:#ffcd78}
+.badge.pending{background:rgba(255,205,120,.14);color:var(--warn)}
 .badge.approved{background:rgba(121,210,214,.16);color:var(--tide)}
-.badge.rejected{background:rgba(255,155,155,.14);color:#ff9b9b}
+.badge.rejected{background:rgba(255,155,155,.14);color:var(--bad)}
 .badge.sent{background:rgba(156,188,255,.16);color:var(--glacier)}
+.badge.verified{background:rgba(121,210,214,.16);color:var(--tide)}
+.badge.public_unverified{background:rgba(255,205,120,.12);color:var(--warn)}
+.badge.probable{background:rgba(154,166,184,.14);color:var(--dim)}
 .mono{font-variant-numeric:tabular-nums}
-.qitem{background:linear-gradient(180deg,var(--night),#060b16);border:1px solid var(--line);
-  border-radius:var(--radius);padding:20px 22px;margin-bottom:14px}
-.qhead{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:8px}
-.qsub{font-weight:700;font-size:15.5px;color:var(--light)}
-.qmeta{color:var(--dim);font-size:12.5px;margin-bottom:12px}
-pre.body{white-space:pre-wrap;font-family:inherit;font-size:13.5px;color:var(--silver);
-  background:var(--abyss);border:1px solid var(--line);border-radius:12px;padding:16px;margin:0 0 14px;line-height:1.6}
-.actions{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
-.btn{padding:8px 16px;border-radius:10px;border:1px solid var(--line);background:transparent;
-  color:var(--text);font-family:inherit;font-size:13px;font-weight:600;cursor:pointer;transition:.2s var(--ease)}
+.qitem{background:linear-gradient(180deg,var(--night),#060b16);border:1px solid var(--line);border-radius:var(--radius);padding:18px 20px;margin-bottom:13px}
+.qhead{display:flex;align-items:center;gap:11px;flex-wrap:wrap;margin-bottom:7px}
+.qsub{font-weight:700;font-size:15px;color:var(--light)}
+.qmeta{color:var(--dim);font-size:12px;margin-bottom:11px}
+pre.body{white-space:pre-wrap;font-family:inherit;font-size:13px;color:var(--silver);background:var(--abyss);
+  border:1px solid var(--line);border-radius:12px;padding:15px;margin:0 0 13px;line-height:1.6}
+pre.body a{color:var(--glacier)}
+.actions{display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+.btn{padding:8px 15px;border-radius:10px;border:1px solid var(--line);background:transparent;color:var(--text);
+  font-family:inherit;font-size:13px;font-weight:600;cursor:pointer;transition:.2s var(--ease)}
 .btn.approve{background:linear-gradient(90deg,var(--glacier),var(--tide));color:#04101c;border-color:transparent}
-.btn.reject{color:#ff9b9b;border-color:rgba(255,155,155,.3)}
+.btn.reject{color:var(--bad);border-color:rgba(255,155,155,.3)}
 .btn:hover{filter:brightness(1.08)}
-.note{font-size:12.5px;color:var(--dim);background:rgba(156,188,255,.06);
-  border:1px solid var(--line);border-radius:12px;padding:12px 16px;margin-bottom:20px}
-.empty{color:var(--dim);padding:40px;text-align:center;border:1px dashed var(--line);border-radius:var(--radius)}
-.ev{font-size:12px}
-.camp{display:flex;align-items:center;gap:16px;background:var(--night);border:1px solid var(--line);
-  border-radius:14px;padding:16px 20px;margin-bottom:12px}
+.note{font-size:12.5px;color:var(--dim);background:rgba(156,188,255,.06);border:1px solid var(--line);border-radius:12px;padding:12px 16px;margin-bottom:18px}
+.empty{color:var(--dim);padding:36px;text-align:center;border:1px dashed var(--line);border-radius:var(--radius)}
+.refcard{background:var(--night);border:1px solid var(--line);border-radius:var(--radius);padding:20px 22px;margin-bottom:14px}
+.refcard h3{margin:0 0 6px;font-size:17px}.refcard .kind{font-size:12px;color:var(--tide)}
+.refcard p{margin:8px 0;font-size:13.5px;color:var(--silver)}
+.chip{display:inline-block;background:var(--anthracite);border:1px solid var(--line);border-radius:999px;padding:2px 10px;font-size:11.5px;color:var(--dim);margin:2px 3px 2px 0}
+.camp{display:flex;align-items:center;gap:15px;background:var(--night);border:1px solid var(--line);border-radius:14px;padding:15px 19px;margin-bottom:11px}
 .camp .cid{font-weight:700}
-footer{border-top:1px solid var(--line);padding:24px 0;color:var(--dim);font-size:12.5px}
-@media(max-width:720px){.hide-sm{display:none}td,th{padding:10px 8px}}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.box{background:var(--night);border:1px solid var(--line);border-radius:var(--radius);padding:18px 20px}
+.box h3{margin:0 0 12px;font-size:15px}
+.kv{display:flex;justify-content:space-between;padding:7px 0;border-bottom:1px solid var(--line);font-size:13px}
+.kv:last-child{border-bottom:0}.kv .v{font-weight:600}
+footer{border-top:1px solid var(--line);padding:22px 0;color:var(--dim);font-size:12.5px}
+@media(max-width:820px){.hide-sm{display:none}.grid2{grid-template-columns:1fr}td,th{padding:9px 7px}}
 </style>
 </head>
 <body>
 <header><div class="wrap bar">
   <div class="mark">Prospecto<span>.</span></div>
-  <div class="tag">Espace Prospecto</div>
+  <div class="tag">Agent commercial IA · v4</div>
   <div class="spacer"></div>
   <a class="ghost" href="https://prospecto.website">← Site</a>
   <a class="ghost" href="/logout">Déconnexion</a>
@@ -98,50 +107,58 @@ footer{border-top:1px solid var(--line);padding:24px 0;color:var(--dim);font-siz
 
 <main class="wrap">
   <h1>Tableau de bord prospection</h1>
-  <p class="lede">CRM enrichi, file de validation et campagnes. Chaque email est adossé à une preuve publique. Aucun envoi n'est déclenché ici.</p>
+  <p class="lede">Recherche, qualification, messages personnalisés, envoi sous contrôles et suivi des réponses. Chaque email est adossé à une preuve publique.</p>
 
+  <div class="banner" id="campaignBanner"></div>
   <div class="cards" id="cards"></div>
 
   <div class="tabs">
     <button class="tab active" data-tab="prospects">Prospects</button>
     <button class="tab" data-tab="validation">Validation</button>
+    <button class="tab" data-tab="references">Références</button>
     <button class="tab" data-tab="campaigns">Campagnes</button>
+    <button class="tab" data-tab="sending">Envoi & Performance</button>
   </div>
 
   <section class="panel active" id="panel-prospects">
     <div class="toolbar">
-      <select id="tierFilter">
-        <option value="">Tous les niveaux</option>
-        <option value="haute">Priorité haute</option>
-        <option value="moyenne">Priorité moyenne</option>
-        <option value="a_approfondir">À approfondir</option>
-      </select>
-      <input type="search" id="search" placeholder="Rechercher une entreprise, ville, secteur…">
+      <select id="fTier"><option value="">Priorité : toutes</option><option value="haute">Haute</option><option value="moyenne">Moyenne</option><option value="a_approfondir">À approfondir</option></select>
+      <select id="fSector"><option value="">Secteur : tous</option></select>
+      <select id="fNeed"><option value="">Service : tous</option><option value="site_web">Création site</option><option value="refonte">Refonte</option><option value="agent_ia">Agent IA</option><option value="automatisation">Automatisation</option></select>
+      <select id="fSource"><option value="">Source : toutes</option></select>
+      <select id="fStatus"><option value="">Statut : tous</option></select>
+      <input type="search" id="search" placeholder="Rechercher…">
       <span class="sub" id="prosCount"></span>
     </div>
     <div style="overflow-x:auto"><table>
-      <thead><tr><th>Entreprise</th><th>Niveau</th><th class="hide-sm">Secteur / Lieu</th><th>Besoin</th><th class="hide-sm">Contact</th><th class="hide-sm">Preuve</th><th>Statut</th></tr></thead>
+      <thead><tr><th>Entreprise</th><th>Niveau</th><th class="hide-sm">Secteur / Lieu</th><th>Service</th><th class="hide-sm">Email (vérif.)</th><th class="hide-sm">Source</th><th>Statut</th></tr></thead>
       <tbody id="prosBody"></tbody>
     </table></div>
   </section>
 
   <section class="panel" id="panel-validation">
-    <div class="note">Approuver un email change uniquement son statut : <strong>aucun envoi automatique</strong>. L'envoi reste manuel (Gmail) après votre validation explicite.</div>
+    <div class="note">Approuver change uniquement le statut : <strong>aucun envoi automatique</strong> depuis cet écran. L'envoi de masse se configure via la campagne (CLI), sous contrôles de sécurité.</div>
     <div class="toolbar">
-      <select id="statusFilter">
-        <option value="">Tous les statuts</option>
-        <option value="pending" selected>En attente</option>
-        <option value="approved">Approuvés</option>
-        <option value="rejected">Rejetés</option>
-        <option value="sent">Envoyés</option>
-      </select>
+      <select id="statusFilter"><option value="">Tous</option><option value="pending" selected>En attente</option><option value="approved">Approuvés</option><option value="rejected">Rejetés</option><option value="sent">Envoyés</option></select>
       <span class="sub" id="queueCount"></span>
     </div>
     <div id="queueList"></div>
   </section>
 
-  <section class="panel" id="panel-campaigns">
-    <div id="campList"></div>
+  <section class="panel" id="panel-references">
+    <div class="note">Bibliothèque de références commerciales. Sélection automatique selon le besoin et le secteur du prospect. Extensible via <code>data/references.json</code> sans code.</div>
+    <div id="refList"></div>
+  </section>
+
+  <section class="panel" id="panel-campaigns"><div id="campList"></div></section>
+
+  <section class="panel" id="panel-sending">
+    <div class="grid2">
+      <div class="box"><h3>Configuration d'envoi</h3><div id="sendConfig"></div></div>
+      <div class="box"><h3>Délivrabilité du domaine</h3><div id="delivBox"></div></div>
+      <div class="box"><h3>Performance par variante</h3><div id="perfVariant"></div></div>
+      <div class="box"><h3>Performance par référence</h3><div id="perfRef"></div></div>
+    </div>
   </section>
 </main>
 
@@ -151,46 +168,68 @@ footer{border-top:1px solid var(--line);padding:24px 0;color:var(--dim);font-siz
 const NEED_LABEL={site_web:"Création site",refonte:"Refonte / SEO",agent_ia:"Agent IA",automatisation:"Automatisation"};
 const TIER_LABEL={haute:"Haute",moyenne:"Moyenne",a_approfondir:"À approfondir"};
 const STATUS_LABEL={pending:"En attente",approved:"Approuvé",rejected:"Rejeté",sent:"Envoyé"};
-let PROS=[],QUEUE=[];
+const VERIF_LABEL={verified:"Vérifié",public_unverified:"Public non vérifié",probable:"Probable",none:"Aucun"};
+let PROS=[],QUEUE=[],METRICS={};
 const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
-
+const linkify=s=>esc(s).replace(/(https?:\/\/[^\s<]+)/g,'<a href="$1" target="_blank" rel="noopener">$1</a>');
 async function jget(u){const r=await fetch(u);if(r.status===401){location.href="/login";throw new Error("auth");}return r.json();}
 
-async function loadStats(){
-  const s=await jget("/api/stats");const c=s.crm,q=s.queue;
-  const cards=[
-    {n:c.total,l:"Prospects au CRM"},
-    {n:c.by_tier.haute||0,l:"Priorité haute",cls:"haute"},
-    {n:c.by_tier.moyenne||0,l:"Priorité moyenne",cls:"moyenne"},
-    {n:c.by_tier.a_approfondir||0,l:"À approfondir"},
-    {n:c.expressed_needs||0,l:"Besoins exprimés"},
-    {n:q.pending||0,l:"Emails en attente"},
-    {n:c.contacted||0,l:"Déjà contactés"},
-  ];
-  document.getElementById("cards").innerHTML=cards.map(x=>
-    `<div class="card ${x.cls||""}"><div class="n mono">${x.n}</div><div class="l">${x.l}</div></div>`).join("");
+function renderBanner(){
+  const c=METRICS._campaign||{};const d=c.deliverability||{};
+  const state=c.enabled?(c.dry_run?'<span class="dot warn"></span>Activée · simulation':'<span class="dot on"></span>Activée · envoi réel'):'<span class="dot off"></span>Envoi automatique désactivé';
+  const bulk=d.ok_for_bulk?'<span class="dot on"></span>Domaine OK pour envoi':'<span class="dot off"></span>Domaine à configurer avant envoi de masse';
+  document.getElementById("campaignBanner").innerHTML=
+    `<span>${state}</span><span>${bulk}</span><span class="sub">Transport : ${esc(c.transport||"—")} · Suppression : ${METRICS.suppression?.count??0} adresse(s)</span>`;
 }
-
+function renderCards(){
+  const m=METRICS,crm=m.crm||{},co=m.coordinates||{},q=m.queue||{},s=m.sending||{},r=m.replies||{};
+  const cards=[
+    {n:crm.total,l:"Prospects découverts"},
+    {n:crm.qualified,l:"Qualifiés",cls:"tide"},
+    {n:crm.expressed_needs,l:"Besoins exprimés",cls:"glacier"},
+    {n:crm.probable,l:"Opportunités probables"},
+    {n:co.emails_total,l:"Emails récupérés",cls:"glacier"},
+    {n:co.phones,l:"Téléphones récupérés"},
+    {n:(q.pending||0)+(q.approved||0)+(q.sent||0),l:"Emails préparés"},
+    {n:s.sent,l:"Emails envoyés",cls:"tide"},
+    {n:s.bounced,l:"Rejetés / rebonds",cls:s.bounced?"bad":""},
+    {n:r.total,l:"Réponses reçues",cls:"glacier"},
+    {n:r.positive,l:"Réponses positives",cls:"tide"},
+    {n:r.demos_requested,l:"Démos / RDV demandés",cls:"tide"},
+  ];
+  document.getElementById("cards").innerHTML=cards.map(x=>`<div class="card ${x.cls||''}"><div class="n mono">${x.n??0}</div><div class="l">${x.l}</div></div>`).join("");
+}
+function fillFilters(){
+  const sectors=[...new Set(PROS.map(p=>p.sector).filter(Boolean))].sort();
+  const sources=[...new Set(PROS.map(p=>p.source).filter(Boolean))].sort();
+  const statuses=[...new Set(PROS.map(p=>p.status).filter(Boolean))].sort();
+  const opts=(arr)=>arr.map(v=>`<option value="${esc(v)}">${esc(v)}</option>`).join("");
+  document.getElementById("fSector").innerHTML='<option value="">Secteur : tous</option>'+opts(sectors);
+  document.getElementById("fSource").innerHTML='<option value="">Source : toutes</option>'+opts(sources);
+  document.getElementById("fStatus").innerHTML='<option value="">Statut : tous</option>'+opts(statuses);
+}
 function renderPros(){
-  const tier=document.getElementById("tierFilter").value;
-  const q=document.getElementById("search").value.toLowerCase();
-  const rows=PROS.filter(p=>(!tier||p.tier===tier)&&
-    (!q||[p.company,p.city,p.sector,p.department,p.email].join(" ").toLowerCase().includes(q)));
+  const t=document.getElementById("fTier").value,sec=document.getElementById("fSector").value,
+    need=document.getElementById("fNeed").value,src=document.getElementById("fSource").value,
+    st=document.getElementById("fStatus").value,q=document.getElementById("search").value.toLowerCase();
+  const rows=PROS.filter(p=>(!t||p.tier===t)&&(!sec||p.sector===sec)&&(!need||p.need===need)&&
+    (!src||p.source===src)&&(!st||p.status===st)&&
+    (!q||[p.company,p.city,p.sector,p.department,p.email,p.contact_name].join(" ").toLowerCase().includes(q)));
   document.getElementById("prosCount").textContent=rows.length+" / "+PROS.length;
   document.getElementById("prosBody").innerHTML=rows.map(p=>{
     const ev=(p.evidence&&p.evidence[0])?p.evidence[0]:null;
-    const evLink=ev&&ev.source_url?`<a class="ev" href="${esc(ev.source_url)}" target="_blank" rel="noopener">source ↗</a>`:"—";
+    const evLink=ev&&ev.source_url?`<a href="${esc(ev.source_url)}" target="_blank" rel="noopener">preuve ↗</a>`:"—";
+    const verif=p.email_verification||"public_unverified";
     return `<tr>
       <td><div class="co">${esc(p.company)}</div><div class="sub">${esc(p.contact_name||"")}</div></td>
-      <td><span class="badge ${esc(p.tier)}">${TIER_LABEL[p.tier]||esc(p.tier)}</span></td>
+      <td><span class="badge ${esc(p.tier)}">${TIER_LABEL[p.tier]||esc(p.tier||"?")}</span></td>
       <td class="hide-sm"><div>${esc(p.sector||"—")}</div><div class="sub">${esc(p.city||"")}${p.department?" ("+esc(p.department)+")":""}</div></td>
       <td>${NEED_LABEL[p.need]||esc(p.need||"—")}</td>
-      <td class="hide-sm"><div class="sub">${esc(p.email||"à trouver")}</div></td>
-      <td class="hide-sm">${evLink}</td>
+      <td class="hide-sm"><div class="sub">${esc(p.email||"à trouver")}</div><span class="badge ${esc(verif)}">${VERIF_LABEL[verif]||verif}</span></td>
+      <td class="hide-sm"><div class="sub">${esc(p.source||"—")}</div>${evLink}</td>
       <td><span class="sub">${esc(p.status||"")}</span></td>
-    </tr>`;}).join("")||`<tr><td colspan="7"><div class="empty">Aucun prospect.</div></td></tr>`;
+    </tr>`;}).join("")||`<tr><td colspan="7"><div class="empty">Aucun prospect ne correspond aux filtres.</div></td></tr>`;
 }
-
 function renderQueue(){
   const st=document.getElementById("statusFilter").value;
   const items=QUEUE.filter(i=>!st||i.status===st);
@@ -199,44 +238,65 @@ function renderQueue(){
     const canAct=i.status==="pending";
     return `<div class="qitem">
       <div class="qhead"><span class="qsub">${esc(i.subject)}</span><span class="badge ${esc(i.status)}">${STATUS_LABEL[i.status]||esc(i.status)}</span></div>
-      <div class="qmeta">→ ${esc(i.to)} · ${esc(i.company)} · campagne ${esc(i.campaign||"—")} · ${esc(i.id)}${i.gmail_draft_id?" · brouillon Gmail lié":""}</div>
-      <pre class="body">${esc(i.body)}</pre>
-      <div class="actions">
-        ${canAct?`<button class="btn approve" onclick="act('${esc(i.id)}','approve')">Approuver</button>
+      <div class="qmeta">→ ${esc(i.to)} · ${esc(i.company)} · ${esc(i.campaign||"—")} · ${esc(i.id)}</div>
+      <pre class="body">${linkify(i.body)}</pre>
+      <div class="actions">${canAct?`<button class="btn approve" onclick="act('${esc(i.id)}','approve')">Approuver</button>
         <button class="btn reject" onclick="act('${esc(i.id)}','reject')">Rejeter</button>`:""}
-        <span class="sub">${i.status==="approved"?"Prêt pour envoi manuel.":i.status==="rejected"?"Rejeté.":""}</span>
-      </div>
+        <span class="sub">${i.status==="approved"?"Prêt pour envoi.":i.status==="rejected"?"Rejeté.":""}</span></div>
     </div>`;}).join("")||`<div class="empty">Aucun email dans la file.</div>`;
 }
-
 async function act(id,action){
-  let body={};
-  if(action==="reject"){const r=prompt("Raison du rejet (optionnel) :","");if(r===null)return;body.reason=r;}
+  let body={};if(action==="reject"){const r=prompt("Raison du rejet (optionnel) :","");if(r===null)return;body.reason=r;}
   const res=await fetch(`/api/queue/${id}/${action}`,{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify(body)});
-  if(res.status===401){location.href="/login";return;}
-  await refresh();
+  if(res.status===401){location.href="/login";return;}await refresh();
 }
-
-async function loadCampaigns(){
+async function renderReferences(){
+  const refs=await jget("/api/references");
+  document.getElementById("refList").innerHTML=refs.map(r=>`<div class="refcard">
+    <h3>${esc(r.name)} <span class="kind">· ${esc(r.kind)}</span></h3>
+    <p><a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.url)}</a></p>
+    <p>${esc(r.best_for)}</p>
+    <div>${(r.need_tags||[]).map(n=>`<span class="chip">${NEED_LABEL[n]||esc(n)}</span>`).join("")}${(r.sector_tags||[]).slice(0,5).map(s=>`<span class="chip">${esc(s)}</span>`).join("")}</div>
+    <p class="sub">Paternité : ${esc(r.authorship_status)} · Formulation : « ${esc(r.claim)} »</p>
+  </div>`).join("")||`<div class="empty">Aucune référence.</div>`;
+}
+async function renderCampaigns(){
   const camps=await jget("/api/campaigns");
-  document.getElementById("campList").innerHTML=camps.map(c=>
-    `<div class="camp"><div class="cid">${esc(c.id)}</div><div class="sub">${c.generated_count} email(s)</div><div class="spacer"></div><div class="sub hide-sm">${esc(c.strategy||"")}</div></div>`).join("")
+  document.getElementById("campList").innerHTML=camps.map(c=>`<div class="camp"><div class="cid">${esc(c.id)}</div>
+    <div class="sub">${c.generated_count} email(s)</div><div class="spacer"></div><div class="sub hide-sm">${esc(c.strategy||"")}</div></div>`).join("")
     ||`<div class="empty">Aucune campagne.</div>`;
 }
-
-async function refresh(){
-  await loadStats();
-  PROS=await jget("/api/prospects");renderPros();
-  QUEUE=await jget("/api/queue");renderQueue();
-  await loadCampaigns();
+function kv(k,v){return `<div class="kv"><span>${k}</span><span class="v">${v}</span></div>`;}
+function renderSending(){
+  const c=METRICS._campaign||{},s=METRICS.sending||{},d=c.deliverability||{},lim=c.limits||{};
+  document.getElementById("sendConfig").innerHTML=
+    kv("Activée",c.enabled?"oui":"non")+kv("Mode",c.dry_run?"simulation (dry_run)":"envoi réel")+
+    kv("Transport",esc(c.transport||"—"))+kv("Limite / jour",lim.daily_limit??"—")+
+    kv("Ramp-up",(lim.ramp_up||[]).join(" → "))+kv("Envoyés aujourd'hui",s.sent_today??0)+
+    kv("Rebonds",s.bounced??0)+kv("Plaintes",s.complained??0);
+  document.getElementById("delivBox").innerHTML=
+    kv("Domaine",esc(d.domain||"—"))+kv("SPF",d.spf_present?"✅":"❌")+kv("DKIM",d.dkim_present?"✅":"❌")+
+    kv("DMARC",d.dmarc_present?("✅ "+esc(d.dmarc_policy||"")):"❌")+
+    kv("Fournisseur gratuit",d.is_free_provider?"oui ⚠️":"non")+kv("OK pour masse",d.ok_for_bulk?"oui":"non");
+  const perf=(obj)=>{const e=Object.entries(obj||{});return e.length?e.map(([k,v])=>
+    kv(esc(k),`${v.sent} envoyé(s) · ${v.replies} rép. · ${v.positive} pos.`)).join(""):'<div class="sub">Aucun envoi pour le moment.</div>';};
+  document.getElementById("perfVariant").innerHTML=perf(METRICS.performance?.by_variant);
+  document.getElementById("perfRef").innerHTML=perf(METRICS.performance?.by_reference);
 }
-
+async function refresh(){
+  METRICS=await jget("/api/metrics");
+  METRICS._campaign=await jget("/api/campaign");
+  renderBanner();renderCards();
+  PROS=await jget("/api/prospects");fillFilters();renderPros();
+  QUEUE=await jget("/api/queue");renderQueue();
+  await renderReferences();await renderCampaigns();renderSending();
+}
 document.querySelectorAll(".tab").forEach(t=>t.addEventListener("click",()=>{
   document.querySelectorAll(".tab").forEach(x=>x.classList.remove("active"));
   document.querySelectorAll(".panel").forEach(x=>x.classList.remove("active"));
   t.classList.add("active");document.getElementById("panel-"+t.dataset.tab).classList.add("active");
 }));
-document.getElementById("tierFilter").addEventListener("change",renderPros);
+["fTier","fSector","fNeed","fSource","fStatus"].forEach(id=>document.getElementById(id).addEventListener("change",renderPros));
 document.getElementById("search").addEventListener("input",renderPros);
 document.getElementById("statusFilter").addEventListener("change",renderQueue);
 refresh();
