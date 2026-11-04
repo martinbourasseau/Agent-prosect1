@@ -196,7 +196,7 @@ def build_hook(prospect: Prospect) -> str:
 
     public = public_need_evidence(prospect)
     if public is not None:
-        detail = (public.detail or public.quote).strip()
+        detail = (public.detail or public.quote).strip().rstrip(".")
         return f"J'ai lu votre annonce : {detail}."
 
     gaps = website_gap_evidences(prospect)

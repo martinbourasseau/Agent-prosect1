@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-04T18:50:25+00:00",
-  "count": 29,
+  "updated_at": "2026-11-04T19:26:46+00:00",
+  "count": 36,
   "prospects": [
     {
       "company": "R Premium",
@@ -1116,6 +1116,414 @@
         "body": "Bonjour,\n\nEn découvrant Restaurant Les Santons, j'ai remarqué un point concret : demandes d'événements et de groupes (15 à 60 personnes) par téléphone ou email. Une piste concrète pour vous faire gagner du temps.\n\nJe peux vous proposer le traitement automatique des demandes d'événements et de groupes (devis, confirmations, relances).\n\nCôté agents IA, voici SYNATRAP, la plateforme que je développe avec mon groupe : https://synatrap.com\n\nJe peux vous montrer gratuitement une démonstration concrète de la solution envisagée, sans engagement, sur un cas réel de votre activité.\n\nCela vous dirait de la découvrir ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin Boisseau\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
         "queue_id": "2026-11-04-lancement-003",
         "gmail_draft_id": "r803404552435909425"
+      }
+    },
+    {
+      "company": "Centre Équestre de la Renarde",
+      "website": "https://www.centreequestredelarenarde.com/",
+      "domain": "centreequestredelarenarde.com",
+      "sector": "services",
+      "city": "Brignoles",
+      "department": "83",
+      "contact_name": "",
+      "contact_role": "",
+      "email": "celarenarde@gmail.com",
+      "phone": "+33 6 20 92 87 51",
+      "source": "centreequestredelarenarde.com",
+      "evidence": [
+        {
+          "kind": "website_gap",
+          "source_url": "https://www.centreequestredelarenarde.com/contact-et-acc%C3%A8s",
+          "quote": "Pour toute inscription ou demande, contactez-nous au 0620928751 ou par email à celarenarde@gmail.com",
+          "observed_at": "2026-11-04",
+          "detail": "les inscriptions et demandes se font uniquement par téléphone ou email, sans inscription en ligne."
+        },
+        {
+          "kind": "sector_opportunity",
+          "source_url": "https://www.centreequestredelarenarde.com/contact-et-acc%C3%A8s",
+          "quote": "Le club se situe au cœur du Territoire Provence Verte dans le Var offrant un accès direct à des balades",
+          "observed_at": "2026-11-04",
+          "detail": "Centre équestre avec inscriptions saisonnières : un volume de demandes d'inscription à fluidifier."
+        }
+      ],
+      "publication_date": "",
+      "need": "automatisation",
+      "needs": [
+        "automatisation"
+      ],
+      "recommended_service": "l'inscription en ligne et le traitement automatique des demandes d'inscription (cours, balades, pension)",
+      "email_verification": "verified",
+      "score": 40,
+      "tier": "moyenne",
+      "status_crm": "a_revoir",
+      "justification": "1 lacune(s) vérifiée(s) sur le site (+20) ; opportunité sectorielle documentée (+10) ; secteur connu (services) (+10)",
+      "process_hint": "inscriptions et demandes uniquement par téléphone ou email",
+      "demo_detail": "un aperçu du parcours d'inscription en ligne pour votre club",
+      "custom_hook": "",
+      "custom_subject": "",
+      "notes": "Site Wix avec un lien mailto de gabarit encore présent (info@monsite.fr) = défaut de qualité observable. Email public sur la page contact officielle. Centre équestre / poney club en Provence Verte.",
+      "status": "brouillon_créé",
+      "id": "centre-questre-de-la-renarde",
+      "created_at": "2026-11-04T19:26:41+00:00",
+      "updated_at": "2026-11-04T19:26:46+00:00",
+      "campaign": "2026-11-04-lot2",
+      "variant": "synatrap_ia",
+      "reference_id": "synatrap",
+      "message_version": "v4",
+      "proposed_email": {
+        "subject": "Centre Équestre de la Renarde : automatiser les inscriptions ?",
+        "body": "Bonjour,\n\nEn parcourant votre site (centreequestredelarenarde.com), j'ai relevé un point concret : les inscriptions et demandes se font uniquement par téléphone ou email, sans inscription en ligne.\n\nJe peux vous proposer l'inscription en ligne et le traitement automatique des demandes d'inscription (cours, balades, pension).\n\nCôté agents IA, voici SYNATRAP, la plateforme que je développe avec mon groupe : https://synatrap.com\n\nJe peux vous montrer gratuitement une démonstration concrète de la solution envisagée, sans engagement, sur un cas réel de votre activité.\n\nCela vous dirait de la découvrir ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin Boisseau\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+        "queue_id": "2026-11-04-lot2-001",
+        "gmail_draft_id": "r5727304419519268391"
+      }
+    },
+    {
+      "company": "Domaine Roche des Bancs",
+      "website": "https://www.rochedesbancs.com/",
+      "domain": "rochedesbancs.com",
+      "sector": "commerce",
+      "city": "Saint-Julien-de-Civry",
+      "department": "71",
+      "contact_name": "Filippo Rebajoli",
+      "contact_role": "",
+      "email": "contact@rochedesbancs.com",
+      "phone": "+33 6 75 91 53 01",
+      "source": "rochedesbancs.com",
+      "evidence": [
+        {
+          "kind": "website_gap",
+          "source_url": "https://www.rochedesbancs.com/degustation-au-domaine",
+          "quote": "sur réservation obligatoire par téléphone: 06 75 91 53 01 ou par mail : contact@rochedesbancs.com",
+          "observed_at": "2026-11-04",
+          "detail": "la réservation de dégustation se fait manuellement par téléphone ou email, alors que la formule est vendue en ligne."
+        },
+        {
+          "kind": "sector_opportunity",
+          "source_url": "https://www.rochedesbancs.com/degustation-au-domaine",
+          "quote": "Les dégustations au Domaine se font uniquement sur rendez-vous, du lundi au samedi, de 10h à 18h.",
+          "observed_at": "2026-11-04",
+          "detail": "Domaine viticole avec dégustations sur rendez-vous : créneaux à fluidifier."
+        }
+      ],
+      "publication_date": "",
+      "need": "automatisation",
+      "needs": [
+        "automatisation"
+      ],
+      "recommended_service": "le traitement automatique des réservations de dégustation (créneaux, confirmations, rappels)",
+      "email_verification": "verified",
+      "score": 45,
+      "tier": "moyenne",
+      "status_crm": "a_revoir",
+      "justification": "1 lacune(s) vérifiée(s) sur le site (+20) ; opportunité sectorielle documentée (+10) ; secteur connu (commerce) (+10) ; prénom du contact connu (+5)",
+      "process_hint": "dégustations sur rendez-vous, réservation obligatoire par téléphone ou email",
+      "demo_detail": "un aperçu du parcours de réservation de dégustation en ligne pour votre domaine",
+      "custom_hook": "",
+      "custom_subject": "",
+      "notes": "Site Squarespace avec boutique en ligne (formule dégustation 79€) mais réservation de dégustation manuelle. Email public sur la page dégustation officielle. Caveau à Mailly (71340).",
+      "status": "brouillon_créé",
+      "id": "domaine-roche-des-bancs",
+      "created_at": "2026-11-04T19:26:41+00:00",
+      "updated_at": "2026-11-04T19:26:46+00:00",
+      "campaign": "2026-11-04-lot2",
+      "variant": "synatrap_ia",
+      "reference_id": "synatrap",
+      "message_version": "v4",
+      "proposed_email": {
+        "subject": "Domaine Roche des Bancs : automatiser vos dégustations ?",
+        "body": "Bonjour Filippo,\n\nEn parcourant votre site (rochedesbancs.com), j'ai relevé un point concret : la réservation de dégustation se fait manuellement par téléphone ou email, alors que la formule est vendue en ligne.\n\nJe peux vous proposer le traitement automatique des réservations de dégustation (créneaux, confirmations, rappels).\n\nCôté agents IA, voici SYNATRAP, la plateforme que je développe avec mon groupe : https://synatrap.com\n\nJe peux vous montrer gratuitement une démonstration concrète de la solution envisagée, sans engagement, sur un cas réel de votre activité.\n\nCela vous dirait de la découvrir ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin Boisseau\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+        "queue_id": "2026-11-04-lot2-002",
+        "gmail_draft_id": "r-6532114368305123947"
+      }
+    },
+    {
+      "company": "Domaine Courbin Héritage",
+      "website": "https://www.domainecourbinheritage.fr/",
+      "domain": "domainecourbinheritage.fr",
+      "sector": "commerce",
+      "city": "Budos",
+      "department": "33",
+      "contact_name": "Franck Courbin",
+      "contact_role": "",
+      "email": "courbin-et-fils@orange.fr",
+      "phone": "+33 6 71 14 69 08",
+      "source": "domainecourbinheritage.fr",
+      "evidence": [
+        {
+          "kind": "website_gap",
+          "source_url": "https://www.domainecourbinheritage.fr/bon-de-commande/",
+          "quote": "Il n'y a pas de paiement demandé sans que nous vous ayons contacté pour valider avec vous cette commande... Règlement par chèque au courrier ou virement bancaire après réception de votre facture par mail.",
+          "observed_at": "2026-11-04",
+          "detail": "les commandes passent par un bon de commande sans paiement en ligne, avec validation manuelle par téléphone/email."
+        },
+        {
+          "kind": "sector_opportunity",
+          "source_url": "https://www.domainecourbinheritage.fr/contact-domaine-viticole-courbin-heritage-budos/",
+          "quote": "La prise de rendez-vous est indispensable le week-end et recommandée en semaine par SMS ou téléphone.",
+          "observed_at": "2026-11-04",
+          "detail": "rendez-vous de dégustation gérés manuellement par SMS/téléphone."
+        }
+      ],
+      "publication_date": "",
+      "need": "automatisation",
+      "needs": [
+        "automatisation",
+        "refonte"
+      ],
+      "recommended_service": "la commande en ligne avec paiement et la confirmation automatique des rendez-vous de dégustation",
+      "email_verification": "verified",
+      "score": 45,
+      "tier": "moyenne",
+      "status_crm": "a_revoir",
+      "justification": "1 lacune(s) vérifiée(s) sur le site (+20) ; opportunité sectorielle documentée (+10) ; secteur connu (commerce) (+10) ; prénom du contact connu (+5)",
+      "process_hint": "commandes par bon de commande sans paiement en ligne (chèque/virement après validation manuelle) ; dégustations sur rendez-vous par SMS ou téléphone",
+      "demo_detail": "un aperçu du parcours de commande en ligne avec paiement pour vos vins",
+      "custom_hook": "",
+      "custom_subject": "",
+      "notes": "Domaine viticole familial certifié HVE, dégustations gratuites, accueil camping-caristes. Email public dans les mentions légales officielles. SIRET 49093066600014.",
+      "status": "brouillon_créé",
+      "id": "domaine-courbin-h-ritage",
+      "created_at": "2026-11-04T19:26:41+00:00",
+      "updated_at": "2026-11-04T19:26:46+00:00",
+      "campaign": "2026-11-04-lot2",
+      "variant": "synatrap_ia",
+      "reference_id": "synatrap",
+      "message_version": "v4",
+      "proposed_email": {
+        "subject": "Domaine Courbin Héritage : commandes et dégustations en ligne ?",
+        "body": "Bonjour Franck,\n\nEn parcourant votre site (domainecourbinheritage.fr), j'ai relevé un point concret : les commandes passent par un bon de commande sans paiement en ligne, avec validation manuelle par téléphone/email.\n\nJe peux vous proposer la commande en ligne avec paiement et la confirmation automatique des rendez-vous de dégustation.\n\nCôté agents IA, voici SYNATRAP, la plateforme que je développe avec mon groupe : https://synatrap.com\n\nJe peux vous montrer gratuitement une démonstration concrète de la solution envisagée, sans engagement, sur un cas réel de votre activité.\n\nCela vous dirait de la découvrir ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin Boisseau\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+        "queue_id": "2026-11-04-lot2-003",
+        "gmail_draft_id": "r-1501974926925651509"
+      }
+    },
+    {
+      "company": "iTelecom",
+      "website": "https://www.itelecom.pro/",
+      "domain": "itelecom.pro",
+      "sector": "services",
+      "city": "Bléré",
+      "department": "37",
+      "contact_name": "David Maigrot",
+      "contact_role": "",
+      "email": "contact@itelecom.pro",
+      "phone": "+33 2 46 99 12 12",
+      "source": "codeur.com/projects/492342",
+      "evidence": [
+        {
+          "kind": "public_need",
+          "source_url": "https://www.codeur.com/projects/492342",
+          "quote": "Prendre des rendez-vous qualifiés (physique) entre notre dirigeant et des décideurs d'entreprises d'Indre-et-Loire... Un fichier de plus de 1 800 entreprises déjà triées par priorité, avec le nom du dirigeant.",
+          "observed_at": "2026-11-04",
+          "detail": "besoin exprimé de prospection B2B et de génération de rendez-vous qualifiés (projet Codeur 492342, publié le 4 nov 2026)."
+        }
+      ],
+      "publication_date": "2026-11-04",
+      "need": "automatisation",
+      "needs": [
+        "automatisation",
+        "agent_ia"
+      ],
+      "recommended_service": "un agent IA qui pré-qualifie votre fichier de prospects et réserve des rendez-vous qualifiés pour votre dirigeant",
+      "email_verification": "verified",
+      "score": 65,
+      "tier": "haute",
+      "status_crm": "qualified",
+      "justification": "besoin exprimé publiquement (+50) : https://www.codeur.com/projects/492342 ; secteur connu (services) (+10) ; prénom du contact connu (+5)",
+      "process_hint": "recherche un téléprospecteur B2B pour générer des rendez-vous qualifiés (fichier de 1 800 entreprises)",
+      "demo_detail": "une démonstration concrète de l'agent de pré-qualification et de prise de rendez-vous sur votre fichier",
+      "custom_hook": "J'ai lu votre annonce : vous cherchez à générer des rendez-vous qualifiés auprès des entreprises d'Indre-et-Loire.",
+      "custom_subject": "",
+      "notes": "Opérateur télécom B2B depuis 2010 (EDEL DISTRIBUTION), gérant David Maigrot. Besoin exprimé = prospection commerciale / génération de RDV → agent de prospection SYNATRAP. Email vérifié via mentions légales officielles. RGPD et opposition déjà au cœur de leur démarche.",
+      "status": "brouillon_créé",
+      "id": "itelecom",
+      "created_at": "2026-11-04T19:26:41+00:00",
+      "updated_at": "2026-11-04T19:26:46+00:00",
+      "campaign": "2026-11-04-lot2",
+      "variant": "public_need",
+      "reference_id": "synatrap",
+      "message_version": "v4",
+      "proposed_email": {
+        "subject": "iTelecom : automatiser votre prospection B2B ?",
+        "body": "Bonjour David,\n\nJ'ai lu votre annonce : vous cherchez à générer des rendez-vous qualifiés auprès des entreprises d'Indre-et-Loire.\n\nJe peux vous proposer un agent IA qui pré-qualifie votre fichier de prospects et réserve des rendez-vous qualifiés pour votre dirigeant.\n\nCôté agents IA, voici SYNATRAP, la plateforme que je développe avec mon groupe : https://synatrap.com\n\nJe peux vous montrer gratuitement une démonstration concrète de la solution envisagée, sans engagement, sur un cas réel de votre activité.\n\nCela vous dirait de la découvrir ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin Boisseau\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+        "queue_id": "2026-11-04-lot2-004",
+        "gmail_draft_id": "r-4468344804886464612"
+      }
+    },
+    {
+      "company": "K6 Pension",
+      "website": "https://www.k6-pension.com/",
+      "domain": "k6-pension.com",
+      "sector": "services",
+      "city": "Cuy-Saint-Fiacre",
+      "department": "76",
+      "contact_name": "Dr Thierry Bedossa",
+      "contact_role": "",
+      "email": "info@myk6.fr",
+      "phone": "+33 6 89 90 90 50",
+      "source": "k6-pension.com",
+      "evidence": [
+        {
+          "kind": "website_gap",
+          "source_url": "https://www.k6-pension.com/",
+          "quote": "le fait de remplir ce formulaire ne garantit pas l'accueil de votre animal. Il s'agit d'une pré-réservation. L'accueil de votre animal sera confirmé après un échange téléphonique avec un membre de notre équipe.",
+          "observed_at": "2026-11-04",
+          "detail": "pas de réservation en ligne directe : chaque pré-réservation exige une confirmation téléphonique manuelle."
+        },
+        {
+          "kind": "sector_opportunity",
+          "source_url": "https://www.k6-pension.com/",
+          "quote": "Notre pension K6 est ouverte 365 jours par an !",
+          "observed_at": "2026-11-04",
+          "detail": "Pension ouverte toute l'année avec navette : volume de pré-réservations et de confirmations à fluidifier."
+        }
+      ],
+      "publication_date": "",
+      "need": "automatisation",
+      "needs": [
+        "automatisation"
+      ],
+      "recommended_service": "le traitement automatique des pré-réservations et la confirmation des séjours (créneaux, rappels, suivi)",
+      "email_verification": "verified",
+      "score": 45,
+      "tier": "moyenne",
+      "status_crm": "a_revoir",
+      "justification": "1 lacune(s) vérifiée(s) sur le site (+20) ; opportunité sectorielle documentée (+10) ; secteur connu (services) (+10) ; prénom du contact connu (+5)",
+      "process_hint": "pré-réservation par formulaire mais accueil confirmé uniquement après un échange téléphonique",
+      "demo_detail": "un aperçu du parcours de pré-réservation et de confirmation en ligne pour votre pension",
+      "custom_hook": "",
+      "custom_subject": "",
+      "notes": "Pension canine/féline premium fondée par le vétérinaire Thierry Bedossa, domaine de 75 ha, navette depuis Paris, nouvelles par WhatsApp. Email public sur le site officiel.",
+      "status": "brouillon_créé",
+      "id": "k6-pension",
+      "created_at": "2026-11-04T19:26:41+00:00",
+      "updated_at": "2026-11-04T19:26:46+00:00",
+      "campaign": "2026-11-04-lot2",
+      "variant": "synatrap_ia",
+      "reference_id": "synatrap",
+      "message_version": "v4",
+      "proposed_email": {
+        "subject": "K6 Pension : automatiser vos pré-réservations ?",
+        "body": "Bonjour Thierry,\n\nEn parcourant votre site (k6-pension.com), j'ai relevé un point concret : chaque pré-réservation doit être confirmée par téléphone, sans réservation en ligne directe.\n\nJe peux vous proposer le traitement automatique des pré-réservations et la confirmation des séjours (créneaux, rappels, suivi).\n\nCôté agents IA, voici SYNATRAP, la plateforme que je développe avec mon groupe : https://synatrap.com\n\nJe peux vous montrer gratuitement une démonstration concrète de la solution envisagée, sans engagement, sur un cas réel de votre activité.\n\nCela vous dirait de la découvrir ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin Boisseau\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+        "queue_id": "2026-11-04-lot2-005",
+        "gmail_draft_id": "r-4359901380147314673"
+      }
+    },
+    {
+      "company": "Séverine Lesourd — Pension & Éducation Canine",
+      "website": "https://www.severine-lesourd.fr/",
+      "domain": "severine-lesourd.fr",
+      "sector": "services",
+      "city": "Trilbardou",
+      "department": "77",
+      "contact_name": "Séverine Lesourd",
+      "contact_role": "",
+      "email": "contact@severine-lesourd.com",
+      "phone": "+33 6 63 90 92 67",
+      "source": "severine-lesourd.fr",
+      "evidence": [
+        {
+          "kind": "website_gap",
+          "source_url": "https://www.severine-lesourd.fr/pension-canine/",
+          "quote": "Merci de me faire parvenir les fiches d'inscription pension... par mail direct... a télécharger sur mon site... de régler un acompte de 20%.",
+          "observed_at": "2026-11-04",
+          "detail": "inscription par fiche à télécharger et renvoyer par email, sans réservation ni paiement en ligne."
+        },
+        {
+          "kind": "sector_opportunity",
+          "source_url": "https://www.severine-lesourd.fr/pension-canine/",
+          "quote": "La capacité d'accueil de notre pension canine est de 35 places.",
+          "observed_at": "2026-11-04",
+          "detail": "Pension de 35 places : volume d'inscriptions et de réservations à fluidifier."
+        }
+      ],
+      "publication_date": "",
+      "need": "automatisation",
+      "needs": [
+        "automatisation"
+      ],
+      "recommended_service": "l'inscription en ligne et le traitement automatique des réservations de pension (fiches, acompte, confirmations)",
+      "email_verification": "verified",
+      "score": 45,
+      "tier": "moyenne",
+      "status_crm": "a_revoir",
+      "justification": "1 lacune(s) vérifiée(s) sur le site (+20) ; opportunité sectorielle documentée (+10) ; secteur connu (services) (+10) ; prénom du contact connu (+5)",
+      "process_hint": "inscription par fiche à télécharger puis à renvoyer par email, avec acompte de 20%",
+      "demo_detail": "un aperçu du parcours d'inscription en ligne pour votre pension",
+      "custom_hook": "",
+      "custom_subject": "",
+      "notes": "Éducatrice canin comportementaliste, pension 35 places, cours + éducation + pension. Email public dans l'en-tête du site officiel.",
+      "status": "brouillon_créé",
+      "id": "s-verine-lesourd-pension-ducation-canine",
+      "created_at": "2026-11-04T19:26:41+00:00",
+      "updated_at": "2026-11-04T19:26:46+00:00",
+      "campaign": "2026-11-04-lot2",
+      "variant": "synatrap_ia",
+      "reference_id": "synatrap",
+      "message_version": "v4",
+      "proposed_email": {
+        "subject": "Pension Séverine Lesourd : automatiser les inscriptions ?",
+        "body": "Bonjour Séverine,\n\nEn parcourant votre site (severine-lesourd.fr), j'ai relevé un point concret : inscription par fiche à télécharger et renvoyer par email, sans réservation ni paiement en ligne.\n\nJe peux vous proposer l'inscription en ligne et le traitement automatique des réservations de pension (fiches, acompte, confirmations).\n\nCôté agents IA, voici SYNATRAP, la plateforme que je développe avec mon groupe : https://synatrap.com\n\nJe peux vous montrer gratuitement une démonstration concrète de la solution envisagée, sans engagement, sur un cas réel de votre activité.\n\nCela vous dirait de la découvrir ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin Boisseau\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+        "queue_id": "2026-11-04-lot2-006",
+        "gmail_draft_id": "r-8589508876597680618"
+      }
+    },
+    {
+      "company": "Centre Cynophile de Ruy",
+      "website": "https://dressage38.com/",
+      "domain": "dressage38.com",
+      "sector": "services",
+      "city": "Ruy-Montceau",
+      "department": "38",
+      "contact_name": "Jérémie Pagès",
+      "contact_role": "",
+      "email": "Jeremiepages22@gmail.com",
+      "phone": "+33 6 48 82 26 63",
+      "source": "dressage38.com",
+      "evidence": [
+        {
+          "kind": "website_gap",
+          "source_url": "https://dressage38.com/service/hebergement/",
+          "quote": "Contactez-nous au 06 48 82 26 63 pour planifier l'arrivée et le départ de votre chien.",
+          "observed_at": "2026-11-04",
+          "detail": "les séjours de pension se planifient par téléphone, sans réservation en ligne."
+        },
+        {
+          "kind": "sector_opportunity",
+          "source_url": "https://dressage38.com/",
+          "quote": "Pour la pension canine : Tous les jours, même les jours fériés, sur rendez-vous.",
+          "observed_at": "2026-11-04",
+          "detail": "Pension ouverte tous les jours sur rendez-vous : créneaux d'arrivée/départ à fluidifier."
+        }
+      ],
+      "publication_date": "",
+      "need": "automatisation",
+      "needs": [
+        "automatisation"
+      ],
+      "recommended_service": "la réservation en ligne des séjours de pension et les rappels automatiques (arrivée, départ)",
+      "email_verification": "verified",
+      "score": 45,
+      "tier": "moyenne",
+      "status_crm": "a_revoir",
+      "justification": "1 lacune(s) vérifiée(s) sur le site (+20) ; opportunité sectorielle documentée (+10) ; secteur connu (services) (+10) ; prénom du contact connu (+5)",
+      "process_hint": "pension sur rendez-vous, arrivée et départ planifiés par téléphone",
+      "demo_detail": "un aperçu du parcours de réservation de pension en ligne pour votre centre",
+      "custom_hook": "",
+      "custom_subject": "",
+      "notes": "Éducateur canin depuis 1999, plus de 2 700 chiens accompagnés, pension + garderie + éducation + piscines. Email public sur la page d'accueil officielle.",
+      "status": "brouillon_créé",
+      "id": "centre-cynophile-de-ruy",
+      "created_at": "2026-11-04T19:26:41+00:00",
+      "updated_at": "2026-11-04T19:26:46+00:00",
+      "campaign": "2026-11-04-lot2",
+      "variant": "synatrap_ia",
+      "reference_id": "synatrap",
+      "message_version": "v4",
+      "proposed_email": {
+        "subject": "Centre Cynophile de Ruy : réservation de pension en ligne ?",
+        "body": "Bonjour Jérémie,\n\nEn parcourant votre site (dressage38.com), j'ai relevé un point concret : les séjours de pension se planifient par téléphone, sans réservation en ligne.\n\nJe peux vous proposer la réservation en ligne des séjours de pension et les rappels automatiques (arrivée, départ).\n\nCôté agents IA, voici SYNATRAP, la plateforme que je développe avec mon groupe : https://synatrap.com\n\nJe peux vous montrer gratuitement une démonstration concrète de la solution envisagée, sans engagement, sur un cas réel de votre activité.\n\nCela vous dirait de la découvrir ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin Boisseau\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+        "queue_id": "2026-11-04-lot2-007",
+        "gmail_draft_id": "r-5663246394203838970"
       }
     }
   ]

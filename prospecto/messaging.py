@@ -160,9 +160,17 @@ def _demo_phrase(prospect: Prospect) -> str:
     return DEMO_SITE_PHRASE
 
 
+_HONORIFICS = {"dr", "docteur", "m", "mr", "mme", "mlle", "monsieur", "madame", "maitre", "maître", "me"}
+
+
 def _greeting(prospect: Prospect) -> str:
     if prospect.contact_name:
-        return f"Bonjour {prospect.contact_name.strip().split()[0]},"
+        tokens = prospect.contact_name.strip().split()
+        # Ignore les civilités en tête (Dr, M., Mme...) pour ne pas saluer « Bonjour Dr, ».
+        while tokens and tokens[0].lower().rstrip(".") in _HONORIFICS:
+            tokens = tokens[1:]
+        if tokens:
+            return f"Bonjour {tokens[0]},"
     return "Bonjour,"
 
 
