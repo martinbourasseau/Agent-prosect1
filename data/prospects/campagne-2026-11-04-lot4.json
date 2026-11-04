@@ -1,0 +1,322 @@
+[
+  {
+    "company": "Restaurant Le Canotier",
+    "sector": "Restaurant / événementiel",
+    "city": "Rochetaillée-sur-Saône",
+    "department": "69",
+    "region": "Auvergne-Rhône-Alpes",
+    "website": "https://www.restaurant-lecanotier.fr/",
+    "contact_email": "contact@restaurant-lecanotier.fr",
+    "email_verification": "verified",
+    "contact_name": "Alexandre Gaillot Drevon",
+    "needs": ["site_web"],
+    "qualification_tier": "haute",
+    "opportunity_type": "probable",
+    "recommended_service": "un module de réservation en ligne et de demande de devis événementiel.",
+    "demo_detail": "maquette de réservation en ligne et de demande de devis pour groupes/séminaires",
+    "custom_subject": "Le Canotier : réservation en ligne pour vos événements ?",
+    "custom_hook": "Votre site indique « RESERVATION UNIQUEMENT PAR TELEPHONE » et aucune réservation par email/voicemail, alors que vous proposez des formules groupe, salles et séminaires.",
+    "notes": "Lot 4. Opportunité probable forte : réservation téléphonique imposée, événements/groupes avec devis manuel. Responsable public : Alexandre Gaillot Drevon. Région Auvergne-Rhône-Alpes (69), secteur restaurant événementiel.",
+    "evidences": [
+      {
+        "kind": "website_gap",
+        "source_url": "https://www.restaurant-lecanotier.fr/",
+        "quote": "RESERVATION UNIQUEMENT PAR TELEPHONE : 04 78 22 05 26. Aucune réservation ne peut être prise par email et/ou messagerie vocale.",
+        "observed_at": "2026-11-04",
+        "detail": "La réservation est explicitement limitée au téléphone ; aucun parcours de réservation en ligne n'est visible."
+      },
+      {
+        "kind": "website_gap",
+        "source_url": "https://www.restaurant-lecanotier.fr/",
+        "quote": "Demande de devis contact@restaurant-lecanotier.fr ... Nous établissons pour vous des menus Tout compris, adaptés à votre budget.",
+        "observed_at": "2026-11-04",
+        "detail": "Les événements/groupes/séminaires passent par une demande de devis email/téléphone, sans pré-qualification en ligne."
+      }
+    ],
+    "domain": "restaurant-lecanotier.fr",
+    "phone": "04 78 22 05 26",
+    "location": "Rochetaillée-sur-Saône (69)",
+    "source": "restaurant-lecanotier.fr",
+    "process_hint": "Votre site indique « RESERVATION UNIQUEMENT PAR TELEPHONE » et aucune réservation par email/voicemail, alors que vous proposez des formules groupe, salles et séminaires."
+  },
+  {
+    "company": "Boucherie Florian",
+    "sector": "Boucherie / traiteur",
+    "city": "Montauban",
+    "department": "82",
+    "region": "Occitanie",
+    "website": "https://boucherie-florian.fr/",
+    "contact_email": "contact@boucherie-florian.fr",
+    "email_verification": "verified",
+    "contact_name": "Florian Marty",
+    "needs": ["site_web"],
+    "qualification_tier": "haute",
+    "opportunity_type": "probable",
+    "recommended_service": "un parcours de commande click & collect pour les plateaux et plats traiteurs.",
+    "demo_detail": "maquette de commande click & collect pour plateaux et traiteur",
+    "custom_subject": "Boucherie Florian : commandes traiteur en ligne ?",
+    "custom_hook": "Votre site invite à « Commandez par téléphone ! » pour les plats traiteurs et plateaux, avec tarifs PDF, sans parcours de commande en ligne visible.",
+    "notes": "Lot 4. Opportunité probable forte : commandes traiteur/plateaux par téléphone, tarifs PDF. Responsable public : Florian Marty. Région Occitanie (82), nouveau secteur boucherie/traiteur.",
+    "evidences": [
+      {
+        "kind": "website_gap",
+        "source_url": "https://boucherie-florian.fr/",
+        "quote": "Commandez par téléphone ! ... Nous réalisons des préparations traiteurs ... Consultez la liste des plats disponibles et passez commande !",
+        "observed_at": "2026-11-04",
+        "detail": "Les commandes traiteur sont renvoyées au téléphone ; la liste des plats est un PDF, sans panier visible."
+      },
+      {
+        "kind": "website_gap",
+        "source_url": "https://boucherie-florian.fr/",
+        "quote": "Commandez vos planches le matin avant midi et passez les chercher dans l’après-midi !",
+        "observed_at": "2026-11-04",
+        "detail": "Le retrait est déjà organisé, mais la prise de commande des plateaux reste téléphonique."
+      }
+    ],
+    "domain": "boucherie-florian.fr",
+    "phone": "05 63 63 22 31",
+    "location": "Montauban (82)",
+    "source": "boucherie-florian.fr",
+    "process_hint": "Votre site invite à « Commandez par téléphone ! » pour les plats traiteurs et plateaux, avec tarifs PDF, sans parcours de commande en ligne visible."
+  },
+  {
+    "company": "La Fromagerie Les 2 Alpes",
+    "sector": "Fromagerie / épicerie fine",
+    "city": "Les Deux Alpes",
+    "department": "38",
+    "region": "Auvergne-Rhône-Alpes",
+    "website": "https://www.fromagerie-2alpes.com/",
+    "contact_email": "labergere35@gmail.com",
+    "email_verification": "verified",
+    "contact_name": "Sylvain Péguy",
+    "needs": ["site_web"],
+    "qualification_tier": "haute",
+    "opportunity_type": "probable",
+    "recommended_service": "une activation de la commande en ligne / click & collect sur votre boutique existante.",
+    "demo_detail": "maquette de commande en ligne pour packs raclettes/fondues et plateaux",
+    "custom_subject": "Fromagerie Les 2 Alpes : activer la commande en ligne ?",
+    "custom_hook": "Votre boutique en ligne affiche « Il n'est pas possible de commander via ce site » et renvoie les commandes par téléphone, alors que le catalogue est déjà présent.",
+    "notes": "Lot 4. Opportunité probable forte : site Shopify avec catalogue mais commande désactivée. Responsable public : Sylvain Péguy. Région Auvergne-Rhône-Alpes (38), secteur fromagerie.",
+    "evidences": [
+      {
+        "kind": "website_gap",
+        "source_url": "https://www.fromagerie-2alpes.com/",
+        "quote": "Commandez dès à présent vos produits préférés par téléphone. ... Il n'est pas possible de commander via ce site.",
+        "observed_at": "2026-11-04",
+        "detail": "Le catalogue en ligne existe, mais la commande est explicitement impossible via le site."
+      },
+      {
+        "kind": "website_gap",
+        "source_url": "https://www.fromagerie-2alpes.com/pages/contact",
+        "quote": "Vous pouvez nous contacter par un email à labergere35@gmail.com",
+        "observed_at": "2026-11-04",
+        "detail": "Le contact officiel renvoie vers l'email ; la prise de commande reste hors ligne."
+      }
+    ],
+    "domain": "fromagerie-2alpes.com",
+    "phone": "04 76 79 82 78",
+    "location": "Les Deux Alpes (38)",
+    "source": "fromagerie-2alpes.com",
+    "process_hint": "Votre boutique en ligne affiche « Il n'est pas possible de commander via ce site » et renvoie les commandes par téléphone, alors que le catalogue est déjà présent."
+  },
+  {
+    "company": "Fromagerie et Baratte",
+    "sector": "Fromagerie / crémerie",
+    "city": "Francheville",
+    "department": "69",
+    "region": "Auvergne-Rhône-Alpes",
+    "website": "https://fromagerieetbaratte.fr/",
+    "contact_email": "brigitte@fromagerieetbaratte.fr",
+    "email_verification": "verified",
+    "contact_name": "Brigitte",
+    "needs": ["site_web"],
+    "qualification_tier": "moyenne",
+    "opportunity_type": "probable",
+    "recommended_service": "une commande de plateaux en ligne avec créneau de retrait.",
+    "demo_detail": "maquette de commande de plateaux avec choix du retrait J+1",
+    "custom_subject": "Fromagerie et Baratte : plateaux commandables en ligne ?",
+    "custom_hook": "Votre site précise que « Les commandes finales de plateaux se font uniquement par téléphone ou en boutique », malgré une pré-commande de plateau.",
+    "notes": "Lot 4. Opportunité probable : pré-commande existante mais finalisation téléphonique/boutique. Responsable public : Brigitte. Région Auvergne-Rhône-Alpes (69), secteur fromagerie.",
+    "evidences": [
+      {
+        "kind": "website_gap",
+        "source_url": "https://fromagerieetbaratte.fr/",
+        "quote": "Les commandes finales de plateaux se font uniquement par téléphone ou en boutique minimum 24h à l’avance.",
+        "observed_at": "2026-11-04",
+        "detail": "La finalisation des plateaux reste téléphonique/boutique malgré une pré-commande."
+      },
+      {
+        "kind": "website_gap",
+        "source_url": "https://fromagerieetbaratte.fr/",
+        "quote": "Les commandes passées avant 12h sont à retirer J+1 le matin ou J+1 l’après-midi.",
+        "observed_at": "2026-11-04",
+        "detail": "Les règles de retrait sont déjà définies et pourraient être intégrées à un parcours en ligne."
+      }
+    ],
+    "domain": "fromagerieetbaratte.fr",
+    "phone": "09 83 05 06 00",
+    "location": "Francheville (69)",
+    "source": "fromagerieetbaratte.fr",
+    "process_hint": "Votre site précise que « Les commandes finales de plateaux se font uniquement par téléphone ou en boutique », malgré une pré-commande de plateau."
+  },
+  {
+    "company": "La Chocolatisserie",
+    "sector": "Pâtisserie / chocolaterie",
+    "city": "Soultz-Haut-Rhin",
+    "department": "68",
+    "region": "Grand Est",
+    "website": "https://lachocolatisserie.com/",
+    "contact_email": "contact@lachocolatisserie.com",
+    "email_verification": "verified",
+    "contact_name": "La Chocolatisserie",
+    "needs": ["site_web"],
+    "qualification_tier": "moyenne",
+    "opportunity_type": "probable",
+    "recommended_service": "un parcours de commande en ligne pour créations et gâteaux sur-mesure.",
+    "demo_detail": "maquette de commande de gâteaux sur-mesure et click & collect",
+    "custom_subject": "La Chocolatisserie : commandes sur-mesure en ligne ?",
+    "custom_hook": "Votre page contact demande de « privilégier le contact par téléphone pour passer vos commandes », alors que toutes les créations sont disponibles à la commande.",
+    "notes": "Lot 4. Opportunité probable : commandes privilégiées par téléphone, créations sur-mesure. Région Grand Est (68), nouveau secteur pâtisserie/chocolaterie.",
+    "evidences": [
+      {
+        "kind": "website_gap",
+        "source_url": "https://lachocolatisserie.com/contact/",
+        "quote": "Pour faciliter les échanges, merci de privilégier le contact par téléphone pour passer vos commandes.",
+        "observed_at": "2026-11-04",
+        "detail": "La commande est orientée vers le téléphone plutôt qu'un parcours en ligne."
+      },
+      {
+        "kind": "website_gap",
+        "source_url": "https://lachocolatisserie.com/contact/",
+        "quote": "Toutes les pâtisseries, tablettes de chocolats et autres créations affichées sur le site internet sont disponibles à la commande.",
+        "observed_at": "2026-11-04",
+        "detail": "Le catalogue est disponible à la commande, mais le canal principal reste téléphonique."
+      }
+    ],
+    "domain": "lachocolatisserie.com",
+    "phone": "03 89 28 58 18",
+    "location": "Soultz-Haut-Rhin (68)",
+    "source": "lachocolatisserie.com",
+    "process_hint": "Votre page contact demande de « privilégier le contact par téléphone pour passer vos commandes », alors que toutes les créations sont disponibles à la commande."
+  },
+  {
+    "company": "Matproloc",
+    "sector": "Location de matériel BTP / outillage",
+    "city": "Erre",
+    "department": "59",
+    "region": "Hauts-de-France",
+    "website": "https://matproloc.fr/",
+    "contact_email": "contact@matproloc.fr",
+    "email_verification": "verified",
+    "contact_name": "Vincent et Arnaud Lefranc",
+    "needs": ["site_web"],
+    "qualification_tier": "moyenne",
+    "opportunity_type": "probable",
+    "recommended_service": "un parcours de réservation de matériel en ligne avec disponibilités.",
+    "demo_detail": "maquette de réservation de matériel avec créneaux et demande de devis",
+    "custom_subject": "Matproloc : réservation de matériel en ligne ?",
+    "custom_hook": "Votre site propose un catalogue de machines et un formulaire contact, mais les devis/réservations passent encore par téléphone ou email.",
+    "notes": "Lot 4. Opportunité probable : catalogue en ligne mais devis/réservations manuels. Responsables publics : Vincent et Arnaud Lefranc. Région Hauts-de-France (59), nouveau secteur location matériel BTP.",
+    "evidences": [
+      {
+        "kind": "website_gap",
+        "source_url": "https://matproloc.fr/",
+        "quote": "Devis & Réservations ... Tél : 03 27 87 51 25 ... contact@matproloc.fr",
+        "observed_at": "2026-11-04",
+        "detail": "Les devis et réservations sont orientés vers téléphone/email."
+      },
+      {
+        "kind": "website_gap",
+        "source_url": "https://matproloc.fr/contact",
+        "quote": "Vous avez une demande sur un de nos produits ou de nos services ? ... Votre nom / Téléphone / Votre e-mail / Votre besoin / Message",
+        "observed_at": "2026-11-04",
+        "detail": "Le formulaire de contact est générique, sans sélection de matériel, dates ou disponibilités."
+      }
+    ],
+    "domain": "matproloc.fr",
+    "phone": "03 27 87 51 25",
+    "location": "Erre (59)",
+    "source": "matproloc.fr",
+    "process_hint": "Votre site propose un catalogue de machines et un formulaire contact, mais les devis/réservations passent encore par téléphone ou email."
+  },
+  {
+    "company": "Allo'cation",
+    "sector": "Location de matériel événementiel",
+    "city": "Saint-Maur-des-Fossés",
+    "department": "94",
+    "region": "Île-de-France",
+    "website": "https://allo-cation.fr/",
+    "contact_email": "allo-cation@wanadoo.fr",
+    "email_verification": "verified",
+    "contact_name": "Société Allo'cation",
+    "needs": ["automatisation"],
+    "qualification_tier": "moyenne",
+    "opportunity_type": "probable",
+    "recommended_service": "une automatisation des demandes de devis et de la vérification des disponibilités.",
+    "demo_detail": "démo d'agent IA pour pré-qualification des demandes de devis location",
+    "custom_subject": "Allo'cation : automatiser les devis location ?",
+    "custom_hook": "Votre formulaire de devis livraison collecte déjà dates, liste détaillée et accès, mais le traitement des disponibilités et devis reste manuel.",
+    "notes": "Lot 4. Opportunité probable : formulaire devis structuré mais traitement manuel. Région Île-de-France (94), nouveau secteur location événementiel.",
+    "evidences": [
+      {
+        "kind": "website_gap",
+        "source_url": "https://allo-cation.fr/devis-livraison/",
+        "quote": "Date de l'évènement / Heure de livraison / Date de reprise / Liste détaillée / Envoyer",
+        "observed_at": "2026-11-04",
+        "detail": "Le formulaire collecte des données structurées, mais aucune vérification automatique de disponibilité n'est visible."
+      },
+      {
+        "kind": "website_gap",
+        "source_url": "https://allo-cation.fr/devis-livraison/",
+        "quote": "Contactez-nous pour plus de renseignements ... Téléphone : 01 48 89 02 35 Email : allo-cation@wanadoo.fr",
+        "observed_at": "2026-11-04",
+        "detail": "Le devis reste traité par contact téléphonique/email après formulaire."
+      }
+    ],
+    "domain": "allo-cation.fr",
+    "phone": "01 48 89 02 35",
+    "location": "Saint-Maur-des-Fossés (94)",
+    "source": "allo-cation.fr",
+    "process_hint": "Votre formulaire de devis livraison collecte déjà dates, liste détaillée et accès, mais le traitement des disponibilités et devis reste manuel."
+  },
+  {
+    "company": "Restaurant Goudale Orchies",
+    "sector": "Restaurant / brasserie",
+    "city": "Orchies",
+    "department": "59",
+    "region": "Hauts-de-France",
+    "website": "https://www.restaurant-goudale.com/restaurants/",
+    "contact_email": "goudalerestaurant@gmail.com",
+    "email_verification": "public_unverified",
+    "contact_name": "Restaurant Goudale Orchies",
+    "needs": ["site_web"],
+    "qualification_tier": "moyenne",
+    "opportunity_type": "probable",
+    "recommended_service": "une réservation en ligne pour le site d'Orchies.",
+    "demo_detail": "maquette de réservation en ligne pour le restaurant d'Orchies",
+    "custom_subject": "Goudale Orchies : réservation en ligne ?",
+    "custom_hook": "La page du restaurant d'Orchies indique « Réservation Uniquement par téléphone », alors que d'autres sites du groupe acceptent déjà la réservation en ligne.",
+    "notes": "Lot 4. Opportunité probable : site d'Orchies en réservation téléphonique uniquement, autres sites du groupe déjà en ligne. Email publié sur source officielle (extrait indexé), non vérifié par fetch direct. Région Hauts-de-France (59).",
+    "evidences": [
+      {
+        "kind": "website_gap",
+        "source_url": "https://www.restaurant-goudale.com/restaurants/",
+        "quote": "Le restaurant Goudale à Orchies ... Réservation Uniquement par téléphone",
+        "observed_at": "2026-11-04",
+        "detail": "Le site d'Orchies est limité à la réservation téléphonique."
+      },
+      {
+        "kind": "website_gap",
+        "source_url": "https://www.restaurant-goudale.com/restaurants/",
+        "quote": "Le pub Goudale à Lomme ... Réservation en ligne ou par Téléphone et Email",
+        "observed_at": "2026-11-04",
+        "detail": "D'autres établissements du groupe acceptent déjà la réservation en ligne, ce qui rend l'écart d'Orchies observable."
+      }
+    ],
+    "domain": "restaurant-goudale.com",
+    "phone": "03 20 71 02 56",
+    "location": "Orchies (59)",
+    "source": "restaurant-goudale.com",
+    "process_hint": "La page du restaurant d'Orchies indique « Réservation Uniquement par téléphone », alors que d'autres sites du groupe acceptent déjà la réservation en ligne."
+  }
+]

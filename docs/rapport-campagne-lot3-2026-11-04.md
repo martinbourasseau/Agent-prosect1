@@ -2,7 +2,7 @@
 
 ## Synthèse
 - **6 nouveaux prospects** ajoutés au CRM, tous qualifiés **moyenne**, tous avec **email professionnel vérifié** et **téléphone**.
-- **6 brouillons Gmail** créés, personnalisés, signature **Martin Boisseau**, classés campagne `2026-11-04-lot3` + label Gmail `Prospection/2026-11-04-lot3`.
+- **6 brouillons Gmail** créés, personnalisés, signature **Martin BOURASSEAU**, classés campagne `2026-11-04-lot3` + label Gmail `Prospection/2026-11-04-lot3`.
 - **0 envoi réel** : blocage Gmail/DKIM/domaine gratuit toujours actif, activation non validée.
 - **0 réponse** sur les 8 prospects déjà contactés (re-vérifié boîte + spam, 14 jours).
 - Qualification renforcée : uniquement des **lacunes de processus observables** (commande/inscription/devis encore manuels), pas de sélection sur l'âge du site ou le secteur.
@@ -42,7 +42,7 @@ Sources officielles conservées dans `data/prospects/campagne-2026-11-04-lot3.js
 - **Auto-écoles MONT/CFAC** : non retenues au profit de SAM31, dont le parcours d'inscription manuel est explicitement décrit.
 
 ## Messages
-- Accroche factuelle propre à chaque entreprise, proposition unique, référence adaptée (**Groupe Bourasseau** pour les projets web, **SYNATRAP** pour l'automatisation), **démo gratuite sans engagement** (maquette site ou démo IA), CTA simple, opt-out, signature Martin Boisseau.
+- Accroche factuelle propre à chaque entreprise, proposition unique, référence adaptée (**Groupe Bourasseau** pour les projets web, **SYNATRAP** pour l'automatisation), **démo gratuite sans engagement** (maquette site ou démo IA), CTA simple, opt-out, signature Martin BOURASSEAU.
 - Anciennes campagnes et anciens messages conservés ; nouvelle campagne identifiable `2026-11-04-lot3`.
 
 ## Cumul depuis le lancement

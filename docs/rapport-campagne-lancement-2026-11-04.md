@@ -1,6 +1,6 @@
 # Rapport de campagne — LANCEMENT réel · Lot 1
 
-**Date : 4 novembre 2026 · Campagne `2026-11-04-lancement` · Identité expéditeur : Martin Boisseau**
+**Date : 4 novembre 2026 · Campagne `2026-11-04-lancement` · Identité expéditeur : Martin BOURASSEAU**
 
 Campagne réellement exécutée avec le moteur Prospecto : recherche → qualification → messages personnalisés → brouillons Gmail → CRM. **Aucun envoi réel n'a été forcé** : le pré-vol reste bloqué par les restrictions du fournisseur (voir §Blocages), conformément à la consigne « ne pas contourner ».
 
@@ -52,13 +52,13 @@ Campagne réellement exécutée avec le moteur Prospecto : recherche → qualifi
 ---
 
 ## Messages & campagne
-- **8 emails personnalisés** générés avec le moteur v4 (variantes `public_need`, `synatrap_ia`, `no_site`), chacun : accroche sur preuve réelle, proposition adaptée, **démo gratuite sans engagement**, CTA simple, opt-out, signature **Martin Boisseau**.
+- **8 emails personnalisés** générés avec le moteur v4 (variantes `public_need`, `synatrap_ia`, `no_site`), chacun : accroche sur preuve réelle, proposition adaptée, **démo gratuite sans engagement**, CTA simple, opt-out, signature **Martin BOURASSEAU**.
 - **Références sélectionnées automatiquement** : Synatrap pour les besoins IA/automatisation, Groupe Bourasseau pour les besoins web. Liens cliquables, un seul lien d'exemple par email. Paternité formulée au groupe (« la plateforme que je développe avec mon groupe »), non affirmée comme réalisation personnelle.
 - **8 brouillons Gmail créés** et attachés à la file + CRM (statut `brouillon_créé`).
 - Anciennes campagnes **conservées** (v2, v3, v4) ; nouvelle campagne identifiable `2026-11-04-lancement`.
 
 ### Identité expéditeur
-- **Signature** : `Martin Boisseau · Création de sites web · Refonte · Agents IA · Automatisation` (appliquée partout).
+- **Signature** : `Martin BOURASSEAU · Création de sites web · Refonte · Agents IA · Automatisation` (appliquée partout).
 - **Expéditeur technique** : le compte connecté `martin.bourasseau4@gmail.com` — **aucune usurpation**, aucune modification artificielle de l'identité. Le « nom affiché » dans Gmail est un réglage du compte (que Martin peut ajuster dans ses paramètres Gmail s'il le souhaite) ; le connecteur ne permet pas de le forcer sans contourner le fournisseur.
 
 ---
@@ -91,4 +91,4 @@ Le pré-vol `campaign preflight` retourne **BLOQUÉ** pour 3 raisons :
 - Aucun secret sur GitHub ; API du dashboard authentifiée ; aucune donnée sensible exposée au navigateur.
 - **107 tests verts.**
 
-*Prospecto — Martin Boisseau · Création de sites web · Refonte · Agents IA · Automatisation · https://prospecto.website*
+*Prospecto — Martin BOURASSEAU · Création de sites web · Refonte · Agents IA · Automatisation · https://prospecto.website*

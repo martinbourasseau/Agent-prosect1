@@ -1,5 +1,236 @@
 {
-  "updated_at": "2026-11-04T18:32:27+00:00",
-  "count": 0,
-  "entries": []
+  "updated_at": "2026-11-04T21:30:00+00:00",
+  "count": 23,
+  "entries": [
+    {
+      "at": "2026-11-04T21:26:00+00:00",
+      "status": "sent",
+      "queue_id": "2026-11-03-v2-001",
+      "to": "contact@renovationpremium.com",
+      "subject": "Une idée pour le site de R Premium ?",
+      "gmail_message_id": "1a1a34a502673385",
+      "transport": "gmail_manual_observed",
+      "campaign": "2026-11-03-v2"
+    },
+    {
+      "at": "2026-11-04T21:26:00+00:00",
+      "status": "sent",
+      "queue_id": "2026-11-03-v2-002",
+      "to": "secteur72fr@gmail.com",
+      "subject": "Une idée pour gagner du temps chez Secteur 72 ?",
+      "gmail_message_id": "1a1a34a892abaf2e",
+      "transport": "gmail_manual_observed",
+      "campaign": "2026-11-03-v2"
+    },
+    {
+      "at": "2026-11-04T21:26:00+00:00",
+      "status": "sent",
+      "queue_id": "2026-11-04-lancement-001",
+      "to": "reception@camping-galet.com",
+      "subject": "Un agent IA pour Camping Le Galet ?",
+      "gmail_message_id": "1a1a8720126c3fca",
+      "transport": "gmail_manual_observed",
+      "campaign": "2026-11-04-lancement"
+    },
+    {
+      "at": "2026-11-04T21:26:00+00:00",
+      "status": "sent",
+      "queue_id": "2026-11-04-lancement-002",
+      "to": "larenardieredelyna@gmail.com",
+      "subject": "Restaurant La Renardière : automatiser avec un agent ?",
+      "gmail_message_id": "1a1a87226afeb2f8",
+      "transport": "gmail_manual_observed",
+      "campaign": "2026-11-04-lancement"
+    },
+    {
+      "at": "2026-11-04T21:26:00+00:00",
+      "status": "sent",
+      "queue_id": "2026-11-04-lancement-003",
+      "to": "lessantons.laturbie@gmail.com",
+      "subject": "Un agent IA pour Restaurant Les Santons ?",
+      "gmail_message_id": "1a1a8724e43b4818",
+      "transport": "gmail_manual_observed",
+      "campaign": "2026-11-04-lancement"
+    },
+    {
+      "at": "2026-11-04T21:26:00+00:00",
+      "status": "sent",
+      "queue_id": "2026-11-04-lancement-004",
+      "to": "contact@renovationpremium.com",
+      "subject": "Votre annonce WordPress + référencement",
+      "gmail_message_id": "1a1a8727fb3c7644",
+      "transport": "gmail_manual_observed",
+      "campaign": "2026-11-04-lancement"
+    },
+    {
+      "at": "2026-11-04T21:26:00+00:00",
+      "status": "sent",
+      "queue_id": "2026-11-04-lancement-005",
+      "to": "secteur72fr@gmail.com",
+      "subject": "Secteur 72 : automatiser avant l'ouverture ?",
+      "gmail_message_id": "1a1a872a52f17fd0",
+      "transport": "gmail_manual_observed",
+      "campaign": "2026-11-04-lancement"
+    },
+    {
+      "at": "2026-11-04T21:26:00+00:00",
+      "status": "sent",
+      "queue_id": "2026-11-04-lancement-006",
+      "to": "support@bsp-auto.com",
+      "subject": "Votre newsletter mensuelle, en pilote automatique ?",
+      "gmail_message_id": "1a1a872c5c05ac8d",
+      "transport": "gmail_manual_observed",
+      "campaign": "2026-11-04-lancement"
+    },
+    {
+      "at": "2026-11-04T21:26:00+00:00",
+      "status": "sent",
+      "queue_id": "2026-11-04-lancement-007",
+      "to": "contact@cerf-athletic-training.fr",
+      "subject": "CERF : automatiser le suivi de vos adhérents ?",
+      "gmail_message_id": "1a1a872eb5773975",
+      "transport": "gmail_manual_observed",
+      "campaign": "2026-11-04-lancement"
+    },
+    {
+      "at": "2026-11-04T21:26:00+00:00",
+      "status": "sent",
+      "queue_id": "2026-11-04-lancement-008",
+      "to": "charmedelhetre50@gmail.com",
+      "subject": "Charme de l'Hêtre : être trouvé sur Google ?",
+      "gmail_message_id": "1a1a87311bac39c7",
+      "transport": "gmail_manual_observed",
+      "campaign": "2026-11-04-lancement"
+    },
+    {
+      "at": "2026-11-04T21:26:00+00:00",
+      "status": "sent",
+      "queue_id": "2026-11-04-lot2-001",
+      "to": "celarenarde@gmail.com",
+      "subject": "Centre Équestre de la Renarde : automatiser les inscriptions ?",
+      "gmail_message_id": "1a1a873377151814",
+      "transport": "gmail_manual_observed",
+      "campaign": "2026-11-04-lot2"
+    },
+    {
+      "at": "2026-11-04T21:26:00+00:00",
+      "status": "sent",
+      "queue_id": "2026-11-04-lot2-002",
+      "to": "contact@rochedesbancs.com",
+      "subject": "Domaine Roche des Bancs : automatiser vos dégustations ?",
+      "gmail_message_id": "1a1a8735852ed02a",
+      "transport": "gmail_manual_observed",
+      "campaign": "2026-11-04-lot2"
+    },
+    {
+      "at": "2026-11-04T21:26:00+00:00",
+      "status": "sent",
+      "queue_id": "2026-11-04-lot2-003",
+      "to": "courbin-et-fils@orange.fr",
+      "subject": "Domaine Courbin Héritage : commandes et dégustations en ligne ?",
+      "gmail_message_id": "1a1a8738353a1cd1",
+      "transport": "gmail_manual_observed",
+      "campaign": "2026-11-04-lot2"
+    },
+    {
+      "at": "2026-11-04T21:26:00+00:00",
+      "status": "sent",
+      "queue_id": "2026-11-04-lot2-004",
+      "to": "contact@itelecom.pro",
+      "subject": "iTelecom : automatiser votre prospection B2B ?",
+      "gmail_message_id": "1a1a873d7bbca94b",
+      "transport": "gmail_manual_observed",
+      "campaign": "2026-11-04-lot2"
+    },
+    {
+      "at": "2026-11-04T21:26:00+00:00",
+      "status": "sent",
+      "queue_id": "2026-11-04-lot2-005",
+      "to": "info@myk6.fr",
+      "subject": "K6 Pension : automatiser vos pré-réservations ?",
+      "gmail_message_id": "1a1a873f35d975df",
+      "transport": "gmail_manual_observed",
+      "campaign": "2026-11-04-lot2"
+    },
+    {
+      "at": "2026-11-04T21:26:00+00:00",
+      "status": "sent",
+      "queue_id": "2026-11-04-lot2-006",
+      "to": "contact@severine-lesourd.com",
+      "subject": "Pension Séverine Lesourd : automatiser les inscriptions ?",
+      "gmail_message_id": "1a1a87422963e03d",
+      "transport": "gmail_manual_observed",
+      "campaign": "2026-11-04-lot2"
+    },
+    {
+      "at": "2026-11-04T21:26:00+00:00",
+      "status": "sent",
+      "queue_id": "2026-11-04-lot2-007",
+      "to": "Jeremiepages22@gmail.com",
+      "subject": "Centre Cynophile de Ruy : réservation de pension en ligne ?",
+      "gmail_message_id": "1a1a87445a8cefa4",
+      "transport": "gmail_manual_observed",
+      "campaign": "2026-11-04-lot2"
+    },
+    {
+      "at": "2026-11-04T21:26:00+00:00",
+      "status": "sent",
+      "queue_id": "2026-11-04-lot3-001",
+      "to": "canoesomme@gmail.com",
+      "subject": "Base nautique de Picquigny : automatiser les devis groupes",
+      "gmail_message_id": "1a1a874841970c60",
+      "transport": "gmail_manual_observed",
+      "campaign": "2026-11-04-lot3"
+    },
+    {
+      "at": "2026-11-04T21:26:00+00:00",
+      "status": "sent",
+      "queue_id": "2026-11-04-lot3-002",
+      "to": "brasserievdl74@gmail.com",
+      "subject": "Brasserie VDL : commandes à emporter sans téléphone",
+      "gmail_message_id": "1a1a874a4fcaa4d2",
+      "transport": "gmail_manual_observed",
+      "campaign": "2026-11-04-lot3"
+    },
+    {
+      "at": "2026-11-04T21:26:00+00:00",
+      "status": "sent",
+      "queue_id": "2026-11-04-lot3-003",
+      "to": "contact@dance-center.fr",
+      "subject": "Dance Center : inscriptions en ligne pour la rentrée",
+      "gmail_message_id": "1a1a874c31f4eb31",
+      "transport": "gmail_manual_observed",
+      "campaign": "2026-11-04-lot3"
+    },
+    {
+      "at": "2026-11-04T21:26:00+00:00",
+      "status": "sent",
+      "queue_id": "2026-11-04-lot3-004",
+      "to": "contact@sam31.fr",
+      "subject": "SAM31 : pré-inscription en ligne pour vos élèves",
+      "gmail_message_id": "1a1a874e162b9146",
+      "transport": "gmail_manual_observed",
+      "campaign": "2026-11-04-lot3"
+    },
+    {
+      "at": "2026-11-04T21:26:00+00:00",
+      "status": "sent",
+      "queue_id": "2026-11-04-lot3-005",
+      "to": "cedmu@yahoo.fr",
+      "subject": "La Bruchoise : commandes à emporter en ligne",
+      "gmail_message_id": "1a1a8751810b09c2",
+      "transport": "gmail_manual_observed",
+      "campaign": "2026-11-04-lot3"
+    },
+    {
+      "at": "2026-11-04T21:26:00+00:00",
+      "status": "sent",
+      "queue_id": "2026-11-04-lot3-006",
+      "to": "directionloccidentale@gmail.com",
+      "subject": "L'Occidentale : réponses plus rapides aux demandes de devis",
+      "gmail_message_id": "1a1a8753daf0bfe6",
+      "transport": "gmail_manual_observed",
+      "campaign": "2026-11-04-lot3"
+    }
+  ]
 }

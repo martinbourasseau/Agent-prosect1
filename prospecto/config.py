@@ -17,7 +17,7 @@ CAMPAIGN_SETTINGS_PATH = DATA_DIR / "campaigns" / "v4-settings.json"
 SEND_LOG_PATH = DATA_DIR / "history" / "send-log.json"
 REPLIES_PATH = DATA_DIR / "history" / "replies.json"
 
-SENDER_NAME = os.environ.get("PROSPECTO_SENDER_NAME", "Martin Boisseau")
+SENDER_NAME = os.environ.get("PROSPECTO_SENDER_NAME", "Martin BOURASSEAU")
 SENDER_EMAIL = os.environ.get("PROSPECTO_SENDER_EMAIL", "martin.bourasseau4@gmail.com")
 PORTFOLIO_URL = os.environ.get("PROSPECTO_PORTFOLIO_URL", "https://prospecto.website")
 

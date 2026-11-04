@@ -271,4 +271,9 @@ def check_email_v4(email: GeneratedEmail, prospect: Prospect | None = None) -> l
     if prospect is not None and "J'ai lu votre annonce" in body:
         if public_need_evidence(prospect) is None:
             problems.append("hook « annonce » sans besoin public prouvé")
+    # Identité expéditeur : orthographe exacte imposée, aucune variante tolérée.
+    if "boisseau" in lowered:
+        problems.append("identité expéditeur incorrecte : variante orthographique interdite")
+    if config.SENDER_NAME not in body:
+        problems.append(f"signature expéditeur manquante ou incorrecte (attendu : {config.SENDER_NAME})")
     return problems

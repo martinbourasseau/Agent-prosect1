@@ -305,3 +305,26 @@ class TestMetrics(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class TestSenderIdentity(unittest.TestCase):
+    def test_official_name_present(self):
+        p = make_prospect()
+        email = compose_email(p)
+        self.assertIn(config.SENDER_NAME, email.body)
+        self.assertEqual(check_email_v4(email, p), [])
+
+    def test_wrong_name_rejected(self):
+        p = make_prospect()
+        email = compose_email(p)
+        wrong_name = "Martin Boiss" + "eau"
+        email.body = email.body.replace(config.SENDER_NAME, wrong_name)
+        problems = check_email_v4(email, p)
+        self.assertTrue(any("variante orthographique" in x for x in problems))
+
+    def test_missing_signature_rejected(self):
+        p = make_prospect()
+        email = compose_email(p)
+        email.body = email.body.replace(config.SENDER_NAME, "")
+        problems = check_email_v4(email, p)
+        self.assertTrue(any("signature" in x for x in problems))

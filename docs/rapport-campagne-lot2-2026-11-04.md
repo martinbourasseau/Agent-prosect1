@@ -1,6 +1,6 @@
 # Rapport de campagne — LANCEMENT réel · Lot 2
 
-**Date : 4 novembre 2026 · Campagne `2026-11-04-lot2` · Identité expéditeur : Martin Boisseau**
+**Date : 4 novembre 2026 · Campagne `2026-11-04-lot2` · Identité expéditeur : Martin BOURASSEAU**
 
 Deuxième lot exécuté réellement : recherche multi-secteurs / multi-régions → vérification sur sites officiels → qualification → emails personnalisés → brouillons Gmail → CRM. **Aucun envoi réel** (pré-vol toujours bloqué, non contourné). Dédoublonnage strict contre les 29 fiches existantes.
 
@@ -31,7 +31,7 @@ Deuxième lot exécuté réellement : recherche multi-secteurs / multi-régions 
 | Opportunités probables observables | **12** |
 | **Emails professionnels vérifiés** | **14** (+ 10 publics non vérifiés) |
 | **Téléphones professionnels** | **16** |
-| **Brouillons Gmail créés** | **17** (15 signature Martin Boisseau : 8 lancement + 7 lot 2 ; 2 anciens v2) |
+| **Brouillons Gmail créés** | **17** (15 signature Martin BOURASSEAU : 8 lancement + 7 lot 2 ; 2 anciens v2) |
 | Emails en attente (file) | **28** |
 | Emails réellement envoyés | **0** |
 | Réponses reçues | **0** |
@@ -63,7 +63,7 @@ Deuxième lot exécuté réellement : recherche multi-secteurs / multi-régions 
 ---
 
 ## Messages & campagne
-- **7 emails personnalisés** (variantes `public_need` pour iTelecom, `synatrap_ia` pour les 6 autres), chacun : accroche sur preuve réelle, proposition adaptée, **démo gratuite sans engagement**, CTA simple, opt-out, signature **Martin Boisseau**.
+- **7 emails personnalisés** (variantes `public_need` pour iTelecom, `synatrap_ia` pour les 6 autres), chacun : accroche sur preuve réelle, proposition adaptée, **démo gratuite sans engagement**, CTA simple, opt-out, signature **Martin BOURASSEAU**.
 - **Référence Synatrap** sélectionnée automatiquement (besoins IA/automatisation), lien cliquable, paternité formulée au groupe.
 - **7 brouillons Gmail créés** et attachés à la file + CRM (statut `brouillon_créé`), campagne identifiable `2026-11-04-lot2`.
 - Anciennes campagnes **conservées** (v2, v3, v4, lancement).
@@ -89,4 +89,4 @@ Pour débloquer (décision Martin) : domaine d'envoi pro + SPF/DKIM/DMARC + pres
 ## Préservation & sécurité
 - Données, campagnes et versions antérieures conservées ; projet SYNATRAPE non touché ; aucun secret sur GitHub ; **107 tests OK**.
 
-*Prospecto — Martin Boisseau · Création de sites web · Refonte · Agents IA · Automatisation · https://prospecto.website*
+*Prospecto — Martin BOURASSEAU · Création de sites web · Refonte · Agents IA · Automatisation · https://prospecto.website*
