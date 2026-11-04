@@ -144,8 +144,9 @@ class Sender:
         s = self.settings
         allowed = set(s.get("quality", {}).get("allowed_email_verification", [EMAIL_VERIFIED]))
         min_score = s.get("quality", {}).get("min_score", 40)
-        # Dédoublonnage : adresses déjà envoyées / en attente / approuvées.
-        already = {i.get("to", "").lower() for i in queue_items if i.get("status") in ("sent", "pending", "approved")}
+        # Dédoublonnage : uniquement les adresses DÉJÀ envoyées. Les emails en attente /
+        # approuvés sont précisément ceux qu'il faut envoyer (préparés, pas encore partis).
+        already = {i.get("to", "").lower() for i in queue_items if i.get("status") == "sent"}
         already |= {e.get("to", "").lower() for e in self.log.entries if e.get("status") in ("sent", "delivered")}
         contacted = {r.get("email", "").lower() for r in crm_records if r.get("status") == "contacté"}
 

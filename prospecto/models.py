@@ -91,10 +91,15 @@ class Prospect:
         errors = []
         if not self.company:
             errors.append("entreprise sans nom")
-        if not _EMAIL_RE.match(self.contact_email or ""):
-            errors.append(f"email de contact invalide : {self.contact_email!r}")
         if self.email_verification not in EMAIL_VERIFICATIONS:
             errors.append(f"niveau de vérification email inconnu : {self.email_verification!r}")
+        if self.contact_email:
+            if not _EMAIL_RE.match(self.contact_email):
+                errors.append(f"email de contact invalide : {self.contact_email!r}")
+            if self.email_verification == EMAIL_NONE:
+                errors.append("email présent mais niveau de vérification 'none'")
+        elif self.email_verification != EMAIL_NONE:
+            errors.append("aucun email : le niveau de vérification doit être 'none'")
         if not self.needs:
             errors.append("aucun besoin identifié")
         for need in self.needs:

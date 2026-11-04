@@ -56,6 +56,7 @@ class SuppressionList:
         self.entries.append({
             "email": email, "domain": domain, "reason": reason,
             "source": source, "added_at": _now(),
+            "domain_wide": bool(domain and not email),
         })
         self.save()
         return True

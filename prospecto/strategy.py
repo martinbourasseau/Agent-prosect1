@@ -200,14 +200,14 @@ def build_hook(prospect: Prospect) -> str:
         return f"J'ai lu votre annonce : {detail}."
 
     gaps = website_gap_evidences(prospect)
-    if gaps and prospect.primary_need in (NEED_REFONTE, NEED_SITE_WEB):
+    if gaps:
         first = (gaps[0].detail or gaps[0].quote).strip()
         return f"En parcourant votre site ({prospect.domain}), j'ai relevé un point concret : {first}"
 
     if prospect.primary_need in (NEED_AGENT_IA, NEED_AUTOMATISATION) and prospect.process_hint:
         return (
-            f"En découvrant {prospect.company}, j'ai vu que {prospect.process_hint} : "
-            "une piste concrète pour vous faire gagner du temps."
+            f"En découvrant {prospect.company}, j'ai remarqué un point concret : {prospect.process_hint}. "
+            "Une piste concrète pour vous faire gagner du temps."
         )
 
     return (
