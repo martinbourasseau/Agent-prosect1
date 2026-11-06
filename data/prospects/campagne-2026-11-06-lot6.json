@@ -1,0 +1,334 @@
+[
+  {
+    "company": "Celtuce Traiteur",
+    "sector": "Traiteur pour entreprises — plateaux-repas et buffets",
+    "city": "Rezé",
+    "department": "44",
+    "region": "Pays de la Loire",
+    "website": "https://www.celtuce-traiteur.com/",
+    "domain": "celtuce-traiteur.com",
+    "contact_email": "contact@celtuce-traiteur.com",
+    "email_verification": "verified",
+    "phone": "07 85 70 73 71",
+    "phone_verification": "verified",
+    "contact_name": "",
+    "contact_role": "Yoann Marty, chef traiteur",
+    "contact_name_source": "https://www.celtuce-traiteur.com/livraison-repas-entreprise/chapelle-sur-erdre/",
+    "needs": [
+      "automatisation"
+    ],
+    "opportunity_type": "besoin_reel",
+    "recommended_service": "un formulaire de devis buffet qui collecte ces cinq informations et pré-remplit le devis, à valider par vos soins.",
+    "demo_detail": "démo du formulaire buffet produisant une demande complète et un devis pré-rempli",
+    "custom_subject": "Celtuce : vos devis buffets recopiés à la main ?",
+    "custom_hook": "Votre page devis réclame cinq informations précises — entreprise, téléphone, prestation, nombre de personnes, facturation et livraison — et fournit un modèle d'e-mail à trous pour que le client les rédige lui-même.",
+    "process_hint": "demandes de devis buffet par e-mail, avec liste d'informations à fournir et modèle de message à compléter",
+    "notes": "Lot 6. Adresse officielle : 12 rue Maurice Utrillo, 44400 Rezé (fiches locales concordantes). Le site dispose déjà d'une boutique WooCommerce/Stripe pour les plateaux-repas : le besoin n'est PAS une création de site, mais la reprise du même niveau d'automatisation sur les devis buffets, restés entièrement par e-mail. Le lien mailto pré-rempli de la page contact est la preuve la plus directe : l'entreprise a déjà formalisé les champs à collecter.",
+    "evidences": [
+      {
+        "kind": "processus_manuel",
+        "source_url": "https://www.celtuce-traiteur.com/contact/",
+        "quote": "Pour toute demande de devis, veuillez nous contacter par e-mail à l'adresse suivante : contact@celtuce-traiteur.com en nous précisant : Votre entreprise, Votre numéro de téléphone, La prestation souhaitée : livraison de plateaux-repas ou mise en place d'un buffet, Le nombre de personnes, Les informations nécessaires pour la facturation et la livraison.",
+        "observed_at": "2026-11-06",
+        "detail": "Le devis buffet passe par un e-mail libre ; les cinq champs nécessaires sont listés à la main côté client, donc les demandes incomplètes doivent être reprises."
+      },
+      {
+        "kind": "parcours_incomplet",
+        "source_url": "https://www.celtuce-traiteur.com/contact/",
+        "quote": "mailto:contact@celtuce-traiteur.com?subject=Demande%20de%20devis&body=Bonjour, je souhaite un devis pour l'entreprise {Nom de votre entreprise} ...",
+        "observed_at": "2026-11-06",
+        "detail": "Le site propose un modèle d'e-mail à trous plutôt qu'un formulaire : la saisie reste non structurée et non exploitable automatiquement."
+      }
+    ],
+    "lot": "2026-11-06-lot6",
+    "discovered_at": "2026-11-06",
+    "email_status": "non_contacté",
+    "next_action": "Brouillon personnalisé à préparer — aucun envoi automatique",
+    "qualification_tier": "haute"
+  },
+  {
+    "company": "Mamie Cuisine Traiteur",
+    "sector": "Traiteur — livraison de plateaux-repas, buffets et petits-déjeuners en entreprise",
+    "city": "Saint-Quentin-Fallavier",
+    "department": "38",
+    "region": "Auvergne-Rhône-Alpes",
+    "website": "https://www.mamiecuisinetraiteur.fr/",
+    "domain": "mamiecuisinetraiteur.fr",
+    "contact_email": "contact@mamiecuisinetraiteur.fr",
+    "email_verification": "verified",
+    "phone": "04 74 95 54 26",
+    "phone_verification": "verified",
+    "contact_name": "",
+    "contact_role": "",
+    "contact_name_source": "",
+    "needs": [
+      "automatisation",
+      "refonte"
+    ],
+    "opportunity_type": "besoin_reel",
+    "recommended_service": "un module de demande de buffet et petit-déjeuner qui applique vos règles de délai et de zone de livraison dès la saisie.",
+    "demo_detail": "démo d'une demande de buffet en ligne contrôlant le délai de 72 h et la zone de livraison",
+    "custom_subject": "Mamie Cuisine : la règle des 72 h, appliquée automatiquement ?",
+    "custom_hook": "Votre site indique que les plateaux-repas se commandent en ligne, mais que les buffets et petits-déjeuners passent « uniquement par mail au minimum 72h à l'avance ».",
+    "process_hint": "commandes de buffets et petits-déjeuners uniquement par e-mail avec délai de 72 h, forfait de livraison calculé selon la zone",
+    "notes": "Lot 6. Adresse officielle : Parc de Chesnes RD 1006, 38070 Saint-Quentin-Fallavier. La commande en ligne existe déjà pour les plateaux-repas (panier, formules 21/23/25 €) : la lacune est ciblée sur les buffets et petits-déjeuners, exclus du tunnel en ligne. Le forfait de livraison « calculé selon votre zone » est une règle métier explicite, donc automatisable sans invention.",
+    "evidences": [
+      {
+        "kind": "processus_manuel",
+        "source_url": "https://www.mamiecuisinetraiteur.fr/index.php",
+        "quote": "Commandez vos repas en ligne ou par mail impérativement avant midi la veille du jour voulu. Pour les demandes de buffets ou petit-déjeuners, uniquement par mail au minimum 72h à l'avance.",
+        "observed_at": "2026-11-06",
+        "detail": "Deux régimes de commande coexistent : les plateaux-repas en ligne, les buffets et petits-déjeuners traités à la main par e-mail avec contrôle manuel du délai."
+      },
+      {
+        "kind": "parcours_incomplet",
+        "source_url": "https://www.mamiecuisinetraiteur.fr/index.php",
+        "quote": "Sachez qu'un forfait de livraison est toujours appliqué et calculé selon votre zone.",
+        "observed_at": "2026-11-06",
+        "detail": "Le calcul du forfait de livraison par zone n'est pas exposé au client : il doit être communiqué après échange."
+      }
+    ],
+    "lot": "2026-11-06-lot6",
+    "discovered_at": "2026-11-06",
+    "email_status": "non_contacté",
+    "next_action": "Brouillon personnalisé à préparer — aucun envoi automatique",
+    "qualification_tier": "haute"
+  },
+  {
+    "company": "Baptiste Break Pâtisserie Traiteur",
+    "sector": "Pâtisserie et traiteur artisanal sur commande",
+    "city": "Sartrouville",
+    "department": "78",
+    "region": "Île-de-France",
+    "website": "https://www.baptiste-break.fr/",
+    "domain": "baptiste-break.fr",
+    "contact_email": "contact@baptiste-break.fr",
+    "email_verification": "verified",
+    "phone": "07 45 10 30 70",
+    "phone_verification": "verified",
+    "contact_name": "",
+    "contact_role": "Baptiste Bresser, dirigeant (directeur de la publication)",
+    "contact_name_source": "https://www.baptiste-break.fr/cgv/",
+    "needs": [
+      "automatisation"
+    ],
+    "opportunity_type": "besoin_reel",
+    "recommended_service": "un formulaire de commande qui indique les créneaux encore disponibles, calcule le devis et suit l'acompte.",
+    "demo_detail": "démo d'une demande de gâteau sur-mesure affichant les semaines encore ouvertes et le devis correspondant",
+    "custom_subject": "Baptiste Break : vos semaines complètes visibles avant la demande ?",
+    "custom_hook": "Votre page commande précise que le nombre de commandes est limité chaque semaine et que certaines dates sont complètes plusieurs semaines à l'avance — mais un client ne peut le savoir qu'après vous avoir écrit.",
+    "process_hint": "commandes par e-mail ou téléphone, devis détaillé émis sous 72 h, réservation du créneau à réception de l'acompte par virement",
+    "notes": "Lot 6. SIRET 82139868200020, siège 130 avenue Maurice Berteaux, 78500 Sartrouville (CGV officielles). Dirigeant public : M. Bresser Baptiste. L'entreprise annonce un déménagement prochain à Carrières-sous-Poissy et suspend les retraits : la charge de réponses aux demandes est actuellement accrue. Aucune création de site nécessaire (WordPress à jour, contenus 2026) : le besoin est la gestion des demandes, des créneaux et des acomptes.",
+    "evidences": [
+      {
+        "kind": "processus_manuel",
+        "source_url": "https://www.baptiste-break.fr/cgv/",
+        "quote": "Le Client a la possibilité de passer commande en envoyant un mail ou en appelant, il recevra un devis par mail par la suite sous un maximum de 72h.",
+        "observed_at": "2026-11-06",
+        "detail": "Chaque commande déclenche la rédaction manuelle d'un devis, avec un délai annoncé de 72 h."
+      },
+      {
+        "kind": "processus_manuel",
+        "source_url": "https://www.baptiste-break.fr/passez-commande/",
+        "quote": "le nombre de commandes est limité chaque semaine ... deux semaines à l'avance est le minimum, mais certaines dates peuvent être complètes plusieurs semaines à l'avance ... la place ne vous est réservée qu'à la réception du virement d'acompte.",
+        "observed_at": "2026-11-06",
+        "detail": "La capacité hebdomadaire et le suivi des acomptes sont gérés hors du site : le client découvre la disponibilité seulement après réponse humaine."
+      }
+    ],
+    "lot": "2026-11-06-lot6",
+    "discovered_at": "2026-11-06",
+    "email_status": "non_contacté",
+    "next_action": "Brouillon personnalisé à préparer — aucun envoi automatique",
+    "qualification_tier": "haute"
+  },
+  {
+    "company": "SARL Joly Location",
+    "sector": "Location de matériel BTP et d'échafaudages, avec ou sans chauffeur",
+    "city": "Sangatte",
+    "department": "62",
+    "region": "Hauts-de-France",
+    "website": "https://www.joly-location.fr/",
+    "domain": "joly-location.fr",
+    "contact_email": "info-location@joly-location.fr",
+    "email_verification": "verified",
+    "phone": "03 21 34 53 54",
+    "phone_verification": "verified",
+    "contact_name": "",
+    "contact_role": "Robert Joly, gérant",
+    "contact_name_source": "https://www.ville-sangatte.fr/Annuaire-des-commercants.aspx",
+    "needs": [
+      "automatisation",
+      "refonte"
+    ],
+    "opportunity_type": "besoin_reel",
+    "recommended_service": "une demande de location qui précise matériel, dates et besoin de chauffeur, et la remise en ligne de l'ancien domaine encore cité dans les annuaires.",
+    "demo_detail": "démo d'une demande de location nacelle ou échafaudage avec dates et option chauffeur",
+    "custom_subject": "Joly Location : votre ancien domaine renvoie « site non publié »",
+    "custom_hook": "Pages Jaunes pointe encore vers jolylocation-echafaudage.fr, qui affiche aujourd'hui « This site is not published » — alors que votre site actif est joly-location.fr.",
+    "process_hint": "devis de location établis sur demande par téléphone ou formulaire, parc de plus de 35 000 m² d'échafaudages sans disponibilité en ligne",
+    "notes": "Lot 6. SARL JOLY LOCATION, SIRET 40241216700015, 353 route départementale 940, 62231 Sangatte. Deux domaines pour la même entreprise : joly-location.fr (actif, Concrete CMS) et jolylocation-echafaudage.fr (non publié, encore référencé par Pages Jaunes et porteur des mentions légales). L'adresse info-location@joly-location.fr est publiée dans ces mentions légales et correspond au domaine actif. Gérant public : Robert Joly (annuaire officiel de la mairie de Sangatte). Activité depuis 1968 selon le site.",
+    "evidences": [
+      {
+        "kind": "site_indisponible",
+        "source_url": "https://www.jolylocation-echafaudage.fr/contact",
+        "quote": "Site not found — This site is not published or does not have a domain assigned to it.",
+        "observed_at": "2026-11-06",
+        "detail": "Le second domaine de l'entreprise ne sert plus aucune page, alors qu'il reste le site déclaré sur sa fiche Pages Jaunes."
+      },
+      {
+        "kind": "processus_manuel",
+        "source_url": "https://www.joly-location.fr/",
+        "quote": "Peut-on demander un devis pour une location de matériel ? Oui, nous établissons des devis personnalisés selon vos besoins. N'hésitez pas à nous contacter pour obtenir une solution adaptée à votre chantier.",
+        "observed_at": "2026-11-06",
+        "detail": "Les devis de location sont établis à la demande ; le catalogue ne propose ni disponibilité ni réservation."
+      }
+    ],
+    "lot": "2026-11-06-lot6",
+    "discovered_at": "2026-11-06",
+    "email_status": "non_contacté",
+    "next_action": "Brouillon personnalisé à préparer — aucun envoi automatique",
+    "qualification_tier": "haute"
+  },
+  {
+    "company": "SARL Uzès Location",
+    "sector": "Location de matériel BTP, espaces verts et véhicules utilitaires",
+    "city": "Uzès",
+    "department": "30",
+    "region": "Occitanie",
+    "website": "https://uzes-location.fr/",
+    "domain": "uzes-location.fr",
+    "contact_email": "uzeslocation.30700@gmail.com",
+    "email_verification": "public_unverified",
+    "phone": "04 66 58 00 58",
+    "phone_verification": "verified",
+    "contact_name": "",
+    "contact_role": "",
+    "contact_name_source": "",
+    "needs": [
+      "automatisation"
+    ],
+    "opportunity_type": "opportunite_probable",
+    "recommended_service": "un formulaire de demande de location qui collecte le matériel, les dates et la durée pour préparer le devis sans échange préalable.",
+    "demo_detail": "démo d'une demande de location avec matériel, dates et livraison, prête à chiffrer",
+    "custom_subject": "Uzès Location : matériel, dates, durée — demandés dès le formulaire ?",
+    "custom_hook": "Votre formulaire de contact ne demande que nom, téléphone, e-mail et un message libre : pour chiffrer une location, il faut ensuite réclamer le matériel, les dates et la durée.",
+    "process_hint": "demandes de devis via formulaire à champ libre, catalogue matériel sans disponibilité ni réservation en ligne",
+    "notes": "Lot 6. Adresse officielle : 983 route de Nîmes, 30700 Uzès. Deux téléphones publiés : 04 66 58 00 58 et 06 32 73 14 41. Livraison par leurs chauffeurs à 30 km du dépôt, titulaire CACES. ATTENTION : l'adresse e-mail provient d'un extrait indexé du site et n'apparaît plus sur la page contact actuelle (formulaire seul) — classée public_unverified, à confirmer avant tout envoi. Opportunité probable et non besoin exprimé : la lacune est le formulaire, pas une demande de l'entreprise.",
+    "evidences": [
+      {
+        "kind": "parcours_incomplet",
+        "source_url": "https://uzes-location.fr/contact/",
+        "quote": "Nom & prénom * / Téléphone * / E-mail * / Votre Message *",
+        "observed_at": "2026-11-06",
+        "detail": "Le formulaire de devis ne comporte aucun champ matériel, dates ou durée : la qualification se fait par échanges successifs."
+      },
+      {
+        "kind": "website_gap",
+        "source_url": "https://uzes-location.fr/",
+        "quote": "Vous savez tout ou presque, il ne vous reste plus qu'à réserver ce dont vous avez besoin auprès de la SARL Uzès Location à Uzès !",
+        "observed_at": "2026-11-06",
+        "detail": "Le site invite à réserver mais ne propose aucun module de réservation ni calendrier de disponibilité : le bouton « Devis Gratuit » mène au formulaire générique."
+      }
+    ],
+    "lot": "2026-11-06-lot6",
+    "discovered_at": "2026-11-06",
+    "email_status": "non_contacté",
+    "next_action": "Brouillon personnalisé à préparer — aucun envoi automatique",
+    "qualification_tier": "moyenne"
+  },
+  {
+    "company": "SAS Maire",
+    "sector": "Travaux publics, transport, carrière et location d'engins de chantier",
+    "city": "Senon",
+    "department": "55",
+    "region": "Grand Est",
+    "website": "https://www.maire-sas.fr/",
+    "domain": "maire-sas.fr",
+    "contact_email": "info@sas-maire.fr",
+    "email_verification": "public_unverified",
+    "phone": "03 29 85 99 15",
+    "phone_verification": "verified",
+    "contact_name": "",
+    "contact_role": "",
+    "contact_name_source": "",
+    "needs": [
+      "automatisation"
+    ],
+    "opportunity_type": "opportunite_probable",
+    "recommended_service": "une demande de disponibilité par engin et par dates, transmise complète au planning de location.",
+    "demo_detail": "démo d'une demande de disponibilité sur un engin du parc, avec dates et option conducteur",
+    "custom_subject": "SAS Maire : vos 20 engins sans demande de disponibilité ?",
+    "custom_hook": "Votre page location présente une vingtaine d'engins — PC 09 à PC 290, chargeurs, PW — mais se termine par « contactez nous par téléphone » ou « par e-mail », sans demande de disponibilité.",
+    "process_hint": "parc de location présenté en catalogue, demandes de renseignement et de disponibilité par téléphone ou e-mail uniquement",
+    "notes": "Lot 6. Site WordPress récent (médias 2024-2025) : aucune création ni refonte justifiée. La seule lacune vérifiable est l'absence de demande de disponibilité sur un parc nommément listé, avec location « avec et sans conducteur » — deux informations qui structurent toute demande. Opportunité probable, non besoin exprimé. Adresse e-mail publiée sur la page location. ANOMALIE VÉRIFIÉE le 06/11/2026 : info@sas-maire.fr est non délivrable, le domaine sas-maire.fr n'existe pas (NXDOMAIN MX/A/NS) tandis que maire-sas.fr possède un MX valide. Aucun brouillon créé.",
+    "evidences": [
+      {
+        "kind": "parcours_incomplet",
+        "source_url": "https://www.maire-sas.fr/location-de-materiel/",
+        "quote": "Besoin d'un renseignement ? Contactez nous par téléphone : 03 29 85 99 15 — Contactez nous par e-mail : info@sas-maire.fr",
+        "observed_at": "2026-11-06",
+        "detail": "Le catalogue d'engins ne propose aucun formulaire de disponibilité ou de devis : toute demande repasse par un échange humain."
+      },
+      {
+        "kind": "website_gap",
+        "source_url": "https://www.maire-sas.fr/location-de-materiel/",
+        "quote": "Location de matériel et de véhicules de chantiers avec et sans conducteur",
+        "observed_at": "2026-11-06",
+        "detail": "L'option conducteur et le choix de l'engin sont les deux paramètres d'une demande ; ils ne sont capturés par aucun formulaire."
+      }
+    ],
+    "lot": "2026-11-06-lot6",
+    "discovered_at": "2026-11-06",
+    "email_status": "non_contacté",
+    "next_action": "AUCUN EMAIL — domaine de l'adresse publiée inexistant (NXDOMAIN). Téléphone seul.",
+    "qualification_tier": "moyenne",
+    "email_dns_status": "nxdomain"
+  },
+  {
+    "company": "Techniques Piscine",
+    "sector": "Construction, rénovation et équipement de piscines et spas",
+    "city": "Le Havre",
+    "department": "76",
+    "region": "Normandie",
+    "website": "https://techniquespiscine.fr/",
+    "domain": "techniquespiscine.fr",
+    "contact_email": "contact@techniquespiscine.fr",
+    "email_verification": "verified",
+    "phone": "06 13 53 52 26",
+    "phone_verification": "verified",
+    "contact_name": "",
+    "contact_role": "",
+    "contact_name_source": "",
+    "needs": [
+      "automatisation"
+    ],
+    "opportunity_type": "opportunite_probable",
+    "recommended_service": "un formulaire de projet piscine qui qualifie construction ou rénovation, terrain et délai avant le premier échange.",
+    "demo_detail": "démo d'un formulaire de projet piscine qui trie construction, rénovation et entretien dès la demande",
+    "custom_subject": "Techniques Piscine : qualifier le projet avant le premier appel ?",
+    "custom_hook": "Votre page contact promet « un seul interlocuteur » et un suivi clé en main, mais le formulaire ne demande que nom, e-mail, téléphone et un message libre.",
+    "process_hint": "demandes de projet via formulaire à champ libre, sans type de projet ni délai, sur trois départements d'intervention",
+    "notes": "Lot 6. Intervention Le Havre, Rouen, Saint-Valery-en-Caux, Eure et Calvados. Site WordPress soigné (agence CACERES Studio), médias 2021 : pas de refonte justifiée sur la seule ancienneté. Lacune vérifiable : le formulaire ne distingue pas construction, rénovation, protection ou équipement, alors que ce sont les quatre prestations annoncées — donc qualification manuelle à chaque demande. Opportunité probable.",
+    "evidences": [
+      {
+        "kind": "parcours_incomplet",
+        "source_url": "https://techniquespiscine.fr/contactez-nous/",
+        "quote": "Vous avez un projet de piscine ou de SPA ? Prénom et Nom* / Email* / Téléphone* / Message",
+        "observed_at": "2026-11-06",
+        "detail": "Aucun champ de qualification : type de projet, terrain, dimensions et délai doivent être obtenus par retour d'e-mail ou par téléphone."
+      },
+      {
+        "kind": "website_gap",
+        "source_url": "https://techniquespiscine.fr/contactez-nous/",
+        "quote": "Nous intervenons sur les secteurs du Havres et ses environs, Rouen et ses environs en passant par Saint Valery en Caux et sur les départements de l'Eure et le Calvados",
+        "observed_at": "2026-11-06",
+        "detail": "La zone d'intervention couvre trois départements mais le formulaire ne demande pas la localisation du chantier, information nécessaire au tri des demandes."
+      }
+    ],
+    "lot": "2026-11-06-lot6",
+    "discovered_at": "2026-11-06",
+    "email_status": "non_contacté",
+    "next_action": "Brouillon personnalisé à préparer — aucun envoi automatique",
+    "qualification_tier": "moyenne"
+  }
+]

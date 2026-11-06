@@ -351,6 +351,29 @@ def cmd_suppression(args: argparse.Namespace) -> int:
     return 0
 
 
+def cmd_reconcile_sent(args: argparse.Namespace) -> int:
+    """Aligne file / CRM / journal sur les envois constatés dans Gmail (aucun envoi)."""
+    from .reconcile import reconcile_sent
+    from .sender import SendLog
+
+    raw = json.loads(Path(args.file).read_text(encoding="utf-8"))
+    observed = raw.get("observed", raw) if isinstance(raw, dict) else raw
+    crm, queue = CRM(), ValidationQueue()
+    log = SendLog() if args.apply else None
+    if not args.apply:
+        print("(lecture seule : --apply pour enregistrer)")
+        for obs in observed:
+            hit = [i for i in queue.items if i.to.lower() == (obs.get("to") or "").lower()
+                   and i.subject == obs.get("subject")]
+            print(f"  {obs.get('to'):<42} {'→ ' + hit[0].id + ' [' + hit[0].status + ']' if hit else 'NON RAPPROCHÉ'}")
+        return 0
+    res = reconcile_sent(observed, crm, queue, log, observed_at=raw.get("observed_at", ""))
+    print(json.dumps(res.to_dict(), ensure_ascii=False, indent=2))
+    print(f"\n{res.matched} éléments alignés sur « sent », {res.already_sent} déjà à jour, "
+          f"{len(res.unmatched)} non rapprochés")
+    return 0
+
+
 def cmd_verify_emails(args: argparse.Namespace) -> int:
     """Contrôle DNS (MX) des adresses du CRM — aucune connexion SMTP, aucun envoi."""
     from .email_verify import verify_records, verify_email, DomainCache
@@ -510,6 +533,11 @@ def build_parser() -> argparse.ArgumentParser:
 
     p = sub.add_parser("metrics", help="métriques agrégées (CRM, envois, réponses, performance)")
     p.set_defaults(func=cmd_metrics)
+
+    p = sub.add_parser("reconcile-sent", help="constater les envois faits hors agent et aligner file/CRM/journal")
+    p.add_argument("--file", required=True, help="JSON des messages relevés dans « Envoyés »")
+    p.add_argument("--apply", action="store_true", help="enregistrer la réconciliation")
+    p.set_defaults(func=cmd_reconcile_sent)
 
     p = sub.add_parser("verify-emails", help="contrôle DNS/MX des adresses (aucun envoi, aucune connexion SMTP)")
     p.add_argument("--email", help="vérifier une adresse isolée")

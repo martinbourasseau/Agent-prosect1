@@ -1,0 +1,175 @@
+{
+  "campaign": "2026-11-04-lot4",
+  "strategy": "v4 — variantes + références + démo gratuite",
+  "generated_count": 8,
+  "emails": [
+    {
+      "queue_id": "2026-11-04-lot4-001",
+      "to": "contact@restaurant-lecanotier.fr",
+      "subject": "Le Canotier : réservation en ligne pour vos événements ?",
+      "body": "Bonjour Alexandre,\n\nVotre site indique « RESERVATION UNIQUEMENT PAR TELEPHONE » et aucune réservation par email/voicemail, alors que vous proposez des formules groupe, salles et séminaires.\n\nJe peux vous proposer un module de réservation en ligne et de demande de devis événementiel.\n\nÀ titre d'exemple, voici le site institutionnel que j'ai conçu pour mon groupe : https://groupebourasseau.com\n\nJe peux vous préparer gratuitement une première démonstration personnalisée, sans engagement : maquette de réservation en ligne et de demande de devis pour groupes/séminaires.\n\nCela vous dirait de la découvrir ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+      "company": "Restaurant Le Canotier",
+      "need": "site_web",
+      "evidence_sources": [
+        "https://www.restaurant-lecanotier.fr/",
+        "https://www.restaurant-lecanotier.fr/"
+      ],
+      "variant": "demo_site",
+      "reference_id": "groupe-bourasseau",
+      "example_url": "https://groupebourasseau.com",
+      "message_version": "v4",
+      "score": 45,
+      "tier": "moyenne",
+      "gmail_draft_id": "r-441106915474065912",
+      "gmail_message_id": "1a1a88213eecaf88",
+      "status": "brouillon_créé"
+    },
+    {
+      "queue_id": "2026-11-04-lot4-002",
+      "to": "contact@boucherie-florian.fr",
+      "subject": "Boucherie Florian : commandes traiteur en ligne ?",
+      "body": "Bonjour Florian,\n\nVotre site invite à « Commandez par téléphone ! » pour les plats traiteurs et plateaux, avec tarifs PDF, sans parcours de commande en ligne visible.\n\nJe peux vous proposer un parcours de commande click & collect pour les plateaux et plats traiteurs.\n\nÀ titre d'exemple, voici le site institutionnel que j'ai conçu pour mon groupe : https://groupebourasseau.com\n\nJe peux vous préparer gratuitement une première démonstration personnalisée, sans engagement : maquette de commande click & collect pour plateaux et traiteur.\n\nCela vous dirait de la découvrir ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+      "company": "Boucherie Florian",
+      "need": "site_web",
+      "evidence_sources": [
+        "https://boucherie-florian.fr/",
+        "https://boucherie-florian.fr/"
+      ],
+      "variant": "demo_site",
+      "reference_id": "groupe-bourasseau",
+      "example_url": "https://groupebourasseau.com",
+      "message_version": "v4",
+      "score": 45,
+      "tier": "moyenne",
+      "gmail_draft_id": "r-2227193041875889795",
+      "gmail_message_id": "1a1a8821c8ef90ce",
+      "status": "brouillon_créé"
+    },
+    {
+      "queue_id": "2026-11-04-lot4-003",
+      "to": "labergere35@gmail.com",
+      "subject": "Fromagerie Les 2 Alpes : activer la commande en ligne ?",
+      "body": "Bonjour Sylvain,\n\nVotre boutique en ligne affiche « Il n'est pas possible de commander via ce site » et renvoie les commandes par téléphone, alors que le catalogue est déjà présent.\n\nJe peux vous proposer une activation de la commande en ligne / click & collect sur votre boutique existante.\n\nÀ titre d'exemple, voici le site institutionnel que j'ai conçu pour mon groupe : https://groupebourasseau.com\n\nJe peux vous préparer gratuitement une première démonstration personnalisée, sans engagement : maquette de commande en ligne pour packs raclettes/fondues et plateaux.\n\nCela vous dirait de la découvrir ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+      "company": "La Fromagerie Les 2 Alpes",
+      "need": "site_web",
+      "evidence_sources": [
+        "https://www.fromagerie-2alpes.com/",
+        "https://www.fromagerie-2alpes.com/pages/contact"
+      ],
+      "variant": "demo_site",
+      "reference_id": "groupe-bourasseau",
+      "example_url": "https://groupebourasseau.com",
+      "message_version": "v4",
+      "score": 45,
+      "tier": "moyenne",
+      "gmail_draft_id": "r-3261002470483516264",
+      "gmail_message_id": "1a1a88228557fb2b",
+      "status": "brouillon_créé"
+    },
+    {
+      "queue_id": "2026-11-04-lot4-004",
+      "to": "brigitte@fromagerieetbaratte.fr",
+      "subject": "Fromagerie et Baratte : plateaux commandables en ligne ?",
+      "body": "Bonjour Brigitte,\n\nVotre site précise que « Les commandes finales de plateaux se font uniquement par téléphone ou en boutique », malgré une pré-commande de plateau.\n\nJe peux vous proposer une commande de plateaux en ligne avec créneau de retrait.\n\nÀ titre d'exemple, voici le site institutionnel que j'ai conçu pour mon groupe : https://groupebourasseau.com\n\nJe peux vous préparer gratuitement une première démonstration personnalisée, sans engagement : maquette de commande de plateaux avec choix du retrait J+1.\n\nCela vous dirait de la découvrir ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+      "company": "Fromagerie et Baratte",
+      "need": "site_web",
+      "evidence_sources": [
+        "https://fromagerieetbaratte.fr/",
+        "https://fromagerieetbaratte.fr/"
+      ],
+      "variant": "demo_site",
+      "reference_id": "groupe-bourasseau",
+      "example_url": "https://groupebourasseau.com",
+      "message_version": "v4",
+      "score": 45,
+      "tier": "moyenne",
+      "gmail_draft_id": "r2349920759718953430",
+      "gmail_message_id": "1a1a8823259b1c20",
+      "status": "brouillon_créé"
+    },
+    {
+      "queue_id": "2026-11-04-lot4-005",
+      "to": "contact@lachocolatisserie.com",
+      "subject": "La Chocolatisserie : commandes sur-mesure en ligne ?",
+      "body": "Bonjour,\n\nVotre page contact demande de « privilégier le contact par téléphone pour passer vos commandes », alors que toutes les créations sont disponibles à la commande.\n\nJe peux vous proposer un parcours de commande en ligne pour créations et gâteaux sur-mesure.\n\nÀ titre d'exemple, voici le site institutionnel que j'ai conçu pour mon groupe : https://groupebourasseau.com\n\nJe peux vous préparer gratuitement une première démonstration personnalisée, sans engagement : maquette de commande de gâteaux sur-mesure et click & collect.\n\nCela vous dirait de la découvrir ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+      "company": "La Chocolatisserie",
+      "need": "site_web",
+      "evidence_sources": [
+        "https://lachocolatisserie.com/contact/",
+        "https://lachocolatisserie.com/contact/"
+      ],
+      "variant": "demo_site",
+      "reference_id": "groupe-bourasseau",
+      "example_url": "https://groupebourasseau.com",
+      "message_version": "v4",
+      "score": 45,
+      "tier": "moyenne",
+      "gmail_draft_id": "r-8188127379332518233",
+      "gmail_message_id": "1a1a8823ee55033a",
+      "status": "brouillon_créé"
+    },
+    {
+      "queue_id": "2026-11-04-lot4-006",
+      "to": "contact@matproloc.fr",
+      "subject": "Matproloc : réservation de matériel en ligne ?",
+      "body": "Bonjour Vincent,\n\nVotre site propose un catalogue de machines et un formulaire contact, mais les devis/réservations passent encore par téléphone ou email.\n\nJe peux vous proposer un parcours de réservation de matériel en ligne avec disponibilités.\n\nÀ titre d'exemple, voici le site institutionnel que j'ai conçu pour mon groupe : https://groupebourasseau.com\n\nJe peux vous préparer gratuitement une première démonstration personnalisée, sans engagement : maquette de réservation de matériel avec créneaux et demande de devis.\n\nCela vous dirait de la découvrir ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+      "company": "Matproloc",
+      "need": "site_web",
+      "evidence_sources": [
+        "https://matproloc.fr/",
+        "https://matproloc.fr/contact"
+      ],
+      "variant": "demo_site",
+      "reference_id": "groupe-bourasseau",
+      "example_url": "https://groupebourasseau.com",
+      "message_version": "v4",
+      "score": 45,
+      "tier": "moyenne",
+      "gmail_draft_id": "r8133168118816518162",
+      "gmail_message_id": "1a1a8824882f6fd8",
+      "status": "brouillon_créé"
+    },
+    {
+      "queue_id": "2026-11-04-lot4-007",
+      "to": "allo-cation@wanadoo.fr",
+      "subject": "Allo'cation : automatiser les devis location ?",
+      "body": "Bonjour,\n\nVotre formulaire de devis livraison collecte déjà dates, liste détaillée et accès, mais le traitement des disponibilités et devis reste manuel.\n\nJe peux vous proposer une automatisation des demandes de devis et de la vérification des disponibilités.\n\nCôté agents IA, voici SYNATRAP, la plateforme que je développe avec mon groupe : https://synatrap.com\n\nJe peux vous montrer gratuitement une démonstration concrète de la solution envisagée, sans engagement, sur un cas réel de votre activité.\n\nCela vous dirait de la découvrir ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+      "company": "Allo'cation",
+      "need": "automatisation",
+      "evidence_sources": [
+        "https://allo-cation.fr/devis-livraison/",
+        "https://allo-cation.fr/devis-livraison/"
+      ],
+      "variant": "synatrap_ia",
+      "reference_id": "synatrap",
+      "example_url": "https://synatrap.com",
+      "message_version": "v4",
+      "score": 45,
+      "tier": "moyenne",
+      "gmail_draft_id": "r6132347275537598063",
+      "gmail_message_id": "1a1a88256f90d24e",
+      "status": "brouillon_créé"
+    },
+    {
+      "queue_id": "2026-11-04-lot4-008",
+      "to": "goudalerestaurant@gmail.com",
+      "subject": "Goudale Orchies : réservation en ligne ?",
+      "body": "Bonjour,\n\nLa page du restaurant d'Orchies indique « Réservation Uniquement par téléphone », alors que d'autres sites du groupe acceptent déjà la réservation en ligne.\n\nJe peux vous proposer une réservation en ligne pour le site d'Orchies.\n\nÀ titre d'exemple, voici le site institutionnel que j'ai conçu pour mon groupe : https://groupebourasseau.com\n\nJe peux vous préparer gratuitement une première démonstration personnalisée, sans engagement : maquette de réservation en ligne pour le restaurant d'Orchies.\n\nCela vous dirait de la découvrir ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+      "company": "Restaurant Goudale Orchies",
+      "need": "site_web",
+      "evidence_sources": [
+        "https://www.restaurant-goudale.com/restaurants/",
+        "https://www.restaurant-goudale.com/restaurants/"
+      ],
+      "variant": "demo_site",
+      "reference_id": "groupe-bourasseau",
+      "example_url": "https://groupebourasseau.com",
+      "message_version": "v4",
+      "score": 45,
+      "tier": "moyenne",
+      "gmail_draft_id": "r4069016850255698710",
+      "gmail_message_id": "1a1a88262fb1f478",
+      "status": "brouillon_créé"
+    }
+  ]
+}

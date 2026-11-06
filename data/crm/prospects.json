@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-04T22:13:06+00:00",
-  "count": 57,
+  "updated_at": "2026-11-06T13:10:42+00:00",
+  "count": 64,
   "prospects": [
     {
       "company": "R Premium",
@@ -1319,8 +1319,8 @@
       "sector": "services",
       "city": "Brignoles",
       "department": "83",
-      "contact_name": "",
-      "contact_role": "",
+      "contact_name": "Nicolas Smets",
+      "contact_role": "Nicolas Smets, Centre Equestre de la Renarde (signature du message)",
       "email": "celarenarde@gmail.com",
       "phone": "+33 6 20 92 87 51",
       "source": "centreequestredelarenarde.com",
@@ -1356,7 +1356,7 @@
       "custom_hook": "",
       "custom_subject": "",
       "notes": "Site Wix avec un lien mailto de gabarit encore présent (info@monsite.fr) = défaut de qualité observable. Email public sur la page contact officielle. Centre équestre / poney club en Provence Verte.",
-      "status": "contacté",
+      "status": "opposition",
       "id": "centre-questre-de-la-renarde",
       "created_at": "2026-11-04T19:26:41+00:00",
       "updated_at": "2026-11-04T21:30:00+00:00",
@@ -1373,11 +1373,44 @@
       "gmail_message_id": "1a1a873377151814",
       "lot": "2026-11-04-lot2",
       "discovered_at": "2026-11-04",
-      "email_status": "envoyé",
-      "next_action": "Surveiller réponse / rebond dans la boîte de réception",
+      "email_status": "opposition",
+      "next_action": "Opposition enregistrée : aucun contact futur",
       "email_dns_status": "mx_ok",
       "email_dns_checked_at": "2026-11-04T22:11:15+00:00",
-      "email_dns_detail": "5 MX publiés"
+      "email_dns_detail": "5 MX publiés",
+      "opposed": true,
+      "reply_received": true,
+      "reply_intent": "opposition",
+      "last_reply_at": "2026-11-06T13:00:22+00:00",
+      "contact_name_source": "Gmail — message 1a1ada77bcf46db9 du 05/11/2026",
+      "exchange_history": [
+        {
+          "at": "2026-11-06T13:00:22+00:00",
+          "direction": "in",
+          "intent": "opposition",
+          "subject": "Re: Centre Équestre de la Renarde : automatiser les inscriptions ?",
+          "message_id": "1a1ada77bcf46db9",
+          "thread_id": "1a1a8095e0a13794",
+          "from": "celarenarde@gmail.com",
+          "excerpt": "Ne pas me relancer — Smets Nicolas",
+          "matched_by": "email_exact",
+          "decision": "aucune réponse envoyée (opposition + aucun intérêt commercial)"
+        },
+        {
+          "at": "2026-11-06T13:01:55+00:00",
+          "direction": "in",
+          "intent": "opposition",
+          "severity": "",
+          "subject": "Re: Centre Équestre de la Renarde : automatiser les inscriptions ?",
+          "message_id": "1a1ada77bcf46db9",
+          "thread_id": "1a1a8095e0a13794",
+          "from": "celarenarde@gmail.com",
+          "recipient": "celarenarde@gmail.com",
+          "matched_by": "email_exact",
+          "excerpt": "Ne pas me relancer\n\nSmets Nicolas\nCentre Equestre de la Renarde\nChemin des Pourraques 83170 Brignoles\ncelarenarde@gmail.com\n0620928751"
+        }
+      ],
+      "last_inbound_at": "2026-11-06T13:01:55+00:00"
     },
     {
       "company": "Domaine Roche des Bancs",
@@ -2242,7 +2275,7 @@
       "custom_hook": "Votre site indique « RESERVATION UNIQUEMENT PAR TELEPHONE » et aucune réservation par email/voicemail, alors que vous proposez des formules groupe, salles et séminaires.",
       "custom_subject": "Le Canotier : réservation en ligne pour vos événements ?",
       "notes": "Lot 4. Opportunité probable forte : réservation téléphonique imposée, événements/groupes avec devis manuel. Responsable public : Alexandre Gaillot Drevon. Région Auvergne-Rhône-Alpes (69), secteur restaurant événementiel.",
-      "status": "brouillon_créé",
+      "status": "contacté",
       "id": "restaurant-le-canotier",
       "created_at": "2026-11-04T21:39:56+00:00",
       "updated_at": "2026-11-04T21:39:56+00:00",
@@ -2259,11 +2292,15 @@
       "gmail_draft_id": "r-441106915474065912",
       "lot": "2026-11-04-lot4",
       "discovered_at": "2026-11-04",
-      "email_status": "en_attente_validation",
-      "next_action": "Valider le brouillon puis lever les blocages Gmail",
+      "email_status": "envoyé",
+      "next_action": "Surveiller réponse, accusé ou rebond dans la boîte de réception",
       "email_dns_status": "mx_ok",
       "email_dns_checked_at": "2026-11-04T22:11:17+00:00",
-      "email_dns_detail": "4 MX publiés"
+      "email_dns_detail": "4 MX publiés",
+      "sent_at": "2026-11-05T14:33:59+01:00",
+      "send_source": "gmail_manual_observed",
+      "gmail_message_id": "1a1abea92f5deeb5",
+      "gmail_thread_id": "1a1a88213eecaf88"
     },
     {
       "company": "Boucherie Florian",
@@ -2309,7 +2346,7 @@
       "custom_hook": "Votre site invite à « Commandez par téléphone ! » pour les plats traiteurs et plateaux, avec tarifs PDF, sans parcours de commande en ligne visible.",
       "custom_subject": "Boucherie Florian : commandes traiteur en ligne ?",
       "notes": "Lot 4. Opportunité probable forte : commandes traiteur/plateaux par téléphone, tarifs PDF. Responsable public : Florian Marty. Région Occitanie (82), nouveau secteur boucherie/traiteur.",
-      "status": "brouillon_créé",
+      "status": "contacté",
       "id": "boucherie-florian",
       "created_at": "2026-11-04T21:39:56+00:00",
       "updated_at": "2026-11-04T21:39:56+00:00",
@@ -2326,11 +2363,15 @@
       "gmail_draft_id": "r-2227193041875889795",
       "lot": "2026-11-04-lot4",
       "discovered_at": "2026-11-04",
-      "email_status": "en_attente_validation",
-      "next_action": "Valider le brouillon puis lever les blocages Gmail",
+      "email_status": "envoyé",
+      "next_action": "Surveiller réponse, accusé ou rebond dans la boîte de réception",
       "email_dns_status": "mx_ok",
       "email_dns_checked_at": "2026-11-04T22:11:18+00:00",
-      "email_dns_detail": "3 MX publiés"
+      "email_dns_detail": "3 MX publiés",
+      "sent_at": "2026-11-05T14:34:05+01:00",
+      "send_source": "gmail_manual_observed",
+      "gmail_message_id": "1a1abeaaa946dee4",
+      "gmail_thread_id": "1a1a8821c8ef90ce"
     },
     {
       "company": "La Fromagerie Les 2 Alpes",
@@ -2376,7 +2417,7 @@
       "custom_hook": "Votre boutique en ligne affiche « Il n'est pas possible de commander via ce site » et renvoie les commandes par téléphone, alors que le catalogue est déjà présent.",
       "custom_subject": "Fromagerie Les 2 Alpes : activer la commande en ligne ?",
       "notes": "Lot 4. Opportunité probable forte : site Shopify avec catalogue mais commande désactivée. Responsable public : Sylvain Péguy. Région Auvergne-Rhône-Alpes (38), secteur fromagerie.",
-      "status": "brouillon_créé",
+      "status": "contacté",
       "id": "la-fromagerie-les-2-alpes",
       "created_at": "2026-11-04T21:39:56+00:00",
       "updated_at": "2026-11-04T21:39:56+00:00",
@@ -2393,11 +2434,15 @@
       "gmail_draft_id": "r-3261002470483516264",
       "lot": "2026-11-04-lot4",
       "discovered_at": "2026-11-04",
-      "email_status": "en_attente_validation",
-      "next_action": "Valider le brouillon puis lever les blocages Gmail",
+      "email_status": "envoyé",
+      "next_action": "Surveiller réponse, accusé ou rebond dans la boîte de réception",
       "email_dns_status": "mx_ok",
       "email_dns_checked_at": "2026-11-04T22:11:15+00:00",
-      "email_dns_detail": "5 MX publiés"
+      "email_dns_detail": "5 MX publiés",
+      "sent_at": "2026-11-05T14:34:08+01:00",
+      "send_source": "gmail_manual_observed",
+      "gmail_message_id": "1a1abeab49495c8d",
+      "gmail_thread_id": "1a1a88228557fb2b"
     },
     {
       "company": "Fromagerie et Baratte",
@@ -2443,7 +2488,7 @@
       "custom_hook": "Votre site précise que « Les commandes finales de plateaux se font uniquement par téléphone ou en boutique », malgré une pré-commande de plateau.",
       "custom_subject": "Fromagerie et Baratte : plateaux commandables en ligne ?",
       "notes": "Lot 4. Opportunité probable : pré-commande existante mais finalisation téléphonique/boutique. Responsable public : Brigitte. Région Auvergne-Rhône-Alpes (69), secteur fromagerie.",
-      "status": "brouillon_créé",
+      "status": "contacté",
       "id": "fromagerie-et-baratte",
       "created_at": "2026-11-04T21:39:56+00:00",
       "updated_at": "2026-11-04T21:39:56+00:00",
@@ -2459,11 +2504,15 @@
       "gmail_draft_id": "r2349920759718953430",
       "lot": "2026-11-04-lot4",
       "discovered_at": "2026-11-04",
-      "email_status": "en_attente_validation",
-      "next_action": "Valider le brouillon puis lever les blocages Gmail",
+      "email_status": "envoyé",
+      "next_action": "Surveiller réponse, accusé ou rebond dans la boîte de réception",
       "email_dns_status": "mx_ok",
       "email_dns_checked_at": "2026-11-04T22:11:18+00:00",
-      "email_dns_detail": "2 MX publiés"
+      "email_dns_detail": "2 MX publiés",
+      "sent_at": "2026-11-05T14:34:11+01:00",
+      "send_source": "gmail_manual_observed",
+      "gmail_message_id": "1a1abeac1d8f4959",
+      "gmail_thread_id": "1a1a8823259b1c20"
     },
     {
       "company": "La Chocolatisserie",
@@ -2509,7 +2558,7 @@
       "custom_hook": "Votre page contact demande de « privilégier le contact par téléphone pour passer vos commandes », alors que toutes les créations sont disponibles à la commande.",
       "custom_subject": "La Chocolatisserie : commandes sur-mesure en ligne ?",
       "notes": "Lot 4. Opportunité probable : commandes privilégiées par téléphone, créations sur-mesure. Région Grand Est (68), nouveau secteur pâtisserie/chocolaterie.",
-      "status": "brouillon_créé",
+      "status": "contacté",
       "id": "la-chocolatisserie",
       "created_at": "2026-11-04T21:39:56+00:00",
       "updated_at": "2026-11-04T21:39:56+00:00",
@@ -2525,11 +2574,15 @@
       "gmail_draft_id": "r-8188127379332518233",
       "lot": "2026-11-04-lot4",
       "discovered_at": "2026-11-04",
-      "email_status": "en_attente_validation",
-      "next_action": "Valider le brouillon puis lever les blocages Gmail",
+      "email_status": "envoyé",
+      "next_action": "Surveiller réponse, accusé ou rebond dans la boîte de réception",
       "email_dns_status": "mx_ok",
       "email_dns_checked_at": "2026-11-04T22:11:18+00:00",
-      "email_dns_detail": "2 MX publiés"
+      "email_dns_detail": "2 MX publiés",
+      "sent_at": "2026-11-05T14:34:16+01:00",
+      "send_source": "gmail_manual_observed",
+      "gmail_message_id": "1a1abead77825981",
+      "gmail_thread_id": "1a1a8823ee55033a"
     },
     {
       "company": "Matproloc",
@@ -2575,7 +2628,7 @@
       "custom_hook": "Votre site propose un catalogue de machines et un formulaire contact, mais les devis/réservations passent encore par téléphone ou email.",
       "custom_subject": "Matproloc : réservation de matériel en ligne ?",
       "notes": "Lot 4. Opportunité probable : catalogue en ligne mais devis/réservations manuels. Responsables publics : Vincent et Arnaud Lefranc. Région Hauts-de-France (59), nouveau secteur location matériel BTP.",
-      "status": "brouillon_créé",
+      "status": "contacté",
       "id": "matproloc",
       "created_at": "2026-11-04T21:39:56+00:00",
       "updated_at": "2026-11-04T21:39:56+00:00",
@@ -2591,11 +2644,15 @@
       "gmail_draft_id": "r8133168118816518162",
       "lot": "2026-11-04-lot4",
       "discovered_at": "2026-11-04",
-      "email_status": "en_attente_validation",
-      "next_action": "Valider le brouillon puis lever les blocages Gmail",
+      "email_status": "envoyé",
+      "next_action": "Surveiller réponse, accusé ou rebond dans la boîte de réception",
       "email_dns_status": "mx_ok",
       "email_dns_checked_at": "2026-11-04T22:11:18+00:00",
-      "email_dns_detail": "5 MX publiés"
+      "email_dns_detail": "5 MX publiés",
+      "sent_at": "2026-11-05T14:34:14+01:00",
+      "send_source": "gmail_manual_observed",
+      "gmail_message_id": "1a1abeacf5ccb9d8",
+      "gmail_thread_id": "1a1a8824882f6fd8"
     },
     {
       "company": "Allo'cation",
@@ -2641,7 +2698,7 @@
       "custom_hook": "Votre formulaire de devis livraison collecte déjà dates, liste détaillée et accès, mais le traitement des disponibilités et devis reste manuel.",
       "custom_subject": "Allo'cation : automatiser les devis location ?",
       "notes": "Lot 4. Opportunité probable : formulaire devis structuré mais traitement manuel. Région Île-de-France (94), nouveau secteur location événementiel.",
-      "status": "brouillon_créé",
+      "status": "contacté",
       "id": "allo-cation",
       "created_at": "2026-11-04T21:39:56+00:00",
       "updated_at": "2026-11-04T21:39:56+00:00",
@@ -2657,11 +2714,15 @@
       "gmail_draft_id": "r6132347275537598063",
       "lot": "2026-11-04-lot4",
       "discovered_at": "2026-11-04",
-      "email_status": "en_attente_validation",
-      "next_action": "Valider le brouillon puis lever les blocages Gmail",
+      "email_status": "envoyé",
+      "next_action": "Surveiller réponse, accusé ou rebond dans la boîte de réception",
       "email_dns_status": "mx_ok",
       "email_dns_checked_at": "2026-11-04T22:11:18+00:00",
-      "email_dns_detail": "2 MX publiés"
+      "email_dns_detail": "2 MX publiés",
+      "sent_at": "2026-11-05T14:34:18+01:00",
+      "send_source": "gmail_manual_observed",
+      "gmail_message_id": "1a1abeadfb545730",
+      "gmail_thread_id": "1a1a88256f90d24e"
     },
     {
       "company": "Restaurant Goudale Orchies",
@@ -2707,7 +2768,7 @@
       "custom_hook": "La page du restaurant d'Orchies indique « Réservation Uniquement par téléphone », alors que d'autres sites du groupe acceptent déjà la réservation en ligne.",
       "custom_subject": "Goudale Orchies : réservation en ligne ?",
       "notes": "Lot 4. Opportunité probable : site d'Orchies en réservation téléphonique uniquement, autres sites du groupe déjà en ligne. Email publié sur source officielle (extrait indexé), non vérifié par fetch direct. Région Hauts-de-France (59).",
-      "status": "brouillon_créé",
+      "status": "contacté",
       "id": "restaurant-goudale-orchies",
       "created_at": "2026-11-04T21:39:56+00:00",
       "updated_at": "2026-11-04T21:39:56+00:00",
@@ -2723,11 +2784,15 @@
       "gmail_draft_id": "r4069016850255698710",
       "lot": "2026-11-04-lot4",
       "discovered_at": "2026-11-04",
-      "email_status": "en_attente_validation",
-      "next_action": "Valider le brouillon puis lever les blocages Gmail",
+      "email_status": "envoyé",
+      "next_action": "Surveiller réponse, accusé ou rebond dans la boîte de réception",
       "email_dns_status": "mx_ok",
       "email_dns_checked_at": "2026-11-04T22:11:15+00:00",
-      "email_dns_detail": "5 MX publiés"
+      "email_dns_detail": "5 MX publiés",
+      "sent_at": "2026-11-05T14:34:20+01:00",
+      "send_source": "gmail_manual_observed",
+      "gmail_message_id": "1a1abeae419d880a",
+      "gmail_thread_id": "1a1a88262fb1f478"
     },
     {
       "company": "ATOMER",
@@ -2783,8 +2848,8 @@
       "notes": "Lot 5. Besoin réel documenté par les CGV officielles : chaîne d'inscription entièrement documentaire (bulletin, convention-convocation, émargement, attestation). Site en tableaux et images GIF, copyright 1997-2024, catalogues et programmes uniquement en PDF. Responsable public : Laurent CANCOUËT, Directeur Général (page « Le mot du Directeur »). Adresse officielle : 13 rue de la Coque, 95410 Groslay. Seconde adresse publiée : atomer_technopole@yahoo.fr (non utilisée).",
       "lot": "2026-11-04-lot5",
       "discovered_at": "2026-11-04",
-      "email_status": "brouillon_créé",
-      "next_action": "Valider le brouillon dans Gmail ; envoi bloqué (enabled=false, DKIM absent, gmail.com)",
+      "email_status": "envoyé",
+      "next_action": "Surveiller réponse, accusé ou rebond dans la boîte de réception",
       "scores": {
         "site_web": {
           "axis": "site_web",
@@ -2821,7 +2886,7 @@
       "email_dns_status": "mx_ok",
       "phone_verification": "verified",
       "contact_name_source": "http://www.atomer.fr/3/3a.html",
-      "status": "brouillon_créé",
+      "status": "contacté",
       "id": "atomer",
       "created_at": "2026-11-04T22:08:05+00:00",
       "updated_at": "2026-11-04T22:08:42+00:00",
@@ -2835,11 +2900,13 @@
         "queue_id": "2026-11-04-lot5-001"
       },
       "gmail_draft_id": "r-3672069521747812245",
-      "gmail_message_id": "1a1a89d0cf0cdd0e",
+      "gmail_message_id": "1a1abeaecbcef640",
       "gmail_thread_id": "1a1a89d0cf0cdd0e",
       "gmail_label": "Prospection/2026-11-04-lot5",
       "email_dns_checked_at": "2026-11-04T22:11:18+00:00",
-      "email_dns_detail": "1 MX publiés"
+      "email_dns_detail": "1 MX publiés",
+      "sent_at": "2026-11-05T14:34:22+01:00",
+      "send_source": "gmail_manual_observed"
     },
     {
       "company": "NETTOYAGE INDUSTRIEL",
@@ -2895,8 +2962,8 @@
       "notes": "Lot 5. Opportunité probable : entreprise B2B depuis 1995, prestations récurrentes (agro-alimentaire, plastique, mécanique, bureaux, hôtels), donc devis et plannings répétitifs. Site construit avec l'éditeur IONOS MyWebsite, bascule manuelle « Affichage Web / Affichage Mobile » et liens d'administration encore visibles en pied de page. Responsable public : Michael Rigaud.",
       "lot": "2026-11-04-lot5",
       "discovered_at": "2026-11-04",
-      "email_status": "brouillon_créé",
-      "next_action": "Valider le brouillon dans Gmail ; envoi bloqué (enabled=false, DKIM absent, gmail.com)",
+      "email_status": "envoyé",
+      "next_action": "Surveiller réponse, accusé ou rebond dans la boîte de réception",
       "scores": {
         "site_web": {
           "axis": "site_web",
@@ -2933,7 +3000,7 @@
       "email_dns_status": "mx_ok",
       "phone_verification": "verified",
       "contact_name_source": "https://www.nettoyage-industriel39.com/contact/",
-      "status": "brouillon_créé",
+      "status": "contacté",
       "id": "nettoyage-industriel",
       "created_at": "2026-11-04T22:08:05+00:00",
       "updated_at": "2026-11-04T22:08:42+00:00",
@@ -2947,11 +3014,13 @@
         "queue_id": "2026-11-04-lot5-002"
       },
       "gmail_draft_id": "r-2030763522328067709",
-      "gmail_message_id": "1a1a89d18d7866e1",
+      "gmail_message_id": "1a1abeaf51545a13",
       "gmail_thread_id": "1a1a89d18d7866e1",
       "gmail_label": "Prospection/2026-11-04-lot5",
       "email_dns_checked_at": "2026-11-04T22:11:18+00:00",
-      "email_dns_detail": "2 MX publiés"
+      "email_dns_detail": "2 MX publiés",
+      "sent_at": "2026-11-05T14:34:24+01:00",
+      "send_source": "gmail_manual_observed"
     },
     {
       "company": "Vignerons et Caviste",
@@ -3000,8 +3069,8 @@
       "notes": "Lot 5. Besoin réel : le parcours de réservation est cassé — la boutique en ligne existe (WooCommerce) mais l'atelier impose une confirmation manuelle préalable. Deux prénoms publiés : Stéphane (accueil) et Raphaël (préparation des cartons) ; aucun nom de famille publié, donc salutation neutre.",
       "lot": "2026-11-04-lot5",
       "discovered_at": "2026-11-04",
-      "email_status": "brouillon_créé",
-      "next_action": "Valider le brouillon dans Gmail ; envoi bloqué (enabled=false, DKIM absent, gmail.com)",
+      "email_status": "envoyé",
+      "next_action": "Surveiller réponse, accusé ou rebond dans la boîte de réception",
       "scores": {
         "site_web": {
           "axis": "site_web",
@@ -3038,7 +3107,7 @@
       "email_dns_status": "mx_ok",
       "phone_verification": "verified",
       "contact_name_source": "https://vignerons-et-caviste.fr/",
-      "status": "brouillon_créé",
+      "status": "contacté",
       "id": "vignerons-et-caviste",
       "created_at": "2026-11-04T22:08:05+00:00",
       "updated_at": "2026-11-04T22:08:42+00:00",
@@ -3052,11 +3121,13 @@
         "queue_id": "2026-11-04-lot5-003"
       },
       "gmail_draft_id": "r-7012393960743457622",
-      "gmail_message_id": "1a1a89d241a60252",
+      "gmail_message_id": "1a1abeaff2f7a627",
       "gmail_thread_id": "1a1a89d241a60252",
       "gmail_label": "Prospection/2026-11-04-lot5",
       "email_dns_checked_at": "2026-11-04T22:11:15+00:00",
-      "email_dns_detail": "5 MX publiés"
+      "email_dns_detail": "5 MX publiés",
+      "sent_at": "2026-11-05T14:34:27+01:00",
+      "send_source": "gmail_manual_observed"
     },
     {
       "company": "La Caviste",
@@ -3105,8 +3176,8 @@
       "notes": "Lot 5. Opportunité probable : caviste indépendant distingué Maître Caviste 2022, site vitrine Jimdo sans aucune vente ni réservation en ligne ; les demandes spéciales sont traitées par e-mail. Le domaine de l'adresse email (lacaviste.fr) diffère du domaine du site (lacavistelh.fr) : les deux ont été contrôlés, MX valides. Responsable public : Frédérique Lecaudé.",
       "lot": "2026-11-04-lot5",
       "discovered_at": "2026-11-04",
-      "email_status": "brouillon_créé",
-      "next_action": "Valider le brouillon dans Gmail ; envoi bloqué (enabled=false, DKIM absent, gmail.com)",
+      "email_status": "envoyé",
+      "next_action": "Surveiller réponse, accusé ou rebond dans la boîte de réception",
       "scores": {
         "site_web": {
           "axis": "site_web",
@@ -3143,7 +3214,7 @@
       "email_dns_status": "mx_ok",
       "phone_verification": "verified",
       "contact_name_source": "https://www.lacavistelh.fr/",
-      "status": "brouillon_créé",
+      "status": "contacté",
       "id": "la-caviste",
       "created_at": "2026-11-04T22:08:05+00:00",
       "updated_at": "2026-11-04T22:08:42+00:00",
@@ -3157,11 +3228,13 @@
         "queue_id": "2026-11-04-lot5-004"
       },
       "gmail_draft_id": "r-3517500887937529637",
-      "gmail_message_id": "1a1a89d2e929da56",
+      "gmail_message_id": "1a1abeb0bd7e3299",
       "gmail_thread_id": "1a1a89d2e929da56",
       "gmail_label": "Prospection/2026-11-04-lot5",
       "email_dns_checked_at": "2026-11-04T22:11:18+00:00",
-      "email_dns_detail": "1 MX publiés"
+      "email_dns_detail": "1 MX publiés",
+      "sent_at": "2026-11-05T14:34:30+01:00",
+      "send_source": "gmail_manual_observed"
     },
     {
       "company": "ALPHA MECANIQUE",
@@ -3209,8 +3282,8 @@
       "notes": "Lot 5. Besoin réel : le processus de devis est décrit publiquement, étape par étape, et repose entièrement sur des échanges d'emails. Aucun responsable nommé n'est publié sur le site : salutation neutre. Le site est correct : le besoin n'est pas une refonte mais l'automatisation du flux entrant.",
       "lot": "2026-11-04-lot5",
       "discovered_at": "2026-11-04",
-      "email_status": "brouillon_créé",
-      "next_action": "Valider le brouillon dans Gmail ; envoi bloqué (enabled=false, DKIM absent, gmail.com)",
+      "email_status": "envoyé",
+      "next_action": "Surveiller réponse, accusé ou rebond dans la boîte de réception",
       "scores": {
         "site_web": {
           "axis": "site_web",
@@ -3247,7 +3320,7 @@
       "email_dns_status": "mx_ok",
       "phone_verification": "verified",
       "contact_name_source": "",
-      "status": "brouillon_créé",
+      "status": "contacté",
       "id": "alpha-mecanique",
       "created_at": "2026-11-04T22:08:05+00:00",
       "updated_at": "2026-11-04T22:08:42+00:00",
@@ -3261,11 +3334,13 @@
         "queue_id": "2026-11-04-lot5-005"
       },
       "gmail_draft_id": "r9082772945695603666",
-      "gmail_message_id": "1a1a89d45029f782",
+      "gmail_message_id": "1a1abeb156455137",
       "gmail_thread_id": "1a1a89d45029f782",
       "gmail_label": "Prospection/2026-11-04-lot5",
       "email_dns_checked_at": "2026-11-04T22:11:18+00:00",
-      "email_dns_detail": "2 MX publiés"
+      "email_dns_detail": "2 MX publiés",
+      "sent_at": "2026-11-05T14:34:32+01:00",
+      "send_source": "gmail_manual_observed"
     },
     {
       "company": "SARL Ambulances Sainte-Marie",
@@ -3314,8 +3389,8 @@
       "notes": "Lot 5. Opportunité probable : 20 salariés et 12 véhicules, donc un volume administratif régulier. Aucune donnée de santé n'est collectée ni traitée : seules des informations publiques de l'entreprise sont utilisées. Responsable public : Christophe Duprat, fondateur.",
       "lot": "2026-11-04-lot5",
       "discovered_at": "2026-11-04",
-      "email_status": "brouillon_créé",
-      "next_action": "Valider le brouillon dans Gmail ; envoi bloqué (enabled=false, DKIM absent, gmail.com)",
+      "email_status": "envoyé",
+      "next_action": "Surveiller réponse, accusé ou rebond dans la boîte de réception",
       "scores": {
         "site_web": {
           "axis": "site_web",
@@ -3351,7 +3426,7 @@
       "email_dns_status": "mx_ok",
       "phone_verification": "verified",
       "contact_name_source": "https://ambulances-sainte-marie.fr/",
-      "status": "brouillon_créé",
+      "status": "contacté",
       "id": "sarl-ambulances-sainte-marie",
       "created_at": "2026-11-04T22:08:05+00:00",
       "updated_at": "2026-11-04T22:08:42+00:00",
@@ -3365,11 +3440,13 @@
         "queue_id": "2026-11-04-lot5-006"
       },
       "gmail_draft_id": "r-7886629766998266627",
-      "gmail_message_id": "1a1a89d51416064a",
+      "gmail_message_id": "1a1abeb1ea9a2f13",
       "gmail_thread_id": "1a1a89d51416064a",
       "gmail_label": "Prospection/2026-11-04-lot5",
       "email_dns_checked_at": "2026-11-04T22:11:15+00:00",
-      "email_dns_detail": "5 MX publiés"
+      "email_dns_detail": "5 MX publiés",
+      "sent_at": "2026-11-05T14:34:35+01:00",
+      "send_source": "gmail_manual_observed"
     },
     {
       "company": "Blanchisserie des 3 Régions (B3R)",
@@ -3418,8 +3495,8 @@
       "notes": "Lot 5. Besoin réel et daté : le site entier renvoie la page de suspension OVH (contrôlé le 2026-11-04, racine et page intérieure). Coordonnées publiées sur le contenu indexé du site officiel mais non revérifiables sur une page vivante : classées public_unverified. Le domaine publie bien des MX (Microsoft 365) : la messagerie est indépendante de l'hébergement web suspendu, l'adresse reste routable. Aucune donnée supprimée.",
       "lot": "2026-11-04-lot5",
       "discovered_at": "2026-11-04",
-      "email_status": "brouillon_créé",
-      "next_action": "Valider le brouillon dans Gmail ; envoi bloqué (enabled=false, DKIM absent, gmail.com)",
+      "email_status": "auto_reply",
+      "next_action": "Accusé automatique : nouvelle adresse annoncée b3r@gallia28.fr — vérifier et requalifier avant toute décision (aucun contact automatique)",
       "scores": {
         "site_web": {
           "axis": "site_web",
@@ -3456,7 +3533,7 @@
       "email_dns_status": "mx_ok",
       "phone_verification": "public_unverified",
       "contact_name_source": "",
-      "status": "brouillon_créé",
+      "status": "auto_reply",
       "id": "blanchisserie-des-3-r-gions-b3r",
       "created_at": "2026-11-04T22:08:05+00:00",
       "updated_at": "2026-11-04T22:08:42+00:00",
@@ -3470,11 +3547,750 @@
         "queue_id": "2026-11-04-lot5-007"
       },
       "gmail_draft_id": "r1203180346807190290",
-      "gmail_message_id": "1a1a89d5f37cca29",
+      "gmail_message_id": "1a1abeb27153577d",
       "gmail_thread_id": "1a1a89d5f37cca29",
       "gmail_label": "Prospection/2026-11-04-lot5",
       "email_dns_checked_at": "2026-11-04T22:11:18+00:00",
-      "email_dns_detail": "1 MX publiés"
+      "email_dns_detail": "1 MX publiés",
+      "sent_at": "2026-11-05T14:34:37+01:00",
+      "send_source": "gmail_manual_observed",
+      "last_inbound_at": "2026-11-06T13:01:55+00:00",
+      "reply_intent": "auto_reply",
+      "reply_received": false,
+      "delivery_confirmed": true,
+      "redirect_address": "b3r@gallia28.fr",
+      "exchange_history": [
+        {
+          "at": "2026-11-06T13:01:55+00:00",
+          "direction": "in",
+          "intent": "auto_reply",
+          "severity": "",
+          "subject": "Réponse automatique : B3R : votre site affiche une page d'hébergement suspendu",
+          "message_id": "1a1abeb70f5e925c",
+          "thread_id": "1a1abeb70f5e925c",
+          "from": "contact@blanchisseriedes3regions.fr",
+          "recipient": "contact@blanchisseriedes3regions.fr",
+          "matched_by": "email_exact",
+          "excerpt": "Cette adresse va bientot disparaitre, la Blanchisserie des 3 régions a été rachetée par Gallia .Pour toute demande ou prise de contact, merci désormais d'utiliser l'adresse suivante:\nb3r@gallia28.fr\n\nBien cordialement,\n\nStéphanie"
+        }
+      ]
+    },
+    {
+      "company": "Celtuce Traiteur",
+      "website": "https://www.celtuce-traiteur.com/",
+      "domain": "celtuce-traiteur.com",
+      "sector": "Traiteur pour entreprises — plateaux-repas et buffets",
+      "city": "Rezé",
+      "department": "44",
+      "contact_name": "",
+      "contact_role": "Yoann Marty, chef traiteur",
+      "email": "contact@celtuce-traiteur.com",
+      "phone": "07 85 70 73 71",
+      "source": "",
+      "evidence": [
+        {
+          "kind": "processus_manuel",
+          "source_url": "https://www.celtuce-traiteur.com/contact/",
+          "quote": "Pour toute demande de devis, veuillez nous contacter par e-mail à l'adresse suivante : contact@celtuce-traiteur.com en nous précisant : Votre entreprise, Votre numéro de téléphone, La prestation souhaitée : livraison de plateaux-repas ou mise en place d'un buffet, Le nombre de personnes, Les informations nécessaires pour la facturation et la livraison.",
+          "observed_at": "2026-11-06",
+          "detail": "Le devis buffet passe par un e-mail libre ; les cinq champs nécessaires sont listés à la main côté client, donc les demandes incomplètes doivent être reprises."
+        },
+        {
+          "kind": "parcours_incomplet",
+          "source_url": "https://www.celtuce-traiteur.com/contact/",
+          "quote": "mailto:contact@celtuce-traiteur.com?subject=Demande%20de%20devis&body=Bonjour, je souhaite un devis pour l'entreprise {Nom de votre entreprise} ...",
+          "observed_at": "2026-11-06",
+          "detail": "Le site propose un modèle d'e-mail à trous plutôt qu'un formulaire : la saisie reste non structurée et non exploitable automatiquement."
+        }
+      ],
+      "publication_date": "",
+      "need": "automatisation",
+      "needs": [
+        "automatisation"
+      ],
+      "recommended_service": "un formulaire de devis buffet qui collecte les cinq informations déjà exigées et pré-remplit le devis avant validation humaine.",
+      "email_verification": "verified",
+      "score": 80,
+      "tier": "haute",
+      "status_crm": "qualified",
+      "justification": "processus manuel documenté (+50) : https://www.celtuce-traiteur.com/contact/ ; parcours client incomplet (+30) : https://www.celtuce-traiteur.com/contact/",
+      "process_hint": "demandes de devis buffet par e-mail, avec liste d'informations à fournir et modèle de message à compléter",
+      "demo_detail": "démo du formulaire de demande buffet qui produit une demande complète et un devis pré-rempli",
+      "custom_hook": "Votre page devis demande cinq informations précises — entreprise, téléphone, prestation, nombre de personnes, facturation et livraison — et fournit même un modèle d'e-mail à trous pour que le client les rédige lui-même.",
+      "custom_subject": "Celtuce : vos devis buffets recopiés à la main ?",
+      "notes": "Lot 6. Adresse officielle : 12 rue Maurice Utrillo, 44400 Rezé (fiches locales concordantes). Le site dispose déjà d'une boutique WooCommerce/Stripe pour les plateaux-repas : le besoin n'est PAS une création de site, mais la reprise du même niveau d'automatisation sur les devis buffets, restés entièrement par e-mail. Le lien mailto pré-rempli de la page contact est la preuve la plus directe : l'entreprise a déjà formalisé les champs à collecter.",
+      "lot": "2026-11-06-lot6",
+      "discovered_at": "2026-11-06",
+      "email_status": "brouillon_créé",
+      "next_action": "Brouillon en attente de validation utilisateur — aucun envoi automatique",
+      "scores": {
+        "site_web": {
+          "axis": "site_web",
+          "score": 5,
+          "level": "faible",
+          "reasons": [
+            "un site est déjà en ligne : pas de création à proprement parler",
+            "aucune preuve directe sur cet axe : score volontairement bas"
+          ]
+        },
+        "refonte": {
+          "axis": "refonte",
+          "score": 45,
+          "level": "moyen",
+          "reasons": [
+            "site existant à moderniser",
+            "+40 parcours_incomplet : « mailto:contact@celtuce-traiteur.com?subject=Demande%20de%20devis&body=Bonjour, je souhaite un devis pour l'… » (https://www.celtuce-traiteur.com/contact/)"
+          ]
+        },
+        "ia_automatisation": {
+          "axis": "ia_automatisation",
+          "score": 90,
+          "level": "fort",
+          "reasons": [
+            "processus concret observé : demandes de devis buffet par e-mail, avec liste d'informations à fournir et modèle de message à compléter",
+            "+60 processus_manuel : « Pour toute demande de devis, veuillez nous contacter par e-mail à l'adresse suivante : contact@celtuce-trai… » (https://www.celtuce-traiteur.com/contact/)",
+            "+20 parcours_incomplet : « mailto:contact@celtuce-traiteur.com?subject=Demande%20de%20devis&body=Bonjour, je souhaite un devis pour l'… » (https://www.celtuce-traiteur.com/contact/)"
+          ]
+        },
+        "priority": "haute",
+        "best_axis": "ia_automatisation"
+      },
+      "commercial_priority": "haute",
+      "email_dns_status": "mx_ok",
+      "phone_verification": "verified",
+      "contact_name_source": "https://www.celtuce-traiteur.com/livraison-repas-entreprise/chapelle-sur-erdre/",
+      "status": "brouillon_créé",
+      "id": "celtuce-traiteur",
+      "created_at": "2026-11-06T13:05:21+00:00",
+      "updated_at": "2026-11-06T13:06:06+00:00",
+      "email_dns_checked_at": "2026-11-06T13:05:26+00:00",
+      "email_dns_detail": "2 MX publiés",
+      "campaign": "2026-11-06-lot6",
+      "variant": "synatrap_ia",
+      "reference_id": "synatrap",
+      "message_version": "v4",
+      "proposed_email": {
+        "subject": "Celtuce : vos devis buffets recopiés à la main ?",
+        "body": "Bonjour,\n\nVotre page devis demande cinq informations précises — entreprise, téléphone, prestation, nombre de personnes, facturation et livraison — et fournit même un modèle d'e-mail à trous pour que le client les rédige lui-même.\n\nJe peux vous proposer un formulaire de devis buffet qui collecte les cinq informations déjà exigées et pré-remplit le devis avant validation humaine.\n\nCôté agents IA, voici SYNATRAP, la plateforme que je développe avec mon groupe : https://synatrap.com\n\nJe peux vous montrer gratuitement une démonstration concrète de la solution envisagée, sans engagement, sur un cas réel de votre activité.\n\nCela vous dirait de la découvrir ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+        "queue_id": "2026-11-06-lot6-001"
+      },
+      "gmail_draft_id": "r4668255302629793023",
+      "gmail_message_id": "1a1b0fae4630cfd9",
+      "gmail_thread_id": "1a1b0fae4630cfd9",
+      "draft_created_at": "2026-11-06T13:10:42+00:00"
+    },
+    {
+      "company": "Mamie Cuisine Traiteur",
+      "website": "https://www.mamiecuisinetraiteur.fr/",
+      "domain": "mamiecuisinetraiteur.fr",
+      "sector": "Traiteur — livraison de plateaux-repas, buffets et petits-déjeuners en entreprise",
+      "city": "Saint-Quentin-Fallavier",
+      "department": "38",
+      "contact_name": "",
+      "contact_role": "",
+      "email": "contact@mamiecuisinetraiteur.fr",
+      "phone": "04 74 95 54 26",
+      "source": "",
+      "evidence": [
+        {
+          "kind": "processus_manuel",
+          "source_url": "https://www.mamiecuisinetraiteur.fr/index.php",
+          "quote": "Commandez vos repas en ligne ou par mail impérativement avant midi la veille du jour voulu. Pour les demandes de buffets ou petit-déjeuners, uniquement par mail au minimum 72h à l'avance.",
+          "observed_at": "2026-11-06",
+          "detail": "Deux régimes de commande coexistent : les plateaux-repas en ligne, les buffets et petits-déjeuners traités à la main par e-mail avec contrôle manuel du délai."
+        },
+        {
+          "kind": "parcours_incomplet",
+          "source_url": "https://www.mamiecuisinetraiteur.fr/index.php",
+          "quote": "Sachez qu'un forfait de livraison est toujours appliqué et calculé selon votre zone.",
+          "observed_at": "2026-11-06",
+          "detail": "Le calcul du forfait de livraison par zone n'est pas exposé au client : il doit être communiqué après échange."
+        }
+      ],
+      "publication_date": "",
+      "need": "automatisation",
+      "needs": [
+        "automatisation",
+        "refonte"
+      ],
+      "recommended_service": "un module de demande de buffet et petit-déjeuner qui applique vos règles de délai et de zone de livraison dès la saisie.",
+      "email_verification": "verified",
+      "score": 80,
+      "tier": "haute",
+      "status_crm": "qualified",
+      "justification": "processus manuel documenté (+50) : https://www.mamiecuisinetraiteur.fr/index.php ; parcours client incomplet (+30) : https://www.mamiecuisinetraiteur.fr/index.php",
+      "process_hint": "commandes de buffets et petits-déjeuners uniquement par e-mail avec délai de 72 h, forfait de livraison calculé selon la zone",
+      "demo_detail": "démo d'une demande de buffet en ligne contrôlant le délai de 72 h et la zone de livraison",
+      "custom_hook": "Votre site indique que les plateaux-repas se commandent en ligne, mais que les buffets et petits-déjeuners passent « uniquement par mail au minimum 72h à l'avance ».",
+      "custom_subject": "Mamie Cuisine : la règle des 72 h, appliquée automatiquement ?",
+      "notes": "Lot 6. Adresse officielle : Parc de Chesnes RD 1006, 38070 Saint-Quentin-Fallavier. La commande en ligne existe déjà pour les plateaux-repas (panier, formules 21/23/25 €) : la lacune est ciblée sur les buffets et petits-déjeuners, exclus du tunnel en ligne. Le forfait de livraison « calculé selon votre zone » est une règle métier explicite, donc automatisable sans invention.",
+      "lot": "2026-11-06-lot6",
+      "discovered_at": "2026-11-06",
+      "email_status": "brouillon_créé",
+      "next_action": "Brouillon en attente de validation utilisateur — aucun envoi automatique",
+      "scores": {
+        "site_web": {
+          "axis": "site_web",
+          "score": 5,
+          "level": "faible",
+          "reasons": [
+            "un site est déjà en ligne : pas de création à proprement parler",
+            "aucune preuve directe sur cet axe : score volontairement bas"
+          ]
+        },
+        "refonte": {
+          "axis": "refonte",
+          "score": 45,
+          "level": "moyen",
+          "reasons": [
+            "site existant à moderniser",
+            "+40 parcours_incomplet : « Sachez qu'un forfait de livraison est toujours appliqué et calculé selon votre zone. » (https://www.mamiecuisinetraiteur.fr/index.php)"
+          ]
+        },
+        "ia_automatisation": {
+          "axis": "ia_automatisation",
+          "score": 90,
+          "level": "fort",
+          "reasons": [
+            "processus concret observé : commandes de buffets et petits-déjeuners uniquement par e-mail avec délai de 72 h, forfait de livraison calculé selon la",
+            "+60 processus_manuel : « Commandez vos repas en ligne ou par mail impérativement avant midi la veille du jour voulu. Pour les demand… » (https://www.mamiecuisinetraiteur.fr/index.php)",
+            "+20 parcours_incomplet : « Sachez qu'un forfait de livraison est toujours appliqué et calculé selon votre zone. » (https://www.mamiecuisinetraiteur.fr/index.php)"
+          ]
+        },
+        "priority": "haute",
+        "best_axis": "ia_automatisation"
+      },
+      "commercial_priority": "haute",
+      "email_dns_status": "mx_ok",
+      "phone_verification": "verified",
+      "contact_name_source": "",
+      "status": "brouillon_créé",
+      "id": "mamie-cuisine-traiteur",
+      "created_at": "2026-11-06T13:05:21+00:00",
+      "updated_at": "2026-11-06T13:06:06+00:00",
+      "email_dns_checked_at": "2026-11-06T13:05:26+00:00",
+      "email_dns_detail": "1 MX publiés",
+      "campaign": "2026-11-06-lot6",
+      "variant": "synatrap_ia",
+      "reference_id": "synatrap",
+      "message_version": "v4",
+      "proposed_email": {
+        "subject": "Mamie Cuisine : la règle des 72 h, appliquée automatiquement ?",
+        "body": "Bonjour,\n\nVotre site indique que les plateaux-repas se commandent en ligne, mais que les buffets et petits-déjeuners passent « uniquement par mail au minimum 72h à l'avance ».\n\nJe peux vous proposer un module de demande de buffet et petit-déjeuner qui applique vos règles de délai et de zone de livraison dès la saisie.\n\nCôté agents IA, voici SYNATRAP, la plateforme que je développe avec mon groupe : https://synatrap.com\n\nJe peux vous montrer gratuitement une démonstration concrète de la solution envisagée, sans engagement, sur un cas réel de votre activité.\n\nCela vous dirait de la découvrir ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+        "queue_id": "2026-11-06-lot6-002"
+      },
+      "gmail_draft_id": "r7069133405038258003",
+      "gmail_message_id": "1a1b0faf020eae48",
+      "gmail_thread_id": "1a1b0faf020eae48",
+      "draft_created_at": "2026-11-06T13:10:42+00:00"
+    },
+    {
+      "company": "Baptiste Break Pâtisserie Traiteur",
+      "website": "https://www.baptiste-break.fr/",
+      "domain": "baptiste-break.fr",
+      "sector": "Pâtisserie et traiteur artisanal sur commande",
+      "city": "Sartrouville",
+      "department": "78",
+      "contact_name": "",
+      "contact_role": "Baptiste Bresser, dirigeant (directeur de la publication)",
+      "email": "contact@baptiste-break.fr",
+      "phone": "07 45 10 30 70",
+      "source": "",
+      "evidence": [
+        {
+          "kind": "processus_manuel",
+          "source_url": "https://www.baptiste-break.fr/cgv/",
+          "quote": "Le Client a la possibilité de passer commande en envoyant un mail ou en appelant, il recevra un devis par mail par la suite sous un maximum de 72h.",
+          "observed_at": "2026-11-06",
+          "detail": "Chaque commande déclenche la rédaction manuelle d'un devis, avec un délai annoncé de 72 h."
+        },
+        {
+          "kind": "processus_manuel",
+          "source_url": "https://www.baptiste-break.fr/passez-commande/",
+          "quote": "le nombre de commandes est limité chaque semaine ... deux semaines à l'avance est le minimum, mais certaines dates peuvent être complètes plusieurs semaines à l'avance ... la place ne vous est réservée qu'à la réception du virement d'acompte.",
+          "observed_at": "2026-11-06",
+          "detail": "La capacité hebdomadaire et le suivi des acomptes sont gérés hors du site : le client découvre la disponibilité seulement après réponse humaine."
+        }
+      ],
+      "publication_date": "",
+      "need": "automatisation",
+      "needs": [
+        "automatisation"
+      ],
+      "recommended_service": "un formulaire de commande qui indique les créneaux encore disponibles, calcule le devis et suit l'acompte.",
+      "email_verification": "verified",
+      "score": 50,
+      "tier": "haute",
+      "status_crm": "qualified",
+      "justification": "processus manuel documenté (+50) : https://www.baptiste-break.fr/cgv/",
+      "process_hint": "commandes par e-mail ou téléphone, devis détaillé émis sous 72 h, réservation du créneau à réception de l'acompte par virement",
+      "demo_detail": "démo d'une demande de gâteau sur-mesure affichant les semaines encore ouvertes et le devis correspondant",
+      "custom_hook": "Votre page commande précise que le nombre de commandes est limité chaque semaine et que certaines dates sont complètes plusieurs semaines à l'avance — mais un client ne peut le savoir qu'après vous avoir écrit.",
+      "custom_subject": "Baptiste Break : vos semaines complètes visibles avant la demande ?",
+      "notes": "Lot 6. SIRET 82139868200020, siège 130 avenue Maurice Berteaux, 78500 Sartrouville (CGV officielles). Dirigeant public : M. Bresser Baptiste. L'entreprise annonce un déménagement prochain à Carrières-sous-Poissy et suspend les retraits : la charge de réponses aux demandes est actuellement accrue. Aucune création de site nécessaire (WordPress à jour, contenus 2026) : le besoin est la gestion des demandes, des créneaux et des acomptes.",
+      "lot": "2026-11-06-lot6",
+      "discovered_at": "2026-11-06",
+      "email_status": "brouillon_créé",
+      "next_action": "Brouillon en attente de validation utilisateur — aucun envoi automatique",
+      "scores": {
+        "site_web": {
+          "axis": "site_web",
+          "score": 5,
+          "level": "faible",
+          "reasons": [
+            "un site est déjà en ligne : pas de création à proprement parler",
+            "aucune preuve directe sur cet axe : score volontairement bas"
+          ]
+        },
+        "refonte": {
+          "axis": "refonte",
+          "score": 5,
+          "level": "faible",
+          "reasons": [
+            "site existant à moderniser",
+            "aucune preuve directe sur cet axe : score volontairement bas"
+          ]
+        },
+        "ia_automatisation": {
+          "axis": "ia_automatisation",
+          "score": 100,
+          "level": "fort",
+          "reasons": [
+            "processus concret observé : commandes par e-mail ou téléphone, devis détaillé émis sous 72 h, réservation du créneau à réception de l'acompte par vi",
+            "+60 processus_manuel : « Le Client a la possibilité de passer commande en envoyant un mail ou en appelant, il recevra un devis par m… » (https://www.baptiste-break.fr/cgv/)",
+            "+60 processus_manuel : « le nombre de commandes est limité chaque semaine ... deux semaines à l'avance est le minimum, mais certaine… » (https://www.baptiste-break.fr/passez-commande/)"
+          ]
+        },
+        "priority": "haute",
+        "best_axis": "ia_automatisation"
+      },
+      "commercial_priority": "haute",
+      "email_dns_status": "mx_ok",
+      "phone_verification": "verified",
+      "contact_name_source": "https://www.baptiste-break.fr/cgv/",
+      "status": "brouillon_créé",
+      "id": "baptiste-break-p-tisserie-traiteur",
+      "created_at": "2026-11-06T13:05:21+00:00",
+      "updated_at": "2026-11-06T13:06:06+00:00",
+      "email_dns_checked_at": "2026-11-06T13:05:26+00:00",
+      "email_dns_detail": "2 MX publiés",
+      "campaign": "2026-11-06-lot6",
+      "variant": "synatrap_ia",
+      "reference_id": "synatrap",
+      "message_version": "v4",
+      "proposed_email": {
+        "subject": "Baptiste Break : vos semaines complètes visibles avant la demande ?",
+        "body": "Bonjour,\n\nVotre page commande précise que le nombre de commandes est limité chaque semaine et que certaines dates sont complètes plusieurs semaines à l'avance — mais un client ne peut le savoir qu'après vous avoir écrit.\n\nJe peux vous proposer un formulaire de commande qui indique les créneaux encore disponibles, calcule le devis et suit l'acompte.\n\nCôté agents IA, voici SYNATRAP, la plateforme que je développe avec mon groupe : https://synatrap.com\n\nJe peux vous montrer gratuitement une démonstration concrète de la solution envisagée, sans engagement, sur un cas réel de votre activité.\n\nCela vous dirait de la découvrir ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+        "queue_id": "2026-11-06-lot6-003"
+      },
+      "gmail_draft_id": "r-2074566668747048619",
+      "gmail_message_id": "1a1b0fafa9a0a8b2",
+      "gmail_thread_id": "1a1b0fafa9a0a8b2",
+      "draft_created_at": "2026-11-06T13:10:42+00:00"
+    },
+    {
+      "company": "SARL Joly Location",
+      "website": "https://www.joly-location.fr/",
+      "domain": "joly-location.fr",
+      "sector": "Location de matériel BTP et d'échafaudages, avec ou sans chauffeur",
+      "city": "Sangatte",
+      "department": "62",
+      "contact_name": "",
+      "contact_role": "Robert Joly, gérant",
+      "email": "info-location@joly-location.fr",
+      "phone": "03 21 34 53 54",
+      "source": "",
+      "evidence": [
+        {
+          "kind": "site_indisponible",
+          "source_url": "https://www.jolylocation-echafaudage.fr/contact",
+          "quote": "Site not found — This site is not published or does not have a domain assigned to it.",
+          "observed_at": "2026-11-06",
+          "detail": "Le second domaine de l'entreprise ne sert plus aucune page, alors qu'il reste le site déclaré sur sa fiche Pages Jaunes."
+        },
+        {
+          "kind": "processus_manuel",
+          "source_url": "https://www.joly-location.fr/",
+          "quote": "Peut-on demander un devis pour une location de matériel ? Oui, nous établissons des devis personnalisés selon vos besoins. N'hésitez pas à nous contacter pour obtenir une solution adaptée à votre chantier.",
+          "observed_at": "2026-11-06",
+          "detail": "Les devis de location sont établis à la demande ; le catalogue ne propose ni disponibilité ni réservation."
+        }
+      ],
+      "publication_date": "",
+      "need": "automatisation",
+      "needs": [
+        "automatisation",
+        "refonte"
+      ],
+      "recommended_service": "une demande de location qui précise matériel, dates et besoin de chauffeur, et la remise en ligne de l'ancien domaine encore cité dans les annuaires.",
+      "email_verification": "verified",
+      "score": 100,
+      "tier": "haute",
+      "status_crm": "qualified",
+      "justification": "processus manuel documenté (+50) : https://www.joly-location.fr/ ; site indisponible constaté (+50) : https://www.jolylocation-echafaudage.fr/contact",
+      "process_hint": "devis de location établis sur demande par téléphone ou formulaire, parc de plus de 35 000 m² d'échafaudages sans disponibilité en ligne",
+      "demo_detail": "démo d'une demande de location nacelle ou échafaudage avec dates et option chauffeur",
+      "custom_hook": "Pages Jaunes pointe encore vers jolylocation-echafaudage.fr, qui affiche aujourd'hui « This site is not published » — alors que votre site actif est joly-location.fr.",
+      "custom_subject": "Joly Location : votre ancien domaine renvoie « site non publié »",
+      "notes": "Lot 6. SARL JOLY LOCATION, SIRET 40241216700015, 353 route départementale 940, 62231 Sangatte. Deux domaines pour la même entreprise : joly-location.fr (actif, Concrete CMS) et jolylocation-echafaudage.fr (non publié, encore référencé par Pages Jaunes et porteur des mentions légales). L'adresse info-location@joly-location.fr est publiée dans ces mentions légales et correspond au domaine actif. Gérant public : Robert Joly (annuaire officiel de la mairie de Sangatte). Activité depuis 1968 selon le site.",
+      "lot": "2026-11-06-lot6",
+      "discovered_at": "2026-11-06",
+      "email_status": "brouillon_créé",
+      "next_action": "Brouillon en attente de validation utilisateur — aucun envoi automatique",
+      "scores": {
+        "site_web": {
+          "axis": "site_web",
+          "score": 90,
+          "level": "fort",
+          "reasons": [
+            "site existant mais indisponible : présence en ligne à reconstruire",
+            "+15 site_indisponible : « Site not found — This site is not published or does not have a domain assigned to it. » (https://www.jolylocation-echafaudage.fr/contact)"
+          ]
+        },
+        "refonte": {
+          "axis": "refonte",
+          "score": 25,
+          "level": "faible",
+          "reasons": [
+            "site existant à moderniser",
+            "+20 site_indisponible : « Site not found — This site is not published or does not have a domain assigned to it. » (https://www.jolylocation-echafaudage.fr/contact)"
+          ]
+        },
+        "ia_automatisation": {
+          "axis": "ia_automatisation",
+          "score": 70,
+          "level": "fort",
+          "reasons": [
+            "processus concret observé : devis de location établis sur demande par téléphone ou formulaire, parc de plus de 35 000 m² d'échafaudages sans disponi",
+            "+60 processus_manuel : « Peut-on demander un devis pour une location de matériel ? Oui, nous établissons des devis personnalisés sel… » (https://www.joly-location.fr/)"
+          ]
+        },
+        "priority": "haute",
+        "best_axis": "site_web"
+      },
+      "commercial_priority": "haute",
+      "email_dns_status": "mx_ok",
+      "phone_verification": "verified",
+      "contact_name_source": "https://www.ville-sangatte.fr/Annuaire-des-commercants.aspx",
+      "status": "brouillon_créé",
+      "id": "sarl-joly-location",
+      "created_at": "2026-11-06T13:05:21+00:00",
+      "updated_at": "2026-11-06T13:06:06+00:00",
+      "email_dns_checked_at": "2026-11-06T13:05:26+00:00",
+      "email_dns_detail": "2 MX publiés",
+      "campaign": "2026-11-06-lot6",
+      "variant": "synatrap_ia",
+      "reference_id": "synatrap",
+      "message_version": "v4",
+      "proposed_email": {
+        "subject": "Joly Location : votre ancien domaine renvoie « site non publié »",
+        "body": "Bonjour,\n\nPages Jaunes pointe encore vers jolylocation-echafaudage.fr, qui affiche aujourd'hui « This site is not published » — alors que votre site actif est joly-location.fr.\n\nJe peux vous proposer une demande de location qui précise matériel, dates et besoin de chauffeur, et la remise en ligne de l'ancien domaine encore cité dans les annuaires.\n\nCôté agents IA, voici SYNATRAP, la plateforme que je développe avec mon groupe : https://synatrap.com\n\nJe peux vous montrer gratuitement une démonstration concrète de la solution envisagée, sans engagement, sur un cas réel de votre activité.\n\nCela vous dirait de la découvrir ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+        "queue_id": "2026-11-06-lot6-004"
+      },
+      "gmail_draft_id": "r7248452827625200722",
+      "gmail_message_id": "1a1b0fb33a0329ab",
+      "gmail_thread_id": "1a1b0fb33a0329ab",
+      "draft_created_at": "2026-11-06T13:10:42+00:00"
+    },
+    {
+      "company": "SARL Uzès Location",
+      "website": "https://uzes-location.fr/",
+      "domain": "uzes-location.fr",
+      "sector": "Location de matériel BTP, espaces verts et véhicules utilitaires",
+      "city": "Uzès",
+      "department": "30",
+      "contact_name": "",
+      "contact_role": "",
+      "email": "uzeslocation.30700@gmail.com",
+      "phone": "04 66 58 00 58",
+      "source": "",
+      "evidence": [
+        {
+          "kind": "parcours_incomplet",
+          "source_url": "https://uzes-location.fr/contact/",
+          "quote": "Nom & prénom * / Téléphone * / E-mail * / Votre Message *",
+          "observed_at": "2026-11-06",
+          "detail": "Le formulaire de devis ne comporte aucun champ matériel, dates ou durée : la qualification se fait par échanges successifs."
+        },
+        {
+          "kind": "website_gap",
+          "source_url": "https://uzes-location.fr/",
+          "quote": "Vous savez tout ou presque, il ne vous reste plus qu'à réserver ce dont vous avez besoin auprès de la SARL Uzès Location à Uzès !",
+          "observed_at": "2026-11-06",
+          "detail": "Le site invite à réserver mais ne propose aucun module de réservation ni calendrier de disponibilité : le bouton « Devis Gratuit » mène au formulaire générique."
+        }
+      ],
+      "publication_date": "",
+      "need": "automatisation",
+      "needs": [
+        "automatisation"
+      ],
+      "recommended_service": "un formulaire de demande de location qui collecte le matériel, les dates et la durée pour préparer le devis sans échange préalable.",
+      "email_verification": "public_unverified",
+      "score": 50,
+      "tier": "moyenne",
+      "status_crm": "a_revoir",
+      "justification": "parcours client incomplet (+30) : https://uzes-location.fr/contact/ ; 1 lacune(s) vérifiée(s) sur le site (+20)",
+      "process_hint": "demandes de devis via formulaire à champ libre, catalogue matériel sans disponibilité ni réservation en ligne",
+      "demo_detail": "démo d'une demande de location avec matériel, dates et livraison, prête à chiffrer",
+      "custom_hook": "Votre formulaire de contact ne demande que nom, téléphone, e-mail et un message libre : pour chiffrer une location, il faut ensuite réclamer le matériel, les dates et la durée.",
+      "custom_subject": "Uzès Location : matériel, dates, durée — demandés dès le formulaire ?",
+      "notes": "Lot 6. Adresse officielle : 983 route de Nîmes, 30700 Uzès. Deux téléphones publiés : 04 66 58 00 58 et 06 32 73 14 41. Livraison par leurs chauffeurs à 30 km du dépôt, titulaire CACES. ATTENTION : l'adresse e-mail provient d'un extrait indexé du site et n'apparaît plus sur la page contact actuelle (formulaire seul) — classée public_unverified, à confirmer avant tout envoi. Opportunité probable et non besoin exprimé : la lacune est le formulaire, pas une demande de l'entreprise.",
+      "lot": "2026-11-06-lot6",
+      "discovered_at": "2026-11-06",
+      "email_status": "brouillon_créé",
+      "next_action": "Brouillon en attente de validation utilisateur — aucun envoi automatique",
+      "scores": {
+        "site_web": {
+          "axis": "site_web",
+          "score": 5,
+          "level": "faible",
+          "reasons": [
+            "un site est déjà en ligne : pas de création à proprement parler",
+            "aucune preuve directe sur cet axe : score volontairement bas"
+          ]
+        },
+        "refonte": {
+          "axis": "refonte",
+          "score": 75,
+          "level": "fort",
+          "reasons": [
+            "site existant à moderniser",
+            "+40 parcours_incomplet : « Nom & prénom * / Téléphone * / E-mail * / Votre Message * » (https://uzes-location.fr/contact/)",
+            "+30 website_gap : « Vous savez tout ou presque, il ne vous reste plus qu'à réserver ce dont vous avez besoin auprès de la SARL … » (https://uzes-location.fr/)"
+          ]
+        },
+        "ia_automatisation": {
+          "axis": "ia_automatisation",
+          "score": 30,
+          "level": "faible",
+          "reasons": [
+            "processus concret observé : demandes de devis via formulaire à champ libre, catalogue matériel sans disponibilité ni réservation en ligne",
+            "+20 parcours_incomplet : « Nom & prénom * / Téléphone * / E-mail * / Votre Message * » (https://uzes-location.fr/contact/)"
+          ]
+        },
+        "priority": "moyenne",
+        "best_axis": "refonte"
+      },
+      "commercial_priority": "moyenne",
+      "email_dns_status": "mx_ok",
+      "phone_verification": "verified",
+      "contact_name_source": "",
+      "status": "brouillon_créé",
+      "id": "sarl-uz-s-location",
+      "created_at": "2026-11-06T13:05:21+00:00",
+      "updated_at": "2026-11-06T13:06:06+00:00",
+      "email_dns_checked_at": "2026-11-04T22:11:15+00:00",
+      "email_dns_detail": "5 MX publiés",
+      "campaign": "2026-11-06-lot6",
+      "variant": "synatrap_ia",
+      "reference_id": "synatrap",
+      "message_version": "v4",
+      "proposed_email": {
+        "subject": "Uzès Location : matériel, dates, durée — demandés dès le formulaire ?",
+        "body": "Bonjour,\n\nVotre formulaire de contact ne demande que nom, téléphone, e-mail et un message libre : pour chiffrer une location, il faut ensuite réclamer le matériel, les dates et la durée.\n\nJe peux vous proposer un formulaire de demande de location qui collecte le matériel, les dates et la durée pour préparer le devis sans échange préalable.\n\nCôté agents IA, voici SYNATRAP, la plateforme que je développe avec mon groupe : https://synatrap.com\n\nJe peux vous montrer gratuitement une démonstration concrète de la solution envisagée, sans engagement, sur un cas réel de votre activité.\n\nCela vous dirait de la découvrir ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+        "queue_id": "2026-11-06-lot6-005"
+      },
+      "gmail_draft_id": "r8584317365937954867",
+      "gmail_message_id": "1a1b0fb442b3a0be",
+      "gmail_thread_id": "1a1b0fb442b3a0be",
+      "draft_created_at": "2026-11-06T13:10:42+00:00"
+    },
+    {
+      "company": "SAS Maire",
+      "website": "https://www.maire-sas.fr/",
+      "domain": "maire-sas.fr",
+      "sector": "Travaux publics, transport, carrière et location d'engins de chantier",
+      "city": "Senon",
+      "department": "55",
+      "contact_name": "",
+      "contact_role": "",
+      "email": "info@sas-maire.fr",
+      "phone": "03 29 85 99 15",
+      "source": "",
+      "evidence": [
+        {
+          "kind": "parcours_incomplet",
+          "source_url": "https://www.maire-sas.fr/location-de-materiel/",
+          "quote": "Besoin d'un renseignement ? Contactez nous par téléphone : 03 29 85 99 15 — Contactez nous par e-mail : info@sas-maire.fr",
+          "observed_at": "2026-11-06",
+          "detail": "Le catalogue d'engins ne propose aucun formulaire de disponibilité ou de devis : toute demande repasse par un échange humain."
+        },
+        {
+          "kind": "website_gap",
+          "source_url": "https://www.maire-sas.fr/location-de-materiel/",
+          "quote": "Location de matériel et de véhicules de chantiers avec et sans conducteur",
+          "observed_at": "2026-11-06",
+          "detail": "L'option conducteur et le choix de l'engin sont les deux paramètres d'une demande ; ils ne sont capturés par aucun formulaire."
+        }
+      ],
+      "publication_date": "",
+      "need": "automatisation",
+      "needs": [
+        "automatisation"
+      ],
+      "recommended_service": "une demande de disponibilité par engin et par dates, transmise complète au planning de location.",
+      "email_verification": "public_unverified",
+      "score": 50,
+      "tier": "moyenne",
+      "status_crm": "a_revoir",
+      "justification": "parcours client incomplet (+30) : https://www.maire-sas.fr/location-de-materiel/ ; 1 lacune(s) vérifiée(s) sur le site (+20)",
+      "process_hint": "parc de location présenté en catalogue, demandes de renseignement et de disponibilité par téléphone ou e-mail uniquement",
+      "demo_detail": "démo d'une demande de disponibilité sur un engin du parc, avec dates et option conducteur",
+      "custom_hook": "Votre page location présente une vingtaine d'engins — PC 09 à PC 290, chargeurs, PW — mais se termine par « contactez nous par téléphone » ou « par e-mail », sans demande de disponibilité.",
+      "custom_subject": "SAS Maire : vos 20 engins sans demande de disponibilité ?",
+      "notes": "Lot 6. Site WordPress récent (médias 2024-2025) : aucune création ni refonte justifiée. La seule lacune vérifiable est l'absence de demande de disponibilité sur un parc nommément listé, avec location « avec et sans conducteur » — deux informations qui structurent toute demande. Opportunité probable, non besoin exprimé. Adresse e-mail publiée sur la page location.",
+      "lot": "2026-11-06-lot6",
+      "discovered_at": "2026-11-06",
+      "email_status": "non_delivrable",
+      "next_action": "AUCUN EMAIL — le domaine sas-maire.fr publié sur leur propre site n'existe pas (NXDOMAIN sur MX, A et NS). Seul canal : 03 29 85 99 15. Vérifier une adresse sur maire-sas.fr (MX valide) avant tout contact.",
+      "scores": {
+        "site_web": {
+          "axis": "site_web",
+          "score": 5,
+          "level": "faible",
+          "reasons": [
+            "un site est déjà en ligne : pas de création à proprement parler",
+            "aucune preuve directe sur cet axe : score volontairement bas"
+          ]
+        },
+        "refonte": {
+          "axis": "refonte",
+          "score": 75,
+          "level": "fort",
+          "reasons": [
+            "site existant à moderniser",
+            "+40 parcours_incomplet : « Besoin d'un renseignement ? Contactez nous par téléphone : 03 29 85 99 15 — Contactez nous par e-mail : inf… » (https://www.maire-sas.fr/location-de-materiel/)",
+            "+30 website_gap : « Location de matériel et de véhicules de chantiers avec et sans conducteur » (https://www.maire-sas.fr/location-de-materiel/)"
+          ]
+        },
+        "ia_automatisation": {
+          "axis": "ia_automatisation",
+          "score": 30,
+          "level": "faible",
+          "reasons": [
+            "processus concret observé : parc de location présenté en catalogue, demandes de renseignement et de disponibilité par téléphone ou e-mail uniquement",
+            "+20 parcours_incomplet : « Besoin d'un renseignement ? Contactez nous par téléphone : 03 29 85 99 15 — Contactez nous par e-mail : inf… » (https://www.maire-sas.fr/location-de-materiel/)"
+          ]
+        },
+        "priority": "a_approfondir",
+        "best_axis": "refonte"
+      },
+      "commercial_priority": "a_approfondir",
+      "email_dns_status": "nxdomain",
+      "phone_verification": "verified",
+      "contact_name_source": "",
+      "status": "a_approfondir",
+      "id": "sas-maire",
+      "created_at": "2026-11-06T13:05:21+00:00",
+      "updated_at": "2026-11-06T13:05:21+00:00",
+      "email_dns_checked_at": "2026-11-06T13:05:26+00:00",
+      "email_dns_detail": "le domaine n'existe pas (NXDOMAIN)",
+      "anomaly": "Adresse publiée info@sas-maire.fr non délivrable : sas-maire.fr NXDOMAIN (contrôle DNS du 2026-11-06), alors que maire-sas.fr a un MX valide (0 mail.maire-sas.fr). Inversion probable du nom de domaine dans l'adresse publiée."
+    },
+    {
+      "company": "Techniques Piscine",
+      "website": "https://techniquespiscine.fr/",
+      "domain": "techniquespiscine.fr",
+      "sector": "Construction, rénovation et équipement de piscines et spas",
+      "city": "Le Havre",
+      "department": "76",
+      "contact_name": "",
+      "contact_role": "",
+      "email": "contact@techniquespiscine.fr",
+      "phone": "06 13 53 52 26",
+      "source": "",
+      "evidence": [
+        {
+          "kind": "parcours_incomplet",
+          "source_url": "https://techniquespiscine.fr/contactez-nous/",
+          "quote": "Vous avez un projet de piscine ou de SPA ? Prénom et Nom* / Email* / Téléphone* / Message",
+          "observed_at": "2026-11-06",
+          "detail": "Aucun champ de qualification : type de projet, terrain, dimensions et délai doivent être obtenus par retour d'e-mail ou par téléphone."
+        },
+        {
+          "kind": "website_gap",
+          "source_url": "https://techniquespiscine.fr/contactez-nous/",
+          "quote": "Nous intervenons sur les secteurs du Havres et ses environs, Rouen et ses environs en passant par Saint Valery en Caux et sur les départements de l'Eure et le Calvados",
+          "observed_at": "2026-11-06",
+          "detail": "La zone d'intervention couvre trois départements mais le formulaire ne demande pas la localisation du chantier, information nécessaire au tri des demandes."
+        }
+      ],
+      "publication_date": "",
+      "need": "automatisation",
+      "needs": [
+        "automatisation"
+      ],
+      "recommended_service": "un formulaire de projet piscine qui qualifie construction ou rénovation, terrain et délai avant le premier échange.",
+      "email_verification": "verified",
+      "score": 50,
+      "tier": "moyenne",
+      "status_crm": "a_revoir",
+      "justification": "parcours client incomplet (+30) : https://techniquespiscine.fr/contactez-nous/ ; 1 lacune(s) vérifiée(s) sur le site (+20)",
+      "process_hint": "demandes de projet via formulaire à champ libre, sans type de projet ni délai, sur trois départements d'intervention",
+      "demo_detail": "démo d'un formulaire de projet piscine qui trie construction, rénovation et entretien dès la demande",
+      "custom_hook": "Votre page contact promet « un seul interlocuteur » et un suivi clé en main, mais le formulaire ne demande que nom, e-mail, téléphone et un message libre.",
+      "custom_subject": "Techniques Piscine : qualifier le projet avant le premier appel ?",
+      "notes": "Lot 6. Intervention Le Havre, Rouen, Saint-Valery-en-Caux, Eure et Calvados. Site WordPress soigné (agence CACERES Studio), médias 2021 : pas de refonte justifiée sur la seule ancienneté. Lacune vérifiable : le formulaire ne distingue pas construction, rénovation, protection ou équipement, alors que ce sont les quatre prestations annoncées — donc qualification manuelle à chaque demande. Opportunité probable.",
+      "lot": "2026-11-06-lot6",
+      "discovered_at": "2026-11-06",
+      "email_status": "brouillon_créé",
+      "next_action": "Brouillon en attente de validation utilisateur — aucun envoi automatique",
+      "scores": {
+        "site_web": {
+          "axis": "site_web",
+          "score": 5,
+          "level": "faible",
+          "reasons": [
+            "un site est déjà en ligne : pas de création à proprement parler",
+            "aucune preuve directe sur cet axe : score volontairement bas"
+          ]
+        },
+        "refonte": {
+          "axis": "refonte",
+          "score": 75,
+          "level": "fort",
+          "reasons": [
+            "site existant à moderniser",
+            "+40 parcours_incomplet : « Vous avez un projet de piscine ou de SPA ? Prénom et Nom* / Email* / Téléphone* / Message » (https://techniquespiscine.fr/contactez-nous/)",
+            "+30 website_gap : « Nous intervenons sur les secteurs du Havres et ses environs, Rouen et ses environs en passant par Saint Val… » (https://techniquespiscine.fr/contactez-nous/)"
+          ]
+        },
+        "ia_automatisation": {
+          "axis": "ia_automatisation",
+          "score": 30,
+          "level": "faible",
+          "reasons": [
+            "processus concret observé : demandes de projet via formulaire à champ libre, sans type de projet ni délai, sur trois départements d'intervention",
+            "+20 parcours_incomplet : « Vous avez un projet de piscine ou de SPA ? Prénom et Nom* / Email* / Téléphone* / Message » (https://techniquespiscine.fr/contactez-nous/)"
+          ]
+        },
+        "priority": "haute",
+        "best_axis": "refonte"
+      },
+      "commercial_priority": "haute",
+      "email_dns_status": "mx_ok",
+      "phone_verification": "verified",
+      "contact_name_source": "",
+      "status": "brouillon_créé",
+      "id": "techniques-piscine",
+      "created_at": "2026-11-06T13:05:21+00:00",
+      "updated_at": "2026-11-06T13:06:06+00:00",
+      "email_dns_checked_at": "2026-11-06T13:05:26+00:00",
+      "email_dns_detail": "2 MX publiés",
+      "campaign": "2026-11-06-lot6",
+      "variant": "synatrap_ia",
+      "reference_id": "synatrap",
+      "message_version": "v4",
+      "proposed_email": {
+        "subject": "Techniques Piscine : qualifier le projet avant le premier appel ?",
+        "body": "Bonjour,\n\nVotre page contact promet « un seul interlocuteur » et un suivi clé en main, mais le formulaire ne demande que nom, e-mail, téléphone et un message libre.\n\nJe peux vous proposer un formulaire de projet piscine qui qualifie construction ou rénovation, terrain et délai avant le premier échange.\n\nCôté agents IA, voici SYNATRAP, la plateforme que je développe avec mon groupe : https://synatrap.com\n\nJe peux vous montrer gratuitement une démonstration concrète de la solution envisagée, sans engagement, sur un cas réel de votre activité.\n\nCela vous dirait de la découvrir ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+        "queue_id": "2026-11-06-lot6-006"
+      },
+      "gmail_draft_id": "r-1290563027882505100",
+      "gmail_message_id": "1a1b0fb4f5c048ea",
+      "gmail_thread_id": "1a1b0fb4f5c048ea",
+      "draft_created_at": "2026-11-06T13:10:42+00:00"
     }
   ]
 }

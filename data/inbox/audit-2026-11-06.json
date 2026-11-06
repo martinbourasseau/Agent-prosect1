@@ -1,0 +1,20 @@
+{
+  "source": "Gmail — audit exhaustif du 06/11/2026 : -in:sent -in:drafts \"ne pas me relancer\" + from:(19 domaines OR 18 adresses exactes) + from:(mailer-daemon OR postmaster), spam et corbeille inclus",
+  "collected_at": "2026-11-06",
+  "messages": [
+    {
+      "id": "1a1ada77bcf46db9",
+      "thread_id": "1a1a8095e0a13794",
+      "from": "celarenarde@gmail.com",
+      "subject": "Re: Centre Équestre de la Renarde : automatiser les inscriptions ?",
+      "text": "Ne pas me relancer\n\nSmets Nicolas\nCentre Equestre de la Renarde\nChemin des Pourraques 83170 Brignoles\ncelarenarde@gmail.com\n0620928751"
+    },
+    {
+      "id": "1a1abeb70f5e925c",
+      "thread_id": "1a1abeb70f5e925c",
+      "from": "contact@blanchisseriedes3regions.fr",
+      "subject": "Réponse automatique : B3R : votre site affiche une page d'hébergement suspendu",
+      "text": "Cette adresse va bientot disparaitre, la Blanchisserie des 3 régions a été rachetée par Gallia .Pour toute demande ou prise de contact, merci désormais d'utiliser l'adresse suivante:\nb3r@gallia28.fr\n\nBien cordialement,\n\nStéphanie"
+    }
+  ]
+}

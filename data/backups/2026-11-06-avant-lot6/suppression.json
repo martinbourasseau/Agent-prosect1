@@ -1,0 +1,14 @@
+{
+  "updated_at": "2026-11-04T22:09:57+00:00",
+  "count": 1,
+  "entries": [
+    {
+      "email": "contact@severine-lesourd.com",
+      "domain": "severine-lesourd.com",
+      "reason": "rebond_dur",
+      "source": "audit-inbox",
+      "added_at": "2026-11-04T22:09:57+00:00",
+      "domain_wide": false
+    }
+  ]
+}

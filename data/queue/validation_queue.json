@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-04T22:11:07+00:00",
+  "updated_at": "2026-11-06T13:10:42+00:00",
   "items": [
     {
       "id": "2026-11-03-v2-001",
@@ -1135,11 +1135,11 @@
         "https://www.restaurant-lecanotier.fr/",
         "https://www.restaurant-lecanotier.fr/"
       ],
-      "status": "pending",
+      "status": "sent",
       "created_at": "2026-11-04T21:39:56+00:00",
-      "updated_at": "2026-11-04T21:41:35+00:00",
+      "updated_at": "2026-11-06",
       "gmail_draft_id": "r-441106915474065912",
-      "gmail_message_id": null,
+      "gmail_message_id": "1a1abea92f5deeb5",
       "decision_reason": "",
       "history": [
         {
@@ -1151,6 +1151,13 @@
           "at": "2026-11-04T21:41:35+00:00",
           "action": "gmail_draft_created",
           "draft_id": "r-441106915474065912"
+        },
+        {
+          "at": "2026-11-06",
+          "action": "reconciled_sent",
+          "reason": "envoi constaté dans Gmail (statut précédent : pending)",
+          "source": "gmail_manual_observed",
+          "gmail_message_id": "1a1abea92f5deeb5"
         }
       ]
     },
@@ -1166,11 +1173,11 @@
         "https://boucherie-florian.fr/",
         "https://boucherie-florian.fr/"
       ],
-      "status": "pending",
+      "status": "sent",
       "created_at": "2026-11-04T21:39:56+00:00",
-      "updated_at": "2026-11-04T21:41:35+00:00",
+      "updated_at": "2026-11-06",
       "gmail_draft_id": "r-2227193041875889795",
-      "gmail_message_id": null,
+      "gmail_message_id": "1a1abeaaa946dee4",
       "decision_reason": "",
       "history": [
         {
@@ -1182,6 +1189,13 @@
           "at": "2026-11-04T21:41:35+00:00",
           "action": "gmail_draft_created",
           "draft_id": "r-2227193041875889795"
+        },
+        {
+          "at": "2026-11-06",
+          "action": "reconciled_sent",
+          "reason": "envoi constaté dans Gmail (statut précédent : pending)",
+          "source": "gmail_manual_observed",
+          "gmail_message_id": "1a1abeaaa946dee4"
         }
       ]
     },
@@ -1197,11 +1211,11 @@
         "https://www.fromagerie-2alpes.com/",
         "https://www.fromagerie-2alpes.com/pages/contact"
       ],
-      "status": "pending",
+      "status": "sent",
       "created_at": "2026-11-04T21:39:56+00:00",
-      "updated_at": "2026-11-04T21:41:35+00:00",
+      "updated_at": "2026-11-06",
       "gmail_draft_id": "r-3261002470483516264",
-      "gmail_message_id": null,
+      "gmail_message_id": "1a1abeab49495c8d",
       "decision_reason": "",
       "history": [
         {
@@ -1213,6 +1227,13 @@
           "at": "2026-11-04T21:41:35+00:00",
           "action": "gmail_draft_created",
           "draft_id": "r-3261002470483516264"
+        },
+        {
+          "at": "2026-11-06",
+          "action": "reconciled_sent",
+          "reason": "envoi constaté dans Gmail (statut précédent : pending)",
+          "source": "gmail_manual_observed",
+          "gmail_message_id": "1a1abeab49495c8d"
         }
       ]
     },
@@ -1228,11 +1249,11 @@
         "https://fromagerieetbaratte.fr/",
         "https://fromagerieetbaratte.fr/"
       ],
-      "status": "pending",
+      "status": "sent",
       "created_at": "2026-11-04T21:39:56+00:00",
-      "updated_at": "2026-11-04T21:41:35+00:00",
+      "updated_at": "2026-11-06",
       "gmail_draft_id": "r2349920759718953430",
-      "gmail_message_id": null,
+      "gmail_message_id": "1a1abeac1d8f4959",
       "decision_reason": "",
       "history": [
         {
@@ -1244,6 +1265,13 @@
           "at": "2026-11-04T21:41:35+00:00",
           "action": "gmail_draft_created",
           "draft_id": "r2349920759718953430"
+        },
+        {
+          "at": "2026-11-06",
+          "action": "reconciled_sent",
+          "reason": "envoi constaté dans Gmail (statut précédent : pending)",
+          "source": "gmail_manual_observed",
+          "gmail_message_id": "1a1abeac1d8f4959"
         }
       ]
     },
@@ -1259,11 +1287,11 @@
         "https://lachocolatisserie.com/contact/",
         "https://lachocolatisserie.com/contact/"
       ],
-      "status": "pending",
+      "status": "sent",
       "created_at": "2026-11-04T21:39:56+00:00",
-      "updated_at": "2026-11-04T21:41:35+00:00",
+      "updated_at": "2026-11-06",
       "gmail_draft_id": "r-8188127379332518233",
-      "gmail_message_id": null,
+      "gmail_message_id": "1a1abead77825981",
       "decision_reason": "",
       "history": [
         {
@@ -1275,6 +1303,13 @@
           "at": "2026-11-04T21:41:35+00:00",
           "action": "gmail_draft_created",
           "draft_id": "r-8188127379332518233"
+        },
+        {
+          "at": "2026-11-06",
+          "action": "reconciled_sent",
+          "reason": "envoi constaté dans Gmail (statut précédent : pending)",
+          "source": "gmail_manual_observed",
+          "gmail_message_id": "1a1abead77825981"
         }
       ]
     },
@@ -1290,11 +1325,11 @@
         "https://matproloc.fr/",
         "https://matproloc.fr/contact"
       ],
-      "status": "pending",
+      "status": "sent",
       "created_at": "2026-11-04T21:39:56+00:00",
-      "updated_at": "2026-11-04T21:41:35+00:00",
+      "updated_at": "2026-11-06",
       "gmail_draft_id": "r8133168118816518162",
-      "gmail_message_id": null,
+      "gmail_message_id": "1a1abeacf5ccb9d8",
       "decision_reason": "",
       "history": [
         {
@@ -1306,6 +1341,13 @@
           "at": "2026-11-04T21:41:35+00:00",
           "action": "gmail_draft_created",
           "draft_id": "r8133168118816518162"
+        },
+        {
+          "at": "2026-11-06",
+          "action": "reconciled_sent",
+          "reason": "envoi constaté dans Gmail (statut précédent : pending)",
+          "source": "gmail_manual_observed",
+          "gmail_message_id": "1a1abeacf5ccb9d8"
         }
       ]
     },
@@ -1321,11 +1363,11 @@
         "https://allo-cation.fr/devis-livraison/",
         "https://allo-cation.fr/devis-livraison/"
       ],
-      "status": "pending",
+      "status": "sent",
       "created_at": "2026-11-04T21:39:56+00:00",
-      "updated_at": "2026-11-04T21:41:35+00:00",
+      "updated_at": "2026-11-06",
       "gmail_draft_id": "r6132347275537598063",
-      "gmail_message_id": null,
+      "gmail_message_id": "1a1abeadfb545730",
       "decision_reason": "",
       "history": [
         {
@@ -1337,6 +1379,13 @@
           "at": "2026-11-04T21:41:35+00:00",
           "action": "gmail_draft_created",
           "draft_id": "r6132347275537598063"
+        },
+        {
+          "at": "2026-11-06",
+          "action": "reconciled_sent",
+          "reason": "envoi constaté dans Gmail (statut précédent : pending)",
+          "source": "gmail_manual_observed",
+          "gmail_message_id": "1a1abeadfb545730"
         }
       ]
     },
@@ -1352,11 +1401,11 @@
         "https://www.restaurant-goudale.com/restaurants/",
         "https://www.restaurant-goudale.com/restaurants/"
       ],
-      "status": "pending",
+      "status": "sent",
       "created_at": "2026-11-04T21:39:56+00:00",
-      "updated_at": "2026-11-04T21:41:35+00:00",
+      "updated_at": "2026-11-06",
       "gmail_draft_id": "r4069016850255698710",
-      "gmail_message_id": null,
+      "gmail_message_id": "1a1abeae419d880a",
       "decision_reason": "",
       "history": [
         {
@@ -1368,6 +1417,13 @@
           "at": "2026-11-04T21:41:35+00:00",
           "action": "gmail_draft_created",
           "draft_id": "r4069016850255698710"
+        },
+        {
+          "at": "2026-11-06",
+          "action": "reconciled_sent",
+          "reason": "envoi constaté dans Gmail (statut précédent : pending)",
+          "source": "gmail_manual_observed",
+          "gmail_message_id": "1a1abeae419d880a"
         }
       ]
     },
@@ -1384,11 +1440,11 @@
         "http://www.atomer.fr/4/Bulletin_inscription_formation_ATOMER.pdf",
         "http://www.atomer.fr/"
       ],
-      "status": "pending",
+      "status": "sent",
       "created_at": "2026-11-04T22:08:42+00:00",
-      "updated_at": "2026-11-04T22:11:07+00:00",
+      "updated_at": "2026-11-06",
       "gmail_draft_id": "r-3672069521747812245",
-      "gmail_message_id": "1a1a89d0cf0cdd0e",
+      "gmail_message_id": "1a1abeaecbcef640",
       "decision_reason": "",
       "history": [
         {
@@ -1405,6 +1461,13 @@
           "at": "2026-11-04T22:11:07+00:00",
           "action": "gmail_draft_created",
           "draft_id": "r-3672069521747812245"
+        },
+        {
+          "at": "2026-11-06",
+          "action": "reconciled_sent",
+          "reason": "envoi constaté dans Gmail (statut précédent : pending)",
+          "source": "gmail_manual_observed",
+          "gmail_message_id": "1a1abeaecbcef640"
         }
       ]
     },
@@ -1421,11 +1484,11 @@
         "https://www.nettoyage-industriel39.com/",
         "https://www.nettoyage-industriel39.com/"
       ],
-      "status": "pending",
+      "status": "sent",
       "created_at": "2026-11-04T22:08:42+00:00",
-      "updated_at": "2026-11-04T22:11:07+00:00",
+      "updated_at": "2026-11-06",
       "gmail_draft_id": "r-2030763522328067709",
-      "gmail_message_id": "1a1a89d18d7866e1",
+      "gmail_message_id": "1a1abeaf51545a13",
       "decision_reason": "",
       "history": [
         {
@@ -1442,6 +1505,13 @@
           "at": "2026-11-04T22:11:07+00:00",
           "action": "gmail_draft_created",
           "draft_id": "r-2030763522328067709"
+        },
+        {
+          "at": "2026-11-06",
+          "action": "reconciled_sent",
+          "reason": "envoi constaté dans Gmail (statut précédent : pending)",
+          "source": "gmail_manual_observed",
+          "gmail_message_id": "1a1abeaf51545a13"
         }
       ]
     },
@@ -1457,11 +1527,11 @@
         "https://vignerons-et-caviste.fr/",
         "https://vignerons-et-caviste.fr/"
       ],
-      "status": "pending",
+      "status": "sent",
       "created_at": "2026-11-04T22:08:42+00:00",
-      "updated_at": "2026-11-04T22:11:07+00:00",
+      "updated_at": "2026-11-06",
       "gmail_draft_id": "r-7012393960743457622",
-      "gmail_message_id": "1a1a89d241a60252",
+      "gmail_message_id": "1a1abeaff2f7a627",
       "decision_reason": "",
       "history": [
         {
@@ -1478,6 +1548,13 @@
           "at": "2026-11-04T22:11:07+00:00",
           "action": "gmail_draft_created",
           "draft_id": "r-7012393960743457622"
+        },
+        {
+          "at": "2026-11-06",
+          "action": "reconciled_sent",
+          "reason": "envoi constaté dans Gmail (statut précédent : pending)",
+          "source": "gmail_manual_observed",
+          "gmail_message_id": "1a1abeaff2f7a627"
         }
       ]
     },
@@ -1493,11 +1570,11 @@
         "https://www.lacavistelh.fr/nous-contacter/",
         "https://www.lacavistelh.fr/"
       ],
-      "status": "pending",
+      "status": "sent",
       "created_at": "2026-11-04T22:08:42+00:00",
-      "updated_at": "2026-11-04T22:11:07+00:00",
+      "updated_at": "2026-11-06",
       "gmail_draft_id": "r-3517500887937529637",
-      "gmail_message_id": "1a1a89d2e929da56",
+      "gmail_message_id": "1a1abeb0bd7e3299",
       "decision_reason": "",
       "history": [
         {
@@ -1514,6 +1591,13 @@
           "at": "2026-11-04T22:11:07+00:00",
           "action": "gmail_draft_created",
           "draft_id": "r-3517500887937529637"
+        },
+        {
+          "at": "2026-11-06",
+          "action": "reconciled_sent",
+          "reason": "envoi constaté dans Gmail (statut précédent : pending)",
+          "source": "gmail_manual_observed",
+          "gmail_message_id": "1a1abeb0bd7e3299"
         }
       ]
     },
@@ -1529,11 +1613,11 @@
         "https://www.alphamecanique.fr/",
         "https://www.alphamecanique.fr/"
       ],
-      "status": "pending",
+      "status": "sent",
       "created_at": "2026-11-04T22:08:42+00:00",
-      "updated_at": "2026-11-04T22:11:07+00:00",
+      "updated_at": "2026-11-06",
       "gmail_draft_id": "r9082772945695603666",
-      "gmail_message_id": "1a1a89d45029f782",
+      "gmail_message_id": "1a1abeb156455137",
       "decision_reason": "",
       "history": [
         {
@@ -1550,6 +1634,13 @@
           "at": "2026-11-04T22:11:07+00:00",
           "action": "gmail_draft_created",
           "draft_id": "r9082772945695603666"
+        },
+        {
+          "at": "2026-11-06",
+          "action": "reconciled_sent",
+          "reason": "envoi constaté dans Gmail (statut précédent : pending)",
+          "source": "gmail_manual_observed",
+          "gmail_message_id": "1a1abeb156455137"
         }
       ]
     },
@@ -1565,11 +1656,11 @@
         "https://ambulances-sainte-marie.fr/",
         "https://ambulances-sainte-marie.fr/"
       ],
-      "status": "pending",
+      "status": "sent",
       "created_at": "2026-11-04T22:08:42+00:00",
-      "updated_at": "2026-11-04T22:11:07+00:00",
+      "updated_at": "2026-11-06",
       "gmail_draft_id": "r-7886629766998266627",
-      "gmail_message_id": "1a1a89d51416064a",
+      "gmail_message_id": "1a1abeb1ea9a2f13",
       "decision_reason": "",
       "history": [
         {
@@ -1586,6 +1677,13 @@
           "at": "2026-11-04T22:11:07+00:00",
           "action": "gmail_draft_created",
           "draft_id": "r-7886629766998266627"
+        },
+        {
+          "at": "2026-11-06",
+          "action": "reconciled_sent",
+          "reason": "envoi constaté dans Gmail (statut précédent : pending)",
+          "source": "gmail_manual_observed",
+          "gmail_message_id": "1a1abeb1ea9a2f13"
         }
       ]
     },
@@ -1601,11 +1699,11 @@
         "https://blanchisseriedes3regions.fr/",
         "https://blanchisseriedes3regions.fr/pressing-livraison-blanchisserie-des-3-regions/"
       ],
-      "status": "pending",
+      "status": "sent",
       "created_at": "2026-11-04T22:08:42+00:00",
-      "updated_at": "2026-11-04T22:11:07+00:00",
+      "updated_at": "2026-11-06",
       "gmail_draft_id": "r1203180346807190290",
-      "gmail_message_id": "1a1a89d5f37cca29",
+      "gmail_message_id": "1a1abeb27153577d",
       "decision_reason": "",
       "history": [
         {
@@ -1622,6 +1720,235 @@
           "at": "2026-11-04T22:11:07+00:00",
           "action": "gmail_draft_created",
           "draft_id": "r1203180346807190290"
+        },
+        {
+          "at": "2026-11-06",
+          "action": "reconciled_sent",
+          "reason": "envoi constaté dans Gmail (statut précédent : pending)",
+          "source": "gmail_manual_observed",
+          "gmail_message_id": "1a1abeb27153577d"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-06-lot6-001",
+      "campaign": "2026-11-06-lot6",
+      "to": "contact@celtuce-traiteur.com",
+      "company": "Celtuce Traiteur",
+      "subject": "Celtuce : vos devis buffets recopiés à la main ?",
+      "body": "Bonjour,\n\nVotre page devis réclame cinq informations précises — entreprise, téléphone, prestation, nombre de personnes, facturation et livraison — et fournit un modèle d'e-mail à trous pour que le client les rédige lui-même.\n\nJe peux vous proposer un formulaire de devis buffet qui collecte ces cinq informations et pré-remplit le devis, à valider par vos soins.\n\nCôté agents IA, voici SYNATRAP, la plateforme que je développe avec mon groupe : https://synatrap.com\n\nJe peux vous préparer gratuitement une première démonstration personnalisée, sans engagement : démo du formulaire buffet produisant une demande complète et un devis pré-rempli.\n\nUn échange de quinze minutes vous conviendrait-il pour voir à quoi cela ressemblerait ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+      "need": "automatisation",
+      "evidence_sources": [
+        "https://www.celtuce-traiteur.com/contact/",
+        "https://www.celtuce-traiteur.com/contact/"
+      ],
+      "status": "pending",
+      "created_at": "2026-11-06T13:06:06+00:00",
+      "updated_at": "2026-11-06T13:10:42+00:00",
+      "gmail_draft_id": "r4668255302629793023",
+      "gmail_message_id": "1a1b0fae4630cfd9",
+      "decision_reason": "",
+      "history": [
+        {
+          "at": "2026-11-06T13:06:06+00:00",
+          "action": "created",
+          "status": "pending"
+        },
+        {
+          "at": "2026-11-06",
+          "action": "recomposed",
+          "reason": "variante diversifiée : automation_ia"
+        },
+        {
+          "at": "2026-11-06T13:10:42+00:00",
+          "action": "draft_created",
+          "reason": "brouillon Gmail créé et labellisé Prospection/2026-11-06-lot6",
+          "gmail_draft_id": "r4668255302629793023"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-06-lot6-002",
+      "campaign": "2026-11-06-lot6",
+      "to": "contact@mamiecuisinetraiteur.fr",
+      "company": "Mamie Cuisine Traiteur",
+      "subject": "Mamie Cuisine : la règle des 72 h, appliquée automatiquement ?",
+      "body": "Bonjour,\n\nVotre site indique que les plateaux-repas se commandent en ligne, mais que les buffets et petits-déjeuners passent « uniquement par mail au minimum 72h à l'avance ».\n\nJe peux vous proposer un module de demande de buffet et petit-déjeuner qui applique vos règles de délai et de zone de livraison dès la saisie.\n\nÀ titre d'exemple, voici le site institutionnel que j'ai conçu pour mon groupe : https://groupebourasseau.com\n\nJe peux vous préparer gratuitement une première démonstration personnalisée, sans engagement : démo d'une demande de buffet en ligne contrôlant le délai de 72 h et la zone de livraison.\n\nCela vous dirait de la découvrir ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+      "need": "automatisation",
+      "evidence_sources": [
+        "https://www.mamiecuisinetraiteur.fr/index.php",
+        "https://www.mamiecuisinetraiteur.fr/index.php"
+      ],
+      "status": "pending",
+      "created_at": "2026-11-06T13:06:06+00:00",
+      "updated_at": "2026-11-06T13:10:42+00:00",
+      "gmail_draft_id": "r7069133405038258003",
+      "gmail_message_id": "1a1b0faf020eae48",
+      "decision_reason": "",
+      "history": [
+        {
+          "at": "2026-11-06T13:06:06+00:00",
+          "action": "created",
+          "status": "pending"
+        },
+        {
+          "at": "2026-11-06",
+          "action": "recomposed",
+          "reason": "variante diversifiée : refonte"
+        },
+        {
+          "at": "2026-11-06T13:10:42+00:00",
+          "action": "draft_created",
+          "reason": "brouillon Gmail créé et labellisé Prospection/2026-11-06-lot6",
+          "gmail_draft_id": "r7069133405038258003"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-06-lot6-003",
+      "campaign": "2026-11-06-lot6",
+      "to": "contact@baptiste-break.fr",
+      "company": "Baptiste Break Pâtisserie Traiteur",
+      "subject": "Baptiste Break : vos semaines complètes visibles avant la demande ?",
+      "body": "Bonjour,\n\nVotre page commande précise que le nombre de commandes est limité chaque semaine et que certaines dates sont complètes plusieurs semaines à l'avance — mais un client ne peut le savoir qu'après vous avoir écrit.\n\nJe peux vous proposer un formulaire de commande qui indique les créneaux encore disponibles, calcule le devis et suit l'acompte.\n\nCôté agents IA, voici SYNATRAP, la plateforme que je développe avec mon groupe : https://synatrap.com\n\nJe peux vous préparer gratuitement une première démonstration personnalisée, sans engagement : démo d'une demande de gâteau sur-mesure affichant les semaines encore ouvertes et le devis correspondant.\n\nCela vous dirait de la découvrir ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+      "need": "automatisation",
+      "evidence_sources": [
+        "https://www.baptiste-break.fr/cgv/",
+        "https://www.baptiste-break.fr/passez-commande/"
+      ],
+      "status": "pending",
+      "created_at": "2026-11-06T13:06:06+00:00",
+      "updated_at": "2026-11-06T13:10:42+00:00",
+      "gmail_draft_id": "r-2074566668747048619",
+      "gmail_message_id": "1a1b0fafa9a0a8b2",
+      "decision_reason": "",
+      "history": [
+        {
+          "at": "2026-11-06T13:06:06+00:00",
+          "action": "created",
+          "status": "pending"
+        },
+        {
+          "at": "2026-11-06",
+          "action": "recomposed",
+          "reason": "variante diversifiée : synatrap_ia"
+        },
+        {
+          "at": "2026-11-06T13:10:42+00:00",
+          "action": "draft_created",
+          "reason": "brouillon Gmail créé et labellisé Prospection/2026-11-06-lot6",
+          "gmail_draft_id": "r-2074566668747048619"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-06-lot6-004",
+      "campaign": "2026-11-06-lot6",
+      "to": "info-location@joly-location.fr",
+      "company": "SARL Joly Location",
+      "subject": "Joly Location : votre ancien domaine renvoie « site non publié »",
+      "body": "Bonjour,\n\nPages Jaunes pointe encore vers jolylocation-echafaudage.fr, qui affiche aujourd'hui « This site is not published » — alors que votre site actif est joly-location.fr.\n\nJe peux vous proposer une demande de location qui précise matériel, dates et besoin de chauffeur, et la remise en ligne de l'ancien domaine encore cité dans les annuaires.\n\nÀ titre d'exemple, voici le site institutionnel que j'ai conçu pour mon groupe : https://groupebourasseau.com\n\nJe peux vous préparer gratuitement une première démonstration personnalisée, sans engagement : démo d'une demande de location nacelle ou échafaudage avec dates et option chauffeur.\n\nSouhaitez-vous que je vous montre cela sur un cas concret de votre activité ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+      "need": "automatisation",
+      "evidence_sources": [
+        "https://www.jolylocation-echafaudage.fr/contact",
+        "https://www.joly-location.fr/"
+      ],
+      "status": "pending",
+      "created_at": "2026-11-06T13:06:06+00:00",
+      "updated_at": "2026-11-06T13:10:42+00:00",
+      "gmail_draft_id": "r7248452827625200722",
+      "gmail_message_id": "1a1b0fb33a0329ab",
+      "decision_reason": "",
+      "history": [
+        {
+          "at": "2026-11-06T13:06:06+00:00",
+          "action": "created",
+          "status": "pending"
+        },
+        {
+          "at": "2026-11-06",
+          "action": "recomposed",
+          "reason": "variante diversifiée : with_example"
+        },
+        {
+          "at": "2026-11-06T13:10:42+00:00",
+          "action": "draft_created",
+          "reason": "brouillon Gmail créé et labellisé Prospection/2026-11-06-lot6",
+          "gmail_draft_id": "r7248452827625200722"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-06-lot6-005",
+      "campaign": "2026-11-06-lot6",
+      "to": "uzeslocation.30700@gmail.com",
+      "company": "SARL Uzès Location",
+      "subject": "Uzès Location : matériel, dates, durée — demandés dès le formulaire ?",
+      "body": "Bonjour,\n\nVotre formulaire de contact ne demande que nom, téléphone, e-mail et un message libre : pour chiffrer une location, il faut ensuite réclamer le matériel, les dates et la durée.\n\nJe peux vous proposer un formulaire de demande de location qui collecte le matériel, les dates et la durée pour préparer le devis sans échange préalable.\n\nCôté agents IA, voici SYNATRAP, la plateforme que je développe avec mon groupe : https://synatrap.com\n\nJe peux vous préparer gratuitement une première démonstration personnalisée, sans engagement : démo d'une demande de location avec matériel, dates et livraison, prête à chiffrer.\n\nCela vous dirait de la découvrir ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+      "need": "automatisation",
+      "evidence_sources": [
+        "https://uzes-location.fr/contact/",
+        "https://uzes-location.fr/"
+      ],
+      "status": "pending",
+      "created_at": "2026-11-06T13:06:06+00:00",
+      "updated_at": "2026-11-06T13:10:42+00:00",
+      "gmail_draft_id": "r8584317365937954867",
+      "gmail_message_id": "1a1b0fb442b3a0be",
+      "decision_reason": "",
+      "history": [
+        {
+          "at": "2026-11-06T13:06:06+00:00",
+          "action": "created",
+          "status": "pending"
+        },
+        {
+          "at": "2026-11-06",
+          "action": "recomposed",
+          "reason": "variante diversifiée : demo_site"
+        },
+        {
+          "at": "2026-11-06T13:10:42+00:00",
+          "action": "draft_created",
+          "reason": "brouillon Gmail créé et labellisé Prospection/2026-11-06-lot6",
+          "gmail_draft_id": "r8584317365937954867"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-06-lot6-006",
+      "campaign": "2026-11-06-lot6",
+      "to": "contact@techniquespiscine.fr",
+      "company": "Techniques Piscine",
+      "subject": "Techniques Piscine : qualifier le projet avant le premier appel ?",
+      "body": "Bonjour,\n\nVotre page contact promet « un seul interlocuteur » et un suivi clé en main, mais le formulaire ne demande que nom, e-mail, téléphone et un message libre.\n\nJe mets en place des automatisations qui vous font gagner du temps sur les tâches répétitives.\n\nJe peux vous préparer gratuitement une première démonstration personnalisée, sans engagement : démo d'un formulaire de projet piscine qui trie construction, rénovation et entretien dès la demande.\n\nUn échange de quinze minutes vous conviendrait-il pour voir à quoi cela ressemblerait ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+      "need": "automatisation",
+      "evidence_sources": [
+        "https://techniquespiscine.fr/contactez-nous/",
+        "https://techniquespiscine.fr/contactez-nous/"
+      ],
+      "status": "pending",
+      "created_at": "2026-11-06T13:06:06+00:00",
+      "updated_at": "2026-11-06T13:10:42+00:00",
+      "gmail_draft_id": "r-1290563027882505100",
+      "gmail_message_id": "1a1b0fb4f5c048ea",
+      "decision_reason": "",
+      "history": [
+        {
+          "at": "2026-11-06T13:06:06+00:00",
+          "action": "created",
+          "status": "pending"
+        },
+        {
+          "at": "2026-11-06",
+          "action": "recomposed",
+          "reason": "variante diversifiée : short_hook"
+        },
+        {
+          "at": "2026-11-06T13:10:42+00:00",
+          "action": "draft_created",
+          "reason": "brouillon Gmail créé et labellisé Prospection/2026-11-06-lot6",
+          "gmail_draft_id": "r-1290563027882505100"
         }
       ]
     }

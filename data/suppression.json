@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-04T22:09:57+00:00",
-  "count": 1,
+  "updated_at": "2026-11-06T13:01:55+00:00",
+  "count": 2,
   "entries": [
     {
       "email": "contact@severine-lesourd.com",
@@ -8,6 +8,14 @@
       "reason": "rebond_dur",
       "source": "audit-inbox",
       "added_at": "2026-11-04T22:09:57+00:00",
+      "domain_wide": false
+    },
+    {
+      "email": "celarenarde@gmail.com",
+      "domain": "gmail.com",
+      "reason": "opt-out",
+      "source": "reply-gmail-2026-11-05",
+      "added_at": "2026-11-06T13:00:22+00:00",
       "domain_wide": false
     }
   ]

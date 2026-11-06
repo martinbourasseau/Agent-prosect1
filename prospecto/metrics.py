@@ -25,6 +25,24 @@ def _load_replies() -> list[dict]:
     return []
 
 
+def merge_inbound(replies: list[dict], audit: list[dict]) -> list[dict]:
+    """Fusionne journal des réponses et audit de boîte, sans double compte.
+
+    Un même message peut être présent dans les deux sources : l'identifiant
+    Gmail sert de clé, sinon le couple (expéditeur, objet).
+    """
+    out: list[dict] = []
+    seen: set[str] = set()
+    for entry in list(replies) + list(audit):
+        key = entry.get("message_id") or entry.get("id") or (
+            f"{(entry.get('from') or entry.get('from_email') or '').lower()}|{entry.get('subject', '')}")
+        if key in seen:
+            continue
+        seen.add(key)
+        out.append(entry)
+    return out
+
+
 def _load_audit() -> list[dict]:
     from .inbox_audit import AUDIT_PATH
 
@@ -63,9 +81,14 @@ def compute_metrics() -> dict[str, Any]:
     complained = [e for e in log.entries if e.get("status") == "complained"]
     dry = [e for e in log.entries if e.get("status") == "dry_run"]
 
-    # Réponses
+    # Réponses — lot 6 : l'audit de boîte est la source de vérité quand le
+    # journal historique des réponses n'existe pas. Sans cette fusion, une
+    # opposition ou un accusé constaté dans Gmail restait compté à zéro ici
+    # alors qu'il apparaissait déjà dans « deliverability ».
+    audit_findings = _load_audit()
+    inbound = merge_inbound(replies, audit_findings)
     intents: dict[str, int] = {}
-    for rp in replies:
+    for rp in inbound:
         it = rp.get("intent", "inconnu")
         intents[it] = intents.get(it, 0) + 1
     demos_requested = intents.get("demande_info", 0) + intents.get("demande_rdv", 0) + intents.get("positive", 0)
@@ -73,7 +96,7 @@ def compute_metrics() -> dict[str, Any]:
     # Performance par variante / référence (depuis le journal + file).
     by_variant: dict[str, dict[str, int]] = {}
     by_reference: dict[str, dict[str, int]] = {}
-    reply_by_email = {rp.get("from", "").lower(): rp for rp in replies}
+    reply_by_email = {rp.get("from", "").lower(): rp for rp in inbound}
     for e in log.entries:
         v = e.get("variant") or "inconnu"
         ref = e.get("reference_id") or "aucune"
@@ -113,15 +136,16 @@ def compute_metrics() -> dict[str, Any]:
             "sent_today": log.sent_today(),
         },
         "replies": {
-            "total": len(replies),
+            "total": len(inbound),
             "by_intent": intents,
             "positive": intents.get("positive", 0),
             "demos_requested": demos_requested,
             "opt_out": intents.get("opposition", 0),
+            "sources": {"journal_reponses": len(replies), "audit_boite": len(audit_findings)},
         },
         "suppression": {"count": suppression.count()},
         "performance": {"by_variant": by_variant, "by_reference": by_reference},
-        "deliverability": _deliverability(log.entries, records, _load_audit()),
+        "deliverability": _deliverability(log.entries, records, audit_findings),
         "by_lot": _by_lot(records, log.entries, queue),
         "scoring": _scoring_overview(records),
     }

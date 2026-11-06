@@ -83,6 +83,22 @@ DEMO_IA_PHRASE = (
 CTA_SIMPLE = "Seriez-vous ouvert à un court échange pour en parler ?"
 CTA_DEMO = "Cela vous dirait de la découvrir ?"
 
+# Lot 6 : trois formulations d'appel à l'action, toutes aussi simples et sans
+# engagement, pour que deux messages d'un même lot ne se terminent pas de la
+# même façon. Le choix est déterministe (même entreprise -> même CTA) afin que
+# la régénération d'un message reste reproductible.
+CTA_DEMO_VARIANTS = (
+    "Cela vous dirait de la découvrir ?",
+    "Souhaitez-vous que je vous montre cela sur un cas concret de votre activité ?",
+    "Un échange de quinze minutes vous conviendrait-il pour voir à quoi cela ressemblerait ?",
+)
+
+
+def select_cta_demo(prospect: Prospect) -> str:
+    """Choisit un CTA stable pour cette entreprise (rotation déterministe)."""
+    key = prospect.company or prospect.contact_email or ""
+    return CTA_DEMO_VARIANTS[sum(ord(c) for c in key) % len(CTA_DEMO_VARIANTS)]
+
 
 def applicable_variants(prospect: Prospect) -> list[str]:
     """Variantes pertinentes pour ce prospect (pour rotation A/B)."""
@@ -149,14 +165,22 @@ def _proposition(prospect: Prospect) -> str:
 
 
 def _demo_phrase(prospect: Prospect) -> str:
-    need = prospect.primary_need
-    if need in (NEED_AGENT_IA, NEED_AUTOMATISATION):
-        return DEMO_IA_PHRASE
-    if prospect.demo_detail.strip():
+    """Phrase de démonstration.
+
+    Lot 6 — correction : le détail de démonstration researched était ignoré dès
+    que le besoin principal était « automatisation » ou « agent IA », ce qui
+    produisait une phrase générique identique pour tous ces prospects. Le détail
+    personnalisé prime désormais quel que soit l'axe ; les phrases génériques ne
+    servent plus que de repli.
+    """
+    detail = prospect.demo_detail.strip()
+    if detail:
         return (
             "Je peux vous préparer gratuitement une première démonstration personnalisée, "
-            f"sans engagement : {prospect.demo_detail.strip()}."
+            f"sans engagement : {detail}."
         )
+    if prospect.primary_need in (NEED_AGENT_IA, NEED_AUTOMATISATION):
+        return DEMO_IA_PHRASE
     return DEMO_SITE_PHRASE
 
 
@@ -212,7 +236,7 @@ def compose_email(
     if flags["demo"]:
         parts.append(_demo_phrase(prospect))
 
-    parts.append(CTA_DEMO if flags["demo"] else CTA_SIMPLE)
+    parts.append(select_cta_demo(prospect) if flags["demo"] else CTA_SIMPLE)
     parts.append(config.OPT_OUT_LINE)
     parts.append(config.signature())
     body = "\n\n".join(parts) + "\n"

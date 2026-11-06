@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-04T22:11:18+00:00",
-  "count": 27,
+  "updated_at": "2026-11-06T13:05:26+00:00",
+  "count": 33,
   "domains": {
     "renovationpremium.com": {
       "domain": "renovationpremium.com",
@@ -279,6 +279,62 @@
       ],
       "checked_at": "2026-11-04T22:11:18+00:00",
       "detail": "1 MX publiés"
+    },
+    "celtuce-traiteur.com": {
+      "domain": "celtuce-traiteur.com",
+      "status": "mx_ok",
+      "mx_hosts": [
+        "mx00.ionos.fr",
+        "mx01.ionos.fr"
+      ],
+      "checked_at": "2026-11-06T13:05:26+00:00",
+      "detail": "2 MX publiés"
+    },
+    "mamiecuisinetraiteur.fr": {
+      "domain": "mamiecuisinetraiteur.fr",
+      "status": "mx_ok",
+      "mx_hosts": [
+        "mx1.mail.ovh.net"
+      ],
+      "checked_at": "2026-11-06T13:05:26+00:00",
+      "detail": "1 MX publiés"
+    },
+    "baptiste-break.fr": {
+      "domain": "baptiste-break.fr",
+      "status": "mx_ok",
+      "mx_hosts": [
+        "mx00.ionos.fr",
+        "mx01.ionos.fr"
+      ],
+      "checked_at": "2026-11-06T13:05:26+00:00",
+      "detail": "2 MX publiés"
+    },
+    "joly-location.fr": {
+      "domain": "joly-location.fr",
+      "status": "mx_ok",
+      "mx_hosts": [
+        "fb.mail.gandi.net",
+        "spool.mail.gandi.net"
+      ],
+      "checked_at": "2026-11-06T13:05:26+00:00",
+      "detail": "2 MX publiés"
+    },
+    "sas-maire.fr": {
+      "domain": "sas-maire.fr",
+      "status": "nxdomain",
+      "mx_hosts": [],
+      "checked_at": "2026-11-06T13:05:26+00:00",
+      "detail": "le domaine n'existe pas (NXDOMAIN)"
+    },
+    "techniquespiscine.fr": {
+      "domain": "techniquespiscine.fr",
+      "status": "mx_ok",
+      "mx_hosts": [
+        "mx00.ionos.fr",
+        "mx01.ionos.fr"
+      ],
+      "checked_at": "2026-11-06T13:05:26+00:00",
+      "detail": "2 MX publiés"
     }
   }
 }

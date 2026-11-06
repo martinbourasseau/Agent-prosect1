@@ -106,6 +106,34 @@ def extract_bounce_recipient(text: str, sender: str = "") -> str:
     return ""
 
 
+_REDIRECT_PATTERNS = (
+    re.compile(r"(?:utiliser l'adresse suivante|nouvelle adresse|adresse suivante)\s*:?\s*<?"
+               r"([A-Za-z0-9._%+\-]+@[A-Za-z0-9.\-]+\.[A-Za-z]{2,})", re.I),
+    re.compile(r"(?:merci d(?:ésormais )?(?:d')?utiliser|contactez[- ]nous (?:désormais )?à)\s*:?\s*<?"
+               r"([A-Za-z0-9._%+\-]+@[A-Za-z0-9.\-]+\.[A-Za-z]{2,})", re.I),
+    re.compile(r"(?:please (?:now )?use|our new address is)\s*:?\s*<?"
+               r"([A-Za-z0-9._%+\-]+@[A-Za-z0-9.\-]+\.[A-Za-z]{2,})", re.I),
+)
+
+
+def extract_redirect_address(text: str, sender: str = "") -> str:
+    """Adresse de remplacement annoncée par un accusé automatique.
+
+    Certains répondeurs indiquent une nouvelle adresse de contact (rachat,
+    changement de domaine). On la conserve comme information vérifiable, sans
+    jamais contacter automatiquement cette nouvelle adresse.
+    """
+    text = text or ""
+    sender = (sender or "").strip().lower()
+    for pattern in _REDIRECT_PATTERNS:
+        match = pattern.search(text)
+        if match:
+            candidate = match.group(1).strip().strip("<>").rstrip(".").lower()
+            if candidate and candidate != sender and candidate.split("@")[0] not in _ROLE_LOCAL_PARTS:
+                return candidate
+    return ""
+
+
 def bounce_severity(text: str) -> str:
     low = (text or "").lower()
     if any(m in low for m in _HARD_MARKERS):
@@ -216,6 +244,7 @@ class Finding:
     reason: str
     observed_at: str = field(default_factory=_now)
     excerpt: str = ""
+    redirect_to: str = ""
 
     def to_dict(self) -> dict[str, Any]:
         return asdict(self)
@@ -247,6 +276,8 @@ def audit_inbox(messages: Iterable[dict[str, Any]], records: Iterable[dict[str, 
             matched_by=match.method,
             reason=verdict["reason"],
             excerpt=(text or "")[:400],
+            redirect_to=(extract_redirect_address(text, from_email)
+                         if verdict["intent"] == INTENT_AUTO_REPLY else ""),
         ))
     return findings
 
@@ -287,6 +318,11 @@ def apply_findings(findings: Iterable[Finding], crm: Any, suppression: Any = Non
             report["bounces"] += 1
         elif finding.intent == INTENT_AUTO_REPLY:
             record["delivery_confirmed"] = True  # un accusé prouve la délivrance, pas l'intérêt
+            if finding.redirect_to:
+                record["redirect_address"] = finding.redirect_to
+                record["next_action"] = (
+                    f"Accusé automatique : nouvelle adresse annoncée {finding.redirect_to} — "
+                    "vérifier et requalifier avant toute décision (aucun contact automatique)")
             report["auto_replies"] += 1
         elif finding.intent == INTENT_OPT_OUT:
             record["opposed"] = True
