@@ -1,0 +1,1956 @@
+{
+  "updated_at": "2026-11-06T13:10:42+00:00",
+  "items": [
+    {
+      "id": "2026-11-03-v2-001",
+      "campaign": "2026-11-03-v2",
+      "to": "contact@renovationpremium.com",
+      "company": "R Premium",
+      "subject": "Une idée pour le site de R Premium ?",
+      "body": "Bonjour,\n\nJ'ai vu que vous recherchez un prestataire pour faire évoluer votre site WordPress, son référencement et votre communication digitale (annonce Codeur.com consultée le 3 novembre).\n\nJe conçois et modernise des sites web pour des entreprises comme la vôtre : mise en avant des réalisations et demande de devis simplifiée.\n\nJe vous propose de créer une première démonstration personnalisée, gratuitement et sans engagement : un aperçu visuel d'amélioration de votre page d'accueil.\n\nEst-ce que cela pourrait vous intéresser ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation web · Agents IA · Automatisation\nhttps://prospecto.website\n",
+      "need": "refonte",
+      "evidence_sources": [
+        "https://www.codeur.com/pages/appel-offre"
+      ],
+      "status": "sent",
+      "created_at": "2026-11-03T18:02:11+00:00",
+      "updated_at": "2026-11-04T21:30:00+00:00",
+      "gmail_draft_id": "r-7104264166518428447",
+      "gmail_message_id": "1a1a34a502673385",
+      "decision_reason": "",
+      "history": [
+        {
+          "at": "2026-11-03T18:02:11+00:00",
+          "action": "created",
+          "status": "pending"
+        },
+        {
+          "at": "2026-11-03T18:03:11+00:00",
+          "action": "gmail_draft_created",
+          "draft_id": "r-7104264166518428447"
+        },
+        {
+          "at": "2026-11-04T21:30:00+00:00",
+          "action": "sent_observed_in_gmail",
+          "gmail_message_id": "1a1a34a502673385",
+          "note": "envoi constaté dans Gmail (hors agent)"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-03-v2-002",
+      "campaign": "2026-11-03-v2",
+      "to": "secteur72fr@gmail.com",
+      "company": "Secteur 72",
+      "subject": "Une idée pour gagner du temps chez Secteur 72 ?",
+      "body": "Bonjour Marc,\n\nJ'ai vu que vous préparez l'ouverture de votre terrain d'airsoft en Sarthe et cherchez à développer votre communauté en ligne (annonce Codeur.com du 3 novembre).\n\nJe mets en place des automatisations qui font gagner du temps aux entreprises comme la vôtre : traitement automatique des demandes entrantes.\n\nJe vous propose de créer une première démonstration personnalisée, gratuitement et sans engagement : une illustration du processus de réservation qui pourrait être automatisé chez vous (confirmations, rappels, réponses aux questions des joueurs).\n\nEst-ce que cela pourrait vous intéresser ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation web · Agents IA · Automatisation\nhttps://prospecto.website\n",
+      "need": "automatisation",
+      "evidence_sources": [
+        "https://www.codeur.com/projects/492309-e-commerce-et-site-web-vitrine",
+        "https://lesecteur72.fr/"
+      ],
+      "status": "sent",
+      "created_at": "2026-11-03T18:02:11+00:00",
+      "updated_at": "2026-11-04T21:30:00+00:00",
+      "gmail_draft_id": "r7603863657574249798",
+      "gmail_message_id": "1a1a34a892abaf2e",
+      "decision_reason": "",
+      "history": [
+        {
+          "at": "2026-11-03T18:02:11+00:00",
+          "action": "created",
+          "status": "pending"
+        },
+        {
+          "at": "2026-11-03T18:03:11+00:00",
+          "action": "gmail_draft_created",
+          "draft_id": "r7603863657574249798"
+        },
+        {
+          "at": "2026-11-04T21:30:00+00:00",
+          "action": "sent_observed_in_gmail",
+          "gmail_message_id": "1a1a34a892abaf2e",
+          "note": "envoi constaté dans Gmail (hors agent)"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-03-v3-001",
+      "campaign": "2026-11-03-v3",
+      "to": "contact@renovationpremium.com",
+      "company": "R Premium",
+      "subject": "Votre annonce WordPress + référencement",
+      "body": "Bonjour,\n\nJ'ai lu votre annonce : vous voulez faire évoluer votre site WordPress, votre référencement et votre communication.\n\nJe modernise les sites web pour les rendre plus clairs, plus rapides et plus convaincants.\n\nJe peux vous préparer gratuitement une première démonstration personnalisée, sans engagement : un aperçu de votre page d'accueil optimisée pour le référencement.\n\nSeriez-vous intéressé pour la découvrir ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation web · Agents IA · Automatisation\nhttps://prospecto.website\n",
+      "need": "refonte",
+      "evidence_sources": [
+        "https://www.codeur.com/pages/appel-offre"
+      ],
+      "status": "pending",
+      "created_at": "2026-11-03T21:14:04+00:00",
+      "updated_at": "2026-11-03T21:14:04+00:00",
+      "gmail_draft_id": null,
+      "gmail_message_id": null,
+      "decision_reason": "",
+      "history": [
+        {
+          "at": "2026-11-03T21:14:04+00:00",
+          "action": "created",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-03-v3-002",
+      "campaign": "2026-11-03-v3",
+      "to": "secteur72fr@gmail.com",
+      "company": "Secteur 72",
+      "subject": "Secteur 72 : automatiser avant l'ouverture ?",
+      "body": "Bonjour Marc,\n\nJ'ai suivi le lancement de Secteur 72 : vous préparez l'ouverture de votre terrain d'airsoft et le développement de la boutique.\n\nJe mets en place des automatisations qui font gagner du temps sur les tâches répétitives.\n\nJe peux vous préparer gratuitement une première démonstration personnalisée, sans engagement : un exemple de parcours de réservation automatisé avec rappels avant chaque session.\n\nSeriez-vous intéressé pour la découvrir ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation web · Agents IA · Automatisation\nhttps://prospecto.website\n",
+      "need": "automatisation",
+      "evidence_sources": [
+        "https://www.codeur.com/projects/492309-e-commerce-et-site-web-vitrine",
+        "https://www.actu.fr/pays-de-la-loire/montval-sur-loir_72071/sarthe-il-cherche-un-terrain-pour-son-projet-de-terrain-d-airsoft_64922877.html"
+      ],
+      "status": "pending",
+      "created_at": "2026-11-03T21:14:04+00:00",
+      "updated_at": "2026-11-03T21:14:04+00:00",
+      "gmail_draft_id": null,
+      "gmail_message_id": null,
+      "decision_reason": "",
+      "history": [
+        {
+          "at": "2026-11-03T21:14:04+00:00",
+          "action": "created",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-03-v3-003",
+      "campaign": "2026-11-03-v3",
+      "to": "support@bsp-auto.com",
+      "company": "BSP Auto",
+      "subject": "Votre newsletter mensuelle, en pilote automatique ?",
+      "body": "Bonjour,\n\nJ'ai vu votre projet de newsletter mensuelle pour vos agences de voyages clientes.\n\nJe mets en place des automatisations qui font gagner du temps sur les tâches répétitives.\n\nJe peux vous préparer gratuitement une première démonstration personnalisée, sans engagement : un exemple de newsletter générée et envoyée automatiquement chaque mois.\n\nSeriez-vous intéressé pour la découvrir ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation web · Agents IA · Automatisation\nhttps://prospecto.website\n",
+      "need": "automatisation",
+      "evidence_sources": [
+        "https://www.codeur.com/projects/492305-newsletter-location-de-voiture"
+      ],
+      "status": "pending",
+      "created_at": "2026-11-03T21:14:04+00:00",
+      "updated_at": "2026-11-03T21:14:04+00:00",
+      "gmail_draft_id": null,
+      "gmail_message_id": null,
+      "decision_reason": "",
+      "history": [
+        {
+          "at": "2026-11-03T21:14:04+00:00",
+          "action": "created",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-03-v3-004",
+      "campaign": "2026-11-03-v3",
+      "to": "contact@cerf-athletic-training.fr",
+      "company": "CERF Athletic Training",
+      "subject": "CERF : automatiser le suivi de vos adhérents ?",
+      "body": "Bonjour Elwen,\n\nJ'ai suivi l'ouverture de CERF à Mouzillon : petits groupes, coach présent, objectif d'une centaine d'adhérents.\n\nJe mets en place des automatisations qui font gagner du temps sur les tâches répétitives.\n\nJe peux vous préparer gratuitement une première démonstration personnalisée, sans engagement : un exemple de gestion automatisée des inscriptions et des rappels de séances.\n\nSeriez-vous intéressé pour la découvrir ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation web · Agents IA · Automatisation\nhttps://prospecto.website\n",
+      "need": "automatisation",
+      "evidence_sources": [
+        "https://actu.fr/pays-de-la-loire/mouzillon_44108/elle-va-ouvrir-dans-le-vignoble-nantais-que-propose-cette-salle-de-sport-qui-defend-une-autre-approche_64655582.html"
+      ],
+      "status": "pending",
+      "created_at": "2026-11-03T21:14:04+00:00",
+      "updated_at": "2026-11-03T21:14:04+00:00",
+      "gmail_draft_id": null,
+      "gmail_message_id": null,
+      "decision_reason": "",
+      "history": [
+        {
+          "at": "2026-11-03T21:14:04+00:00",
+          "action": "created",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-03-v3-005",
+      "campaign": "2026-11-03-v3",
+      "to": "charmedelhetre50@gmail.com",
+      "company": "Charme de l'Hêtre",
+      "subject": "Charme de l'Hêtre : être trouvé sur Google ?",
+      "body": "Bonjour Chloé,\n\nJe viens de découvrir Charme de l'Hêtre, votre activité d'arboriste grimpeuse lancée cet été.\n\nJe crée des sites web modernes et professionnels, pensés pour valoriser votre savoir-faire et transformer vos visiteurs en clients.\n\nJe peux vous préparer gratuitement une première démonstration personnalisée, sans engagement : une première maquette de site vitrine pour votre activité d'élagage.\n\nSeriez-vous intéressé pour la découvrir ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation web · Agents IA · Automatisation\nhttps://prospecto.website\n",
+      "need": "site_web",
+      "evidence_sources": [
+        "https://actu.fr/normandie/la-chapelle-uree_50124/dans-le-sud-manche-elle-a-cree-son-entreprise-darboriste-grimpeuse-pour-mettre-en-valeur-les-vegetaux_64675166.html"
+      ],
+      "status": "pending",
+      "created_at": "2026-11-03T21:14:04+00:00",
+      "updated_at": "2026-11-03T21:14:04+00:00",
+      "gmail_draft_id": null,
+      "gmail_message_id": null,
+      "decision_reason": "",
+      "history": [
+        {
+          "at": "2026-11-03T21:14:04+00:00",
+          "action": "created",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-04-v4-001",
+      "campaign": "2026-11-04-v4",
+      "to": "campingmeretcamargue@orange.fr",
+      "company": "Camping Mer et Camargue — Restaurant Le Pano",
+      "subject": "Un agent IA pour Camping Mer et Camargue — Restaurant Le Pano ?",
+      "body": "Bonjour,\n\nEn parcourant votre site (campingmeretcamargue.fr), j'ai relevé un point concret : les réservations du restaurant et des événements se font uniquement par téléphone, sans réservation en ligne.\n\nJe peux vous proposer la réservation en ligne et le traitement automatique des demandes pour votre restaurant et vos événements\n\nCôté agents IA, voici SYNATRAP, la plateforme que je développe avec mon groupe : https://synatrap.com\n\nJe peux vous montrer gratuitement une démonstration concrète de la solution envisagée, sans engagement, sur un cas réel de votre activité.\n\nCela vous dirait de la découvrir ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation web · Agents IA · Automatisation\nhttps://prospecto.website\n",
+      "need": "automatisation",
+      "evidence_sources": [
+        "https://www.campingmeretcamargue.fr/restaurant/",
+        "https://www.campingmeretcamargue.fr/restaurant/"
+      ],
+      "status": "pending",
+      "created_at": "2026-11-04T18:28:09+00:00",
+      "updated_at": "2026-11-04T18:28:09+00:00",
+      "gmail_draft_id": null,
+      "gmail_message_id": null,
+      "decision_reason": "",
+      "history": [
+        {
+          "at": "2026-11-04T18:28:09+00:00",
+          "action": "created",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-04-v4-002",
+      "campaign": "2026-11-04-v4",
+      "to": "contact@renovationpremium.com",
+      "company": "R Premium",
+      "subject": "Votre annonce WordPress + référencement",
+      "body": "Bonjour,\n\nJ'ai lu votre annonce : vous voulez faire évoluer votre site WordPress, votre référencement et votre communication.\n\nJe peux vous proposer une optimisation de votre site WordPress pour le rendre plus rapide et mieux référencé, sans tout reconstruire\n\nÀ titre d'exemple, voici le site institutionnel que j'ai conçu pour mon groupe : https://groupebourasseau.com\n\nJe peux vous préparer gratuitement une première démonstration personnalisée, sans engagement : un aperçu de votre page d'accueil optimisée pour le référencement.\n\nCela vous dirait de la découvrir ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation web · Agents IA · Automatisation\nhttps://prospecto.website\n",
+      "need": "refonte",
+      "evidence_sources": [
+        "https://www.codeur.com/pages/appel-offre"
+      ],
+      "status": "pending",
+      "created_at": "2026-11-04T18:28:22+00:00",
+      "updated_at": "2026-11-04T18:28:22+00:00",
+      "gmail_draft_id": null,
+      "gmail_message_id": null,
+      "decision_reason": "",
+      "history": [
+        {
+          "at": "2026-11-04T18:28:22+00:00",
+          "action": "created",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-04-v4-003",
+      "campaign": "2026-11-04-v4",
+      "to": "secteur72fr@gmail.com",
+      "company": "Secteur 72",
+      "subject": "Secteur 72 : automatiser avant l'ouverture ?",
+      "body": "Bonjour Marc,\n\nJ'ai suivi le lancement de Secteur 72 : vous préparez l'ouverture de votre terrain d'airsoft et le développement de la boutique.\n\nJe peux vous proposer une automatisation de vos réservations et rappels de sessions, pour ouvrir sans y passer vos soirées\n\nCôté agents IA, voici SYNATRAP, la plateforme que je développe avec mon groupe : https://synatrap.com\n\nJe peux vous montrer gratuitement une démonstration concrète de la solution envisagée, sans engagement, sur un cas réel de votre activité.\n\nCela vous dirait de la découvrir ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation web · Agents IA · Automatisation\nhttps://prospecto.website\n",
+      "need": "automatisation",
+      "evidence_sources": [
+        "https://www.codeur.com/projects/492309-e-commerce-et-site-web-vitrine",
+        "https://www.actu.fr/pays-de-la-loire/montval-sur-loir_72071/sarthe-il-cherche-un-terrain-pour-son-projet-de-terrain-d-airsoft_64922877.html"
+      ],
+      "status": "pending",
+      "created_at": "2026-11-04T18:28:22+00:00",
+      "updated_at": "2026-11-04T18:28:22+00:00",
+      "gmail_draft_id": null,
+      "gmail_message_id": null,
+      "decision_reason": "",
+      "history": [
+        {
+          "at": "2026-11-04T18:28:22+00:00",
+          "action": "created",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-04-v4-004",
+      "campaign": "2026-11-04-v4",
+      "to": "support@bsp-auto.com",
+      "company": "BSP Auto",
+      "subject": "Votre newsletter mensuelle, en pilote automatique ?",
+      "body": "Bonjour,\n\nJ'ai vu votre projet de newsletter mensuelle pour vos agences de voyages clientes.\n\nJe peux vous proposer une automatisation qui prépare et envoie votre newsletter mensuelle à vos agences clientes, sans y repasser chaque mois\n\nCôté agents IA, voici SYNATRAP, la plateforme que je développe avec mon groupe : https://synatrap.com\n\nJe peux vous montrer gratuitement une démonstration concrète de la solution envisagée, sans engagement, sur un cas réel de votre activité.\n\nCela vous dirait de la découvrir ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation web · Agents IA · Automatisation\nhttps://prospecto.website\n",
+      "need": "automatisation",
+      "evidence_sources": [
+        "https://www.codeur.com/projects/492305-newsletter-location-de-voiture"
+      ],
+      "status": "pending",
+      "created_at": "2026-11-04T18:28:22+00:00",
+      "updated_at": "2026-11-04T18:28:22+00:00",
+      "gmail_draft_id": null,
+      "gmail_message_id": null,
+      "decision_reason": "",
+      "history": [
+        {
+          "at": "2026-11-04T18:28:22+00:00",
+          "action": "created",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-04-v4-005",
+      "campaign": "2026-11-04-v4",
+      "to": "contact@cerf-athletic-training.fr",
+      "company": "CERF Athletic Training",
+      "subject": "CERF : automatiser le suivi de vos adhérents ?",
+      "body": "Bonjour Elwen,\n\nJ'ai suivi l'ouverture de CERF à Mouzillon : petits groupes, coach présent, objectif d'une centaine d'adhérents.\n\nJe peux vous proposer une automatisation de vos inscriptions, rappels de séances et réponses aux questions des adhérents\n\nCôté agents IA, voici SYNATRAP, la plateforme que je développe avec mon groupe : https://synatrap.com\n\nJe peux vous montrer gratuitement une démonstration concrète de la solution envisagée, sans engagement, sur un cas réel de votre activité.\n\nCela vous dirait de la découvrir ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation web · Agents IA · Automatisation\nhttps://prospecto.website\n",
+      "need": "automatisation",
+      "evidence_sources": [
+        "https://actu.fr/pays-de-la-loire/mouzillon_44108/elle-va-ouvrir-dans-le-vignoble-nantais-que-propose-cette-salle-de-sport-qui-defend-une-autre-approche_64655582.html"
+      ],
+      "status": "pending",
+      "created_at": "2026-11-04T18:28:22+00:00",
+      "updated_at": "2026-11-04T18:28:22+00:00",
+      "gmail_draft_id": null,
+      "gmail_message_id": null,
+      "decision_reason": "",
+      "history": [
+        {
+          "at": "2026-11-04T18:28:22+00:00",
+          "action": "created",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-04-v4-006",
+      "campaign": "2026-11-04-v4",
+      "to": "charmedelhetre50@gmail.com",
+      "company": "Charme de l'Hêtre",
+      "subject": "Charme de l'Hêtre : être trouvé sur Google ?",
+      "body": "Bonjour Chloé,\n\nJe viens de découvrir Charme de l'Hêtre, votre activité d'arboriste grimpeuse lancée cet été.\n\nJe peux vous proposer un site vitrine clair et rapide qui présente votre activité d'élagage et donne envie de vous contacter\n\nÀ titre d'exemple, voici le site institutionnel que j'ai conçu pour mon groupe : https://groupebourasseau.com\n\nJe peux vous préparer gratuitement une première démonstration personnalisée, sans engagement : une première maquette de site vitrine pour votre activité d'élagage.\n\nCela vous dirait de la découvrir ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation web · Agents IA · Automatisation\nhttps://prospecto.website\n",
+      "need": "site_web",
+      "evidence_sources": [
+        "https://actu.fr/normandie/la-chapelle-uree_50124/dans-le-sud-manche-elle-a-cree-son-entreprise-darboriste-grimpeuse-pour-mettre-en-valeur-les-vegetaux_64675166.html"
+      ],
+      "status": "pending",
+      "created_at": "2026-11-04T18:28:22+00:00",
+      "updated_at": "2026-11-04T18:28:22+00:00",
+      "gmail_draft_id": null,
+      "gmail_message_id": null,
+      "decision_reason": "",
+      "history": [
+        {
+          "at": "2026-11-04T18:28:22+00:00",
+          "action": "created",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-04-lancement-001",
+      "campaign": "2026-11-04-lancement",
+      "to": "reception@camping-galet.com",
+      "company": "Camping Le Galet",
+      "subject": "Un agent IA pour Camping Le Galet ?",
+      "body": "Bonjour,\n\nEn parcourant votre site (camping-galet.com), j'ai relevé un point concret : les emplacements (tentes, caravanes, camping-cars) se réservent uniquement par téléphone, sans réservation en ligne.\n\nJe peux vous proposer la réservation en ligne de vos emplacements et le traitement automatique des demandes de séjour.\n\nCôté agents IA, voici SYNATRAP, la plateforme que je développe avec mon groupe : https://synatrap.com\n\nJe peux vous montrer gratuitement une démonstration concrète de la solution envisagée, sans engagement, sur un cas réel de votre activité.\n\nCela vous dirait de la découvrir ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+      "need": "automatisation",
+      "evidence_sources": [
+        "https://camping-galet.com/en/reservations-open-2025/",
+        "https://camping-galet.com/"
+      ],
+      "status": "sent",
+      "created_at": "2026-11-04T18:50:17+00:00",
+      "updated_at": "2026-11-04T21:30:00+00:00",
+      "gmail_draft_id": "r-8798186389434120513",
+      "gmail_message_id": "1a1a8720126c3fca",
+      "decision_reason": "",
+      "history": [
+        {
+          "at": "2026-11-04T18:50:17+00:00",
+          "action": "created",
+          "status": "pending"
+        },
+        {
+          "at": "2026-11-04T18:52:40+00:00",
+          "action": "gmail_draft_created",
+          "draft_id": "r-8798186389434120513"
+        },
+        {
+          "at": "2026-11-04T21:30:00+00:00",
+          "action": "sent_observed_in_gmail",
+          "gmail_message_id": "1a1a8720126c3fca",
+          "note": "envoi constaté dans Gmail (hors agent)"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-04-lancement-002",
+      "campaign": "2026-11-04-lancement",
+      "to": "larenardieredelyna@gmail.com",
+      "company": "Restaurant La Renardière",
+      "subject": "Restaurant La Renardière : automatiser avec un agent ?",
+      "body": "Bonjour Julien,\n\nEn parcourant votre site (larenardiere-coldemarcieu.fr), j'ai relevé un point concret : les réservations et devis (groupes, séminaires, traiteur) se font par téléphone, sans demande en ligne structurée.\n\nJe peux vous proposer le traitement automatique des demandes de groupes, séminaires et traiteur, avec devis et confirmations.\n\nCôté agents IA, voici SYNATRAP, la plateforme que je développe avec mon groupe : https://synatrap.com\n\nJe peux vous montrer gratuitement une démonstration concrète de la solution envisagée, sans engagement, sur un cas réel de votre activité.\n\nCela vous dirait de la découvrir ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+      "need": "automatisation",
+      "evidence_sources": [
+        "https://larenardiere-coldemarcieu.fr/",
+        "https://larenardiere-coldemarcieu.fr/"
+      ],
+      "status": "sent",
+      "created_at": "2026-11-04T18:50:17+00:00",
+      "updated_at": "2026-11-04T21:30:00+00:00",
+      "gmail_draft_id": "r-1177897821053495312",
+      "gmail_message_id": "1a1a87226afeb2f8",
+      "decision_reason": "",
+      "history": [
+        {
+          "at": "2026-11-04T18:50:17+00:00",
+          "action": "created",
+          "status": "pending"
+        },
+        {
+          "at": "2026-11-04T18:52:40+00:00",
+          "action": "gmail_draft_created",
+          "draft_id": "r-1177897821053495312"
+        },
+        {
+          "at": "2026-11-04T21:30:00+00:00",
+          "action": "sent_observed_in_gmail",
+          "gmail_message_id": "1a1a87226afeb2f8",
+          "note": "envoi constaté dans Gmail (hors agent)"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-04-lancement-003",
+      "campaign": "2026-11-04-lancement",
+      "to": "lessantons.laturbie@gmail.com",
+      "company": "Restaurant Les Santons",
+      "subject": "Un agent IA pour Restaurant Les Santons ?",
+      "body": "Bonjour,\n\nEn découvrant Restaurant Les Santons, j'ai remarqué un point concret : demandes d'événements et de groupes (15 à 60 personnes) par téléphone ou email. Une piste concrète pour vous faire gagner du temps.\n\nJe peux vous proposer le traitement automatique des demandes d'événements et de groupes (devis, confirmations, relances).\n\nCôté agents IA, voici SYNATRAP, la plateforme que je développe avec mon groupe : https://synatrap.com\n\nJe peux vous montrer gratuitement une démonstration concrète de la solution envisagée, sans engagement, sur un cas réel de votre activité.\n\nCela vous dirait de la découvrir ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+      "need": "automatisation",
+      "evidence_sources": [
+        "https://www.les-santons.fr/evenementiel/"
+      ],
+      "status": "sent",
+      "created_at": "2026-11-04T18:50:17+00:00",
+      "updated_at": "2026-11-04T21:30:00+00:00",
+      "gmail_draft_id": "r803404552435909425",
+      "gmail_message_id": "1a1a8724e43b4818",
+      "decision_reason": "",
+      "history": [
+        {
+          "at": "2026-11-04T18:50:17+00:00",
+          "action": "created",
+          "status": "pending"
+        },
+        {
+          "at": "2026-11-04T18:52:40+00:00",
+          "action": "gmail_draft_created",
+          "draft_id": "r803404552435909425"
+        },
+        {
+          "at": "2026-11-04T21:30:00+00:00",
+          "action": "sent_observed_in_gmail",
+          "gmail_message_id": "1a1a8724e43b4818",
+          "note": "envoi constaté dans Gmail (hors agent)"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-04-lancement-004",
+      "campaign": "2026-11-04-lancement",
+      "to": "contact@renovationpremium.com",
+      "company": "R Premium",
+      "subject": "Votre annonce WordPress + référencement",
+      "body": "Bonjour,\n\nJ'ai lu votre annonce : vous voulez faire évoluer votre site WordPress, votre référencement et votre communication.\n\nJe peux vous proposer une optimisation de votre site WordPress pour le rendre plus rapide et mieux référencé, sans tout reconstruire.\n\nÀ titre d'exemple, voici le site institutionnel que j'ai conçu pour mon groupe : https://groupebourasseau.com\n\nJe peux vous préparer gratuitement une première démonstration personnalisée, sans engagement : un aperçu de votre page d'accueil optimisée pour le référencement.\n\nCela vous dirait de la découvrir ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+      "need": "refonte",
+      "evidence_sources": [
+        "https://www.codeur.com/pages/appel-offre"
+      ],
+      "status": "sent",
+      "created_at": "2026-11-04T18:50:25+00:00",
+      "updated_at": "2026-11-04T21:30:00+00:00",
+      "gmail_draft_id": "r-6364247523249990052",
+      "gmail_message_id": "1a1a8727fb3c7644",
+      "decision_reason": "",
+      "history": [
+        {
+          "at": "2026-11-04T18:50:25+00:00",
+          "action": "created",
+          "status": "pending"
+        },
+        {
+          "at": "2026-11-04T18:52:40+00:00",
+          "action": "gmail_draft_created",
+          "draft_id": "r-6364247523249990052"
+        },
+        {
+          "at": "2026-11-04T21:30:00+00:00",
+          "action": "sent_observed_in_gmail",
+          "gmail_message_id": "1a1a8727fb3c7644",
+          "note": "envoi constaté dans Gmail (hors agent)"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-04-lancement-005",
+      "campaign": "2026-11-04-lancement",
+      "to": "secteur72fr@gmail.com",
+      "company": "Secteur 72",
+      "subject": "Secteur 72 : automatiser avant l'ouverture ?",
+      "body": "Bonjour Marc,\n\nJ'ai suivi le lancement de Secteur 72 : vous préparez l'ouverture de votre terrain d'airsoft et le développement de la boutique.\n\nJe peux vous proposer une automatisation de vos réservations et rappels de sessions, pour ouvrir sans y passer vos soirées.\n\nCôté agents IA, voici SYNATRAP, la plateforme que je développe avec mon groupe : https://synatrap.com\n\nJe peux vous montrer gratuitement une démonstration concrète de la solution envisagée, sans engagement, sur un cas réel de votre activité.\n\nCela vous dirait de la découvrir ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+      "need": "automatisation",
+      "evidence_sources": [
+        "https://www.codeur.com/projects/492309-e-commerce-et-site-web-vitrine",
+        "https://www.actu.fr/pays-de-la-loire/montval-sur-loir_72071/sarthe-il-cherche-un-terrain-pour-son-projet-de-terrain-d-airsoft_64922877.html"
+      ],
+      "status": "sent",
+      "created_at": "2026-11-04T18:50:25+00:00",
+      "updated_at": "2026-11-04T21:30:00+00:00",
+      "gmail_draft_id": "r4312329915572637763",
+      "gmail_message_id": "1a1a872a52f17fd0",
+      "decision_reason": "",
+      "history": [
+        {
+          "at": "2026-11-04T18:50:25+00:00",
+          "action": "created",
+          "status": "pending"
+        },
+        {
+          "at": "2026-11-04T18:52:40+00:00",
+          "action": "gmail_draft_created",
+          "draft_id": "r4312329915572637763"
+        },
+        {
+          "at": "2026-11-04T21:30:00+00:00",
+          "action": "sent_observed_in_gmail",
+          "gmail_message_id": "1a1a872a52f17fd0",
+          "note": "envoi constaté dans Gmail (hors agent)"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-04-lancement-006",
+      "campaign": "2026-11-04-lancement",
+      "to": "support@bsp-auto.com",
+      "company": "BSP Auto",
+      "subject": "Votre newsletter mensuelle, en pilote automatique ?",
+      "body": "Bonjour,\n\nJ'ai vu votre projet de newsletter mensuelle pour vos agences de voyages clientes.\n\nJe peux vous proposer une automatisation qui prépare et envoie votre newsletter mensuelle à vos agences clientes, sans y repasser chaque mois.\n\nCôté agents IA, voici SYNATRAP, la plateforme que je développe avec mon groupe : https://synatrap.com\n\nJe peux vous montrer gratuitement une démonstration concrète de la solution envisagée, sans engagement, sur un cas réel de votre activité.\n\nCela vous dirait de la découvrir ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+      "need": "automatisation",
+      "evidence_sources": [
+        "https://www.codeur.com/projects/492305-newsletter-location-de-voiture"
+      ],
+      "status": "sent",
+      "created_at": "2026-11-04T18:50:25+00:00",
+      "updated_at": "2026-11-04T21:30:00+00:00",
+      "gmail_draft_id": "r-3403551830979936136",
+      "gmail_message_id": "1a1a872c5c05ac8d",
+      "decision_reason": "",
+      "history": [
+        {
+          "at": "2026-11-04T18:50:25+00:00",
+          "action": "created",
+          "status": "pending"
+        },
+        {
+          "at": "2026-11-04T18:52:40+00:00",
+          "action": "gmail_draft_created",
+          "draft_id": "r-3403551830979936136"
+        },
+        {
+          "at": "2026-11-04T21:30:00+00:00",
+          "action": "sent_observed_in_gmail",
+          "gmail_message_id": "1a1a872c5c05ac8d",
+          "note": "envoi constaté dans Gmail (hors agent)"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-04-lancement-007",
+      "campaign": "2026-11-04-lancement",
+      "to": "contact@cerf-athletic-training.fr",
+      "company": "CERF Athletic Training",
+      "subject": "CERF : automatiser le suivi de vos adhérents ?",
+      "body": "Bonjour Elwen,\n\nJ'ai suivi l'ouverture de CERF à Mouzillon : petits groupes, coach présent, objectif d'une centaine d'adhérents.\n\nJe peux vous proposer une automatisation de vos inscriptions, rappels de séances et réponses aux questions des adhérents.\n\nCôté agents IA, voici SYNATRAP, la plateforme que je développe avec mon groupe : https://synatrap.com\n\nJe peux vous montrer gratuitement une démonstration concrète de la solution envisagée, sans engagement, sur un cas réel de votre activité.\n\nCela vous dirait de la découvrir ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+      "need": "automatisation",
+      "evidence_sources": [
+        "https://actu.fr/pays-de-la-loire/mouzillon_44108/elle-va-ouvrir-dans-le-vignoble-nantais-que-propose-cette-salle-de-sport-qui-defend-une-autre-approche_64655582.html"
+      ],
+      "status": "sent",
+      "created_at": "2026-11-04T18:50:25+00:00",
+      "updated_at": "2026-11-04T21:30:00+00:00",
+      "gmail_draft_id": "r-2617817986926944048",
+      "gmail_message_id": "1a1a872eb5773975",
+      "decision_reason": "",
+      "history": [
+        {
+          "at": "2026-11-04T18:50:25+00:00",
+          "action": "created",
+          "status": "pending"
+        },
+        {
+          "at": "2026-11-04T18:52:40+00:00",
+          "action": "gmail_draft_created",
+          "draft_id": "r-2617817986926944048"
+        },
+        {
+          "at": "2026-11-04T21:30:00+00:00",
+          "action": "sent_observed_in_gmail",
+          "gmail_message_id": "1a1a872eb5773975",
+          "note": "envoi constaté dans Gmail (hors agent)"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-04-lancement-008",
+      "campaign": "2026-11-04-lancement",
+      "to": "charmedelhetre50@gmail.com",
+      "company": "Charme de l'Hêtre",
+      "subject": "Charme de l'Hêtre : être trouvé sur Google ?",
+      "body": "Bonjour Chloé,\n\nJe viens de découvrir Charme de l'Hêtre, votre activité d'arboriste grimpeuse lancée cet été.\n\nJe peux vous proposer un site vitrine clair et rapide qui présente votre activité d'élagage et donne envie de vous contacter.\n\nÀ titre d'exemple, voici le site institutionnel que j'ai conçu pour mon groupe : https://groupebourasseau.com\n\nJe peux vous préparer gratuitement une première démonstration personnalisée, sans engagement : une première maquette de site vitrine pour votre activité d'élagage.\n\nCela vous dirait de la découvrir ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+      "need": "site_web",
+      "evidence_sources": [
+        "https://actu.fr/normandie/la-chapelle-uree_50124/dans-le-sud-manche-elle-a-cree-son-entreprise-darboriste-grimpeuse-pour-mettre-en-valeur-les-vegetaux_64675166.html"
+      ],
+      "status": "sent",
+      "created_at": "2026-11-04T18:50:25+00:00",
+      "updated_at": "2026-11-04T21:30:00+00:00",
+      "gmail_draft_id": "r-4054780296521220721",
+      "gmail_message_id": "1a1a87311bac39c7",
+      "decision_reason": "",
+      "history": [
+        {
+          "at": "2026-11-04T18:50:25+00:00",
+          "action": "created",
+          "status": "pending"
+        },
+        {
+          "at": "2026-11-04T18:52:40+00:00",
+          "action": "gmail_draft_created",
+          "draft_id": "r-4054780296521220721"
+        },
+        {
+          "at": "2026-11-04T21:30:00+00:00",
+          "action": "sent_observed_in_gmail",
+          "gmail_message_id": "1a1a87311bac39c7",
+          "note": "envoi constaté dans Gmail (hors agent)"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-04-lot2-001",
+      "campaign": "2026-11-04-lot2",
+      "to": "celarenarde@gmail.com",
+      "company": "Centre Équestre de la Renarde",
+      "subject": "Centre Équestre de la Renarde : automatiser les inscriptions ?",
+      "body": "Bonjour,\n\nEn parcourant votre site (centreequestredelarenarde.com), j'ai relevé un point concret : les inscriptions et demandes se font uniquement par téléphone ou email, sans inscription en ligne.\n\nJe peux vous proposer l'inscription en ligne et le traitement automatique des demandes d'inscription (cours, balades, pension).\n\nCôté agents IA, voici SYNATRAP, la plateforme que je développe avec mon groupe : https://synatrap.com\n\nJe peux vous montrer gratuitement une démonstration concrète de la solution envisagée, sans engagement, sur un cas réel de votre activité.\n\nCela vous dirait de la découvrir ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+      "need": "automatisation",
+      "evidence_sources": [
+        "https://www.centreequestredelarenarde.com/contact-et-acc%C3%A8s",
+        "https://www.centreequestredelarenarde.com/contact-et-acc%C3%A8s"
+      ],
+      "status": "sent",
+      "created_at": "2026-11-04T19:26:46+00:00",
+      "updated_at": "2026-11-04T21:30:00+00:00",
+      "gmail_draft_id": "r5727304419519268391",
+      "gmail_message_id": "1a1a873377151814",
+      "decision_reason": "",
+      "history": [
+        {
+          "at": "2026-11-04T19:26:46+00:00",
+          "action": "created",
+          "status": "pending"
+        },
+        {
+          "at": "2026-11-04T19:29:42+00:00",
+          "action": "gmail_draft_created",
+          "draft_id": "r5727304419519268391"
+        },
+        {
+          "at": "2026-11-04T21:30:00+00:00",
+          "action": "sent_observed_in_gmail",
+          "gmail_message_id": "1a1a873377151814",
+          "note": "envoi constaté dans Gmail (hors agent)"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-04-lot2-002",
+      "campaign": "2026-11-04-lot2",
+      "to": "contact@rochedesbancs.com",
+      "company": "Domaine Roche des Bancs",
+      "subject": "Domaine Roche des Bancs : automatiser vos dégustations ?",
+      "body": "Bonjour Filippo,\n\nEn parcourant votre site (rochedesbancs.com), j'ai relevé un point concret : la réservation de dégustation se fait manuellement par téléphone ou email, alors que la formule est vendue en ligne.\n\nJe peux vous proposer le traitement automatique des réservations de dégustation (créneaux, confirmations, rappels).\n\nCôté agents IA, voici SYNATRAP, la plateforme que je développe avec mon groupe : https://synatrap.com\n\nJe peux vous montrer gratuitement une démonstration concrète de la solution envisagée, sans engagement, sur un cas réel de votre activité.\n\nCela vous dirait de la découvrir ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+      "need": "automatisation",
+      "evidence_sources": [
+        "https://www.rochedesbancs.com/degustation-au-domaine",
+        "https://www.rochedesbancs.com/degustation-au-domaine"
+      ],
+      "status": "sent",
+      "created_at": "2026-11-04T19:26:46+00:00",
+      "updated_at": "2026-11-04T21:30:00+00:00",
+      "gmail_draft_id": "r-6532114368305123947",
+      "gmail_message_id": "1a1a8735852ed02a",
+      "decision_reason": "",
+      "history": [
+        {
+          "at": "2026-11-04T19:26:46+00:00",
+          "action": "created",
+          "status": "pending"
+        },
+        {
+          "at": "2026-11-04T19:29:42+00:00",
+          "action": "gmail_draft_created",
+          "draft_id": "r-6532114368305123947"
+        },
+        {
+          "at": "2026-11-04T21:30:00+00:00",
+          "action": "sent_observed_in_gmail",
+          "gmail_message_id": "1a1a8735852ed02a",
+          "note": "envoi constaté dans Gmail (hors agent)"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-04-lot2-003",
+      "campaign": "2026-11-04-lot2",
+      "to": "courbin-et-fils@orange.fr",
+      "company": "Domaine Courbin Héritage",
+      "subject": "Domaine Courbin Héritage : commandes et dégustations en ligne ?",
+      "body": "Bonjour Franck,\n\nEn parcourant votre site (domainecourbinheritage.fr), j'ai relevé un point concret : les commandes passent par un bon de commande sans paiement en ligne, avec validation manuelle par téléphone/email.\n\nJe peux vous proposer la commande en ligne avec paiement et la confirmation automatique des rendez-vous de dégustation.\n\nCôté agents IA, voici SYNATRAP, la plateforme que je développe avec mon groupe : https://synatrap.com\n\nJe peux vous montrer gratuitement une démonstration concrète de la solution envisagée, sans engagement, sur un cas réel de votre activité.\n\nCela vous dirait de la découvrir ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+      "need": "automatisation",
+      "evidence_sources": [
+        "https://www.domainecourbinheritage.fr/bon-de-commande/",
+        "https://www.domainecourbinheritage.fr/contact-domaine-viticole-courbin-heritage-budos/"
+      ],
+      "status": "sent",
+      "created_at": "2026-11-04T19:26:46+00:00",
+      "updated_at": "2026-11-04T21:30:00+00:00",
+      "gmail_draft_id": "r-1501974926925651509",
+      "gmail_message_id": "1a1a8738353a1cd1",
+      "decision_reason": "",
+      "history": [
+        {
+          "at": "2026-11-04T19:26:46+00:00",
+          "action": "created",
+          "status": "pending"
+        },
+        {
+          "at": "2026-11-04T19:29:42+00:00",
+          "action": "gmail_draft_created",
+          "draft_id": "r-1501974926925651509"
+        },
+        {
+          "at": "2026-11-04T21:30:00+00:00",
+          "action": "sent_observed_in_gmail",
+          "gmail_message_id": "1a1a8738353a1cd1",
+          "note": "envoi constaté dans Gmail (hors agent)"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-04-lot2-004",
+      "campaign": "2026-11-04-lot2",
+      "to": "contact@itelecom.pro",
+      "company": "iTelecom",
+      "subject": "iTelecom : automatiser votre prospection B2B ?",
+      "body": "Bonjour David,\n\nJ'ai lu votre annonce : vous cherchez à générer des rendez-vous qualifiés auprès des entreprises d'Indre-et-Loire.\n\nJe peux vous proposer un agent IA qui pré-qualifie votre fichier de prospects et réserve des rendez-vous qualifiés pour votre dirigeant.\n\nCôté agents IA, voici SYNATRAP, la plateforme que je développe avec mon groupe : https://synatrap.com\n\nJe peux vous montrer gratuitement une démonstration concrète de la solution envisagée, sans engagement, sur un cas réel de votre activité.\n\nCela vous dirait de la découvrir ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+      "need": "automatisation",
+      "evidence_sources": [
+        "https://www.codeur.com/projects/492342"
+      ],
+      "status": "sent",
+      "created_at": "2026-11-04T19:26:46+00:00",
+      "updated_at": "2026-11-04T21:30:00+00:00",
+      "gmail_draft_id": "r-4468344804886464612",
+      "gmail_message_id": "1a1a873d7bbca94b",
+      "decision_reason": "",
+      "history": [
+        {
+          "at": "2026-11-04T19:26:46+00:00",
+          "action": "created",
+          "status": "pending"
+        },
+        {
+          "at": "2026-11-04T19:29:42+00:00",
+          "action": "gmail_draft_created",
+          "draft_id": "r-4468344804886464612"
+        },
+        {
+          "at": "2026-11-04T21:30:00+00:00",
+          "action": "sent_observed_in_gmail",
+          "gmail_message_id": "1a1a873d7bbca94b",
+          "note": "envoi constaté dans Gmail (hors agent)"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-04-lot2-005",
+      "campaign": "2026-11-04-lot2",
+      "to": "info@myk6.fr",
+      "company": "K6 Pension",
+      "subject": "K6 Pension : automatiser vos pré-réservations ?",
+      "body": "Bonjour Thierry,\n\nEn parcourant votre site (k6-pension.com), j'ai relevé un point concret : chaque pré-réservation doit être confirmée par téléphone, sans réservation en ligne directe.\n\nJe peux vous proposer le traitement automatique des pré-réservations et la confirmation des séjours (créneaux, rappels, suivi).\n\nCôté agents IA, voici SYNATRAP, la plateforme que je développe avec mon groupe : https://synatrap.com\n\nJe peux vous montrer gratuitement une démonstration concrète de la solution envisagée, sans engagement, sur un cas réel de votre activité.\n\nCela vous dirait de la découvrir ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+      "need": "automatisation",
+      "evidence_sources": [
+        "https://www.k6-pension.com/",
+        "https://www.k6-pension.com/"
+      ],
+      "status": "sent",
+      "created_at": "2026-11-04T19:26:46+00:00",
+      "updated_at": "2026-11-04T21:30:00+00:00",
+      "gmail_draft_id": "r-4359901380147314673",
+      "gmail_message_id": "1a1a873f35d975df",
+      "decision_reason": "",
+      "history": [
+        {
+          "at": "2026-11-04T19:26:46+00:00",
+          "action": "created",
+          "status": "pending"
+        },
+        {
+          "at": "2026-11-04T19:29:42+00:00",
+          "action": "gmail_draft_created",
+          "draft_id": "r-4359901380147314673"
+        },
+        {
+          "at": "2026-11-04T21:30:00+00:00",
+          "action": "sent_observed_in_gmail",
+          "gmail_message_id": "1a1a873f35d975df",
+          "note": "envoi constaté dans Gmail (hors agent)"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-04-lot2-006",
+      "campaign": "2026-11-04-lot2",
+      "to": "contact@severine-lesourd.com",
+      "company": "Séverine Lesourd — Pension & Éducation Canine",
+      "subject": "Pension Séverine Lesourd : automatiser les inscriptions ?",
+      "body": "Bonjour Séverine,\n\nEn parcourant votre site (severine-lesourd.fr), j'ai relevé un point concret : inscription par fiche à télécharger et renvoyer par email, sans réservation ni paiement en ligne.\n\nJe peux vous proposer l'inscription en ligne et le traitement automatique des réservations de pension (fiches, acompte, confirmations).\n\nCôté agents IA, voici SYNATRAP, la plateforme que je développe avec mon groupe : https://synatrap.com\n\nJe peux vous montrer gratuitement une démonstration concrète de la solution envisagée, sans engagement, sur un cas réel de votre activité.\n\nCela vous dirait de la découvrir ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+      "need": "automatisation",
+      "evidence_sources": [
+        "https://www.severine-lesourd.fr/pension-canine/",
+        "https://www.severine-lesourd.fr/pension-canine/"
+      ],
+      "status": "sent",
+      "created_at": "2026-11-04T19:26:46+00:00",
+      "updated_at": "2026-11-04T21:30:00+00:00",
+      "gmail_draft_id": "r-8589508876597680618",
+      "gmail_message_id": "1a1a87422963e03d",
+      "decision_reason": "",
+      "history": [
+        {
+          "at": "2026-11-04T19:26:46+00:00",
+          "action": "created",
+          "status": "pending"
+        },
+        {
+          "at": "2026-11-04T19:29:42+00:00",
+          "action": "gmail_draft_created",
+          "draft_id": "r-8589508876597680618"
+        },
+        {
+          "at": "2026-11-04T21:30:00+00:00",
+          "action": "sent_observed_in_gmail",
+          "gmail_message_id": "1a1a87422963e03d",
+          "note": "envoi constaté dans Gmail (hors agent)"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-04-lot2-007",
+      "campaign": "2026-11-04-lot2",
+      "to": "Jeremiepages22@gmail.com",
+      "company": "Centre Cynophile de Ruy",
+      "subject": "Centre Cynophile de Ruy : réservation de pension en ligne ?",
+      "body": "Bonjour Jérémie,\n\nEn parcourant votre site (dressage38.com), j'ai relevé un point concret : les séjours de pension se planifient par téléphone, sans réservation en ligne.\n\nJe peux vous proposer la réservation en ligne des séjours de pension et les rappels automatiques (arrivée, départ).\n\nCôté agents IA, voici SYNATRAP, la plateforme que je développe avec mon groupe : https://synatrap.com\n\nJe peux vous montrer gratuitement une démonstration concrète de la solution envisagée, sans engagement, sur un cas réel de votre activité.\n\nCela vous dirait de la découvrir ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+      "need": "automatisation",
+      "evidence_sources": [
+        "https://dressage38.com/service/hebergement/",
+        "https://dressage38.com/"
+      ],
+      "status": "sent",
+      "created_at": "2026-11-04T19:26:46+00:00",
+      "updated_at": "2026-11-04T21:30:00+00:00",
+      "gmail_draft_id": "r-5663246394203838970",
+      "gmail_message_id": "1a1a87445a8cefa4",
+      "decision_reason": "",
+      "history": [
+        {
+          "at": "2026-11-04T19:26:46+00:00",
+          "action": "created",
+          "status": "pending"
+        },
+        {
+          "at": "2026-11-04T19:29:42+00:00",
+          "action": "gmail_draft_created",
+          "draft_id": "r-5663246394203838970"
+        },
+        {
+          "at": "2026-11-04T21:30:00+00:00",
+          "action": "sent_observed_in_gmail",
+          "gmail_message_id": "1a1a87445a8cefa4",
+          "note": "envoi constaté dans Gmail (hors agent)"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-04-lot3-001",
+      "campaign": "2026-11-04-lot3",
+      "to": "canoesomme@gmail.com",
+      "company": "Base nautique de Picquigny",
+      "subject": "Base nautique de Picquigny : automatiser les devis groupes",
+      "body": "Bonjour Johann,\n\nVotre base nautique de Picquigny prend déjà les réservations individuelles en ligne, mais les groupes (entreprises, collèges, centres de loisirs) doivent encore demander un devis par email ou téléphone.\n\nJe peux vous proposer une automatisation des demandes de devis groupes (dates, effectifs, disponibilités, réponse rapide).\n\nCôté agents IA, voici SYNATRAP, la plateforme que je développe avec mon groupe : https://synatrap.com\n\nJe peux vous montrer gratuitement une démonstration concrète de la solution envisagée, sans engagement, sur un cas réel de votre activité.\n\nCela vous dirait de la découvrir ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+      "need": "automatisation",
+      "evidence_sources": [
+        "https://www.canoe-somme.com/",
+        "https://www.canoe-somme.com/"
+      ],
+      "status": "sent",
+      "created_at": "2026-11-04T20:37:07+00:00",
+      "updated_at": "2026-11-04T21:30:00+00:00",
+      "gmail_draft_id": "r-3787275227626326877",
+      "gmail_message_id": "1a1a874841970c60",
+      "decision_reason": "",
+      "history": [
+        {
+          "at": "2026-11-04T20:37:07+00:00",
+          "action": "created",
+          "status": "pending"
+        },
+        {
+          "at": "2026-11-04T20:39:33+00:00",
+          "action": "gmail_draft_created",
+          "draft_id": "r-3787275227626326877"
+        },
+        {
+          "at": "2026-11-04T21:30:00+00:00",
+          "action": "sent_observed_in_gmail",
+          "gmail_message_id": "1a1a874841970c60",
+          "note": "envoi constaté dans Gmail (hors agent)"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-04-lot3-002",
+      "campaign": "2026-11-04-lot3",
+      "to": "brasserievdl74@gmail.com",
+      "company": "Brasserie VDL",
+      "subject": "Brasserie VDL : commandes à emporter sans téléphone",
+      "body": "Bonjour David,\n\nÀ la Brasserie VDL, les commandes à emporter passent uniquement par téléphone, même quand la carte est déjà consultable en ligne.\n\nJe peux vous proposer un module de commande en ligne / click & collect pour la vente à emporter.\n\nÀ titre d'exemple, voici le site institutionnel que j'ai conçu pour mon groupe : https://groupebourasseau.com\n\nJe peux vous préparer gratuitement une première démonstration personnalisée, sans engagement : une maquette de commande en ligne pour la Brasserie VDL.\n\nCela vous dirait de la découvrir ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+      "need": "site_web",
+      "evidence_sources": [
+        "https://www.brasserie-vdl.fr/la-brasserie/",
+        "https://www.brasserie-vdl.fr/contact/"
+      ],
+      "status": "sent",
+      "created_at": "2026-11-04T20:37:07+00:00",
+      "updated_at": "2026-11-04T21:30:00+00:00",
+      "gmail_draft_id": "r-640883466194859786",
+      "gmail_message_id": "1a1a874a4fcaa4d2",
+      "decision_reason": "",
+      "history": [
+        {
+          "at": "2026-11-04T20:37:07+00:00",
+          "action": "created",
+          "status": "pending"
+        },
+        {
+          "at": "2026-11-04T20:39:33+00:00",
+          "action": "gmail_draft_created",
+          "draft_id": "r-640883466194859786"
+        },
+        {
+          "at": "2026-11-04T21:30:00+00:00",
+          "action": "sent_observed_in_gmail",
+          "gmail_message_id": "1a1a874a4fcaa4d2",
+          "note": "envoi constaté dans Gmail (hors agent)"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-04-lot3-003",
+      "campaign": "2026-11-04-lot3",
+      "to": "contact@dance-center.fr",
+      "company": "Dance Center",
+      "subject": "Dance Center : inscriptions en ligne pour la rentrée",
+      "body": "Bonjour Pauline,\n\nLes inscriptions au Dance Center se font encore sur place, avec une fiche à télécharger et des règlements par chèques.\n\nJe peux vous proposer un parcours d'inscription en ligne (choix des cours, coordonnées, paiement) pour réduire la paperasse de rentrée.\n\nÀ titre d'exemple, voici le site institutionnel que j'ai conçu pour mon groupe : https://groupebourasseau.com\n\nJe peux vous préparer gratuitement une première démonstration personnalisée, sans engagement : une maquette d'inscription en ligne pour le Dance Center.\n\nCela vous dirait de la découvrir ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+      "need": "site_web",
+      "evidence_sources": [
+        "https://www.dance-center.fr/inscriptions-2026/27",
+        "https://www.dance-center.fr/inscriptions-2026/27"
+      ],
+      "status": "sent",
+      "created_at": "2026-11-04T20:37:07+00:00",
+      "updated_at": "2026-11-04T21:30:00+00:00",
+      "gmail_draft_id": "r-8638899377923513656",
+      "gmail_message_id": "1a1a874c31f4eb31",
+      "decision_reason": "",
+      "history": [
+        {
+          "at": "2026-11-04T20:37:07+00:00",
+          "action": "created",
+          "status": "pending"
+        },
+        {
+          "at": "2026-11-04T20:39:33+00:00",
+          "action": "gmail_draft_created",
+          "draft_id": "r-8638899377923513656"
+        },
+        {
+          "at": "2026-11-04T21:30:00+00:00",
+          "action": "sent_observed_in_gmail",
+          "gmail_message_id": "1a1a874c31f4eb31",
+          "note": "envoi constaté dans Gmail (hors agent)"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-04-lot3-004",
+      "campaign": "2026-11-04-lot3",
+      "to": "contact@sam31.fr",
+      "company": "SAM31",
+      "subject": "SAM31 : pré-inscription en ligne pour vos élèves",
+      "body": "Bonjour Océane,\n\nChez SAM31, le dossier d'inscription s'obtient encore par téléphone, email ou en agence.\n\nJe peux vous proposer une pré-inscription en ligne avec dépôt des pièces et suivi de dossier.\n\nÀ titre d'exemple, voici le site institutionnel que j'ai conçu pour mon groupe : https://groupebourasseau.com\n\nJe peux vous préparer gratuitement une première démonstration personnalisée, sans engagement : une maquette de pré-inscription en ligne pour SAM31.\n\nCela vous dirait de la découvrir ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+      "need": "site_web",
+      "evidence_sources": [
+        "https://sam31-autoecole.fr/",
+        "https://sam31-autoecole.fr/a-propos/"
+      ],
+      "status": "sent",
+      "created_at": "2026-11-04T20:37:07+00:00",
+      "updated_at": "2026-11-04T21:30:00+00:00",
+      "gmail_draft_id": "r-5558695767684022470",
+      "gmail_message_id": "1a1a874e162b9146",
+      "decision_reason": "",
+      "history": [
+        {
+          "at": "2026-11-04T20:37:07+00:00",
+          "action": "created",
+          "status": "pending"
+        },
+        {
+          "at": "2026-11-04T20:39:33+00:00",
+          "action": "gmail_draft_created",
+          "draft_id": "r-5558695767684022470"
+        },
+        {
+          "at": "2026-11-04T21:30:00+00:00",
+          "action": "sent_observed_in_gmail",
+          "gmail_message_id": "1a1a874e162b9146",
+          "note": "envoi constaté dans Gmail (hors agent)"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-04-lot3-005",
+      "campaign": "2026-11-04-lot3",
+      "to": "cedmu@yahoo.fr",
+      "company": "La Bruchoise / Casa Blu",
+      "subject": "La Bruchoise : commandes à emporter en ligne",
+      "body": "Bonjour Cédric,\n\nLa Bruchoise indique que les commandes à emporter se font uniquement par téléphone.\n\nJe peux vous proposer un module de commande en ligne / click & collect pour la vente à emporter.\n\nÀ titre d'exemple, voici le site institutionnel que j'ai conçu pour mon groupe : https://groupebourasseau.com\n\nJe peux vous préparer gratuitement une première démonstration personnalisée, sans engagement : une maquette de commande en ligne pour La Bruchoise.\n\nCela vous dirait de la découvrir ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+      "need": "site_web",
+      "evidence_sources": [
+        "https://www.casa-blu.fr/contact.html",
+        "https://www.casa-blu.fr/"
+      ],
+      "status": "sent",
+      "created_at": "2026-11-04T20:37:07+00:00",
+      "updated_at": "2026-11-04T21:30:00+00:00",
+      "gmail_draft_id": "r4467495994281543374",
+      "gmail_message_id": "1a1a8751810b09c2",
+      "decision_reason": "",
+      "history": [
+        {
+          "at": "2026-11-04T20:37:07+00:00",
+          "action": "created",
+          "status": "pending"
+        },
+        {
+          "at": "2026-11-04T20:39:34+00:00",
+          "action": "gmail_draft_created",
+          "draft_id": "r4467495994281543374"
+        },
+        {
+          "at": "2026-11-04T21:30:00+00:00",
+          "action": "sent_observed_in_gmail",
+          "gmail_message_id": "1a1a8751810b09c2",
+          "note": "envoi constaté dans Gmail (hors agent)"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-04-lot3-006",
+      "campaign": "2026-11-04-lot3",
+      "to": "directionloccidentale@gmail.com",
+      "company": "L'Occidentale",
+      "subject": "L'Occidentale : réponses plus rapides aux demandes de devis",
+      "body": "Bonjour Schéhérazade,\n\nL'Occidentale reçoit les demandes de devis mariage/séminaire par téléphone, email ou formulaire, avec des tarifs qui varient selon la période.\n\nJe peux vous proposer un agent IA de pré-qualification des demandes de devis (date, convives, disponibilités, fourchette tarifaire) et de réponse rapide.\n\nCôté agents IA, voici SYNATRAP, la plateforme que je développe avec mon groupe : https://synatrap.com\n\nJe peux vous montrer gratuitement une démonstration concrète de la solution envisagée, sans engagement, sur un cas réel de votre activité.\n\nCela vous dirait de la découvrir ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+      "need": "automatisation",
+      "evidence_sources": [
+        "https://www.loccidentale.fr/reception-mariage-w1",
+        "https://www.loccidentale.fr/contact"
+      ],
+      "status": "sent",
+      "created_at": "2026-11-04T20:37:07+00:00",
+      "updated_at": "2026-11-04T21:30:00+00:00",
+      "gmail_draft_id": "r-4581943460065111604",
+      "gmail_message_id": "1a1a8753daf0bfe6",
+      "decision_reason": "",
+      "history": [
+        {
+          "at": "2026-11-04T20:37:07+00:00",
+          "action": "created",
+          "status": "pending"
+        },
+        {
+          "at": "2026-11-04T20:39:34+00:00",
+          "action": "gmail_draft_created",
+          "draft_id": "r-4581943460065111604"
+        },
+        {
+          "at": "2026-11-04T21:30:00+00:00",
+          "action": "sent_observed_in_gmail",
+          "gmail_message_id": "1a1a8753daf0bfe6",
+          "note": "envoi constaté dans Gmail (hors agent)"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-04-lot4-001",
+      "campaign": "2026-11-04-lot4",
+      "to": "contact@restaurant-lecanotier.fr",
+      "company": "Restaurant Le Canotier",
+      "subject": "Le Canotier : réservation en ligne pour vos événements ?",
+      "body": "Bonjour Alexandre,\n\nVotre site indique « RESERVATION UNIQUEMENT PAR TELEPHONE » et aucune réservation par email/voicemail, alors que vous proposez des formules groupe, salles et séminaires.\n\nJe peux vous proposer un module de réservation en ligne et de demande de devis événementiel.\n\nÀ titre d'exemple, voici le site institutionnel que j'ai conçu pour mon groupe : https://groupebourasseau.com\n\nJe peux vous préparer gratuitement une première démonstration personnalisée, sans engagement : maquette de réservation en ligne et de demande de devis pour groupes/séminaires.\n\nCela vous dirait de la découvrir ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+      "need": "site_web",
+      "evidence_sources": [
+        "https://www.restaurant-lecanotier.fr/",
+        "https://www.restaurant-lecanotier.fr/"
+      ],
+      "status": "sent",
+      "created_at": "2026-11-04T21:39:56+00:00",
+      "updated_at": "2026-11-06",
+      "gmail_draft_id": "r-441106915474065912",
+      "gmail_message_id": "1a1abea92f5deeb5",
+      "decision_reason": "",
+      "history": [
+        {
+          "at": "2026-11-04T21:39:56+00:00",
+          "action": "created",
+          "status": "pending"
+        },
+        {
+          "at": "2026-11-04T21:41:35+00:00",
+          "action": "gmail_draft_created",
+          "draft_id": "r-441106915474065912"
+        },
+        {
+          "at": "2026-11-06",
+          "action": "reconciled_sent",
+          "reason": "envoi constaté dans Gmail (statut précédent : pending)",
+          "source": "gmail_manual_observed",
+          "gmail_message_id": "1a1abea92f5deeb5"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-04-lot4-002",
+      "campaign": "2026-11-04-lot4",
+      "to": "contact@boucherie-florian.fr",
+      "company": "Boucherie Florian",
+      "subject": "Boucherie Florian : commandes traiteur en ligne ?",
+      "body": "Bonjour Florian,\n\nVotre site invite à « Commandez par téléphone ! » pour les plats traiteurs et plateaux, avec tarifs PDF, sans parcours de commande en ligne visible.\n\nJe peux vous proposer un parcours de commande click & collect pour les plateaux et plats traiteurs.\n\nÀ titre d'exemple, voici le site institutionnel que j'ai conçu pour mon groupe : https://groupebourasseau.com\n\nJe peux vous préparer gratuitement une première démonstration personnalisée, sans engagement : maquette de commande click & collect pour plateaux et traiteur.\n\nCela vous dirait de la découvrir ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+      "need": "site_web",
+      "evidence_sources": [
+        "https://boucherie-florian.fr/",
+        "https://boucherie-florian.fr/"
+      ],
+      "status": "sent",
+      "created_at": "2026-11-04T21:39:56+00:00",
+      "updated_at": "2026-11-06",
+      "gmail_draft_id": "r-2227193041875889795",
+      "gmail_message_id": "1a1abeaaa946dee4",
+      "decision_reason": "",
+      "history": [
+        {
+          "at": "2026-11-04T21:39:56+00:00",
+          "action": "created",
+          "status": "pending"
+        },
+        {
+          "at": "2026-11-04T21:41:35+00:00",
+          "action": "gmail_draft_created",
+          "draft_id": "r-2227193041875889795"
+        },
+        {
+          "at": "2026-11-06",
+          "action": "reconciled_sent",
+          "reason": "envoi constaté dans Gmail (statut précédent : pending)",
+          "source": "gmail_manual_observed",
+          "gmail_message_id": "1a1abeaaa946dee4"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-04-lot4-003",
+      "campaign": "2026-11-04-lot4",
+      "to": "labergere35@gmail.com",
+      "company": "La Fromagerie Les 2 Alpes",
+      "subject": "Fromagerie Les 2 Alpes : activer la commande en ligne ?",
+      "body": "Bonjour Sylvain,\n\nVotre boutique en ligne affiche « Il n'est pas possible de commander via ce site » et renvoie les commandes par téléphone, alors que le catalogue est déjà présent.\n\nJe peux vous proposer une activation de la commande en ligne / click & collect sur votre boutique existante.\n\nÀ titre d'exemple, voici le site institutionnel que j'ai conçu pour mon groupe : https://groupebourasseau.com\n\nJe peux vous préparer gratuitement une première démonstration personnalisée, sans engagement : maquette de commande en ligne pour packs raclettes/fondues et plateaux.\n\nCela vous dirait de la découvrir ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+      "need": "site_web",
+      "evidence_sources": [
+        "https://www.fromagerie-2alpes.com/",
+        "https://www.fromagerie-2alpes.com/pages/contact"
+      ],
+      "status": "sent",
+      "created_at": "2026-11-04T21:39:56+00:00",
+      "updated_at": "2026-11-06",
+      "gmail_draft_id": "r-3261002470483516264",
+      "gmail_message_id": "1a1abeab49495c8d",
+      "decision_reason": "",
+      "history": [
+        {
+          "at": "2026-11-04T21:39:56+00:00",
+          "action": "created",
+          "status": "pending"
+        },
+        {
+          "at": "2026-11-04T21:41:35+00:00",
+          "action": "gmail_draft_created",
+          "draft_id": "r-3261002470483516264"
+        },
+        {
+          "at": "2026-11-06",
+          "action": "reconciled_sent",
+          "reason": "envoi constaté dans Gmail (statut précédent : pending)",
+          "source": "gmail_manual_observed",
+          "gmail_message_id": "1a1abeab49495c8d"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-04-lot4-004",
+      "campaign": "2026-11-04-lot4",
+      "to": "brigitte@fromagerieetbaratte.fr",
+      "company": "Fromagerie et Baratte",
+      "subject": "Fromagerie et Baratte : plateaux commandables en ligne ?",
+      "body": "Bonjour Brigitte,\n\nVotre site précise que « Les commandes finales de plateaux se font uniquement par téléphone ou en boutique », malgré une pré-commande de plateau.\n\nJe peux vous proposer une commande de plateaux en ligne avec créneau de retrait.\n\nÀ titre d'exemple, voici le site institutionnel que j'ai conçu pour mon groupe : https://groupebourasseau.com\n\nJe peux vous préparer gratuitement une première démonstration personnalisée, sans engagement : maquette de commande de plateaux avec choix du retrait J+1.\n\nCela vous dirait de la découvrir ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+      "need": "site_web",
+      "evidence_sources": [
+        "https://fromagerieetbaratte.fr/",
+        "https://fromagerieetbaratte.fr/"
+      ],
+      "status": "sent",
+      "created_at": "2026-11-04T21:39:56+00:00",
+      "updated_at": "2026-11-06",
+      "gmail_draft_id": "r2349920759718953430",
+      "gmail_message_id": "1a1abeac1d8f4959",
+      "decision_reason": "",
+      "history": [
+        {
+          "at": "2026-11-04T21:39:56+00:00",
+          "action": "created",
+          "status": "pending"
+        },
+        {
+          "at": "2026-11-04T21:41:35+00:00",
+          "action": "gmail_draft_created",
+          "draft_id": "r2349920759718953430"
+        },
+        {
+          "at": "2026-11-06",
+          "action": "reconciled_sent",
+          "reason": "envoi constaté dans Gmail (statut précédent : pending)",
+          "source": "gmail_manual_observed",
+          "gmail_message_id": "1a1abeac1d8f4959"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-04-lot4-005",
+      "campaign": "2026-11-04-lot4",
+      "to": "contact@lachocolatisserie.com",
+      "company": "La Chocolatisserie",
+      "subject": "La Chocolatisserie : commandes sur-mesure en ligne ?",
+      "body": "Bonjour,\n\nVotre page contact demande de « privilégier le contact par téléphone pour passer vos commandes », alors que toutes les créations sont disponibles à la commande.\n\nJe peux vous proposer un parcours de commande en ligne pour créations et gâteaux sur-mesure.\n\nÀ titre d'exemple, voici le site institutionnel que j'ai conçu pour mon groupe : https://groupebourasseau.com\n\nJe peux vous préparer gratuitement une première démonstration personnalisée, sans engagement : maquette de commande de gâteaux sur-mesure et click & collect.\n\nCela vous dirait de la découvrir ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+      "need": "site_web",
+      "evidence_sources": [
+        "https://lachocolatisserie.com/contact/",
+        "https://lachocolatisserie.com/contact/"
+      ],
+      "status": "sent",
+      "created_at": "2026-11-04T21:39:56+00:00",
+      "updated_at": "2026-11-06",
+      "gmail_draft_id": "r-8188127379332518233",
+      "gmail_message_id": "1a1abead77825981",
+      "decision_reason": "",
+      "history": [
+        {
+          "at": "2026-11-04T21:39:56+00:00",
+          "action": "created",
+          "status": "pending"
+        },
+        {
+          "at": "2026-11-04T21:41:35+00:00",
+          "action": "gmail_draft_created",
+          "draft_id": "r-8188127379332518233"
+        },
+        {
+          "at": "2026-11-06",
+          "action": "reconciled_sent",
+          "reason": "envoi constaté dans Gmail (statut précédent : pending)",
+          "source": "gmail_manual_observed",
+          "gmail_message_id": "1a1abead77825981"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-04-lot4-006",
+      "campaign": "2026-11-04-lot4",
+      "to": "contact@matproloc.fr",
+      "company": "Matproloc",
+      "subject": "Matproloc : réservation de matériel en ligne ?",
+      "body": "Bonjour Vincent,\n\nVotre site propose un catalogue de machines et un formulaire contact, mais les devis/réservations passent encore par téléphone ou email.\n\nJe peux vous proposer un parcours de réservation de matériel en ligne avec disponibilités.\n\nÀ titre d'exemple, voici le site institutionnel que j'ai conçu pour mon groupe : https://groupebourasseau.com\n\nJe peux vous préparer gratuitement une première démonstration personnalisée, sans engagement : maquette de réservation de matériel avec créneaux et demande de devis.\n\nCela vous dirait de la découvrir ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+      "need": "site_web",
+      "evidence_sources": [
+        "https://matproloc.fr/",
+        "https://matproloc.fr/contact"
+      ],
+      "status": "sent",
+      "created_at": "2026-11-04T21:39:56+00:00",
+      "updated_at": "2026-11-06",
+      "gmail_draft_id": "r8133168118816518162",
+      "gmail_message_id": "1a1abeacf5ccb9d8",
+      "decision_reason": "",
+      "history": [
+        {
+          "at": "2026-11-04T21:39:56+00:00",
+          "action": "created",
+          "status": "pending"
+        },
+        {
+          "at": "2026-11-04T21:41:35+00:00",
+          "action": "gmail_draft_created",
+          "draft_id": "r8133168118816518162"
+        },
+        {
+          "at": "2026-11-06",
+          "action": "reconciled_sent",
+          "reason": "envoi constaté dans Gmail (statut précédent : pending)",
+          "source": "gmail_manual_observed",
+          "gmail_message_id": "1a1abeacf5ccb9d8"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-04-lot4-007",
+      "campaign": "2026-11-04-lot4",
+      "to": "allo-cation@wanadoo.fr",
+      "company": "Allo'cation",
+      "subject": "Allo'cation : automatiser les devis location ?",
+      "body": "Bonjour,\n\nVotre formulaire de devis livraison collecte déjà dates, liste détaillée et accès, mais le traitement des disponibilités et devis reste manuel.\n\nJe peux vous proposer une automatisation des demandes de devis et de la vérification des disponibilités.\n\nCôté agents IA, voici SYNATRAP, la plateforme que je développe avec mon groupe : https://synatrap.com\n\nJe peux vous montrer gratuitement une démonstration concrète de la solution envisagée, sans engagement, sur un cas réel de votre activité.\n\nCela vous dirait de la découvrir ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+      "need": "automatisation",
+      "evidence_sources": [
+        "https://allo-cation.fr/devis-livraison/",
+        "https://allo-cation.fr/devis-livraison/"
+      ],
+      "status": "sent",
+      "created_at": "2026-11-04T21:39:56+00:00",
+      "updated_at": "2026-11-06",
+      "gmail_draft_id": "r6132347275537598063",
+      "gmail_message_id": "1a1abeadfb545730",
+      "decision_reason": "",
+      "history": [
+        {
+          "at": "2026-11-04T21:39:56+00:00",
+          "action": "created",
+          "status": "pending"
+        },
+        {
+          "at": "2026-11-04T21:41:35+00:00",
+          "action": "gmail_draft_created",
+          "draft_id": "r6132347275537598063"
+        },
+        {
+          "at": "2026-11-06",
+          "action": "reconciled_sent",
+          "reason": "envoi constaté dans Gmail (statut précédent : pending)",
+          "source": "gmail_manual_observed",
+          "gmail_message_id": "1a1abeadfb545730"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-04-lot4-008",
+      "campaign": "2026-11-04-lot4",
+      "to": "goudalerestaurant@gmail.com",
+      "company": "Restaurant Goudale Orchies",
+      "subject": "Goudale Orchies : réservation en ligne ?",
+      "body": "Bonjour,\n\nLa page du restaurant d'Orchies indique « Réservation Uniquement par téléphone », alors que d'autres sites du groupe acceptent déjà la réservation en ligne.\n\nJe peux vous proposer une réservation en ligne pour le site d'Orchies.\n\nÀ titre d'exemple, voici le site institutionnel que j'ai conçu pour mon groupe : https://groupebourasseau.com\n\nJe peux vous préparer gratuitement une première démonstration personnalisée, sans engagement : maquette de réservation en ligne pour le restaurant d'Orchies.\n\nCela vous dirait de la découvrir ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+      "need": "site_web",
+      "evidence_sources": [
+        "https://www.restaurant-goudale.com/restaurants/",
+        "https://www.restaurant-goudale.com/restaurants/"
+      ],
+      "status": "sent",
+      "created_at": "2026-11-04T21:39:56+00:00",
+      "updated_at": "2026-11-06",
+      "gmail_draft_id": "r4069016850255698710",
+      "gmail_message_id": "1a1abeae419d880a",
+      "decision_reason": "",
+      "history": [
+        {
+          "at": "2026-11-04T21:39:56+00:00",
+          "action": "created",
+          "status": "pending"
+        },
+        {
+          "at": "2026-11-04T21:41:35+00:00",
+          "action": "gmail_draft_created",
+          "draft_id": "r4069016850255698710"
+        },
+        {
+          "at": "2026-11-06",
+          "action": "reconciled_sent",
+          "reason": "envoi constaté dans Gmail (statut précédent : pending)",
+          "source": "gmail_manual_observed",
+          "gmail_message_id": "1a1abeae419d880a"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-04-lot5-001",
+      "campaign": "2026-11-04-lot5",
+      "to": "contact@atomer.fr",
+      "company": "ATOMER",
+      "subject": "ATOMER : vos inscriptions encore par bulletin PDF ?",
+      "body": "Bonjour,\n\nVos conditions générales précisent que les inscriptions doivent être confirmées par un bulletin d'inscription « renvoyé par e-mail ou par courrier », et qu'un bulletin incomplet met la demande en attente.\n\nJe peux vous proposer un parcours d'inscription en ligne qui remplace le bulletin PDF et génère conventions, convocations et pièces de fin de formation.\n\nCôté agents IA, voici SYNATRAP, la plateforme que je développe avec mon groupe : https://synatrap.com\n\nJe peux vous préparer gratuitement une maquette du parcours d'inscription et une démonstration du générateur de convention-convocation, sans engagement.\n\nSeriez-vous disponible pour un court échange là-dessus ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+      "need": "automatisation",
+      "evidence_sources": [
+        "http://www.atomer.fr/4/Bulletin_inscription_formation_ATOMER.pdf",
+        "http://www.atomer.fr/4/Bulletin_inscription_formation_ATOMER.pdf",
+        "http://www.atomer.fr/"
+      ],
+      "status": "sent",
+      "created_at": "2026-11-04T22:08:42+00:00",
+      "updated_at": "2026-11-06",
+      "gmail_draft_id": "r-3672069521747812245",
+      "gmail_message_id": "1a1abeaecbcef640",
+      "decision_reason": "",
+      "history": [
+        {
+          "at": "2026-11-04T22:08:42+00:00",
+          "action": "created",
+          "status": "pending"
+        },
+        {
+          "at": "2026-11-04",
+          "action": "personnalisation_lot5",
+          "reason": "CTA et argument démo diversifiés ; paternité de la référence formulée sans attribution non confirmée"
+        },
+        {
+          "at": "2026-11-04T22:11:07+00:00",
+          "action": "gmail_draft_created",
+          "draft_id": "r-3672069521747812245"
+        },
+        {
+          "at": "2026-11-06",
+          "action": "reconciled_sent",
+          "reason": "envoi constaté dans Gmail (statut précédent : pending)",
+          "source": "gmail_manual_observed",
+          "gmail_message_id": "1a1abeaecbcef640"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-04-lot5-002",
+      "campaign": "2026-11-04-lot5",
+      "to": "nettoyage.industriel@wanadoo.fr",
+      "company": "NETTOYAGE INDUSTRIEL",
+      "subject": "Nettoyage Industriel : qualifier vos demandes de devis",
+      "body": "Bonjour,\n\nVotre page Contact ne propose qu'un formulaire libre « Nom, Adresse email, Message » avec un captcha, sans aucune question sur la surface, la fréquence ou le type de locaux à entretenir.\n\nJe peux vous proposer une demande de devis en ligne qui qualifie la surface, la fréquence et le type de locaux avant votre rappel.\n\nÀ titre d'exemple, voici le site institutionnel de mon groupe : https://groupebourasseau.com\n\nJe peux vous préparer gratuitement une première démonstration personnalisée, sans engagement : maquette du formulaire de devis qualifié (type de locaux, surface, fréquence) et démo du récapitulatif automatique.\n\nUn aperçu vous intéresserait ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+      "need": "refonte",
+      "evidence_sources": [
+        "https://www.nettoyage-industriel39.com/contact/",
+        "https://www.nettoyage-industriel39.com/",
+        "https://www.nettoyage-industriel39.com/"
+      ],
+      "status": "sent",
+      "created_at": "2026-11-04T22:08:42+00:00",
+      "updated_at": "2026-11-06",
+      "gmail_draft_id": "r-2030763522328067709",
+      "gmail_message_id": "1a1abeaf51545a13",
+      "decision_reason": "",
+      "history": [
+        {
+          "at": "2026-11-04T22:08:42+00:00",
+          "action": "created",
+          "status": "pending"
+        },
+        {
+          "at": "2026-11-04",
+          "action": "personnalisation_lot5",
+          "reason": "CTA et argument démo diversifiés ; paternité de la référence formulée sans attribution non confirmée"
+        },
+        {
+          "at": "2026-11-04T22:11:07+00:00",
+          "action": "gmail_draft_created",
+          "draft_id": "r-2030763522328067709"
+        },
+        {
+          "at": "2026-11-06",
+          "action": "reconciled_sent",
+          "reason": "envoi constaté dans Gmail (statut précédent : pending)",
+          "source": "gmail_manual_observed",
+          "gmail_message_id": "1a1abeaf51545a13"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-04-lot5-003",
+      "campaign": "2026-11-04-lot5",
+      "to": "vigneronsetcaviste@gmail.com",
+      "company": "Vignerons et Caviste",
+      "subject": "Vos cours d'œnologie : réserver sans appeler ?",
+      "body": "Bonjour,\n\nVotre page indique qu'avant toute réservation en ligne il faut d'abord vous écrire ou vous appeler « pour s'assurer des disponibilités », alors que le panier affiche déjà un stock.\n\nJe peux vous proposer un module de réservation des cours d'œnologie qui affiche les places réellement disponibles.\n\nÀ titre d'exemple, voici le site institutionnel de mon groupe : https://groupebourasseau.com\n\nJe vous prépare gratuitement une maquette du calendrier de vos cours d'œnologie, avec les places restantes par session, sans engagement.\n\nPuis-je vous montrer à quoi cela ressemblerait ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+      "need": "refonte",
+      "evidence_sources": [
+        "https://vignerons-et-caviste.fr/",
+        "https://vignerons-et-caviste.fr/"
+      ],
+      "status": "sent",
+      "created_at": "2026-11-04T22:08:42+00:00",
+      "updated_at": "2026-11-06",
+      "gmail_draft_id": "r-7012393960743457622",
+      "gmail_message_id": "1a1abeaff2f7a627",
+      "decision_reason": "",
+      "history": [
+        {
+          "at": "2026-11-04T22:08:42+00:00",
+          "action": "created",
+          "status": "pending"
+        },
+        {
+          "at": "2026-11-04",
+          "action": "personnalisation_lot5",
+          "reason": "CTA et argument démo diversifiés ; paternité de la référence formulée sans attribution non confirmée"
+        },
+        {
+          "at": "2026-11-04T22:11:07+00:00",
+          "action": "gmail_draft_created",
+          "draft_id": "r-7012393960743457622"
+        },
+        {
+          "at": "2026-11-06",
+          "action": "reconciled_sent",
+          "reason": "envoi constaté dans Gmail (statut précédent : pending)",
+          "source": "gmail_manual_observed",
+          "gmail_message_id": "1a1abeaff2f7a627"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-04-lot5-004",
+      "campaign": "2026-11-04-lot5",
+      "to": "boutique@lacaviste.fr",
+      "company": "La Caviste",
+      "subject": "La Caviste : vos commandes préparées sans emails",
+      "body": "Bonjour Frédérique,\n\nVotre page contact précise que vous donnez très peu de renseignements par téléphone pour privilégier le service en boutique, et invite à passer par mail pour toute demande particulière.\n\nJe peux vous proposer un module de commande à préparer en boutique, pour traiter les demandes sans échange d'emails aller-retour.\n\nÀ titre d'exemple, voici le site institutionnel de mon groupe : https://groupebourasseau.com\n\nJe peux vous envoyer gratuitement une maquette de commande à préparer en boutique, sans engagement : vous me dites si cela vous ressemble.\n\nSouhaitez-vous que je vous prépare cet aperçu ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+      "need": "refonte",
+      "evidence_sources": [
+        "https://www.lacavistelh.fr/nous-contacter/",
+        "https://www.lacavistelh.fr/"
+      ],
+      "status": "sent",
+      "created_at": "2026-11-04T22:08:42+00:00",
+      "updated_at": "2026-11-06",
+      "gmail_draft_id": "r-3517500887937529637",
+      "gmail_message_id": "1a1abeb0bd7e3299",
+      "decision_reason": "",
+      "history": [
+        {
+          "at": "2026-11-04T22:08:42+00:00",
+          "action": "created",
+          "status": "pending"
+        },
+        {
+          "at": "2026-11-04",
+          "action": "personnalisation_lot5",
+          "reason": "CTA et argument démo diversifiés ; paternité de la référence formulée sans attribution non confirmée"
+        },
+        {
+          "at": "2026-11-04T22:11:07+00:00",
+          "action": "gmail_draft_created",
+          "draft_id": "r-3517500887937529637"
+        },
+        {
+          "at": "2026-11-06",
+          "action": "reconciled_sent",
+          "reason": "envoi constaté dans Gmail (statut précédent : pending)",
+          "source": "gmail_manual_observed",
+          "gmail_message_id": "1a1abeb0bd7e3299"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-04-lot5-005",
+      "campaign": "2026-11-04-lot5",
+      "to": "contact@alphamecanique.fr",
+      "company": "ALPHA MECANIQUE",
+      "subject": "Alpha Mécanique : vos demandes de devis sur plans",
+      "body": "Bonjour,\n\nVotre site décrit le chiffrage « dès réception de vos plans », avec analyse des tolérances, de la matière et des quantités, puis un devis sous 24 à 48 h.\n\nJe peux vous proposer un assistant qui réceptionne les plans, vérifie qu'il ne manque rien et prépare la trame du devis.\n\nCôté agents IA, voici SYNATRAP, la plateforme que je développe avec mon groupe : https://synatrap.com\n\nJe peux vous montrer gratuitement une démonstration sur un de vos cas types, sans engagement : réception du plan, contrôle des informations manquantes, trame de devis.\n\nEst-ce un sujet d'actualité chez vous ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+      "need": "automatisation",
+      "evidence_sources": [
+        "https://www.alphamecanique.fr/",
+        "https://www.alphamecanique.fr/"
+      ],
+      "status": "sent",
+      "created_at": "2026-11-04T22:08:42+00:00",
+      "updated_at": "2026-11-06",
+      "gmail_draft_id": "r9082772945695603666",
+      "gmail_message_id": "1a1abeb156455137",
+      "decision_reason": "",
+      "history": [
+        {
+          "at": "2026-11-04T22:08:42+00:00",
+          "action": "created",
+          "status": "pending"
+        },
+        {
+          "at": "2026-11-04",
+          "action": "personnalisation_lot5",
+          "reason": "CTA et argument démo diversifiés ; paternité de la référence formulée sans attribution non confirmée"
+        },
+        {
+          "at": "2026-11-04T22:11:07+00:00",
+          "action": "gmail_draft_created",
+          "draft_id": "r9082772945695603666"
+        },
+        {
+          "at": "2026-11-06",
+          "action": "reconciled_sent",
+          "reason": "envoi constaté dans Gmail (statut précédent : pending)",
+          "source": "gmail_manual_observed",
+          "gmail_message_id": "1a1abeb156455137"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-04-lot5-006",
+      "campaign": "2026-11-04-lot5",
+      "to": "ambulancestemarie@gmail.com",
+      "company": "SARL Ambulances Sainte-Marie",
+      "subject": "Ambulances Sainte-Marie : vos ententes préalables",
+      "body": "Bonjour,\n\nVotre site met en avant la gestion des demandes d'entente au préalable et du tiers payant, alors que le formulaire en ligne ne demande que le type de véhicule et un message libre.\n\nJe peux vous proposer un assistant qui trie les demandes de transport et prépare les dossiers d'entente préalable.\n\nCôté agents IA, voici SYNATRAP, la plateforme que je développe avec mon groupe : https://synatrap.com\n\nJe peux vous montrer gratuitement une démonstration du tri des demandes et de la préparation d'un dossier, sans engagement et sur des exemples fictifs.\n\nCela vaut-il un échange de dix minutes ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+      "need": "automatisation",
+      "evidence_sources": [
+        "https://ambulances-sainte-marie.fr/",
+        "https://ambulances-sainte-marie.fr/"
+      ],
+      "status": "sent",
+      "created_at": "2026-11-04T22:08:42+00:00",
+      "updated_at": "2026-11-06",
+      "gmail_draft_id": "r-7886629766998266627",
+      "gmail_message_id": "1a1abeb1ea9a2f13",
+      "decision_reason": "",
+      "history": [
+        {
+          "at": "2026-11-04T22:08:42+00:00",
+          "action": "created",
+          "status": "pending"
+        },
+        {
+          "at": "2026-11-04",
+          "action": "personnalisation_lot5",
+          "reason": "CTA et argument démo diversifiés ; paternité de la référence formulée sans attribution non confirmée"
+        },
+        {
+          "at": "2026-11-04T22:11:07+00:00",
+          "action": "gmail_draft_created",
+          "draft_id": "r-7886629766998266627"
+        },
+        {
+          "at": "2026-11-06",
+          "action": "reconciled_sent",
+          "reason": "envoi constaté dans Gmail (statut précédent : pending)",
+          "source": "gmail_manual_observed",
+          "gmail_message_id": "1a1abeb1ea9a2f13"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-04-lot5-007",
+      "campaign": "2026-11-04-lot5",
+      "to": "contact@blanchisseriedes3regions.fr",
+      "company": "Blanchisserie des 3 Régions (B3R)",
+      "subject": "B3R : votre site affiche une page d'hébergement suspendu",
+      "body": "Bonjour,\n\nEn consultant blanchisseriedes3regions.fr aujourd'hui, on tombe sur la page de l'hébergeur : « This site is currently suspended ».\n\nJe peux vous proposer la remise en ligne de votre site, avec une demande de devis et de tournée de collecte.\n\nÀ titre d'exemple, voici le site institutionnel de mon groupe : https://groupebourasseau.com\n\nJe peux vous envoyer gratuitement une maquette de votre site remis en ligne, avec demande de devis et de collecte, sans engagement.\n\nVoulez-vous que je vous montre cette maquette ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+      "need": "site_web",
+      "evidence_sources": [
+        "https://blanchisseriedes3regions.fr/",
+        "https://blanchisseriedes3regions.fr/pressing-livraison-blanchisserie-des-3-regions/"
+      ],
+      "status": "sent",
+      "created_at": "2026-11-04T22:08:42+00:00",
+      "updated_at": "2026-11-06",
+      "gmail_draft_id": "r1203180346807190290",
+      "gmail_message_id": "1a1abeb27153577d",
+      "decision_reason": "",
+      "history": [
+        {
+          "at": "2026-11-04T22:08:42+00:00",
+          "action": "created",
+          "status": "pending"
+        },
+        {
+          "at": "2026-11-04",
+          "action": "personnalisation_lot5",
+          "reason": "CTA et argument démo diversifiés ; paternité de la référence formulée sans attribution non confirmée"
+        },
+        {
+          "at": "2026-11-04T22:11:07+00:00",
+          "action": "gmail_draft_created",
+          "draft_id": "r1203180346807190290"
+        },
+        {
+          "at": "2026-11-06",
+          "action": "reconciled_sent",
+          "reason": "envoi constaté dans Gmail (statut précédent : pending)",
+          "source": "gmail_manual_observed",
+          "gmail_message_id": "1a1abeb27153577d"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-06-lot6-001",
+      "campaign": "2026-11-06-lot6",
+      "to": "contact@celtuce-traiteur.com",
+      "company": "Celtuce Traiteur",
+      "subject": "Celtuce : vos devis buffets recopiés à la main ?",
+      "body": "Bonjour,\n\nVotre page devis réclame cinq informations précises — entreprise, téléphone, prestation, nombre de personnes, facturation et livraison — et fournit un modèle d'e-mail à trous pour que le client les rédige lui-même.\n\nJe peux vous proposer un formulaire de devis buffet qui collecte ces cinq informations et pré-remplit le devis, à valider par vos soins.\n\nCôté agents IA, voici SYNATRAP, la plateforme que je développe avec mon groupe : https://synatrap.com\n\nJe peux vous préparer gratuitement une première démonstration personnalisée, sans engagement : démo du formulaire buffet produisant une demande complète et un devis pré-rempli.\n\nUn échange de quinze minutes vous conviendrait-il pour voir à quoi cela ressemblerait ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+      "need": "automatisation",
+      "evidence_sources": [
+        "https://www.celtuce-traiteur.com/contact/",
+        "https://www.celtuce-traiteur.com/contact/"
+      ],
+      "status": "pending",
+      "created_at": "2026-11-06T13:06:06+00:00",
+      "updated_at": "2026-11-06T13:10:42+00:00",
+      "gmail_draft_id": "r4668255302629793023",
+      "gmail_message_id": "1a1b0fae4630cfd9",
+      "decision_reason": "",
+      "history": [
+        {
+          "at": "2026-11-06T13:06:06+00:00",
+          "action": "created",
+          "status": "pending"
+        },
+        {
+          "at": "2026-11-06",
+          "action": "recomposed",
+          "reason": "variante diversifiée : automation_ia"
+        },
+        {
+          "at": "2026-11-06T13:10:42+00:00",
+          "action": "draft_created",
+          "reason": "brouillon Gmail créé et labellisé Prospection/2026-11-06-lot6",
+          "gmail_draft_id": "r4668255302629793023"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-06-lot6-002",
+      "campaign": "2026-11-06-lot6",
+      "to": "contact@mamiecuisinetraiteur.fr",
+      "company": "Mamie Cuisine Traiteur",
+      "subject": "Mamie Cuisine : la règle des 72 h, appliquée automatiquement ?",
+      "body": "Bonjour,\n\nVotre site indique que les plateaux-repas se commandent en ligne, mais que les buffets et petits-déjeuners passent « uniquement par mail au minimum 72h à l'avance ».\n\nJe peux vous proposer un module de demande de buffet et petit-déjeuner qui applique vos règles de délai et de zone de livraison dès la saisie.\n\nÀ titre d'exemple, voici le site institutionnel que j'ai conçu pour mon groupe : https://groupebourasseau.com\n\nJe peux vous préparer gratuitement une première démonstration personnalisée, sans engagement : démo d'une demande de buffet en ligne contrôlant le délai de 72 h et la zone de livraison.\n\nCela vous dirait de la découvrir ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+      "need": "automatisation",
+      "evidence_sources": [
+        "https://www.mamiecuisinetraiteur.fr/index.php",
+        "https://www.mamiecuisinetraiteur.fr/index.php"
+      ],
+      "status": "pending",
+      "created_at": "2026-11-06T13:06:06+00:00",
+      "updated_at": "2026-11-06T13:10:42+00:00",
+      "gmail_draft_id": "r7069133405038258003",
+      "gmail_message_id": "1a1b0faf020eae48",
+      "decision_reason": "",
+      "history": [
+        {
+          "at": "2026-11-06T13:06:06+00:00",
+          "action": "created",
+          "status": "pending"
+        },
+        {
+          "at": "2026-11-06",
+          "action": "recomposed",
+          "reason": "variante diversifiée : refonte"
+        },
+        {
+          "at": "2026-11-06T13:10:42+00:00",
+          "action": "draft_created",
+          "reason": "brouillon Gmail créé et labellisé Prospection/2026-11-06-lot6",
+          "gmail_draft_id": "r7069133405038258003"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-06-lot6-003",
+      "campaign": "2026-11-06-lot6",
+      "to": "contact@baptiste-break.fr",
+      "company": "Baptiste Break Pâtisserie Traiteur",
+      "subject": "Baptiste Break : vos semaines complètes visibles avant la demande ?",
+      "body": "Bonjour,\n\nVotre page commande précise que le nombre de commandes est limité chaque semaine et que certaines dates sont complètes plusieurs semaines à l'avance — mais un client ne peut le savoir qu'après vous avoir écrit.\n\nJe peux vous proposer un formulaire de commande qui indique les créneaux encore disponibles, calcule le devis et suit l'acompte.\n\nCôté agents IA, voici SYNATRAP, la plateforme que je développe avec mon groupe : https://synatrap.com\n\nJe peux vous préparer gratuitement une première démonstration personnalisée, sans engagement : démo d'une demande de gâteau sur-mesure affichant les semaines encore ouvertes et le devis correspondant.\n\nCela vous dirait de la découvrir ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+      "need": "automatisation",
+      "evidence_sources": [
+        "https://www.baptiste-break.fr/cgv/",
+        "https://www.baptiste-break.fr/passez-commande/"
+      ],
+      "status": "pending",
+      "created_at": "2026-11-06T13:06:06+00:00",
+      "updated_at": "2026-11-06T13:10:42+00:00",
+      "gmail_draft_id": "r-2074566668747048619",
+      "gmail_message_id": "1a1b0fafa9a0a8b2",
+      "decision_reason": "",
+      "history": [
+        {
+          "at": "2026-11-06T13:06:06+00:00",
+          "action": "created",
+          "status": "pending"
+        },
+        {
+          "at": "2026-11-06",
+          "action": "recomposed",
+          "reason": "variante diversifiée : synatrap_ia"
+        },
+        {
+          "at": "2026-11-06T13:10:42+00:00",
+          "action": "draft_created",
+          "reason": "brouillon Gmail créé et labellisé Prospection/2026-11-06-lot6",
+          "gmail_draft_id": "r-2074566668747048619"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-06-lot6-004",
+      "campaign": "2026-11-06-lot6",
+      "to": "info-location@joly-location.fr",
+      "company": "SARL Joly Location",
+      "subject": "Joly Location : votre ancien domaine renvoie « site non publié »",
+      "body": "Bonjour,\n\nPages Jaunes pointe encore vers jolylocation-echafaudage.fr, qui affiche aujourd'hui « This site is not published » — alors que votre site actif est joly-location.fr.\n\nJe peux vous proposer une demande de location qui précise matériel, dates et besoin de chauffeur, et la remise en ligne de l'ancien domaine encore cité dans les annuaires.\n\nÀ titre d'exemple, voici le site institutionnel que j'ai conçu pour mon groupe : https://groupebourasseau.com\n\nJe peux vous préparer gratuitement une première démonstration personnalisée, sans engagement : démo d'une demande de location nacelle ou échafaudage avec dates et option chauffeur.\n\nSouhaitez-vous que je vous montre cela sur un cas concret de votre activité ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+      "need": "automatisation",
+      "evidence_sources": [
+        "https://www.jolylocation-echafaudage.fr/contact",
+        "https://www.joly-location.fr/"
+      ],
+      "status": "pending",
+      "created_at": "2026-11-06T13:06:06+00:00",
+      "updated_at": "2026-11-06T13:10:42+00:00",
+      "gmail_draft_id": "r7248452827625200722",
+      "gmail_message_id": "1a1b0fb33a0329ab",
+      "decision_reason": "",
+      "history": [
+        {
+          "at": "2026-11-06T13:06:06+00:00",
+          "action": "created",
+          "status": "pending"
+        },
+        {
+          "at": "2026-11-06",
+          "action": "recomposed",
+          "reason": "variante diversifiée : with_example"
+        },
+        {
+          "at": "2026-11-06T13:10:42+00:00",
+          "action": "draft_created",
+          "reason": "brouillon Gmail créé et labellisé Prospection/2026-11-06-lot6",
+          "gmail_draft_id": "r7248452827625200722"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-06-lot6-005",
+      "campaign": "2026-11-06-lot6",
+      "to": "uzeslocation.30700@gmail.com",
+      "company": "SARL Uzès Location",
+      "subject": "Uzès Location : matériel, dates, durée — demandés dès le formulaire ?",
+      "body": "Bonjour,\n\nVotre formulaire de contact ne demande que nom, téléphone, e-mail et un message libre : pour chiffrer une location, il faut ensuite réclamer le matériel, les dates et la durée.\n\nJe peux vous proposer un formulaire de demande de location qui collecte le matériel, les dates et la durée pour préparer le devis sans échange préalable.\n\nCôté agents IA, voici SYNATRAP, la plateforme que je développe avec mon groupe : https://synatrap.com\n\nJe peux vous préparer gratuitement une première démonstration personnalisée, sans engagement : démo d'une demande de location avec matériel, dates et livraison, prête à chiffrer.\n\nCela vous dirait de la découvrir ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+      "need": "automatisation",
+      "evidence_sources": [
+        "https://uzes-location.fr/contact/",
+        "https://uzes-location.fr/"
+      ],
+      "status": "pending",
+      "created_at": "2026-11-06T13:06:06+00:00",
+      "updated_at": "2026-11-06T13:10:42+00:00",
+      "gmail_draft_id": "r8584317365937954867",
+      "gmail_message_id": "1a1b0fb442b3a0be",
+      "decision_reason": "",
+      "history": [
+        {
+          "at": "2026-11-06T13:06:06+00:00",
+          "action": "created",
+          "status": "pending"
+        },
+        {
+          "at": "2026-11-06",
+          "action": "recomposed",
+          "reason": "variante diversifiée : demo_site"
+        },
+        {
+          "at": "2026-11-06T13:10:42+00:00",
+          "action": "draft_created",
+          "reason": "brouillon Gmail créé et labellisé Prospection/2026-11-06-lot6",
+          "gmail_draft_id": "r8584317365937954867"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-06-lot6-006",
+      "campaign": "2026-11-06-lot6",
+      "to": "contact@techniquespiscine.fr",
+      "company": "Techniques Piscine",
+      "subject": "Techniques Piscine : qualifier le projet avant le premier appel ?",
+      "body": "Bonjour,\n\nVotre page contact promet « un seul interlocuteur » et un suivi clé en main, mais le formulaire ne demande que nom, e-mail, téléphone et un message libre.\n\nJe mets en place des automatisations qui vous font gagner du temps sur les tâches répétitives.\n\nJe peux vous préparer gratuitement une première démonstration personnalisée, sans engagement : démo d'un formulaire de projet piscine qui trie construction, rénovation et entretien dès la demande.\n\nUn échange de quinze minutes vous conviendrait-il pour voir à quoi cela ressemblerait ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+      "need": "automatisation",
+      "evidence_sources": [
+        "https://techniquespiscine.fr/contactez-nous/",
+        "https://techniquespiscine.fr/contactez-nous/"
+      ],
+      "status": "pending",
+      "created_at": "2026-11-06T13:06:06+00:00",
+      "updated_at": "2026-11-06T13:10:42+00:00",
+      "gmail_draft_id": "r-1290563027882505100",
+      "gmail_message_id": "1a1b0fb4f5c048ea",
+      "decision_reason": "",
+      "history": [
+        {
+          "at": "2026-11-06T13:06:06+00:00",
+          "action": "created",
+          "status": "pending"
+        },
+        {
+          "at": "2026-11-06",
+          "action": "recomposed",
+          "reason": "variante diversifiée : short_hook"
+        },
+        {
+          "at": "2026-11-06T13:10:42+00:00",
+          "action": "draft_created",
+          "reason": "brouillon Gmail créé et labellisé Prospection/2026-11-06-lot6",
+          "gmail_draft_id": "r-1290563027882505100"
+        }
+      ]
+    }
+  ]
+}

@@ -11,10 +11,31 @@
       "positioning": "Maison mère numérique réunissant IA & agents, création web, SEO et automatisation. Un seul nom, plusieurs activités, une même exigence.",
       "visual_identity": "Direction artistique éditoriale et monumentale sur la mythologie grecque (Atlas, Athéna, Apollon, Hermès, Héphaïstos), typographie display, mise en scène sobre et haut de gamme.",
       "structure": "Page unique à sections : le groupe, 4 axes d'activité, écosystème (SYNATRAP, RunNow), réalisations, méthode en 5 temps, contact.",
-      "features": ["storytelling de marque", "positionnement multi-activités", "liens écosystème", "méthode de travail affichée", "ancrage local Nantes"],
-      "sector_tags": ["services", "architecture", "batiment", "default", "institutionnel", "b2b"],
-      "need_tags": ["site_web", "refonte"],
-      "strengths": ["image de marque professionnelle", "site institutionnel élégant", "positionnement clair", "design sur mesure"],
+      "features": [
+        "storytelling de marque",
+        "positionnement multi-activités",
+        "liens écosystème",
+        "méthode de travail affichée",
+        "ancrage local Nantes"
+      ],
+      "sector_tags": [
+        "services",
+        "architecture",
+        "batiment",
+        "default",
+        "institutionnel",
+        "b2b"
+      ],
+      "need_tags": [
+        "site_web",
+        "refonte"
+      ],
+      "strengths": [
+        "image de marque professionnelle",
+        "site institutionnel élégant",
+        "positionnement clair",
+        "design sur mesure"
+      ],
       "best_for": "Entreprise cherchant un site institutionnel / professionnel, une image de marque forte ou une refonte haut de gamme.",
       "authorship_status": "owner_declared",
       "authorship_note": "Site du groupe de Martin Bourasseau (porte son nom, liste SYNATRAP dans son écosystème). Mentions légales 'en cours de publication' : paternité déclarée par le propriétaire, non encore publiée juridiquement.",
@@ -31,16 +52,43 @@
       "positioning": "Plateforme de 32 agents IA spécialisés (8 familles) à installer sur son ordinateur, chacun dédié à une mission concrète avec des outils déclarés.",
       "visual_identity": "Interface produit moderne et claire, familles colorées avec emblèmes, fiches agents, prix affichés, parcours pas-à-pas.",
       "structure": "Accueil (recherche par mission, agents à la une, familles, catalogue, fonctionnement), catalogue /agents, fiches /agents/{slug}, secteurs /agents/secteur/{secteur}, atelier /builder/new.",
-      "features": ["recherche d'agent par mission", "catalogue filtrable par secteur", "fiches agents avec outils/prix/niveaux de risque", "atelier de création d'agent sans code", "installation Windows", "gestion des licences"],
-      "sector_tags": ["commerce", "services", "default", "tech", "e-commerce", "vente", "marketing", "support"],
-      "need_tags": ["agent_ia", "automatisation", "site_web"],
-      "strengths": ["agents IA concrets par métier", "automatisation de tâches", "plateforme e-commerce / catalogue", "recherche et filtrage", "création sans code"],
+      "features": [
+        "recherche d'agent par mission",
+        "catalogue filtrable par secteur",
+        "fiches agents avec outils/prix/niveaux de risque",
+        "atelier de création d'agent sans code",
+        "installation Windows",
+        "gestion des licences"
+      ],
+      "sector_tags": [
+        "commerce",
+        "services",
+        "default",
+        "tech",
+        "e-commerce",
+        "vente",
+        "marketing",
+        "support"
+      ],
+      "need_tags": [
+        "agent_ia",
+        "automatisation",
+        "site_web"
+      ],
+      "strengths": [
+        "agents IA concrets par métier",
+        "automatisation de tâches",
+        "plateforme e-commerce / catalogue",
+        "recherche et filtrage",
+        "création sans code"
+      ],
       "best_for": "Entreprise intéressée par les agents IA, l'automatisation, ou une plateforme / catalogue / e-commerce.",
       "authorship_status": "owner_declared",
       "authorship_note": "Plateforme de l'écosystème de Martin Bourasseau (liée depuis prospecto.website et listée par Groupe Bourasseau). Paternité déclarée par le propriétaire.",
       "claim": "SYNATRAP, la plateforme d'agents IA de mon groupe",
       "example_sentence": "Côté agents IA, voici SYNATRAP, la plateforme que je développe avec mon groupe : {url}",
-      "added_at": "2026-11-04"
+      "added_at": "2026-11-04",
+      "example_sentence_alt": "Côté automatisation, voici SYNATRAP, la plateforme que je développe avec mon groupe : {url}"
     }
   ]
 }

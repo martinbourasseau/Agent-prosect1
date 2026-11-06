@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-06T13:10:42+00:00",
+  "updated_at": "2026-11-06T13:44:50+00:00",
   "items": [
     {
       "id": "2026-11-03-v2-001",
@@ -1736,7 +1736,7 @@
       "to": "contact@celtuce-traiteur.com",
       "company": "Celtuce Traiteur",
       "subject": "Celtuce : vos devis buffets recopiés à la main ?",
-      "body": "Bonjour,\n\nVotre page devis réclame cinq informations précises — entreprise, téléphone, prestation, nombre de personnes, facturation et livraison — et fournit un modèle d'e-mail à trous pour que le client les rédige lui-même.\n\nJe peux vous proposer un formulaire de devis buffet qui collecte ces cinq informations et pré-remplit le devis, à valider par vos soins.\n\nCôté agents IA, voici SYNATRAP, la plateforme que je développe avec mon groupe : https://synatrap.com\n\nJe peux vous préparer gratuitement une première démonstration personnalisée, sans engagement : démo du formulaire buffet produisant une demande complète et un devis pré-rempli.\n\nUn échange de quinze minutes vous conviendrait-il pour voir à quoi cela ressemblerait ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+      "body": "Bonjour,\n\nVotre page devis réclame cinq informations précises — entreprise, téléphone, prestation, nombre de personnes, facturation et livraison — et fournit un modèle d'e-mail à trous pour que le client les rédige lui-même.\n\nVos plateaux-repas ont déjà une boutique en ligne ; seuls les devis buffets en restent au traitement manuel.\n\nConcrètement, je pourrais mettre en place un formulaire de devis buffet qui collecte ces cinq informations et pré-remplit le devis, à valider par vos soins.\n\nCôté automatisation, voici SYNATRAP, la plateforme que je développe avec mon groupe : https://synatrap.com\n\nSur demande, je vous envoie gratuitement une démonstration, sans engagement : démo du formulaire buffet produisant une demande complète et un devis pré-rempli.\n\nSi vous êtes curieux, je vous montre — sinon, aucun souci.\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
       "need": "automatisation",
       "evidence_sources": [
         "https://www.celtuce-traiteur.com/contact/",
@@ -1746,7 +1746,7 @@
       "created_at": "2026-11-06T13:06:06+00:00",
       "updated_at": "2026-11-06T13:10:42+00:00",
       "gmail_draft_id": "r4668255302629793023",
-      "gmail_message_id": "1a1b0fae4630cfd9",
+      "gmail_message_id": "1a1b1155f6e25e8b",
       "decision_reason": "",
       "history": [
         {
@@ -1764,6 +1764,20 @@
           "action": "draft_created",
           "reason": "brouillon Gmail créé et labellisé Prospection/2026-11-06-lot6",
           "gmail_draft_id": "r4668255302629793023"
+        },
+        {
+          "at": "2026-11-06T13:37:57+00:00",
+          "action": "rewritten_v5",
+          "reason": "personnalisation v5 : observation, famille de solution, amorces en rotation par lot",
+          "variant": "automation_ia",
+          "words": 164
+        },
+        {
+          "at": "2026-11-06T13:40:01+00:00",
+          "action": "gmail_draft_updated",
+          "draft_id": "r4668255302629793023",
+          "message_id": "1a1b1155f6e25e8b",
+          "note": "brouillon mis à jour en place, aucun envoi"
         }
       ]
     },
@@ -1773,7 +1787,7 @@
       "to": "contact@mamiecuisinetraiteur.fr",
       "company": "Mamie Cuisine Traiteur",
       "subject": "Mamie Cuisine : la règle des 72 h, appliquée automatiquement ?",
-      "body": "Bonjour,\n\nVotre site indique que les plateaux-repas se commandent en ligne, mais que les buffets et petits-déjeuners passent « uniquement par mail au minimum 72h à l'avance ».\n\nJe peux vous proposer un module de demande de buffet et petit-déjeuner qui applique vos règles de délai et de zone de livraison dès la saisie.\n\nÀ titre d'exemple, voici le site institutionnel que j'ai conçu pour mon groupe : https://groupebourasseau.com\n\nJe peux vous préparer gratuitement une première démonstration personnalisée, sans engagement : démo d'une demande de buffet en ligne contrôlant le délai de 72 h et la zone de livraison.\n\nCela vous dirait de la découvrir ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+      "body": "Bonjour,\n\nVotre site indique que les plateaux-repas se commandent en ligne, mais que les buffets et petits-déjeuners passent « uniquement par mail au minimum 72h à l'avance ».\n\nVos clients ne découvrent donc le délai et le forfait de livraison qu'après vous avoir écrit.\n\nMon idée : un module de demande de buffet qui applique vos règles de délai et de zone dès la saisie.\n\nÀ titre d'exemple, voici le site institutionnel que j'ai conçu pour mon groupe : https://groupebourasseau.com\n\nJe vous prépare une première maquette gratuite, sans engagement : démo d'une demande de buffet en ligne contrôlant le délai de 72 h et la zone de livraison.\n\nVous préférez recevoir la démonstration, ou qu'on en parle d'abord ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
       "need": "automatisation",
       "evidence_sources": [
         "https://www.mamiecuisinetraiteur.fr/index.php",
@@ -1783,7 +1797,7 @@
       "created_at": "2026-11-06T13:06:06+00:00",
       "updated_at": "2026-11-06T13:10:42+00:00",
       "gmail_draft_id": "r7069133405038258003",
-      "gmail_message_id": "1a1b0faf020eae48",
+      "gmail_message_id": "1a1b1156acae33f5",
       "decision_reason": "",
       "history": [
         {
@@ -1801,6 +1815,20 @@
           "action": "draft_created",
           "reason": "brouillon Gmail créé et labellisé Prospection/2026-11-06-lot6",
           "gmail_draft_id": "r7069133405038258003"
+        },
+        {
+          "at": "2026-11-06T13:37:57+00:00",
+          "action": "rewritten_v5",
+          "reason": "personnalisation v5 : observation, famille de solution, amorces en rotation par lot",
+          "variant": "refonte",
+          "words": 159
+        },
+        {
+          "at": "2026-11-06T13:40:01+00:00",
+          "action": "gmail_draft_updated",
+          "draft_id": "r7069133405038258003",
+          "message_id": "1a1b1156acae33f5",
+          "note": "brouillon mis à jour en place, aucun envoi"
         }
       ]
     },
@@ -1810,7 +1838,7 @@
       "to": "contact@baptiste-break.fr",
       "company": "Baptiste Break Pâtisserie Traiteur",
       "subject": "Baptiste Break : vos semaines complètes visibles avant la demande ?",
-      "body": "Bonjour,\n\nVotre page commande précise que le nombre de commandes est limité chaque semaine et que certaines dates sont complètes plusieurs semaines à l'avance — mais un client ne peut le savoir qu'après vous avoir écrit.\n\nJe peux vous proposer un formulaire de commande qui indique les créneaux encore disponibles, calcule le devis et suit l'acompte.\n\nCôté agents IA, voici SYNATRAP, la plateforme que je développe avec mon groupe : https://synatrap.com\n\nJe peux vous préparer gratuitement une première démonstration personnalisée, sans engagement : démo d'une demande de gâteau sur-mesure affichant les semaines encore ouvertes et le devis correspondant.\n\nCela vous dirait de la découvrir ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+      "body": "Bonjour,\n\nVotre page commande précise que le nombre de commandes est limité chaque semaine et que certaines dates sont complètes plusieurs semaines à l'avance — mais un client ne peut le savoir qu'après vous avoir écrit.\n\nVous répondez donc à des demandes pour des semaines déjà pleines, et le suivi des acomptes reste à faire à la main.\n\nJe peux vous proposer un formulaire de commande qui affiche les semaines encore ouvertes, chiffre le devis et suit l'acompte.\n\nCôté automatisation, voici SYNATRAP, la plateforme que je développe avec mon groupe : https://synatrap.com\n\nJe peux vous en faire une démonstration gratuite, sans engagement : démo d'une demande de gâteau sur-mesure affichant les semaines encore ouvertes et le devis correspondant.\n\nEst-ce un point qui vous occupe en ce moment ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
       "need": "automatisation",
       "evidence_sources": [
         "https://www.baptiste-break.fr/cgv/",
@@ -1820,7 +1848,7 @@
       "created_at": "2026-11-06T13:06:06+00:00",
       "updated_at": "2026-11-06T13:10:42+00:00",
       "gmail_draft_id": "r-2074566668747048619",
-      "gmail_message_id": "1a1b0fafa9a0a8b2",
+      "gmail_message_id": "1a1b11578563a443",
       "decision_reason": "",
       "history": [
         {
@@ -1838,6 +1866,20 @@
           "action": "draft_created",
           "reason": "brouillon Gmail créé et labellisé Prospection/2026-11-06-lot6",
           "gmail_draft_id": "r-2074566668747048619"
+        },
+        {
+          "at": "2026-11-06T13:37:57+00:00",
+          "action": "rewritten_v5",
+          "reason": "personnalisation v5 : observation, famille de solution, amorces en rotation par lot",
+          "variant": "synatrap_ia",
+          "words": 168
+        },
+        {
+          "at": "2026-11-06T13:40:01+00:00",
+          "action": "gmail_draft_updated",
+          "draft_id": "r-2074566668747048619",
+          "message_id": "1a1b11578563a443",
+          "note": "brouillon mis à jour en place, aucun envoi"
         }
       ]
     },
@@ -1847,7 +1889,7 @@
       "to": "info-location@joly-location.fr",
       "company": "SARL Joly Location",
       "subject": "Joly Location : votre ancien domaine renvoie « site non publié »",
-      "body": "Bonjour,\n\nPages Jaunes pointe encore vers jolylocation-echafaudage.fr, qui affiche aujourd'hui « This site is not published » — alors que votre site actif est joly-location.fr.\n\nJe peux vous proposer une demande de location qui précise matériel, dates et besoin de chauffeur, et la remise en ligne de l'ancien domaine encore cité dans les annuaires.\n\nÀ titre d'exemple, voici le site institutionnel que j'ai conçu pour mon groupe : https://groupebourasseau.com\n\nJe peux vous préparer gratuitement une première démonstration personnalisée, sans engagement : démo d'une demande de location nacelle ou échafaudage avec dates et option chauffeur.\n\nSouhaitez-vous que je vous montre cela sur un cas concret de votre activité ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+      "body": "Bonjour,\n\nVotre fiche Pages Jaunes pointe encore vers jolylocation-echafaudage.fr, qui affiche « This site is not published », alors que votre site actif est joly-location.fr.\n\nUn client qui passe par l'annuaire tombe donc sur une page vide au lieu de votre catalogue de location.\n\nJe vous suggère la redirection de l'ancien domaine vers votre site actuel, pour ne plus perdre ces visites.\n\nÀ titre d'exemple, voici le site institutionnel que j'ai conçu pour mon groupe : https://groupebourasseau.com\n\nJe vous montre gratuitement, sans engagement, une démonstration : démo du parcours corrigé, de la fiche annuaire jusqu'à une demande de location datée.\n\nCela vous dirait de la découvrir ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
       "need": "automatisation",
       "evidence_sources": [
         "https://www.jolylocation-echafaudage.fr/contact",
@@ -1857,7 +1899,7 @@
       "created_at": "2026-11-06T13:06:06+00:00",
       "updated_at": "2026-11-06T13:10:42+00:00",
       "gmail_draft_id": "r7248452827625200722",
-      "gmail_message_id": "1a1b0fb33a0329ab",
+      "gmail_message_id": "1a1b11894c854e9b",
       "decision_reason": "",
       "history": [
         {
@@ -1875,6 +1917,20 @@
           "action": "draft_created",
           "reason": "brouillon Gmail créé et labellisé Prospection/2026-11-06-lot6",
           "gmail_draft_id": "r7248452827625200722"
+        },
+        {
+          "at": "2026-11-06T13:37:57+00:00",
+          "action": "rewritten_v5",
+          "reason": "personnalisation v5 : observation, famille de solution, amorces en rotation par lot",
+          "variant": "with_example",
+          "words": 147
+        },
+        {
+          "at": "2026-11-06T13:43:17+00:00",
+          "action": "gmail_draft_updated",
+          "draft_id": "r7248452827625200722",
+          "message_id": "1a1b11894c854e9b",
+          "note": "réécrit en place, label réappliqué, aucun envoi"
         }
       ]
     },
@@ -1884,17 +1940,17 @@
       "to": "uzeslocation.30700@gmail.com",
       "company": "SARL Uzès Location",
       "subject": "Uzès Location : matériel, dates, durée — demandés dès le formulaire ?",
-      "body": "Bonjour,\n\nVotre formulaire de contact ne demande que nom, téléphone, e-mail et un message libre : pour chiffrer une location, il faut ensuite réclamer le matériel, les dates et la durée.\n\nJe peux vous proposer un formulaire de demande de location qui collecte le matériel, les dates et la durée pour préparer le devis sans échange préalable.\n\nCôté agents IA, voici SYNATRAP, la plateforme que je développe avec mon groupe : https://synatrap.com\n\nJe peux vous préparer gratuitement une première démonstration personnalisée, sans engagement : démo d'une demande de location avec matériel, dates et livraison, prête à chiffrer.\n\nCela vous dirait de la découvrir ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+      "body": "Bonjour,\n\nVotre formulaire de contact ne demande que nom, téléphone, e-mail et un message libre : pour chiffrer une location, il faut ensuite réclamer le matériel, les dates et la durée.\n\nChaque devis suppose donc un aller-retour pour reconstituer ces trois informations.\n\nIl serait assez simple d'ajouter un formulaire de demande de location qui collecte matériel, dates et durée dès la première demande.\n\nCôté automatisation, voici SYNATRAP, la plateforme que je développe avec mon groupe : https://synatrap.com\n\nSans engagement, je vous prépare gratuitement une démonstration : démo d'une demande de location avec matériel, dates et livraison, prête à chiffrer.\n\nSouhaitez-vous que je vous montre cela sur un cas concret de votre activité ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
       "need": "automatisation",
       "evidence_sources": [
         "https://uzes-location.fr/contact/",
         "https://uzes-location.fr/"
       ],
-      "status": "pending",
+      "status": "suspended",
       "created_at": "2026-11-06T13:06:06+00:00",
       "updated_at": "2026-11-06T13:10:42+00:00",
       "gmail_draft_id": "r8584317365937954867",
-      "gmail_message_id": "1a1b0fb442b3a0be",
+      "gmail_message_id": "1a1b118a14a381b2",
       "decision_reason": "",
       "history": [
         {
@@ -1912,6 +1968,25 @@
           "action": "draft_created",
           "reason": "brouillon Gmail créé et labellisé Prospection/2026-11-06-lot6",
           "gmail_draft_id": "r8584317365937954867"
+        },
+        {
+          "at": "2026-11-06T13:37:57+00:00",
+          "action": "rewritten_v5",
+          "reason": "personnalisation v5 : observation, famille de solution, amorces en rotation par lot",
+          "variant": "demo_site",
+          "words": 153
+        },
+        {
+          "at": "2026-11-06T13:43:17+00:00",
+          "action": "gmail_draft_updated",
+          "draft_id": "r8584317365937954867",
+          "message_id": "1a1b118a14a381b2",
+          "note": "réécrit en place, label réappliqué, aucun envoi"
+        },
+        {
+          "at": "2026-11-06T13:44:50+00:00",
+          "action": "suspended",
+          "reason": "email public non confirmé — aucun envoi possible"
         }
       ]
     },
@@ -1921,7 +1996,7 @@
       "to": "contact@techniquespiscine.fr",
       "company": "Techniques Piscine",
       "subject": "Techniques Piscine : qualifier le projet avant le premier appel ?",
-      "body": "Bonjour,\n\nVotre page contact promet « un seul interlocuteur » et un suivi clé en main, mais le formulaire ne demande que nom, e-mail, téléphone et un message libre.\n\nJe mets en place des automatisations qui vous font gagner du temps sur les tâches répétitives.\n\nJe peux vous préparer gratuitement une première démonstration personnalisée, sans engagement : démo d'un formulaire de projet piscine qui trie construction, rénovation et entretien dès la demande.\n\nUn échange de quinze minutes vous conviendrait-il pour voir à quoi cela ressemblerait ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+      "body": "Bonjour,\n\nVotre page contact promet « un seul interlocuteur » et un suivi clé en main, mais le formulaire ne demande que nom, e-mail, téléphone et un message libre.\n\nCe que je pourrais prendre en charge : un formulaire de projet qui trie construction, rénovation et entretien, et situe le chantier avant le premier appel.\n\nJe peux vous en faire une démonstration gratuite, sans engagement : démo d'un formulaire de projet piscine qui trie construction, rénovation et entretien dès la demande.\n\nUn échange de quinze minutes vous conviendrait-il pour voir à quoi cela ressemblerait ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
       "need": "automatisation",
       "evidence_sources": [
         "https://techniquespiscine.fr/contactez-nous/",
@@ -1931,7 +2006,7 @@
       "created_at": "2026-11-06T13:06:06+00:00",
       "updated_at": "2026-11-06T13:10:42+00:00",
       "gmail_draft_id": "r-1290563027882505100",
-      "gmail_message_id": "1a1b0fb4f5c048ea",
+      "gmail_message_id": "1a1b118abcaa5f8a",
       "decision_reason": "",
       "history": [
         {
@@ -1949,6 +2024,226 @@
           "action": "draft_created",
           "reason": "brouillon Gmail créé et labellisé Prospection/2026-11-06-lot6",
           "gmail_draft_id": "r-1290563027882505100"
+        },
+        {
+          "at": "2026-11-06T13:37:57+00:00",
+          "action": "rewritten_v5",
+          "reason": "personnalisation v5 : observation, famille de solution, amorces en rotation par lot",
+          "variant": "short_hook",
+          "words": 135
+        },
+        {
+          "at": "2026-11-06T13:43:17+00:00",
+          "action": "gmail_draft_updated",
+          "draft_id": "r-1290563027882505100",
+          "message_id": "1a1b118abcaa5f8a",
+          "note": "réécrit en place, label réappliqué, aucun envoi"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-07-lot7-001",
+      "campaign": "2026-11-07-lot7",
+      "to": "contact@france-pnl.com",
+      "company": "France-Hypnose-Formation / France-PNL",
+      "subject": "Inscriptions France-PNL : quatre canaux, une seule validation ?",
+      "body": "Bonjour,\n\nVotre page d'inscription ouvre quatre canaux et précise que seul le paiement par carte bleue déclenche une prise en compte immédiate.\n\nLes demandes par e-mail ou téléphone attendent donc une validation du secrétariat, pour des groupes limités à quinze stagiaires.\n\nJe vous suggère un parcours d'inscription unique qui vérifie les places restantes, valide la demande et prépare la convention de formation.\n\nCôté automatisation, voici SYNATRAP, la plateforme que je développe avec mon groupe : https://synatrap.com\n\nJe vous montre gratuitement, sans engagement, une démonstration : démo d'une inscription par e-mail devenant dossier complet, place réservée et convention pré-remplie.\n\nCela vous dirait de la découvrir ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+      "need": "automatisation",
+      "evidence_sources": [
+        "https://france-hypnose-formation.com/inscriptions-aux-formations-pnl-et-hypnose/",
+        "https://france-hypnose-formation.com/inscriptions-aux-formations-pnl-et-hypnose/",
+        "https://france-hypnose-formation.com/inscriptions-aux-formations-pnl-et-hypnose/"
+      ],
+      "status": "draft",
+      "created_at": "2026-11-06T13:34:05+00:00",
+      "updated_at": "2026-11-06T13:34:05+00:00",
+      "gmail_draft_id": "r9120835433336929590",
+      "gmail_message_id": "1a1b118e705161a2",
+      "decision_reason": "",
+      "history": [
+        {
+          "at": "2026-11-06T13:34:05+00:00",
+          "action": "created",
+          "status": "pending"
+        },
+        {
+          "at": "2026-11-06T13:37:57+00:00",
+          "action": "rewritten_v5",
+          "reason": "personnalisation v5 : observation, famille de solution, amorces en rotation par lot",
+          "variant": "automation_ia",
+          "words": 145
+        },
+        {
+          "at": "2026-11-06T13:43:17+00:00",
+          "action": "gmail_draft_created",
+          "draft_id": "r9120835433336929590",
+          "message_id": "1a1b118e705161a2",
+          "label_id": "Label_5",
+          "note": "brouillon en attente de validation, aucun envoi"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-07-lot7-002",
+      "campaign": "2026-11-07-lot7",
+      "to": "demenagement@atoutransport.com",
+      "company": "Atoutransport",
+      "subject": "Atoutransport : vos dates de groupage consultables en ligne ?",
+      "body": "Bonjour,\n\nVous écrivez que les dates de groupage sont connues plusieurs mois à l'avance et qu'il faut prendre contact pour les connaître.\n\nJe peux vous proposer un calendrier de navettes consultable, relié au devis pour réserver une place sur le trajet choisi.\n\nJe peux vous en faire une démonstration gratuite, sans engagement : démo d'un calendrier Paris – Nice affichant les places restantes et chiffrant le volume saisi.\n\nEst-ce un point qui vous occupe en ce moment ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+      "need": "automatisation",
+      "evidence_sources": [
+        "https://www.atoutransport.com/",
+        "https://www.atoutransport.com/"
+      ],
+      "status": "draft",
+      "created_at": "2026-11-06T13:34:05+00:00",
+      "updated_at": "2026-11-06T13:34:05+00:00",
+      "gmail_draft_id": "r-2268686272411300764",
+      "gmail_message_id": "1a1b118f057c3d1e",
+      "decision_reason": "",
+      "history": [
+        {
+          "at": "2026-11-06T13:34:05+00:00",
+          "action": "created",
+          "status": "pending"
+        },
+        {
+          "at": "2026-11-06T13:37:57+00:00",
+          "action": "rewritten_v5",
+          "reason": "personnalisation v5 : observation, famille de solution, amorces en rotation par lot",
+          "variant": "short_hook",
+          "words": 118
+        },
+        {
+          "at": "2026-11-06T13:43:17+00:00",
+          "action": "gmail_draft_created",
+          "draft_id": "r-2268686272411300764",
+          "message_id": "1a1b118f057c3d1e",
+          "label_id": "Label_5",
+          "note": "brouillon en attente de validation, aucun envoi"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-07-lot7-003",
+      "campaign": "2026-11-07-lot7",
+      "to": "contact@bonbon-foliz.com",
+      "company": "Bonbon Foliz",
+      "subject": "Bonbon Foliz : vos ouvertures de compte pro par e-mail ?",
+      "body": "Bonjour,\n\nVotre espace revendeur demande d'envoyer le Kbis et les coordonnées par e-mail, avec les produits souhaités, pour que vous établissiez un bon de commande.\n\nChaque nouveau revendeur mobilise donc une personne pour lire les pièces et rédiger la première commande.\n\nConcrètement, je pourrais mettre en place un formulaire d'ouverture de compte pro qui dépose le Kbis, contrôle le SIRET et transforme la première sélection en bon de commande.\n\nCôté automatisation, voici SYNATRAP, la plateforme que je développe avec mon groupe : https://synatrap.com\n\nSur demande, je vous envoie gratuitement une démonstration, sans engagement : démo d'une demande de compte revendeur avec dépôt de Kbis et bon de commande généré.\n\nSi vous êtes curieux, je vous montre — sinon, aucun souci.\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+      "need": "automatisation",
+      "evidence_sources": [
+        "https://www.bonbon-foliz.com/page/9-espace-professionnel",
+        "https://www.bonbon-foliz.com/page/9-espace-professionnel"
+      ],
+      "status": "draft",
+      "created_at": "2026-11-06T13:34:05+00:00",
+      "updated_at": "2026-11-06T13:34:05+00:00",
+      "gmail_draft_id": "r-2054030206917225871",
+      "gmail_message_id": "1a1b118fd35f2b19",
+      "decision_reason": "",
+      "history": [
+        {
+          "at": "2026-11-06T13:34:05+00:00",
+          "action": "created",
+          "status": "pending"
+        },
+        {
+          "at": "2026-11-06T13:37:57+00:00",
+          "action": "rewritten_v5",
+          "reason": "personnalisation v5 : observation, famille de solution, amorces en rotation par lot",
+          "variant": "synatrap_ia",
+          "words": 160
+        },
+        {
+          "at": "2026-11-06T13:43:17+00:00",
+          "action": "gmail_draft_created",
+          "draft_id": "r-2054030206917225871",
+          "message_id": "1a1b118fd35f2b19",
+          "label_id": "Label_5",
+          "note": "brouillon en attente de validation, aucun envoi"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-07-lot7-004",
+      "campaign": "2026-11-07-lot7",
+      "to": "reservation@odeclaise.fr",
+      "company": "L'Ô de Claise",
+      "subject": "Ô de Claise : vos cartes cadeau réservables en ligne ?",
+      "body": "Bonjour,\n\nVotre accueil indique que les détenteurs d'une carte cadeau doivent appeler obligatoirement le 02 54 38 16 01 pour prendre rendez-vous.\n\nVous avez pourtant déjà une réservation en ligne : vos clients porteurs d'un bon cadeau sont les seuls à devoir passer par le téléphone.\n\nIl serait assez simple d'ajouter la reconnaissance des bons cadeaux dans votre module de réservation, pour que le solde soit déduit au moment du créneau choisi.\n\nÀ titre d'exemple, voici le site institutionnel que j'ai conçu pour mon groupe : https://groupebourasseau.com\n\nSans engagement, je vous prépare gratuitement une démonstration : démo d'une réservation payée par bon cadeau, avec solde restant et créneau confirmé sans appel.\n\nSouhaitez-vous que je vous montre cela sur un cas concret de votre activité ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+      "need": "automatisation",
+      "evidence_sources": [
+        "https://odeclaise.fr/",
+        "https://odeclaise.fr/"
+      ],
+      "status": "draft",
+      "created_at": "2026-11-06T13:34:05+00:00",
+      "updated_at": "2026-11-06T13:34:05+00:00",
+      "gmail_draft_id": "r2815323427362296493",
+      "gmail_message_id": "1a1b1192231a0240",
+      "decision_reason": "",
+      "history": [
+        {
+          "at": "2026-11-06T13:34:05+00:00",
+          "action": "created",
+          "status": "pending"
+        },
+        {
+          "at": "2026-11-06T13:37:57+00:00",
+          "action": "rewritten_v5",
+          "reason": "personnalisation v5 : observation, famille de solution, amorces en rotation par lot",
+          "variant": "demo_site",
+          "words": 165
+        },
+        {
+          "at": "2026-11-06T13:43:17+00:00",
+          "action": "gmail_draft_created",
+          "draft_id": "r2815323427362296493",
+          "message_id": "1a1b1192231a0240",
+          "label_id": "Label_5",
+          "note": "brouillon en attente de validation, aucun envoi"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-07-lot7-005",
+      "campaign": "2026-11-07-lot7",
+      "to": "contact@bulles-et-detente.fr",
+      "company": "Bulles & Détente",
+      "subject": "Bulles & Détente : le suivi de vos bons cadeaux automatisé ?",
+      "body": "Bonjour,\n\nVos bons cadeaux sont vendus en ligne, valables six mois, avec une prolongation facturée 10 € par mois et une annulation si le rendez-vous n'est pas annulé 48 h à l'avance.\n\nCes trois règles doivent être suivies pour chaque bon émis, alors que la vente, elle, est déjà automatisée.\n\nMon idée : un registre de bons cadeaux qui suit les échéances, calcule les prolongations et alerte avant expiration.\n\nCôté automatisation, voici SYNATRAP, la plateforme que je développe avec mon groupe : https://synatrap.com\n\nJe vous prépare une première maquette gratuite, sans engagement : démo d'un registre de bons cadeaux signalant les échéances à six mois et calculant une prolongation.\n\nVous préférez recevoir la démonstration, ou qu'on en parle d'abord ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+      "need": "automatisation",
+      "evidence_sources": [
+        "https://bulles-et-detente.fr/",
+        "https://bulles-et-detente.fr/"
+      ],
+      "status": "draft",
+      "created_at": "2026-11-06T13:34:05+00:00",
+      "updated_at": "2026-11-06T13:34:05+00:00",
+      "gmail_draft_id": "r-5537710055085633490",
+      "gmail_message_id": "1a1b119317154576",
+      "decision_reason": "",
+      "history": [
+        {
+          "at": "2026-11-06T13:34:05+00:00",
+          "action": "created",
+          "status": "pending"
+        },
+        {
+          "at": "2026-11-06T13:37:57+00:00",
+          "action": "rewritten_v5",
+          "reason": "personnalisation v5 : observation, famille de solution, amorces en rotation par lot",
+          "variant": "refonte",
+          "words": 160
+        },
+        {
+          "at": "2026-11-06T13:43:17+00:00",
+          "action": "gmail_draft_created",
+          "draft_id": "r-5537710055085633490",
+          "message_id": "1a1b119317154576",
+          "label_id": "Label_5",
+          "note": "brouillon en attente de validation, aucun envoi"
         }
       ]
     }

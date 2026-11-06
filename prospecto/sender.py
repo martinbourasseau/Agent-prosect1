@@ -140,6 +140,22 @@ class Sender:
         return (len(issues) == 0), issues
 
     # -- sélection -----------------------------------------------------------
+    # Statuts qui interdisent tout envoi, quelle que soit la qualité de la fiche.
+    # « suspendu » couvre le cas Uzès Location : brouillon conservé mais adresse
+    # non confirmée. Sans ce garde-fou, une fiche suspendue mais bien scorée et
+    # vérifiée pourrait être sélectionnée par le seul filtre de vérification.
+    BLOCKED_STATUSES = {
+        "suspendu", "suspended", "opposition", "opposed", "opposée",
+        "désinscrit", "desinscrit", "unsubscribed", "bounced", "rebond",
+        "complained", "plainte", "écarté", "ecarte", "exclu",
+    }
+
+    def _is_blocked(self, record: dict) -> bool:
+        for key in ("status", "status_crm", "email_status", "contactability"):
+            if str(record.get(key) or "").strip().lower() in self.BLOCKED_STATUSES:
+                return True
+        return bool(record.get("suspended_at"))
+
     def select_candidates(self, crm_records: list[dict], queue_items: list[dict]) -> list[SendCandidate]:
         s = self.settings
         allowed = set(s.get("quality", {}).get("allowed_email_verification", [EMAIL_VERIFIED]))
@@ -149,11 +165,17 @@ class Sender:
         already = {i.get("to", "").lower() for i in queue_items if i.get("status") == "sent"}
         already |= {e.get("to", "").lower() for e in self.log.entries if e.get("status") in ("sent", "delivered")}
         contacted = {r.get("email", "").lower() for r in crm_records if r.get("status") == "contacté"}
+        # Une suspension posée dans la file vaut aussi blocage, même si le CRM
+        # n'a pas encore été resynchronisé.
+        already |= {i.get("to", "").lower() for i in queue_items
+                    if str(i.get("status") or "").strip().lower() in self.BLOCKED_STATUSES}
 
         out: list[SendCandidate] = []
         for r in crm_records:
             email = (r.get("email") or "").lower()
             if not email or r.get("status") == "contacté":
+                continue
+            if self._is_blocked(r):
                 continue
             if r.get("tier") not in ("haute", "moyenne"):
                 continue

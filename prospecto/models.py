@@ -80,6 +80,10 @@ class Prospect:
     process_hint: str = ""  # processus concret observé (devis, RDV, e-mails entrants…)
     demo_detail: str = ""  # précision optionnelle du livrable limité de la démo gratuite
     custom_hook: str = ""  # accroche sur mesure (v3) — sinon générée depuis les preuves
+    # Personnalisation v5 (lot 7) : l'accroche énonce le fait vérifiable,
+    # l'observation en tire la conséquence concrète pour l'entreprise.
+    observation: str = ""
+    solution_type: str = ""  # famille de solution retenue (voir personalization)
     custom_subject: str = ""  # objet sur mesure (v3) — sinon généré depuis le besoin
     example_urls: list[str] = field(default_factory=list)  # liens réalisations (whitelist obligatoire)
     city: str = ""

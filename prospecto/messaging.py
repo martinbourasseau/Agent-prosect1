@@ -25,6 +25,10 @@ from .strategy import (
     DEMO_OFFERS, build_hook, public_need_evidence, de_company,
 )
 from .references import Reference, load_references, select_reference
+from .personalization import (
+    build_proposition, build_demo, pick_opener, generic_problems,
+    uses_legacy_service_line, SOLUTION_TYPES, CTA_VARIANTS, LotRotation, IA_SOLUTIONS,
+)
 
 # ---------------------------------------------------------------------------
 # Variantes : drapeaux de composition + objets.
@@ -87,17 +91,12 @@ CTA_DEMO = "Cela vous dirait de la découvrir ?"
 # engagement, pour que deux messages d'un même lot ne se terminent pas de la
 # même façon. Le choix est déterministe (même entreprise -> même CTA) afin que
 # la régénération d'un message reste reproductible.
-CTA_DEMO_VARIANTS = (
-    "Cela vous dirait de la découvrir ?",
-    "Souhaitez-vous que je vous montre cela sur un cas concret de votre activité ?",
-    "Un échange de quinze minutes vous conviendrait-il pour voir à quoi cela ressemblerait ?",
-)
+CTA_DEMO_VARIANTS = CTA_VARIANTS
 
 
-def select_cta_demo(prospect: Prospect) -> str:
+def select_cta_demo(prospect: Prospect, rotation: LotRotation | None = None) -> str:
     """Choisit un CTA stable pour cette entreprise (rotation déterministe)."""
-    key = prospect.company or prospect.contact_email or ""
-    return CTA_DEMO_VARIANTS[sum(ord(c) for c in key) % len(CTA_DEMO_VARIANTS)]
+    return pick_opener(prospect.company or prospect.contact_email, "cta", rotation)
 
 
 def applicable_variants(prospect: Prospect) -> list[str]:
@@ -149,12 +148,10 @@ def _subject(prospect: Prospect, variant: str) -> str:
     return subject
 
 
-def _proposition(prospect: Prospect) -> str:
+def _proposition(prospect: Prospect, rotation: LotRotation | None = None) -> str:
     need = prospect.primary_need or NEED_SITE_WEB
-    base = prospect.recommended_service.strip() or PROPOSITION_V4[need]
-    # Si la prestation recommandée commence en minuscule, on en fait une phrase complète.
-    if base and base[0].islower():
-        base = "Je peux vous proposer " + base
+    base = build_proposition(prospect.recommended_service, prospect.company,
+                             fallback=PROPOSITION_V4[need], rotation=rotation)
     # Queue sectorielle (bénéfice web) uniquement pour les besoins web, sans prestation sur mesure.
     tail = SECTOR_TAIL.get((prospect.sector or "").lower(), "")
     if tail and need in (NEED_SITE_WEB, NEED_REFONTE) and not prospect.recommended_service.strip():
@@ -164,7 +161,7 @@ def _proposition(prospect: Prospect) -> str:
     return base
 
 
-def _demo_phrase(prospect: Prospect) -> str:
+def _demo_phrase(prospect: Prospect, rotation: LotRotation | None = None) -> str:
     """Phrase de démonstration.
 
     Lot 6 — correction : le détail de démonstration researched était ignoré dès
@@ -175,10 +172,7 @@ def _demo_phrase(prospect: Prospect) -> str:
     """
     detail = prospect.demo_detail.strip()
     if detail:
-        return (
-            "Je peux vous préparer gratuitement une première démonstration personnalisée, "
-            f"sans engagement : {detail}."
-        )
+        return build_demo(detail, prospect.company, rotation=rotation)
     if prospect.primary_need in (NEED_AGENT_IA, NEED_AUTOMATISATION):
         return DEMO_IA_PHRASE
     return DEMO_SITE_PHRASE
@@ -202,6 +196,7 @@ def compose_email(
     prospect: Prospect,
     variant: str = "",
     reference: Reference | None = None,
+    rotation: LotRotation | None = None,
 ) -> GeneratedEmail:
     """Compose un email v4. Lève ValueError si le prospect est invalide."""
     errors = prospect.validate()
@@ -219,24 +214,27 @@ def compose_email(
 
     subject = _subject(prospect, variant)
     hook = build_hook(prospect)
-    proposition = _proposition(prospect)
+    proposition = _proposition(prospect, rotation)
 
     parts = [_greeting(prospect), hook]
-    if not flags["short"]:
-        parts.append(proposition)
-    else:
-        # Version courte : proposition condensée en une ligne.
-        parts.append(PROPOSITION_V4[need])
+    # v5 : l'observation explicite la conséquence du fait cité, sans le juger.
+    observation = prospect.observation.strip()
+    if observation and not flags["short"]:
+        parts.append(observation if observation[-1] in ".!?" else observation + ".")
+    # v5 : la version courte conserve la prestation sur mesure quand elle existe ;
+    # la trame générique n'est plus qu'un repli signalé par check_email_v4.
+    parts.append(proposition)
 
     example_url = ""
     if flags["example"] and reference is not None and reference.enabled:
-        parts.append(reference.sentence())
+        use_alt = bool(prospect.solution_type) and prospect.solution_type not in IA_SOLUTIONS
+        parts.append(reference.sentence(use_alt=use_alt))
         example_url = reference.url
 
     if flags["demo"]:
-        parts.append(_demo_phrase(prospect))
+        parts.append(_demo_phrase(prospect, rotation))
 
-    parts.append(select_cta_demo(prospect) if flags["demo"] else CTA_SIMPLE)
+    parts.append(select_cta_demo(prospect, rotation) if flags["demo"] else CTA_SIMPLE)
     parts.append(config.OPT_OUT_LINE)
     parts.append(config.signature())
     body = "\n\n".join(parts) + "\n"
@@ -270,18 +268,33 @@ def check_email_v4(email: GeneratedEmail, prospect: Prospect | None = None) -> l
     if len(email.subject) > config.MAX_SUBJECT_CHARS:
         problems.append(f"objet trop long : {len(email.subject)} caractères")
     # Argument démo gratuite (maquette ou démonstration), toujours sans engagement.
-    if not any(w in body for w in ("démonstration", "maquette")):
+    # Lot 7 — correction : ces contrôles étaient sensibles à la casse. Une phrase
+    # commençant par « Sans engagement, … » était déclarée non conforme alors que
+    # la mention était bien présente. La comparaison se fait désormais en
+    # minuscules : l'exigence est inchangée, seule la détection est corrigée.
+    folded = body.lower()
+    if not any(w in folded for w in ("démonstration", "maquette")):
         problems.append("argument central manquant : démonstration / maquette")
-    if not any(w in body for w in ("gratuitement", "gratuite")):
+    if not any(w in folded for w in ("gratuitement", "gratuite")):
         problems.append("démonstration non annoncée comme gratuite")
-    if "sans engagement" not in body:
+    if "sans engagement" not in folded:
         problems.append("mention « sans engagement » manquante")
-    if "ne pas me relancer" not in body:
+    if "ne pas me relancer" not in folded:
         problems.append("opt-out manquant")
     if config.PORTFOLIO_URL not in body:
         problems.append("signature portfolio manquante")
     if "**" in body or "__" in body:
         problems.append("markdown dans un email texte brut")
+    # v5 — personnalisation réelle exigée.
+    for label in generic_problems(body) + generic_problems(email.subject):
+        problems.append(f"formulation interdite : {label}")
+    if prospect is not None:
+        if prospect.recommended_service.strip() and uses_legacy_service_line(body):
+            problems.append("présentation de services générique alors qu'une prestation sur mesure est connue")
+        if prospect.solution_type and prospect.solution_type not in SOLUTION_TYPES:
+            problems.append(f"famille de solution inconnue : {prospect.solution_type}")
+        if not prospect.custom_hook.strip() and "j'ai identifié une possibilité intéressante" in body:
+            problems.append("accroche de repli générique : aucune observation renseignée")
     lowered = body.lower()
     for forbidden in config.FORBIDDEN_PROMISES:
         if forbidden in lowered:

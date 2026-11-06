@@ -36,6 +36,11 @@ class Reference:
     authorship_note: str = ""
     claim: str = ""
     example_sentence: str = ""
+    # Lot 7 : formulation de repli quand la prestation proposée n'est pas un
+    # agent IA. Annoncer « Côté agents IA » devant un simple formulaire serait
+    # incohérent avec la proposition ; on présente alors la référence pour ce
+    # qu'elle est aussi (plateforme, automatisation), sans surenchère.
+    example_sentence_alt: str = ""
     added_at: str = ""
 
     @classmethod
@@ -43,9 +48,11 @@ class Reference:
         known = {f for f in cls.__dataclass_fields__}  # type: ignore[attr-defined]
         return cls(**{k: v for k, v in raw.items() if k in known})
 
-    def sentence(self) -> str:
-        tpl = self.example_sentence or "Un exemple de réalisation : {url}"
-        return tpl.format(url=self.url, name=self.name)
+    def sentence(self, use_alt: bool = False) -> str:
+        tpl = self.example_sentence
+        if use_alt and self.example_sentence_alt:
+            tpl = self.example_sentence_alt
+        return (tpl or "Un exemple de réalisation : {url}").format(url=self.url, name=self.name)
 
 
 def load_references(path: Path | None = None) -> list[Reference]:

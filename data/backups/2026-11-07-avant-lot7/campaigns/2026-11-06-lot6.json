@@ -1,0 +1,134 @@
+{
+  "campaign": "2026-11-06-lot6",
+  "strategy": "v4 — variantes + références + démo gratuite",
+  "generated_count": 6,
+  "emails": [
+    {
+      "queue_id": "2026-11-06-lot6-001",
+      "to": "contact@celtuce-traiteur.com",
+      "subject": "Celtuce : vos devis buffets recopiés à la main ?",
+      "body": "Bonjour,\n\nVotre page devis demande cinq informations précises — entreprise, téléphone, prestation, nombre de personnes, facturation et livraison — et fournit même un modèle d'e-mail à trous pour que le client les rédige lui-même.\n\nJe peux vous proposer un formulaire de devis buffet qui collecte les cinq informations déjà exigées et pré-remplit le devis avant validation humaine.\n\nCôté agents IA, voici SYNATRAP, la plateforme que je développe avec mon groupe : https://synatrap.com\n\nJe peux vous montrer gratuitement une démonstration concrète de la solution envisagée, sans engagement, sur un cas réel de votre activité.\n\nCela vous dirait de la découvrir ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+      "company": "Celtuce Traiteur",
+      "need": "automatisation",
+      "evidence_sources": [
+        "https://www.celtuce-traiteur.com/contact/",
+        "https://www.celtuce-traiteur.com/contact/"
+      ],
+      "variant": "synatrap_ia",
+      "reference_id": "synatrap",
+      "example_url": "https://synatrap.com",
+      "message_version": "v4",
+      "score": 80,
+      "tier": "haute"
+    },
+    {
+      "queue_id": "2026-11-06-lot6-002",
+      "to": "contact@mamiecuisinetraiteur.fr",
+      "subject": "Mamie Cuisine : la règle des 72 h, appliquée automatiquement ?",
+      "body": "Bonjour,\n\nVotre site indique que les plateaux-repas se commandent en ligne, mais que les buffets et petits-déjeuners passent « uniquement par mail au minimum 72h à l'avance ».\n\nJe peux vous proposer un module de demande de buffet et petit-déjeuner qui applique vos règles de délai et de zone de livraison dès la saisie.\n\nCôté agents IA, voici SYNATRAP, la plateforme que je développe avec mon groupe : https://synatrap.com\n\nJe peux vous montrer gratuitement une démonstration concrète de la solution envisagée, sans engagement, sur un cas réel de votre activité.\n\nCela vous dirait de la découvrir ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+      "company": "Mamie Cuisine Traiteur",
+      "need": "automatisation",
+      "evidence_sources": [
+        "https://www.mamiecuisinetraiteur.fr/index.php",
+        "https://www.mamiecuisinetraiteur.fr/index.php"
+      ],
+      "variant": "synatrap_ia",
+      "reference_id": "synatrap",
+      "example_url": "https://synatrap.com",
+      "message_version": "v4",
+      "score": 80,
+      "tier": "haute"
+    },
+    {
+      "queue_id": "2026-11-06-lot6-003",
+      "to": "contact@baptiste-break.fr",
+      "subject": "Baptiste Break : vos semaines complètes visibles avant la demande ?",
+      "body": "Bonjour,\n\nVotre page commande précise que le nombre de commandes est limité chaque semaine et que certaines dates sont complètes plusieurs semaines à l'avance — mais un client ne peut le savoir qu'après vous avoir écrit.\n\nJe peux vous proposer un formulaire de commande qui indique les créneaux encore disponibles, calcule le devis et suit l'acompte.\n\nCôté agents IA, voici SYNATRAP, la plateforme que je développe avec mon groupe : https://synatrap.com\n\nJe peux vous montrer gratuitement une démonstration concrète de la solution envisagée, sans engagement, sur un cas réel de votre activité.\n\nCela vous dirait de la découvrir ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+      "company": "Baptiste Break Pâtisserie Traiteur",
+      "need": "automatisation",
+      "evidence_sources": [
+        "https://www.baptiste-break.fr/cgv/",
+        "https://www.baptiste-break.fr/passez-commande/"
+      ],
+      "variant": "synatrap_ia",
+      "reference_id": "synatrap",
+      "example_url": "https://synatrap.com",
+      "message_version": "v4",
+      "score": 50,
+      "tier": "haute"
+    },
+    {
+      "queue_id": "2026-11-06-lot6-004",
+      "to": "info-location@joly-location.fr",
+      "subject": "Joly Location : votre ancien domaine renvoie « site non publié »",
+      "body": "Bonjour,\n\nPages Jaunes pointe encore vers jolylocation-echafaudage.fr, qui affiche aujourd'hui « This site is not published » — alors que votre site actif est joly-location.fr.\n\nJe peux vous proposer une demande de location qui précise matériel, dates et besoin de chauffeur, et la remise en ligne de l'ancien domaine encore cité dans les annuaires.\n\nCôté agents IA, voici SYNATRAP, la plateforme que je développe avec mon groupe : https://synatrap.com\n\nJe peux vous montrer gratuitement une démonstration concrète de la solution envisagée, sans engagement, sur un cas réel de votre activité.\n\nCela vous dirait de la découvrir ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+      "company": "SARL Joly Location",
+      "need": "automatisation",
+      "evidence_sources": [
+        "https://www.jolylocation-echafaudage.fr/contact",
+        "https://www.joly-location.fr/"
+      ],
+      "variant": "synatrap_ia",
+      "reference_id": "synatrap",
+      "example_url": "https://synatrap.com",
+      "message_version": "v4",
+      "score": 100,
+      "tier": "haute"
+    },
+    {
+      "queue_id": "2026-11-06-lot6-005",
+      "to": "uzeslocation.30700@gmail.com",
+      "subject": "Uzès Location : matériel, dates, durée — demandés dès le formulaire ?",
+      "body": "Bonjour,\n\nVotre formulaire de contact ne demande que nom, téléphone, e-mail et un message libre : pour chiffrer une location, il faut ensuite réclamer le matériel, les dates et la durée.\n\nJe peux vous proposer un formulaire de demande de location qui collecte le matériel, les dates et la durée pour préparer le devis sans échange préalable.\n\nCôté agents IA, voici SYNATRAP, la plateforme que je développe avec mon groupe : https://synatrap.com\n\nJe peux vous montrer gratuitement une démonstration concrète de la solution envisagée, sans engagement, sur un cas réel de votre activité.\n\nCela vous dirait de la découvrir ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+      "company": "SARL Uzès Location",
+      "need": "automatisation",
+      "evidence_sources": [
+        "https://uzes-location.fr/contact/",
+        "https://uzes-location.fr/"
+      ],
+      "variant": "synatrap_ia",
+      "reference_id": "synatrap",
+      "example_url": "https://synatrap.com",
+      "message_version": "v4",
+      "score": 50,
+      "tier": "moyenne"
+    },
+    {
+      "queue_id": "2026-11-06-lot6-006",
+      "to": "contact@techniquespiscine.fr",
+      "subject": "Techniques Piscine : qualifier le projet avant le premier appel ?",
+      "body": "Bonjour,\n\nVotre page contact promet « un seul interlocuteur » et un suivi clé en main, mais le formulaire ne demande que nom, e-mail, téléphone et un message libre.\n\nJe peux vous proposer un formulaire de projet piscine qui qualifie construction ou rénovation, terrain et délai avant le premier échange.\n\nCôté agents IA, voici SYNATRAP, la plateforme que je développe avec mon groupe : https://synatrap.com\n\nJe peux vous montrer gratuitement une démonstration concrète de la solution envisagée, sans engagement, sur un cas réel de votre activité.\n\nCela vous dirait de la découvrir ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+      "company": "Techniques Piscine",
+      "need": "automatisation",
+      "evidence_sources": [
+        "https://techniquespiscine.fr/contactez-nous/",
+        "https://techniquespiscine.fr/contactez-nous/"
+      ],
+      "variant": "synatrap_ia",
+      "reference_id": "synatrap",
+      "example_url": "https://synatrap.com",
+      "message_version": "v4",
+      "score": 50,
+      "tier": "moyenne"
+    }
+  ],
+  "gmail_label": "Prospection/2026-11-06-lot6",
+  "gmail_label_id": "Label_4",
+  "sent_count": 0,
+  "drafts_created": 6,
+  "drafts_created_at": "2026-11-06T13:10:42+00:00",
+  "sending_blocked": true,
+  "blocking_reasons": [
+    "campaigns.enabled = false (activation non validée)",
+    "DKIM absent sur le compte d'envoi",
+    "domaine d'envoi gmail.com (gratuit, pas de domaine propre aligné)"
+  ],
+  "draft_ids": {
+    "2026-11-06-lot6-001": "r4668255302629793023",
+    "2026-11-06-lot6-002": "r7069133405038258003",
+    "2026-11-06-lot6-003": "r-2074566668747048619",
+    "2026-11-06-lot6-004": "r7248452827625200722",
+    "2026-11-06-lot6-005": "r8584317365937954867",
+    "2026-11-06-lot6-006": "r-1290563027882505100"
+  }
+}

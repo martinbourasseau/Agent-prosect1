@@ -34,6 +34,9 @@ def make_prospect(**kw):
         evidences=[Evidence(EVIDENCE_SECTOR_OPPORTUNITY, "https://exemple.fr",
                             "activité récente", "2026-11-04", "opportunité sectorielle")],
         email_verification=EMAIL_VERIFIED,
+        # v5 : tout message doit partir d'une observation réelle. Le jeu d'essai
+        # en fournit une, comme le fait chaque fiche du CRM en production.
+        custom_hook="Votre page contact ne propose qu'un numéro de téléphone pour demander un devis.",
     )
     base.update(kw)
     return Prospect(**base)

@@ -24,7 +24,12 @@ PORTFOLIO_URL = os.environ.get("PROSPECTO_PORTFOLIO_URL", "https://prospecto.web
 SIGNATURE_TAGLINE = "Création de sites web · Refonte · Agents IA · Automatisation"
 
 # Garde-fous de génération v3 (email très court, hook dès la 1re phrase).
-MAX_BODY_WORDS = 150
+# Lot 7 : la structure v5 ajoute un segment « observation » (conséquence du fait
+# cité) aux quatre segments v4. Le plafond passe de 150 à 170 mots pour accueillir ce
+# segment sans sacrifier l'accroche sourcée. 170 mots restent un e-mail court
+# (~1 150 caractères, lecture inférieure à une minute) ; les amorces de
+# démonstration ont été raccourcies pour compenser.
+MAX_BODY_WORDS = 170
 MIN_BODY_WORDS = 40
 MAX_SUBJECT_CHARS = 70
 OPT_OUT_LINE = (

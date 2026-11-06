@@ -44,7 +44,9 @@
     "discovered_at": "2026-11-06",
     "email_status": "non_contacté",
     "next_action": "Brouillon personnalisé à préparer — aucun envoi automatique",
-    "qualification_tier": "haute"
+    "qualification_tier": "haute",
+    "solution_type": "formulaire_intelligent",
+    "observation": "Vos plateaux-repas ont déjà une boutique en ligne ; seuls les devis buffets en restent au traitement manuel."
   },
   {
     "company": "Mamie Cuisine Traiteur",
@@ -66,7 +68,7 @@
       "refonte"
     ],
     "opportunity_type": "besoin_reel",
-    "recommended_service": "un module de demande de buffet et petit-déjeuner qui applique vos règles de délai et de zone de livraison dès la saisie.",
+    "recommended_service": "un module de demande de buffet qui applique vos règles de délai et de zone dès la saisie.",
     "demo_detail": "démo d'une demande de buffet en ligne contrôlant le délai de 72 h et la zone de livraison",
     "custom_subject": "Mamie Cuisine : la règle des 72 h, appliquée automatiquement ?",
     "custom_hook": "Votre site indique que les plateaux-repas se commandent en ligne, mais que les buffets et petits-déjeuners passent « uniquement par mail au minimum 72h à l'avance ».",
@@ -92,7 +94,9 @@
     "discovered_at": "2026-11-06",
     "email_status": "non_contacté",
     "next_action": "Brouillon personnalisé à préparer — aucun envoi automatique",
-    "qualification_tier": "haute"
+    "qualification_tier": "haute",
+    "solution_type": "commande_en_ligne",
+    "observation": "Vos clients ne découvrent donc le délai et le forfait de livraison qu'après vous avoir écrit."
   },
   {
     "company": "Baptiste Break Pâtisserie Traiteur",
@@ -113,7 +117,7 @@
       "automatisation"
     ],
     "opportunity_type": "besoin_reel",
-    "recommended_service": "un formulaire de commande qui indique les créneaux encore disponibles, calcule le devis et suit l'acompte.",
+    "recommended_service": "un formulaire de commande qui affiche les semaines encore ouvertes, chiffre le devis et suit l'acompte.",
     "demo_detail": "démo d'une demande de gâteau sur-mesure affichant les semaines encore ouvertes et le devis correspondant",
     "custom_subject": "Baptiste Break : vos semaines complètes visibles avant la demande ?",
     "custom_hook": "Votre page commande précise que le nombre de commandes est limité chaque semaine et que certaines dates sont complètes plusieurs semaines à l'avance — mais un client ne peut le savoir qu'après vous avoir écrit.",
@@ -139,7 +143,9 @@
     "discovered_at": "2026-11-06",
     "email_status": "non_contacté",
     "next_action": "Brouillon personnalisé à préparer — aucun envoi automatique",
-    "qualification_tier": "haute"
+    "qualification_tier": "haute",
+    "solution_type": "commande_en_ligne",
+    "observation": "Vous répondez donc à des demandes pour des semaines déjà pleines, et le suivi des acomptes reste à faire à la main."
   },
   {
     "company": "SARL Joly Location",
@@ -161,10 +167,10 @@
       "refonte"
     ],
     "opportunity_type": "besoin_reel",
-    "recommended_service": "une demande de location qui précise matériel, dates et besoin de chauffeur, et la remise en ligne de l'ancien domaine encore cité dans les annuaires.",
-    "demo_detail": "démo d'une demande de location nacelle ou échafaudage avec dates et option chauffeur",
+    "recommended_service": "la redirection de l'ancien domaine vers votre site actuel, pour ne plus perdre ces visites.",
+    "demo_detail": "démo du parcours corrigé, de la fiche annuaire jusqu'à une demande de location datée",
     "custom_subject": "Joly Location : votre ancien domaine renvoie « site non publié »",
-    "custom_hook": "Pages Jaunes pointe encore vers jolylocation-echafaudage.fr, qui affiche aujourd'hui « This site is not published » — alors que votre site actif est joly-location.fr.",
+    "custom_hook": "Votre fiche Pages Jaunes pointe encore vers jolylocation-echafaudage.fr, qui affiche « This site is not published », alors que votre site actif est joly-location.fr.",
     "process_hint": "devis de location établis sur demande par téléphone ou formulaire, parc de plus de 35 000 m² d'échafaudages sans disponibilité en ligne",
     "notes": "Lot 6. SARL JOLY LOCATION, SIRET 40241216700015, 353 route départementale 940, 62231 Sangatte. Deux domaines pour la même entreprise : joly-location.fr (actif, Concrete CMS) et jolylocation-echafaudage.fr (non publié, encore référencé par Pages Jaunes et porteur des mentions légales). L'adresse info-location@joly-location.fr est publiée dans ces mentions légales et correspond au domaine actif. Gérant public : Robert Joly (annuaire officiel de la mairie de Sangatte). Activité depuis 1968 selon le site.",
     "evidences": [
@@ -187,7 +193,9 @@
     "discovered_at": "2026-11-06",
     "email_status": "non_contacté",
     "next_action": "Brouillon personnalisé à préparer — aucun envoi automatique",
-    "qualification_tier": "haute"
+    "qualification_tier": "haute",
+    "solution_type": "refonte_site",
+    "observation": "Un client qui passe par l'annuaire tombe donc sur une page vide au lieu de votre catalogue de location."
   },
   {
     "company": "SARL Uzès Location",
@@ -208,7 +216,7 @@
       "automatisation"
     ],
     "opportunity_type": "opportunite_probable",
-    "recommended_service": "un formulaire de demande de location qui collecte le matériel, les dates et la durée pour préparer le devis sans échange préalable.",
+    "recommended_service": "un formulaire de demande de location qui collecte matériel, dates et durée dès la première demande.",
     "demo_detail": "démo d'une demande de location avec matériel, dates et livraison, prête à chiffrer",
     "custom_subject": "Uzès Location : matériel, dates, durée — demandés dès le formulaire ?",
     "custom_hook": "Votre formulaire de contact ne demande que nom, téléphone, e-mail et un message libre : pour chiffrer une location, il faut ensuite réclamer le matériel, les dates et la durée.",
@@ -234,7 +242,9 @@
     "discovered_at": "2026-11-06",
     "email_status": "non_contacté",
     "next_action": "Brouillon personnalisé à préparer — aucun envoi automatique",
-    "qualification_tier": "moyenne"
+    "qualification_tier": "moyenne",
+    "solution_type": "formulaire_intelligent",
+    "observation": "Chaque devis suppose donc un aller-retour pour reconstituer ces trois informations."
   },
   {
     "company": "Techniques Piscine",
@@ -255,7 +265,7 @@
       "automatisation"
     ],
     "opportunity_type": "opportunite_probable",
-    "recommended_service": "un formulaire de projet piscine qui qualifie construction ou rénovation, terrain et délai avant le premier échange.",
+    "recommended_service": "un formulaire de projet qui trie construction, rénovation et entretien, et situe le chantier avant le premier appel.",
     "demo_detail": "démo d'un formulaire de projet piscine qui trie construction, rénovation et entretien dès la demande",
     "custom_subject": "Techniques Piscine : qualifier le projet avant le premier appel ?",
     "custom_hook": "Votre page contact promet « un seul interlocuteur » et un suivi clé en main, mais le formulaire ne demande que nom, e-mail, téléphone et un message libre.",
@@ -281,6 +291,8 @@
     "discovered_at": "2026-11-06",
     "email_status": "non_contacté",
     "next_action": "Brouillon personnalisé à préparer — aucun envoi automatique",
-    "qualification_tier": "moyenne"
+    "qualification_tier": "moyenne",
+    "solution_type": "formulaire_intelligent",
+    "observation": "Vous devez donc rappeler pour savoir s'il s'agit d'une construction, d'une rénovation ou d'un entretien, et où se situe le chantier."
   }
 ]

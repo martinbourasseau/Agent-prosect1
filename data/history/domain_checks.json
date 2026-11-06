@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-06T13:05:26+00:00",
-  "count": 33,
+  "updated_at": "2026-11-06T13:32:46+00:00",
+  "count": 38,
   "domains": {
     "renovationpremium.com": {
       "domain": "renovationpremium.com",
@@ -335,6 +335,61 @@
       ],
       "checked_at": "2026-11-06T13:05:26+00:00",
       "detail": "2 MX publiés"
+    },
+    "france-pnl.com": {
+      "domain": "france-pnl.com",
+      "status": "mx_ok",
+      "mx_hosts": [
+        "mx0.mail.ovh.net",
+        "mx1.mail.ovh.net",
+        "mx2.mail.ovh.net",
+        "mx3.mail.ovh.net",
+        "mx4.mail.ovh.net"
+      ],
+      "checked_at": "2026-11-06T13:32:45+00:00",
+      "detail": "5 MX publiés"
+    },
+    "atoutransport.com": {
+      "domain": "atoutransport.com",
+      "status": "mx_ok",
+      "mx_hosts": [
+        "mx00.ionos.fr",
+        "mx01.ionos.fr"
+      ],
+      "checked_at": "2026-11-06T13:32:45+00:00",
+      "detail": "2 MX publiés"
+    },
+    "bonbon-foliz.com": {
+      "domain": "bonbon-foliz.com",
+      "status": "mx_ok",
+      "mx_hosts": [
+        "mx.webmo.fr",
+        "mxsecondaire.webmo.fr"
+      ],
+      "checked_at": "2026-11-06T13:32:45+00:00",
+      "detail": "2 MX publiés"
+    },
+    "odeclaise.fr": {
+      "domain": "odeclaise.fr",
+      "status": "mx_ok",
+      "mx_hosts": [
+        "mx1.mail.ovh.net",
+        "mx2.mail.ovh.net",
+        "mx3.mail.ovh.net"
+      ],
+      "checked_at": "2026-11-06T13:32:46+00:00",
+      "detail": "3 MX publiés"
+    },
+    "bulles-et-detente.fr": {
+      "domain": "bulles-et-detente.fr",
+      "status": "mx_ok",
+      "mx_hosts": [
+        "mx1.mail.ovh.net",
+        "mx2.mail.ovh.net",
+        "mx3.mail.ovh.net"
+      ],
+      "checked_at": "2026-11-06T13:32:46+00:00",
+      "detail": "3 MX publiés"
     }
   }
 }

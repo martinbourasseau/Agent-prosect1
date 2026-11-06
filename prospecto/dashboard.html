@@ -204,12 +204,15 @@ function renderCards(){
     {n:co.emails_total,l:"Emails récupérés",cls:"glacier"},
     {n:co.phones,l:"Téléphones récupérés"},
     {n:(q.pending||0)+(q.approved||0)+(q.sent||0),l:"Emails préparés"},
+    {n:q.pending||0,l:"Brouillons en attente",cls:"glacier"},
+    {n:crm.suspended||0,l:"Suspendus (non envoyables)",cls:(crm.suspended?"bad":"")},
     {n:s.sent,l:"Emails envoyés",cls:"tide"},
     {n:(m.deliverability||{}).hard_bounces??s.bounced,l:"Rebonds durs constatés",cls:((m.deliverability||{}).hard_bounces||s.bounced)?"bad":""},
     {n:(m.deliverability||{}).human_replies??0,l:"Réponses humaines",cls:"glacier"},
     {n:(m.deliverability||{}).auto_replies??0,l:"Accusés automatiques"},
     {n:r.positive,l:"Réponses positives",cls:"tide"},
     {n:r.demos_requested,l:"Démos / RDV demandés",cls:"tide"},
+    {n:(m.deliverability||{}).opt_outs??0,l:"Oppositions",cls:((m.deliverability||{}).opt_outs?"bad":"")},
   ];
   document.getElementById("cards").innerHTML=cards.map(x=>`<div class="card ${x.cls||''}"><div class="n mono">${x.n??0}</div><div class="l">${x.l}</div></div>`).join("");
 }

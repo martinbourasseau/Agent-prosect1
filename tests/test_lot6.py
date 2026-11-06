@@ -80,6 +80,7 @@ def _prospect(company="Atelier Test", **kwargs):
         department="44",
         website="https://exemple.fr/",
         domain="exemple.fr",
+        custom_hook="Votre page contact ne propose qu'un e-mail libre pour demander un devis.",
         contact_email="contact@exemple.fr",
         needs=[NEED_AUTOMATISATION],
         evidences=[{"kind": EVIDENCE_PROCESS_MANUAL,
@@ -257,9 +258,10 @@ class CtaRotationTests(unittest.TestCase):
                  "SARL Joly Location", "SARL Uzès Location", "Techniques Piscine"]
         self.assertGreaterEqual(len({select_cta_demo(_prospect(n)) for n in names}), 2)
 
-    def test_trois_formulations_disponibles(self):
-        self.assertEqual(len(CTA_DEMO_VARIANTS), 3)
-        self.assertEqual(len(set(CTA_DEMO_VARIANTS)), 3)
+    def test_au_moins_trois_formulations_disponibles(self):
+        # v5 (lot 7) : le jeu est passé de 3 à 7 appels à l'action distincts.
+        self.assertGreaterEqual(len(CTA_DEMO_VARIANTS), 3)
+        self.assertEqual(len(set(CTA_DEMO_VARIANTS)), len(CTA_DEMO_VARIANTS))
 
     def test_cta_present_dans_le_corps(self):
         p = _prospect("Entreprise CTA")

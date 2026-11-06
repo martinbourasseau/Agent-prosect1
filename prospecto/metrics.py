@@ -54,6 +54,22 @@ def _load_audit() -> list[dict]:
     return []
 
 
+SUSPENDED_STATUSES = {"suspendu", "suspended"}
+
+# Intentes produits par une personne, par opposition aux accusés automatiques
+# et aux rebonds émis par un serveur de messagerie.
+HUMAN_INTENTS = {"reponse_humaine", "opposition", "demande_info", "demande_rdv",
+                 "positive", "negative", "question", "rdv"}
+
+
+def _is_suspended(record: dict) -> bool:
+    """Vrai si la fiche est explicitement suspendue (aucun envoi possible)."""
+    if record.get("suspended_at"):
+        return True
+    return any(str(record.get(k) or "").strip().lower() in SUSPENDED_STATUSES
+               for k in ("status", "status_crm", "email_status", "contactability"))
+
+
 def compute_metrics() -> dict[str, Any]:
     crm = CRM()
     queue = ValidationQueue()
@@ -119,6 +135,10 @@ def compute_metrics() -> dict[str, Any]:
             "expressed_needs": sum(1 for r in records if any(ev.get("kind") == "public_need" for ev in r.get("evidence", []))),
             "probable": sum(1 for r in active if r.get("tier") == "moyenne"),
             "contacted": sum(1 for r in records if r.get("status") == "contacté"),
+            # Lot 7 : une fiche suspendue (adresse non confirmée) reste au CRM
+            # avec son brouillon, mais n'est pas envoyable. On l'expose pour que
+            # le tableau de bord ne la confonde pas avec un brouillon prêt.
+            "suspended": sum(1 for r in records if _is_suspended(r)),
         },
         "coordinates": {
             "emails_total": sum(emails_by_verif.values()),
@@ -163,7 +183,11 @@ def _deliverability(entries: list[dict], records: list[dict], audit: list[dict])
     bounced_entries = [e for e in entries if e.get("status") == "bounced"]
     bounces = [f for f in audit if f.get("intent") == "rebond"]
     autos = [f for f in audit if f.get("intent") == "auto_reply"]
-    humans = [f for f in audit if f.get("intent") == "reponse_humaine"]
+    # Une opposition est écrite par un humain : la compter seulement en
+    # « oppositions » affichait 0 réponse humaine alors qu'un dirigeant avait
+    # répondu. Les deux compteurs se recouvrent volontairement (mêmes messages,
+    # deux lectures : qui a répondu / ce qu'il a demandé).
+    humans = [f for f in audit if f.get("intent") in HUMAN_INTENTS]
     opt_outs = [f for f in audit if f.get("intent") == "opposition"]
     hard = [f for f in bounces if f.get("severity") == "dur"]
     confirmed = {f.get("company") for f in autos + humans if f.get("company")}

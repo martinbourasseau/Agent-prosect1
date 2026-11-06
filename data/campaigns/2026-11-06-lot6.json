@@ -130,5 +130,60 @@
     "2026-11-06-lot6-004": "r7248452827625200722",
     "2026-11-06-lot6-005": "r8584317365937954867",
     "2026-11-06-lot6-006": "r-1290563027882505100"
-  }
+  },
+  "message_version": "v5",
+  "rewritten_at": "2026-11-06T13:44:50+00:00",
+  "sent": 0,
+  "updated_at": "2026-11-06T13:44:50+00:00",
+  "rewrite_note": "6 brouillons réécrits en place (update_draft) : mêmes draft_id et thread_id, historique conservé. Versions v4 archivées dans data/history/message-versions-lot6.json.",
+  "drafts": [
+    {
+      "queue_id": "2026-11-06-lot6-001",
+      "to": "contact@celtuce-traiteur.com",
+      "subject": "Celtuce : vos devis buffets recopiés à la main ?",
+      "gmail_draft_id": "r4668255302629793023",
+      "gmail_message_id": "1a1b1155f6e25e8b",
+      "status": "draft"
+    },
+    {
+      "queue_id": "2026-11-06-lot6-002",
+      "to": "contact@mamiecuisinetraiteur.fr",
+      "subject": "Mamie Cuisine : la règle des 72 h, appliquée automatiquement ?",
+      "gmail_draft_id": "r7069133405038258003",
+      "gmail_message_id": "1a1b1156acae33f5",
+      "status": "draft"
+    },
+    {
+      "queue_id": "2026-11-06-lot6-003",
+      "to": "contact@baptiste-break.fr",
+      "subject": "Baptiste Break : vos semaines complètes visibles avant la demande ?",
+      "gmail_draft_id": "r-2074566668747048619",
+      "gmail_message_id": "1a1b11578563a443",
+      "status": "draft"
+    },
+    {
+      "queue_id": "2026-11-06-lot6-004",
+      "to": "info-location@joly-location.fr",
+      "subject": "Joly Location : votre ancien domaine renvoie « site non publié »",
+      "gmail_draft_id": "r7248452827625200722",
+      "gmail_message_id": "1a1b11894c854e9b",
+      "status": "draft"
+    },
+    {
+      "queue_id": "2026-11-06-lot6-005",
+      "to": "uzeslocation.30700@gmail.com",
+      "subject": "Uzès Location : matériel, dates, durée — demandés dès le formulaire ?",
+      "gmail_draft_id": "r8584317365937954867",
+      "gmail_message_id": "1a1b118a14a381b2",
+      "status": "suspended"
+    },
+    {
+      "queue_id": "2026-11-06-lot6-006",
+      "to": "contact@techniquespiscine.fr",
+      "subject": "Techniques Piscine : qualifier le projet avant le premier appel ?",
+      "gmail_draft_id": "r-1290563027882505100",
+      "gmail_message_id": "1a1b118abcaa5f8a",
+      "status": "draft"
+    }
+  ]
 }

@@ -1,0 +1,588 @@
+[
+  {
+    "company": "ATOMER",
+    "sector": "Organisme de formation continue / analyses et R&D industrielle",
+    "city": "Groslay",
+    "department": "95",
+    "region": "Île-de-France",
+    "website": "http://www.atomer.fr/",
+    "domain": "atomer.fr",
+    "contact_email": "contact@atomer.fr",
+    "email_verification": "verified",
+    "phone": "06 52 34 17 63",
+    "phone_verification": "verified",
+    "contact_name": "",
+    "contact_role": "Laurent CANCOUËT, Directeur Général",
+    "contact_name_source": "http://www.atomer.fr/3/3a.html",
+    "lot": "2026-11-04-lot5",
+    "discovered_at": "2026-11-04",
+    "needs": [
+      "automatisation",
+      "refonte"
+    ],
+    "qualification_tier": "haute",
+    "opportunity_type": "besoin_reel",
+    "recommended_service": "un parcours d'inscription en ligne qui remplace le bulletin PDF et génère conventions, convocations et pièces de fin de formation.",
+    "demo_detail": "maquette du parcours d'inscription en ligne et démo du générateur de convention-convocation",
+    "custom_subject": "ATOMER : vos inscriptions encore par bulletin PDF ?",
+    "custom_hook": "Vos conditions générales précisent que les inscriptions doivent être confirmées par un bulletin d'inscription « renvoyé par e-mail ou par courrier », et qu'un bulletin incomplet met la demande en attente.",
+    "process_hint": "inscriptions par bulletin PDF signé renvoyé par e-mail, puis conventions-convocations, factures, feuilles d'émargement et attestations adressées par courrier électronique",
+    "notes": "Lot 5. Besoin réel documenté par les CGV officielles : chaîne d'inscription entièrement documentaire (bulletin, convention-convocation, émargement, attestation). Site en tableaux et images GIF, copyright 1997-2024, catalogues et programmes uniquement en PDF. Responsable public : Laurent CANCOUËT, Directeur Général (page « Le mot du Directeur »). Adresse officielle : 13 rue de la Coque, 95410 Groslay. Seconde adresse publiée : atomer_technopole@yahoo.fr (non utilisée).",
+    "evidences": [
+      {
+        "kind": "processus_manuel",
+        "source_url": "http://www.atomer.fr/4/Bulletin_inscription_formation_ATOMER.pdf",
+        "quote": "Les inscriptions doivent être confirmées par écrit à l'aide d'un bulletin d'inscription dument complète et renvoyé par e-mail ou par courrier. En cas de bulletin incomplet, votre demande sera en attente jusqu'à l'obtention des informations nécessaires.",
+        "observed_at": "2026-11-04",
+        "detail": "L'inscription est un formulaire PDF à compléter, signer, cacheter puis renvoyer ; les dossiers incomplets sont mis en attente manuellement."
+      },
+      {
+        "kind": "processus_manuel",
+        "source_url": "http://www.atomer.fr/4/Bulletin_inscription_formation_ATOMER.pdf",
+        "quote": "A réception des inscriptions, ATOMER transmet à l'entreprise la ou les convention(s)-convocation(s) de formation confirmant la date, l'heure, le lieu de formation et les modalités pratiques, ainsi qu'un plan d'accès.",
+        "observed_at": "2026-11-04",
+        "detail": "Chaque inscription déclenche l'émission manuelle de conventions et convocations, puis de la facture, de la feuille d'émargement et de l'attestation de présence."
+      },
+      {
+        "kind": "site_obsolete",
+        "source_url": "http://www.atomer.fr/",
+        "quote": "© ATOMER 1997 - 2024 — Téléchargez notre catalogue Formations continues 2026 (v1.0) — Bulletin d'inscription",
+        "observed_at": "2026-11-04",
+        "detail": "Navigation entièrement en images GIF, mise en page en tableaux, site en HTTP, catalogue et programmes exclusivement en PDF : aucun parcours d'inscription en ligne."
+      }
+    ],
+    "scores": {
+      "site_web": {
+        "axis": "site_web",
+        "score": 5,
+        "level": "faible",
+        "reasons": [
+          "un site est déjà en ligne : pas de création à proprement parler",
+          "aucune preuve directe sur cet axe : score volontairement bas"
+        ]
+      },
+      "refonte": {
+        "axis": "refonte",
+        "score": 55,
+        "level": "moyen",
+        "reasons": [
+          "site existant à moderniser",
+          "+50 site_obsolete : « © ATOMER 1997 - 2024 — Téléchargez notre catalogue Formations continues 2026 (v1.0) — Bulletin d'inscription » (http://www.atomer.fr/)"
+        ]
+      },
+      "ia_automatisation": {
+        "axis": "ia_automatisation",
+        "score": 100,
+        "level": "fort",
+        "reasons": [
+          "processus concret observé : inscriptions par bulletin PDF signé renvoyé par e-mail, puis conventions-convocations, factures, feuilles d'émargement e",
+          "+55 processus_manuel : « Les inscriptions doivent être confirmées par écrit à l'aide d'un bulletin d'inscription dument complète et … » (http://www.atomer.fr/4/Bulletin_inscription_formation_ATOMER.pdf)",
+          "+55 processus_manuel : « A réception des inscriptions, ATOMER transmet à l'entreprise la ou les convention(s)-convocation(s) de form… » (http://www.atomer.fr/4/Bulletin_inscription_formation_ATOMER.pdf)"
+        ]
+      },
+      "priority": "haute",
+      "best_axis": "ia_automatisation"
+    },
+    "commercial_priority": "haute",
+    "email_dns_status": "mx_ok",
+    "email_status": "non_contacté",
+    "next_action": "Brouillon à valider puis envoi après levée des blocages Gmail"
+  },
+  {
+    "company": "NETTOYAGE INDUSTRIEL",
+    "sector": "Propreté industrielle et services aux entreprises",
+    "city": "Lons-le-Saunier",
+    "department": "39",
+    "region": "Bourgogne-Franche-Comté",
+    "website": "https://www.nettoyage-industriel39.com/",
+    "domain": "nettoyage-industriel39.com",
+    "contact_email": "nettoyage.industriel@wanadoo.fr",
+    "email_verification": "verified",
+    "phone": "03 84 86 01 50",
+    "phone_verification": "verified",
+    "contact_name": "",
+    "contact_role": "Michael Rigaud (contact publié sur la page Contact)",
+    "contact_name_source": "https://www.nettoyage-industriel39.com/contact/",
+    "lot": "2026-11-04-lot5",
+    "discovered_at": "2026-11-04",
+    "needs": [
+      "refonte",
+      "automatisation"
+    ],
+    "qualification_tier": "haute",
+    "opportunity_type": "opportunite_probable",
+    "recommended_service": "une demande de devis en ligne qui qualifie la surface, la fréquence et le type de locaux avant votre rappel.",
+    "demo_detail": "maquette du formulaire de devis qualifié (type de locaux, surface, fréquence) et démo du récapitulatif automatique",
+    "custom_subject": "Nettoyage Industriel : qualifier vos demandes de devis",
+    "custom_hook": "Votre page Contact ne propose qu'un formulaire libre « Nom, Adresse email, Message » avec un captcha, sans aucune question sur la surface, la fréquence ou le type de locaux à entretenir.",
+    "process_hint": "demandes entrantes par formulaire libre ou téléphone, sans pré-qualification, pour des prestations récurrentes en locaux industriels et tertiaires",
+    "notes": "Lot 5. Opportunité probable : entreprise B2B depuis 1995, prestations récurrentes (agro-alimentaire, plastique, mécanique, bureaux, hôtels), donc devis et plannings répétitifs. Site construit avec l'éditeur IONOS MyWebsite, bascule manuelle « Affichage Web / Affichage Mobile » et liens d'administration encore visibles en pied de page. Responsable public : Michael Rigaud.",
+    "evidences": [
+      {
+        "kind": "website_gap",
+        "source_url": "https://www.nettoyage-industriel39.com/contact/",
+        "quote": "Formulaire de contact — Nom: * Adresse email: * Message: * Captcha (code anti-spam) *",
+        "observed_at": "2026-11-04",
+        "detail": "Le seul canal en ligne est un formulaire de message libre protégé par captcha image : aucune qualification du besoin (surface, fréquence, nature des locaux) n'est demandée."
+      },
+      {
+        "kind": "site_obsolete",
+        "source_url": "https://www.nettoyage-industriel39.com/",
+        "quote": "Affichage Web  Affichage Mobile — Connexion — Déconnexion | Modifier",
+        "observed_at": "2026-11-04",
+        "detail": "Site généré par un éditeur d'hébergeur avec bascule manuelle entre version web et mobile, et liens d'administration laissés publics en pied de page."
+      },
+      {
+        "kind": "public_need",
+        "source_url": "https://www.nettoyage-industriel39.com/",
+        "quote": "Nos responsables de chantier répartis sur le département du JURA, sont présents au quotidien chez nos clients pour s'assurer de la qualité de nos prestations dans vos locaux.",
+        "observed_at": "2026-11-04",
+        "detail": "Organisation en chantiers récurrents suivis par des responsables : le suivi qualité et la planification sont des tâches répétitives."
+      }
+    ],
+    "scores": {
+      "site_web": {
+        "axis": "site_web",
+        "score": 5,
+        "level": "faible",
+        "reasons": [
+          "un site est déjà en ligne : pas de création à proprement parler",
+          "aucune preuve directe sur cet axe : score volontairement bas"
+        ]
+      },
+      "refonte": {
+        "axis": "refonte",
+        "score": 85,
+        "level": "fort",
+        "reasons": [
+          "site existant à moderniser",
+          "+30 website_gap : « Formulaire de contact — Nom: * Adresse email: * Message: * Captcha (code anti-spam) * » (https://www.nettoyage-industriel39.com/contact/)",
+          "+50 site_obsolete : « Affichage Web  Affichage Mobile — Connexion — Déconnexion | Modifier » (https://www.nettoyage-industriel39.com/)"
+        ]
+      },
+      "ia_automatisation": {
+        "axis": "ia_automatisation",
+        "score": 40,
+        "level": "moyen",
+        "reasons": [
+          "processus concret observé : demandes entrantes par formulaire libre ou téléphone, sans pré-qualification, pour des prestations récurrentes en locaux",
+          "+30 public_need : « Nos responsables de chantier répartis sur le département du JURA, sont présents au quotidien chez nos clien… » (https://www.nettoyage-industriel39.com/)"
+        ]
+      },
+      "priority": "haute",
+      "best_axis": "refonte"
+    },
+    "commercial_priority": "haute",
+    "email_dns_status": "mx_ok",
+    "email_status": "non_contacté",
+    "next_action": "Brouillon à valider puis envoi après levée des blocages Gmail"
+  },
+  {
+    "company": "Vignerons et Caviste",
+    "sector": "Caviste / ateliers d'œnologie",
+    "city": "Paris",
+    "department": "75",
+    "region": "Île-de-France",
+    "website": "https://vignerons-et-caviste.fr/",
+    "domain": "vignerons-et-caviste.fr",
+    "contact_email": "vigneronsetcaviste@gmail.com",
+    "email_verification": "verified",
+    "phone": "07 62 18 14 45",
+    "phone_verification": "verified",
+    "contact_name": "",
+    "contact_role": "Stéphane (accueil boutique, prénom publié sur le site)",
+    "contact_name_source": "https://vignerons-et-caviste.fr/",
+    "lot": "2026-11-04-lot5",
+    "discovered_at": "2026-11-04",
+    "needs": [
+      "refonte",
+      "automatisation"
+    ],
+    "qualification_tier": "haute",
+    "opportunity_type": "besoin_reel",
+    "recommended_service": "un module de réservation des cours d'œnologie qui affiche les places réellement disponibles.",
+    "demo_detail": "maquette du calendrier de réservation des cours d'œnologie avec places restantes en temps réel",
+    "custom_subject": "Vos cours d'œnologie : réserver sans appeler ?",
+    "custom_hook": "Votre page indique qu'avant toute réservation en ligne il faut d'abord vous écrire ou vous appeler « pour s'assurer des disponibilités », alors que le panier affiche déjà un stock.",
+    "process_hint": "disponibilités des cours d'œnologie vérifiées à la main par mail ou téléphone avant chaque achat en ligne",
+    "notes": "Lot 5. Besoin réel : le parcours de réservation est cassé — la boutique en ligne existe (WooCommerce) mais l'atelier impose une confirmation manuelle préalable. Deux prénoms publiés : Stéphane (accueil) et Raphaël (préparation des cartons) ; aucun nom de famille publié, donc salutation neutre.",
+    "evidences": [
+      {
+        "kind": "parcours_incomplet",
+        "source_url": "https://vignerons-et-caviste.fr/",
+        "quote": "IMPORTANT : Avant toute réservation en ligne, merci de nous écrire un mail au préalable ou de nous contacter par téléphone pour s'assurer des disponibilités -sur vigneronsetcaviste@gmail.com ou au 0762181445.",
+        "observed_at": "2026-11-04",
+        "detail": "La réservation en ligne des cours d'œnologie est conditionnée à un échange manuel préalable : le calendrier et les places ne sont pas synchronisés."
+      },
+      {
+        "kind": "website_gap",
+        "source_url": "https://vignerons-et-caviste.fr/",
+        "quote": "25.00€ — 2 en stock — quantité de Cours d'œnologie mensuel - niveau 1 — Ajouter au panier",
+        "observed_at": "2026-11-04",
+        "detail": "L'atelier est vendu comme un produit en stock, sans date ni créneau : le système de vente ne gère pas la réservation par session."
+      }
+    ],
+    "scores": {
+      "site_web": {
+        "axis": "site_web",
+        "score": 5,
+        "level": "faible",
+        "reasons": [
+          "un site est déjà en ligne : pas de création à proprement parler",
+          "aucune preuve directe sur cet axe : score volontairement bas"
+        ]
+      },
+      "refonte": {
+        "axis": "refonte",
+        "score": 75,
+        "level": "fort",
+        "reasons": [
+          "site existant à moderniser",
+          "+40 parcours_incomplet : « IMPORTANT : Avant toute réservation en ligne, merci de nous écrire un mail au préalable ou de nous contacte… » (https://vignerons-et-caviste.fr/)",
+          "+30 website_gap : « 25.00€ — 2 en stock — quantité de Cours d'œnologie mensuel - niveau 1 — Ajouter au panier » (https://vignerons-et-caviste.fr/)"
+        ]
+      },
+      "ia_automatisation": {
+        "axis": "ia_automatisation",
+        "score": 30,
+        "level": "faible",
+        "reasons": [
+          "processus concret observé : disponibilités des cours d'œnologie vérifiées à la main par mail ou téléphone avant chaque achat en ligne",
+          "+20 parcours_incomplet : « IMPORTANT : Avant toute réservation en ligne, merci de nous écrire un mail au préalable ou de nous contacte… » (https://vignerons-et-caviste.fr/)"
+        ]
+      },
+      "priority": "haute",
+      "best_axis": "refonte"
+    },
+    "commercial_priority": "haute",
+    "email_dns_status": "mx_ok",
+    "email_status": "non_contacté",
+    "next_action": "Brouillon à valider puis envoi après levée des blocages Gmail"
+  },
+  {
+    "company": "La Caviste",
+    "sector": "Caviste indépendant",
+    "city": "Le Havre",
+    "department": "76",
+    "region": "Normandie",
+    "website": "https://www.lacavistelh.fr/",
+    "domain": "lacavistelh.fr",
+    "contact_email": "boutique@lacaviste.fr",
+    "email_verification": "verified",
+    "phone": "09 83 87 48 08",
+    "phone_verification": "verified",
+    "contact_name": "Frédérique",
+    "contact_role": "Frédérique Lecaudé, fondatrice et Maître Caviste",
+    "contact_name_source": "https://www.lacavistelh.fr/",
+    "lot": "2026-11-04-lot5",
+    "discovered_at": "2026-11-04",
+    "needs": [
+      "refonte",
+      "automatisation"
+    ],
+    "qualification_tier": "moyenne",
+    "opportunity_type": "opportunite_probable",
+    "recommended_service": "un module de commande à préparer en boutique, pour traiter les demandes sans échange d'emails aller-retour.",
+    "demo_detail": "maquette d'une commande à préparer en boutique (click & collect) reliée à votre sélection",
+    "custom_subject": "La Caviste : vos commandes préparées sans emails",
+    "custom_hook": "Votre page contact précise que vous donnez très peu de renseignements par téléphone pour privilégier le service en boutique, et invite à passer par mail pour toute demande particulière.",
+    "process_hint": "demandes spéciales et préparations de commandes traitées par e-mail ou via un formulaire libre, sans commande en ligne",
+    "notes": "Lot 5. Opportunité probable : caviste indépendant distingué Maître Caviste 2022, site vitrine Jimdo sans aucune vente ni réservation en ligne ; les demandes spéciales sont traitées par e-mail. Le domaine de l'adresse email (lacaviste.fr) diffère du domaine du site (lacavistelh.fr) : les deux ont été contrôlés, MX valides. Responsable public : Frédérique Lecaudé.",
+    "evidences": [
+      {
+        "kind": "parcours_incomplet",
+        "source_url": "https://www.lacavistelh.fr/nous-contacter/",
+        "quote": "Nous donnons très peu de renseignements par téléphone, car nous privilégions le service des clients en boutique. N'hésitez pas à venir nous rencontrer pour préparer plus aisément vos demandes spéciales.",
+        "observed_at": "2026-11-04",
+        "detail": "Le téléphone est volontairement peu utilisé et aucune commande en ligne n'existe : les demandes spéciales passent par e-mail ou par un déplacement."
+      },
+      {
+        "kind": "website_gap",
+        "source_url": "https://www.lacavistelh.fr/",
+        "quote": "Vous recherchez une bouteille en particulier ? Vous avez besoin d'un avis, un conseil ou de plus de renseignements ? N'hésitez pas à nous contacter par mail !",
+        "observed_at": "2026-11-04",
+        "detail": "Site vitrine sans panier, sans click & collect et sans réservation de dégustation : tout revient à un échange d'emails."
+      }
+    ],
+    "scores": {
+      "site_web": {
+        "axis": "site_web",
+        "score": 5,
+        "level": "faible",
+        "reasons": [
+          "un site est déjà en ligne : pas de création à proprement parler",
+          "aucune preuve directe sur cet axe : score volontairement bas"
+        ]
+      },
+      "refonte": {
+        "axis": "refonte",
+        "score": 75,
+        "level": "fort",
+        "reasons": [
+          "site existant à moderniser",
+          "+40 parcours_incomplet : « Nous donnons très peu de renseignements par téléphone, car nous privilégions le service des clients en bout… » (https://www.lacavistelh.fr/nous-contacter/)",
+          "+30 website_gap : « Vous recherchez une bouteille en particulier ? Vous avez besoin d'un avis, un conseil ou de plus de renseig… » (https://www.lacavistelh.fr/)"
+        ]
+      },
+      "ia_automatisation": {
+        "axis": "ia_automatisation",
+        "score": 30,
+        "level": "faible",
+        "reasons": [
+          "processus concret observé : demandes spéciales et préparations de commandes traitées par e-mail ou via un formulaire libre, sans commande en ligne",
+          "+20 parcours_incomplet : « Nous donnons très peu de renseignements par téléphone, car nous privilégions le service des clients en bout… » (https://www.lacavistelh.fr/nous-contacter/)"
+        ]
+      },
+      "priority": "haute",
+      "best_axis": "refonte"
+    },
+    "commercial_priority": "haute",
+    "email_dns_status": "mx_ok",
+    "email_status": "non_contacté",
+    "next_action": "Brouillon à valider puis envoi après levée des blocages Gmail"
+  },
+  {
+    "company": "ALPHA MECANIQUE",
+    "sector": "Usinage de précision / sous-traitance industrielle",
+    "city": "Vénissieux",
+    "department": "69",
+    "region": "Auvergne-Rhône-Alpes",
+    "website": "https://www.alphamecanique.fr/",
+    "domain": "alphamecanique.fr",
+    "contact_email": "contact@alphamecanique.fr",
+    "email_verification": "verified",
+    "phone": "04 72 90 87 00",
+    "phone_verification": "verified",
+    "contact_name": "",
+    "contact_role": "",
+    "contact_name_source": "",
+    "lot": "2026-11-04-lot5",
+    "discovered_at": "2026-11-04",
+    "needs": [
+      "automatisation"
+    ],
+    "qualification_tier": "haute",
+    "opportunity_type": "besoin_reel",
+    "recommended_service": "un assistant qui réceptionne les plans, vérifie qu'il ne manque rien et prépare la trame du devis.",
+    "demo_detail": "démo d'un assistant de réception de plans qui contrôle les informations manquantes avant chiffrage",
+    "custom_subject": "Alpha Mécanique : vos demandes de devis sur plans",
+    "custom_hook": "Votre site décrit le chiffrage « dès réception de vos plans », avec analyse des tolérances, de la matière et des quantités, puis un devis sous 24 à 48 h.",
+    "process_hint": "réception des plans par e-mail, analyse manuelle des tolérances/matière/quantités, devis sous 24 à 48 h, commande par retour",
+    "notes": "Lot 5. Besoin réel : le processus de devis est décrit publiquement, étape par étape, et repose entièrement sur des échanges d'emails. Aucun responsable nommé n'est publié sur le site : salutation neutre. Le site est correct : le besoin n'est pas une refonte mais l'automatisation du flux entrant.",
+    "evidences": [
+      {
+        "kind": "processus_manuel",
+        "source_url": "https://www.alphamecanique.fr/",
+        "quote": "Dès réception de vos plans, nous analysons les dimensions, les tolérances, la matière, les traitements de surface et les quantités pour vous établir un devis précis et rapide.",
+        "observed_at": "2026-11-04",
+        "detail": "Chaque demande de devis impose une lecture manuelle du plan et la vérification d'un jeu fixe d'informations (dimensions, tolérances, matière, traitements, quantités)."
+      },
+      {
+        "kind": "processus_manuel",
+        "source_url": "https://www.alphamecanique.fr/",
+        "quote": "Nous vous envoyons votre devis rapidement, généralement sous 24 à 48h. Le client nous envoie sa commande et nous démarrons la fabrication.",
+        "observed_at": "2026-11-04",
+        "detail": "Le cycle devis puis commande se fait par retour d'e-mail, sans accusé de réception automatisé ni relance des devis sans réponse."
+      }
+    ],
+    "scores": {
+      "site_web": {
+        "axis": "site_web",
+        "score": 5,
+        "level": "faible",
+        "reasons": [
+          "un site est déjà en ligne : pas de création à proprement parler",
+          "aucune preuve directe sur cet axe : score volontairement bas"
+        ]
+      },
+      "refonte": {
+        "axis": "refonte",
+        "score": 5,
+        "level": "faible",
+        "reasons": [
+          "site existant à moderniser",
+          "aucune preuve directe sur cet axe : score volontairement bas"
+        ]
+      },
+      "ia_automatisation": {
+        "axis": "ia_automatisation",
+        "score": 100,
+        "level": "fort",
+        "reasons": [
+          "processus concret observé : réception des plans par e-mail, analyse manuelle des tolérances/matière/quantités, devis sous 24 à 48 h, commande par re",
+          "+55 processus_manuel : « Dès réception de vos plans, nous analysons les dimensions, les tolérances, la matière, les traitements de s… » (https://www.alphamecanique.fr/)",
+          "+55 processus_manuel : « Nous vous envoyons votre devis rapidement, généralement sous 24 à 48h. Le client nous envoie sa commande et… » (https://www.alphamecanique.fr/)"
+        ]
+      },
+      "priority": "haute",
+      "best_axis": "ia_automatisation"
+    },
+    "commercial_priority": "haute",
+    "email_dns_status": "mx_ok",
+    "email_status": "non_contacté",
+    "next_action": "Brouillon à valider puis envoi après levée des blocages Gmail"
+  },
+  {
+    "company": "SARL Ambulances Sainte-Marie",
+    "sector": "Transport sanitaire / services aux établissements de santé",
+    "city": "Couzeix",
+    "department": "87",
+    "region": "Nouvelle-Aquitaine",
+    "website": "https://ambulances-sainte-marie.fr/",
+    "domain": "ambulances-sainte-marie.fr",
+    "contact_email": "ambulancestemarie@gmail.com",
+    "email_verification": "verified",
+    "phone": "05 55 36 45 83",
+    "phone_verification": "verified",
+    "contact_name": "",
+    "contact_role": "Christophe Duprat, fondateur (1990)",
+    "contact_name_source": "https://ambulances-sainte-marie.fr/",
+    "lot": "2026-11-04-lot5",
+    "discovered_at": "2026-11-04",
+    "needs": [
+      "automatisation",
+      "refonte"
+    ],
+    "qualification_tier": "moyenne",
+    "opportunity_type": "opportunite_probable",
+    "recommended_service": "un assistant qui trie les demandes de transport et prépare les dossiers d'entente préalable.",
+    "demo_detail": "démo d'un assistant de tri des demandes de transport et de préparation des dossiers d'entente préalable",
+    "custom_subject": "Ambulances Sainte-Marie : vos ententes préalables",
+    "custom_hook": "Votre site met en avant la gestion des demandes d'entente au préalable et du tiers payant, alors que le formulaire en ligne ne demande que le type de véhicule et un message libre.",
+    "process_hint": "demandes de transport par formulaire libre ou téléphone, puis constitution des dossiers d'entente préalable et gestion du tiers payant",
+    "notes": "Lot 5. Opportunité probable : 20 salariés et 12 véhicules, donc un volume administratif régulier. Aucune donnée de santé n'est collectée ni traitée : seules des informations publiques de l'entreprise sont utilisées. Responsable public : Christophe Duprat, fondateur.",
+    "evidences": [
+      {
+        "kind": "processus_manuel",
+        "source_url": "https://ambulances-sainte-marie.fr/",
+        "quote": "Gestion des demandes d'\"entente au préalable\" — Tiers payant et mutuelles — 20 employés — 12 véhicules",
+        "observed_at": "2026-11-04",
+        "detail": "L'entreprise assume publiquement la constitution des dossiers d'entente préalable et la gestion du tiers payant pour une flotte de 12 véhicules : tâches administratives répétitives."
+      },
+      {
+        "kind": "website_gap",
+        "source_url": "https://ambulances-sainte-marie.fr/",
+        "quote": "Votre demande* Ambulance Taxi VSL — Message — Combien font deux plus dix",
+        "observed_at": "2026-11-04",
+        "detail": "Le formulaire ne collecte que le choix du véhicule et un message libre, avec une question anti-spam : aucune pré-qualification de la demande ni créneau souhaité."
+      }
+    ],
+    "scores": {
+      "site_web": {
+        "axis": "site_web",
+        "score": 5,
+        "level": "faible",
+        "reasons": [
+          "un site est déjà en ligne : pas de création à proprement parler",
+          "aucune preuve directe sur cet axe : score volontairement bas"
+        ]
+      },
+      "refonte": {
+        "axis": "refonte",
+        "score": 35,
+        "level": "faible",
+        "reasons": [
+          "site existant à moderniser",
+          "+30 website_gap : « Votre demande* Ambulance Taxi VSL — Message — Combien font deux plus dix » (https://ambulances-sainte-marie.fr/)"
+        ]
+      },
+      "ia_automatisation": {
+        "axis": "ia_automatisation",
+        "score": 65,
+        "level": "moyen",
+        "reasons": [
+          "processus concret observé : demandes de transport par formulaire libre ou téléphone, puis constitution des dossiers d'entente préalable et gestion d",
+          "+55 processus_manuel : « Gestion des demandes d'\"entente au préalable\" — Tiers payant et mutuelles — 20 employés — 12 véhicules » (https://ambulances-sainte-marie.fr/)"
+        ]
+      },
+      "priority": "moyenne",
+      "best_axis": "ia_automatisation"
+    },
+    "commercial_priority": "moyenne",
+    "email_dns_status": "mx_ok",
+    "email_status": "non_contacté",
+    "next_action": "Brouillon à valider puis envoi après levée des blocages Gmail"
+  },
+  {
+    "company": "Blanchisserie des 3 Régions (B3R)",
+    "sector": "Blanchisserie industrielle / location de linge professionnel",
+    "city": "Cherisy",
+    "department": "28",
+    "region": "Centre-Val de Loire",
+    "website": "https://blanchisseriedes3regions.fr/",
+    "domain": "blanchisseriedes3regions.fr",
+    "contact_email": "contact@blanchisseriedes3regions.fr",
+    "email_verification": "public_unverified",
+    "phone": "02 36 69 03 93",
+    "phone_verification": "public_unverified",
+    "contact_name": "",
+    "contact_role": "",
+    "contact_name_source": "",
+    "lot": "2026-11-04-lot5",
+    "discovered_at": "2026-11-04",
+    "needs": [
+      "site_web",
+      "refonte"
+    ],
+    "qualification_tier": "haute",
+    "opportunity_type": "besoin_reel",
+    "recommended_service": "la remise en ligne de votre site, avec une demande de devis et de tournée de collecte.",
+    "demo_detail": "maquette de votre site remis en ligne avec demande de devis et de collecte",
+    "custom_subject": "B3R : votre site affiche une page d'hébergement suspendu",
+    "custom_hook": "En consultant blanchisseriedes3regions.fr aujourd'hui, on tombe sur la page de l'hébergeur : « This site is currently suspended ».",
+    "process_hint": "devis et organisation des tournées de collecte pour les professionnels de l'hôtellerie et de la restauration",
+    "notes": "Lot 5. Besoin réel et daté : le site entier renvoie la page de suspension OVH (contrôlé le 2026-11-04, racine et page intérieure). Coordonnées publiées sur le contenu indexé du site officiel mais non revérifiables sur une page vivante : classées public_unverified. Le domaine publie bien des MX (Microsoft 365) : la messagerie est indépendante de l'hébergement web suspendu, l'adresse reste routable. Aucune donnée supprimée.",
+    "evidences": [
+      {
+        "kind": "site_indisponible",
+        "source_url": "https://blanchisseriedes3regions.fr/",
+        "quote": "Website unavailable — This site is currently suspended. The site administrator has been informed.",
+        "observed_at": "2026-11-04",
+        "detail": "Le site institutionnel est hors ligne : l'hébergeur affiche une page de suspension, aussi bien sur la racine que sur une page intérieure."
+      },
+      {
+        "kind": "public_need",
+        "source_url": "https://blanchisseriedes3regions.fr/pressing-livraison-blanchisserie-des-3-regions/",
+        "quote": "Blanchisserie industrielle familiale spécialisée dans l'entretien et la location de linge pour les professionnels. Acteur engagé en développement durable en Normandie, Centre-Val de Loire et Île-de-France.",
+        "observed_at": "2026-11-04",
+        "detail": "Activité B2B multi-régions (entretien et location de linge professionnel) dont la vitrine en ligne est indisponible : les demandes de devis ne peuvent plus aboutir par le site."
+      }
+    ],
+    "scores": {
+      "site_web": {
+        "axis": "site_web",
+        "score": 90,
+        "level": "fort",
+        "reasons": [
+          "site existant mais indisponible : présence en ligne à reconstruire",
+          "+15 site_indisponible : « Website unavailable — This site is currently suspended. The site administrator has been informed. » (https://blanchisseriedes3regions.fr/)"
+        ]
+      },
+      "refonte": {
+        "axis": "refonte",
+        "score": 35,
+        "level": "faible",
+        "reasons": [
+          "site existant à moderniser",
+          "+20 site_indisponible : « Website unavailable — This site is currently suspended. The site administrator has been informed. » (https://blanchisseriedes3regions.fr/)",
+          "+10 public_need : « Blanchisserie industrielle familiale spécialisée dans l'entretien et la location de linge pour les professi… » (https://blanchisseriedes3regions.fr/pressing-livraison-blanchisserie-des-3-regions/)"
+        ]
+      },
+      "ia_automatisation": {
+        "axis": "ia_automatisation",
+        "score": 40,
+        "level": "moyen",
+        "reasons": [
+          "processus concret observé : devis et organisation des tournées de collecte pour les professionnels de l'hôtellerie et de la restauration",
+          "+30 public_need : « Blanchisserie industrielle familiale spécialisée dans l'entretien et la location de linge pour les professi… » (https://blanchisseriedes3regions.fr/pressing-livraison-blanchisserie-des-3-regions/)"
+        ]
+      },
+      "priority": "moyenne",
+      "best_axis": "site_web"
+    },
+    "commercial_priority": "moyenne",
+    "email_dns_status": "mx_ok",
+    "email_status": "non_contacté",
+    "next_action": "Brouillon à valider puis envoi après levée des blocages Gmail"
+  }
+]
