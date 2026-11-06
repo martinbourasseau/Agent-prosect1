@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-06T15:17:46+00:00",
+  "updated_at": "2026-11-06T16:09:52+00:00",
   "items": [
     {
       "id": "2026-11-03-v2-001",
@@ -1812,11 +1812,11 @@
         "https://www.celtuce-traiteur.com/contact/",
         "https://www.celtuce-traiteur.com/contact/"
       ],
-      "status": "pending",
+      "status": "sent",
       "created_at": "2026-11-06T13:06:06+00:00",
-      "updated_at": "2026-11-06T13:10:42+00:00",
+      "updated_at": "2026-11-06",
       "gmail_draft_id": "r4668255302629793023",
-      "gmail_message_id": "1a1b1155f6e25e8b",
+      "gmail_message_id": "1a1b183f2bf3904d",
       "decision_reason": "",
       "history": [
         {
@@ -1848,6 +1848,13 @@
           "draft_id": "r4668255302629793023",
           "message_id": "1a1b1155f6e25e8b",
           "note": "brouillon mis à jour en place, aucun envoi"
+        },
+        {
+          "at": "2026-11-06",
+          "action": "reconciled_sent",
+          "reason": "envoi constaté dans Gmail (statut précédent : pending)",
+          "source": "gmail_manual_observed",
+          "gmail_message_id": "1a1b183f2bf3904d"
         }
       ]
     },
@@ -1863,11 +1870,11 @@
         "https://www.mamiecuisinetraiteur.fr/index.php",
         "https://www.mamiecuisinetraiteur.fr/index.php"
       ],
-      "status": "pending",
+      "status": "sent",
       "created_at": "2026-11-06T13:06:06+00:00",
-      "updated_at": "2026-11-06T13:10:42+00:00",
+      "updated_at": "2026-11-06",
       "gmail_draft_id": "r7069133405038258003",
-      "gmail_message_id": "1a1b1156acae33f5",
+      "gmail_message_id": "1a1b183fc0bdaefa",
       "decision_reason": "",
       "history": [
         {
@@ -1899,6 +1906,13 @@
           "draft_id": "r7069133405038258003",
           "message_id": "1a1b1156acae33f5",
           "note": "brouillon mis à jour en place, aucun envoi"
+        },
+        {
+          "at": "2026-11-06",
+          "action": "reconciled_sent",
+          "reason": "envoi constaté dans Gmail (statut précédent : pending)",
+          "source": "gmail_manual_observed",
+          "gmail_message_id": "1a1b183fc0bdaefa"
         }
       ]
     },
@@ -1914,11 +1928,11 @@
         "https://www.baptiste-break.fr/cgv/",
         "https://www.baptiste-break.fr/passez-commande/"
       ],
-      "status": "pending",
+      "status": "sent",
       "created_at": "2026-11-06T13:06:06+00:00",
-      "updated_at": "2026-11-06T13:10:42+00:00",
+      "updated_at": "2026-11-06",
       "gmail_draft_id": "r-2074566668747048619",
-      "gmail_message_id": "1a1b11578563a443",
+      "gmail_message_id": "1a1b18404ae62e39",
       "decision_reason": "",
       "history": [
         {
@@ -1950,6 +1964,13 @@
           "draft_id": "r-2074566668747048619",
           "message_id": "1a1b11578563a443",
           "note": "brouillon mis à jour en place, aucun envoi"
+        },
+        {
+          "at": "2026-11-06",
+          "action": "reconciled_sent",
+          "reason": "envoi constaté dans Gmail (statut précédent : pending)",
+          "source": "gmail_manual_observed",
+          "gmail_message_id": "1a1b18404ae62e39"
         }
       ]
     },
@@ -1965,11 +1986,11 @@
         "https://www.jolylocation-echafaudage.fr/contact",
         "https://www.joly-location.fr/"
       ],
-      "status": "pending",
+      "status": "sent",
       "created_at": "2026-11-06T13:06:06+00:00",
-      "updated_at": "2026-11-06T13:10:42+00:00",
+      "updated_at": "2026-11-06",
       "gmail_draft_id": "r7248452827625200722",
-      "gmail_message_id": "1a1b11894c854e9b",
+      "gmail_message_id": "1a1b1841a47c1bac",
       "decision_reason": "",
       "history": [
         {
@@ -2001,6 +2022,13 @@
           "draft_id": "r7248452827625200722",
           "message_id": "1a1b11894c854e9b",
           "note": "réécrit en place, label réappliqué, aucun envoi"
+        },
+        {
+          "at": "2026-11-06",
+          "action": "reconciled_sent",
+          "reason": "envoi constaté dans Gmail (statut précédent : pending)",
+          "source": "gmail_manual_observed",
+          "gmail_message_id": "1a1b1841a47c1bac"
         }
       ]
     },
@@ -2016,11 +2044,11 @@
         "https://uzes-location.fr/contact/",
         "https://uzes-location.fr/"
       ],
-      "status": "suspended",
+      "status": "sent",
       "created_at": "2026-11-06T13:06:06+00:00",
-      "updated_at": "2026-11-06T13:10:42+00:00",
+      "updated_at": "2026-11-06",
       "gmail_draft_id": "r8584317365937954867",
-      "gmail_message_id": "1a1b118a14a381b2",
+      "gmail_message_id": "1a1b18421f8c3683",
       "decision_reason": "",
       "history": [
         {
@@ -2057,6 +2085,19 @@
           "at": "2026-11-06T13:44:50+00:00",
           "action": "suspended",
           "reason": "email public non confirmé — aucun envoi possible"
+        },
+        {
+          "at": "2026-11-06",
+          "action": "reconciled_sent",
+          "reason": "envoi constaté dans Gmail (statut précédent : suspended)",
+          "source": "gmail_manual_observed",
+          "gmail_message_id": "1a1b18421f8c3683"
+        },
+        {
+          "at": "2026-11-06T16:09:52+00:00",
+          "action": "sent_while_suspended_detected",
+          "reason": "envoi manuel constaté dans Gmail malgré la suspension",
+          "gmail_message_id": "1a1b18421f8c3683"
         }
       ]
     },
@@ -2072,11 +2113,11 @@
         "https://techniquespiscine.fr/contactez-nous/",
         "https://techniquespiscine.fr/contactez-nous/"
       ],
-      "status": "pending",
+      "status": "sent",
       "created_at": "2026-11-06T13:06:06+00:00",
-      "updated_at": "2026-11-06T13:10:42+00:00",
+      "updated_at": "2026-11-06",
       "gmail_draft_id": "r-1290563027882505100",
-      "gmail_message_id": "1a1b118abcaa5f8a",
+      "gmail_message_id": "1a1b1842936c13f0",
       "decision_reason": "",
       "history": [
         {
@@ -2108,6 +2149,13 @@
           "draft_id": "r-1290563027882505100",
           "message_id": "1a1b118abcaa5f8a",
           "note": "réécrit en place, label réappliqué, aucun envoi"
+        },
+        {
+          "at": "2026-11-06",
+          "action": "reconciled_sent",
+          "reason": "envoi constaté dans Gmail (statut précédent : pending)",
+          "source": "gmail_manual_observed",
+          "gmail_message_id": "1a1b1842936c13f0"
         }
       ]
     },
@@ -2124,11 +2172,11 @@
         "https://france-hypnose-formation.com/inscriptions-aux-formations-pnl-et-hypnose/",
         "https://france-hypnose-formation.com/inscriptions-aux-formations-pnl-et-hypnose/"
       ],
-      "status": "draft",
+      "status": "sent",
       "created_at": "2026-11-06T13:34:05+00:00",
-      "updated_at": "2026-11-06T13:34:05+00:00",
+      "updated_at": "2026-11-06",
       "gmail_draft_id": "r9120835433336929590",
-      "gmail_message_id": "1a1b118e705161a2",
+      "gmail_message_id": "1a1b184311907c65",
       "decision_reason": "",
       "history": [
         {
@@ -2150,6 +2198,13 @@
           "message_id": "1a1b118e705161a2",
           "label_id": "Label_5",
           "note": "brouillon en attente de validation, aucun envoi"
+        },
+        {
+          "at": "2026-11-06",
+          "action": "reconciled_sent",
+          "reason": "envoi constaté dans Gmail (statut précédent : draft)",
+          "source": "gmail_manual_observed",
+          "gmail_message_id": "1a1b184311907c65"
         }
       ]
     },
@@ -2165,11 +2220,11 @@
         "https://www.atoutransport.com/",
         "https://www.atoutransport.com/"
       ],
-      "status": "draft",
+      "status": "sent",
       "created_at": "2026-11-06T13:34:05+00:00",
-      "updated_at": "2026-11-06T13:34:05+00:00",
+      "updated_at": "2026-11-06",
       "gmail_draft_id": "r-2268686272411300764",
-      "gmail_message_id": "1a1b118f057c3d1e",
+      "gmail_message_id": "1a1b18437782e960",
       "decision_reason": "",
       "history": [
         {
@@ -2191,6 +2246,13 @@
           "message_id": "1a1b118f057c3d1e",
           "label_id": "Label_5",
           "note": "brouillon en attente de validation, aucun envoi"
+        },
+        {
+          "at": "2026-11-06",
+          "action": "reconciled_sent",
+          "reason": "envoi constaté dans Gmail (statut précédent : draft)",
+          "source": "gmail_manual_observed",
+          "gmail_message_id": "1a1b18437782e960"
         }
       ]
     },
@@ -2206,11 +2268,11 @@
         "https://www.bonbon-foliz.com/page/9-espace-professionnel",
         "https://www.bonbon-foliz.com/page/9-espace-professionnel"
       ],
-      "status": "draft",
+      "status": "sent",
       "created_at": "2026-11-06T13:34:05+00:00",
-      "updated_at": "2026-11-06T13:34:05+00:00",
+      "updated_at": "2026-11-06",
       "gmail_draft_id": "r-2054030206917225871",
-      "gmail_message_id": "1a1b118fd35f2b19",
+      "gmail_message_id": "1a1b1844273c525a",
       "decision_reason": "",
       "history": [
         {
@@ -2232,6 +2294,13 @@
           "message_id": "1a1b118fd35f2b19",
           "label_id": "Label_5",
           "note": "brouillon en attente de validation, aucun envoi"
+        },
+        {
+          "at": "2026-11-06",
+          "action": "reconciled_sent",
+          "reason": "envoi constaté dans Gmail (statut précédent : draft)",
+          "source": "gmail_manual_observed",
+          "gmail_message_id": "1a1b1844273c525a"
         }
       ]
     },
@@ -2247,11 +2316,11 @@
         "https://odeclaise.fr/",
         "https://odeclaise.fr/"
       ],
-      "status": "draft",
+      "status": "sent",
       "created_at": "2026-11-06T13:34:05+00:00",
-      "updated_at": "2026-11-06T13:34:05+00:00",
+      "updated_at": "2026-11-06",
       "gmail_draft_id": "r2815323427362296493",
-      "gmail_message_id": "1a1b1192231a0240",
+      "gmail_message_id": "1a1b1844cc70bc8c",
       "decision_reason": "",
       "history": [
         {
@@ -2273,6 +2342,13 @@
           "message_id": "1a1b1192231a0240",
           "label_id": "Label_5",
           "note": "brouillon en attente de validation, aucun envoi"
+        },
+        {
+          "at": "2026-11-06",
+          "action": "reconciled_sent",
+          "reason": "envoi constaté dans Gmail (statut précédent : draft)",
+          "source": "gmail_manual_observed",
+          "gmail_message_id": "1a1b1844cc70bc8c"
         }
       ]
     },
@@ -2288,11 +2364,11 @@
         "https://bulles-et-detente.fr/",
         "https://bulles-et-detente.fr/"
       ],
-      "status": "draft",
+      "status": "sent",
       "created_at": "2026-11-06T13:34:05+00:00",
-      "updated_at": "2026-11-06T13:34:05+00:00",
+      "updated_at": "2026-11-06",
       "gmail_draft_id": "r-5537710055085633490",
-      "gmail_message_id": "1a1b119317154576",
+      "gmail_message_id": "1a1b18453d1c8993",
       "decision_reason": "",
       "history": [
         {
@@ -2314,6 +2390,13 @@
           "message_id": "1a1b119317154576",
           "label_id": "Label_5",
           "note": "brouillon en attente de validation, aucun envoi"
+        },
+        {
+          "at": "2026-11-06",
+          "action": "reconciled_sent",
+          "reason": "envoi constaté dans Gmail (statut précédent : draft)",
+          "source": "gmail_manual_observed",
+          "gmail_message_id": "1a1b18453d1c8993"
         }
       ]
     },
@@ -2372,11 +2455,11 @@
         "https://www.le-centre-formation.fr/2025-12-19/nos-formations-caces-sont-disponibles-sur-mon-compte-formation-cpf/",
         "https://www.le-centre-formation.fr/2025-12-19/nos-formations-caces-sont-disponibles-sur-mon-compte-formation-cpf/"
       ],
-      "status": "pending",
+      "status": "sent",
       "created_at": "2026-11-06T15:13:40+00:00",
-      "updated_at": "2026-11-06T15:16:00+00:00",
+      "updated_at": "2026-11-06",
       "gmail_draft_id": "r-3781413814320777965",
-      "gmail_message_id": "1a1b16e00589e855",
+      "gmail_message_id": "1a1b184b29206c9d",
       "decision_reason": "",
       "history": [
         {
@@ -2398,6 +2481,13 @@
           "gmail_message_id": "1a1b16e00589e855",
           "label": "Prospection/2026-11-06-lot8",
           "reason": "brouillon créé dans Gmail, en attente de validation — aucun envoi"
+        },
+        {
+          "at": "2026-11-06",
+          "action": "reconciled_sent",
+          "reason": "envoi constaté dans Gmail (statut précédent : pending)",
+          "source": "gmail_manual_observed",
+          "gmail_message_id": "1a1b184b29206c9d"
         }
       ]
     },
@@ -2414,11 +2504,11 @@
         "https://www.mrjenbackprotegevotrehabitat.com/devis-couvreur-zingueur-ramoneur-angers/",
         "https://www.mrjenbackprotegevotrehabitat.com/devis-couvreur-zingueur-ramoneur-angers/"
       ],
-      "status": "pending",
+      "status": "sent",
       "created_at": "2026-11-06T15:13:40+00:00",
-      "updated_at": "2026-11-06T15:16:00+00:00",
+      "updated_at": "2026-11-06",
       "gmail_draft_id": "r-59861167252265867",
-      "gmail_message_id": "1a1b16e0e43b02fa",
+      "gmail_message_id": "1a1b184bb1591fa8",
       "decision_reason": "",
       "history": [
         {
@@ -2440,6 +2530,13 @@
           "gmail_message_id": "1a1b16e0e43b02fa",
           "label": "Prospection/2026-11-06-lot8",
           "reason": "brouillon créé dans Gmail, en attente de validation — aucun envoi"
+        },
+        {
+          "at": "2026-11-06",
+          "action": "reconciled_sent",
+          "reason": "envoi constaté dans Gmail (statut précédent : pending)",
+          "source": "gmail_manual_observed",
+          "gmail_message_id": "1a1b184bb1591fa8"
         }
       ]
     },
@@ -2456,11 +2553,11 @@
         "https://msfpro-industries.com/",
         "https://msfpro-industries.com/"
       ],
-      "status": "pending",
+      "status": "sent",
       "created_at": "2026-11-06T15:13:40+00:00",
-      "updated_at": "2026-11-06T15:16:00+00:00",
+      "updated_at": "2026-11-06",
       "gmail_draft_id": "r4288620166161112368",
-      "gmail_message_id": "1a1b16e1bd96c27c",
+      "gmail_message_id": "1a1b184c2bc9921b",
       "decision_reason": "",
       "history": [
         {
@@ -2482,6 +2579,13 @@
           "gmail_message_id": "1a1b16e1bd96c27c",
           "label": "Prospection/2026-11-06-lot8",
           "reason": "brouillon créé dans Gmail, en attente de validation — aucun envoi"
+        },
+        {
+          "at": "2026-11-06",
+          "action": "reconciled_sent",
+          "reason": "envoi constaté dans Gmail (statut précédent : pending)",
+          "source": "gmail_manual_observed",
+          "gmail_message_id": "1a1b184c2bc9921b"
         }
       ]
     }

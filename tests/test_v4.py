@@ -68,22 +68,33 @@ class TestReferences(unittest.TestCase):
         self.assertIn("synatrap", ids)
 
     def test_site_selects_groupe(self):
-        p = make_prospect(needs=[NEED_SITE_WEB], sector="commerce")
+        p = make_prospect(needs=[NEED_SITE_WEB], sector="commerce",
+                          solution_type="creation_site")
         ref = select_reference(p)
         self.assertIsNotNone(ref)
         self.assertEqual(ref.id, "groupe-bourasseau")
 
     def test_refonte_selects_groupe(self):
-        p = make_prospect(needs=[NEED_REFONTE])
+        p = make_prospect(needs=[NEED_REFONTE], solution_type="refonte_site")
         self.assertEqual(select_reference(p).id, "groupe-bourasseau")
 
     def test_ia_selects_synatrap(self):
-        p = make_prospect(needs=[NEED_AGENT_IA], sector="services")
+        p = make_prospect(needs=[NEED_AGENT_IA], sector="services", solution_type="agent_ia")
         self.assertEqual(select_reference(p).id, "synatrap")
 
-    def test_automation_selects_synatrap(self):
-        p = make_prospect(needs=[NEED_AUTOMATISATION], sector="commerce")
-        self.assertEqual(select_reference(p).id, "synatrap")
+    def test_automatisation_simple_n_attire_pas_synatrap(self):
+        # v7 : proposer un formulaire de devis ne justifie pas de citer une
+        # plateforme d'agents IA. C'était le défaut des lots 6 et 7.
+        for solution in ("formulaire_intelligent", "devis_automatise",
+                         "reservation_en_ligne", "commande_en_ligne",
+                         "automatisation_admin"):
+            p = make_prospect(needs=[NEED_AUTOMATISATION], sector="commerce",
+                              solution_type=solution)
+            self.assertIsNone(select_reference(p), solution)
+
+    def test_sans_solution_renseignee_aucune_reference(self):
+        p = make_prospect(needs=[NEED_AUTOMATISATION])
+        self.assertIsNone(select_reference(p))
 
     def test_authorship_not_personal_claim(self):
         for r in load_references():
@@ -96,14 +107,15 @@ class TestReferences(unittest.TestCase):
 
 class TestMessaging(unittest.TestCase):
     def test_compose_site_demo(self):
-        p = make_prospect(needs=[NEED_SITE_WEB], sector="commerce")
+        p = make_prospect(needs=[NEED_SITE_WEB], sector="commerce",
+                          solution_type="creation_site")
         email = compose_email(p)
         self.assertEqual(check_email_v4(email, p), [])
         self.assertTrue(email.reference_id)
         self.assertEqual(email.message_version, "v4")
 
     def test_compose_ia(self):
-        p = make_prospect(needs=[NEED_AGENT_IA], sector="services")
+        p = make_prospect(needs=[NEED_AGENT_IA], sector="services", solution_type="agent_ia")
         email = compose_email(p)
         self.assertEqual(check_email_v4(email, p), [])
         self.assertEqual(email.reference_id, "synatrap")

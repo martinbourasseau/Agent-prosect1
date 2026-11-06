@@ -66,6 +66,30 @@ def load_references(path: Path | None = None) -> list[Reference]:
     return [Reference.from_dict(r) for r in raw.get("references", [])]
 
 
+# v7 — pertinence réelle d'une référence.
+# Jusqu'au lot 8, tout besoin « automatisation » attirait SYNATRAP (+4), y compris
+# pour un simple formulaire de devis : les 11 brouillons des lots 6 et 7 citent
+# donc une plateforme d'agents IA sans rapport avec la solution proposée.
+# Une référence n'est désormais insérée que si elle éclaire la solution retenue.
+REFERENCE_RELEVANT_SOLUTIONS = {
+    "plateforme_agents_ia": frozenset({"agent_ia"}),
+    "site_institutionnel": frozenset({"creation_site", "refonte_site"}),
+}
+
+
+def reference_is_relevant(ref: Reference, prospect: Prospect) -> bool:
+    """Une référence n'est utile que si elle illustre la solution proposée.
+
+    Sans solution_type renseigné on reste prudent : aucune référence n'est
+    ajoutée plutôt que d'en plaquer une hors sujet.
+    """
+    solution = (getattr(prospect, "solution_type", "") or "").strip()
+    allowed = REFERENCE_RELEVANT_SOLUTIONS.get(ref.kind)
+    if allowed is None:
+        return False
+    return solution in allowed
+
+
 def select_reference(prospect: Prospect, refs: list[Reference] | None = None) -> Reference | None:
     """Choisit la référence la plus pertinente (besoin d'abord, secteur ensuite).
 
@@ -79,6 +103,8 @@ def select_reference(prospect: Prospect, refs: list[Reference] | None = None) ->
     best, best_score = None, 0
     for ref in refs:
         if not ref.enabled:
+            continue
+        if not reference_is_relevant(ref, prospect):
             continue
         score = 0
         if need and need in ref.need_tags:

@@ -1,0 +1,93 @@
+{
+  "campaign": "2026-11-04-v4",
+  "strategy": "v4 — variantes + références + démo gratuite",
+  "generated_count": 5,
+  "emails": [
+    {
+      "queue_id": "2026-11-04-v4-002",
+      "to": "contact@renovationpremium.com",
+      "subject": "Votre annonce WordPress + référencement",
+      "body": "Bonjour,\n\nJ'ai lu votre annonce : vous voulez faire évoluer votre site WordPress, votre référencement et votre communication.\n\nJe peux vous proposer une optimisation de votre site WordPress pour le rendre plus rapide et mieux référencé, sans tout reconstruire\n\nÀ titre d'exemple, voici le site institutionnel que j'ai conçu pour mon groupe : https://groupebourasseau.com\n\nJe peux vous préparer gratuitement une première démonstration personnalisée, sans engagement : un aperçu de votre page d'accueil optimisée pour le référencement.\n\nCela vous dirait de la découvrir ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation web · Agents IA · Automatisation\nhttps://prospecto.website\n",
+      "company": "R Premium",
+      "need": "refonte",
+      "evidence_sources": [
+        "https://www.codeur.com/pages/appel-offre"
+      ],
+      "variant": "public_need",
+      "reference_id": "groupe-bourasseau",
+      "example_url": "https://groupebourasseau.com",
+      "message_version": "v4",
+      "score": 60,
+      "tier": "haute"
+    },
+    {
+      "queue_id": "2026-11-04-v4-003",
+      "to": "secteur72fr@gmail.com",
+      "subject": "Secteur 72 : automatiser avant l'ouverture ?",
+      "body": "Bonjour Marc,\n\nJ'ai suivi le lancement de Secteur 72 : vous préparez l'ouverture de votre terrain d'airsoft et le développement de la boutique.\n\nJe peux vous proposer une automatisation de vos réservations et rappels de sessions, pour ouvrir sans y passer vos soirées\n\nCôté agents IA, voici SYNATRAP, la plateforme que je développe avec mon groupe : https://synatrap.com\n\nJe peux vous montrer gratuitement une démonstration concrète de la solution envisagée, sans engagement, sur un cas réel de votre activité.\n\nCela vous dirait de la découvrir ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation web · Agents IA · Automatisation\nhttps://prospecto.website\n",
+      "company": "Secteur 72",
+      "need": "automatisation",
+      "evidence_sources": [
+        "https://www.codeur.com/projects/492309-e-commerce-et-site-web-vitrine",
+        "https://www.actu.fr/pays-de-la-loire/montval-sur-loir_72071/sarthe-il-cherche-un-terrain-pour-son-projet-de-terrain-d-airsoft_64922877.html"
+      ],
+      "variant": "public_need",
+      "reference_id": "synatrap",
+      "example_url": "https://synatrap.com",
+      "message_version": "v4",
+      "score": 75,
+      "tier": "haute"
+    },
+    {
+      "queue_id": "2026-11-04-v4-004",
+      "to": "support@bsp-auto.com",
+      "subject": "Votre newsletter mensuelle, en pilote automatique ?",
+      "body": "Bonjour,\n\nJ'ai vu votre projet de newsletter mensuelle pour vos agences de voyages clientes.\n\nJe peux vous proposer une automatisation qui prépare et envoie votre newsletter mensuelle à vos agences clientes, sans y repasser chaque mois\n\nCôté agents IA, voici SYNATRAP, la plateforme que je développe avec mon groupe : https://synatrap.com\n\nJe peux vous montrer gratuitement une démonstration concrète de la solution envisagée, sans engagement, sur un cas réel de votre activité.\n\nCela vous dirait de la découvrir ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation web · Agents IA · Automatisation\nhttps://prospecto.website\n",
+      "company": "BSP Auto",
+      "need": "automatisation",
+      "evidence_sources": [
+        "https://www.codeur.com/projects/492305-newsletter-location-de-voiture"
+      ],
+      "variant": "public_need",
+      "reference_id": "synatrap",
+      "example_url": "https://synatrap.com",
+      "message_version": "v4",
+      "score": 60,
+      "tier": "haute"
+    },
+    {
+      "queue_id": "2026-11-04-v4-005",
+      "to": "contact@cerf-athletic-training.fr",
+      "subject": "CERF : automatiser le suivi de vos adhérents ?",
+      "body": "Bonjour Elwen,\n\nJ'ai suivi l'ouverture de CERF à Mouzillon : petits groupes, coach présent, objectif d'une centaine d'adhérents.\n\nJe peux vous proposer une automatisation de vos inscriptions, rappels de séances et réponses aux questions des adhérents\n\nCôté agents IA, voici SYNATRAP, la plateforme que je développe avec mon groupe : https://synatrap.com\n\nJe peux vous montrer gratuitement une démonstration concrète de la solution envisagée, sans engagement, sur un cas réel de votre activité.\n\nCela vous dirait de la découvrir ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation web · Agents IA · Automatisation\nhttps://prospecto.website\n",
+      "company": "CERF Athletic Training",
+      "need": "automatisation",
+      "evidence_sources": [
+        "https://actu.fr/pays-de-la-loire/mouzillon_44108/elle-va-ouvrir-dans-le-vignoble-nantais-que-propose-cette-salle-de-sport-qui-defend-une-autre-approche_64655582.html"
+      ],
+      "variant": "synatrap_ia",
+      "reference_id": "synatrap",
+      "example_url": "https://synatrap.com",
+      "message_version": "v4",
+      "score": 25,
+      "tier": "moyenne"
+    },
+    {
+      "queue_id": "2026-11-04-v4-006",
+      "to": "charmedelhetre50@gmail.com",
+      "subject": "Charme de l'Hêtre : être trouvé sur Google ?",
+      "body": "Bonjour Chloé,\n\nJe viens de découvrir Charme de l'Hêtre, votre activité d'arboriste grimpeuse lancée cet été.\n\nJe peux vous proposer un site vitrine clair et rapide qui présente votre activité d'élagage et donne envie de vous contacter\n\nÀ titre d'exemple, voici le site institutionnel que j'ai conçu pour mon groupe : https://groupebourasseau.com\n\nJe peux vous préparer gratuitement une première démonstration personnalisée, sans engagement : une première maquette de site vitrine pour votre activité d'élagage.\n\nCela vous dirait de la découvrir ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation web · Agents IA · Automatisation\nhttps://prospecto.website\n",
+      "company": "Charme de l'Hêtre",
+      "need": "site_web",
+      "evidence_sources": [
+        "https://actu.fr/normandie/la-chapelle-uree_50124/dans-le-sud-manche-elle-a-cree-son-entreprise-darboriste-grimpeuse-pour-mettre-en-valeur-les-vegetaux_64675166.html"
+      ],
+      "variant": "no_site",
+      "reference_id": "groupe-bourasseau",
+      "example_url": "https://groupebourasseau.com",
+      "message_version": "v4",
+      "score": 25,
+      "tier": "moyenne"
+    }
+  ]
+}

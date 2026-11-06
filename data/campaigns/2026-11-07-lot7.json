@@ -100,7 +100,7 @@
   "drafts_created": 5,
   "sent": 0,
   "message_version": "v5",
-  "updated_at": "2026-11-06T13:44:50+00:00",
+  "updated_at": "2026-11-06T16:09:52+00:00",
   "drafts": [
     {
       "queue_id": "2026-11-07-lot7-001",
@@ -108,7 +108,9 @@
       "subject": "Inscriptions France-PNL : quatre canaux, une seule validation ?",
       "gmail_draft_id": "r9120835433336929590",
       "gmail_message_id": "1a1b118e705161a2",
-      "status": "draft"
+      "status": "sent",
+      "sent_at": "2026-11-06",
+      "send_source": "gmail_manual_observed"
     },
     {
       "queue_id": "2026-11-07-lot7-002",
@@ -116,7 +118,9 @@
       "subject": "Atoutransport : vos dates de groupage consultables en ligne ?",
       "gmail_draft_id": "r-2268686272411300764",
       "gmail_message_id": "1a1b118f057c3d1e",
-      "status": "draft"
+      "status": "sent",
+      "sent_at": "2026-11-06",
+      "send_source": "gmail_manual_observed"
     },
     {
       "queue_id": "2026-11-07-lot7-003",
@@ -124,7 +128,9 @@
       "subject": "Bonbon Foliz : vos ouvertures de compte pro par e-mail ?",
       "gmail_draft_id": "r-2054030206917225871",
       "gmail_message_id": "1a1b118fd35f2b19",
-      "status": "draft"
+      "status": "sent",
+      "sent_at": "2026-11-06",
+      "send_source": "gmail_manual_observed"
     },
     {
       "queue_id": "2026-11-07-lot7-004",
@@ -132,7 +138,9 @@
       "subject": "Ô de Claise : vos cartes cadeau réservables en ligne ?",
       "gmail_draft_id": "r2815323427362296493",
       "gmail_message_id": "1a1b1192231a0240",
-      "status": "draft"
+      "status": "sent",
+      "sent_at": "2026-11-06",
+      "send_source": "gmail_manual_observed"
     },
     {
       "queue_id": "2026-11-07-lot7-005",
@@ -140,7 +148,10 @@
       "subject": "Bulles & Détente : le suivi de vos bons cadeaux automatisé ?",
       "gmail_draft_id": "r-5537710055085633490",
       "gmail_message_id": "1a1b119317154576",
-      "status": "draft"
+      "status": "sent",
+      "sent_at": "2026-11-06",
+      "send_source": "gmail_manual_observed"
     }
-  ]
+  ],
+  "sent_manually_count": 5
 }

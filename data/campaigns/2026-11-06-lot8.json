@@ -3,7 +3,7 @@
   "strategy": "v6 — personnalisation par entreprise ET par interlocuteur",
   "generated_count": 4,
   "message_version": "v6",
-  "updated_at": "2026-11-06T15:16:00+00:00",
+  "updated_at": "2026-11-06T16:09:52+00:00",
   "gmail_label_name": "Prospection/2026-11-06-lot8",
   "gmail_label_id": "Label_6",
   "drafts_created": 4,
@@ -113,7 +113,9 @@
       "subject": "Dossiers CPF : un lien par profil, puis les dates à caler",
       "gmail_draft_id": "r-3781413814320777965",
       "gmail_message_id": "1a1b16e00589e855",
-      "status": "draft"
+      "status": "sent",
+      "sent_at": "2026-11-06",
+      "send_source": "gmail_manual_observed"
     },
     {
       "queue_id": "2026-11-06-lot8-003",
@@ -121,7 +123,9 @@
       "subject": "Votre bouton « Devis gratuit » compose un autre numéro",
       "gmail_draft_id": "r-59861167252265867",
       "gmail_message_id": "1a1b16e0e43b02fa",
-      "status": "draft"
+      "status": "sent",
+      "sent_at": "2026-11-06",
+      "send_source": "gmail_manual_observed"
     },
     {
       "queue_id": "2026-11-06-lot8-004",
@@ -129,7 +133,9 @@
       "subject": "Vos demandes de devis MSF PRO ouvrent toutes un e-mail",
       "gmail_draft_id": "r4288620166161112368",
       "gmail_message_id": "1a1b16e1bd96c27c",
-      "status": "draft"
+      "status": "sent",
+      "sent_at": "2026-11-06",
+      "send_source": "gmail_manual_observed"
     }
   ],
   "prospects_sans_brouillon": [
@@ -145,5 +151,6 @@
     "distinct_demo_openers": 3,
     "distinct_ctas": 4,
     "problems": []
-  }
+  },
+  "sent_manually_count": 3
 }

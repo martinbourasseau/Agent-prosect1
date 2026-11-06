@@ -24,7 +24,7 @@ from .models import (
 from .strategy import (
     DEMO_OFFERS, build_hook, public_need_evidence, de_company,
 )
-from .references import Reference, load_references, select_reference
+from .references import Reference, load_references, select_reference, reference_is_relevant
 from .personalization import (
     build_proposition, build_demo, pick_opener, generic_problems,
     uses_legacy_service_line, SOLUTION_TYPES, CTA_VARIANTS, LotRotation, IA_SOLUTIONS,
@@ -231,6 +231,10 @@ def compose_email(
     parts.append(proposition)
 
     example_url = ""
+    # Une référence hors sujet n'apporte rien : on l'écarte même si l'appelant
+    # l'a demandée explicitement.
+    if reference is not None and not reference_is_relevant(reference, prospect):
+        reference = None
     if flags["example"] and reference is not None and reference.enabled:
         use_alt = bool(prospect.solution_type) and prospect.solution_type not in IA_SOLUTIONS
         parts.append(reference.sentence(use_alt=use_alt))

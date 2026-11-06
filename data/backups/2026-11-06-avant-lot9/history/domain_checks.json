@@ -1,0 +1,425 @@
+{
+  "updated_at": "2026-11-06T15:12:00+00:00",
+  "count": 41,
+  "domains": {
+    "renovationpremium.com": {
+      "domain": "renovationpremium.com",
+      "status": "mx_ok",
+      "mx_hosts": [
+        "alt1.aspmx.l.google.com",
+        "alt2.aspmx.l.google.com",
+        "aspmx.l.google.com",
+        "aspmx2.googlemail.com",
+        "aspmx3.googlemail.com"
+      ],
+      "checked_at": "2026-11-04T22:11:15+00:00",
+      "detail": "5 MX publiés"
+    },
+    "gmail.com": {
+      "domain": "gmail.com",
+      "status": "mx_ok",
+      "mx_hosts": [
+        "alt1.gmail-smtp-in.l.google.com",
+        "alt2.gmail-smtp-in.l.google.com",
+        "alt3.gmail-smtp-in.l.google.com",
+        "alt4.gmail-smtp-in.l.google.com",
+        "gmail-smtp-in.l.google.com"
+      ],
+      "checked_at": "2026-11-04T22:11:15+00:00",
+      "detail": "5 MX publiés"
+    },
+    "superchi.fr": {
+      "domain": "superchi.fr",
+      "status": "mx_ok",
+      "mx_hosts": [
+        "mx1.ovh.net",
+        "mx2.ovh.net",
+        "mxb.ovh.net"
+      ],
+      "checked_at": "2026-11-04T22:11:15+00:00",
+      "detail": "3 MX publiés"
+    },
+    "quattroarchi.fr": {
+      "domain": "quattroarchi.fr",
+      "status": "mx_ok",
+      "mx_hosts": [
+        "quattroarchi-fr.mail.protection.outlook.com"
+      ],
+      "checked_at": "2026-11-04T22:11:15+00:00",
+      "detail": "1 MX publiés"
+    },
+    "thearchitectes.com": {
+      "domain": "thearchitectes.com",
+      "status": "mx_ok",
+      "mx_hosts": [
+        "mx1.ovh.net",
+        "mx2.ovh.net"
+      ],
+      "checked_at": "2026-11-04T22:11:15+00:00",
+      "detail": "2 MX publiés"
+    },
+    "akla-architectes.com": {
+      "domain": "akla-architectes.com",
+      "status": "mx_ok",
+      "mx_hosts": [
+        "aklaarchitectes-com01b.mail.protection.outlook.com"
+      ],
+      "checked_at": "2026-11-04T22:11:16+00:00",
+      "detail": "1 MX publiés"
+    },
+    "bsp-auto.com": {
+      "domain": "bsp-auto.com",
+      "status": "mx_ok",
+      "mx_hosts": [
+        "mx1.bsp-auto.com",
+        "mx2.bsp-auto.com"
+      ],
+      "checked_at": "2026-11-04T22:11:16+00:00",
+      "detail": "2 MX publiés"
+    },
+    "cerf-athletic-training.fr": {
+      "domain": "cerf-athletic-training.fr",
+      "status": "mx_ok",
+      "mx_hosts": [
+        "mx0.mail.ovh.net",
+        "mx1.mail.ovh.net",
+        "mx2.mail.ovh.net",
+        "mx3.mail.ovh.net"
+      ],
+      "checked_at": "2026-11-04T22:11:16+00:00",
+      "detail": "4 MX publiés"
+    },
+    "orange.fr": {
+      "domain": "orange.fr",
+      "status": "mx_ok",
+      "mx_hosts": [
+        "smtp-in.orange.fr",
+        "smtp-in2.orange.fr"
+      ],
+      "checked_at": "2026-11-04T22:11:16+00:00",
+      "detail": "2 MX publiés"
+    },
+    "camping-galet.com": {
+      "domain": "camping-galet.com",
+      "status": "mx_ok",
+      "mx_hosts": [
+        "mx1.mail.ovh.net",
+        "mx2.mail.ovh.net",
+        "mx3.mail.ovh.net"
+      ],
+      "checked_at": "2026-11-04T22:11:16+00:00",
+      "detail": "3 MX publiés"
+    },
+    "rochedesbancs.com": {
+      "domain": "rochedesbancs.com",
+      "status": "mx_ok",
+      "mx_hosts": [
+        "alt1.aspmx.l.google.com",
+        "alt2.aspmx.l.google.com",
+        "alt3.aspmx.l.google.com",
+        "alt4.aspmx.l.google.com",
+        "aspmx.l.google.com"
+      ],
+      "checked_at": "2026-11-04T22:11:17+00:00",
+      "detail": "5 MX publiés"
+    },
+    "itelecom.pro": {
+      "domain": "itelecom.pro",
+      "status": "mx_ok",
+      "mx_hosts": [
+        "mail.itelecom.pro"
+      ],
+      "checked_at": "2026-11-04T22:11:17+00:00",
+      "detail": "1 MX publiés"
+    },
+    "myk6.fr": {
+      "domain": "myk6.fr",
+      "status": "mx_ok",
+      "mx_hosts": [
+        "mx00.ionos.fr",
+        "mx01.ionos.fr"
+      ],
+      "checked_at": "2026-11-04T22:11:17+00:00",
+      "detail": "2 MX publiés"
+    },
+    "severine-lesourd.com": {
+      "domain": "severine-lesourd.com",
+      "status": "nxdomain",
+      "mx_hosts": [],
+      "checked_at": "2026-11-04T22:11:17+00:00",
+      "detail": "le domaine n'existe pas (NXDOMAIN)"
+    },
+    "dance-center.fr": {
+      "domain": "dance-center.fr",
+      "status": "mx_ok",
+      "mx_hosts": [
+        "mx00.ionos.fr",
+        "mx01.ionos.fr"
+      ],
+      "checked_at": "2026-11-04T22:11:17+00:00",
+      "detail": "2 MX publiés"
+    },
+    "sam31.fr": {
+      "domain": "sam31.fr",
+      "status": "mx_ok",
+      "mx_hosts": [
+        "smtppromx.orange.fr"
+      ],
+      "checked_at": "2026-11-04T22:11:17+00:00",
+      "detail": "1 MX publiés"
+    },
+    "yahoo.fr": {
+      "domain": "yahoo.fr",
+      "status": "mx_ok",
+      "mx_hosts": [
+        "mx-eu.mail.am0.yahoodns.net"
+      ],
+      "checked_at": "2026-11-04T22:11:17+00:00",
+      "detail": "1 MX publiés"
+    },
+    "restaurant-lecanotier.fr": {
+      "domain": "restaurant-lecanotier.fr",
+      "status": "mx_ok",
+      "mx_hosts": [
+        "mx0.mail.ovh.net",
+        "mx1.mail.ovh.net",
+        "mx2.mail.ovh.net",
+        "mx3.mail.ovh.net"
+      ],
+      "checked_at": "2026-11-04T22:11:17+00:00",
+      "detail": "4 MX publiés"
+    },
+    "boucherie-florian.fr": {
+      "domain": "boucherie-florian.fr",
+      "status": "mx_ok",
+      "mx_hosts": [
+        "mx1.mail.ovh.net",
+        "mx2.mail.ovh.net",
+        "mx3.mail.ovh.net"
+      ],
+      "checked_at": "2026-11-04T22:11:18+00:00",
+      "detail": "3 MX publiés"
+    },
+    "fromagerieetbaratte.fr": {
+      "domain": "fromagerieetbaratte.fr",
+      "status": "mx_ok",
+      "mx_hosts": [
+        "mx00.ionos.fr",
+        "mx01.ionos.fr"
+      ],
+      "checked_at": "2026-11-04T22:11:18+00:00",
+      "detail": "2 MX publiés"
+    },
+    "lachocolatisserie.com": {
+      "domain": "lachocolatisserie.com",
+      "status": "mx_ok",
+      "mx_hosts": [
+        "mx1.hostinger.com",
+        "mx2.hostinger.com"
+      ],
+      "checked_at": "2026-11-04T22:11:18+00:00",
+      "detail": "2 MX publiés"
+    },
+    "matproloc.fr": {
+      "domain": "matproloc.fr",
+      "status": "mx_ok",
+      "mx_hosts": [
+        "alt1.aspmx.l.google.com",
+        "alt2.aspmx.l.google.com",
+        "alt3.aspmx.l.google.com",
+        "alt4.aspmx.l.google.com",
+        "aspmx.l.google.com"
+      ],
+      "checked_at": "2026-11-04T22:11:18+00:00",
+      "detail": "5 MX publiés"
+    },
+    "wanadoo.fr": {
+      "domain": "wanadoo.fr",
+      "status": "mx_ok",
+      "mx_hosts": [
+        "smtp-in.orange.fr",
+        "smtp-in2.orange.fr"
+      ],
+      "checked_at": "2026-11-04T22:11:18+00:00",
+      "detail": "2 MX publiés"
+    },
+    "atomer.fr": {
+      "domain": "atomer.fr",
+      "status": "mx_ok",
+      "mx_hosts": [
+        "mail-fr.securemail.pro"
+      ],
+      "checked_at": "2026-11-04T22:11:18+00:00",
+      "detail": "1 MX publiés"
+    },
+    "lacaviste.fr": {
+      "domain": "lacaviste.fr",
+      "status": "mx_ok",
+      "mx_hosts": [
+        "lacaviste-fr.mail.protection.outlook.com"
+      ],
+      "checked_at": "2026-11-04T22:11:18+00:00",
+      "detail": "1 MX publiés"
+    },
+    "alphamecanique.fr": {
+      "domain": "alphamecanique.fr",
+      "status": "mx_ok",
+      "mx_hosts": [
+        "alphamecanique-fr.mail.protection.outlook.com",
+        "mx-mibc-fr-02.mailinblack.com"
+      ],
+      "checked_at": "2026-11-04T22:11:18+00:00",
+      "detail": "2 MX publiés"
+    },
+    "blanchisseriedes3regions.fr": {
+      "domain": "blanchisseriedes3regions.fr",
+      "status": "mx_ok",
+      "mx_hosts": [
+        "blanchisseriedes3regions-fr.mail.protection.outlook.com"
+      ],
+      "checked_at": "2026-11-04T22:11:18+00:00",
+      "detail": "1 MX publiés"
+    },
+    "celtuce-traiteur.com": {
+      "domain": "celtuce-traiteur.com",
+      "status": "mx_ok",
+      "mx_hosts": [
+        "mx00.ionos.fr",
+        "mx01.ionos.fr"
+      ],
+      "checked_at": "2026-11-06T13:05:26+00:00",
+      "detail": "2 MX publiés"
+    },
+    "mamiecuisinetraiteur.fr": {
+      "domain": "mamiecuisinetraiteur.fr",
+      "status": "mx_ok",
+      "mx_hosts": [
+        "mx1.mail.ovh.net"
+      ],
+      "checked_at": "2026-11-06T13:05:26+00:00",
+      "detail": "1 MX publiés"
+    },
+    "baptiste-break.fr": {
+      "domain": "baptiste-break.fr",
+      "status": "mx_ok",
+      "mx_hosts": [
+        "mx00.ionos.fr",
+        "mx01.ionos.fr"
+      ],
+      "checked_at": "2026-11-06T13:05:26+00:00",
+      "detail": "2 MX publiés"
+    },
+    "joly-location.fr": {
+      "domain": "joly-location.fr",
+      "status": "mx_ok",
+      "mx_hosts": [
+        "fb.mail.gandi.net",
+        "spool.mail.gandi.net"
+      ],
+      "checked_at": "2026-11-06T13:05:26+00:00",
+      "detail": "2 MX publiés"
+    },
+    "sas-maire.fr": {
+      "domain": "sas-maire.fr",
+      "status": "nxdomain",
+      "mx_hosts": [],
+      "checked_at": "2026-11-06T13:05:26+00:00",
+      "detail": "le domaine n'existe pas (NXDOMAIN)"
+    },
+    "techniquespiscine.fr": {
+      "domain": "techniquespiscine.fr",
+      "status": "mx_ok",
+      "mx_hosts": [
+        "mx00.ionos.fr",
+        "mx01.ionos.fr"
+      ],
+      "checked_at": "2026-11-06T13:05:26+00:00",
+      "detail": "2 MX publiés"
+    },
+    "france-pnl.com": {
+      "domain": "france-pnl.com",
+      "status": "mx_ok",
+      "mx_hosts": [
+        "mx0.mail.ovh.net",
+        "mx1.mail.ovh.net",
+        "mx2.mail.ovh.net",
+        "mx3.mail.ovh.net",
+        "mx4.mail.ovh.net"
+      ],
+      "checked_at": "2026-11-06T13:32:45+00:00",
+      "detail": "5 MX publiés"
+    },
+    "atoutransport.com": {
+      "domain": "atoutransport.com",
+      "status": "mx_ok",
+      "mx_hosts": [
+        "mx00.ionos.fr",
+        "mx01.ionos.fr"
+      ],
+      "checked_at": "2026-11-06T13:32:45+00:00",
+      "detail": "2 MX publiés"
+    },
+    "bonbon-foliz.com": {
+      "domain": "bonbon-foliz.com",
+      "status": "mx_ok",
+      "mx_hosts": [
+        "mx.webmo.fr",
+        "mxsecondaire.webmo.fr"
+      ],
+      "checked_at": "2026-11-06T13:32:45+00:00",
+      "detail": "2 MX publiés"
+    },
+    "odeclaise.fr": {
+      "domain": "odeclaise.fr",
+      "status": "mx_ok",
+      "mx_hosts": [
+        "mx1.mail.ovh.net",
+        "mx2.mail.ovh.net",
+        "mx3.mail.ovh.net"
+      ],
+      "checked_at": "2026-11-06T13:32:46+00:00",
+      "detail": "3 MX publiés"
+    },
+    "bulles-et-detente.fr": {
+      "domain": "bulles-et-detente.fr",
+      "status": "mx_ok",
+      "mx_hosts": [
+        "mx1.mail.ovh.net",
+        "mx2.mail.ovh.net",
+        "mx3.mail.ovh.net"
+      ],
+      "checked_at": "2026-11-06T13:32:46+00:00",
+      "detail": "3 MX publiés"
+    },
+    "ripaudpepinieres.com": {
+      "domain": "ripaudpepinieres.com",
+      "status": "mx_ok",
+      "mx_hosts": [
+        "ripaudpepinieres-com.mail.protection.outlook.com"
+      ],
+      "checked_at": "2026-11-06T15:12:00+00:00",
+      "detail": "1 MX publiés"
+    },
+    "lecentreformation.fr": {
+      "domain": "lecentreformation.fr",
+      "status": "mx_ok",
+      "mx_hosts": [
+        "mx1.mailhop.org",
+        "mx2.mailhop.org"
+      ],
+      "checked_at": "2026-11-06T15:12:00+00:00",
+      "detail": "2 MX publiés"
+    },
+    "msfpro-industries.com": {
+      "domain": "msfpro-industries.com",
+      "status": "mx_ok",
+      "mx_hosts": [
+        "mx.zoho.com",
+        "mx2.zoho.com",
+        "mx3.zoho.com"
+      ],
+      "checked_at": "2026-11-06T15:12:00+00:00",
+      "detail": "3 MX publiés"
+    }
+  }
+}

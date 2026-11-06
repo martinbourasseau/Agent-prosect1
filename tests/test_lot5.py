@@ -179,8 +179,16 @@ class TestScoring(unittest.TestCase):
         self.assertLess(s[AXIS_SITE_WEB]["score"], 20)
 
     def test_axes_independants_processus_sans_refonte(self):
-        p = _prospect(evidences=[_ev(EVIDENCE_PROCESS_MANUAL), _ev(EVIDENCE_PROCESS_MANUAL, "second")],
-                      process_hint="devis par email")
+        # v7 : le score vient du CONTENU observé, pas du type de preuve.
+        # Citations réalistes décrivant trois tâches manuelles distinctes.
+        p = _prospect(evidences=[
+            _ev(EVIDENCE_PROCESS_MANUAL, "Envoyez-nous votre devis par e-mail avec vos quantités",
+                "https://test.fr/devis"),
+            _ev(EVIDENCE_PROCESS_MANUAL, "Merci de nous adresser votre extrait k-bis",
+                "https://test.fr/compte"),
+            _ev(EVIDENCE_PROCESS_MANUAL, "Nous vous contactons pour fixer les dates",
+                "https://test.fr/sessions")],
+            process_hint="devis par email")
         s = score_prospect(p)
         self.assertGreaterEqual(s[AXIS_IA]["score"], 70)
         self.assertLess(s[AXIS_REFONTE]["score"], 20)
@@ -200,19 +208,23 @@ class TestScoring(unittest.TestCase):
             self.assertTrue(any("aucune preuve" in r for r in s[axis]["reasons"]))
 
     def test_justification_cite_la_source(self):
-        p = _prospect(evidences=[_ev(EVIDENCE_PROCESS_MANUAL, "bulletin à renvoyer",
+        p = _prospect(evidences=[_ev(EVIDENCE_PROCESS_MANUAL,
+                                     "bulletin à renvoyer, devis par e-mail",
                                      "https://test.fr/cgv.pdf")])
         s = score_prospect(p)
         joined = " ".join(s[AXIS_IA]["reasons"])
         self.assertIn("https://test.fr/cgv.pdf", joined)
         self.assertIn("bulletin à renvoyer", joined)
 
-    def test_scores_plafonnes_a_deux_preuves(self):
-        evs = [_ev(EVIDENCE_PROCESS_MANUAL, f"preuve {i}") for i in range(6)]
+    def test_signal_repete_ne_s_empile_pas(self):
+        # v7 : six preuves décrivant LE MÊME signal ne produisent qu'une
+        # contribution. L'empilement par type de preuve est supprimé.
+        evs = [_ev(EVIDENCE_PROCESS_MANUAL, "devis par e-mail", f"https://test.fr/p{i}")
+               for i in range(6)]
         s = score_prospect(_prospect(evidences=evs, process_hint="flux"))
         self.assertLessEqual(s[AXIS_IA]["score"], 100)
-        cited = [r for r in s[AXIS_IA]["reasons"] if r.startswith("+")]
-        self.assertEqual(len(cited), 2)
+        self.assertEqual(len(s[AXIS_IA]["observed_signals"]), 1)
+        self.assertLess(s[AXIS_IA]["score"], 70)
 
     def test_priorite_basse_sans_adresse(self):
         p = _prospect(contact_email="", email_verification=EMAIL_NONE,
@@ -226,7 +238,10 @@ class TestScoring(unittest.TestCase):
         self.assertEqual(commercial_priority(p, score_prospect(p)), PRIORITY_A_APPROFONDIR)
 
     def test_priorite_haute_si_besoin_fort_et_adresse_verifiee(self):
-        p = _prospect(evidences=[_ev(EVIDENCE_PROCESS_MANUAL)], process_hint="devis")
+        p = _prospect(evidences=[
+            _ev(EVIDENCE_PROCESS_MANUAL, "devis par e-mail", "https://test.fr/a"),
+            _ev(EVIDENCE_PROCESS_MANUAL, "réservation par téléphone", "https://test.fr/b"),
+            _ev(EVIDENCE_PROCESS_MANUAL, "extrait k-bis à nous adresser", "https://test.fr/d")])
         p.email_dns_status = MX_OK
         self.assertEqual(commercial_priority(p, score_prospect(p)), PRIORITY_HAUTE)
 
@@ -235,8 +250,15 @@ class TestScoring(unittest.TestCase):
                   "email": "a@x.fr", "email_verification": EMAIL_VERIFIED,
                   "email_dns_status": MX_OK, "needs": [NEED_AUTOMATISATION],
                   "process_hint": "devis reçus par email puis chiffrage manuel",
-                  "evidence": [{"kind": EVIDENCE_PROCESS_MANUAL, "source_url": "https://x.fr",
-                                "quote": "q", "observed_at": "2026-11-04", "detail": ""}]}
+                  "evidence": [
+                      {"kind": EVIDENCE_PROCESS_MANUAL, "source_url": "https://x.fr/devis",
+                       "quote": "devis par e-mail", "observed_at": "2026-11-04", "detail": ""},
+                      {"kind": EVIDENCE_PROCESS_MANUAL, "source_url": "https://x.fr/compte",
+                       "quote": "merci de nous adresser votre extrait k-bis",
+                       "observed_at": "2026-11-04", "detail": ""},
+                      {"kind": EVIDENCE_PROCESS_MANUAL, "source_url": "https://x.fr/dates",
+                       "quote": "nous vous contactons pour fixer les dates",
+                       "observed_at": "2026-11-04", "detail": ""}]}
         s = scores_from_record(record)
         self.assertGreaterEqual(s[AXIS_IA]["score"], 55)
         self.assertEqual(s["priority"], PRIORITY_HAUTE)

@@ -41,6 +41,25 @@ EMAIL_VERIFICATIONS = (EMAIL_VERIFIED, EMAIL_PUBLIC_UNVERIFIED, EMAIL_PROBABLE, 
 _EMAIL_RE = re.compile(r"^[^@\s]+@[^@\s]+\.[^@\s]+$")
 
 
+# v7 — diversification des sources. Chaque type porte un niveau de fiabilité par
+# défaut : le site officiel de l'entreprise fait foi sur ses propres processus,
+# un annuaire ou un agrégateur beaucoup moins.
+SOURCE_TYPES = (
+    "site_officiel", "annuaire_pro", "registre_public", "page_professionnelle",
+    "presse_locale", "appel_projet", "autre",
+)
+RELIABILITY_LEVELS = ("haute", "moyenne", "faible")
+SOURCE_RELIABILITY = {
+    "site_officiel": "haute",
+    "registre_public": "haute",
+    "appel_projet": "haute",
+    "page_professionnelle": "moyenne",
+    "presse_locale": "moyenne",
+    "annuaire_pro": "faible",
+    "autre": "faible",
+}
+
+
 @dataclass
 class Evidence:
     """Preuve conservée : toute affirmation d'un email doit s'y appuyer."""
@@ -48,8 +67,19 @@ class Evidence:
     kind: str
     source_url: str
     quote: str
-    observed_at: str  # date ISO d'observation
+    observed_at: str  # date ISO de consultation de la source
     detail: str = ""  # reformulation factuelle utilisable dans l'email
+    # v7 — traçabilité et distinction fait / hypothèse
+    source_type: str = "site_officiel"   # voir SOURCE_TYPES
+    reliability: str = ""                # haute / moyenne / faible ; déduite si vide
+    verified_at: str = ""                # dernière revérification ; défaut observed_at
+    observed: bool = True                # False = opportunité supposée, non un fait
+
+    def __post_init__(self) -> None:
+        if not self.reliability:
+            self.reliability = SOURCE_RELIABILITY.get(self.source_type, "moyenne")
+        if not self.verified_at:
+            self.verified_at = self.observed_at
 
     def validate(self) -> list[str]:
         errors = []
@@ -61,6 +91,10 @@ class Evidence:
             errors.append("preuve sans extrait cité")
         if not self.observed_at:
             errors.append("preuve sans date d'observation")
+        if self.source_type not in SOURCE_TYPES:
+            errors.append(f"type de source inconnu : {self.source_type}")
+        if self.reliability not in RELIABILITY_LEVELS:
+            errors.append(f"niveau de fiabilité inconnu : {self.reliability}")
         return errors
 
 

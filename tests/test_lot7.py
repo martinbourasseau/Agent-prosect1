@@ -292,10 +292,11 @@ class ReferenceCoherenceTests(unittest.TestCase):
         refs = {r.id: r for r in load_references()}
         if "synatrap" not in refs:
             self.skipTest("bibliothèque de références absente")
+        # v7 : mieux qu'une reformulation, la référence hors sujet est retirée.
         p = prospect(solution_type="formulaire_intelligent")
         body = compose_email(p, "synatrap_ia", reference=refs["synatrap"]).body
-        self.assertIn("Côté automatisation", body)
-        self.assertNotIn("Côté agents IA", body)
+        self.assertNotIn("synatrap.com", body)
+        self.assertNotIn("agents IA", body.split("Création de sites web")[0])
 
     def test_synatrap_garde_le_cadrage_ia_pour_un_agent(self):
         from prospecto.messaging import load_references
@@ -304,16 +305,17 @@ class ReferenceCoherenceTests(unittest.TestCase):
             self.skipTest("bibliothèque de références absente")
         p = prospect(solution_type="agent_ia")
         body = compose_email(p, "synatrap_ia", reference=refs["synatrap"]).body
-        self.assertIn("Côté agents IA", body)
+        self.assertIn("synatrap.com", body)
+        self.assertIn("projet autour des agents IA", body)
 
-    def test_formulation_par_defaut_si_pas_de_famille(self):
+    def test_sans_famille_de_solution_aucune_reference_forcee(self):
         from prospecto.messaging import load_references
         refs = {r.id: r for r in load_references()}
         if "synatrap" not in refs:
             self.skipTest("bibliothèque de références absente")
         p = prospect(solution_type="")
         body = compose_email(p, "synatrap_ia", reference=refs["synatrap"]).body
-        self.assertIn("Côté agents IA", body)
+        self.assertNotIn("synatrap.com", body)
 
     def test_repli_si_aucune_formulation_alternative(self):
         from prospecto.references import Reference

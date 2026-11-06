@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-06T15:05:40+00:00",
-  "count": 46,
+  "updated_at": "2026-11-06T16:09:37+00:00",
+  "count": 60,
   "entries": [
     {
       "at": "2026-11-04T21:26:00+00:00",
@@ -463,6 +463,146 @@
       "campaign": "",
       "status": "sent",
       "gmail_message_id": "1a1a0a9532c92ff8",
+      "source": "gmail_manual_observed"
+    },
+    {
+      "at": "2026-11-06",
+      "to": "contact@celtuce-traiteur.com",
+      "subject": "Celtuce : vos devis buffets recopiés à la main ?",
+      "company": "Celtuce Traiteur",
+      "campaign": "2026-11-06-lot6",
+      "status": "sent",
+      "gmail_message_id": "1a1b183f2bf3904d",
+      "source": "gmail_manual_observed"
+    },
+    {
+      "at": "2026-11-06",
+      "to": "contact@mamiecuisinetraiteur.fr",
+      "subject": "Mamie Cuisine : la règle des 72 h, appliquée automatiquement ?",
+      "company": "Mamie Cuisine Traiteur",
+      "campaign": "2026-11-06-lot6",
+      "status": "sent",
+      "gmail_message_id": "1a1b183fc0bdaefa",
+      "source": "gmail_manual_observed"
+    },
+    {
+      "at": "2026-11-06",
+      "to": "contact@baptiste-break.fr",
+      "subject": "Baptiste Break : vos semaines complètes visibles avant la demande ?",
+      "company": "Baptiste Break Pâtisserie Traiteur",
+      "campaign": "2026-11-06-lot6",
+      "status": "sent",
+      "gmail_message_id": "1a1b18404ae62e39",
+      "source": "gmail_manual_observed"
+    },
+    {
+      "at": "2026-11-06",
+      "to": "info-location@joly-location.fr",
+      "subject": "Joly Location : votre ancien domaine renvoie « site non publié »",
+      "company": "SARL Joly Location",
+      "campaign": "2026-11-06-lot6",
+      "status": "sent",
+      "gmail_message_id": "1a1b1841a47c1bac",
+      "source": "gmail_manual_observed"
+    },
+    {
+      "at": "2026-11-06",
+      "to": "uzeslocation.30700@gmail.com",
+      "subject": "Uzès Location : matériel, dates, durée — demandés dès le formulaire ?",
+      "company": "SARL Uzès Location",
+      "campaign": "2026-11-06-lot6",
+      "status": "sent",
+      "gmail_message_id": "1a1b18421f8c3683",
+      "source": "gmail_manual_observed"
+    },
+    {
+      "at": "2026-11-06",
+      "to": "contact@techniquespiscine.fr",
+      "subject": "Techniques Piscine : qualifier le projet avant le premier appel ?",
+      "company": "Techniques Piscine",
+      "campaign": "2026-11-06-lot6",
+      "status": "sent",
+      "gmail_message_id": "1a1b1842936c13f0",
+      "source": "gmail_manual_observed"
+    },
+    {
+      "at": "2026-11-06",
+      "to": "contact@france-pnl.com",
+      "subject": "Inscriptions France-PNL : quatre canaux, une seule validation ?",
+      "company": "France-Hypnose-Formation / France-PNL",
+      "campaign": "2026-11-07-lot7",
+      "status": "sent",
+      "gmail_message_id": "1a1b184311907c65",
+      "source": "gmail_manual_observed"
+    },
+    {
+      "at": "2026-11-06",
+      "to": "demenagement@atoutransport.com",
+      "subject": "Atoutransport : vos dates de groupage consultables en ligne ?",
+      "company": "Atoutransport",
+      "campaign": "2026-11-07-lot7",
+      "status": "sent",
+      "gmail_message_id": "1a1b18437782e960",
+      "source": "gmail_manual_observed"
+    },
+    {
+      "at": "2026-11-06",
+      "to": "contact@bonbon-foliz.com",
+      "subject": "Bonbon Foliz : vos ouvertures de compte pro par e-mail ?",
+      "company": "Bonbon Foliz",
+      "campaign": "2026-11-07-lot7",
+      "status": "sent",
+      "gmail_message_id": "1a1b1844273c525a",
+      "source": "gmail_manual_observed"
+    },
+    {
+      "at": "2026-11-06",
+      "to": "reservation@odeclaise.fr",
+      "subject": "Ô de Claise : vos cartes cadeau réservables en ligne ?",
+      "company": "L'Ô de Claise",
+      "campaign": "2026-11-07-lot7",
+      "status": "sent",
+      "gmail_message_id": "1a1b1844cc70bc8c",
+      "source": "gmail_manual_observed"
+    },
+    {
+      "at": "2026-11-06",
+      "to": "contact@bulles-et-detente.fr",
+      "subject": "Bulles & Détente : le suivi de vos bons cadeaux automatisé ?",
+      "company": "Bulles & Détente",
+      "campaign": "2026-11-07-lot7",
+      "status": "sent",
+      "gmail_message_id": "1a1b18453d1c8993",
+      "source": "gmail_manual_observed"
+    },
+    {
+      "at": "2026-11-06",
+      "to": "formation@lecentreformation.fr",
+      "subject": "Dossiers CPF : un lien par profil, puis les dates à caler",
+      "company": "Le Centre Formation",
+      "campaign": "2026-11-06-lot8",
+      "status": "sent",
+      "gmail_message_id": "1a1b184b29206c9d",
+      "source": "gmail_manual_observed"
+    },
+    {
+      "at": "2026-11-06",
+      "to": "kjenback@gmail.com",
+      "subject": "Votre bouton « Devis gratuit » compose un autre numéro",
+      "company": "Kévin Jenback — Couverture, zinguerie, ramonage",
+      "campaign": "2026-11-06-lot8",
+      "status": "sent",
+      "gmail_message_id": "1a1b184bb1591fa8",
+      "source": "gmail_manual_observed"
+    },
+    {
+      "at": "2026-11-06",
+      "to": "sales@msfpro-industries.com",
+      "subject": "Vos demandes de devis MSF PRO ouvrent toutes un e-mail",
+      "company": "MSF PRO Industries",
+      "campaign": "2026-11-06-lot8",
+      "status": "sent",
+      "gmail_message_id": "1a1b184c2bc9921b",
       "source": "gmail_manual_observed"
     }
   ]

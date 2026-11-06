@@ -1,0 +1,148 @@
+{
+  "source": "Gmail — in:sent after:2026/11/06 (complete=true)",
+  "collected_at": "2026-11-06",
+  "note": "14 brouillons envoyés manuellement depuis Gmail le 6 novembre entre 16:39:36 et 16:40:29, dont Uzès Location qui était suspendue. Constat seul : l'agent n'a rien envoyé.",
+  "observed_at": "2026-11-06",
+  "observed": [
+    {
+      "to": "contact@celtuce-traiteur.com",
+      "subject": "Celtuce : vos devis buffets recopiés à la main ?",
+      "gmail_subject": "Celtuce : vos devis buffets recopiés à la main ?",
+      "gmail_message_id": "1a1b183f2bf3904d",
+      "gmail_thread_id": "1a1b0fae4630cfd9",
+      "sent_at": "2026-11-06",
+      "queue_id": "2026-11-06-lot6-001",
+      "previous_status": "pending"
+    },
+    {
+      "to": "contact@mamiecuisinetraiteur.fr",
+      "subject": "Mamie Cuisine : la règle des 72 h, appliquée automatiquement ?",
+      "gmail_subject": "Mamie Cuisine : la règle des 72 h, appliquée automatiquement ?",
+      "gmail_message_id": "1a1b183fc0bdaefa",
+      "gmail_thread_id": "1a1b0faf020eae48",
+      "sent_at": "2026-11-06",
+      "queue_id": "2026-11-06-lot6-002",
+      "previous_status": "pending"
+    },
+    {
+      "to": "contact@baptiste-break.fr",
+      "subject": "Baptiste Break : vos semaines complètes visibles avant la demande ?",
+      "gmail_subject": "Baptiste Break : vos semaines complètes visibles avant la demande ?",
+      "gmail_message_id": "1a1b18404ae62e39",
+      "gmail_thread_id": "1a1b0fafa9a0a8b2",
+      "sent_at": "2026-11-06",
+      "queue_id": "2026-11-06-lot6-003",
+      "previous_status": "pending"
+    },
+    {
+      "to": "info-location@joly-location.fr",
+      "subject": "Joly Location : votre ancien domaine renvoie « site non publié »",
+      "gmail_subject": "Joly Location : votre ancien domaine renvoie « site non publié »",
+      "gmail_message_id": "1a1b1841a47c1bac",
+      "gmail_thread_id": "1a1b0fb33a0329ab",
+      "sent_at": "2026-11-06",
+      "queue_id": "2026-11-06-lot6-004",
+      "previous_status": "pending"
+    },
+    {
+      "to": "uzeslocation.30700@gmail.com",
+      "subject": "Uzès Location : matériel, dates, durée — demandés dès le formulaire ?",
+      "gmail_subject": "Uzès Location : matériel, dates, durée — demandés dès le formulaire ?",
+      "gmail_message_id": "1a1b18421f8c3683",
+      "gmail_thread_id": "1a1b0fb442b3a0be",
+      "sent_at": "2026-11-06",
+      "queue_id": "2026-11-06-lot6-005",
+      "previous_status": "suspended"
+    },
+    {
+      "to": "contact@techniquespiscine.fr",
+      "subject": "Techniques Piscine : qualifier le projet avant le premier appel ?",
+      "gmail_subject": "Techniques Piscine : qualifier le projet avant le premier appel ?",
+      "gmail_message_id": "1a1b1842936c13f0",
+      "gmail_thread_id": "1a1b0fb4f5c048ea",
+      "sent_at": "2026-11-06",
+      "queue_id": "2026-11-06-lot6-006",
+      "previous_status": "pending"
+    },
+    {
+      "to": "contact@france-pnl.com",
+      "subject": "Inscriptions France-PNL : quatre canaux, une seule validation ?",
+      "gmail_subject": "Inscriptions France-PNL : quatre canaux, une seule validation ?",
+      "gmail_message_id": "1a1b184311907c65",
+      "gmail_thread_id": "1a1b118e705161a2",
+      "sent_at": "2026-11-06",
+      "queue_id": "2026-11-07-lot7-001",
+      "previous_status": "draft"
+    },
+    {
+      "to": "demenagement@atoutransport.com",
+      "subject": "Atoutransport : vos dates de groupage consultables en ligne ?",
+      "gmail_subject": "Atoutransport : vos dates de groupage consultables en ligne ?",
+      "gmail_message_id": "1a1b18437782e960",
+      "gmail_thread_id": "1a1b118f057c3d1e",
+      "sent_at": "2026-11-06",
+      "queue_id": "2026-11-07-lot7-002",
+      "previous_status": "draft"
+    },
+    {
+      "to": "contact@bonbon-foliz.com",
+      "subject": "Bonbon Foliz : vos ouvertures de compte pro par e-mail ?",
+      "gmail_subject": "Bonbon Foliz : vos ouvertures de compte pro par e-mail ?",
+      "gmail_message_id": "1a1b1844273c525a",
+      "gmail_thread_id": "1a1b118fd35f2b19",
+      "sent_at": "2026-11-06",
+      "queue_id": "2026-11-07-lot7-003",
+      "previous_status": "draft"
+    },
+    {
+      "to": "reservation@odeclaise.fr",
+      "subject": "Ô de Claise : vos cartes cadeau réservables en ligne ?",
+      "gmail_subject": "Ô de Claise : vos cartes cadeau réservables en ligne ?",
+      "gmail_message_id": "1a1b1844cc70bc8c",
+      "gmail_thread_id": "1a1b1192231a0240",
+      "sent_at": "2026-11-06",
+      "queue_id": "2026-11-07-lot7-004",
+      "previous_status": "draft"
+    },
+    {
+      "to": "contact@bulles-et-detente.fr",
+      "subject": "Bulles & Détente : le suivi de vos bons cadeaux automatisé ?",
+      "gmail_subject": "Bulles & Détente : le suivi de vos bons cadeaux automatisé ?",
+      "gmail_message_id": "1a1b18453d1c8993",
+      "gmail_thread_id": "1a1b119317154576",
+      "sent_at": "2026-11-06",
+      "queue_id": "2026-11-07-lot7-005",
+      "previous_status": "draft"
+    },
+    {
+      "to": "formation@lecentreformation.fr",
+      "subject": "Dossiers CPF : un lien par profil, puis les dates à caler",
+      "gmail_subject": "Dossiers CPF : un lien par profil, puis les dates à caler",
+      "gmail_message_id": "1a1b184b29206c9d",
+      "gmail_thread_id": "1a1b16e00589e855",
+      "sent_at": "2026-11-06",
+      "queue_id": "2026-11-06-lot8-002",
+      "previous_status": "pending"
+    },
+    {
+      "to": "kjenback@gmail.com",
+      "subject": "Votre bouton « Devis gratuit » compose un autre numéro",
+      "gmail_subject": "Votre bouton « Devis gratuit » compose un autre numéro",
+      "gmail_message_id": "1a1b184bb1591fa8",
+      "gmail_thread_id": "1a1b16e0e43b02fa",
+      "sent_at": "2026-11-06",
+      "queue_id": "2026-11-06-lot8-003",
+      "previous_status": "pending"
+    },
+    {
+      "to": "sales@msfpro-industries.com",
+      "subject": "Vos demandes de devis MSF PRO ouvrent toutes un e-mail",
+      "gmail_subject": "Vos demandes de devis MSF PRO ouvrent toutes un e-mail",
+      "gmail_message_id": "1a1b184c2bc9921b",
+      "gmail_thread_id": "1a1b16e1bd96c27c",
+      "sent_at": "2026-11-06",
+      "queue_id": "2026-11-06-lot8-004",
+      "previous_status": "pending"
+    }
+  ]
+}

@@ -39,9 +39,10 @@
       "best_for": "Entreprise cherchant un site institutionnel / professionnel, une image de marque forte ou une refonte haut de gamme.",
       "authorship_status": "owner_declared",
       "authorship_note": "Site du groupe de Martin Bourasseau (porte son nom, liste SYNATRAP dans son écosystème). Mentions légales 'en cours de publication' : paternité déclarée par le propriétaire, non encore publiée juridiquement. Formulation alignée le 2026-11-06 : la propriété est déclarée, la conception n'est pas revendiquée faute de preuve publiée.",
-      "claim": "le site institutionnel de mon groupe",
-      "example_sentence": "À titre d'exemple, voici le site institutionnel de mon groupe : {url}",
-      "added_at": "2026-11-04"
+      "claim": "un exemple de site : Groupe Bourasseau",
+      "example_sentence": "Vous pouvez découvrir cet exemple de site : Groupe Bourasseau — {url}",
+      "added_at": "2026-11-04",
+      "example_sentence_alt": ""
     },
     {
       "id": "synatrap",
@@ -85,10 +86,10 @@
       "best_for": "Entreprise intéressée par les agents IA, l'automatisation, ou une plateforme / catalogue / e-commerce.",
       "authorship_status": "owner_declared",
       "authorship_note": "Plateforme de l'écosystème de Martin Bourasseau (liée depuis prospecto.website et listée par Groupe Bourasseau). Paternité déclarée par le propriétaire. Formulation alignée le 2026-11-06 : la propriété est déclarée, la conception n'est pas revendiquée faute de preuve publiée.",
-      "claim": "SYNATRAP, la plateforme d'agents IA de mon groupe",
-      "example_sentence": "Côté agents IA, voici SYNATRAP, la plateforme de mon groupe : {url}",
+      "claim": "SYNATRAP, un projet autour des agents IA",
+      "example_sentence": "SYNATRAP est un projet autour des agents IA, si le sujet vous parle : {url}",
       "added_at": "2026-11-04",
-      "example_sentence_alt": "Côté automatisation, voici SYNATRAP, la plateforme de mon groupe : {url}"
+      "example_sentence_alt": "SYNATRAP est un projet autour des agents IA : {url}"
     }
   ]
 }

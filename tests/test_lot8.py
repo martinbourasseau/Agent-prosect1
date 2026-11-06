@@ -140,14 +140,17 @@ class ReferenceAuthorshipTests(unittest.TestCase):
                 self.assertNotIn("que je développe", low)
                 self.assertNotIn("que j'ai développé", low)
 
-    def test_propriete_annoncee(self):
+    def test_formulation_neutre_et_nommee(self):
+        # v7 : formulation neutre demandée — on nomme le projet, on ne
+        # revendique ni la conception ni la propriété.
         for ref in load_references():
-            self.assertIn("mon groupe", ref.example_sentence.lower())
+            low = ref.example_sentence.lower()
+            self.assertIn(ref.name.lower(), low)
+            self.assertNotIn("mon groupe", low)
 
-    def test_alternative_non_ia_disponible_pour_synatrap(self):
+    def test_synatrap_decrit_comme_un_projet_autour_des_agents_ia(self):
         ref = reference_by_id("synatrap")
-        self.assertTrue(ref.example_sentence_alt)
-        self.assertNotIn("agents ia", ref.example_sentence_alt.lower())
+        self.assertIn("projet autour des agents ia", ref.example_sentence.lower())
 
 
 class DeliveryChallengeTests(unittest.TestCase):
@@ -450,10 +453,15 @@ class Lot8MessageQualityTests(unittest.TestCase):
         self.assertEqual(self.campaign["gmail_label_name"], "Prospection/2026-11-06-lot8")
         self.assertEqual(self.campaign["drafts_created"], 4)
         self.assertFalse(self.campaign["sent"])
+        # Audit du 6/11 : 3 des 4 brouillons ont été envoyés manuellement depuis
+        # Gmail à 16:40. Seul Ripaud est resté brouillon. Le test suit la réalité
+        # vérifiée dans Gmail au lieu de la figer sur l'état initial.
         for d in self.campaign["drafts"]:
             self.assertTrue(d["gmail_draft_id"])
             self.assertTrue(d["gmail_message_id"])
-            self.assertEqual(d["status"], "draft")
+            self.assertIn(d["status"], ("draft", "sent"))
+        still_draft = [d for d in self.campaign["drafts"] if d["status"] == "draft"]
+        self.assertEqual([d["to"] for d in still_draft], ["info@ripaudpepinieres.com"])
 
 
 class Lot8SafetyTests(unittest.TestCase):

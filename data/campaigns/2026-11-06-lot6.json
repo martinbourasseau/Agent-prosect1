@@ -134,7 +134,7 @@
   "message_version": "v5",
   "rewritten_at": "2026-11-06T13:44:50+00:00",
   "sent": 0,
-  "updated_at": "2026-11-06T13:44:50+00:00",
+  "updated_at": "2026-11-06T16:09:52+00:00",
   "rewrite_note": "6 brouillons réécrits en place (update_draft) : mêmes draft_id et thread_id, historique conservé. Versions v4 archivées dans data/history/message-versions-lot6.json.",
   "drafts": [
     {
@@ -143,7 +143,9 @@
       "subject": "Celtuce : vos devis buffets recopiés à la main ?",
       "gmail_draft_id": "r4668255302629793023",
       "gmail_message_id": "1a1b1155f6e25e8b",
-      "status": "draft"
+      "status": "sent",
+      "sent_at": "2026-11-06",
+      "send_source": "gmail_manual_observed"
     },
     {
       "queue_id": "2026-11-06-lot6-002",
@@ -151,7 +153,9 @@
       "subject": "Mamie Cuisine : la règle des 72 h, appliquée automatiquement ?",
       "gmail_draft_id": "r7069133405038258003",
       "gmail_message_id": "1a1b1156acae33f5",
-      "status": "draft"
+      "status": "sent",
+      "sent_at": "2026-11-06",
+      "send_source": "gmail_manual_observed"
     },
     {
       "queue_id": "2026-11-06-lot6-003",
@@ -159,7 +163,9 @@
       "subject": "Baptiste Break : vos semaines complètes visibles avant la demande ?",
       "gmail_draft_id": "r-2074566668747048619",
       "gmail_message_id": "1a1b11578563a443",
-      "status": "draft"
+      "status": "sent",
+      "sent_at": "2026-11-06",
+      "send_source": "gmail_manual_observed"
     },
     {
       "queue_id": "2026-11-06-lot6-004",
@@ -167,7 +173,9 @@
       "subject": "Joly Location : votre ancien domaine renvoie « site non publié »",
       "gmail_draft_id": "r7248452827625200722",
       "gmail_message_id": "1a1b11894c854e9b",
-      "status": "draft"
+      "status": "sent",
+      "sent_at": "2026-11-06",
+      "send_source": "gmail_manual_observed"
     },
     {
       "queue_id": "2026-11-06-lot6-005",
@@ -175,7 +183,9 @@
       "subject": "Uzès Location : matériel, dates, durée — demandés dès le formulaire ?",
       "gmail_draft_id": "r8584317365937954867",
       "gmail_message_id": "1a1b118a14a381b2",
-      "status": "suspended"
+      "status": "sent",
+      "sent_at": "2026-11-06",
+      "send_source": "gmail_manual_observed"
     },
     {
       "queue_id": "2026-11-06-lot6-006",
@@ -183,7 +193,10 @@
       "subject": "Techniques Piscine : qualifier le projet avant le premier appel ?",
       "gmail_draft_id": "r-1290563027882505100",
       "gmail_message_id": "1a1b118abcaa5f8a",
-      "status": "draft"
+      "status": "sent",
+      "sent_at": "2026-11-06",
+      "send_source": "gmail_manual_observed"
     }
-  ]
+  ],
+  "sent_manually_count": 6
 }
