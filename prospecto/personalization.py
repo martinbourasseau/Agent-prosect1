@@ -177,13 +177,32 @@ def build_proposition(service: str, company: str, fallback: str = "",
     return sentence if sentence[-1] in ".!?" else sentence + "."
 
 
+# Amorces qui n'ont de sens que pour un travail sur un site. Annoncer une
+# « maquette » pour un formulaire de devis ou un parcours CPF serait inexact.
+SITE_ONLY_DEMO_OPENERS = frozenset({
+    i for i, o in enumerate(DEMO_OPENERS) if "maquette" in o.lower()
+})
+SITE_SOLUTIONS = frozenset({"creation_site", "refonte_site"})
+
+
 def build_demo(detail: str, company: str, fallback: str = "",
-               rotation: "LotRotation | None" = None) -> str:
-    """Démonstration spécifique, annoncée gratuite et sans engagement."""
+               rotation: "LotRotation | None" = None,
+               solution_type: str = "") -> str:
+    """Démonstration spécifique, annoncée gratuite et sans engagement.
+
+    v6 : les amorces réservées aux sites sont écartées quand la solution retenue
+    n'est pas un site, pour ne pas promettre une maquette qui n'a pas de sujet.
+    """
     detail = (detail or "").strip().rstrip(".")
     if not detail:
         return fallback
-    sentence = pick_opener(company, "demo", rotation) + detail
+    opener = pick_opener(company, "demo", rotation)
+    if solution_type and solution_type not in SITE_SOLUTIONS:
+        pool = [o for i, o in enumerate(DEMO_OPENERS) if i not in SITE_ONLY_DEMO_OPENERS]
+        if pool and any(opener == DEMO_OPENERS[i] for i in SITE_ONLY_DEMO_OPENERS):
+            idx = rotation.index(company, "demo") if rotation else _index(company, len(pool))
+            opener = pool[idx % len(pool)]
+    sentence = opener + detail
     return sentence if sentence[-1] in ".!?" else sentence + "."
 
 
@@ -299,3 +318,69 @@ def check_lot_diversity(emails: list[Any]) -> DiversityReport:
         distinct_demo_openers=len({v for v in demo_openers if v}),
         distinct_ctas=len({v for v in ctas if v}),
     )
+
+
+# ---------------------------------------------------------------------------
+# v6 — adaptation à l'interlocuteur (lot 8)
+# ---------------------------------------------------------------------------
+# Un même problème ne se formule pas de la même façon selon la personne qui lit.
+# Un gérant pense chiffre d'affaires et temps passé ; un responsable administratif
+# pense pièces manquantes et ressaisie ; un responsable d'exploitation pense
+# planning et terrain. On n'invente jamais la fonction : elle est relevée sur une
+# source publique, stockée dans contact_role, et seule une fonction reconnue
+# déclenche un angle. Sinon le message reste adressé à l'entreprise.
+
+ROLE_FAMILIES: dict[str, tuple[str, ...]] = {
+    "dirigeant": ("gérant", "gerant", "gérante", "gerante", "président", "president",
+                  "directeur général", "directeur general", "dg", "fondateur",
+                  "fondatrice", "dirigeant", "dirigeante", "co-dirigeant", "artisan",
+                  "entrepreneur", "repreneur"),
+    "commercial": ("responsable commercial", "directeur commercial", "commercial",
+                   "chargé d'affaires", "charge d'affaires", "vente", "adv"),
+    "administratif": ("responsable administratif", "secrétariat", "secretariat",
+                      "secrétaire", "secretaire", "assistante", "assistant",
+                      "gestionnaire", "comptable", "administratif"),
+    "exploitation": ("responsable d'exploitation", "directeur d'exploitation",
+                     "responsable de site", "chef d'atelier", "responsable logistique",
+                     "responsable production", "exploitant"),
+    "technique": ("directeur technique", "responsable technique", "bureau d'études",
+                  "responsable méthodes", "informatique", "dsn", "rsi"),
+}
+
+# Angle de bénéfice par famille. Formulations courtes, sans promesse chiffrée.
+ROLE_BENEFITS: dict[str, str] = {
+    "dirigeant": "moins de temps passé en allers-retours, et des demandes qui aboutissent",
+    "commercial": "des demandes entrantes qualifiées dès leur arrivée, sans relance manuelle",
+    "administratif": "des dossiers complets du premier coup, sans ressaisie ni pièce manquante",
+    "exploitation": "un planning lisible et moins d'appels pour caler une intervention",
+    "technique": "des demandes exploitables directement, sans reprise manuelle en amont",
+}
+
+
+def detect_role_family(contact_role: str) -> str:
+    """Renvoie la famille de rôle, ou '' si la fonction n'est pas reconnue.
+
+    La comparaison se fait sur la fonction telle qu'elle est publiée. Une
+    fonction absente ou exotique ne déclenche aucun angle : mieux vaut un
+    message adressé à l'entreprise qu'un rôle inventé.
+    """
+    role = (contact_role or "").strip().lower()
+    if not role:
+        return ""
+    for family, markers in ROLE_FAMILIES.items():
+        if any(m in role for m in markers):
+            return family
+    return ""
+
+
+def benefit_for(prospect) -> str:
+    """Bénéfice professionnel adapté à l'interlocuteur.
+
+    Un bénéfice explicite rédigé pour l'entreprise prime toujours sur l'angle
+    générique par rôle : il est plus précis et a été vérifié à la main.
+    """
+    explicit = (getattr(prospect, "benefit", "") or "").strip()
+    if explicit:
+        return explicit
+    family = detect_role_family(getattr(prospect, "contact_role", ""))
+    return ROLE_BENEFITS.get(family, "")

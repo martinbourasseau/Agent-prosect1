@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-06T13:44:50+00:00",
+  "updated_at": "2026-11-06T15:17:46+00:00",
   "items": [
     {
       "id": "2026-11-03-v2-001",
@@ -85,17 +85,24 @@
       "evidence_sources": [
         "https://www.codeur.com/pages/appel-offre"
       ],
-      "status": "pending",
+      "status": "obsolete",
       "created_at": "2026-11-03T21:14:04+00:00",
-      "updated_at": "2026-11-03T21:14:04+00:00",
+      "updated_at": "2026-11-06T15:17:46+00:00",
       "gmail_draft_id": null,
       "gmail_message_id": null,
-      "decision_reason": "",
+      "decision_reason": "Destinataire déjà contacté (statut CRM : contacté). Élément de file hérité des lots v3/v4, jamais envoyé : neutralisé pour éviter un double contact.",
       "history": [
         {
           "at": "2026-11-03T21:14:04+00:00",
           "action": "created",
           "status": "pending"
+        },
+        {
+          "at": "2026-11-06T15:17:46+00:00",
+          "action": "marked_obsolete",
+          "previous_status": "pending",
+          "reason": "Destinataire déjà contacté (statut CRM : contacté). Élément de file hérité des lots v3/v4, jamais envoyé : neutralisé pour éviter un double contact.",
+          "crm_status": "contacté"
         }
       ]
     },
@@ -111,17 +118,24 @@
         "https://www.codeur.com/projects/492309-e-commerce-et-site-web-vitrine",
         "https://www.actu.fr/pays-de-la-loire/montval-sur-loir_72071/sarthe-il-cherche-un-terrain-pour-son-projet-de-terrain-d-airsoft_64922877.html"
       ],
-      "status": "pending",
+      "status": "obsolete",
       "created_at": "2026-11-03T21:14:04+00:00",
-      "updated_at": "2026-11-03T21:14:04+00:00",
+      "updated_at": "2026-11-06T15:17:46+00:00",
       "gmail_draft_id": null,
       "gmail_message_id": null,
-      "decision_reason": "",
+      "decision_reason": "Destinataire déjà contacté (statut CRM : contacté). Élément de file hérité des lots v3/v4, jamais envoyé : neutralisé pour éviter un double contact.",
       "history": [
         {
           "at": "2026-11-03T21:14:04+00:00",
           "action": "created",
           "status": "pending"
+        },
+        {
+          "at": "2026-11-06T15:17:46+00:00",
+          "action": "marked_obsolete",
+          "previous_status": "pending",
+          "reason": "Destinataire déjà contacté (statut CRM : contacté). Élément de file hérité des lots v3/v4, jamais envoyé : neutralisé pour éviter un double contact.",
+          "crm_status": "contacté"
         }
       ]
     },
@@ -136,17 +150,24 @@
       "evidence_sources": [
         "https://www.codeur.com/projects/492305-newsletter-location-de-voiture"
       ],
-      "status": "pending",
+      "status": "obsolete",
       "created_at": "2026-11-03T21:14:04+00:00",
-      "updated_at": "2026-11-03T21:14:04+00:00",
+      "updated_at": "2026-11-06T15:17:46+00:00",
       "gmail_draft_id": null,
       "gmail_message_id": null,
-      "decision_reason": "",
+      "decision_reason": "Destinataire déjà contacté (statut CRM : auto_reply). Élément de file hérité des lots v3/v4, jamais envoyé : neutralisé pour éviter un double contact.",
       "history": [
         {
           "at": "2026-11-03T21:14:04+00:00",
           "action": "created",
           "status": "pending"
+        },
+        {
+          "at": "2026-11-06T15:17:46+00:00",
+          "action": "marked_obsolete",
+          "previous_status": "pending",
+          "reason": "Destinataire déjà contacté (statut CRM : auto_reply). Élément de file hérité des lots v3/v4, jamais envoyé : neutralisé pour éviter un double contact.",
+          "crm_status": "auto_reply"
         }
       ]
     },
@@ -161,17 +182,24 @@
       "evidence_sources": [
         "https://actu.fr/pays-de-la-loire/mouzillon_44108/elle-va-ouvrir-dans-le-vignoble-nantais-que-propose-cette-salle-de-sport-qui-defend-une-autre-approche_64655582.html"
       ],
-      "status": "pending",
+      "status": "obsolete",
       "created_at": "2026-11-03T21:14:04+00:00",
-      "updated_at": "2026-11-03T21:14:04+00:00",
+      "updated_at": "2026-11-06T15:17:46+00:00",
       "gmail_draft_id": null,
       "gmail_message_id": null,
-      "decision_reason": "",
+      "decision_reason": "Destinataire déjà contacté (statut CRM : contacté). Élément de file hérité des lots v3/v4, jamais envoyé : neutralisé pour éviter un double contact.",
       "history": [
         {
           "at": "2026-11-03T21:14:04+00:00",
           "action": "created",
           "status": "pending"
+        },
+        {
+          "at": "2026-11-06T15:17:46+00:00",
+          "action": "marked_obsolete",
+          "previous_status": "pending",
+          "reason": "Destinataire déjà contacté (statut CRM : contacté). Élément de file hérité des lots v3/v4, jamais envoyé : neutralisé pour éviter un double contact.",
+          "crm_status": "contacté"
         }
       ]
     },
@@ -186,17 +214,24 @@
       "evidence_sources": [
         "https://actu.fr/normandie/la-chapelle-uree_50124/dans-le-sud-manche-elle-a-cree-son-entreprise-darboriste-grimpeuse-pour-mettre-en-valeur-les-vegetaux_64675166.html"
       ],
-      "status": "pending",
+      "status": "obsolete",
       "created_at": "2026-11-03T21:14:04+00:00",
-      "updated_at": "2026-11-03T21:14:04+00:00",
+      "updated_at": "2026-11-06T15:17:46+00:00",
       "gmail_draft_id": null,
       "gmail_message_id": null,
-      "decision_reason": "",
+      "decision_reason": "Destinataire déjà contacté (statut CRM : contacté). Élément de file hérité des lots v3/v4, jamais envoyé : neutralisé pour éviter un double contact.",
       "history": [
         {
           "at": "2026-11-03T21:14:04+00:00",
           "action": "created",
           "status": "pending"
+        },
+        {
+          "at": "2026-11-06T15:17:46+00:00",
+          "action": "marked_obsolete",
+          "previous_status": "pending",
+          "reason": "Destinataire déjà contacté (statut CRM : contacté). Élément de file hérité des lots v3/v4, jamais envoyé : neutralisé pour éviter un double contact.",
+          "crm_status": "contacté"
         }
       ]
     },
@@ -237,17 +272,24 @@
       "evidence_sources": [
         "https://www.codeur.com/pages/appel-offre"
       ],
-      "status": "pending",
+      "status": "obsolete",
       "created_at": "2026-11-04T18:28:22+00:00",
-      "updated_at": "2026-11-04T18:28:22+00:00",
+      "updated_at": "2026-11-06T15:17:46+00:00",
       "gmail_draft_id": null,
       "gmail_message_id": null,
-      "decision_reason": "",
+      "decision_reason": "Destinataire déjà contacté (statut CRM : contacté). Élément de file hérité des lots v3/v4, jamais envoyé : neutralisé pour éviter un double contact.",
       "history": [
         {
           "at": "2026-11-04T18:28:22+00:00",
           "action": "created",
           "status": "pending"
+        },
+        {
+          "at": "2026-11-06T15:17:46+00:00",
+          "action": "marked_obsolete",
+          "previous_status": "pending",
+          "reason": "Destinataire déjà contacté (statut CRM : contacté). Élément de file hérité des lots v3/v4, jamais envoyé : neutralisé pour éviter un double contact.",
+          "crm_status": "contacté"
         }
       ]
     },
@@ -263,17 +305,24 @@
         "https://www.codeur.com/projects/492309-e-commerce-et-site-web-vitrine",
         "https://www.actu.fr/pays-de-la-loire/montval-sur-loir_72071/sarthe-il-cherche-un-terrain-pour-son-projet-de-terrain-d-airsoft_64922877.html"
       ],
-      "status": "pending",
+      "status": "obsolete",
       "created_at": "2026-11-04T18:28:22+00:00",
-      "updated_at": "2026-11-04T18:28:22+00:00",
+      "updated_at": "2026-11-06T15:17:46+00:00",
       "gmail_draft_id": null,
       "gmail_message_id": null,
-      "decision_reason": "",
+      "decision_reason": "Destinataire déjà contacté (statut CRM : contacté). Élément de file hérité des lots v3/v4, jamais envoyé : neutralisé pour éviter un double contact.",
       "history": [
         {
           "at": "2026-11-04T18:28:22+00:00",
           "action": "created",
           "status": "pending"
+        },
+        {
+          "at": "2026-11-06T15:17:46+00:00",
+          "action": "marked_obsolete",
+          "previous_status": "pending",
+          "reason": "Destinataire déjà contacté (statut CRM : contacté). Élément de file hérité des lots v3/v4, jamais envoyé : neutralisé pour éviter un double contact.",
+          "crm_status": "contacté"
         }
       ]
     },
@@ -288,17 +337,24 @@
       "evidence_sources": [
         "https://www.codeur.com/projects/492305-newsletter-location-de-voiture"
       ],
-      "status": "pending",
+      "status": "obsolete",
       "created_at": "2026-11-04T18:28:22+00:00",
-      "updated_at": "2026-11-04T18:28:22+00:00",
+      "updated_at": "2026-11-06T15:17:46+00:00",
       "gmail_draft_id": null,
       "gmail_message_id": null,
-      "decision_reason": "",
+      "decision_reason": "Destinataire déjà contacté (statut CRM : auto_reply). Élément de file hérité des lots v3/v4, jamais envoyé : neutralisé pour éviter un double contact.",
       "history": [
         {
           "at": "2026-11-04T18:28:22+00:00",
           "action": "created",
           "status": "pending"
+        },
+        {
+          "at": "2026-11-06T15:17:46+00:00",
+          "action": "marked_obsolete",
+          "previous_status": "pending",
+          "reason": "Destinataire déjà contacté (statut CRM : auto_reply). Élément de file hérité des lots v3/v4, jamais envoyé : neutralisé pour éviter un double contact.",
+          "crm_status": "auto_reply"
         }
       ]
     },
@@ -313,17 +369,24 @@
       "evidence_sources": [
         "https://actu.fr/pays-de-la-loire/mouzillon_44108/elle-va-ouvrir-dans-le-vignoble-nantais-que-propose-cette-salle-de-sport-qui-defend-une-autre-approche_64655582.html"
       ],
-      "status": "pending",
+      "status": "obsolete",
       "created_at": "2026-11-04T18:28:22+00:00",
-      "updated_at": "2026-11-04T18:28:22+00:00",
+      "updated_at": "2026-11-06T15:17:46+00:00",
       "gmail_draft_id": null,
       "gmail_message_id": null,
-      "decision_reason": "",
+      "decision_reason": "Destinataire déjà contacté (statut CRM : contacté). Élément de file hérité des lots v3/v4, jamais envoyé : neutralisé pour éviter un double contact.",
       "history": [
         {
           "at": "2026-11-04T18:28:22+00:00",
           "action": "created",
           "status": "pending"
+        },
+        {
+          "at": "2026-11-06T15:17:46+00:00",
+          "action": "marked_obsolete",
+          "previous_status": "pending",
+          "reason": "Destinataire déjà contacté (statut CRM : contacté). Élément de file hérité des lots v3/v4, jamais envoyé : neutralisé pour éviter un double contact.",
+          "crm_status": "contacté"
         }
       ]
     },
@@ -338,17 +401,24 @@
       "evidence_sources": [
         "https://actu.fr/normandie/la-chapelle-uree_50124/dans-le-sud-manche-elle-a-cree-son-entreprise-darboriste-grimpeuse-pour-mettre-en-valeur-les-vegetaux_64675166.html"
       ],
-      "status": "pending",
+      "status": "obsolete",
       "created_at": "2026-11-04T18:28:22+00:00",
-      "updated_at": "2026-11-04T18:28:22+00:00",
+      "updated_at": "2026-11-06T15:17:46+00:00",
       "gmail_draft_id": null,
       "gmail_message_id": null,
-      "decision_reason": "",
+      "decision_reason": "Destinataire déjà contacté (statut CRM : contacté). Élément de file hérité des lots v3/v4, jamais envoyé : neutralisé pour éviter un double contact.",
       "history": [
         {
           "at": "2026-11-04T18:28:22+00:00",
           "action": "created",
           "status": "pending"
+        },
+        {
+          "at": "2026-11-06T15:17:46+00:00",
+          "action": "marked_obsolete",
+          "previous_status": "pending",
+          "reason": "Destinataire déjà contacté (statut CRM : contacté). Élément de file hérité des lots v3/v4, jamais envoyé : neutralisé pour éviter un double contact.",
+          "crm_status": "contacté"
         }
       ]
     },
@@ -2244,6 +2314,174 @@
           "message_id": "1a1b119317154576",
           "label_id": "Label_5",
           "note": "brouillon en attente de validation, aucun envoi"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-06-lot8-001",
+      "campaign": "2026-11-06-lot8",
+      "to": "info@ripaudpepinieres.com",
+      "company": "Pépinières Ripaud",
+      "subject": "Commandes pro Ripaud : le K-bis avant le premier chiffrage",
+      "body": "Bonjour,\n\nVotre page « La pépinière » demande aux nouveaux clients professionnels un extrait K-bis et une fiche d'ouverture de compte.\n\nLes commandes arrivent ensuite par e-mail, avec le nom des végétaux, le conditionnement, la taille et la quantité.\n\nJe vous suggère un espace professionnel qui collecte le K-bis, contrôle chaque ligne de commande et la transmet prête à chiffrer : vos équipes reçoivent des commandes complètes plutôt que des e-mails à reformuler.\n\nÀ titre d'exemple, voici le site institutionnel de mon groupe : https://groupebourasseau.com\n\nJe vous montre gratuitement, sans engagement, une démonstration : démo d'une commande pro saisie en ligne, K-bis joint et lignes contrôlées.\n\nCela vous dirait de la découvrir ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+      "need": "automatisation",
+      "evidence_sources": [
+        "https://www.ripaudpepinieres.com/content/17-la-pepiniere",
+        "https://www.ripaudpepinieres.com/content/17-la-pepiniere",
+        "https://www.ripaudpepinieres.com/content/17-la-pepiniere"
+      ],
+      "status": "pending",
+      "created_at": "2026-11-06T15:13:40+00:00",
+      "updated_at": "2026-11-06T15:16:00+00:00",
+      "gmail_draft_id": "r-5172376794852333002",
+      "gmail_message_id": "1a1b16dee5899e57",
+      "decision_reason": "",
+      "history": [
+        {
+          "at": "2026-11-06T15:13:40+00:00",
+          "action": "created",
+          "status": "pending"
+        },
+        {
+          "at": "2026-11-06T15:14:55+00:00",
+          "action": "rewritten_v6",
+          "reason": "variante conservant l'observation vérifiée ; amorce de démonstration adaptée à la solution ; référence formulée en propriété et non en paternité",
+          "previous_word_count": 156,
+          "new_word_count": 153
+        },
+        {
+          "at": "2026-11-06T15:16:00+00:00",
+          "action": "draft_created",
+          "gmail_draft_id": "r-5172376794852333002",
+          "gmail_message_id": "1a1b16dee5899e57",
+          "label": "Prospection/2026-11-06-lot8",
+          "reason": "brouillon créé dans Gmail, en attente de validation — aucun envoi"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-06-lot8-002",
+      "campaign": "2026-11-06-lot8",
+      "to": "formation@lecentreformation.fr",
+      "company": "Le Centre Formation",
+      "subject": "Dossiers CPF : un lien par profil, puis les dates à caler",
+      "body": "Bonjour,\n\nVotre article du 19 décembre explique que vous envoyez à chaque stagiaire un lien Mon Compte Formation adapté à son profil.\n\nLe dossier est ensuite réceptionné, puis vos équipes rappellent pour fixer les dates, sur quatre centres.\n\nConcrètement, je pourrais mettre en place un parcours qui qualifie le profil, prépare le lien adapté et propose les créneaux du bon centre : des dossiers complets du premier coup, sans ressaisie ni pièce manquante.\n\nCôté automatisation, voici SYNATRAP, la plateforme de mon groupe : https://synatrap.com\n\nSur demande, je vous envoie gratuitement une démonstration, sans engagement : démo d'une demande CPF devenant dossier complet, avec créneau proposé sur le centre le plus proche.\n\nSi vous êtes curieux, je vous montre — sinon, aucun souci.\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+      "need": "automatisation",
+      "evidence_sources": [
+        "https://www.le-centre-formation.fr/2025-12-19/nos-formations-caces-sont-disponibles-sur-mon-compte-formation-cpf/",
+        "https://www.le-centre-formation.fr/2025-12-19/nos-formations-caces-sont-disponibles-sur-mon-compte-formation-cpf/",
+        "https://www.le-centre-formation.fr/2025-12-19/nos-formations-caces-sont-disponibles-sur-mon-compte-formation-cpf/"
+      ],
+      "status": "pending",
+      "created_at": "2026-11-06T15:13:40+00:00",
+      "updated_at": "2026-11-06T15:16:00+00:00",
+      "gmail_draft_id": "r-3781413814320777965",
+      "gmail_message_id": "1a1b16e00589e855",
+      "decision_reason": "",
+      "history": [
+        {
+          "at": "2026-11-06T15:13:40+00:00",
+          "action": "created",
+          "status": "pending"
+        },
+        {
+          "at": "2026-11-06T15:14:55+00:00",
+          "action": "rewritten_v6",
+          "reason": "variante conservant l'observation vérifiée ; amorce de démonstration adaptée à la solution ; référence formulée en propriété et non en paternité",
+          "previous_word_count": 165,
+          "new_word_count": 162
+        },
+        {
+          "at": "2026-11-06T15:16:00+00:00",
+          "action": "draft_created",
+          "gmail_draft_id": "r-3781413814320777965",
+          "gmail_message_id": "1a1b16e00589e855",
+          "label": "Prospection/2026-11-06-lot8",
+          "reason": "brouillon créé dans Gmail, en attente de validation — aucun envoi"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-06-lot8-003",
+      "campaign": "2026-11-06-lot8",
+      "to": "kjenback@gmail.com",
+      "company": "Kévin Jenback — Couverture, zinguerie, ramonage",
+      "subject": "Votre bouton « Devis gratuit » compose un autre numéro",
+      "body": "Bonjour Kévin,\n\nSur votre page devis, le bouton « Devis gratuit » compose le 06 63 02 64 47, alors que le reste de la page affiche le 06 16 12 55 42.\n\nVous annoncez aussi une réponse sous 48 h, en invitant à rappeler si elle n'arrive pas.\n\nJe peux vous proposer la correction du bouton et un formulaire qui range chaque demande par prestation et par secteur : moins de demandes perdues, et moins de temps passé à rappeler.\n\nÀ titre d'exemple, voici le site institutionnel de mon groupe : https://groupebourasseau.com\n\nJe peux vous en faire une démonstration gratuite, sans engagement : démo d'une demande de ramonage reçue, qualifiée et replacée dans votre tournée.\n\nEst-ce un point qui vous occupe en ce moment ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+      "need": "refonte",
+      "evidence_sources": [
+        "https://www.mrjenbackprotegevotrehabitat.com/devis-couvreur-zingueur-ramoneur-angers/",
+        "https://www.mrjenbackprotegevotrehabitat.com/devis-couvreur-zingueur-ramoneur-angers/",
+        "https://www.mrjenbackprotegevotrehabitat.com/devis-couvreur-zingueur-ramoneur-angers/"
+      ],
+      "status": "pending",
+      "created_at": "2026-11-06T15:13:40+00:00",
+      "updated_at": "2026-11-06T15:16:00+00:00",
+      "gmail_draft_id": "r-59861167252265867",
+      "gmail_message_id": "1a1b16e0e43b02fa",
+      "decision_reason": "",
+      "history": [
+        {
+          "at": "2026-11-06T15:13:40+00:00",
+          "action": "created",
+          "status": "pending"
+        },
+        {
+          "at": "2026-11-06T15:14:55+00:00",
+          "action": "rewritten_v6",
+          "reason": "variante conservant l'observation vérifiée ; amorce de démonstration adaptée à la solution ; référence formulée en propriété et non en paternité",
+          "previous_word_count": 169,
+          "new_word_count": 166
+        },
+        {
+          "at": "2026-11-06T15:16:00+00:00",
+          "action": "draft_created",
+          "gmail_draft_id": "r-59861167252265867",
+          "gmail_message_id": "1a1b16e0e43b02fa",
+          "label": "Prospection/2026-11-06-lot8",
+          "reason": "brouillon créé dans Gmail, en attente de validation — aucun envoi"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-06-lot8-004",
+      "campaign": "2026-11-06-lot8",
+      "to": "sales@msfpro-industries.com",
+      "company": "MSF PRO Industries",
+      "subject": "Vos demandes de devis MSF PRO ouvrent toutes un e-mail",
+      "body": "Bonjour,\n\nVos deux boutons « Demander un devis » ouvrent un e-mail vers Sales, sans formulaire.\n\nVous demandez pourtant une référence, des quantités et des contraintes d'application pour établir l'offre.\n\nMon idée : une demande guidée qui récupère la référence constructeur, la quantité et l'application avant chiffrage : des demandes entrantes qualifiées dès leur arrivée, sans relance manuelle.\n\nCôté automatisation, voici SYNATRAP, la plateforme de mon groupe : https://synatrap.com\n\nJe vous montre gratuitement, sans engagement, une démonstration : démo d'une référence saisie, contrôlée et transformée en demande de prix exploitable.\n\nVous préférez recevoir la démonstration, ou qu'on en parle d'abord ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+      "need": "automatisation",
+      "evidence_sources": [
+        "https://msfpro-industries.com/",
+        "https://msfpro-industries.com/",
+        "https://msfpro-industries.com/"
+      ],
+      "status": "pending",
+      "created_at": "2026-11-06T15:13:40+00:00",
+      "updated_at": "2026-11-06T15:16:00+00:00",
+      "gmail_draft_id": "r4288620166161112368",
+      "gmail_message_id": "1a1b16e1bd96c27c",
+      "decision_reason": "",
+      "history": [
+        {
+          "at": "2026-11-06T15:13:40+00:00",
+          "action": "created",
+          "status": "pending"
+        },
+        {
+          "at": "2026-11-06T15:14:55+00:00",
+          "action": "rewritten_v6",
+          "reason": "variante conservant l'observation vérifiée ; amorce de démonstration adaptée à la solution ; référence formulée en propriété et non en paternité",
+          "previous_word_count": 117,
+          "new_word_count": 141
+        },
+        {
+          "at": "2026-11-06T15:16:00+00:00",
+          "action": "draft_created",
+          "gmail_draft_id": "r4288620166161112368",
+          "gmail_message_id": "1a1b16e1bd96c27c",
+          "label": "Prospection/2026-11-06-lot8",
+          "reason": "brouillon créé dans Gmail, en attente de validation — aucun envoi"
         }
       ]
     }

@@ -34,6 +34,11 @@ INTENT_AUTO_REPLY = "auto_reply"
 INTENT_HUMAN = "reponse_humaine"
 INTENT_OPT_OUT = "opposition"
 INTENT_UNKNOWN = "inconnu"
+# Audit du 7 novembre : Alpha Mécanique a renvoyé une invitation Mailinblack.
+# Ce n'est ni une réponse humaine, ni un accusé de réception, ni un rebond :
+# le message est RETENU en quarantaine tant que l'expéditeur n'a pas confirmé
+# qu'il est humain. Le compter comme « délivré » serait faux.
+INTENT_DELIVERY_CHALLENGE = "challenge_delivrance"
 
 SEVERITY_HARD = "dur"
 SEVERITY_SOFT = "mou"
@@ -48,6 +53,13 @@ _AUTO_SUBJECTS = ("ticket reçu", "ticket recu", "accusé de réception", "accus
                   "automatic reply", "réponse automatique", "reponse automatique",
                   "out of office", "absence", "nous avons bien reçu", "bien recu votre demande")
 _AUTO_HEADERS = ("auto-submitted", "x-autoreply", "x-autorespond", "precedence: auto_reply")
+_CHALLENGE_SENDERS = ("invitations.mailinblack.com", "mailinblack.com", "challenge.",
+                      "sender-verification", "confirmation-expediteur")
+_CHALLENGE_MARKERS = ("un clic pour délivrer", "un clic pour delivrer",
+                      "confirmer qu'il est bien humain", "confirmer que vous êtes bien humain",
+                      "confirmer que vous n'êtes pas un robot", "verify you are human",
+                      "challenge-response", "validez votre envoi", "libérer votre message",
+                      "liberer votre message")
 _HARD_MARKERS = ("nxdomain", "address not found", "user unknown", "utilisateur inconnu",
                  "does not exist", "n'existe pas", "550 5.1.1", "550-5.1.1", "5.1.10",
                  "recipient address rejected", "no such user", "domaine introuvable",
@@ -161,6 +173,11 @@ def classify_inbound(from_email: str, subject: str, text: str, headers: str = ""
     if any(m in text_l for m in _OPT_OUT_MARKERS):
         return {"intent": INTENT_OPT_OUT, "severity": "", "recipient": from_email,
                 "reason": "formulation d'opposition explicite"}
+    sender_l = (from_email or "").lower()
+    if any(d in sender_l for d in _CHALLENGE_SENDERS) or any(m in text_l for m in _CHALLENGE_MARKERS):
+        return {"intent": INTENT_DELIVERY_CHALLENGE, "severity": "", "recipient": from_email,
+                "reason": ("système de challenge expéditeur : le message est retenu en quarantaine, "
+                        "la délivrance n'est pas acquise et aucune personne n'a répondu")}
     if any(h in headers_l for h in _AUTO_HEADERS) or any(s in subject_l for s in _AUTO_SUBJECTS) \
             or "auto-submitted" in text_l:
         return {"intent": INTENT_AUTO_REPLY, "severity": "", "recipient": from_email,

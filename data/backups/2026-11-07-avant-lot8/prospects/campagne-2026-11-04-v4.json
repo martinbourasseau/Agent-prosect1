@@ -1,0 +1,157 @@
+{
+  "_note": "Prospects découverts le 2026-11-04 (v4). Besoins exprimés publics (Codeur, contacts porteurs masqués -> email none) + opportunité observable contactable. Aucun email fabriqué.",
+  "prospects": [
+    {
+      "company": "Restaurant traditionnel des quais de Quimper",
+      "domain": "",
+      "website": "",
+      "contact_name": "",
+      "contact_email": "",
+      "email_verification": "none",
+      "phone": "",
+      "sector": "restauration",
+      "city": "Quimper",
+      "department": "29",
+      "location": "Quimper (29)",
+      "needs": ["site_web"],
+      "recommended_service": "un site vitrine avec vos cartes, horaires et un module de réservation relié à votre caisse, sans abonnement mensuel",
+      "demo_detail": "une maquette de la page d'accueil avec votre carte et le module de réservation",
+      "process_hint": "ouverture d'un restaurant, besoin de vitrine + réservation reliée à la caisse",
+      "source": "Codeur.com",
+      "publication_date": "2026-11-04",
+      "notes": "Porteur anonyme sur Codeur (contact réservé aux prestataires abonnés). Besoin exprimé précis ; coordonnées à récupérer avant tout envoi.",
+      "evidences": [
+        {
+          "kind": "public_need",
+          "source_url": "https://www.codeur.com/projects/492351-nous-ouvrons-un-restaurant-traditionnel-sur-les-quais-de-quimper",
+          "quote": "Nous ouvrons un restaurant traditionnel sur les Quais de Quimper, nous aurions besoin d'un site internet qui fait vitrine, avec les cartes, les horaires, un module de réservation intégré (avec notre logiciel de caisse). Nous ne souhaitons pas d'abonnement mensuel.",
+          "observed_at": "2026-11-04",
+          "detail": "Annonce Codeur publiée le 4 novembre 2026 (budget 500-1000 EUR, 164 offres) : création d'un site vitrine de restaurant avec réservation reliée à la caisse, sans abonnement."
+        }
+      ]
+    },
+    {
+      "company": "Parfumerie indépendante de Paris",
+      "domain": "",
+      "website": "",
+      "contact_name": "",
+      "contact_email": "",
+      "email_verification": "none",
+      "phone": "",
+      "sector": "commerce",
+      "city": "Paris",
+      "department": "75",
+      "location": "Paris (75)",
+      "needs": ["site_web"],
+      "recommended_service": "une boutique Shopify multilingue avec votre catalogue, la caisse POS et un stock partagé entre le site et la boutique",
+      "demo_detail": "une maquette de la boutique avec quelques produits et le parcours d'achat",
+      "process_hint": "parfumerie indépendante, vente France + UE, besoin POS + détaxe + formation équipe",
+      "source": "Codeur.com",
+      "publication_date": "2026-11-04",
+      "notes": "Porteur anonyme sur Codeur. Cahier des charges détaillé disponible ; coordonnées à récupérer avant tout envoi.",
+      "evidences": [
+        {
+          "kind": "public_need",
+          "source_url": "https://www.codeur.com/projects/492346-creation-site-shopify-150-produits-caisse-pos-solpay-et-formation",
+          "quote": "Nous sommes une parfumerie indépendante située à Paris et recherchons un freelance ou une petite agence pour créer notre boutique Shopify de parfums, avec vente en France et dans certains pays de l'Union européenne.",
+          "observed_at": "2026-11-04",
+          "detail": "Annonce Codeur publiée le 4 novembre 2026 (budget 1000-10000 EUR) : boutique Shopify 150 produits, POS, SolPay, multilingue FR/EN/ES, formation de l'équipe."
+        }
+      ]
+    },
+    {
+      "company": "Organisme de formation — relance prospects",
+      "domain": "",
+      "website": "",
+      "contact_name": "",
+      "contact_email": "",
+      "email_verification": "none",
+      "phone": "",
+      "sector": "services",
+      "city": "",
+      "department": "",
+      "location": "France",
+      "needs": ["automatisation"],
+      "recommended_service": "un système qui relance automatiquement vos prospects par catégorie (formation / produits), avec historique et arrêt dès l'inscription ou l'achat",
+      "demo_detail": "une démonstration du flux de relance automatique sur un prospect type, avec l'historique des messages",
+      "process_hint": "appels entrants pour renseignements, prospects non convertis, relances manuelles à automatiser par SMS puis vocal IA",
+      "source": "Codeur.com",
+      "publication_date": "2026-11-04",
+      "notes": "Porteur anonyme sur Codeur. Dirige un organisme de formation + vente de produits professionnels. Besoin d'automatisation très précis ; coordonnées à récupérer.",
+      "evidences": [
+        {
+          "kind": "public_need",
+          "source_url": "https://www.codeur.com/projects/492349-application-de-relance-prospects-par-sms-et-message-vocaux-ia",
+          "quote": "Je dirige un organisme de formation... Je souhaite pouvoir catégoriser chaque appel ou prospect... les relances correspondantes doivent se déclencher automatiquement... sans intervention manuelle de ma part.",
+          "observed_at": "2026-11-04",
+          "detail": "Annonce Codeur publiée le 4 novembre 2026 (budget 500-1000 EUR) : automatiser la relance des prospects par catégorie, SMS puis secrétaire IA vocale, avec historique et arrêt après conversion."
+        }
+      ]
+    },
+    {
+      "company": "Activité de revente Vinted — outil IA",
+      "domain": "",
+      "website": "",
+      "contact_name": "",
+      "contact_email": "",
+      "email_verification": "none",
+      "phone": "",
+      "sector": "commerce",
+      "city": "",
+      "department": "",
+      "location": "France",
+      "needs": ["automatisation"],
+      "recommended_service": "un outil IA qui automatise la recherche et la gestion de votre activité de revente, pour vous faire gagner du temps au quotidien",
+      "demo_detail": "une démonstration de l'outil sur un cas concret de recherche et de gestion d'annonces",
+      "process_hint": "activité de revente sur Vinted, tâches répétitives de recherche/gestion à automatiser",
+      "source": "Codeur.com",
+      "publication_date": "2026-11-03",
+      "notes": "Porteur anonyme sur Codeur. Micro-activité de revente ; besoin d'automatisation IA exprimé. Coordonnées à récupérer.",
+      "evidences": [
+        {
+          "kind": "public_need",
+          "source_url": "https://www.codeur.com/projects/492308-creation-d-une-ia-de-recherche-et-d-automatisation-vinted",
+          "quote": "Je suis à la recherche d'un développeur spécialisé en intelligence artificielle, automatisation et développement web afin de créer un outil personnalisé pour gérer une activité de revente sur Vinted.",
+          "observed_at": "2026-11-04",
+          "detail": "Annonce Codeur publiée le 3 novembre 2026 (budget 500-1000 EUR) : outil IA d'automatisation pour une activité de revente Vinted."
+        }
+      ]
+    },
+    {
+      "company": "Camping Mer et Camargue — Restaurant Le Pano",
+      "domain": "campingmeretcamargue.fr",
+      "website": "https://www.campingmeretcamargue.fr/",
+      "contact_name": "",
+      "contact_email": "campingmeretcamargue@orange.fr",
+      "email_verification": "verified",
+      "phone": "+33 4 66 20 65 87",
+      "sector": "restauration",
+      "city": "Calvisson",
+      "department": "30",
+      "location": "Calvisson (30)",
+      "needs": ["automatisation"],
+      "recommended_service": "la réservation en ligne et le traitement automatique des demandes pour votre restaurant et vos événements",
+      "demo_detail": "un aperçu du parcours de réservation en ligne pour le restaurant et les demandes d'événements",
+      "process_hint": "réservations du restaurant et des événements (mariages, séminaires) uniquement par téléphone",
+      "source": "campingmeretcamargue.fr",
+      "publication_date": "",
+      "notes": "Email public trouvé sur le site officiel de l'établissement. Restaurant Le Pano ouvert en avril 2026 ; activité événementielle (salle 300 personnes). Réservations téléphone uniquement = opportunité observable, non un problème inventé.",
+      "evidences": [
+        {
+          "kind": "website_gap",
+          "source_url": "https://www.campingmeretcamargue.fr/restaurant/",
+          "quote": "Renseignements et réservations au 04.66.81.56.91",
+          "observed_at": "2026-11-04",
+          "detail": "les réservations du restaurant et des événements se font uniquement par téléphone, sans réservation en ligne."
+        },
+        {
+          "kind": "sector_opportunity",
+          "source_url": "https://www.campingmeretcamargue.fr/restaurant/",
+          "quote": "Ouverture le 3 Avril 2026 ... anniversaires, Mariage, Séminaires ... salle pouvant accueillir 300 personnes",
+          "observed_at": "2026-11-04",
+          "detail": "Nouveau restaurant ouvert en avril 2026 et activité événementielle importante : un volume de demandes à traiter qui peut être fluidifié."
+        }
+      ]
+    }
+  ]
+}

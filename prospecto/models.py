@@ -84,6 +84,9 @@ class Prospect:
     # l'observation en tire la conséquence concrète pour l'entreprise.
     observation: str = ""
     solution_type: str = ""  # famille de solution retenue (voir personalization)
+    # v6 : bénéfice professionnel formulé pour CET interlocuteur. Vérifié à la
+    # main, il prime sur l'angle déduit de la fonction.
+    benefit: str = ""
     custom_subject: str = ""  # objet sur mesure (v3) — sinon généré depuis le besoin
     example_urls: list[str] = field(default_factory=list)  # liens réalisations (whitelist obligatoire)
     city: str = ""

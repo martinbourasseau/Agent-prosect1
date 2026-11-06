@@ -1,0 +1,81 @@
+{
+  "_note": "Paramètres de campagne v4. L'envoi automatique est DÉSACTIVÉ par défaut. Activation explicite requise (CLI 'campaign activate') APRÈS validation des contrôles de sécurité/délivrabilité. dry_run=true simule sans envoyer.",
+  "version": "v4",
+  "enabled": false,
+  "dry_run": true,
+  "activated_at": "",
+  "activated_by": "",
+  "sender": {
+    "name": "Martin BOURASSEAU",
+    "email": "martin.bourasseau4@gmail.com",
+    "domain": "gmail.com",
+    "reply_to": ""
+  },
+  "transport": "gmail_connector",
+  "limits": {
+    "daily_limit": 20,
+    "ramp_up": [
+      5,
+      10,
+      15,
+      20,
+      30,
+      40
+    ],
+    "ramp_up_day_index": 0,
+    "min_delay_seconds": 45,
+    "max_per_run": 20
+  },
+  "quality": {
+    "allowed_email_verification": [
+      "verified"
+    ],
+    "require_professional_relevance": true,
+    "min_score": 40
+  },
+  "deliverability": {
+    "require_spf": true,
+    "require_dkim": true,
+    "require_dmarc": true,
+    "last_checked_at": "2026-11-06T13:46:42+00:00",
+    "last_result": {
+      "domain": "gmail.com",
+      "is_free_provider": true,
+      "provider": "Gmail (gratuit)",
+      "spf_present": true,
+      "spf_record": "v=spf1 redirect=_spf.google.com",
+      "dkim_present": false,
+      "dkim_selector": "",
+      "dmarc_present": true,
+      "dmarc_record": "v=DMARC1; p=none; sp=quarantine; rua=mailto:mailauth-reports@google.com",
+      "dmarc_policy": "none",
+      "dns_checked": true,
+      "warnings": [
+        "Le domaine expéditeur 'gmail.com' est un fournisseur gratuit (Gmail (gratuit)). La prospection commerciale en masse depuis un compte gratuit est contraire aux CGU et dégrade fortement la délivrabilité (voire suspend le compte)."
+      ],
+      "recommendations": [
+        "Utiliser un domaine professionnel dédié (ex. contact@prospecto.website ou un domaine d'envoi dédié) avec SPF, DKIM et DMARC configurés, et un prestataire d'envoi adapté (Google Workspace sur domaine propre, ou ESP : Brevo, Sendgrid, Mailgun…)."
+      ],
+      "ok_for_bulk": false
+    }
+  },
+  "stop_conditions": {
+    "max_bounce_rate": 0.05,
+    "max_complaint_rate": 0.001,
+    "min_sent_before_rate_check": 20,
+    "auto_pause_on_breach": true
+  },
+  "follow_up": {
+    "enabled": false,
+    "max_followups": 1,
+    "delay_days": 5,
+    "stop_on_reply": true,
+    "stop_on_opt_out": true
+  },
+  "compliance": {
+    "identify_sender": true,
+    "include_opt_out": true,
+    "honor_suppression_list": true,
+    "b2b_only": true
+  }
+}

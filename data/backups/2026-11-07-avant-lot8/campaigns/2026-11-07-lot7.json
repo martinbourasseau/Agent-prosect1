@@ -1,0 +1,146 @@
+{
+  "campaign": "2026-11-07-lot7",
+  "strategy": "v4 — variantes + références + démo gratuite",
+  "generated_count": 5,
+  "emails": [
+    {
+      "queue_id": "2026-11-07-lot7-001",
+      "to": "contact@france-pnl.com",
+      "subject": "Inscriptions France-PNL : quatre canaux, une seule validation ?",
+      "body": "Bonjour,\n\nVotre page d'inscription ouvre quatre canaux et précise que seul le paiement par carte bleue déclenche une prise en compte immédiate.\n\nLes demandes par e-mail ou téléphone attendent donc une validation du secrétariat, pour des groupes limités à quinze stagiaires.\n\nIl serait assez simple d'ajouter un parcours d'inscription unique qui vérifie les places restantes, valide la demande et prépare la convention de formation.\n\nCôté agents IA, voici SYNATRAP, la plateforme que je développe avec mon groupe : https://synatrap.com\n\nJe vous montre gratuitement, sans engagement, une démonstration sur votre cas : démo d'une inscription par e-mail devenant dossier complet, place réservée et convention pré-remplie.\n\nUn échange de quinze minutes vous conviendrait-il pour voir à quoi cela ressemblerait ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+      "company": "France-Hypnose-Formation / France-PNL",
+      "need": "automatisation",
+      "evidence_sources": [
+        "https://france-hypnose-formation.com/inscriptions-aux-formations-pnl-et-hypnose/",
+        "https://france-hypnose-formation.com/inscriptions-aux-formations-pnl-et-hypnose/",
+        "https://france-hypnose-formation.com/inscriptions-aux-formations-pnl-et-hypnose/"
+      ],
+      "variant": "synatrap_ia",
+      "reference_id": "synatrap",
+      "example_url": "https://synatrap.com",
+      "message_version": "v4",
+      "score": 80,
+      "tier": "haute"
+    },
+    {
+      "queue_id": "2026-11-07-lot7-002",
+      "to": "demenagement@atoutransport.com",
+      "subject": "Atoutransport : vos dates de groupage consultables en ligne ?",
+      "body": "Bonjour,\n\nVous écrivez que les dates de groupage sont connues plusieurs mois à l'avance et qu'il faut prendre contact pour les connaître.\n\nVos clients ne peuvent donc pas situer leur déménagement sur une navette avant de vous appeler, alors que votre formulaire leur demande déjà dates, étages et volume.\n\nJe vous suggère un calendrier de navettes consultable, relié au devis pour réserver une place sur le trajet choisi.\n\nCôté agents IA, voici SYNATRAP, la plateforme que je développe avec mon groupe : https://synatrap.com\n\nJe vous montre gratuitement, sans engagement, une démonstration sur votre cas : démo d'un calendrier Paris – Nice affichant les places restantes et chiffrant le volume saisi.\n\nSouhaitez-vous que je vous montre cela sur un cas concret de votre activité ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+      "company": "Atoutransport",
+      "need": "automatisation",
+      "evidence_sources": [
+        "https://www.atoutransport.com/",
+        "https://www.atoutransport.com/"
+      ],
+      "variant": "synatrap_ia",
+      "reference_id": "synatrap",
+      "example_url": "https://synatrap.com",
+      "message_version": "v4",
+      "score": 80,
+      "tier": "haute"
+    },
+    {
+      "queue_id": "2026-11-07-lot7-003",
+      "to": "contact@bonbon-foliz.com",
+      "subject": "Bonbon Foliz : vos ouvertures de compte pro par e-mail ?",
+      "body": "Bonjour,\n\nVotre espace revendeur demande d'envoyer le Kbis et les coordonnées par e-mail, avec les produits souhaités, pour que vous établissiez un bon de commande.\n\nChaque nouveau revendeur mobilise donc une personne pour lire les pièces et rédiger la première commande.\n\nJe vous suggère un formulaire d'ouverture de compte pro qui dépose le Kbis, contrôle le SIRET et transforme la première sélection en bon de commande.\n\nCôté agents IA, voici SYNATRAP, la plateforme que je développe avec mon groupe : https://synatrap.com\n\nJe vous prépare une première maquette gratuite, sans engagement : démo d'une demande de compte revendeur avec dépôt de Kbis et bon de commande généré.\n\nVous préférez recevoir la démonstration, ou qu'on en parle d'abord ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+      "company": "Bonbon Foliz",
+      "need": "automatisation",
+      "evidence_sources": [
+        "https://www.bonbon-foliz.com/page/9-espace-professionnel",
+        "https://www.bonbon-foliz.com/page/9-espace-professionnel"
+      ],
+      "variant": "synatrap_ia",
+      "reference_id": "synatrap",
+      "example_url": "https://synatrap.com",
+      "message_version": "v4",
+      "score": 50,
+      "tier": "haute"
+    },
+    {
+      "queue_id": "2026-11-07-lot7-004",
+      "to": "reservation@odeclaise.fr",
+      "subject": "Ô de Claise : vos cartes cadeau réservables en ligne ?",
+      "body": "Bonjour,\n\nVotre accueil indique que les détenteurs d'une carte cadeau doivent appeler obligatoirement le 02 54 38 16 01 pour prendre rendez-vous.\n\nVous avez pourtant déjà une réservation en ligne : vos clients porteurs d'un bon cadeau sont les seuls à devoir passer par le téléphone.\n\nJe peux vous proposer la reconnaissance des bons cadeaux dans votre module de réservation, pour que le solde soit déduit au moment du créneau choisi.\n\nCôté agents IA, voici SYNATRAP, la plateforme que je développe avec mon groupe : https://synatrap.com\n\nSans engagement, je vous prépare gratuitement une démonstration : démo d'une réservation payée par bon cadeau, avec solde restant et créneau confirmé sans appel.\n\nSi vous êtes curieux, je vous montre — sinon, aucun souci.\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+      "company": "L'Ô de Claise",
+      "need": "automatisation",
+      "evidence_sources": [
+        "https://odeclaise.fr/",
+        "https://odeclaise.fr/"
+      ],
+      "variant": "synatrap_ia",
+      "reference_id": "synatrap",
+      "example_url": "https://synatrap.com",
+      "message_version": "v4",
+      "score": 50,
+      "tier": "moyenne"
+    },
+    {
+      "queue_id": "2026-11-07-lot7-005",
+      "to": "contact@bulles-et-detente.fr",
+      "subject": "Bulles & Détente : le suivi de vos bons cadeaux automatisé ?",
+      "body": "Bonjour,\n\nVos bons cadeaux sont vendus en ligne, valables six mois, avec une prolongation facturée 10 € par mois et une annulation si le rendez-vous n'est pas annulé 48 h à l'avance.\n\nCes trois règles doivent être suivies pour chaque bon émis, alors que la vente, elle, est déjà automatisée.\n\nJe vous suggère un registre de bons cadeaux qui suit les échéances, calcule les prolongations et alerte avant expiration.\n\nCôté agents IA, voici SYNATRAP, la plateforme que je développe avec mon groupe : https://synatrap.com\n\nSi le sujet vous parle, je vous envoie gratuitement une démonstration, sans engagement : démo d'un registre de bons cadeaux signalant les échéances à six mois et calculant une prolongation.\n\nSouhaitez-vous que je vous montre cela sur un cas concret de votre activité ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+      "company": "Bulles & Détente",
+      "need": "automatisation",
+      "evidence_sources": [
+        "https://bulles-et-detente.fr/",
+        "https://bulles-et-detente.fr/"
+      ],
+      "variant": "synatrap_ia",
+      "reference_id": "synatrap",
+      "example_url": "https://synatrap.com",
+      "message_version": "v4",
+      "score": 70,
+      "tier": "haute"
+    }
+  ],
+  "gmail_label_id": "Label_5",
+  "gmail_label_name": "Prospection/2026-11-07-lot7",
+  "drafts_created": 5,
+  "sent": 0,
+  "message_version": "v5",
+  "updated_at": "2026-11-06T13:44:50+00:00",
+  "drafts": [
+    {
+      "queue_id": "2026-11-07-lot7-001",
+      "to": "contact@france-pnl.com",
+      "subject": "Inscriptions France-PNL : quatre canaux, une seule validation ?",
+      "gmail_draft_id": "r9120835433336929590",
+      "gmail_message_id": "1a1b118e705161a2",
+      "status": "draft"
+    },
+    {
+      "queue_id": "2026-11-07-lot7-002",
+      "to": "demenagement@atoutransport.com",
+      "subject": "Atoutransport : vos dates de groupage consultables en ligne ?",
+      "gmail_draft_id": "r-2268686272411300764",
+      "gmail_message_id": "1a1b118f057c3d1e",
+      "status": "draft"
+    },
+    {
+      "queue_id": "2026-11-07-lot7-003",
+      "to": "contact@bonbon-foliz.com",
+      "subject": "Bonbon Foliz : vos ouvertures de compte pro par e-mail ?",
+      "gmail_draft_id": "r-2054030206917225871",
+      "gmail_message_id": "1a1b118fd35f2b19",
+      "status": "draft"
+    },
+    {
+      "queue_id": "2026-11-07-lot7-004",
+      "to": "reservation@odeclaise.fr",
+      "subject": "Ô de Claise : vos cartes cadeau réservables en ligne ?",
+      "gmail_draft_id": "r2815323427362296493",
+      "gmail_message_id": "1a1b1192231a0240",
+      "status": "draft"
+    },
+    {
+      "queue_id": "2026-11-07-lot7-005",
+      "to": "contact@bulles-et-detente.fr",
+      "subject": "Bulles & Détente : le suivi de vos bons cadeaux automatisé ?",
+      "gmail_draft_id": "r-5537710055085633490",
+      "gmail_message_id": "1a1b119317154576",
+      "status": "draft"
+    }
+  ]
+}

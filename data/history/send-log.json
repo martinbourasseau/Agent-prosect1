@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-06T13:01:55+00:00",
-  "count": 38,
+  "updated_at": "2026-11-06T15:05:40+00:00",
+  "count": 46,
   "entries": [
     {
       "at": "2026-11-04T21:26:00+00:00",
@@ -383,6 +383,86 @@
       "campaign": "2026-11-04-lot5",
       "status": "sent",
       "gmail_message_id": "1a1abeb27153577d",
+      "source": "gmail_manual_observed"
+    },
+    {
+      "at": "2026-11-03",
+      "to": "atelier@akla-architectes.com",
+      "subject": "Deux ou trois points sur le site d'Akla Architectes",
+      "company": "Akla Architectes",
+      "campaign": "",
+      "status": "sent",
+      "gmail_message_id": "1a1a0b31a0714a24",
+      "source": "gmail_manual_observed"
+    },
+    {
+      "at": "2026-11-03",
+      "to": "contact@thearchitectes.com",
+      "subject": "Deux ou trois points sur le site de The Architectes",
+      "company": "The Architectes",
+      "campaign": "",
+      "status": "sent",
+      "gmail_message_id": "1a1a0b1b62a46fc1",
+      "source": "gmail_manual_observed"
+    },
+    {
+      "at": "2026-11-03",
+      "to": "contact@quattroarchi.fr",
+      "subject": "Deux ou trois points sur le site de Quattro Architectes",
+      "company": "Quattro Architectes",
+      "campaign": "",
+      "status": "sent",
+      "gmail_message_id": "1a1a0b0513563881",
+      "source": "gmail_manual_observed"
+    },
+    {
+      "at": "2026-11-03",
+      "to": "letablidumenuisier@gmail.com",
+      "subject": "Deux ou trois points sur le site de L'Etabli du Menuisier",
+      "company": "L'Etabli du Menuisier",
+      "campaign": "",
+      "status": "sent",
+      "gmail_message_id": "1a1a0aee460069d6",
+      "source": "gmail_manual_observed"
+    },
+    {
+      "at": "2026-11-03",
+      "to": "contact@superchi.fr",
+      "subject": "Deux ou trois points sur le site de Superchi Architectes",
+      "company": "Superchi Architectes",
+      "campaign": "",
+      "status": "sent",
+      "gmail_message_id": "1a1a0ad81832dfff",
+      "source": "gmail_manual_observed"
+    },
+    {
+      "at": "2026-11-03",
+      "to": "leserrurierdacote@gmail.com",
+      "subject": "Gagner du temps sur les e-mails reçus chez Le Serrurier d'A Cote ?",
+      "company": "Le Serrurier d'A Cote",
+      "campaign": "",
+      "status": "sent",
+      "gmail_message_id": "1a1a0ac1d312d06a",
+      "source": "gmail_manual_observed"
+    },
+    {
+      "at": "2026-11-03",
+      "to": "villedieu.automobiles@gmail.com",
+      "subject": "Gagner du temps sur les demandes entrantes chez Garage Villedieu Automobiles ?",
+      "company": "Garage Villedieu Automobiles",
+      "campaign": "",
+      "status": "sent",
+      "gmail_message_id": "1a1a0aab6559d46c",
+      "source": "gmail_manual_observed"
+    },
+    {
+      "at": "2026-11-03",
+      "to": "multitech.assistance@gmail.com",
+      "subject": "Gagner du temps sur les demandes entrantes chez Multitech Assistance ?",
+      "company": "Multitech Assistance",
+      "campaign": "",
+      "status": "sent",
+      "gmail_message_id": "1a1a0a9532c92ff8",
       "source": "gmail_manual_observed"
     }
   ]

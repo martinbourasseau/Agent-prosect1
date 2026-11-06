@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-06T13:44:50+00:00",
-  "count": 69,
+  "updated_at": "2026-11-06T15:16:00+00:00",
+  "count": 74,
   "prospects": [
     {
       "company": "R Premium",
@@ -67,7 +67,9 @@
       "next_action": "Surveiller réponse / rebond dans la boîte de réception",
       "email_dns_status": "mx_ok",
       "email_dns_checked_at": "2026-11-04T22:11:15+00:00",
-      "email_dns_detail": "5 MX publiés"
+      "email_dns_detail": "5 MX publiés",
+      "delivery_confirmed": false,
+      "delivery_status": "non_confirmee"
     },
     {
       "company": "Secteur 72",
@@ -148,7 +150,9 @@
       "next_action": "Surveiller réponse / rebond dans la boîte de réception",
       "email_dns_status": "mx_ok",
       "email_dns_checked_at": "2026-11-04T22:11:15+00:00",
-      "email_dns_detail": "5 MX publiés"
+      "email_dns_detail": "5 MX publiés",
+      "delivery_confirmed": false,
+      "delivery_status": "non_confirmee"
     },
     {
       "company": "Multitech Assistance",
@@ -167,7 +171,22 @@
       "next_action": "Surveiller réponse / rebond",
       "email_dns_status": "mx_ok",
       "email_dns_checked_at": "2026-11-04T22:11:15+00:00",
-      "email_dns_detail": "5 MX publiés"
+      "email_dns_detail": "5 MX publiés",
+      "sent_at": "2026-11-03",
+      "send_source": "gmail_manual_observed",
+      "gmail_message_id": "1a1a0a9532c92ff8",
+      "gmail_thread_id": "1a1a0a9532c92ff8",
+      "history": [
+        {
+          "at": "2026-11-03",
+          "action": "reconciled_sent_without_queue",
+          "reason": "envoi constaté dans Gmail, aucun élément correspondant en file",
+          "source": "gmail_manual_observed",
+          "gmail_message_id": "1a1a0a9532c92ff8"
+        }
+      ],
+      "delivery_confirmed": false,
+      "delivery_status": "non_confirmee"
     },
     {
       "company": "Garage Villedieu Automobiles",
@@ -186,7 +205,22 @@
       "next_action": "Surveiller réponse / rebond",
       "email_dns_status": "mx_ok",
       "email_dns_checked_at": "2026-11-04T22:11:15+00:00",
-      "email_dns_detail": "5 MX publiés"
+      "email_dns_detail": "5 MX publiés",
+      "sent_at": "2026-11-03",
+      "send_source": "gmail_manual_observed",
+      "gmail_message_id": "1a1a0aab6559d46c",
+      "gmail_thread_id": "1a1a0aab6559d46c",
+      "history": [
+        {
+          "at": "2026-11-03",
+          "action": "reconciled_sent_without_queue",
+          "reason": "envoi constaté dans Gmail, aucun élément correspondant en file",
+          "source": "gmail_manual_observed",
+          "gmail_message_id": "1a1a0aab6559d46c"
+        }
+      ],
+      "delivery_confirmed": false,
+      "delivery_status": "non_confirmee"
     },
     {
       "company": "Le Serrurier d'A Cote",
@@ -205,7 +239,22 @@
       "next_action": "Surveiller réponse / rebond",
       "email_dns_status": "mx_ok",
       "email_dns_checked_at": "2026-11-04T22:11:15+00:00",
-      "email_dns_detail": "5 MX publiés"
+      "email_dns_detail": "5 MX publiés",
+      "sent_at": "2026-11-03",
+      "send_source": "gmail_manual_observed",
+      "gmail_message_id": "1a1a0ac1d312d06a",
+      "gmail_thread_id": "1a1a0ac1d312d06a",
+      "history": [
+        {
+          "at": "2026-11-03",
+          "action": "reconciled_sent_without_queue",
+          "reason": "envoi constaté dans Gmail, aucun élément correspondant en file",
+          "source": "gmail_manual_observed",
+          "gmail_message_id": "1a1a0ac1d312d06a"
+        }
+      ],
+      "delivery_confirmed": false,
+      "delivery_status": "non_confirmee"
     },
     {
       "company": "Superchi Architectes",
@@ -224,7 +273,22 @@
       "next_action": "Surveiller réponse / rebond",
       "email_dns_status": "mx_ok",
       "email_dns_checked_at": "2026-11-04T22:11:15+00:00",
-      "email_dns_detail": "3 MX publiés"
+      "email_dns_detail": "3 MX publiés",
+      "sent_at": "2026-11-03",
+      "send_source": "gmail_manual_observed",
+      "gmail_message_id": "1a1a0ad81832dfff",
+      "gmail_thread_id": "1a1a0ad81832dfff",
+      "history": [
+        {
+          "at": "2026-11-03",
+          "action": "reconciled_sent_without_queue",
+          "reason": "envoi constaté dans Gmail, aucun élément correspondant en file",
+          "source": "gmail_manual_observed",
+          "gmail_message_id": "1a1a0ad81832dfff"
+        }
+      ],
+      "delivery_confirmed": false,
+      "delivery_status": "non_confirmee"
     },
     {
       "company": "L'Etabli du Menuisier",
@@ -243,7 +307,22 @@
       "next_action": "Surveiller réponse / rebond",
       "email_dns_status": "mx_ok",
       "email_dns_checked_at": "2026-11-04T22:11:15+00:00",
-      "email_dns_detail": "5 MX publiés"
+      "email_dns_detail": "5 MX publiés",
+      "sent_at": "2026-11-03",
+      "send_source": "gmail_manual_observed",
+      "gmail_message_id": "1a1a0aee460069d6",
+      "gmail_thread_id": "1a1a0aee460069d6",
+      "history": [
+        {
+          "at": "2026-11-03",
+          "action": "reconciled_sent_without_queue",
+          "reason": "envoi constaté dans Gmail, aucun élément correspondant en file",
+          "source": "gmail_manual_observed",
+          "gmail_message_id": "1a1a0aee460069d6"
+        }
+      ],
+      "delivery_confirmed": false,
+      "delivery_status": "non_confirmee"
     },
     {
       "company": "Quattro Architectes",
@@ -262,7 +341,22 @@
       "next_action": "Surveiller réponse / rebond",
       "email_dns_status": "mx_ok",
       "email_dns_checked_at": "2026-11-04T22:11:15+00:00",
-      "email_dns_detail": "1 MX publiés"
+      "email_dns_detail": "1 MX publiés",
+      "sent_at": "2026-11-03",
+      "send_source": "gmail_manual_observed",
+      "gmail_message_id": "1a1a0b0513563881",
+      "gmail_thread_id": "1a1a0b0513563881",
+      "history": [
+        {
+          "at": "2026-11-03",
+          "action": "reconciled_sent_without_queue",
+          "reason": "envoi constaté dans Gmail, aucun élément correspondant en file",
+          "source": "gmail_manual_observed",
+          "gmail_message_id": "1a1a0b0513563881"
+        }
+      ],
+      "delivery_confirmed": false,
+      "delivery_status": "non_confirmee"
     },
     {
       "company": "The Architectes",
@@ -281,7 +375,22 @@
       "next_action": "Surveiller réponse / rebond",
       "email_dns_status": "mx_ok",
       "email_dns_checked_at": "2026-11-04T22:11:15+00:00",
-      "email_dns_detail": "2 MX publiés"
+      "email_dns_detail": "2 MX publiés",
+      "sent_at": "2026-11-03",
+      "send_source": "gmail_manual_observed",
+      "gmail_message_id": "1a1a0b1b62a46fc1",
+      "gmail_thread_id": "1a1a0b1b62a46fc1",
+      "history": [
+        {
+          "at": "2026-11-03",
+          "action": "reconciled_sent_without_queue",
+          "reason": "envoi constaté dans Gmail, aucun élément correspondant en file",
+          "source": "gmail_manual_observed",
+          "gmail_message_id": "1a1a0b1b62a46fc1"
+        }
+      ],
+      "delivery_confirmed": false,
+      "delivery_status": "non_confirmee"
     },
     {
       "company": "Akla Architectes",
@@ -300,7 +409,22 @@
       "next_action": "Surveiller réponse / rebond",
       "email_dns_status": "mx_ok",
       "email_dns_checked_at": "2026-11-04T22:11:16+00:00",
-      "email_dns_detail": "1 MX publiés"
+      "email_dns_detail": "1 MX publiés",
+      "sent_at": "2026-11-03",
+      "send_source": "gmail_manual_observed",
+      "gmail_message_id": "1a1a0b31a0714a24",
+      "gmail_thread_id": "1a1a0b31a0714a24",
+      "history": [
+        {
+          "at": "2026-11-03",
+          "action": "reconciled_sent_without_queue",
+          "reason": "envoi constaté dans Gmail, aucun élément correspondant en file",
+          "source": "gmail_manual_observed",
+          "gmail_message_id": "1a1a0b31a0714a24"
+        }
+      ],
+      "delivery_confirmed": false,
+      "delivery_status": "non_confirmee"
     },
     {
       "company": "BSP Auto",
@@ -439,7 +563,9 @@
       "next_action": "Surveiller réponse / rebond dans la boîte de réception",
       "email_dns_status": "mx_ok",
       "email_dns_checked_at": "2026-11-04T22:11:16+00:00",
-      "email_dns_detail": "4 MX publiés"
+      "email_dns_detail": "4 MX publiés",
+      "delivery_confirmed": false,
+      "delivery_status": "non_confirmee"
     },
     {
       "company": "Charme de l'Hêtre",
@@ -499,7 +625,9 @@
       "next_action": "Surveiller réponse / rebond dans la boîte de réception",
       "email_dns_status": "mx_ok",
       "email_dns_checked_at": "2026-11-04T22:11:15+00:00",
-      "email_dns_detail": "5 MX publiés"
+      "email_dns_detail": "5 MX publiés",
+      "delivery_confirmed": false,
+      "delivery_status": "non_confirmee"
     },
     {
       "company": "Carot's",
@@ -1183,7 +1311,9 @@
       "next_action": "Surveiller réponse / rebond dans la boîte de réception",
       "email_dns_status": "mx_ok",
       "email_dns_checked_at": "2026-11-04T22:11:16+00:00",
-      "email_dns_detail": "3 MX publiés"
+      "email_dns_detail": "3 MX publiés",
+      "delivery_confirmed": false,
+      "delivery_status": "non_confirmee"
     },
     {
       "company": "Restaurant La Renardière",
@@ -1250,7 +1380,9 @@
       "next_action": "Surveiller réponse / rebond dans la boîte de réception",
       "email_dns_status": "mx_ok",
       "email_dns_checked_at": "2026-11-04T22:11:15+00:00",
-      "email_dns_detail": "5 MX publiés"
+      "email_dns_detail": "5 MX publiés",
+      "delivery_confirmed": false,
+      "delivery_status": "non_confirmee"
     },
     {
       "company": "Restaurant Les Santons",
@@ -1310,7 +1442,9 @@
       "next_action": "Surveiller réponse / rebond dans la boîte de réception",
       "email_dns_status": "mx_ok",
       "email_dns_checked_at": "2026-11-04T22:11:15+00:00",
-      "email_dns_detail": "5 MX publiés"
+      "email_dns_detail": "5 MX publiés",
+      "delivery_confirmed": false,
+      "delivery_status": "non_confirmee"
     },
     {
       "company": "Centre Équestre de la Renarde",
@@ -1477,7 +1611,9 @@
       "next_action": "Surveiller réponse / rebond dans la boîte de réception",
       "email_dns_status": "mx_ok",
       "email_dns_checked_at": "2026-11-04T22:11:17+00:00",
-      "email_dns_detail": "5 MX publiés"
+      "email_dns_detail": "5 MX publiés",
+      "delivery_confirmed": false,
+      "delivery_status": "non_confirmee"
     },
     {
       "company": "Domaine Courbin Héritage",
@@ -1545,7 +1681,9 @@
       "next_action": "Surveiller réponse / rebond dans la boîte de réception",
       "email_dns_status": "mx_ok",
       "email_dns_checked_at": "2026-11-04T22:11:16+00:00",
-      "email_dns_detail": "2 MX publiés"
+      "email_dns_detail": "2 MX publiés",
+      "delivery_confirmed": false,
+      "delivery_status": "non_confirmee"
     },
     {
       "company": "iTelecom",
@@ -1606,7 +1744,9 @@
       "next_action": "Surveiller réponse / rebond dans la boîte de réception",
       "email_dns_status": "mx_ok",
       "email_dns_checked_at": "2026-11-04T22:11:17+00:00",
-      "email_dns_detail": "1 MX publiés"
+      "email_dns_detail": "1 MX publiés",
+      "delivery_confirmed": false,
+      "delivery_status": "non_confirmee"
     },
     {
       "company": "K6 Pension",
@@ -1673,7 +1813,9 @@
       "next_action": "Surveiller réponse / rebond dans la boîte de réception",
       "email_dns_status": "mx_ok",
       "email_dns_checked_at": "2026-11-04T22:11:17+00:00",
-      "email_dns_detail": "2 MX publiés"
+      "email_dns_detail": "2 MX publiés",
+      "delivery_confirmed": false,
+      "delivery_status": "non_confirmee"
     },
     {
       "company": "Séverine Lesourd — Pension & Éducation Canine",
@@ -1827,7 +1969,9 @@
       "next_action": "Surveiller réponse / rebond dans la boîte de réception",
       "email_dns_status": "mx_ok",
       "email_dns_checked_at": "2026-11-04T22:11:15+00:00",
-      "email_dns_detail": "5 MX publiés"
+      "email_dns_detail": "5 MX publiés",
+      "delivery_confirmed": false,
+      "delivery_status": "non_confirmee"
     },
     {
       "company": "Base nautique de Picquigny",
@@ -1894,7 +2038,9 @@
       "next_action": "Surveiller réponse / rebond dans la boîte de réception",
       "email_dns_status": "mx_ok",
       "email_dns_checked_at": "2026-11-04T22:11:15+00:00",
-      "email_dns_detail": "5 MX publiés"
+      "email_dns_detail": "5 MX publiés",
+      "delivery_confirmed": false,
+      "delivery_status": "non_confirmee"
     },
     {
       "company": "Brasserie VDL",
@@ -1961,7 +2107,9 @@
       "next_action": "Surveiller réponse / rebond dans la boîte de réception",
       "email_dns_status": "mx_ok",
       "email_dns_checked_at": "2026-11-04T22:11:15+00:00",
-      "email_dns_detail": "5 MX publiés"
+      "email_dns_detail": "5 MX publiés",
+      "delivery_confirmed": false,
+      "delivery_status": "non_confirmee"
     },
     {
       "company": "Dance Center",
@@ -2028,7 +2176,9 @@
       "next_action": "Surveiller réponse / rebond dans la boîte de réception",
       "email_dns_status": "mx_ok",
       "email_dns_checked_at": "2026-11-04T22:11:17+00:00",
-      "email_dns_detail": "2 MX publiés"
+      "email_dns_detail": "2 MX publiés",
+      "delivery_confirmed": false,
+      "delivery_status": "non_confirmee"
     },
     {
       "company": "SAM31",
@@ -2095,7 +2245,9 @@
       "next_action": "Surveiller réponse / rebond dans la boîte de réception",
       "email_dns_status": "mx_ok",
       "email_dns_checked_at": "2026-11-04T22:11:17+00:00",
-      "email_dns_detail": "1 MX publiés"
+      "email_dns_detail": "1 MX publiés",
+      "delivery_confirmed": false,
+      "delivery_status": "non_confirmee"
     },
     {
       "company": "La Bruchoise / Casa Blu",
@@ -2162,7 +2314,9 @@
       "next_action": "Surveiller réponse / rebond dans la boîte de réception",
       "email_dns_status": "mx_ok",
       "email_dns_checked_at": "2026-11-04T22:11:17+00:00",
-      "email_dns_detail": "1 MX publiés"
+      "email_dns_detail": "1 MX publiés",
+      "delivery_confirmed": false,
+      "delivery_status": "non_confirmee"
     },
     {
       "company": "L'Occidentale",
@@ -2229,7 +2383,9 @@
       "next_action": "Surveiller réponse / rebond dans la boîte de réception",
       "email_dns_status": "mx_ok",
       "email_dns_checked_at": "2026-11-04T22:11:15+00:00",
-      "email_dns_detail": "5 MX publiés"
+      "email_dns_detail": "5 MX publiés",
+      "delivery_confirmed": false,
+      "delivery_status": "non_confirmee"
     },
     {
       "company": "Restaurant Le Canotier",
@@ -2300,7 +2456,9 @@
       "sent_at": "2026-11-05T14:33:59+01:00",
       "send_source": "gmail_manual_observed",
       "gmail_message_id": "1a1abea92f5deeb5",
-      "gmail_thread_id": "1a1a88213eecaf88"
+      "gmail_thread_id": "1a1a88213eecaf88",
+      "delivery_confirmed": false,
+      "delivery_status": "non_confirmee"
     },
     {
       "company": "Boucherie Florian",
@@ -2371,7 +2529,9 @@
       "sent_at": "2026-11-05T14:34:05+01:00",
       "send_source": "gmail_manual_observed",
       "gmail_message_id": "1a1abeaaa946dee4",
-      "gmail_thread_id": "1a1a8821c8ef90ce"
+      "gmail_thread_id": "1a1a8821c8ef90ce",
+      "delivery_confirmed": false,
+      "delivery_status": "non_confirmee"
     },
     {
       "company": "La Fromagerie Les 2 Alpes",
@@ -2442,7 +2602,9 @@
       "sent_at": "2026-11-05T14:34:08+01:00",
       "send_source": "gmail_manual_observed",
       "gmail_message_id": "1a1abeab49495c8d",
-      "gmail_thread_id": "1a1a88228557fb2b"
+      "gmail_thread_id": "1a1a88228557fb2b",
+      "delivery_confirmed": false,
+      "delivery_status": "non_confirmee"
     },
     {
       "company": "Fromagerie et Baratte",
@@ -2512,7 +2674,9 @@
       "sent_at": "2026-11-05T14:34:11+01:00",
       "send_source": "gmail_manual_observed",
       "gmail_message_id": "1a1abeac1d8f4959",
-      "gmail_thread_id": "1a1a8823259b1c20"
+      "gmail_thread_id": "1a1a8823259b1c20",
+      "delivery_confirmed": false,
+      "delivery_status": "non_confirmee"
     },
     {
       "company": "La Chocolatisserie",
@@ -2582,7 +2746,9 @@
       "sent_at": "2026-11-05T14:34:16+01:00",
       "send_source": "gmail_manual_observed",
       "gmail_message_id": "1a1abead77825981",
-      "gmail_thread_id": "1a1a8823ee55033a"
+      "gmail_thread_id": "1a1a8823ee55033a",
+      "delivery_confirmed": false,
+      "delivery_status": "non_confirmee"
     },
     {
       "company": "Matproloc",
@@ -2652,7 +2818,9 @@
       "sent_at": "2026-11-05T14:34:14+01:00",
       "send_source": "gmail_manual_observed",
       "gmail_message_id": "1a1abeacf5ccb9d8",
-      "gmail_thread_id": "1a1a8824882f6fd8"
+      "gmail_thread_id": "1a1a8824882f6fd8",
+      "delivery_confirmed": false,
+      "delivery_status": "non_confirmee"
     },
     {
       "company": "Allo'cation",
@@ -2722,7 +2890,9 @@
       "sent_at": "2026-11-05T14:34:18+01:00",
       "send_source": "gmail_manual_observed",
       "gmail_message_id": "1a1abeadfb545730",
-      "gmail_thread_id": "1a1a88256f90d24e"
+      "gmail_thread_id": "1a1a88256f90d24e",
+      "delivery_confirmed": false,
+      "delivery_status": "non_confirmee"
     },
     {
       "company": "Restaurant Goudale Orchies",
@@ -2792,7 +2962,9 @@
       "sent_at": "2026-11-05T14:34:20+01:00",
       "send_source": "gmail_manual_observed",
       "gmail_message_id": "1a1abeae419d880a",
-      "gmail_thread_id": "1a1a88262fb1f478"
+      "gmail_thread_id": "1a1a88262fb1f478",
+      "delivery_confirmed": false,
+      "delivery_status": "non_confirmee"
     },
     {
       "company": "ATOMER",
@@ -2906,7 +3078,9 @@
       "email_dns_checked_at": "2026-11-04T22:11:18+00:00",
       "email_dns_detail": "1 MX publiés",
       "sent_at": "2026-11-05T14:34:22+01:00",
-      "send_source": "gmail_manual_observed"
+      "send_source": "gmail_manual_observed",
+      "delivery_confirmed": false,
+      "delivery_status": "non_confirmee"
     },
     {
       "company": "NETTOYAGE INDUSTRIEL",
@@ -3020,7 +3194,9 @@
       "email_dns_checked_at": "2026-11-04T22:11:18+00:00",
       "email_dns_detail": "2 MX publiés",
       "sent_at": "2026-11-05T14:34:24+01:00",
-      "send_source": "gmail_manual_observed"
+      "send_source": "gmail_manual_observed",
+      "delivery_confirmed": false,
+      "delivery_status": "non_confirmee"
     },
     {
       "company": "Vignerons et Caviste",
@@ -3127,7 +3303,9 @@
       "email_dns_checked_at": "2026-11-04T22:11:15+00:00",
       "email_dns_detail": "5 MX publiés",
       "sent_at": "2026-11-05T14:34:27+01:00",
-      "send_source": "gmail_manual_observed"
+      "send_source": "gmail_manual_observed",
+      "delivery_confirmed": false,
+      "delivery_status": "non_confirmee"
     },
     {
       "company": "La Caviste",
@@ -3234,7 +3412,9 @@
       "email_dns_checked_at": "2026-11-04T22:11:18+00:00",
       "email_dns_detail": "1 MX publiés",
       "sent_at": "2026-11-05T14:34:30+01:00",
-      "send_source": "gmail_manual_observed"
+      "send_source": "gmail_manual_observed",
+      "delivery_confirmed": false,
+      "delivery_status": "non_confirmee"
     },
     {
       "company": "ALPHA MECANIQUE",
@@ -3283,7 +3463,7 @@
       "lot": "2026-11-04-lot5",
       "discovered_at": "2026-11-04",
       "email_status": "envoyé",
-      "next_action": "Surveiller réponse, accusé ou rebond dans la boîte de réception",
+      "next_action": "Délivrance bloquée par un challenge Mailinblack — décision utilisateur requise, aucune validation automatique.",
       "scores": {
         "site_web": {
           "axis": "site_web",
@@ -3323,7 +3503,7 @@
       "status": "contacté",
       "id": "alpha-mecanique",
       "created_at": "2026-11-04T22:08:05+00:00",
-      "updated_at": "2026-11-04T22:08:42+00:00",
+      "updated_at": "2026-11-06T15:07:08+00:00",
       "campaign": "2026-11-04-lot5",
       "variant": "synatrap_ia",
       "reference_id": "synatrap",
@@ -3340,7 +3520,17 @@
       "email_dns_checked_at": "2026-11-04T22:11:18+00:00",
       "email_dns_detail": "2 MX publiés",
       "sent_at": "2026-11-05T14:34:32+01:00",
-      "send_source": "gmail_manual_observed"
+      "send_source": "gmail_manual_observed",
+      "delivery_status": "challenge_en_attente",
+      "delivery_confirmed": false,
+      "delivery_note": "Invitation Mailinblack reçue le 5 novembre : message retenu en quarantaine côté destinataire tant que l'expéditeur n'est pas confirmé. Délivrance NON acquise.",
+      "history": [
+        {
+          "at": "2026-11-06T15:07:08+00:00",
+          "action": "delivery_challenge_detected",
+          "message_id": "1a1abeb8ee41cbb7"
+        }
+      ]
     },
     {
       "company": "SARL Ambulances Sainte-Marie",
@@ -3446,7 +3636,9 @@
       "email_dns_checked_at": "2026-11-04T22:11:15+00:00",
       "email_dns_detail": "5 MX publiés",
       "sent_at": "2026-11-05T14:34:35+01:00",
-      "send_source": "gmail_manual_observed"
+      "send_source": "gmail_manual_observed",
+      "delivery_confirmed": false,
+      "delivery_status": "non_confirmee"
     },
     {
       "company": "Blanchisserie des 3 Régions (B3R)",
@@ -4873,6 +5065,567 @@
       "gmail_label_id": "Label_5",
       "draft_updated_at": "2026-11-06T13:44:50+00:00",
       "draft_created_at": "2026-11-06T13:44:50+00:00"
+    },
+    {
+      "company": "Pépinières Ripaud",
+      "website": "https://www.ripaudpepinieres.com/",
+      "domain": "ripaudpepinieres.com",
+      "sector": "Pépinière de production — vente aux professionnels du paysage",
+      "city": "La Tardière",
+      "department": "85",
+      "contact_name": "",
+      "contact_role": "",
+      "email": "info@ripaudpepinieres.com",
+      "phone": "02 51 69 64 08",
+      "source": "",
+      "evidence": [
+        {
+          "kind": "processus_manuel",
+          "source_url": "https://www.ripaudpepinieres.com/content/17-la-pepiniere",
+          "quote": "Si vous êtes un nouveau client, merci de nous adresser votre extrait k-bis et la fiche d'ouverture de compte complétée.",
+          "observed_at": "2026-11-06",
+          "detail": "L'ouverture d'un compte professionnel passe par l'envoi de documents, sans dépôt en ligne."
+        },
+        {
+          "kind": "processus_manuel",
+          "source_url": "https://www.ripaudpepinieres.com/content/17-la-pepiniere",
+          "quote": "Vous pouvez envoyer votre commande à info@ripaudpepinieres.com en précisant le nom des végétaux, le conditionnement, la taille et la quantité.",
+          "observed_at": "2026-11-06",
+          "detail": "La commande professionnelle est un e-mail en texte libre comportant quatre informations obligatoires."
+        },
+        {
+          "kind": "parcours_incomplet",
+          "source_url": "https://www.ripaudpepinieres.com/content/17-la-pepiniere",
+          "quote": "Téléchargez notre catalogue",
+          "observed_at": "2026-11-06",
+          "detail": "Le catalogue lié est « catalogue-ripaud-2026-2027-sans-prix.pdf » : le professionnel consulte un PDF sans tarif puis écrit pour être chiffré."
+        }
+      ],
+      "publication_date": "",
+      "need": "automatisation",
+      "needs": [
+        "automatisation"
+      ],
+      "recommended_service": "un espace professionnel qui collecte le K-bis, contrôle chaque ligne de commande et la transmet prête à chiffrer",
+      "email_verification": "public_unverified",
+      "score": 80,
+      "tier": "haute",
+      "status_crm": "qualified",
+      "justification": "processus manuel documenté (+50) : https://www.ripaudpepinieres.com/content/17-la-pepiniere ; parcours client incomplet (+30) : https://www.ripaudpepinieres.com/content/17-la-pepiniere",
+      "process_hint": "ouverture de compte professionnelle sur envoi d'un K-bis et d'une fiche papier ; commandes transmises par e-mail en texte libre ; catalogue PDF diffusé sans prix",
+      "demo_detail": "démo d'une commande pro saisie en ligne, K-bis joint et lignes contrôlées",
+      "custom_hook": "Votre page « La pépinière » demande aux nouveaux clients professionnels un extrait K-bis et une fiche d'ouverture de compte.",
+      "custom_subject": "Commandes pro Ripaud : le K-bis avant le premier chiffrage",
+      "notes": "Lot 8. Production au Plessis Robineau, 85120 La Tardière ; point de vente 3 route de Mouilleron-en-Pareds, 85390 Cheffois. Plus de 100 hectares, environ 2 millions de plantes, certifiée depuis 2014. Le côté particuliers est déjà outillé (paiement 3D Secure, retrait, franco de port) : l'opportunité ne porte donc PAS sur une création de site mais sur le parcours professionnel, resté au e-mail. La FAQ cite « Amandine et Damien » puis Marc-Henri Doyon (2022) sans fonction explicite : aucun nom n'est utilisé dans le message, faute de rôle vérifié. Angle distinct de Bonbon Foliz (lot 7), qui portait sur un minimum de commande et un bon de commande.",
+      "lot": "campagne-2026-11-06-lot8",
+      "discovered_at": "",
+      "email_status": "brouillon_créé",
+      "next_action": "Brouillon en attente de validation manuelle. Aucun envoi tant que le pré-vol reste bloqué.",
+      "scores": {
+        "site_web": {
+          "axis": "site_web",
+          "score": 5,
+          "level": "faible",
+          "reasons": [
+            "un site est déjà en ligne : pas de création à proprement parler",
+            "aucune preuve directe sur cet axe : score volontairement bas"
+          ]
+        },
+        "refonte": {
+          "axis": "refonte",
+          "score": 45,
+          "level": "moyen",
+          "reasons": [
+            "site existant à moderniser",
+            "+40 parcours_incomplet : « Téléchargez notre catalogue » (https://www.ripaudpepinieres.com/content/17-la-pepiniere)"
+          ]
+        },
+        "ia_automatisation": {
+          "axis": "ia_automatisation",
+          "score": 100,
+          "level": "fort",
+          "reasons": [
+            "processus concret observé : ouverture de compte professionnelle sur envoi d'un K-bis et d'une fiche papier ; commandes transmises par e-mail en text",
+            "+60 processus_manuel : « Si vous êtes un nouveau client, merci de nous adresser votre extrait k-bis et la fiche d'ouverture de compt… » (https://www.ripaudpepinieres.com/content/17-la-pepiniere)",
+            "+60 processus_manuel : « Vous pouvez envoyer votre commande à info@ripaudpepinieres.com en précisant le nom des végétaux, le conditi… » (https://www.ripaudpepinieres.com/content/17-la-pepiniere)"
+          ]
+        },
+        "priority": "moyenne",
+        "best_axis": "ia_automatisation"
+      },
+      "commercial_priority": "moyenne",
+      "email_dns_status": "mx_ok",
+      "phone_verification": "verified",
+      "contact_name_source": "https://www.ripaudpepinieres.com/content/24-foire-aux-questions",
+      "status": "brouillon_créé",
+      "id": "p-pini-res-ripaud",
+      "created_at": "2026-11-06T15:12:00+00:00",
+      "updated_at": "2026-11-06T15:16:00+00:00",
+      "email_dns_checked_at": "2026-11-06T15:12:00+00:00",
+      "email_dns_detail": "1 MX publiés",
+      "campaign": "campagne-2026-11-06-lot8",
+      "source_lot": "lot8",
+      "contactability": "non_contactable",
+      "gmail_draft_id": "r-5172376794852333002",
+      "gmail_message_id": "1a1b16dee5899e57",
+      "gmail_thread_id": "1a1b16dee5899e57",
+      "gmail_label": "Prospection/2026-11-06-lot8",
+      "message_version": "v6",
+      "history": [
+        {
+          "at": "2026-11-06T15:16:00+00:00",
+          "action": "draft_created",
+          "gmail_draft_id": "r-5172376794852333002"
+        }
+      ]
+    },
+    {
+      "company": "Le Centre Formation",
+      "website": "https://www.le-centre-formation.fr/",
+      "domain": "le-centre-formation.fr",
+      "sector": "Organisme de formation professionnelle — CACES, habilitations, sécurité",
+      "city": "Saint-Quentin-Fallavier",
+      "department": "38",
+      "contact_name": "",
+      "contact_role": "",
+      "email": "formation@lecentreformation.fr",
+      "phone": "04 78 90 60 22",
+      "source": "",
+      "evidence": [
+        {
+          "kind": "processus_manuel",
+          "source_url": "https://www.le-centre-formation.fr/2025-12-19/nos-formations-caces-sont-disponibles-sur-mon-compte-formation-cpf/",
+          "quote": "Nous vous envoyons un lien par e-mail, adapté à votre profil, pour créer votre dossier sur Mon Compte Formation.",
+          "observed_at": "2026-11-06",
+          "detail": "Le lien CPF est choisi et envoyé par une personne, après examen du profil du demandeur."
+        },
+        {
+          "kind": "processus_manuel",
+          "source_url": "https://www.le-centre-formation.fr/2025-12-19/nos-formations-caces-sont-disponibles-sur-mon-compte-formation-cpf/",
+          "quote": "Une fois votre dossier réceptionné, Le Centre Formation vous contacte pour fixer ensemble les dates.",
+          "observed_at": "2026-11-06",
+          "detail": "La planification des sessions se fait par rappel téléphonique, centre par centre."
+        },
+        {
+          "kind": "sector_opportunity",
+          "source_url": "https://www.le-centre-formation.fr/2025-12-19/nos-formations-caces-sont-disponibles-sur-mon-compte-formation-cpf/",
+          "quote": "Saint-Quentin-Fallavier, Tossiat, Aubière, Chassieu",
+          "observed_at": "2026-11-06",
+          "detail": "Quatre sites de formation impliquent d'affecter chaque demande au bon centre et à la bonne session."
+        }
+      ],
+      "publication_date": "",
+      "need": "automatisation",
+      "needs": [
+        "automatisation"
+      ],
+      "recommended_service": "un parcours qui qualifie le profil, prépare le lien adapté et propose les créneaux du bon centre",
+      "email_verification": "public_unverified",
+      "score": 60,
+      "tier": "haute",
+      "status_crm": "qualified",
+      "justification": "processus manuel documenté (+50) : https://www.le-centre-formation.fr/2025-12-19/nos-formations-caces-sont-disponibles-sur-mon-compte-formation-cpf/ ; opportunité sectorielle documentée (+10)",
+      "process_hint": "envoi manuel d'un lien Mon Compte Formation adapté au profil de chaque demandeur ; réception du dossier ; rappel téléphonique pour fixer les dates ; quatre centres à répartir",
+      "demo_detail": "démo d'une demande CPF devenant dossier complet, avec créneau proposé sur le centre le plus proche",
+      "custom_hook": "Votre article du 19 décembre explique que vous envoyez à chaque stagiaire un lien Mon Compte Formation adapté à son profil.",
+      "custom_subject": "Dossiers CPF : un lien par profil, puis les dates à caler",
+      "notes": "Lot 8. Organisme certifié Qualiopi, quatre centres : Saint-Quentin-Fallavier (38), Tossiat (01), Aubière (63), Chassieu (69). Le siège social n'est pas publié : le département 38 est renseigné d'après le premier centre listé, sans affirmation sur le siège. L'organisme dispose DÉJÀ d'un devis en ligne : ne pas proposer de formulaire de devis. L'auteur de l'article est l.cachat@lecentreformation.fr, mais ni le nom complet ni la fonction ne sont publiés : contact_name laissé vide, message adressé à l'entreprise. Le domaine du site (le-centre-formation.fr) diffère de celui des adresses e-mail (lecentreformation.fr) : le contrôle MX porte sur le second.",
+      "lot": "campagne-2026-11-06-lot8",
+      "discovered_at": "",
+      "email_status": "brouillon_créé",
+      "next_action": "Brouillon en attente de validation manuelle. Aucun envoi tant que le pré-vol reste bloqué.",
+      "scores": {
+        "site_web": {
+          "axis": "site_web",
+          "score": 5,
+          "level": "faible",
+          "reasons": [
+            "un site est déjà en ligne : pas de création à proprement parler",
+            "aucune preuve directe sur cet axe : score volontairement bas"
+          ]
+        },
+        "refonte": {
+          "axis": "refonte",
+          "score": 5,
+          "level": "faible",
+          "reasons": [
+            "site existant à moderniser",
+            "aucune preuve directe sur cet axe : score volontairement bas"
+          ]
+        },
+        "ia_automatisation": {
+          "axis": "ia_automatisation",
+          "score": 100,
+          "level": "fort",
+          "reasons": [
+            "processus concret observé : envoi manuel d'un lien Mon Compte Formation adapté au profil de chaque demandeur ; réception du dossier ; rappel télépho",
+            "+60 processus_manuel : « Nous vous envoyons un lien par e-mail, adapté à votre profil, pour créer votre dossier sur Mon Compte Forma… » (https://www.le-centre-formation.fr/2025-12-19/nos-formations-caces-sont-disponibles-sur-mon-compte-formation-cpf/)",
+            "+60 processus_manuel : « Une fois votre dossier réceptionné, Le Centre Formation vous contacte pour fixer ensemble les dates. » (https://www.le-centre-formation.fr/2025-12-19/nos-formations-caces-sont-disponibles-sur-mon-compte-formation-cpf/)"
+          ]
+        },
+        "priority": "moyenne",
+        "best_axis": "ia_automatisation"
+      },
+      "commercial_priority": "moyenne",
+      "email_dns_status": "mx_ok",
+      "phone_verification": "verified",
+      "contact_name_source": "https://www.le-centre-formation.fr/2025-12-19/nos-formations-caces-sont-disponibles-sur-mon-compte-formation-cpf/",
+      "status": "brouillon_créé",
+      "id": "le-centre-formation",
+      "created_at": "2026-11-06T15:12:00+00:00",
+      "updated_at": "2026-11-06T15:16:00+00:00",
+      "email_dns_checked_at": "2026-11-06T15:12:00+00:00",
+      "email_dns_detail": "2 MX publiés",
+      "campaign": "campagne-2026-11-06-lot8",
+      "source_lot": "lot8",
+      "contactability": "non_contactable",
+      "gmail_draft_id": "r-3781413814320777965",
+      "gmail_message_id": "1a1b16e00589e855",
+      "gmail_thread_id": "1a1b16e00589e855",
+      "gmail_label": "Prospection/2026-11-06-lot8",
+      "message_version": "v6",
+      "history": [
+        {
+          "at": "2026-11-06T15:16:00+00:00",
+          "action": "draft_created",
+          "gmail_draft_id": "r-3781413814320777965"
+        }
+      ]
+    },
+    {
+      "company": "Kévin Jenback — Couverture, zinguerie, ramonage",
+      "website": "https://www.mrjenbackprotegevotrehabitat.com/",
+      "domain": "mrjenbackprotegevotrehabitat.com",
+      "sector": "Artisan couvreur-zingueur, ramoneur et ravalement de façade",
+      "city": "Saint-Germain-des-Prés",
+      "department": "49",
+      "contact_name": "Kévin",
+      "contact_role": "Artisan couvreur-zingueur, seul à son compte (dirigeant)",
+      "email": "kjenback@gmail.com",
+      "phone": "06 16 12 55 42",
+      "source": "",
+      "evidence": [
+        {
+          "kind": "website_gap",
+          "source_url": "https://www.mrjenbackprotegevotrehabitat.com/devis-couvreur-zingueur-ramoneur-angers/",
+          "quote": "[Devis gratuit](tel:0663026447)",
+          "observed_at": "2026-11-06",
+          "detail": "Le bouton principal de la page devis appelle le 06 63 02 64 47, tandis que l'en-tête, le pied de page et la clause de rappel affichent le 06 16 12 55 42."
+        },
+        {
+          "kind": "processus_manuel",
+          "source_url": "https://www.mrjenbackprotegevotrehabitat.com/devis-couvreur-zingueur-ramoneur-angers/",
+          "quote": "Je réponds à votre devis sous 48h, si vous n'avez pas reçu ma réponse, merci de me contacter au 06 16 12 55 42.",
+          "observed_at": "2026-11-06",
+          "detail": "Le suivi de la demande repose sur le client, qui doit relancer si la réponse n'arrive pas."
+        },
+        {
+          "kind": "parcours_incomplet",
+          "source_url": "https://www.mrjenbackprotegevotrehabitat.com/devis-couvreur-zingueur-ramoneur-angers/",
+          "quote": "Merci de me notifier la prestation ou les prestations : couverture neuve, couverture rénovation, ramonage, zinguerie neuve, zinguerie réparation, nettoyage façade neuve, nettoyage façade rénovation, toiture dé-moussage, toiture hydrofuge, peinture.",
+          "observed_at": "2026-11-06",
+          "detail": "Dix prestations sont demandées dans le texte, mais le champ « Service » du formulaire n'offre que Couverture, Zinguerie, Nettoyage et Ramonage."
+        }
+      ],
+      "publication_date": "",
+      "need": "refonte",
+      "needs": [
+        "refonte",
+        "automatisation"
+      ],
+      "recommended_service": "la correction du bouton et un formulaire qui range chaque demande par prestation et par secteur",
+      "email_verification": "public_unverified",
+      "score": 105,
+      "tier": "haute",
+      "status_crm": "qualified",
+      "justification": "processus manuel documenté (+50) : https://www.mrjenbackprotegevotrehabitat.com/devis-couvreur-zingueur-ramoneur-angers/ ; parcours client incomplet (+30) : https://www.mrjenbackprotegevotrehabitat.com/devis-couvreur-zingueur-ramoneur-angers/ ; 1 lacune(s) vérifiée(s) sur le site (+20) ; prénom du contact connu (+5)",
+      "process_hint": "demandes de devis par formulaire ou téléphone ; qualification manuelle de la prestation et du secteur ; déplacement systématique avant chiffrage ; engagement de réponse sous 48 h avec rappel à la charge du client",
+      "demo_detail": "démo d'une demande de ramonage reçue, qualifiée et replacée dans votre tournée",
+      "custom_hook": "Sur votre page devis, le bouton « Devis gratuit » compose le 06 63 02 64 47, alors que le reste de la page affiche le 06 16 12 55 42.",
+      "custom_subject": "Votre bouton « Devis gratuit » compose un autre numéro",
+      "notes": "Lot 8. Trois adresses publiées : Z.A La Potherie 49170 Saint-Germain-des-Prés, route de Saumur 49490 Noyant-Villages, Les Maisons Neuves 53100 Saint-Georges-Buttavent. Intervention sur Angers et les départements 37, 44, 49, 53, 72. Treize ans d'activité, six avis Google affichés. Le formulaire existe déjà mais sa liste déroulante ne propose que quatre familles (Couverture, Zinguerie, Nettoyage, Ramonage) alors que le texte demande de préciser parmi dix prestations : la demande arrive donc incomplète. Anomalie vérifiée dans le HTML rendu : le lien « Devis gratuit » pointe vers tel:0663026447. Aucun jugement n'est porté sur l'origine de cette erreur, seule la différence de numéro est constatée.",
+      "lot": "campagne-2026-11-06-lot8",
+      "discovered_at": "",
+      "email_status": "brouillon_créé",
+      "next_action": "Brouillon en attente de validation manuelle. Aucun envoi tant que le pré-vol reste bloqué.",
+      "scores": {
+        "site_web": {
+          "axis": "site_web",
+          "score": 5,
+          "level": "faible",
+          "reasons": [
+            "un site est déjà en ligne : pas de création à proprement parler",
+            "aucune preuve directe sur cet axe : score volontairement bas"
+          ]
+        },
+        "refonte": {
+          "axis": "refonte",
+          "score": 75,
+          "level": "fort",
+          "reasons": [
+            "site existant à moderniser",
+            "+30 website_gap : « [Devis gratuit](tel:0663026447) » (https://www.mrjenbackprotegevotrehabitat.com/devis-couvreur-zingueur-ramoneur-angers/)",
+            "+40 parcours_incomplet : « Merci de me notifier la prestation ou les prestations : couverture neuve, couverture rénovation, ramonage, … » (https://www.mrjenbackprotegevotrehabitat.com/devis-couvreur-zingueur-ramoneur-angers/)"
+          ]
+        },
+        "ia_automatisation": {
+          "axis": "ia_automatisation",
+          "score": 90,
+          "level": "fort",
+          "reasons": [
+            "processus concret observé : demandes de devis par formulaire ou téléphone ; qualification manuelle de la prestation et du secteur ; déplacement syst",
+            "+60 processus_manuel : « Je réponds à votre devis sous 48h, si vous n'avez pas reçu ma réponse, merci de me contacter au 06 16 12 55… » (https://www.mrjenbackprotegevotrehabitat.com/devis-couvreur-zingueur-ramoneur-angers/)",
+            "+20 parcours_incomplet : « Merci de me notifier la prestation ou les prestations : couverture neuve, couverture rénovation, ramonage, … » (https://www.mrjenbackprotegevotrehabitat.com/devis-couvreur-zingueur-ramoneur-angers/)"
+          ]
+        },
+        "priority": "moyenne",
+        "best_axis": "ia_automatisation"
+      },
+      "commercial_priority": "moyenne",
+      "email_dns_status": "mx_ok",
+      "phone_verification": "verified",
+      "contact_name_source": "https://www.mrjenbackprotegevotrehabitat.com/devis-couvreur-zingueur-ramoneur-angers/",
+      "status": "brouillon_créé",
+      "id": "k-vin-jenback-couverture-zinguerie-ramonage",
+      "created_at": "2026-11-06T15:12:00+00:00",
+      "updated_at": "2026-11-06T15:16:00+00:00",
+      "email_dns_checked_at": "2026-11-04T22:11:15+00:00",
+      "email_dns_detail": "5 MX publiés",
+      "campaign": "campagne-2026-11-06-lot8",
+      "source_lot": "lot8",
+      "contactability": "non_contactable",
+      "gmail_draft_id": "r-59861167252265867",
+      "gmail_message_id": "1a1b16e0e43b02fa",
+      "gmail_thread_id": "1a1b16e0e43b02fa",
+      "gmail_label": "Prospection/2026-11-06-lot8",
+      "message_version": "v6",
+      "history": [
+        {
+          "at": "2026-11-06T15:16:00+00:00",
+          "action": "draft_created",
+          "gmail_draft_id": "r-59861167252265867"
+        }
+      ]
+    },
+    {
+      "company": "MSF PRO Industries",
+      "website": "https://msfpro-industries.com/",
+      "domain": "msfpro-industries.com",
+      "sector": "Négoce de fournitures industrielles — automatisme, motorisation, instrumentation",
+      "city": "Bagnolet",
+      "department": "93",
+      "contact_name": "",
+      "contact_role": "Contact commercial (boîte « Sales », intitulée « CONTACT COMMERCIAL » sur le site)",
+      "email": "sales@msfpro-industries.com",
+      "phone": "",
+      "source": "",
+      "evidence": [
+        {
+          "kind": "parcours_incomplet",
+          "source_url": "https://msfpro-industries.com/",
+          "quote": "[Demander un devis ↗](mailto:Sales@msfpro-industries.com?subject=Demande%20de%20devis)",
+          "observed_at": "2026-11-06",
+          "detail": "Le bouton de demande de devis est un lien mailto : aucun champ structuré ne collecte la référence ou la quantité."
+        },
+        {
+          "kind": "processus_manuel",
+          "source_url": "https://msfpro-industries.com/",
+          "quote": "Une référence, une photo de plaque signalétique ou un cahier des charges : donnez-nous votre point de départ.",
+          "observed_at": "2026-11-06",
+          "detail": "Le point de départ de chaque dossier est hétérogène et doit être interprété avant chiffrage."
+        },
+        {
+          "kind": "processus_manuel",
+          "source_url": "https://msfpro-industries.com/",
+          "quote": "Nous échangeons sur les caractéristiques techniques, les quantités et les contraintes de votre application.",
+          "observed_at": "2026-11-06",
+          "detail": "La qualification passe par un échange manuel avant l'émission de l'offre."
+        }
+      ],
+      "publication_date": "",
+      "need": "automatisation",
+      "needs": [
+        "automatisation"
+      ],
+      "recommended_service": "une demande guidée qui récupère la référence constructeur, la quantité et l'application avant chiffrage",
+      "email_verification": "public_unverified",
+      "score": 80,
+      "tier": "haute",
+      "status_crm": "qualified",
+      "justification": "processus manuel documenté (+50) : https://msfpro-industries.com/ ; parcours client incomplet (+30) : https://msfpro-industries.com/",
+      "process_hint": "demande de devis uniquement par e-mail ; réception d'une référence, d'une photo de plaque signalétique ou d'un cahier des charges ; échange manuel sur les caractéristiques et quantités ; offre de prix et disponibilité rédigée ensuite",
+      "demo_detail": "démo d'une référence saisie, contrôlée et transformée en demande de prix exploitable",
+      "custom_hook": "Vos deux boutons « Demander un devis » ouvrent un e-mail vers Sales, sans formulaire.",
+      "custom_subject": "Vos demandes de devis MSF PRO ouvrent toutes un e-mail",
+      "notes": "Lot 8. SASU M S F PRO, 43 rue Désiré Vienot, 93170 Bagnolet. Aucun téléphone publié sur la page d'accueil. L'adresse est publiée « Sales@msfpro-industries.com » avec une majuscule ; elle est stockée en minuscules pour le dédoublonnage. Un panier et un tunnel de commande existent déjà : l'opportunité ne porte pas sur la vente en ligne mais sur l'entrée en relation devis, entièrement en texte libre. Les visuels proviennent d'une banque d'images et les fichiers ont été déposés en octobre 2026 : site récent, aucune proposition de refonte n'est faite.",
+      "lot": "campagne-2026-11-06-lot8",
+      "discovered_at": "",
+      "email_status": "brouillon_créé",
+      "next_action": "Brouillon en attente de validation manuelle. Aucun envoi tant que le pré-vol reste bloqué.",
+      "scores": {
+        "site_web": {
+          "axis": "site_web",
+          "score": 5,
+          "level": "faible",
+          "reasons": [
+            "un site est déjà en ligne : pas de création à proprement parler",
+            "aucune preuve directe sur cet axe : score volontairement bas"
+          ]
+        },
+        "refonte": {
+          "axis": "refonte",
+          "score": 45,
+          "level": "moyen",
+          "reasons": [
+            "site existant à moderniser",
+            "+40 parcours_incomplet : « [Demander un devis ↗](mailto:Sales@msfpro-industries.com?subject=Demande%20de%20devis) » (https://msfpro-industries.com/)"
+          ]
+        },
+        "ia_automatisation": {
+          "axis": "ia_automatisation",
+          "score": 90,
+          "level": "fort",
+          "reasons": [
+            "processus concret observé : demande de devis uniquement par e-mail ; réception d'une référence, d'une photo de plaque signalétique ou d'un cahier de",
+            "+20 parcours_incomplet : « [Demander un devis ↗](mailto:Sales@msfpro-industries.com?subject=Demande%20de%20devis) » (https://msfpro-industries.com/)",
+            "+60 processus_manuel : « Une référence, une photo de plaque signalétique ou un cahier des charges : donnez-nous votre point de départ. » (https://msfpro-industries.com/)"
+          ]
+        },
+        "priority": "moyenne",
+        "best_axis": "ia_automatisation"
+      },
+      "commercial_priority": "moyenne",
+      "email_dns_status": "mx_ok",
+      "phone_verification": "non_trouve",
+      "contact_name_source": "https://msfpro-industries.com/",
+      "status": "brouillon_créé",
+      "id": "msf-pro-industries",
+      "created_at": "2026-11-06T15:12:00+00:00",
+      "updated_at": "2026-11-06T15:16:00+00:00",
+      "email_dns_checked_at": "2026-11-06T15:12:00+00:00",
+      "email_dns_detail": "3 MX publiés",
+      "campaign": "campagne-2026-11-06-lot8",
+      "source_lot": "lot8",
+      "contactability": "non_contactable",
+      "gmail_draft_id": "r4288620166161112368",
+      "gmail_message_id": "1a1b16e1bd96c27c",
+      "gmail_thread_id": "1a1b16e1bd96c27c",
+      "gmail_label": "Prospection/2026-11-06-lot8",
+      "message_version": "v6",
+      "history": [
+        {
+          "at": "2026-11-06T15:16:00+00:00",
+          "action": "draft_created",
+          "gmail_draft_id": "r4288620166161112368"
+        }
+      ]
+    },
+    {
+      "company": "Beaujolais Réception",
+      "website": "https://beaujolaisreception.fr/",
+      "domain": "beaujolaisreception.fr",
+      "sector": "Location de matériel et prestations de réception",
+      "city": "Saint-Étienne-des-Oullières",
+      "department": "69",
+      "contact_name": "Kevin CANARD",
+      "contact_role": "Gérant (directeur de la publication)",
+      "email": "",
+      "phone": "04 74 03 37 76",
+      "source": "",
+      "evidence": [
+        {
+          "kind": "processus_manuel",
+          "source_url": "https://beaujolaisreception.fr/",
+          "quote": "Indiquez les quantités… Nous vérifions ensuite leur disponibilité.",
+          "observed_at": "2026-11-06",
+          "detail": "La disponibilité du matériel est contrôlée après réception de la demande, sans calendrier consultable."
+        },
+        {
+          "kind": "processus_manuel",
+          "source_url": "https://beaujolaisreception.fr/",
+          "quote": "vérifier la disponibilité du matériel… préparer et transmettre les devis",
+          "observed_at": "2026-11-06",
+          "detail": "La politique de confidentialité décrit le traitement manuel des demandes comme finalité des données collectées."
+        },
+        {
+          "kind": "parcours_incomplet",
+          "source_url": "https://beaujolaisreception.fr/",
+          "quote": "ne propose pas la création de comptes clients",
+          "observed_at": "2026-11-06",
+          "detail": "Aucun espace client ni téléversement de fichier : chaque demande repart de zéro."
+        },
+        {
+          "kind": "public_need",
+          "source_url": "https://beaujolaisreception.fr/mentions-legales/",
+          "quote": "Directeur de la publication : Kevin CANARD, Gérant",
+          "observed_at": "2026-11-06",
+          "detail": "Identité et fonction du dirigeant vérifiées sur les mentions légales du site officiel."
+        }
+      ],
+      "publication_date": "",
+      "need": "automatisation",
+      "needs": [
+        "automatisation"
+      ],
+      "recommended_service": "un calendrier de disponibilité du matériel qui pré-remplit le devis à partir des quantités demandées",
+      "email_verification": "non_trouve",
+      "score": 0,
+      "tier": "a_approfondir",
+      "status_crm": "non_qualifie",
+      "justification": "invalide : niveau de vérification email inconnu : 'non_trouve' ; invalide : aucun email : le niveau de vérification doit être 'none'",
+      "process_hint": "demande de quantités via le formulaire ; vérification manuelle de la disponibilité du matériel ; préparation et transmission du devis ; aucun compte client ni dépôt de fichier possible",
+      "demo_detail": "",
+      "custom_hook": "",
+      "custom_subject": "",
+      "notes": "Lot 8 — PROSPECT CONSERVÉ SANS BROUILLON. EURL au capital de 45 800 EUR, 999 route du Terrier, 69460 Saint-Étienne-des-Oullières, SIREN 422 650 309. Fondée en 1999 par Pascale Canard, reprise par Kevin Canard en janvier 2025. AUCUNE adresse e-mail publique n'a été trouvée sur le site refait : seule une formulaire et le téléphone sont publiés. Conformément à la règle, aucune adresse n'est déduite du nom de domaine et aucun message n'est préparé. Piste à reprendre si une adresse professionnelle est publiée ou confirmée par téléphone. Ne pas confondre avec CLS (Chantilly), également en location de réception mais écarté car déjà équipé d'un formulaire de devis qualifié.",
+      "lot": "campagne-2026-11-06-lot8",
+      "discovered_at": "",
+      "email_status": "aucune_adresse_publique",
+      "next_action": "Aucune adresse e-mail publique : ne pas préparer de message. Vérifier par téléphone ou attendre une publication.",
+      "scores": {
+        "site_web": {
+          "axis": "site_web",
+          "score": 5,
+          "level": "faible",
+          "reasons": [
+            "un site est déjà en ligne : pas de création à proprement parler",
+            "aucune preuve directe sur cet axe : score volontairement bas"
+          ]
+        },
+        "refonte": {
+          "axis": "refonte",
+          "score": 55,
+          "level": "moyen",
+          "reasons": [
+            "site existant à moderniser",
+            "+40 parcours_incomplet : « ne propose pas la création de comptes clients » (https://beaujolaisreception.fr/)",
+            "+10 public_need : « Directeur de la publication : Kevin CANARD, Gérant » (https://beaujolaisreception.fr/mentions-legales/)"
+          ]
+        },
+        "ia_automatisation": {
+          "axis": "ia_automatisation",
+          "score": 100,
+          "level": "fort",
+          "reasons": [
+            "processus concret observé : demande de quantités via le formulaire ; vérification manuelle de la disponibilité du matériel ; préparation et transmis",
+            "+60 processus_manuel : « Indiquez les quantités… Nous vérifions ensuite leur disponibilité. » (https://beaujolaisreception.fr/)",
+            "+60 processus_manuel : « vérifier la disponibilité du matériel… préparer et transmettre les devis » (https://beaujolaisreception.fr/)"
+          ]
+        },
+        "priority": "a_approfondir",
+        "best_axis": "ia_automatisation"
+      },
+      "commercial_priority": "a_approfondir",
+      "email_dns_status": "",
+      "phone_verification": "verified",
+      "contact_name_source": "https://beaujolaisreception.fr/mentions-legales/",
+      "status": "nouveau",
+      "id": "beaujolais-r-ception",
+      "created_at": "2026-11-06T15:12:00+00:00",
+      "updated_at": "2026-11-06T15:12:22+00:00",
+      "campaign": "campagne-2026-11-06-lot8",
+      "source_lot": "lot8",
+      "contactability": "non_contactable"
     }
   ]
 }

@@ -28,6 +28,11 @@ RECONCILE_PATH = config.DATA_DIR / "history" / "reconciliations.json"
 
 OBSERVED_SOURCE = "gmail_manual_observed"
 
+# Statuts qu'une réconciliation ne doit jamais rétrograder.
+ADVANCED_STATUSES = ("opposition", "rebond", "refus", "réponse_recue",
+                     "réponse_positive", "demande_info", "demande_rdv",
+                     "auto_reply", "suspendu")
+
 
 def _now() -> str:
     return datetime.now(timezone.utc).isoformat(timespec="seconds")
@@ -37,6 +42,11 @@ def _now() -> str:
 class ReconcileResult:
     matched: int = 0
     already_sent: int = 0
+    # Audit du 7 novembre : 8 envois du 3 novembre n'avaient AUCUN élément en
+    # file (ils précèdent l'agent). L'ancien code les classait « non rapprochés »
+    # et ne les enregistrait nulle part : le journal sous-comptait durablement.
+    # Ils sont désormais constatés au journal et au CRM, sans inventer de file.
+    recorded_without_queue: int = 0
     unmatched: list[str] = field(default_factory=list)
     updated_companies: list[str] = field(default_factory=list)
 
@@ -73,7 +83,47 @@ def reconcile_sent(observed: Iterable[dict[str, Any]], crm: Any, queue: Any,
                     item = candidate
                     break
         if item is None:
-            result.unmatched.append(f"{to} — {subject}")
+            # Envoi réel constaté dans Gmail mais absent de la file : on le
+            # comptabilise quand même (journal + CRM), sinon il reste invisible.
+            record = None
+            for rec in crm.records:
+                if (rec.get("email") or "").strip().lower() == to:
+                    record = rec
+                    break
+            known = send_log is not None and any(
+                (e.get("to") or "").lower() == to and
+                (e.get("subject") or "") == subject for e in send_log.entries)
+            if record is None:
+                # Destinataire inconnu du CRM : on le signale quand même, tout en
+                # journalisant l'envoi réellement constaté dans Gmail.
+                result.unmatched.append(f"{to} — {subject}")
+                if send_log is None:
+                    continue
+            if record is not None:
+                if record.get("status") not in ADVANCED_STATUSES:
+                    record["status"] = "contacté"
+                if record.get("email_status") in (None, "", "brouillon_créé",
+                                                  "en_attente_validation", "non_contacté"):
+                    record["email_status"] = "envoyé"
+                record["sent_at"] = record.get("sent_at") or obs.get("sent_at") or stamp
+                record["send_source"] = OBSERVED_SOURCE
+                if msg_id:
+                    record["gmail_message_id"] = msg_id
+                if obs.get("gmail_thread_id"):
+                    record["gmail_thread_id"] = obs["gmail_thread_id"]
+                record.setdefault("history", []).append({
+                    "at": stamp, "action": "reconciled_sent_without_queue",
+                    "reason": "envoi constaté dans Gmail, aucun élément correspondant en file",
+                    "source": OBSERVED_SOURCE, "gmail_message_id": msg_id})
+                result.updated_companies.append(record.get("company", to))
+            if send_log is not None and not known:
+                send_log.record(to=to, subject=subject,
+                                company=(record or {}).get("company", ""),
+                                campaign=(record or {}).get("campaign", ""), status="sent",
+                                gmail_message_id=msg_id, source=OBSERVED_SOURCE,
+                                at=obs.get("sent_at") or stamp)
+            if not known:
+                result.recorded_without_queue += 1
             continue
 
         if item.status == "sent":
@@ -101,9 +151,7 @@ def reconcile_sent(observed: Iterable[dict[str, Any]], crm: Any, queue: Any,
                 break
         if record is not None:
             # Ne jamais rétrograder un statut plus avancé (réponse, opposition, rebond).
-            if record.get("status") not in ("opposition", "rebond", "refus", "réponse_recue",
-                                            "réponse_positive", "demande_info", "demande_rdv",
-                                            "auto_reply"):
+            if record.get("status") not in ADVANCED_STATUSES:
                 record["status"] = "contacté"
             record["email_status"] = record.get("email_status") or "envoyé"
             if record.get("email_status") in ("brouillon_créé", "en_attente_validation", "non_contacté"):

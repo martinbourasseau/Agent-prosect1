@@ -1,0 +1,64 @@
+{
+  "updated_at": "2026-11-06T13:01:55+00:00",
+  "count": 4,
+  "findings": [
+    {
+      "message_id": "1a1a87452d7ca7c0",
+      "thread_id": "1a1a80998e3c956d",
+      "from_email": "mailer-daemon@googlemail.com",
+      "subject": "Delivery Status Notification (Failure)",
+      "intent": "rebond",
+      "severity": "dur",
+      "recipient": "contact@severine-lesourd.com",
+      "company": "Séverine Lesourd — Pension & Éducation Canine",
+      "matched_by": "email_exact",
+      "reason": "expéditeur démon de messagerie ou avis de non-remise explicite",
+      "observed_at": "2026-11-04T22:09:57+00:00",
+      "excerpt": "\r\n** Adresse introuvable **\r\n\r\nVotre message n'est pas parvenu à contact@severine-lesourd.com, car le domaine severine-lesourd.com est introuvable. Vérifiez qu'il ne contient pas de fautes de frappe ni d'espaces superflus, puis réessayez.\r\n\r\nCliquez ici pour en savoir plus : https://support.google.com/mail/?p=BadRcptDomain\r\n\r\nLa réponse était :\r\n\r\nDNS Error: DNS type 'mx' lookup of severine-lesour"
+    },
+    {
+      "message_id": "1a1a8773ff8d4b90",
+      "thread_id": "1a1a8773ff8d4b90",
+      "from_email": "resa@bsp-auto.com",
+      "subject": "Bsp-auto : Ticket Reçu - Votre newsletter mensuelle, en pilote automatique ?",
+      "intent": "auto_reply",
+      "severity": "",
+      "recipient": "resa@bsp-auto.com",
+      "company": "BSP Auto",
+      "matched_by": "domaine_expediteur",
+      "reason": "accusé de réception ou réponse automatique (preuve de délivrance, pas un intérêt)",
+      "observed_at": "2026-11-04T22:09:57+00:00",
+      "excerpt": "Cher client, Votre demande a bien été prise en compte par nos services. Nous vous remercions pour votre compréhension. Cordialement, L'équipe BSP-AUTO — Dear customer, Your request has been taken into account by our services. We thank you for your understanding. Yours sincerely, The BSP-AUTO team"
+    },
+    {
+      "message_id": "1a1ada77bcf46db9",
+      "thread_id": "1a1a8095e0a13794",
+      "from_email": "celarenarde@gmail.com",
+      "subject": "Re: Centre Équestre de la Renarde : automatiser les inscriptions ?",
+      "intent": "opposition",
+      "severity": "",
+      "recipient": "celarenarde@gmail.com",
+      "company": "Centre Équestre de la Renarde",
+      "matched_by": "email_exact",
+      "reason": "formulation d'opposition explicite",
+      "observed_at": "2026-11-06T13:01:55+00:00",
+      "excerpt": "Ne pas me relancer\n\nSmets Nicolas\nCentre Equestre de la Renarde\nChemin des Pourraques 83170 Brignoles\ncelarenarde@gmail.com\n0620928751",
+      "redirect_to": ""
+    },
+    {
+      "message_id": "1a1abeb70f5e925c",
+      "thread_id": "1a1abeb70f5e925c",
+      "from_email": "contact@blanchisseriedes3regions.fr",
+      "subject": "Réponse automatique : B3R : votre site affiche une page d'hébergement suspendu",
+      "intent": "auto_reply",
+      "severity": "",
+      "recipient": "contact@blanchisseriedes3regions.fr",
+      "company": "Blanchisserie des 3 Régions (B3R)",
+      "matched_by": "email_exact",
+      "reason": "accusé de réception ou réponse automatique (preuve de délivrance, pas un intérêt)",
+      "observed_at": "2026-11-06T13:01:55+00:00",
+      "excerpt": "Cette adresse va bientot disparaitre, la Blanchisserie des 3 régions a été rachetée par Gallia .Pour toute demande ou prise de contact, merci désormais d'utiliser l'adresse suivante:\nb3r@gallia28.fr\n\nBien cordialement,\n\nStéphanie",
+      "redirect_to": "b3r@gallia28.fr"
+    }
+  ]
+}

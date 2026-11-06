@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-06T13:32:46+00:00",
-  "count": 38,
+  "updated_at": "2026-11-06T15:12:00+00:00",
+  "count": 41,
   "domains": {
     "renovationpremium.com": {
       "domain": "renovationpremium.com",
@@ -389,6 +389,36 @@
         "mx3.mail.ovh.net"
       ],
       "checked_at": "2026-11-06T13:32:46+00:00",
+      "detail": "3 MX publiés"
+    },
+    "ripaudpepinieres.com": {
+      "domain": "ripaudpepinieres.com",
+      "status": "mx_ok",
+      "mx_hosts": [
+        "ripaudpepinieres-com.mail.protection.outlook.com"
+      ],
+      "checked_at": "2026-11-06T15:12:00+00:00",
+      "detail": "1 MX publiés"
+    },
+    "lecentreformation.fr": {
+      "domain": "lecentreformation.fr",
+      "status": "mx_ok",
+      "mx_hosts": [
+        "mx1.mailhop.org",
+        "mx2.mailhop.org"
+      ],
+      "checked_at": "2026-11-06T15:12:00+00:00",
+      "detail": "2 MX publiés"
+    },
+    "msfpro-industries.com": {
+      "domain": "msfpro-industries.com",
+      "status": "mx_ok",
+      "mx_hosts": [
+        "mx.zoho.com",
+        "mx2.zoho.com",
+        "mx3.zoho.com"
+      ],
+      "checked_at": "2026-11-06T15:12:00+00:00",
       "detail": "3 MX publiés"
     }
   }

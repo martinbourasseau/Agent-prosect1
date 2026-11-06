@@ -1,0 +1,267 @@
+{
+  "_note": "Lot 2 — lancement réel grande échelle. 7 nouveaux prospects contactables, régions/secteurs nouveaux (équestre, viticole, services animaliers, télécom). Emails vérifiés sur sites officiels (pages contact / mentions légales). Lacunes observables uniquement, aucun besoin inventé. Dédoublonné contre les 29 fiches CRM existantes.",
+  "prospects": [
+    {
+      "company": "Centre Équestre de la Renarde",
+      "domain": "centreequestredelarenarde.com",
+      "website": "https://www.centreequestredelarenarde.com/",
+      "contact_name": "",
+      "contact_email": "celarenarde@gmail.com",
+      "email_verification": "verified",
+      "phone": "+33 6 20 92 87 51",
+      "sector": "services",
+      "city": "Brignoles",
+      "department": "83",
+      "location": "Brignoles (83)",
+      "needs": [
+        "automatisation"
+      ],
+      "recommended_service": "l'inscription en ligne et le traitement automatique des demandes d'inscription (cours, balades, pension)",
+      "demo_detail": "un aperçu du parcours d'inscription en ligne pour votre club",
+      "process_hint": "inscriptions et demandes uniquement par téléphone ou email",
+      "source": "centreequestredelarenarde.com",
+      "publication_date": "",
+      "notes": "Site Wix avec un lien mailto de gabarit encore présent (info@monsite.fr) = défaut de qualité observable. Email public sur la page contact officielle. Centre équestre / poney club en Provence Verte.",
+      "evidences": [
+        {
+          "kind": "website_gap",
+          "source_url": "https://www.centreequestredelarenarde.com/contact-et-acc%C3%A8s",
+          "quote": "Pour toute inscription ou demande, contactez-nous au 0620928751 ou par email à celarenarde@gmail.com",
+          "observed_at": "2026-11-04",
+          "detail": "les inscriptions et demandes se font uniquement par téléphone ou email, sans inscription en ligne."
+        },
+        {
+          "kind": "sector_opportunity",
+          "source_url": "https://www.centreequestredelarenarde.com/contact-et-acc%C3%A8s",
+          "quote": "Le club se situe au cœur du Territoire Provence Verte dans le Var offrant un accès direct à des balades",
+          "observed_at": "2026-11-04",
+          "detail": "Centre équestre avec inscriptions saisonnières : un volume de demandes d'inscription à fluidifier."
+        }
+      ]
+    },
+    {
+      "company": "Domaine Roche des Bancs",
+      "domain": "rochedesbancs.com",
+      "website": "https://www.rochedesbancs.com/",
+      "contact_name": "Filippo Rebajoli",
+      "contact_email": "contact@rochedesbancs.com",
+      "email_verification": "verified",
+      "phone": "+33 6 75 91 53 01",
+      "sector": "commerce",
+      "city": "Saint-Julien-de-Civry",
+      "department": "71",
+      "location": "Saint-Julien-de-Civry (71)",
+      "needs": [
+        "automatisation"
+      ],
+      "recommended_service": "le traitement automatique des réservations de dégustation (créneaux, confirmations, rappels)",
+      "demo_detail": "un aperçu du parcours de réservation de dégustation en ligne pour votre domaine",
+      "process_hint": "dégustations sur rendez-vous, réservation obligatoire par téléphone ou email",
+      "source": "rochedesbancs.com",
+      "publication_date": "",
+      "notes": "Site Squarespace avec boutique en ligne (formule dégustation 79€) mais réservation de dégustation manuelle. Email public sur la page dégustation officielle. Caveau à Mailly (71340).",
+      "evidences": [
+        {
+          "kind": "website_gap",
+          "source_url": "https://www.rochedesbancs.com/degustation-au-domaine",
+          "quote": "sur réservation obligatoire par téléphone: 06 75 91 53 01 ou par mail : contact@rochedesbancs.com",
+          "observed_at": "2026-11-04",
+          "detail": "la réservation de dégustation se fait manuellement par téléphone ou email, alors que la formule est vendue en ligne."
+        },
+        {
+          "kind": "sector_opportunity",
+          "source_url": "https://www.rochedesbancs.com/degustation-au-domaine",
+          "quote": "Les dégustations au Domaine se font uniquement sur rendez-vous, du lundi au samedi, de 10h à 18h.",
+          "observed_at": "2026-11-04",
+          "detail": "Domaine viticole avec dégustations sur rendez-vous : créneaux à fluidifier."
+        }
+      ]
+    },
+    {
+      "company": "Domaine Courbin Héritage",
+      "domain": "domainecourbinheritage.fr",
+      "website": "https://www.domainecourbinheritage.fr/",
+      "contact_name": "Franck Courbin",
+      "contact_email": "courbin-et-fils@orange.fr",
+      "email_verification": "verified",
+      "phone": "+33 6 71 14 69 08",
+      "sector": "commerce",
+      "city": "Budos",
+      "department": "33",
+      "location": "Budos (33)",
+      "needs": [
+        "automatisation",
+        "refonte"
+      ],
+      "recommended_service": "la commande en ligne avec paiement et la confirmation automatique des rendez-vous de dégustation",
+      "demo_detail": "un aperçu du parcours de commande en ligne avec paiement pour vos vins",
+      "process_hint": "commandes par bon de commande sans paiement en ligne (chèque/virement après validation manuelle) ; dégustations sur rendez-vous par SMS ou téléphone",
+      "source": "domainecourbinheritage.fr",
+      "publication_date": "",
+      "notes": "Domaine viticole familial certifié HVE, dégustations gratuites, accueil camping-caristes. Email public dans les mentions légales officielles. SIRET 49093066600014.",
+      "evidences": [
+        {
+          "kind": "website_gap",
+          "source_url": "https://www.domainecourbinheritage.fr/bon-de-commande/",
+          "quote": "Il n'y a pas de paiement demandé sans que nous vous ayons contacté pour valider avec vous cette commande... Règlement par chèque au courrier ou virement bancaire après réception de votre facture par mail.",
+          "observed_at": "2026-11-04",
+          "detail": "les commandes passent par un bon de commande sans paiement en ligne, avec validation manuelle par téléphone/email."
+        },
+        {
+          "kind": "sector_opportunity",
+          "source_url": "https://www.domainecourbinheritage.fr/contact-domaine-viticole-courbin-heritage-budos/",
+          "quote": "La prise de rendez-vous est indispensable le week-end et recommandée en semaine par SMS ou téléphone.",
+          "observed_at": "2026-11-04",
+          "detail": "rendez-vous de dégustation gérés manuellement par SMS/téléphone."
+        }
+      ]
+    },
+    {
+      "company": "iTelecom",
+      "domain": "itelecom.pro",
+      "website": "https://www.itelecom.pro/",
+      "contact_name": "David Maigrot",
+      "contact_email": "contact@itelecom.pro",
+      "email_verification": "verified",
+      "phone": "+33 2 46 99 12 12",
+      "sector": "services",
+      "city": "Bléré",
+      "department": "37",
+      "location": "Bléré (37)",
+      "needs": [
+        "automatisation",
+        "agent_ia"
+      ],
+      "recommended_service": "un agent IA qui pré-qualifie votre fichier de prospects et réserve des rendez-vous qualifiés pour votre dirigeant",
+      "demo_detail": "une démonstration concrète de l'agent de pré-qualification et de prise de rendez-vous sur votre fichier",
+      "process_hint": "recherche un téléprospecteur B2B pour générer des rendez-vous qualifiés (fichier de 1 800 entreprises)",
+      "source": "codeur.com/projects/492342",
+      "publication_date": "2026-11-04",
+      "notes": "Opérateur télécom B2B depuis 2010 (EDEL DISTRIBUTION), gérant David Maigrot. Besoin exprimé = prospection commerciale / génération de RDV → agent de prospection SYNATRAP. Email vérifié via mentions légales officielles. RGPD et opposition déjà au cœur de leur démarche.",
+      "evidences": [
+        {
+          "kind": "public_need",
+          "source_url": "https://www.codeur.com/projects/492342",
+          "quote": "Prendre des rendez-vous qualifiés (physique) entre notre dirigeant et des décideurs d'entreprises d'Indre-et-Loire... Un fichier de plus de 1 800 entreprises déjà triées par priorité, avec le nom du dirigeant.",
+          "observed_at": "2026-11-04",
+          "detail": "besoin exprimé de prospection B2B et de génération de rendez-vous qualifiés (projet Codeur 492342, publié le 4 nov 2026)."
+        }
+      ],
+      "custom_hook": "J'ai lu votre annonce : vous cherchez à générer des rendez-vous qualifiés auprès des entreprises d'Indre-et-Loire."
+    },
+    {
+      "company": "K6 Pension",
+      "domain": "k6-pension.com",
+      "website": "https://www.k6-pension.com/",
+      "contact_name": "Dr Thierry Bedossa",
+      "contact_email": "info@myk6.fr",
+      "email_verification": "verified",
+      "phone": "+33 6 89 90 90 50",
+      "sector": "services",
+      "city": "Cuy-Saint-Fiacre",
+      "department": "76",
+      "location": "Cuy-Saint-Fiacre (76)",
+      "needs": [
+        "automatisation"
+      ],
+      "recommended_service": "le traitement automatique des pré-réservations et la confirmation des séjours (créneaux, rappels, suivi)",
+      "demo_detail": "un aperçu du parcours de pré-réservation et de confirmation en ligne pour votre pension",
+      "process_hint": "pré-réservation par formulaire mais accueil confirmé uniquement après un échange téléphonique",
+      "source": "k6-pension.com",
+      "publication_date": "",
+      "notes": "Pension canine/féline premium fondée par le vétérinaire Thierry Bedossa, domaine de 75 ha, navette depuis Paris, nouvelles par WhatsApp. Email public sur le site officiel.",
+      "evidences": [
+        {
+          "kind": "website_gap",
+          "source_url": "https://www.k6-pension.com/",
+          "quote": "le fait de remplir ce formulaire ne garantit pas l'accueil de votre animal. Il s'agit d'une pré-réservation. L'accueil de votre animal sera confirmé après un échange téléphonique avec un membre de notre équipe.",
+          "observed_at": "2026-11-04",
+          "detail": "pas de réservation en ligne directe : chaque pré-réservation exige une confirmation téléphonique manuelle."
+        },
+        {
+          "kind": "sector_opportunity",
+          "source_url": "https://www.k6-pension.com/",
+          "quote": "Notre pension K6 est ouverte 365 jours par an !",
+          "observed_at": "2026-11-04",
+          "detail": "Pension ouverte toute l'année avec navette : volume de pré-réservations et de confirmations à fluidifier."
+        }
+      ]
+    },
+    {
+      "company": "Séverine Lesourd — Pension & Éducation Canine",
+      "domain": "severine-lesourd.fr",
+      "website": "https://www.severine-lesourd.fr/",
+      "contact_name": "Séverine Lesourd",
+      "contact_email": "contact@severine-lesourd.com",
+      "email_verification": "verified",
+      "phone": "+33 6 63 90 92 67",
+      "sector": "services",
+      "city": "Trilbardou",
+      "department": "77",
+      "location": "Trilbardou (77)",
+      "needs": [
+        "automatisation"
+      ],
+      "recommended_service": "l'inscription en ligne et le traitement automatique des réservations de pension (fiches, acompte, confirmations)",
+      "demo_detail": "un aperçu du parcours d'inscription en ligne pour votre pension",
+      "process_hint": "inscription par fiche à télécharger puis à renvoyer par email, avec acompte de 20%",
+      "source": "severine-lesourd.fr",
+      "publication_date": "",
+      "notes": "Éducatrice canin comportementaliste, pension 35 places, cours + éducation + pension. Email public dans l'en-tête du site officiel.",
+      "evidences": [
+        {
+          "kind": "website_gap",
+          "source_url": "https://www.severine-lesourd.fr/pension-canine/",
+          "quote": "Merci de me faire parvenir les fiches d'inscription pension... par mail direct... a télécharger sur mon site... de régler un acompte de 20%.",
+          "observed_at": "2026-11-04",
+          "detail": "inscription par fiche à télécharger et renvoyer par email, sans réservation ni paiement en ligne."
+        },
+        {
+          "kind": "sector_opportunity",
+          "source_url": "https://www.severine-lesourd.fr/pension-canine/",
+          "quote": "La capacité d'accueil de notre pension canine est de 35 places.",
+          "observed_at": "2026-11-04",
+          "detail": "Pension de 35 places : volume d'inscriptions et de réservations à fluidifier."
+        }
+      ]
+    },
+    {
+      "company": "Centre Cynophile de Ruy",
+      "domain": "dressage38.com",
+      "website": "https://dressage38.com/",
+      "contact_name": "Jérémie Pagès",
+      "contact_email": "Jeremiepages22@gmail.com",
+      "email_verification": "verified",
+      "phone": "+33 6 48 82 26 63",
+      "sector": "services",
+      "city": "Ruy-Montceau",
+      "department": "38",
+      "location": "Ruy-Montceau (38)",
+      "needs": [
+        "automatisation"
+      ],
+      "recommended_service": "la réservation en ligne des séjours de pension et les rappels automatiques (arrivée, départ)",
+      "demo_detail": "un aperçu du parcours de réservation de pension en ligne pour votre centre",
+      "process_hint": "pension sur rendez-vous, arrivée et départ planifiés par téléphone",
+      "source": "dressage38.com",
+      "publication_date": "",
+      "notes": "Éducateur canin depuis 1999, plus de 2 700 chiens accompagnés, pension + garderie + éducation + piscines. Email public sur la page d'accueil officielle.",
+      "evidences": [
+        {
+          "kind": "website_gap",
+          "source_url": "https://dressage38.com/service/hebergement/",
+          "quote": "Contactez-nous au 06 48 82 26 63 pour planifier l'arrivée et le départ de votre chien.",
+          "observed_at": "2026-11-04",
+          "detail": "les séjours de pension se planifient par téléphone, sans réservation en ligne."
+        },
+        {
+          "kind": "sector_opportunity",
+          "source_url": "https://dressage38.com/",
+          "quote": "Pour la pension canine : Tous les jours, même les jours fériés, sur rendez-vous.",
+          "observed_at": "2026-11-04",
+          "detail": "Pension ouverte tous les jours sur rendez-vous : créneaux d'arrivée/départ à fluidifier."
+        }
+      ]
+    }
+  ]
+}

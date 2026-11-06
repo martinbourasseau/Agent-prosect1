@@ -148,9 +148,15 @@ class Sender:
         "suspendu", "suspended", "opposition", "opposed", "opposée",
         "désinscrit", "desinscrit", "unsubscribed", "bounced", "rebond",
         "complained", "plainte", "écarté", "ecarte", "exclu",
+        # Lot 8 : une fiche sans adresse publique n'est pas envoyable. Elle était
+        # scorée « fort » en automatisation et passait donc les autres filtres.
+        "non_contactable", "aucune_adresse_publique", "non_trouve", "inconnu",
     }
 
     def _is_blocked(self, record: dict) -> bool:
+        # Aucune adresse = aucun envoi possible, quel que soit le score.
+        if not str(record.get("email") or "").strip():
+            return True
         for key in ("status", "status_crm", "email_status", "contactability"):
             if str(record.get(key) or "").strip().lower() in self.BLOCKED_STATUSES:
                 return True

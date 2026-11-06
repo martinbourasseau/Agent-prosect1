@@ -204,7 +204,12 @@ function renderCards(){
     {n:co.emails_total,l:"Emails récupérés",cls:"glacier"},
     {n:co.phones,l:"Téléphones récupérés"},
     {n:(q.pending||0)+(q.approved||0)+(q.sent||0),l:"Emails préparés"},
-    {n:q.pending||0,l:"Brouillons en attente",cls:"glacier"},
+    {n:(m.pipeline||{}).brouillons??q.pending||0,l:"Brouillons Gmail en attente",cls:"glacier"},
+    {n:(m.pipeline||{}).en_attente??0,l:"Préparés sans brouillon"},
+    {n:(m.pipeline||{}).delivres_confirmes??0,l:"Délivrés confirmés",cls:"tide"},
+    {n:(m.pipeline||{}).delivrance_non_confirmee??0,l:"Délivrance non confirmée"},
+    {n:(m.pipeline||{}).challenges_delivrance??0,l:"Challenges de délivrance",cls:((m.pipeline||{}).challenges_delivrance?"bad":"")},
+    {n:(m.pipeline||{}).obsoletes??0,l:"File obsolète neutralisée"},
     {n:crm.suspended||0,l:"Suspendus (non envoyables)",cls:(crm.suspended?"bad":"")},
     {n:s.sent,l:"Emails envoyés",cls:"tide"},
     {n:(m.deliverability||{}).hard_bounces??s.bounced,l:"Rebonds durs constatés",cls:((m.deliverability||{}).hard_bounces||s.bounced)?"bad":""},
@@ -300,6 +305,27 @@ function dnsBadge(p){
   const ok=st==="mx_ok";const bad=["nxdomain","no_mx","syntaxe_invalide"].includes(st);
   return `<span class="badge ${ok?"verified":(bad?"bad":"public_unverified")}" title="contrôle DNS du domaine, pas de la boîte">${ok?"MX ok":esc(st)}</span>`;
 }
+function renderPipeline(){
+  const p=METRICS.pipeline||{};const defs=p.definitions||{};
+  const rows=[
+    ["Envoyés",p.envoyes,"envoyes"],
+    ["Délivrés confirmés",p.delivres_confirmes,"delivres_confirmes"],
+    ["Délivrance non confirmée",p.delivrance_non_confirmee,"delivrance_non_confirmee"],
+    ["Rebonds",p.rebonds,null],
+    ["Challenges de délivrance",p.challenges_delivrance,"challenges_delivrance"],
+    ["Réponses humaines",p.reponses_humaines,null],
+    ["Réponses automatiques",p.reponses_automatiques,null],
+    ["Oppositions",p.oppositions,null],
+    ["Brouillons en attente",p.brouillons,"brouillons"],
+    ["Préparés sans brouillon",p.en_attente,"en_attente"],
+  ];
+  const line=rows.map(([l,v,k])=>kv(l,(v??0)+(k&&defs[k]?` <span class="sub" title="${esc(defs[k])}">ⓘ</span>`:""))).join("");
+  const ok=p.controle_exclusif;
+  return `<div class="sub"><b>Neuf catégories</b> — délivrance : confirmés + non confirmée + rebonds + challenges = envoyés `+
+    `<span class="badge ${ok?"verified":"bad"}">${ok?"cohérent":"écart"}</span>. `+
+    `Les catégories de réponse se recouvrent (une opposition est aussi une réponse humaine) et ne s'additionnent pas. `+
+    `Suspendus : ${p.suspendus??0} · file obsolète neutralisée : ${p.obsoletes??0}.</div>`;
+}
 function renderDeliverability(){
   const d=METRICS.deliverability||{};
   document.getElementById("delivReal").innerHTML=
@@ -307,7 +333,8 @@ function renderDeliverability(){
     kv("Accusés automatiques",d.auto_replies??0)+kv("Réponses humaines",d.human_replies??0)+
     kv("Oppositions",d.opt_outs??0)+kv("Taux de rebond",(d.bounce_rate??0)+" %")+
     kv("Délivrance confirmée",d.delivery_confirmed??0)+kv("Délivrance non confirmée",d.delivery_unconfirmed??0)+
-    `<div class="sub">${esc(d.note||"")}</div>`;
+    kv("Challenges de délivrance",d.delivery_challenges??0)+
+    `<div class="sub">${esc(d.note||"")}</div>`+renderPipeline();
   const sc=METRICS.scoring||{},ax=sc.axes||{};
   const line=(k,v)=>kv(k,`fort ${v.fort||0} · moyen ${v.moyen||0} · faible ${v.faible||0}`);
   document.getElementById("scoresBox").innerHTML=

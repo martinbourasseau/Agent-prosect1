@@ -126,7 +126,7 @@ def compute_metrics() -> dict[str, Any]:
                     if rp.get("intent") in ("positive", "demande_rdv", "demande_info"):
                         b["positive"] += 1
 
-    return {
+    metrics = {
         "crm": {
             "total": len(records),
             "active": len(active),
@@ -169,6 +169,52 @@ def compute_metrics() -> dict[str, Any]:
         "by_lot": _by_lot(records, log.entries, queue),
         "scoring": _scoring_overview(records),
     }
+    metrics["pipeline"] = pipeline_categories(metrics, queue.items)
+    return metrics
+
+
+def pipeline_categories(metrics: dict[str, Any], queue_items: list[Any]) -> dict[str, Any]:
+    """Les neuf catégories demandées, sans jamais assimiler envoyé et délivré.
+
+    Les catégories de délivrance sont exclusives et se somment au nombre de
+    messages sortis. Les catégories de réponse se recouvrent volontairement
+    (une opposition est aussi une réponse humaine) et ne se somment pas.
+    """
+    d = metrics.get("deliverability", {})
+    out = int(d.get("sent", 0))
+    confirmed = int(d.get("delivery_confirmed", 0))
+    bounces = int(d.get("hard_bounces", 0)) + int(d.get("soft_bounces", 0))
+    challenges = int(d.get("delivery_challenges", 0))
+    # « draft » et « pending » désignent tous deux un message non envoyé : les
+    # ignorer séparément sous-comptait les brouillons du lot 7.
+    open_items = [i for i in queue_items
+                  if getattr(i, "status", "") in ("pending", "draft", "approved")]
+    drafts = [i for i in open_items if getattr(i, "gmail_draft_id", None)]
+    waiting = [i for i in open_items if not getattr(i, "gmail_draft_id", None)]
+    return {
+        "envoyes": out,
+        "delivres_confirmes": confirmed,
+        "delivrance_non_confirmee": max(0, out - confirmed - bounces - challenges),
+        "rebonds": bounces,
+        "challenges_delivrance": challenges,
+        "reponses_humaines": int(d.get("human_replies", 0)),
+        "reponses_automatiques": int(d.get("auto_replies", 0)),
+        "oppositions": int(d.get("opt_outs", 0)),
+        "brouillons": len(drafts),
+        "en_attente": len(waiting),
+        "suspendus": sum(1 for i in queue_items if getattr(i, "status", "") == "suspended"),
+        "obsoletes": sum(1 for i in queue_items if getattr(i, "status", "") == "obsolete"),
+        "controle_exclusif": confirmed + max(0, out - confirmed - bounces - challenges)
+                             + bounces + challenges == out,
+        "definitions": {
+            "envoyes": "messages sortis, rebonds compris : la présence dans « Envoyés » ne prouve pas la remise",
+            "delivres_confirmes": "accusé de réception ou réponse humaine rattachant le message à une entreprise",
+            "delivrance_non_confirmee": "ni preuve de remise, ni rebond, ni challenge : statut inconnu, pas « délivré »",
+            "challenges_delivrance": "message retenu par un système de vérification d'expéditeur : remise non acquise",
+            "brouillons": "éléments en file porteurs d'un brouillon Gmail, en attente de validation",
+            "en_attente": "éléments en file sans brouillon Gmail (adresse absente, suspendus, à qualifier)",
+        },
+    }
 
 
 def _deliverability(entries: list[dict], records: list[dict], audit: list[dict]) -> dict[str, Any]:
@@ -183,6 +229,7 @@ def _deliverability(entries: list[dict], records: list[dict], audit: list[dict])
     bounced_entries = [e for e in entries if e.get("status") == "bounced"]
     bounces = [f for f in audit if f.get("intent") == "rebond"]
     autos = [f for f in audit if f.get("intent") == "auto_reply"]
+    challenges = [f for f in audit if f.get("intent") == "challenge_delivrance"]
     # Une opposition est écrite par un humain : la compter seulement en
     # « oppositions » affichait 0 réponse humaine alors qu'un dirigeant avait
     # répondu. Les deux compteurs se recouvrent volontairement (mêmes messages,
@@ -190,6 +237,8 @@ def _deliverability(entries: list[dict], records: list[dict], audit: list[dict])
     humans = [f for f in audit if f.get("intent") in HUMAN_INTENTS]
     opt_outs = [f for f in audit if f.get("intent") == "opposition"]
     hard = [f for f in bounces if f.get("severity") == "dur"]
+    # Un challenge ne prouve PAS la délivrance : il signale au contraire que le
+    # message attend une validation. Il ne doit pas entrer dans « confirmed ».
     confirmed = {f.get("company") for f in autos + humans if f.get("company")}
     bounced_companies = {f.get("company") for f in bounces if f.get("company")}
     dns_blocking = [r for r in records if r.get("email_dns_status") in ("nxdomain", "no_mx", "syntaxe_invalide")]
@@ -199,6 +248,7 @@ def _deliverability(entries: list[dict], records: list[dict], audit: list[dict])
         "hard_bounces": len(hard),
         "soft_bounces": len(bounces) - len(hard),
         "auto_replies": len(autos),
+        "delivery_challenges": len(challenges),
         "human_replies": len(humans),
         "opt_outs": len(opt_outs),
         "bounce_rate": round(len(bounces) / total_sent * 100, 1) if total_sent else 0.0,

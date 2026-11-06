@@ -1,0 +1,32 @@
+{
+  "campaign": "2026-11-03-v2",
+  "strategy": "v2 — démonstration gratuite personnalisée (docs/strategie-commerciale.md)",
+  "generated_count": 2,
+  "emails": [
+    {
+      "queue_id": "2026-11-03-v2-001",
+      "to": "contact@renovationpremium.com",
+      "subject": "Une idée pour le site de R Premium ?",
+      "body": "Bonjour,\n\nJ'ai vu que vous recherchez un prestataire pour faire évoluer votre site WordPress, son référencement et votre communication digitale (annonce Codeur.com consultée le 3 novembre).\n\nJe conçois et modernise des sites web pour des entreprises comme la vôtre : mise en avant des réalisations et demande de devis simplifiée.\n\nJe vous propose de créer une première démonstration personnalisée, gratuitement et sans engagement : un aperçu visuel d'amélioration de votre page d'accueil.\n\nEst-ce que cela pourrait vous intéresser ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation web · Agents IA · Automatisation\nhttps://prospecto.website\n",
+      "company": "R Premium",
+      "need": "refonte",
+      "evidence_sources": [
+        "https://www.codeur.com/pages/appel-offre"
+      ],
+      "score": 60
+    },
+    {
+      "queue_id": "2026-11-03-v2-002",
+      "to": "secteur72fr@gmail.com",
+      "subject": "Une idée pour gagner du temps chez Secteur 72 ?",
+      "body": "Bonjour Marc,\n\nJ'ai vu que vous préparez l'ouverture de votre terrain d'airsoft en Sarthe et cherchez à développer votre communauté en ligne (annonce Codeur.com du 3 novembre).\n\nJe mets en place des automatisations qui font gagner du temps aux entreprises comme la vôtre : traitement automatique des demandes entrantes.\n\nJe vous propose de créer une première démonstration personnalisée, gratuitement et sans engagement : une illustration du processus de réservation qui pourrait être automatisé chez vous (confirmations, rappels, réponses aux questions des joueurs).\n\nEst-ce que cela pourrait vous intéresser ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation web · Agents IA · Automatisation\nhttps://prospecto.website\n",
+      "company": "Secteur 72",
+      "need": "automatisation",
+      "evidence_sources": [
+        "https://www.codeur.com/projects/492309-e-commerce-et-site-web-vitrine",
+        "https://lesecteur72.fr/"
+      ],
+      "score": 75
+    }
+  ]
+}

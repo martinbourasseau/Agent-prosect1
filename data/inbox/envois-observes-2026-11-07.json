@@ -1,0 +1,68 @@
+{
+  "source": "Gmail — in:sent \"ne pas me relancer\" before:2026/11/04 (complete=true)",
+  "collected_at": "2026-11-07",
+  "note": "8 envois réels du 3 novembre 2026, antérieurs au journal de l'agent. Les 2 auto-envois du 2 novembre vers martin.bourasseau4@gmail.com (tests de redirection) sont volontairement exclus du comptage commercial.",
+  "excluded_self_sends": [
+    "1a19e2c29bfc87a4",
+    "1a19e2abf5e3b03b"
+  ],
+  "observed": [
+    {
+      "to": "atelier@akla-architectes.com",
+      "subject": "Deux ou trois points sur le site d'Akla Architectes",
+      "gmail_message_id": "1a1a0b31a0714a24",
+      "gmail_thread_id": "1a1a0b31a0714a24",
+      "sent_at": "2026-11-03"
+    },
+    {
+      "to": "contact@thearchitectes.com",
+      "subject": "Deux ou trois points sur le site de The Architectes",
+      "gmail_message_id": "1a1a0b1b62a46fc1",
+      "gmail_thread_id": "1a1a0b1b62a46fc1",
+      "sent_at": "2026-11-03"
+    },
+    {
+      "to": "contact@quattroarchi.fr",
+      "subject": "Deux ou trois points sur le site de Quattro Architectes",
+      "gmail_message_id": "1a1a0b0513563881",
+      "gmail_thread_id": "1a1a0b0513563881",
+      "sent_at": "2026-11-03"
+    },
+    {
+      "to": "letablidumenuisier@gmail.com",
+      "subject": "Deux ou trois points sur le site de L'Etabli du Menuisier",
+      "gmail_message_id": "1a1a0aee460069d6",
+      "gmail_thread_id": "1a1a0aee460069d6",
+      "sent_at": "2026-11-03"
+    },
+    {
+      "to": "contact@superchi.fr",
+      "subject": "Deux ou trois points sur le site de Superchi Architectes",
+      "gmail_message_id": "1a1a0ad81832dfff",
+      "gmail_thread_id": "1a1a0ad81832dfff",
+      "sent_at": "2026-11-03"
+    },
+    {
+      "to": "leserrurierdacote@gmail.com",
+      "subject": "Gagner du temps sur les e-mails reçus chez Le Serrurier d'A Cote ?",
+      "gmail_message_id": "1a1a0ac1d312d06a",
+      "gmail_thread_id": "1a1a0ac1d312d06a",
+      "sent_at": "2026-11-03"
+    },
+    {
+      "to": "villedieu.automobiles@gmail.com",
+      "subject": "Gagner du temps sur les demandes entrantes chez Garage Villedieu Automobiles ?",
+      "gmail_message_id": "1a1a0aab6559d46c",
+      "gmail_thread_id": "1a1a0aab6559d46c",
+      "sent_at": "2026-11-03"
+    },
+    {
+      "to": "multitech.assistance@gmail.com",
+      "subject": "Gagner du temps sur les demandes entrantes chez Multitech Assistance ?",
+      "gmail_message_id": "1a1a0a9532c92ff8",
+      "gmail_thread_id": "1a1a0a9532c92ff8",
+      "sent_at": "2026-11-03"
+    }
+  ],
+  "observed_at": "2026-11-03"
+}

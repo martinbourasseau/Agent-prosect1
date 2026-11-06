@@ -28,6 +28,7 @@ from .references import Reference, load_references, select_reference
 from .personalization import (
     build_proposition, build_demo, pick_opener, generic_problems,
     uses_legacy_service_line, SOLUTION_TYPES, CTA_VARIANTS, LotRotation, IA_SOLUTIONS,
+    benefit_for,
 )
 
 # ---------------------------------------------------------------------------
@@ -158,6 +159,9 @@ def _proposition(prospect: Prospect, rotation: LotRotation | None = None) -> str
         base = base.rstrip(".") + " — " + tail + "."
     if base and base[-1] not in ".!?":
         base += "."
+    benefit = benefit_for(prospect)
+    if benefit:
+        base = base.rstrip(".") + " : " + benefit + "."
     return base
 
 
@@ -172,7 +176,8 @@ def _demo_phrase(prospect: Prospect, rotation: LotRotation | None = None) -> str
     """
     detail = prospect.demo_detail.strip()
     if detail:
-        return build_demo(detail, prospect.company, rotation=rotation)
+        return build_demo(detail, prospect.company, rotation=rotation,
+                          solution_type=prospect.solution_type)
     if prospect.primary_need in (NEED_AGENT_IA, NEED_AUTOMATISATION):
         return DEMO_IA_PHRASE
     return DEMO_SITE_PHRASE

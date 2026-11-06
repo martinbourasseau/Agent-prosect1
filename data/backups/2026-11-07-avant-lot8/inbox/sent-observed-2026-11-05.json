@@ -1,0 +1,112 @@
+{
+  "source": "Gmail — in:sent newer_than:4d, labels Label_2 (lot4) et Label_3 (lot5)",
+  "observed_at": "2026-11-06",
+  "note": "Envois réalisés manuellement par l'utilisateur, hors agent.",
+  "observed": [
+    {
+      "gmail_message_id": "1a1abea92f5deeb5",
+      "gmail_thread_id": "1a1a88213eecaf88",
+      "to": "contact@restaurant-lecanotier.fr",
+      "subject": "Le Canotier : réservation en ligne pour vos événements ?",
+      "sent_at": "2026-11-05T14:33:59+01:00"
+    },
+    {
+      "gmail_message_id": "1a1abeaaa946dee4",
+      "gmail_thread_id": "1a1a8821c8ef90ce",
+      "to": "contact@boucherie-florian.fr",
+      "subject": "Boucherie Florian : commandes traiteur en ligne ?",
+      "sent_at": "2026-11-05T14:34:05+01:00"
+    },
+    {
+      "gmail_message_id": "1a1abeab49495c8d",
+      "gmail_thread_id": "1a1a88228557fb2b",
+      "to": "labergere35@gmail.com",
+      "subject": "Fromagerie Les 2 Alpes : activer la commande en ligne ?",
+      "sent_at": "2026-11-05T14:34:08+01:00"
+    },
+    {
+      "gmail_message_id": "1a1abeac1d8f4959",
+      "gmail_thread_id": "1a1a8823259b1c20",
+      "to": "brigitte@fromagerieetbaratte.fr",
+      "subject": "Fromagerie et Baratte : plateaux commandables en ligne ?",
+      "sent_at": "2026-11-05T14:34:11+01:00"
+    },
+    {
+      "gmail_message_id": "1a1abeacf5ccb9d8",
+      "gmail_thread_id": "1a1a8824882f6fd8",
+      "to": "contact@matproloc.fr",
+      "subject": "Matproloc : réservation de matériel en ligne ?",
+      "sent_at": "2026-11-05T14:34:14+01:00"
+    },
+    {
+      "gmail_message_id": "1a1abead77825981",
+      "gmail_thread_id": "1a1a8823ee55033a",
+      "to": "contact@lachocolatisserie.com",
+      "subject": "La Chocolatisserie : commandes sur-mesure en ligne ?",
+      "sent_at": "2026-11-05T14:34:16+01:00"
+    },
+    {
+      "gmail_message_id": "1a1abeadfb545730",
+      "gmail_thread_id": "1a1a88256f90d24e",
+      "to": "allo-cation@wanadoo.fr",
+      "subject": "Allo'cation : automatiser les devis location ?",
+      "sent_at": "2026-11-05T14:34:18+01:00"
+    },
+    {
+      "gmail_message_id": "1a1abeae419d880a",
+      "gmail_thread_id": "1a1a88262fb1f478",
+      "to": "goudalerestaurant@gmail.com",
+      "subject": "Goudale Orchies : réservation en ligne ?",
+      "sent_at": "2026-11-05T14:34:20+01:00"
+    },
+    {
+      "gmail_message_id": "1a1abeaecbcef640",
+      "gmail_thread_id": "1a1a89d0cf0cdd0e",
+      "to": "contact@atomer.fr",
+      "subject": "ATOMER : vos inscriptions encore par bulletin PDF ?",
+      "sent_at": "2026-11-05T14:34:22+01:00"
+    },
+    {
+      "gmail_message_id": "1a1abeaf51545a13",
+      "gmail_thread_id": "1a1a89d18d7866e1",
+      "to": "nettoyage.industriel@wanadoo.fr",
+      "subject": "Nettoyage Industriel : qualifier vos demandes de devis",
+      "sent_at": "2026-11-05T14:34:24+01:00"
+    },
+    {
+      "gmail_message_id": "1a1abeaff2f7a627",
+      "gmail_thread_id": "1a1a89d241a60252",
+      "to": "vigneronsetcaviste@gmail.com",
+      "subject": "Vos cours d'œnologie : réserver sans appeler ?",
+      "sent_at": "2026-11-05T14:34:27+01:00"
+    },
+    {
+      "gmail_message_id": "1a1abeb0bd7e3299",
+      "gmail_thread_id": "1a1a89d2e929da56",
+      "to": "boutique@lacaviste.fr",
+      "subject": "La Caviste : vos commandes préparées sans emails",
+      "sent_at": "2026-11-05T14:34:30+01:00"
+    },
+    {
+      "gmail_message_id": "1a1abeb156455137",
+      "gmail_thread_id": "1a1a89d45029f782",
+      "to": "contact@alphamecanique.fr",
+      "subject": "Alpha Mécanique : vos demandes de devis sur plans",
+      "sent_at": "2026-11-05T14:34:32+01:00"
+    },
+    {
+      "gmail_message_id": "1a1abeb1ea9a2f13",
+      "gmail_thread_id": "1a1a89d51416064a",
+      "to": "ambulancestemarie@gmail.com",
+      "subject": "Ambulances Sainte-Marie : vos ententes préalables",
+      "sent_at": "2026-11-05T14:34:35+01:00"
+    },
+    {
+      "gmail_message_id": "1a1abeb27153577d",
+      "gmail_thread_id": "1a1a89d5f37cca29",
+      "to": "contact@blanchisseriedes3regions.fr",
+      "subject": "B3R : votre site affiche une page d'hébergement suspendu",
+      "sent_at": "2026-11-05T14:34:37+01:00"
+    }
+  ]
+}

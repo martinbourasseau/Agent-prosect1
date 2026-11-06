@@ -1,0 +1,29 @@
+{
+  "updated_at": "2026-11-06",
+  "count": 1,
+  "reconciliations": [
+    {
+      "at": "2026-11-06",
+      "matched": 15,
+      "already_sent": 0,
+      "unmatched": [],
+      "updated_companies": [
+        "Restaurant Le Canotier",
+        "Boucherie Florian",
+        "La Fromagerie Les 2 Alpes",
+        "Fromagerie et Baratte",
+        "Matproloc",
+        "La Chocolatisserie",
+        "Allo'cation",
+        "Restaurant Goudale Orchies",
+        "ATOMER",
+        "NETTOYAGE INDUSTRIEL",
+        "Vignerons et Caviste",
+        "La Caviste",
+        "ALPHA MECANIQUE",
+        "SARL Ambulances Sainte-Marie",
+        "Blanchisserie des 3 Régions (B3R)"
+      ]
+    }
+  ]
+}

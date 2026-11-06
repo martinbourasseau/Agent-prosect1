@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-06T13:01:55+00:00",
-  "count": 4,
+  "updated_at": "2026-11-06T15:07:08+00:00",
+  "count": 5,
   "findings": [
     {
       "message_id": "1a1a87452d7ca7c0",
@@ -59,6 +59,22 @@
       "observed_at": "2026-11-06T13:01:55+00:00",
       "excerpt": "Cette adresse va bientot disparaitre, la Blanchisserie des 3 régions a été rachetée par Gallia .Pour toute demande ou prise de contact, merci désormais d'utiliser l'adresse suivante:\nb3r@gallia28.fr\n\nBien cordialement,\n\nStéphanie",
       "redirect_to": "b3r@gallia28.fr"
+    },
+    {
+      "message_id": "1a1abeb8ee41cbb7",
+      "thread_id": "1a1abeb8ee41cbb7",
+      "from_email": "alpha_mecanique@invitations.mailinblack.com",
+      "subject": "Re: Alpha Mécanique : vos demandes de devis sur plans",
+      "intent": "challenge_delivrance",
+      "severity": "",
+      "recipient": "contact@alphamecanique.fr",
+      "company": "Alpha Mécanique",
+      "matched_by": "destinataire_cite_dans_le_corps",
+      "reason": "système de challenge expéditeur : le message est retenu en quarantaine, la délivrance n'est pas acquise et aucune personne n'a répondu",
+      "observed_at": "2026-11-05T13:35:01+00:00",
+      "recorded_at": "2026-11-06T15:07:08+00:00",
+      "excerpt": "Invitation. Un clic pour délivrer votre email ! Je suis protégé par Protect de Mailinblack. Dans une démarche de responsabilité numérique, je demande à tout nouvel expéditeur de confirmer qu'il est bien humain. CONTACT contact@alphamecanique.fr",
+      "action": "Aucune action automatique. Ne pas valider le challenge : cela délivrerait un e-mail de prospection, ce qui reste bloqué. À signaler à l'utilisateur."
     }
   ]
 }
