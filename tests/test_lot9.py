@@ -355,9 +355,37 @@ class ReferenceRelevanceTests(unittest.TestCase):
 # ---------------------------------------------------------------------------
 class SendSafetyTests(unittest.TestCase):
     def test_preflight_reste_bloquant(self):
-        ok, issues = Sender().preflight()
-        self.assertFalse(ok)
-        self.assertGreaterEqual(len(issues), 1)
+        """preflight() persiste son résultat DNS : on isole le fichier de réglages.
+
+        Sans cela, chaque exécution des tests réécrivait last_checked_at dans
+        data/campaigns/v4-settings.json — le fichier de production.
+        """
+        import shutil
+        import tempfile
+        from prospecto.sender import SETTINGS_PATH
+
+        with tempfile.TemporaryDirectory() as tmp:
+            isolated = Path(tmp) / "v4-settings.json"
+            shutil.copyfile(SETTINGS_PATH, isolated)
+            ok, issues = Sender(settings_path=isolated).preflight()
+            self.assertFalse(ok)
+            self.assertGreaterEqual(len(issues), 1)
+            # Le blocage doit rester explicite, pas seulement « un problème ».
+            joined = " ".join(issues).lower()
+            self.assertIn("enabled=false", joined)
+
+    def test_les_tests_ne_reecrivent_pas_les_reglages_de_production(self):
+        import shutil
+        import tempfile
+        from prospecto.sender import SETTINGS_PATH
+
+        before = SETTINGS_PATH.read_bytes()
+        with tempfile.TemporaryDirectory() as tmp:
+            isolated = Path(tmp) / "v4-settings.json"
+            shutil.copyfile(SETTINGS_PATH, isolated)
+            Sender(settings_path=isolated).preflight()
+        self.assertEqual(before, SETTINGS_PATH.read_bytes(),
+                         "les réglages de production ont été modifiés par un test")
 
     def test_adresse_absente_bloque_quel_que_soit_le_score(self):
         s = Sender()
@@ -548,6 +576,47 @@ class Lot9IntegrityTests(unittest.TestCase):
                     if e["decision"] != "retenue" and e.get("domain")}
         self.assertTrue(rejected)
         self.assertEqual(rejected & {r["domain"] for r in lot9()}, set())
+
+    def test_les_tests_ne_polluent_pas_le_journal_de_reconciliation(self):
+        """Fuite réelle : 189 entrées de fixture sur 193 dans le vrai journal.
+
+        reconcile_sent() écrivait TOUOURS son historique dans le fichier de
+        production, même quand l'appelant passait un CRM, une file et un journal
+        en mémoire. Chaque exécution de la suite ajoutait des faux rapprochements.
+        """
+        import tempfile
+        from prospecto.reconcile import reconcile_sent, RECONCILE_PATH
+
+        class _CRM:
+            def __init__(self): self.records = []
+            def save(self): pass
+
+        class _Queue:
+            def __init__(self): self.items = []
+            def save(self): pass
+
+        before = RECONCILE_PATH.read_bytes() if RECONCILE_PATH.exists() else b""
+        with tempfile.TemporaryDirectory() as tmp:
+            hist = Path(tmp) / "reconciliations.json"
+            reconcile_sent([{"to": "fixture@exemple.fr", "subject": "Test"}],
+                           _CRM(), _Queue(), None, history_path=hist)
+            self.assertTrue(hist.exists())
+            self.assertIn("fixture@exemple.fr", hist.read_text(encoding="utf-8"))
+        after = RECONCILE_PATH.read_bytes() if RECONCILE_PATH.exists() else b""
+        self.assertEqual(before, after, "le journal de production a été modifié par un test")
+
+    def test_le_journal_reel_ne_contient_plus_de_fixtures(self):
+        path = ROOT / "data" / "history" / "reconciliations.json"
+        data = json.loads(path.read_text(encoding="utf-8"))
+        blob = json.dumps(data, ensure_ascii=False)
+        for marker in ("deja@exemple.fr", "Déjà Contacté", "personne@autre.fr"):
+            self.assertNotIn(marker, blob)
+        self.assertEqual(data["count"], len(data["reconciliations"]))
+        # La quarantaine conserve tout : rien n'a été détruit.
+        q = json.loads((ROOT / "data" / "history" /
+                        "reconciliations-pollution-tests-2026-11-06.json").read_text(encoding="utf-8"))
+        self.assertGreater(q["count"], 0)
+        self.assertEqual(q["count"], len(q["entries"]))
 
     def test_historique_des_scores_preserve(self):
         for name in ("scores-v6-vers-v7.json", "scores-v7-vers-v71.json"):

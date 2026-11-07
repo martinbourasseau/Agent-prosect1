@@ -55,7 +55,8 @@ class ReconcileResult:
 
 
 def reconcile_sent(observed: Iterable[dict[str, Any]], crm: Any, queue: Any,
-                   send_log: Any = None, observed_at: str = "") -> ReconcileResult:
+                   send_log: Any = None, observed_at: str = "",
+                   history_path: Path | None = None) -> ReconcileResult:
     """Aligne la file, le CRM et le journal sur les envois constatés dans Gmail.
 
     ``observed`` est une liste de dicts ``{to, subject, gmail_message_id,
@@ -179,7 +180,12 @@ def reconcile_sent(observed: Iterable[dict[str, Any]], crm: Any, queue: Any,
     crm.save()
     if send_log is not None:
         send_log.save()
-    _append_history(result, stamp)
+    # L'historique était TOUOURS écrit dans le journal de production, même
+    # quand l'appelant fournissait un CRM, une file et un journal en mémoire.
+    # Résultat : chaque exécution de la suite de tests ajoutait des entrées de
+    # fixture au vrai journal (189 entrées parasites sur 193 constatées). Un
+    # appelant peut désormais isoler son historique.
+    _append_history(result, stamp, path=history_path)
     return result
 
 

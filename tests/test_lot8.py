@@ -243,6 +243,10 @@ class ReconcileWithoutQueueTests(unittest.TestCase):
     """Huit envois du 3 novembre n'avaient aucune entrée en file : ils étaient perdus."""
 
     def setUp(self):
+        import tempfile
+        self._tmp = tempfile.TemporaryDirectory()
+        self.addCleanup(self._tmp.cleanup)
+        self.history_path = Path(self._tmp.name) / "reconciliations.json"
         self.rec = {"email": "deja@exemple.fr", "company": "Déjà Contacté",
                     "status": "non_contacté"}
         self.crm = _CRM([self.rec])
@@ -252,32 +256,38 @@ class ReconcileWithoutQueueTests(unittest.TestCase):
                      "gmail_message_id": "msg-1", "sent_at": "2026-11-03"}]
 
     def test_envoi_sans_file_est_journalise(self):
-        res = reconcile_sent(self.obs, self.crm, self.queue, self.log)
+        res = reconcile_sent(self.obs, self.crm, self.queue, self.log,
+                           history_path=self.history_path)
         self.assertEqual(res.recorded_without_queue, 1)
         self.assertEqual(len(self.log.entries), 1)
         self.assertEqual(self.rec["status"], "contacté")
         self.assertEqual(self.rec["gmail_message_id"], "msg-1")
 
     def test_historique_trace_la_transition(self):
-        reconcile_sent(self.obs, self.crm, self.queue, self.log)
+        reconcile_sent(self.obs, self.crm, self.queue, self.log,
+                           history_path=self.history_path)
         self.assertTrue(any(h["action"] == "reconciled_sent_without_queue"
                             for h in self.rec.get("history", [])))
 
     def test_pas_de_double_comptage(self):
-        reconcile_sent(self.obs, self.crm, self.queue, self.log)
-        res = reconcile_sent(self.obs, self.crm, self.queue, self.log)
+        reconcile_sent(self.obs, self.crm, self.queue, self.log,
+                           history_path=self.history_path)
+        res = reconcile_sent(self.obs, self.crm, self.queue, self.log,
+                           history_path=self.history_path)
         self.assertEqual(res.recorded_without_queue, 0)
         self.assertEqual(len(self.log.entries), 1)
 
     def test_statut_avance_non_retrograde(self):
         for advanced in ("opposition", "rebond", "demande_rdv", "suspendu"):
             self.rec["status"] = advanced
-            reconcile_sent(self.obs, self.crm, self.queue, self.log)
+            reconcile_sent(self.obs, self.crm, self.queue, self.log,
+                           history_path=self.history_path)
             self.assertEqual(self.rec["status"], advanced)
 
     def test_destinataire_inconnu_reste_signale(self):
         res = reconcile_sent([{"to": "personne@autre.fr", "subject": "X"}],
-                             self.crm, self.queue, self.log)
+                             self.crm, self.queue, self.log,
+                             history_path=self.history_path)
         self.assertEqual(len(res.unmatched), 1)
 
 
@@ -497,7 +507,16 @@ class Lot8SafetyTests(unittest.TestCase):
         self.assertTrue(Sender()._is_blocked(rec))
 
     def test_preflight_reste_bloque(self):
-        ok, issues = Sender().preflight()
+        # preflight() persiste son résultat DNS dans le fichier de réglages :
+        # on travaille sur une copie pour ne pas réécrire la production.
+        import shutil
+        import tempfile
+        from prospecto.sender import SETTINGS_PATH
+
+        with tempfile.TemporaryDirectory() as tmp:
+            isolated = Path(tmp) / "v4-settings.json"
+            shutil.copyfile(SETTINGS_PATH, isolated)
+            ok, issues = Sender(settings_path=isolated).preflight()
         self.assertFalse(ok, "aucun envoi ne doit être autorisé dans cet état")
         self.assertTrue(any("enabled=false" in i for i in issues))
 

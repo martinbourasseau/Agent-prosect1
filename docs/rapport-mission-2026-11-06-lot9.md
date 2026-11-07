@@ -301,7 +301,7 @@ challenge n'a reçu de réponse.
 
 ### 4.1 Tests
 
-**347 tests, tous au vert** (292 existants + **55 nouveaux** dans
+**350 tests, tous au vert** (292 existants + **58 nouveaux** dans
 `tests/test_lot9.py`), en `python3 -m unittest discover tests -q`.
 
 Les nouveaux tests couvrent : catalogue de sources et conditions d'accès,
@@ -318,7 +318,36 @@ réels** (`examined_sector_terms`, `_is_blocked` sur « contacté »), un une ma
 de longueur trop fine, deux des erreurs dans mes tests. Tous corrigés à la
 source.
 
-### 4.2 Pré-vol — toujours bloquant
+### 4.2 Fuite d'historique découverte et corrigée
+
+En vérifiant l'arbre Git après commit, deux fichiers de données restaient
+modifiés **à chaque exécution des tests**. Enquête faite, deux fuites réelles :
+
+1. **`reconcile_sent()` écrivait toujours son historique dans le journal de
+   production**, même quand l'appelant fournissait un CRM, une file et un
+   journal en mémoire. Depuis le lot 8, chaque exécution de la suite ajoutait
+   des rapprochements fictifs : **189 entrées de fixture sur 193** dans
+   `data/history/reconciliations.json`. Il ne restait que **4 rapprochements
+   réels**. Un paramètre `history_path` permet désormais d'isoler l'historique.
+2. **`preflight()` persiste son résultat DNS** dans `data/campaigns/v4-settings.json`.
+   Deux tests l'appelaient sur le fichier de production et réécrivaient
+   `last_checked_at` à chaque run. Ils travaillent maintenant sur une copie.
+
+**Aucune donnée n'a été détruite** : les 189 entrées parasites sont conservées
+dans `data/history/reconciliations-pollution-tests-2026-11-06.json`, avec une
+note expliquant leur origine. Le journal de production ne contient plus que les
+4 rapprochements réels (15 envois du 5 nov, 8 sans file, 14 du 6 nov).
+
+Trois tests de régression verrouillent les deux fuites, dont un qui compare le
+contenu du journal de production avant/après un rapprochement isolé. Vérification
+finale : **deux exécutions consécutives de la suite laissent les fichiers de
+production bit pour bit identiques.**
+
+C'est la raison pour laquelle « intégrité de l'historique » ne peut pas être
+affirmée sur la seule lecture des fichiers : il faut vérifier que l'outillage
+lui-même ne les abîme pas.
+
+### 4.3 Pré-vol — toujours bloquant
 
 ```
 (False, 3 issues)
@@ -332,7 +361,7 @@ pas une autorisation d'envoyer** : le blocage est resté actif pendant toute la
 mission. Aucune campagne activée, aucun contournement, aucun achat, aucune
 modification DNS.
 
-### 4.3 Tableau de bord (port 8787)
+### 4.4 Tableau de bord (port 8787)
 
 Trois défauts corrigés :
 
@@ -436,3 +465,4 @@ préparer ; il ne doit pas décider d'engager.
 | `data/messages/messages-2026-11-06-lot9.json` | 4 messages, 0 violation |
 | `data/campaigns/campagne-2026-11-06-lot9.json` | campagne désactivée, 4 brouillons |
 | `data/backups/2026-11-06-avant-lot9/` | sauvegarde préalable, 38 fichiers |
+| `data/history/reconciliations-pollution-tests-2026-11-06.json` | 189 entrées de test mises en quarantaine, conservées |
