@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-06T16:22:40+00:00",
-  "count": 139,
+  "updated_at": "2026-11-07T14:41:13+00:00",
+  "count": 184,
   "reconciliations": [
     {
       "at": "2026-11-06",
@@ -1423,6 +1423,456 @@
     },
     {
       "at": "2026-11-06T16:22:40+00:00",
+      "matched": 0,
+      "already_sent": 0,
+      "recorded_without_queue": 0,
+      "unmatched": [],
+      "updated_companies": [
+        "Déjà Contacté"
+      ]
+    },
+    {
+      "at": "2026-11-06T16:34:48+00:00",
+      "matched": 0,
+      "already_sent": 0,
+      "recorded_without_queue": 1,
+      "unmatched": [
+        "personne@autre.fr — X"
+      ],
+      "updated_companies": []
+    },
+    {
+      "at": "2026-11-06T16:34:48+00:00",
+      "matched": 0,
+      "already_sent": 0,
+      "recorded_without_queue": 1,
+      "unmatched": [],
+      "updated_companies": [
+        "Déjà Contacté"
+      ]
+    },
+    {
+      "at": "2026-11-06T16:34:48+00:00",
+      "matched": 0,
+      "already_sent": 0,
+      "recorded_without_queue": 1,
+      "unmatched": [],
+      "updated_companies": [
+        "Déjà Contacté"
+      ]
+    },
+    {
+      "at": "2026-11-06T16:34:48+00:00",
+      "matched": 0,
+      "already_sent": 0,
+      "recorded_without_queue": 1,
+      "unmatched": [],
+      "updated_companies": [
+        "Déjà Contacté"
+      ]
+    },
+    {
+      "at": "2026-11-06T16:34:48+00:00",
+      "matched": 0,
+      "already_sent": 0,
+      "recorded_without_queue": 0,
+      "unmatched": [],
+      "updated_companies": [
+        "Déjà Contacté"
+      ]
+    },
+    {
+      "at": "2026-11-06T16:34:48+00:00",
+      "matched": 0,
+      "already_sent": 0,
+      "recorded_without_queue": 1,
+      "unmatched": [],
+      "updated_companies": [
+        "Déjà Contacté"
+      ]
+    },
+    {
+      "at": "2026-11-06T16:34:48+00:00",
+      "matched": 0,
+      "already_sent": 0,
+      "recorded_without_queue": 0,
+      "unmatched": [],
+      "updated_companies": [
+        "Déjà Contacté"
+      ]
+    },
+    {
+      "at": "2026-11-06T16:34:48+00:00",
+      "matched": 0,
+      "already_sent": 0,
+      "recorded_without_queue": 0,
+      "unmatched": [],
+      "updated_companies": [
+        "Déjà Contacté"
+      ]
+    },
+    {
+      "at": "2026-11-06T16:34:48+00:00",
+      "matched": 0,
+      "already_sent": 0,
+      "recorded_without_queue": 0,
+      "unmatched": [],
+      "updated_companies": [
+        "Déjà Contacté"
+      ]
+    },
+    {
+      "at": "2026-11-06T16:35:52+00:00",
+      "matched": 0,
+      "already_sent": 0,
+      "recorded_without_queue": 1,
+      "unmatched": [
+        "personne@autre.fr — X"
+      ],
+      "updated_companies": []
+    },
+    {
+      "at": "2026-11-06T16:35:52+00:00",
+      "matched": 0,
+      "already_sent": 0,
+      "recorded_without_queue": 1,
+      "unmatched": [],
+      "updated_companies": [
+        "Déjà Contacté"
+      ]
+    },
+    {
+      "at": "2026-11-06T16:35:52+00:00",
+      "matched": 0,
+      "already_sent": 0,
+      "recorded_without_queue": 1,
+      "unmatched": [],
+      "updated_companies": [
+        "Déjà Contacté"
+      ]
+    },
+    {
+      "at": "2026-11-06T16:35:52+00:00",
+      "matched": 0,
+      "already_sent": 0,
+      "recorded_without_queue": 1,
+      "unmatched": [],
+      "updated_companies": [
+        "Déjà Contacté"
+      ]
+    },
+    {
+      "at": "2026-11-06T16:35:52+00:00",
+      "matched": 0,
+      "already_sent": 0,
+      "recorded_without_queue": 0,
+      "unmatched": [],
+      "updated_companies": [
+        "Déjà Contacté"
+      ]
+    },
+    {
+      "at": "2026-11-06T16:35:52+00:00",
+      "matched": 0,
+      "already_sent": 0,
+      "recorded_without_queue": 1,
+      "unmatched": [],
+      "updated_companies": [
+        "Déjà Contacté"
+      ]
+    },
+    {
+      "at": "2026-11-06T16:35:52+00:00",
+      "matched": 0,
+      "already_sent": 0,
+      "recorded_without_queue": 0,
+      "unmatched": [],
+      "updated_companies": [
+        "Déjà Contacté"
+      ]
+    },
+    {
+      "at": "2026-11-06T16:35:52+00:00",
+      "matched": 0,
+      "already_sent": 0,
+      "recorded_without_queue": 0,
+      "unmatched": [],
+      "updated_companies": [
+        "Déjà Contacté"
+      ]
+    },
+    {
+      "at": "2026-11-06T16:35:52+00:00",
+      "matched": 0,
+      "already_sent": 0,
+      "recorded_without_queue": 0,
+      "unmatched": [],
+      "updated_companies": [
+        "Déjà Contacté"
+      ]
+    },
+    {
+      "at": "2026-11-07T14:37:53+00:00",
+      "matched": 0,
+      "already_sent": 0,
+      "recorded_without_queue": 1,
+      "unmatched": [
+        "personne@autre.fr — X"
+      ],
+      "updated_companies": []
+    },
+    {
+      "at": "2026-11-07T14:37:53+00:00",
+      "matched": 0,
+      "already_sent": 0,
+      "recorded_without_queue": 1,
+      "unmatched": [],
+      "updated_companies": [
+        "Déjà Contacté"
+      ]
+    },
+    {
+      "at": "2026-11-07T14:37:53+00:00",
+      "matched": 0,
+      "already_sent": 0,
+      "recorded_without_queue": 1,
+      "unmatched": [],
+      "updated_companies": [
+        "Déjà Contacté"
+      ]
+    },
+    {
+      "at": "2026-11-07T14:37:53+00:00",
+      "matched": 0,
+      "already_sent": 0,
+      "recorded_without_queue": 1,
+      "unmatched": [],
+      "updated_companies": [
+        "Déjà Contacté"
+      ]
+    },
+    {
+      "at": "2026-11-07T14:37:53+00:00",
+      "matched": 0,
+      "already_sent": 0,
+      "recorded_without_queue": 0,
+      "unmatched": [],
+      "updated_companies": [
+        "Déjà Contacté"
+      ]
+    },
+    {
+      "at": "2026-11-07T14:37:53+00:00",
+      "matched": 0,
+      "already_sent": 0,
+      "recorded_without_queue": 1,
+      "unmatched": [],
+      "updated_companies": [
+        "Déjà Contacté"
+      ]
+    },
+    {
+      "at": "2026-11-07T14:37:53+00:00",
+      "matched": 0,
+      "already_sent": 0,
+      "recorded_without_queue": 0,
+      "unmatched": [],
+      "updated_companies": [
+        "Déjà Contacté"
+      ]
+    },
+    {
+      "at": "2026-11-07T14:37:53+00:00",
+      "matched": 0,
+      "already_sent": 0,
+      "recorded_without_queue": 0,
+      "unmatched": [],
+      "updated_companies": [
+        "Déjà Contacté"
+      ]
+    },
+    {
+      "at": "2026-11-07T14:37:53+00:00",
+      "matched": 0,
+      "already_sent": 0,
+      "recorded_without_queue": 0,
+      "unmatched": [],
+      "updated_companies": [
+        "Déjà Contacté"
+      ]
+    },
+    {
+      "at": "2026-11-07T14:38:44+00:00",
+      "matched": 0,
+      "already_sent": 0,
+      "recorded_without_queue": 1,
+      "unmatched": [
+        "personne@autre.fr — X"
+      ],
+      "updated_companies": []
+    },
+    {
+      "at": "2026-11-07T14:38:44+00:00",
+      "matched": 0,
+      "already_sent": 0,
+      "recorded_without_queue": 1,
+      "unmatched": [],
+      "updated_companies": [
+        "Déjà Contacté"
+      ]
+    },
+    {
+      "at": "2026-11-07T14:38:44+00:00",
+      "matched": 0,
+      "already_sent": 0,
+      "recorded_without_queue": 1,
+      "unmatched": [],
+      "updated_companies": [
+        "Déjà Contacté"
+      ]
+    },
+    {
+      "at": "2026-11-07T14:38:44+00:00",
+      "matched": 0,
+      "already_sent": 0,
+      "recorded_without_queue": 1,
+      "unmatched": [],
+      "updated_companies": [
+        "Déjà Contacté"
+      ]
+    },
+    {
+      "at": "2026-11-07T14:38:44+00:00",
+      "matched": 0,
+      "already_sent": 0,
+      "recorded_without_queue": 0,
+      "unmatched": [],
+      "updated_companies": [
+        "Déjà Contacté"
+      ]
+    },
+    {
+      "at": "2026-11-07T14:38:44+00:00",
+      "matched": 0,
+      "already_sent": 0,
+      "recorded_without_queue": 1,
+      "unmatched": [],
+      "updated_companies": [
+        "Déjà Contacté"
+      ]
+    },
+    {
+      "at": "2026-11-07T14:38:44+00:00",
+      "matched": 0,
+      "already_sent": 0,
+      "recorded_without_queue": 0,
+      "unmatched": [],
+      "updated_companies": [
+        "Déjà Contacté"
+      ]
+    },
+    {
+      "at": "2026-11-07T14:38:44+00:00",
+      "matched": 0,
+      "already_sent": 0,
+      "recorded_without_queue": 0,
+      "unmatched": [],
+      "updated_companies": [
+        "Déjà Contacté"
+      ]
+    },
+    {
+      "at": "2026-11-07T14:38:44+00:00",
+      "matched": 0,
+      "already_sent": 0,
+      "recorded_without_queue": 0,
+      "unmatched": [],
+      "updated_companies": [
+        "Déjà Contacté"
+      ]
+    },
+    {
+      "at": "2026-11-07T14:41:13+00:00",
+      "matched": 0,
+      "already_sent": 0,
+      "recorded_without_queue": 1,
+      "unmatched": [
+        "personne@autre.fr — X"
+      ],
+      "updated_companies": []
+    },
+    {
+      "at": "2026-11-07T14:41:13+00:00",
+      "matched": 0,
+      "already_sent": 0,
+      "recorded_without_queue": 1,
+      "unmatched": [],
+      "updated_companies": [
+        "Déjà Contacté"
+      ]
+    },
+    {
+      "at": "2026-11-07T14:41:13+00:00",
+      "matched": 0,
+      "already_sent": 0,
+      "recorded_without_queue": 1,
+      "unmatched": [],
+      "updated_companies": [
+        "Déjà Contacté"
+      ]
+    },
+    {
+      "at": "2026-11-07T14:41:13+00:00",
+      "matched": 0,
+      "already_sent": 0,
+      "recorded_without_queue": 1,
+      "unmatched": [],
+      "updated_companies": [
+        "Déjà Contacté"
+      ]
+    },
+    {
+      "at": "2026-11-07T14:41:13+00:00",
+      "matched": 0,
+      "already_sent": 0,
+      "recorded_without_queue": 0,
+      "unmatched": [],
+      "updated_companies": [
+        "Déjà Contacté"
+      ]
+    },
+    {
+      "at": "2026-11-07T14:41:13+00:00",
+      "matched": 0,
+      "already_sent": 0,
+      "recorded_without_queue": 1,
+      "unmatched": [],
+      "updated_companies": [
+        "Déjà Contacté"
+      ]
+    },
+    {
+      "at": "2026-11-07T14:41:13+00:00",
+      "matched": 0,
+      "already_sent": 0,
+      "recorded_without_queue": 0,
+      "unmatched": [],
+      "updated_companies": [
+        "Déjà Contacté"
+      ]
+    },
+    {
+      "at": "2026-11-07T14:41:13+00:00",
+      "matched": 0,
+      "already_sent": 0,
+      "recorded_without_queue": 0,
+      "unmatched": [],
+      "updated_companies": [
+        "Déjà Contacté"
+      ]
+    },
+    {
+      "at": "2026-11-07T14:41:13+00:00",
       "matched": 0,
       "already_sent": 0,
       "recorded_without_queue": 0,

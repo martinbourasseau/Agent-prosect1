@@ -151,6 +151,12 @@ class Sender:
         # Lot 8 : une fiche sans adresse publique n'est pas envoyable. Elle était
         # scorée « fort » en automatisation et passait donc les autres filtres.
         "non_contactable", "aucune_adresse_publique", "non_trouve", "inconnu",
+        # Lot 9 : une entreprise DÉJÀ contactée ne doit jamais recevoir un
+        # second message. select_candidates() l'excluait via un ensemble
+        # séparé, mais _is_blocked() répondait False : tout autre appelant
+        # pouvait donc la laisser passer. Défense en profondeur.
+        "contacté", "contacte", "contacted", "envoyé", "envoye", "sent",
+        "delivered", "délivré", "delivre", "auto_reply",
     }
 
     def _is_blocked(self, record: dict) -> bool:

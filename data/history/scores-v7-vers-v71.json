@@ -1,0 +1,190 @@
+{
+  "migrated_at": "2026-11-06",
+  "from": "v7",
+  "to": "v7.1",
+  "scanned": 78,
+  "reason": "Quatre signaux ajoutés (difficulté à répondre énoncée, dépôt via messagerie, déplacement obligatoire, échéances récurrentes) ; preuves de maturité et de confiance exclues des axes de besoin ; confiance calculée sur les sources des preuves et non des seules détections.",
+  "changed": 12,
+  "changes": [
+    {
+      "company": "Multitech Assistance",
+      "lot": "historique-gmail-antérieur",
+      "before_v7": {
+        "site_web": null,
+        "refonte": null,
+        "ia_automatisation": null
+      },
+      "after_v71": {
+        "site_web": 5,
+        "refonte": 5,
+        "ia_automatisation": 0
+      },
+      "ia_confidence_v71": "faible"
+    },
+    {
+      "company": "Garage Villedieu Automobiles",
+      "lot": "historique-gmail-antérieur",
+      "before_v7": {
+        "site_web": null,
+        "refonte": null,
+        "ia_automatisation": null
+      },
+      "after_v71": {
+        "site_web": 5,
+        "refonte": 5,
+        "ia_automatisation": 0
+      },
+      "ia_confidence_v71": "faible"
+    },
+    {
+      "company": "Le Serrurier d'A Cote",
+      "lot": "historique-gmail-antérieur",
+      "before_v7": {
+        "site_web": null,
+        "refonte": null,
+        "ia_automatisation": null
+      },
+      "after_v71": {
+        "site_web": 5,
+        "refonte": 5,
+        "ia_automatisation": 0
+      },
+      "ia_confidence_v71": "faible"
+    },
+    {
+      "company": "Superchi Architectes",
+      "lot": "historique-gmail-antérieur",
+      "before_v7": {
+        "site_web": null,
+        "refonte": null,
+        "ia_automatisation": null
+      },
+      "after_v71": {
+        "site_web": 5,
+        "refonte": 5,
+        "ia_automatisation": 0
+      },
+      "ia_confidence_v71": "faible"
+    },
+    {
+      "company": "L'Etabli du Menuisier",
+      "lot": "historique-gmail-antérieur",
+      "before_v7": {
+        "site_web": null,
+        "refonte": null,
+        "ia_automatisation": null
+      },
+      "after_v71": {
+        "site_web": 5,
+        "refonte": 5,
+        "ia_automatisation": 0
+      },
+      "ia_confidence_v71": "faible"
+    },
+    {
+      "company": "Quattro Architectes",
+      "lot": "historique-gmail-antérieur",
+      "before_v7": {
+        "site_web": null,
+        "refonte": null,
+        "ia_automatisation": null
+      },
+      "after_v71": {
+        "site_web": 5,
+        "refonte": 5,
+        "ia_automatisation": 0
+      },
+      "ia_confidence_v71": "faible"
+    },
+    {
+      "company": "The Architectes",
+      "lot": "historique-gmail-antérieur",
+      "before_v7": {
+        "site_web": null,
+        "refonte": null,
+        "ia_automatisation": null
+      },
+      "after_v71": {
+        "site_web": 5,
+        "refonte": 5,
+        "ia_automatisation": 0
+      },
+      "ia_confidence_v71": "faible"
+    },
+    {
+      "company": "Akla Architectes",
+      "lot": "historique-gmail-antérieur",
+      "before_v7": {
+        "site_web": null,
+        "refonte": null,
+        "ia_automatisation": null
+      },
+      "after_v71": {
+        "site_web": 5,
+        "refonte": 5,
+        "ia_automatisation": 0
+      },
+      "ia_confidence_v71": "faible"
+    },
+    {
+      "company": "Caléo Tests & Services",
+      "lot": "2026-11-06-lot9",
+      "before_v7": {
+        "site_web": 5,
+        "refonte": 45,
+        "ia_automatisation": 32
+      },
+      "after_v71": {
+        "site_web": 5,
+        "refonte": 45,
+        "ia_automatisation": 74
+      },
+      "ia_confidence_v71": "moyenne"
+    },
+    {
+      "company": "Cordonnerie Canfora David",
+      "lot": "2026-11-06-lot9",
+      "before_v7": {
+        "site_web": 5,
+        "refonte": 31,
+        "ia_automatisation": 38
+      },
+      "after_v71": {
+        "site_web": 5,
+        "refonte": 71,
+        "ia_automatisation": 60
+      },
+      "ia_confidence_v71": "haute"
+    },
+    {
+      "company": "Froger Étanchéité",
+      "lot": "2026-11-06-lot9",
+      "before_v7": {
+        "site_web": 5,
+        "refonte": 71,
+        "ia_automatisation": 38
+      },
+      "after_v71": {
+        "site_web": 5,
+        "refonte": 71,
+        "ia_automatisation": 56
+      },
+      "ia_confidence_v71": "moyenne"
+    },
+    {
+      "company": "Cordes et Âme",
+      "lot": "2026-11-06-lot9",
+      "before_v7": {
+        "site_web": 5,
+        "refonte": 5,
+        "ia_automatisation": 0
+      },
+      "after_v71": {
+        "site_web": 5,
+        "refonte": 5,
+        "ia_automatisation": 43
+      },
+      "ia_confidence_v71": "moyenne"
+    }
+  ]
+}

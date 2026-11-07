@@ -25,10 +25,17 @@ EVIDENCE_SITE_OBSOLETE = "site_obsolete"      # site daté (techno, ergonomie, m
 EVIDENCE_PROCESS_MANUAL = "processus_manuel"  # processus administratif répétitif observé
 EVIDENCE_JOURNEY_GAP = "parcours_incomplet"   # parcours client cassé ou inachevé
 
+# v7 — jusqu'ici le modèle ne savait exprimer que des manques. Une entreprise
+# déjà outillée n'avait donc aucun moyen d'être créditée de ce qui fonctionne,
+# et un simple signal de confiance était rangé dans « opportunité sectorielle ».
+EVIDENCE_MATURITY = "maturite_existante"      # ce qui est DÉJÀ en place (contre-signal)
+EVIDENCE_TRUST = "signal_confiance"           # identité, accréditation, antériorité
+
 EVIDENCE_KINDS = (
     EVIDENCE_PUBLIC_NEED, EVIDENCE_WEBSITE_GAP, EVIDENCE_SECTOR_OPPORTUNITY,
     EVIDENCE_SITE_ABSENT, EVIDENCE_SITE_DOWN, EVIDENCE_SITE_OBSOLETE,
     EVIDENCE_PROCESS_MANUAL, EVIDENCE_JOURNEY_GAP,
+    EVIDENCE_MATURITY, EVIDENCE_TRUST,
 )
 
 # Niveaux de vérification d'un email (v4) — ne jamais présenter un supposé comme vérifié.

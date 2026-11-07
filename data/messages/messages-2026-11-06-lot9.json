@@ -1,0 +1,75 @@
+[
+  {
+    "company": "Caléo Tests & Services",
+    "to": "contact@caleo-ts.fr",
+    "subject": "Caléo : vos listes d'instruments arrivent en tableur joint",
+    "body": "Bonjour,\n\nVotre page de devis précise que le bouton « ouvre votre messagerie avec la demande pré-remplie », et que les listes longues sont à envoyer en tableur joint.\n\nLe formulaire est bien construit, mais il ne dépose rien chez vous : la demande repart par e-mail, à reprendre ligne par ligne.\n\nJe peux vous proposer un dépôt de demande qui enregistre le parc instrument par instrument et prépare les échéances de réétalonnage : vos demandes de devis arrivent déjà structurées, sans ressaisie ni fichier à reformater.\n\nJe peux vous en faire une démonstration gratuite, sans engagement : une liste de douze instruments déposée en ligne, reprise sans ressaisie dans un récapitulatif de devis.\n\nEst-ce un point qui vous occupe en ce moment ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+    "variant": "automation_ia",
+    "reference_id": "",
+    "example_url": "",
+    "message_version": "v4",
+    "evidence_sources": [
+      "https://www.caleo-ts.fr/demande-de-devis/",
+      "https://www.caleo-ts.fr/demande-de-devis/",
+      "https://www.caleo-ts.fr/demande-de-devis/",
+      "https://www.caleo-ts.fr/demande-de-devis/",
+      "https://www.caleo-ts.fr/demande-de-devis/",
+      "https://www.caleo-ts.fr/"
+    ],
+    "violations": []
+  },
+  {
+    "company": "Cordonnerie Canfora David",
+    "to": "david.canfora@sfr.fr",
+    "subject": "Bourrellerie Canfora : le devis suppose de passer en boutique",
+    "body": "Bonjour David,\n\nVos pages bourrellerie et sellerie se terminent par la même invitation : « Venez nous rencontrer en magasin pour nous présenter votre demande et pour établir un devis personnalisé ! ».\n\nUn cavalier dont une sangle ou un trait casse doit donc se déplacer rien que pour savoir si la réparation est possible et à quel prix.\n\nMon idée : un dépôt de demande avec photos qui permet un premier chiffrage à distance : vous ne faites venir en boutique que les réparations qui exigent vraiment de voir la pièce.\n\nJe vous montre gratuitement, sans engagement, une démonstration : une demande de réparation de sangle avec deux photos, qualifiée et chiffrée en fourchette avant tout déplacement.\n\nVous préférez recevoir la démonstration, ou qu'on en parle d'abord ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+    "variant": "with_example",
+    "reference_id": "",
+    "example_url": "",
+    "message_version": "v4",
+    "evidence_sources": [
+      "https://www.cordonnerie-canfora-moulins.fr/bourrellerie",
+      "https://www.cordonnerie-canfora-moulins.fr/sellerie-cheval",
+      "https://www.cordonnerie-canfora-moulins.fr/contact",
+      "https://www.cordonnerie-canfora-moulins.fr/bourrellerie",
+      "https://www.cordonnerie-canfora-moulins.fr/mentions-legales"
+    ],
+    "violations": []
+  },
+  {
+    "company": "Froger Étanchéité",
+    "to": "frogeretancheite@gmail.com",
+    "subject": "Froger Étanchéité : votre lien e-mail est écrit à l'envers",
+    "body": "Bonjour,\n\nEn bas de votre page d'accueil, le lien e-mail pointe vers « moc.liamg%40etiehcnateregorf » : la chaîne anti-spam inversée est restée dans le lien.\n\nUn visiteur qui clique sur « E-mail » n'écrit donc pas à l'entreprise. Il reste le téléphone et le formulaire, alors que le devis passe de toute façon par une visite sur site.\n\nJe vous suggère un parcours de demande réparé qui qualifie la toiture avant la visite technique : vous récupérez les demandes qui se perdent et vous arrivez sur le toit en connaissant déjà le type d'ouvrage et la surface.\n\nJe vous montre gratuitement, sans engagement, une démonstration : une demande d'étanchéité qualifiée — type de revêtement, surface, commune — transmise avec une visite proposée.\n\nCela vous dirait de la découvrir ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+    "variant": "refonte",
+    "reference_id": "",
+    "example_url": "",
+    "message_version": "v4",
+    "evidence_sources": [
+      "https://froger-etancheite.fr/",
+      "https://froger-etancheite.fr/",
+      "https://froger-etancheite.fr/",
+      "https://froger-etancheite.fr/",
+      "https://froger-etancheite.fr/"
+    ],
+    "violations": []
+  },
+  {
+    "company": "Cordes et Âme",
+    "to": "ateliercordesetame@gmail.com",
+    "subject": "Cordes et Âme : des messages relevés une fois par jour",
+    "body": "Bonjour Jean-Baptiste,\n\nVotre page de contact l'écrit : « il peut être compliqué de répondre aux appels » et « Nous relevons les messages une fois par jour ».\n\nConcrètement, je pourrais mettre en place une demande guidée qui décrit l'instrument et l'intervention avant le premier échange : votre relevé quotidien suffit à répondre, sans reprendre la correspondance deux ou trois fois.\n\nSur demande, je vous envoie gratuitement une démonstration, sans engagement : une demande de réparation décrite — instrument, nature des travaux, photos — prête à être traitée en une passe.\n\nSi vous êtes curieux, je vous montre — sinon, aucun souci.\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+    "variant": "short_hook",
+    "reference_id": "",
+    "example_url": "",
+    "message_version": "v4",
+    "evidence_sources": [
+      "https://www.cordesetame.fr/",
+      "https://www.cordesetame.fr/",
+      "https://www.cordesetame.fr/",
+      "https://www.cordesetame.fr/",
+      "https://www.cordesetame.fr/"
+    ],
+    "violations": []
+  }
+]

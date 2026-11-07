@@ -321,10 +321,31 @@ function renderPipeline(){
   ];
   const line=rows.map(([l,v,k])=>kv(l,(v??0)+(k&&defs[k]?` <span class="sub" title="${esc(defs[k])}">ⓘ</span>`:""))).join("");
   const ok=p.controle_exclusif;
-  return `<div class="sub"><b>Neuf catégories</b> — délivrance : confirmés + non confirmée + rebonds + challenges = envoyés `+
+  const f=METRICS.portefeuille||{},fd=f.definitions||{};
+  const steps=[
+    ["Découverts",f.decouverts,"decouverts"],
+    ["À investiguer",f.a_investiguer,"a_investiguer"],
+    ["Brouillons en attente",f.brouillons_en_attente,"brouillons_en_attente"],
+    ["Contactés",f.contactes,"contactes"],
+    ["Rebonds",f.rebonds,null],
+    ["Oppositions",f.oppositions,null],
+    ["Suspendus",f.suspendus,null],
+  ];
+  const funnel=steps.map(([l,v,k])=>kv(l,(v??0)+(k&&fd[k]?` <span class="sub" title="${esc(fd[k])}">ⓘ</span>`:""))).join("");
+  const e=METRICS.exploration||{},ed=e.by_decision||{};
+  const expl=kv("Structures examinées",e.examined??0)+
+    Object.entries(ed).map(([k,v])=>kv("Exploration — "+esc(k),v)).join("");
+  // La partition du portefeuille est exclusive : son contrôle doit être vert.
+  return `<div class="sub"><b>Portefeuille</b> — étapes exclusives, total ${f.total??0} fiches `+
+    `<span class="badge ${f.controle_exclusif?"verified":"bad"}">${f.controle_exclusif?"cohérent":"écart"}</span>. `+
+    `Qualifiés (priorité haute ou moyenne) : ${f.qualifies??0} — lecture transversale, ne s'ajoute pas aux étapes.</div>`+
+    funnel+
+    `<div class="sub"><b>Délivrance</b> — confirmés + non confirmée + rebonds + challenges = envoyés `+
     `<span class="badge ${ok?"verified":"bad"}">${ok?"cohérent":"écart"}</span>. `+
     `Les catégories de réponse se recouvrent (une opposition est aussi une réponse humaine) et ne s'additionnent pas. `+
-    `Suspendus : ${p.suspendus??0} · file obsolète neutralisée : ${p.obsoletes??0}.</div>`;
+    `File obsolète neutralisée : ${p.obsoletes??0}.</div>`+
+    line+
+    `<div class="sub"><b>Exploration</b> — ${esc(e.note||"")}</div>`+expl;
 }
 function renderDeliverability(){
   const d=METRICS.deliverability||{};

@@ -170,7 +170,79 @@ def compute_metrics() -> dict[str, Any]:
         "scoring": _scoring_overview(records),
     }
     metrics["pipeline"] = pipeline_categories(metrics, queue.items)
+    metrics["portefeuille"] = portfolio_categories(records)
+    metrics["exploration"] = _exploration_overview()
     return metrics
+
+
+# Ordre de priorité de la partition : une fiche ne tombe que dans une case.
+# Une entreprise en opposition reste « opposition » même si elle a été
+# contactée ; un rebond reste « rebond ». Sinon les catégories se recouvraient
+# et le total dépassait la taille du CRM.
+_PORTFOLIO_RULES: tuple[tuple[str, tuple[str, ...]], ...] = (
+    ("oppositions", ("opposition",)),
+    ("suspendus", ("suspendu",)),
+    ("rebonds", ("rebond", "non_delivrable")),
+    ("contactes", ("contacté", "auto_reply", "réponse_humaine")),
+    ("brouillons_en_attente", ("brouillon_en_attente", "brouillon_créé", "email_préparé")),
+    ("a_investiguer", ("a_approfondir", "non_contactable")),
+    ("decouverts", ("nouveau", "decouvert", "")),
+)
+
+
+def portfolio_categories(records: list[dict]) -> dict[str, Any]:
+    """Partition exclusive du CRM par étape de cycle de vie.
+
+    « Qualifiés » est une lecture transversale (priorité commerciale) et non
+    une étape : elle est publiée à part, avec la mention qu'elle ne s'ajoute
+    pas, pour ne pas induire un double comptage.
+    """
+    out = {key: 0 for key, _ in _PORTFOLIO_RULES}
+    autres: dict[str, int] = {}
+    for r in records:
+        status = (r.get("status") or "").strip()
+        for key, values in _PORTFOLIO_RULES:
+            if status in values:
+                out[key] += 1
+                break
+        else:
+            autres[status] = autres.get(status, 0) + 1
+            out.setdefault("autres", 0)
+            out["autres"] += 1
+    priorities: dict[str, int] = {}
+    for r in records:
+        p = r.get("commercial_priority") or "(non scorée)"
+        priorities[p] = priorities.get(p, 0) + 1
+    out["total"] = len(records)
+    out["controle_exclusif"] = (
+        sum(v for k, v in out.items()
+            if k not in ("total", "controle_exclusif", "qualifies", "autres_details"))
+        == len(records))
+    out["qualifies"] = priorities.get("haute", 0) + priorities.get("moyenne", 0)
+    out["priorities"] = priorities
+    out["autres_details"] = autres
+    out["definitions"] = {
+        "decouverts": "fiches créées, aucun message préparé",
+        "a_investiguer": "opportunité non établie ou entreprise non contactable : à approfondir",
+        "brouillons_en_attente": "message prêt, en attente de validation humaine ; rien n'est parti",
+        "contactes": "message sorti vers l'entreprise, délivrance non présumée",
+        "qualifies": "lecture transversale (priorité haute ou moyenne) : ne s'ajoute pas aux étapes",
+    }
+    return out
+
+
+def _exploration_overview() -> dict[str, Any]:
+    """Ce qui a été examiné puis écarté : le travail invisible des lots."""
+    from .sources import ExplorationLedger
+    try:
+        ledger = ExplorationLedger()
+    except (OSError, ValueError):
+        return {"examined": 0, "by_decision": {}, "note": "journal indisponible"}
+    stats = ledger.stats()
+    stats["note"] = ("Structures examinées pendant la recherche, y compris écartées. "
+                     "Une structure écartée n'est pas une fiche et ne sera pas "
+                     "réexaminée au prochain lot.")
+    return stats
 
 
 def pipeline_categories(metrics: dict[str, Any], queue_items: list[Any]) -> dict[str, Any]:

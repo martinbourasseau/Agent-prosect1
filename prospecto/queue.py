@@ -157,4 +157,15 @@ class ValidationQueue:
         return result
 
     def counts(self) -> dict[str, int]:
-        return {s: sum(1 for i in self.items if i.status == s) for s in STATUSES}
+        """Compte tous les statuts présents, pas seulement les quatre d'origine.
+
+        Les statuts « draft », « obsolete » et « suspended » ont été introduits
+        par les lots 6 à 9. En ne renvoyant que STATUSES, ce compteur rendait
+        invisibles les brouillons Gmail et la file neutralisée.
+        """
+        seen = list(STATUSES) + sorted({i.status for i in self.items} - set(STATUSES))
+        counts = {s: sum(1 for i in self.items if i.status == s) for s in seen}
+        # Total explicite : la somme des statuts doit valoir la taille de la file.
+        counts["total"] = len(self.items)
+        counts["ouverts"] = sum(counts.get(s, 0) for s in (PENDING, APPROVED, "draft"))
+        return counts

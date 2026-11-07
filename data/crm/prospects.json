@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-06T16:18:20+00:00",
-  "count": 74,
+  "updated_at": "2026-11-06T16:32:51+00:00",
+  "count": 78,
   "prospects": [
     {
       "company": "R Premium",
@@ -80,8 +80,7 @@
           ],
           "evidence": [],
           "missing_information": [
-            "un site existe déjà : la création n'est pas le bon service",
-            "aucune observation directe sur la présence en ligne"
+            "un site existe déjà : la création n'est pas le bon service"
           ],
           "confidence": "moyenne",
           "observed_signals": [],
@@ -127,7 +126,7 @@
         },
         "priority": "basse",
         "best_axis": "refonte",
-        "engine_version": "v7",
+        "engine_version": "v7.1",
         "opportunity_report": {
           "automation": [],
           "maturity": [],
@@ -230,8 +229,7 @@
           ],
           "evidence": [],
           "missing_information": [
-            "un site existe déjà : la création n'est pas le bon service",
-            "aucune observation directe sur la présence en ligne"
+            "un site existe déjà : la création n'est pas le bon service"
           ],
           "confidence": "haute",
           "observed_signals": [],
@@ -280,7 +278,7 @@
         },
         "priority": "basse",
         "best_axis": "refonte",
-        "engine_version": "v7",
+        "engine_version": "v7.1",
         "opportunity_report": {
           "automation": [],
           "maturity": [
@@ -336,7 +334,71 @@
         }
       ],
       "delivery_confirmed": false,
-      "delivery_status": "non_confirmee"
+      "delivery_status": "non_confirmee",
+      "scores": {
+        "site_web": {
+          "axis": "site_web",
+          "score": 5,
+          "level": "faible",
+          "reasons": [
+            "un site est déjà en ligne : pas de création à proprement parler"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "un site existe déjà : la création n'est pas le bon service"
+          ],
+          "confidence": "faible",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": []
+        },
+        "refonte": {
+          "axis": "refonte",
+          "score": 5,
+          "level": "faible",
+          "reasons": [
+            "site existant à moderniser",
+            "aucune preuve directe sur cet axe : score volontairement bas"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "comportement sur mobile non vérifié",
+            "une seule page observée : vérifier le parcours de contact sur une seconde page"
+          ],
+          "confidence": "faible",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": []
+        },
+        "ia_automatisation": {
+          "axis": "ia_automatisation",
+          "score": 0,
+          "level": "faible",
+          "reasons": [
+            "aucune preuve directe sur cet axe : score volontairement bas"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "aucun processus entrant décrit publiquement : observer comment arrivent et sont traitées les demandes (devis, réservation, dossier)",
+            "ce qui est déjà automatisé n'est pas documenté (réservation en ligne, paiement, espace client, réponse automatique)",
+            "processus observé sur une seule page : confirmer sur une seconde source"
+          ],
+          "confidence": "faible",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": []
+        },
+        "priority": "basse",
+        "best_axis": "site_web",
+        "engine_version": "v7.1",
+        "opportunity_report": {
+          "automation": [],
+          "maturity": [],
+          "refonte": [],
+          "presence": []
+        }
+      },
+      "commercial_priority": "basse"
     },
     {
       "company": "Garage Villedieu Automobiles",
@@ -370,7 +432,71 @@
         }
       ],
       "delivery_confirmed": false,
-      "delivery_status": "non_confirmee"
+      "delivery_status": "non_confirmee",
+      "scores": {
+        "site_web": {
+          "axis": "site_web",
+          "score": 5,
+          "level": "faible",
+          "reasons": [
+            "un site est déjà en ligne : pas de création à proprement parler"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "un site existe déjà : la création n'est pas le bon service"
+          ],
+          "confidence": "faible",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": []
+        },
+        "refonte": {
+          "axis": "refonte",
+          "score": 5,
+          "level": "faible",
+          "reasons": [
+            "site existant à moderniser",
+            "aucune preuve directe sur cet axe : score volontairement bas"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "comportement sur mobile non vérifié",
+            "une seule page observée : vérifier le parcours de contact sur une seconde page"
+          ],
+          "confidence": "faible",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": []
+        },
+        "ia_automatisation": {
+          "axis": "ia_automatisation",
+          "score": 0,
+          "level": "faible",
+          "reasons": [
+            "aucune preuve directe sur cet axe : score volontairement bas"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "aucun processus entrant décrit publiquement : observer comment arrivent et sont traitées les demandes (devis, réservation, dossier)",
+            "ce qui est déjà automatisé n'est pas documenté (réservation en ligne, paiement, espace client, réponse automatique)",
+            "processus observé sur une seule page : confirmer sur une seconde source"
+          ],
+          "confidence": "faible",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": []
+        },
+        "priority": "basse",
+        "best_axis": "site_web",
+        "engine_version": "v7.1",
+        "opportunity_report": {
+          "automation": [],
+          "maturity": [],
+          "refonte": [],
+          "presence": []
+        }
+      },
+      "commercial_priority": "basse"
     },
     {
       "company": "Le Serrurier d'A Cote",
@@ -404,7 +530,71 @@
         }
       ],
       "delivery_confirmed": false,
-      "delivery_status": "non_confirmee"
+      "delivery_status": "non_confirmee",
+      "scores": {
+        "site_web": {
+          "axis": "site_web",
+          "score": 5,
+          "level": "faible",
+          "reasons": [
+            "un site est déjà en ligne : pas de création à proprement parler"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "un site existe déjà : la création n'est pas le bon service"
+          ],
+          "confidence": "faible",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": []
+        },
+        "refonte": {
+          "axis": "refonte",
+          "score": 5,
+          "level": "faible",
+          "reasons": [
+            "site existant à moderniser",
+            "aucune preuve directe sur cet axe : score volontairement bas"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "comportement sur mobile non vérifié",
+            "une seule page observée : vérifier le parcours de contact sur une seconde page"
+          ],
+          "confidence": "faible",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": []
+        },
+        "ia_automatisation": {
+          "axis": "ia_automatisation",
+          "score": 0,
+          "level": "faible",
+          "reasons": [
+            "aucune preuve directe sur cet axe : score volontairement bas"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "aucun processus entrant décrit publiquement : observer comment arrivent et sont traitées les demandes (devis, réservation, dossier)",
+            "ce qui est déjà automatisé n'est pas documenté (réservation en ligne, paiement, espace client, réponse automatique)",
+            "processus observé sur une seule page : confirmer sur une seconde source"
+          ],
+          "confidence": "faible",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": []
+        },
+        "priority": "basse",
+        "best_axis": "site_web",
+        "engine_version": "v7.1",
+        "opportunity_report": {
+          "automation": [],
+          "maturity": [],
+          "refonte": [],
+          "presence": []
+        }
+      },
+      "commercial_priority": "basse"
     },
     {
       "company": "Superchi Architectes",
@@ -438,7 +628,71 @@
         }
       ],
       "delivery_confirmed": false,
-      "delivery_status": "non_confirmee"
+      "delivery_status": "non_confirmee",
+      "scores": {
+        "site_web": {
+          "axis": "site_web",
+          "score": 5,
+          "level": "faible",
+          "reasons": [
+            "un site est déjà en ligne : pas de création à proprement parler"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "un site existe déjà : la création n'est pas le bon service"
+          ],
+          "confidence": "faible",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": []
+        },
+        "refonte": {
+          "axis": "refonte",
+          "score": 5,
+          "level": "faible",
+          "reasons": [
+            "site existant à moderniser",
+            "aucune preuve directe sur cet axe : score volontairement bas"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "comportement sur mobile non vérifié",
+            "une seule page observée : vérifier le parcours de contact sur une seconde page"
+          ],
+          "confidence": "faible",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": []
+        },
+        "ia_automatisation": {
+          "axis": "ia_automatisation",
+          "score": 0,
+          "level": "faible",
+          "reasons": [
+            "aucune preuve directe sur cet axe : score volontairement bas"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "aucun processus entrant décrit publiquement : observer comment arrivent et sont traitées les demandes (devis, réservation, dossier)",
+            "ce qui est déjà automatisé n'est pas documenté (réservation en ligne, paiement, espace client, réponse automatique)",
+            "processus observé sur une seule page : confirmer sur une seconde source"
+          ],
+          "confidence": "faible",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": []
+        },
+        "priority": "basse",
+        "best_axis": "site_web",
+        "engine_version": "v7.1",
+        "opportunity_report": {
+          "automation": [],
+          "maturity": [],
+          "refonte": [],
+          "presence": []
+        }
+      },
+      "commercial_priority": "basse"
     },
     {
       "company": "L'Etabli du Menuisier",
@@ -472,7 +726,71 @@
         }
       ],
       "delivery_confirmed": false,
-      "delivery_status": "non_confirmee"
+      "delivery_status": "non_confirmee",
+      "scores": {
+        "site_web": {
+          "axis": "site_web",
+          "score": 5,
+          "level": "faible",
+          "reasons": [
+            "un site est déjà en ligne : pas de création à proprement parler"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "un site existe déjà : la création n'est pas le bon service"
+          ],
+          "confidence": "faible",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": []
+        },
+        "refonte": {
+          "axis": "refonte",
+          "score": 5,
+          "level": "faible",
+          "reasons": [
+            "site existant à moderniser",
+            "aucune preuve directe sur cet axe : score volontairement bas"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "comportement sur mobile non vérifié",
+            "une seule page observée : vérifier le parcours de contact sur une seconde page"
+          ],
+          "confidence": "faible",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": []
+        },
+        "ia_automatisation": {
+          "axis": "ia_automatisation",
+          "score": 0,
+          "level": "faible",
+          "reasons": [
+            "aucune preuve directe sur cet axe : score volontairement bas"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "aucun processus entrant décrit publiquement : observer comment arrivent et sont traitées les demandes (devis, réservation, dossier)",
+            "ce qui est déjà automatisé n'est pas documenté (réservation en ligne, paiement, espace client, réponse automatique)",
+            "processus observé sur une seule page : confirmer sur une seconde source"
+          ],
+          "confidence": "faible",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": []
+        },
+        "priority": "basse",
+        "best_axis": "site_web",
+        "engine_version": "v7.1",
+        "opportunity_report": {
+          "automation": [],
+          "maturity": [],
+          "refonte": [],
+          "presence": []
+        }
+      },
+      "commercial_priority": "basse"
     },
     {
       "company": "Quattro Architectes",
@@ -506,7 +824,71 @@
         }
       ],
       "delivery_confirmed": false,
-      "delivery_status": "non_confirmee"
+      "delivery_status": "non_confirmee",
+      "scores": {
+        "site_web": {
+          "axis": "site_web",
+          "score": 5,
+          "level": "faible",
+          "reasons": [
+            "un site est déjà en ligne : pas de création à proprement parler"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "un site existe déjà : la création n'est pas le bon service"
+          ],
+          "confidence": "faible",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": []
+        },
+        "refonte": {
+          "axis": "refonte",
+          "score": 5,
+          "level": "faible",
+          "reasons": [
+            "site existant à moderniser",
+            "aucune preuve directe sur cet axe : score volontairement bas"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "comportement sur mobile non vérifié",
+            "une seule page observée : vérifier le parcours de contact sur une seconde page"
+          ],
+          "confidence": "faible",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": []
+        },
+        "ia_automatisation": {
+          "axis": "ia_automatisation",
+          "score": 0,
+          "level": "faible",
+          "reasons": [
+            "aucune preuve directe sur cet axe : score volontairement bas"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "aucun processus entrant décrit publiquement : observer comment arrivent et sont traitées les demandes (devis, réservation, dossier)",
+            "ce qui est déjà automatisé n'est pas documenté (réservation en ligne, paiement, espace client, réponse automatique)",
+            "processus observé sur une seule page : confirmer sur une seconde source"
+          ],
+          "confidence": "faible",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": []
+        },
+        "priority": "basse",
+        "best_axis": "site_web",
+        "engine_version": "v7.1",
+        "opportunity_report": {
+          "automation": [],
+          "maturity": [],
+          "refonte": [],
+          "presence": []
+        }
+      },
+      "commercial_priority": "basse"
     },
     {
       "company": "The Architectes",
@@ -540,7 +922,71 @@
         }
       ],
       "delivery_confirmed": false,
-      "delivery_status": "non_confirmee"
+      "delivery_status": "non_confirmee",
+      "scores": {
+        "site_web": {
+          "axis": "site_web",
+          "score": 5,
+          "level": "faible",
+          "reasons": [
+            "un site est déjà en ligne : pas de création à proprement parler"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "un site existe déjà : la création n'est pas le bon service"
+          ],
+          "confidence": "faible",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": []
+        },
+        "refonte": {
+          "axis": "refonte",
+          "score": 5,
+          "level": "faible",
+          "reasons": [
+            "site existant à moderniser",
+            "aucune preuve directe sur cet axe : score volontairement bas"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "comportement sur mobile non vérifié",
+            "une seule page observée : vérifier le parcours de contact sur une seconde page"
+          ],
+          "confidence": "faible",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": []
+        },
+        "ia_automatisation": {
+          "axis": "ia_automatisation",
+          "score": 0,
+          "level": "faible",
+          "reasons": [
+            "aucune preuve directe sur cet axe : score volontairement bas"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "aucun processus entrant décrit publiquement : observer comment arrivent et sont traitées les demandes (devis, réservation, dossier)",
+            "ce qui est déjà automatisé n'est pas documenté (réservation en ligne, paiement, espace client, réponse automatique)",
+            "processus observé sur une seule page : confirmer sur une seconde source"
+          ],
+          "confidence": "faible",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": []
+        },
+        "priority": "basse",
+        "best_axis": "site_web",
+        "engine_version": "v7.1",
+        "opportunity_report": {
+          "automation": [],
+          "maturity": [],
+          "refonte": [],
+          "presence": []
+        }
+      },
+      "commercial_priority": "basse"
     },
     {
       "company": "Akla Architectes",
@@ -574,7 +1020,71 @@
         }
       ],
       "delivery_confirmed": false,
-      "delivery_status": "non_confirmee"
+      "delivery_status": "non_confirmee",
+      "scores": {
+        "site_web": {
+          "axis": "site_web",
+          "score": 5,
+          "level": "faible",
+          "reasons": [
+            "un site est déjà en ligne : pas de création à proprement parler"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "un site existe déjà : la création n'est pas le bon service"
+          ],
+          "confidence": "faible",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": []
+        },
+        "refonte": {
+          "axis": "refonte",
+          "score": 5,
+          "level": "faible",
+          "reasons": [
+            "site existant à moderniser",
+            "aucune preuve directe sur cet axe : score volontairement bas"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "comportement sur mobile non vérifié",
+            "une seule page observée : vérifier le parcours de contact sur une seconde page"
+          ],
+          "confidence": "faible",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": []
+        },
+        "ia_automatisation": {
+          "axis": "ia_automatisation",
+          "score": 0,
+          "level": "faible",
+          "reasons": [
+            "aucune preuve directe sur cet axe : score volontairement bas"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "aucun processus entrant décrit publiquement : observer comment arrivent et sont traitées les demandes (devis, réservation, dossier)",
+            "ce qui est déjà automatisé n'est pas documenté (réservation en ligne, paiement, espace client, réponse automatique)",
+            "processus observé sur une seule page : confirmer sur une seconde source"
+          ],
+          "confidence": "faible",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": []
+        },
+        "priority": "basse",
+        "best_axis": "site_web",
+        "engine_version": "v7.1",
+        "opportunity_report": {
+          "automation": [],
+          "maturity": [],
+          "refonte": [],
+          "presence": []
+        }
+      },
+      "commercial_priority": "basse"
     },
     {
       "company": "BSP Auto",
@@ -664,8 +1174,7 @@
           ],
           "evidence": [],
           "missing_information": [
-            "un site existe déjà : la création n'est pas le bon service",
-            "aucune observation directe sur la présence en ligne"
+            "un site existe déjà : la création n'est pas le bon service"
           ],
           "confidence": "moyenne",
           "observed_signals": [],
@@ -710,7 +1219,7 @@
         },
         "priority": "basse",
         "best_axis": "refonte",
-        "engine_version": "v7",
+        "engine_version": "v7.1",
         "opportunity_report": {
           "automation": [],
           "maturity": [],
@@ -792,8 +1301,7 @@
           ],
           "evidence": [],
           "missing_information": [
-            "un site existe déjà : la création n'est pas le bon service",
-            "aucune observation directe sur la présence en ligne"
+            "un site existe déjà : la création n'est pas le bon service"
           ],
           "confidence": "moyenne",
           "observed_signals": [],
@@ -838,7 +1346,7 @@
         },
         "priority": "basse",
         "best_axis": "site_web",
-        "engine_version": "v7",
+        "engine_version": "v7.1",
         "opportunity_report": {
           "automation": [],
           "maturity": [],
@@ -982,7 +1490,7 @@
         },
         "priority": "moyenne",
         "best_axis": "site_web",
-        "engine_version": "v7",
+        "engine_version": "v7.1",
         "opportunity_report": {
           "automation": [],
           "maturity": [],
@@ -1108,7 +1616,7 @@
         },
         "priority": "a_approfondir",
         "best_axis": "site_web",
-        "engine_version": "v7",
+        "engine_version": "v7.1",
         "opportunity_report": {
           "automation": [],
           "maturity": [],
@@ -1221,7 +1729,7 @@
         },
         "priority": "a_approfondir",
         "best_axis": "refonte",
-        "engine_version": "v7",
+        "engine_version": "v7.1",
         "opportunity_report": {
           "automation": [],
           "maturity": [],
@@ -1334,7 +1842,7 @@
         },
         "priority": "a_approfondir",
         "best_axis": "refonte",
-        "engine_version": "v7",
+        "engine_version": "v7.1",
         "opportunity_report": {
           "automation": [],
           "maturity": [],
@@ -1448,7 +1956,7 @@
         },
         "priority": "a_approfondir",
         "best_axis": "refonte",
-        "engine_version": "v7",
+        "engine_version": "v7.1",
         "opportunity_report": {
           "automation": [],
           "maturity": [],
@@ -1562,7 +2070,7 @@
         },
         "priority": "a_approfondir",
         "best_axis": "refonte",
-        "engine_version": "v7",
+        "engine_version": "v7.1",
         "opportunity_report": {
           "automation": [],
           "maturity": [],
@@ -1676,7 +2184,7 @@
         },
         "priority": "a_approfondir",
         "best_axis": "refonte",
-        "engine_version": "v7",
+        "engine_version": "v7.1",
         "opportunity_report": {
           "automation": [],
           "maturity": [],
@@ -1790,7 +2298,7 @@
         },
         "priority": "a_approfondir",
         "best_axis": "refonte",
-        "engine_version": "v7",
+        "engine_version": "v7.1",
         "opportunity_report": {
           "automation": [],
           "maturity": [],
@@ -1875,8 +2383,7 @@
           ],
           "evidence": [],
           "missing_information": [
-            "un site existe déjà : la création n'est pas le bon service",
-            "aucune observation directe sur la présence en ligne"
+            "un site existe déjà : la création n'est pas le bon service"
           ],
           "confidence": "moyenne",
           "observed_signals": [],
@@ -1924,7 +2431,7 @@
         },
         "priority": "basse",
         "best_axis": "refonte",
-        "engine_version": "v7",
+        "engine_version": "v7.1",
         "opportunity_report": {
           "automation": [],
           "maturity": [
@@ -2050,7 +2557,7 @@
         },
         "priority": "a_approfondir",
         "best_axis": "refonte",
-        "engine_version": "v7",
+        "engine_version": "v7.1",
         "opportunity_report": {
           "automation": [],
           "maturity": [],
@@ -2163,7 +2670,7 @@
         },
         "priority": "a_approfondir",
         "best_axis": "refonte",
-        "engine_version": "v7",
+        "engine_version": "v7.1",
         "opportunity_report": {
           "automation": [],
           "maturity": [],
@@ -2276,7 +2783,7 @@
         },
         "priority": "a_approfondir",
         "best_axis": "refonte",
-        "engine_version": "v7",
+        "engine_version": "v7.1",
         "opportunity_report": {
           "automation": [],
           "maturity": [],
@@ -2390,7 +2897,7 @@
         },
         "priority": "a_approfondir",
         "best_axis": "refonte",
-        "engine_version": "v7",
+        "engine_version": "v7.1",
         "opportunity_report": {
           "automation": [],
           "maturity": [],
@@ -2504,7 +3011,7 @@
         },
         "priority": "a_approfondir",
         "best_axis": "refonte",
-        "engine_version": "v7",
+        "engine_version": "v7.1",
         "opportunity_report": {
           "automation": [],
           "maturity": [],
@@ -2593,8 +3100,7 @@
           ],
           "evidence": [],
           "missing_information": [
-            "un site existe déjà : la création n'est pas le bon service",
-            "aucune observation directe sur la présence en ligne"
+            "un site existe déjà : la création n'est pas le bon service"
           ],
           "confidence": "haute",
           "observed_signals": [],
@@ -2642,7 +3148,7 @@
         },
         "priority": "basse",
         "best_axis": "refonte",
-        "engine_version": "v7",
+        "engine_version": "v7.1",
         "opportunity_report": {
           "automation": [],
           "maturity": [
@@ -2744,8 +3250,7 @@
           ],
           "evidence": [],
           "missing_information": [
-            "un site existe déjà : la création n'est pas le bon service",
-            "aucune observation directe sur la présence en ligne"
+            "un site existe déjà : la création n'est pas le bon service"
           ],
           "confidence": "moyenne",
           "observed_signals": [],
@@ -2818,7 +3323,7 @@
         },
         "priority": "moyenne",
         "best_axis": "ia_automatisation",
-        "engine_version": "v7",
+        "engine_version": "v7.1",
         "opportunity_report": {
           "automation": [
             {
@@ -2925,8 +3430,7 @@
           ],
           "evidence": [],
           "missing_information": [
-            "un site existe déjà : la création n'est pas le bon service",
-            "aucune observation directe sur la présence en ligne"
+            "un site existe déjà : la création n'est pas le bon service"
           ],
           "confidence": "moyenne",
           "observed_signals": [],
@@ -2985,7 +3489,7 @@
         },
         "priority": "basse",
         "best_axis": "ia_automatisation",
-        "engine_version": "v7",
+        "engine_version": "v7.1",
         "opportunity_report": {
           "automation": [
             {
@@ -3118,8 +3622,7 @@
           ],
           "evidence": [],
           "missing_information": [
-            "un site existe déjà : la création n'est pas le bon service",
-            "aucune observation directe sur la présence en ligne"
+            "un site existe déjà : la création n'est pas le bon service"
           ],
           "confidence": "moyenne",
           "observed_signals": [],
@@ -3165,7 +3668,7 @@
         },
         "priority": "basse",
         "best_axis": "refonte",
-        "engine_version": "v7",
+        "engine_version": "v7.1",
         "opportunity_report": {
           "automation": [],
           "maturity": [],
@@ -3254,8 +3757,7 @@
           ],
           "evidence": [],
           "missing_information": [
-            "un site existe déjà : la création n'est pas le bon service",
-            "aucune observation directe sur la présence en ligne"
+            "un site existe déjà : la création n'est pas le bon service"
           ],
           "confidence": "moyenne",
           "observed_signals": [],
@@ -3301,7 +3803,7 @@
         },
         "priority": "basse",
         "best_axis": "refonte",
-        "engine_version": "v7",
+        "engine_version": "v7.1",
         "opportunity_report": {
           "automation": [],
           "maturity": [],
@@ -3391,8 +3893,7 @@
           ],
           "evidence": [],
           "missing_information": [
-            "un site existe déjà : la création n'est pas le bon service",
-            "aucune observation directe sur la présence en ligne"
+            "un site existe déjà : la création n'est pas le bon service"
           ],
           "confidence": "haute",
           "observed_signals": [],
@@ -3479,7 +3980,7 @@
         },
         "priority": "basse",
         "best_axis": "ia_automatisation",
-        "engine_version": "v7",
+        "engine_version": "v7.1",
         "opportunity_report": {
           "automation": [
             {
@@ -3612,8 +4113,7 @@
           ],
           "evidence": [],
           "missing_information": [
-            "un site existe déjà : la création n'est pas le bon service",
-            "aucune observation directe sur la présence en ligne"
+            "un site existe déjà : la création n'est pas le bon service"
           ],
           "confidence": "moyenne",
           "observed_signals": [],
@@ -3659,7 +4159,7 @@
         },
         "priority": "basse",
         "best_axis": "refonte",
-        "engine_version": "v7",
+        "engine_version": "v7.1",
         "opportunity_report": {
           "automation": [],
           "maturity": [],
@@ -3748,8 +4248,7 @@
           ],
           "evidence": [],
           "missing_information": [
-            "un site existe déjà : la création n'est pas le bon service",
-            "aucune observation directe sur la présence en ligne"
+            "un site existe déjà : la création n'est pas le bon service"
           ],
           "confidence": "moyenne",
           "observed_signals": [],
@@ -3797,7 +4296,7 @@
         },
         "priority": "basse",
         "best_axis": "refonte",
-        "engine_version": "v7",
+        "engine_version": "v7.1",
         "opportunity_report": {
           "automation": [],
           "maturity": [
@@ -3917,8 +4416,7 @@
           ],
           "evidence": [],
           "missing_information": [
-            "un site existe déjà : la création n'est pas le bon service",
-            "aucune observation directe sur la présence en ligne"
+            "un site existe déjà : la création n'est pas le bon service"
           ],
           "confidence": "moyenne",
           "observed_signals": [],
@@ -3966,7 +4464,7 @@
         },
         "priority": "a_approfondir",
         "best_axis": "refonte",
-        "engine_version": "v7",
+        "engine_version": "v7.1",
         "opportunity_report": {
           "automation": [],
           "maturity": [
@@ -4068,8 +4566,7 @@
           ],
           "evidence": [],
           "missing_information": [
-            "un site existe déjà : la création n'est pas le bon service",
-            "aucune observation directe sur la présence en ligne"
+            "un site existe déjà : la création n'est pas le bon service"
           ],
           "confidence": "haute",
           "observed_signals": [],
@@ -4117,7 +4614,7 @@
         },
         "priority": "basse",
         "best_axis": "refonte",
-        "engine_version": "v7",
+        "engine_version": "v7.1",
         "opportunity_report": {
           "automation": [],
           "maturity": [
@@ -4219,8 +4716,7 @@
           ],
           "evidence": [],
           "missing_information": [
-            "un site existe déjà : la création n'est pas le bon service",
-            "aucune observation directe sur la présence en ligne"
+            "un site existe déjà : la création n'est pas le bon service"
           ],
           "confidence": "moyenne",
           "observed_signals": [],
@@ -4280,7 +4776,7 @@
         },
         "priority": "moyenne",
         "best_axis": "refonte",
-        "engine_version": "v7",
+        "engine_version": "v7.1",
         "opportunity_report": {
           "automation": [
             {
@@ -4382,8 +4878,7 @@
           ],
           "evidence": [],
           "missing_information": [
-            "un site existe déjà : la création n'est pas le bon service",
-            "aucune observation directe sur la présence en ligne"
+            "un site existe déjà : la création n'est pas le bon service"
           ],
           "confidence": "haute",
           "observed_signals": [],
@@ -4401,8 +4896,7 @@
           ],
           "evidence": [],
           "missing_information": [
-            "comportement sur mobile non vérifié",
-            "une seule page observée : vérifier le parcours de contact sur une seconde page"
+            "comportement sur mobile non vérifié"
           ],
           "confidence": "haute",
           "observed_signals": [],
@@ -4430,7 +4924,7 @@
         },
         "priority": "moyenne",
         "best_axis": "refonte",
-        "engine_version": "v7",
+        "engine_version": "v7.1",
         "opportunity_report": {
           "automation": [],
           "maturity": [],
@@ -4519,8 +5013,7 @@
           ],
           "evidence": [],
           "missing_information": [
-            "un site existe déjà : la création n'est pas le bon service",
-            "aucune observation directe sur la présence en ligne"
+            "un site existe déjà : la création n'est pas le bon service"
           ],
           "confidence": "moyenne",
           "observed_signals": [],
@@ -4569,7 +5062,7 @@
         },
         "priority": "moyenne",
         "best_axis": "refonte",
-        "engine_version": "v7",
+        "engine_version": "v7.1",
         "opportunity_report": {
           "automation": [],
           "maturity": [
@@ -4671,8 +5164,7 @@
           ],
           "evidence": [],
           "missing_information": [
-            "un site existe déjà : la création n'est pas le bon service",
-            "aucune observation directe sur la présence en ligne"
+            "un site existe déjà : la création n'est pas le bon service"
           ],
           "confidence": "haute",
           "observed_signals": [],
@@ -4690,8 +5182,7 @@
           ],
           "evidence": [],
           "missing_information": [
-            "comportement sur mobile non vérifié",
-            "une seule page observée : vérifier le parcours de contact sur une seconde page"
+            "comportement sur mobile non vérifié"
           ],
           "confidence": "haute",
           "observed_signals": [],
@@ -4719,7 +5210,7 @@
         },
         "priority": "moyenne",
         "best_axis": "refonte",
-        "engine_version": "v7",
+        "engine_version": "v7.1",
         "opportunity_report": {
           "automation": [],
           "maturity": [],
@@ -4808,8 +5299,7 @@
           ],
           "evidence": [],
           "missing_information": [
-            "un site existe déjà : la création n'est pas le bon service",
-            "aucune observation directe sur la présence en ligne"
+            "un site existe déjà : la création n'est pas le bon service"
           ],
           "confidence": "haute",
           "observed_signals": [],
@@ -4827,8 +5317,7 @@
           ],
           "evidence": [],
           "missing_information": [
-            "comportement sur mobile non vérifié",
-            "une seule page observée : vérifier le parcours de contact sur une seconde page"
+            "comportement sur mobile non vérifié"
           ],
           "confidence": "haute",
           "observed_signals": [],
@@ -4856,7 +5345,7 @@
         },
         "priority": "moyenne",
         "best_axis": "refonte",
-        "engine_version": "v7",
+        "engine_version": "v7.1",
         "opportunity_report": {
           "automation": [],
           "maturity": [],
@@ -4945,8 +5434,7 @@
           ],
           "evidence": [],
           "missing_information": [
-            "un site existe déjà : la création n'est pas le bon service",
-            "aucune observation directe sur la présence en ligne"
+            "un site existe déjà : la création n'est pas le bon service"
           ],
           "confidence": "haute",
           "observed_signals": [],
@@ -4964,8 +5452,7 @@
           ],
           "evidence": [],
           "missing_information": [
-            "comportement sur mobile non vérifié",
-            "une seule page observée : vérifier le parcours de contact sur une seconde page"
+            "comportement sur mobile non vérifié"
           ],
           "confidence": "haute",
           "observed_signals": [],
@@ -5006,7 +5493,7 @@
         },
         "priority": "moyenne",
         "best_axis": "refonte",
-        "engine_version": "v7",
+        "engine_version": "v7.1",
         "opportunity_report": {
           "automation": [
             {
@@ -5112,8 +5599,7 @@
           ],
           "evidence": [],
           "missing_information": [
-            "un site existe déjà : la création n'est pas le bon service",
-            "aucune observation directe sur la présence en ligne"
+            "un site existe déjà : la création n'est pas le bon service"
           ],
           "confidence": "moyenne",
           "observed_signals": [],
@@ -5175,7 +5661,7 @@
         },
         "priority": "moyenne",
         "best_axis": "refonte",
-        "engine_version": "v7",
+        "engine_version": "v7.1",
         "opportunity_report": {
           "automation": [
             {
@@ -5294,8 +5780,7 @@
           ],
           "evidence": [],
           "missing_information": [
-            "un site existe déjà : la création n'est pas le bon service",
-            "aucune observation directe sur la présence en ligne"
+            "un site existe déjà : la création n'est pas le bon service"
           ],
           "confidence": "moyenne",
           "observed_signals": [],
@@ -5344,7 +5829,7 @@
         },
         "priority": "moyenne",
         "best_axis": "refonte",
-        "engine_version": "v7",
+        "engine_version": "v7.1",
         "opportunity_report": {
           "automation": [],
           "maturity": [
@@ -5450,8 +5935,7 @@
           ],
           "evidence": [],
           "missing_information": [
-            "un site existe déjà : la création n'est pas le bon service",
-            "aucune observation directe sur la présence en ligne"
+            "un site existe déjà : la création n'est pas le bon service"
           ],
           "confidence": "haute",
           "observed_signals": [],
@@ -5469,8 +5953,7 @@
           ],
           "evidence": [],
           "missing_information": [
-            "comportement sur mobile non vérifié",
-            "une seule page observée : vérifier le parcours de contact sur une seconde page"
+            "comportement sur mobile non vérifié"
           ],
           "confidence": "haute",
           "observed_signals": [],
@@ -5500,7 +5983,7 @@
         },
         "priority": "moyenne",
         "best_axis": "refonte",
-        "engine_version": "v7",
+        "engine_version": "v7.1",
         "opportunity_report": {
           "automation": [],
           "maturity": [
@@ -5605,8 +6088,7 @@
           ],
           "evidence": [],
           "missing_information": [
-            "un site existe déjà : la création n'est pas le bon service",
-            "aucune observation directe sur la présence en ligne"
+            "un site existe déjà : la création n'est pas le bon service"
           ],
           "confidence": "moyenne",
           "observed_signals": [],
@@ -5653,7 +6135,7 @@
         },
         "priority": "moyenne",
         "best_axis": "refonte",
-        "engine_version": "v7",
+        "engine_version": "v7.1",
         "opportunity_report": {
           "automation": [],
           "maturity": [],
@@ -5745,8 +6227,7 @@
           ],
           "evidence": [],
           "missing_information": [
-            "un site existe déjà : la création n'est pas le bon service",
-            "aucune observation directe sur la présence en ligne"
+            "un site existe déjà : la création n'est pas le bon service"
           ],
           "confidence": "moyenne",
           "observed_signals": [],
@@ -5793,7 +6274,7 @@
         },
         "priority": "moyenne",
         "best_axis": "refonte",
-        "engine_version": "v7",
+        "engine_version": "v7.1",
         "opportunity_report": {
           "automation": [],
           "maturity": [],
@@ -5885,8 +6366,7 @@
           ],
           "evidence": [],
           "missing_information": [
-            "un site existe déjà : la création n'est pas le bon service",
-            "aucune observation directe sur la présence en ligne"
+            "un site existe déjà : la création n'est pas le bon service"
           ],
           "confidence": "haute",
           "observed_signals": [],
@@ -5904,8 +6384,7 @@
           ],
           "evidence": [],
           "missing_information": [
-            "comportement sur mobile non vérifié",
-            "une seule page observée : vérifier le parcours de contact sur une seconde page"
+            "comportement sur mobile non vérifié"
           ],
           "confidence": "haute",
           "observed_signals": [],
@@ -5933,7 +6412,7 @@
         },
         "priority": "moyenne",
         "best_axis": "refonte",
-        "engine_version": "v7",
+        "engine_version": "v7.1",
         "opportunity_report": {
           "automation": [],
           "maturity": [],
@@ -6025,8 +6504,7 @@
           ],
           "evidence": [],
           "missing_information": [
-            "un site existe déjà : la création n'est pas le bon service",
-            "aucune observation directe sur la présence en ligne"
+            "un site existe déjà : la création n'est pas le bon service"
           ],
           "confidence": "moyenne",
           "observed_signals": [],
@@ -6075,7 +6553,7 @@
         },
         "priority": "moyenne",
         "best_axis": "refonte",
-        "engine_version": "v7",
+        "engine_version": "v7.1",
         "opportunity_report": {
           "automation": [],
           "maturity": [
@@ -6180,8 +6658,7 @@
           ],
           "evidence": [],
           "missing_information": [
-            "un site existe déjà : la création n'est pas le bon service",
-            "aucune observation directe sur la présence en ligne"
+            "un site existe déjà : la création n'est pas le bon service"
           ],
           "confidence": "moyenne",
           "observed_signals": [],
@@ -6243,7 +6720,7 @@
         },
         "priority": "moyenne",
         "best_axis": "refonte",
-        "engine_version": "v7",
+        "engine_version": "v7.1",
         "opportunity_report": {
           "automation": [
             {
@@ -6346,8 +6823,7 @@
           ],
           "evidence": [],
           "missing_information": [
-            "un site existe déjà : la création n'est pas le bon service",
-            "aucune observation directe sur la présence en ligne"
+            "un site existe déjà : la création n'est pas le bon service"
           ],
           "confidence": "haute",
           "observed_signals": [],
@@ -6407,7 +6883,7 @@
         },
         "priority": "moyenne",
         "best_axis": "refonte",
-        "engine_version": "v7",
+        "engine_version": "v7.1",
         "opportunity_report": {
           "automation": [
             {
@@ -6523,8 +6999,7 @@
           ],
           "evidence": [],
           "missing_information": [
-            "un site existe déjà : la création n'est pas le bon service",
-            "aucune observation directe sur la présence en ligne"
+            "un site existe déjà : la création n'est pas le bon service"
           ],
           "confidence": "haute",
           "observed_signals": [],
@@ -6542,8 +7017,7 @@
           ],
           "evidence": [],
           "missing_information": [
-            "comportement sur mobile non vérifié",
-            "une seule page observée : vérifier le parcours de contact sur une seconde page"
+            "comportement sur mobile non vérifié"
           ],
           "confidence": "haute",
           "observed_signals": [],
@@ -6571,7 +7045,7 @@
         },
         "priority": "haute",
         "best_axis": "refonte",
-        "engine_version": "v7",
+        "engine_version": "v7.1",
         "opportunity_report": {
           "automation": [],
           "maturity": [],
@@ -6667,8 +7141,7 @@
           ],
           "evidence": [],
           "missing_information": [
-            "un site existe déjà : la création n'est pas le bon service",
-            "aucune observation directe sur la présence en ligne"
+            "un site existe déjà : la création n'est pas le bon service"
           ],
           "confidence": "moyenne",
           "observed_signals": [],
@@ -6733,7 +7206,7 @@
         },
         "priority": "haute",
         "best_axis": "refonte",
-        "engine_version": "v7",
+        "engine_version": "v7.1",
         "opportunity_report": {
           "automation": [
             {
@@ -6867,8 +7340,7 @@
           ],
           "evidence": [],
           "missing_information": [
-            "un site existe déjà : la création n'est pas le bon service",
-            "aucune observation directe sur la présence en ligne"
+            "un site existe déjà : la création n'est pas le bon service"
           ],
           "confidence": "haute",
           "observed_signals": [],
@@ -6886,8 +7358,7 @@
           ],
           "evidence": [],
           "missing_information": [
-            "comportement sur mobile non vérifié",
-            "une seule page observée : vérifier le parcours de contact sur une seconde page"
+            "comportement sur mobile non vérifié"
           ],
           "confidence": "haute",
           "observed_signals": [],
@@ -6917,7 +7388,7 @@
         },
         "priority": "haute",
         "best_axis": "refonte",
-        "engine_version": "v7",
+        "engine_version": "v7.1",
         "opportunity_report": {
           "automation": [],
           "maturity": [
@@ -7025,8 +7496,7 @@
           ],
           "evidence": [],
           "missing_information": [
-            "un site existe déjà : la création n'est pas le bon service",
-            "aucune observation directe sur la présence en ligne"
+            "un site existe déjà : la création n'est pas le bon service"
           ],
           "confidence": "moyenne",
           "observed_signals": [],
@@ -7100,7 +7570,7 @@
         },
         "priority": "moyenne",
         "best_axis": "ia_automatisation",
-        "engine_version": "v7",
+        "engine_version": "v7.1",
         "opportunity_report": {
           "automation": [
             {
@@ -7229,8 +7699,7 @@
           ],
           "evidence": [],
           "missing_information": [
-            "un site existe déjà : la création n'est pas le bon service",
-            "aucune observation directe sur la présence en ligne"
+            "un site existe déjà : la création n'est pas le bon service"
           ],
           "confidence": "moyenne",
           "observed_signals": [],
@@ -7276,7 +7745,7 @@
         },
         "priority": "basse",
         "best_axis": "refonte",
-        "engine_version": "v7",
+        "engine_version": "v7.1",
         "opportunity_report": {
           "automation": [],
           "maturity": [],
@@ -7420,7 +7889,7 @@
         },
         "priority": "moyenne",
         "best_axis": "site_web",
-        "engine_version": "v7",
+        "engine_version": "v7.1",
         "opportunity_report": {
           "automation": [],
           "maturity": [],
@@ -7533,8 +8002,7 @@
           ],
           "evidence": [],
           "missing_information": [
-            "un site existe déjà : la création n'est pas le bon service",
-            "aucune observation directe sur la présence en ligne"
+            "un site existe déjà : la création n'est pas le bon service"
           ],
           "confidence": "moyenne",
           "observed_signals": [],
@@ -7596,7 +8064,7 @@
         },
         "priority": "haute",
         "best_axis": "refonte",
-        "engine_version": "v7",
+        "engine_version": "v7.1",
         "opportunity_report": {
           "automation": [],
           "maturity": [],
@@ -7707,8 +8175,7 @@
           ],
           "evidence": [],
           "missing_information": [
-            "un site existe déjà : la création n'est pas le bon service",
-            "aucune observation directe sur la présence en ligne"
+            "un site existe déjà : la création n'est pas le bon service"
           ],
           "confidence": "moyenne",
           "observed_signals": [],
@@ -7754,7 +8221,7 @@
         },
         "priority": "moyenne",
         "best_axis": "refonte",
-        "engine_version": "v7",
+        "engine_version": "v7.1",
         "opportunity_report": {
           "automation": [],
           "maturity": [],
@@ -7851,8 +8318,7 @@
           ],
           "evidence": [],
           "missing_information": [
-            "un site existe déjà : la création n'est pas le bon service",
-            "aucune observation directe sur la présence en ligne"
+            "un site existe déjà : la création n'est pas le bon service"
           ],
           "confidence": "haute",
           "observed_signals": [],
@@ -7888,7 +8354,6 @@
           "missing_information": [
             "aucun processus entrant décrit publiquement : observer comment arrivent et sont traitées les demandes (devis, réservation, dossier)",
             "ce qui est déjà automatisé n'est pas documenté (réservation en ligne, paiement, espace client, réponse automatique)",
-            "processus observé sur une seule page : confirmer sur une seconde source",
             "le processus est affirmé dans process_hint mais aucune citation ne l'établit"
           ],
           "confidence": "haute",
@@ -7898,7 +8363,7 @@
         },
         "priority": "basse",
         "best_axis": "ia_automatisation",
-        "engine_version": "v7",
+        "engine_version": "v7.1",
         "opportunity_report": {
           "automation": [],
           "maturity": [],
@@ -8070,7 +8535,7 @@
         },
         "priority": "haute",
         "best_axis": "site_web",
-        "engine_version": "v7",
+        "engine_version": "v7.1",
         "opportunity_report": {
           "automation": [
             {
@@ -8192,8 +8657,7 @@
           ],
           "evidence": [],
           "missing_information": [
-            "un site existe déjà : la création n'est pas le bon service",
-            "aucune observation directe sur la présence en ligne"
+            "un site existe déjà : la création n'est pas le bon service"
           ],
           "confidence": "haute",
           "observed_signals": [],
@@ -8211,8 +8675,7 @@
           ],
           "evidence": [],
           "missing_information": [
-            "comportement sur mobile non vérifié",
-            "une seule page observée : vérifier le parcours de contact sur une seconde page"
+            "comportement sur mobile non vérifié"
           ],
           "confidence": "haute",
           "observed_signals": [],
@@ -8258,7 +8721,7 @@
         },
         "priority": "moyenne",
         "best_axis": "refonte",
-        "engine_version": "v7",
+        "engine_version": "v7.1",
         "opportunity_report": {
           "automation": [
             {
@@ -8413,8 +8876,7 @@
           ],
           "evidence": [],
           "missing_information": [
-            "un site existe déjà : la création n'est pas le bon service",
-            "aucune observation directe sur la présence en ligne"
+            "un site existe déjà : la création n'est pas le bon service"
           ],
           "confidence": "moyenne",
           "observed_signals": [],
@@ -8491,7 +8953,7 @@
         },
         "priority": "a_approfondir",
         "best_axis": "refonte",
-        "engine_version": "v7",
+        "engine_version": "v7.1",
         "opportunity_report": {
           "automation": [
             {
@@ -8596,8 +9058,7 @@
           ],
           "evidence": [],
           "missing_information": [
-            "un site existe déjà : la création n'est pas le bon service",
-            "aucune observation directe sur la présence en ligne"
+            "un site existe déjà : la création n'est pas le bon service"
           ],
           "confidence": "moyenne",
           "observed_signals": [],
@@ -8658,7 +9119,7 @@
         },
         "priority": "haute",
         "best_axis": "refonte",
-        "engine_version": "v7",
+        "engine_version": "v7.1",
         "opportunity_report": {
           "automation": [
             {
@@ -8775,8 +9236,7 @@
           ],
           "evidence": [],
           "missing_information": [
-            "un site existe déjà : la création n'est pas le bon service",
-            "aucune observation directe sur la présence en ligne"
+            "un site existe déjà : la création n'est pas le bon service"
           ],
           "confidence": "moyenne",
           "observed_signals": [],
@@ -8852,7 +9312,7 @@
         },
         "priority": "moyenne",
         "best_axis": "refonte",
-        "engine_version": "v7",
+        "engine_version": "v7.1",
         "opportunity_report": {
           "automation": [
             {
@@ -8988,8 +9448,7 @@
           ],
           "evidence": [],
           "missing_information": [
-            "un site existe déjà : la création n'est pas le bon service",
-            "aucune observation directe sur la présence en ligne"
+            "un site existe déjà : la création n'est pas le bon service"
           ],
           "confidence": "moyenne",
           "observed_signals": [],
@@ -9063,7 +9522,7 @@
         },
         "priority": "moyenne",
         "best_axis": "ia_automatisation",
-        "engine_version": "v7",
+        "engine_version": "v7.1",
         "opportunity_report": {
           "automation": [
             {
@@ -9185,8 +9644,7 @@
           ],
           "evidence": [],
           "missing_information": [
-            "un site existe déjà : la création n'est pas le bon service",
-            "aucune observation directe sur la présence en ligne"
+            "un site existe déjà : la création n'est pas le bon service"
           ],
           "confidence": "moyenne",
           "observed_signals": [],
@@ -9260,7 +9718,7 @@
         },
         "priority": "moyenne",
         "best_axis": "ia_automatisation",
-        "engine_version": "v7",
+        "engine_version": "v7.1",
         "opportunity_report": {
           "automation": [
             {
@@ -9382,8 +9840,7 @@
           ],
           "evidence": [],
           "missing_information": [
-            "un site existe déjà : la création n'est pas le bon service",
-            "aucune observation directe sur la présence en ligne"
+            "un site existe déjà : la création n'est pas le bon service"
           ],
           "confidence": "moyenne",
           "observed_signals": [],
@@ -9446,7 +9903,7 @@
         },
         "priority": "haute",
         "best_axis": "refonte",
-        "engine_version": "v7",
+        "engine_version": "v7.1",
         "opportunity_report": {
           "automation": [
             {
@@ -9569,8 +10026,7 @@
           ],
           "evidence": [],
           "missing_information": [
-            "un site existe déjà : la création n'est pas le bon service",
-            "aucune observation directe sur la présence en ligne"
+            "un site existe déjà : la création n'est pas le bon service"
           ],
           "confidence": "moyenne",
           "observed_signals": [],
@@ -9632,7 +10088,7 @@
         },
         "priority": "basse",
         "best_axis": "refonte",
-        "engine_version": "v7",
+        "engine_version": "v7.1",
         "opportunity_report": {
           "automation": [
             {
@@ -9762,8 +10218,7 @@
           ],
           "evidence": [],
           "missing_information": [
-            "un site existe déjà : la création n'est pas le bon service",
-            "aucune observation directe sur la présence en ligne"
+            "un site existe déjà : la création n'est pas le bon service"
           ],
           "confidence": "moyenne",
           "observed_signals": [],
@@ -9867,7 +10322,7 @@
         },
         "priority": "moyenne",
         "best_axis": "ia_automatisation",
-        "engine_version": "v7",
+        "engine_version": "v7.1",
         "opportunity_report": {
           "automation": [
             {
@@ -10017,8 +10472,7 @@
           ],
           "evidence": [],
           "missing_information": [
-            "un site existe déjà : la création n'est pas le bon service",
-            "aucune observation directe sur la présence en ligne"
+            "un site existe déjà : la création n'est pas le bon service"
           ],
           "confidence": "moyenne",
           "observed_signals": [],
@@ -10094,7 +10548,7 @@
         },
         "priority": "basse",
         "best_axis": "ia_automatisation",
-        "engine_version": "v7",
+        "engine_version": "v7.1",
         "opportunity_report": {
           "automation": [
             {
@@ -10235,8 +10689,7 @@
           ],
           "evidence": [],
           "missing_information": [
-            "un site existe déjà : la création n'est pas le bon service",
-            "aucune observation directe sur la présence en ligne"
+            "un site existe déjà : la création n'est pas le bon service"
           ],
           "confidence": "moyenne",
           "observed_signals": [],
@@ -10327,7 +10780,7 @@
         },
         "priority": "moyenne",
         "best_axis": "refonte",
-        "engine_version": "v7",
+        "engine_version": "v7.1",
         "opportunity_report": {
           "automation": [
             {
@@ -10467,8 +10920,7 @@
           ],
           "evidence": [],
           "missing_information": [
-            "un site existe déjà : la création n'est pas le bon service",
-            "aucune observation directe sur la présence en ligne"
+            "un site existe déjà : la création n'est pas le bon service"
           ],
           "confidence": "moyenne",
           "observed_signals": [],
@@ -10558,7 +11010,7 @@
         },
         "priority": "moyenne",
         "best_axis": "refonte",
-        "engine_version": "v7",
+        "engine_version": "v7.1",
         "opportunity_report": {
           "automation": [
             {
@@ -10705,8 +11157,7 @@
           ],
           "evidence": [],
           "missing_information": [
-            "un site existe déjà : la création n'est pas le bon service",
-            "aucune observation directe sur la présence en ligne"
+            "un site existe déjà : la création n'est pas le bon service"
           ],
           "confidence": "haute",
           "observed_signals": [],
@@ -10799,7 +11250,7 @@
         },
         "priority": "a_approfondir",
         "best_axis": "refonte",
-        "engine_version": "v7",
+        "engine_version": "v7.1",
         "opportunity_report": {
           "automation": [
             {
@@ -10870,6 +11321,919 @@
       "source_lot": "lot8",
       "contactability": "non_contactable",
       "scoring_version": "v7"
+    },
+    {
+      "company": "Caléo Tests & Services",
+      "website": "https://www.caleo-ts.fr/",
+      "domain": "caleo-ts.fr",
+      "sector": "Laboratoire d'étalonnage et de vérification métrologique",
+      "city": "Béthune",
+      "department": "62",
+      "contact_name": "",
+      "contact_role": "",
+      "email": "contact@caleo-ts.fr",
+      "phone": "07 67 33 00 57",
+      "source": "site_officiel",
+      "evidence": [
+        {
+          "kind": "parcours_incomplet",
+          "source_url": "https://www.caleo-ts.fr/demande-de-devis/",
+          "quote": "Le bouton ci-dessous ouvre votre messagerie avec la demande pré-remplie, prête à envoyer à contact@caleo-ts.fr.",
+          "observed_at": "2026-11-06",
+          "detail": "Le formulaire multi-instruments ne dépose pas la demande : il génère un e-mail côté client. Ni accusé de réception, ni suivi."
+        },
+        {
+          "kind": "processus_manuel",
+          "source_url": "https://www.caleo-ts.fr/demande-de-devis/",
+          "quote": "Si votre liste est longue, envoyez-la plutôt en pièce jointe (tableur Excel/CSV ou export de votre logiciel de parc) par email à contact@caleo-ts.fr, en mentionnant votre demande.",
+          "observed_at": "2026-11-06",
+          "detail": "Le parc client arrive en fichier libre, à reprendre manuellement."
+        },
+        {
+          "kind": "processus_manuel",
+          "source_url": "https://www.caleo-ts.fr/demande-de-devis/",
+          "quote": "Chaque demande fait l'objet d'une analyse rapide ; plus votre liste est précise (type, marque, modèle, plage, quantité), plus la réponse est rapide. En cas d'instrument inhabituel, nous vous recontactons pour confirmer la faisabilité avant de chiffrer.",
+          "observed_at": "2026-11-06",
+          "detail": "Hypothèse, non un fait observé : la qualification ligne par ligne est faite par une personne, avec allers-retours quand il manque une information. Le site ne décrit pas l'organisation interne."
+        },
+        {
+          "kind": "processus_manuel",
+          "source_url": "https://www.caleo-ts.fr/demande-de-devis/",
+          "quote": "Les tarifs sont-ils publiés ? Non : chaque parc est différent (volumes, mix d'instruments, exigences documentaires, sur site ou en laboratoire).",
+          "observed_at": "2026-11-06",
+          "detail": "Chiffrage sur mesure assumé et justifié : c'est la préparation du devis qui peut être outillée, pas le prix."
+        },
+        {
+          "kind": "maturite_existante",
+          "source_url": "https://www.caleo-ts.fr/demande-de-devis/",
+          "quote": "Une carte par instrument (ou par lot d'instruments identiques) : désignation, quantité, marque, modèle, n° de série, plage de mesure, prestation souhaitée, besoin COFRAC.",
+          "observed_at": "2026-11-06",
+          "detail": "Contre-signal : la structure de collecte existe déjà et elle est pertinente. Le manque est la persistence, pas le formulaire."
+        },
+        {
+          "kind": "signal_confiance",
+          "source_url": "https://www.caleo-ts.fr/",
+          "quote": "COFRAC 2-5035. Laboratoire indépendant depuis 2007. Plus de 5000 équipements vérifiés chaque année, plus de 370 types d'instruments pris en charge.",
+          "observed_at": "2026-11-06",
+          "detail": "Accréditation, antériorité et volumétrie publiés : entreprise réelle et identifiable, fort enjeu documentaire."
+        }
+      ],
+      "publication_date": "",
+      "need": "automatisation",
+      "needs": [
+        "automatisation"
+      ],
+      "recommended_service": "un dépôt de demande qui enregistre le parc instrument par instrument et prépare les échéances de réétalonnage",
+      "email_verification": "public_unverified",
+      "score": 80,
+      "tier": "haute",
+      "status_crm": "qualified",
+      "justification": "processus manuel documenté (+50) : https://www.caleo-ts.fr/demande-de-devis/ ; parcours client incomplet (+30) : https://www.caleo-ts.fr/demande-de-devis/",
+      "process_hint": "demande de devis générée dans la messagerie du client ; listes longues envoyées en tableur Excel/CSV joint ; analyse ligne par ligne puis recontact si un instrument sort de l'ordinaire ; tarifs non publiés",
+      "demo_detail": "une liste de douze instruments déposée en ligne, reprise sans ressaisie dans un récapitulatif de devis",
+      "custom_hook": "Votre page de devis précise que le bouton « ouvre votre messagerie avec la demande pré-remplie », et que les listes longues sont à envoyer en tableur joint.",
+      "custom_subject": "Caléo : vos listes d'instruments arrivent en tableur joint",
+      "notes": "Lot 9. Laboratoire indépendant depuis 2007, 495 rue Franklin Roosevelt 62400 Béthune, accréditation COFRAC 2-5035. Plus de 5 000 équipements vérifiés par an, plus de 150 clients, plus de 370 types d'instruments (chiffres publiés sur l'accueil). Adresse e-mail contact@caleo-ts.fr relevée sur https://www.caleo-ts.fr/demande-de-devis/ le 2026-11-06 ; téléphone 07 67 33 00 57 relevé sur la même page. Aucun dirigeant nommé sur les pages consultées : aucun prénom n'est utilisé. L'opportunité ne porte PAS sur le formulaire, qui est bon, mais sur l'absence de dépôt côté serveur et de suivi de parc. Département 62 déjà présent au CRM (Joly) mais secteur entièrement neuf.",
+      "lot": "2026-11-06-lot9",
+      "discovered_at": "2026-11-06",
+      "email_status": "brouillon",
+      "next_action": "validation manuelle du brouillon ; aucun envoi tant que le pré-vol bloque",
+      "scores": {
+        "site_web": {
+          "axis": "site_web",
+          "score": 5,
+          "level": "faible",
+          "reasons": [
+            "un site est déjà en ligne : pas de création à proprement parler"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "un site existe déjà : la création n'est pas le bon service"
+          ],
+          "confidence": "haute",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": []
+        },
+        "refonte": {
+          "axis": "refonte",
+          "score": 45,
+          "level": "moyen",
+          "reasons": [
+            "site existant à moderniser",
+            "+40 parcours_incomplet : « Le bouton ci-dessous ouvre votre messagerie avec la demande pré-remplie, prête à envoyer à contact@caleo-ts… » (https://www.caleo-ts.fr/demande-de-devis/)"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "comportement sur mobile non vérifié",
+            "une seule page observée : vérifier le parcours de contact sur une seconde page"
+          ],
+          "confidence": "moyenne",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": []
+        },
+        "ia_automatisation": {
+          "axis": "ia_automatisation",
+          "score": 74,
+          "level": "fort",
+          "reasons": [
+            "+12 processus manuel signalé par le chercheur (type de preuve seul, volontairement plafonné)",
+            "+24 Le formulaire se termine dans la messagerie du client — « Le bouton ci-dessous ouvre votre messagerie avec la demande pré-remplie, prête à envoye… » [motif : ouvre votre messagerie] (https://www.caleo-ts.fr/demande-de-devis/)",
+            "+20 Pièces ou justificatifs à collecter — « Si votre liste est longue, envoyez-la plutôt en pièce jointe (tableur Excel/CSV ou expo… » [motif : piece jointe] (https://www.caleo-ts.fr/demande-de-devis/)",
+            "+18 Qualification ou vérification manuelle des demandes — « Chaque demande fait l'objet d'une analyse rapide ; plus votre liste est précise (type, … » [motif : nous vous recontactons pour] (https://www.caleo-ts.fr/demande-de-devis/)"
+          ],
+          "evidence": [
+            {
+              "signal": "depot_via_messagerie",
+              "label": "Le formulaire se termine dans la messagerie du client",
+              "weight": 24,
+              "matched_pattern": "ouvre votre messagerie",
+              "evidence_index": 0,
+              "source_url": "https://www.caleo-ts.fr/demande-de-devis/",
+              "quote": "Le bouton ci-dessous ouvre votre messagerie avec la demande pré-remplie, prête à envoyer à contact@caleo-ts.fr.",
+              "observed": true,
+              "hypothetical": false,
+              "reliability": "haute"
+            },
+            {
+              "signal": "collecte_pieces",
+              "label": "Pièces ou justificatifs à collecter",
+              "weight": 20,
+              "matched_pattern": "piece jointe",
+              "evidence_index": 1,
+              "source_url": "https://www.caleo-ts.fr/demande-de-devis/",
+              "quote": "Si votre liste est longue, envoyez-la plutôt en pièce jointe (tableur Excel/CSV ou export de votre logiciel de parc) par email à contact@caleo-ts.fr, en mentionnant votre demande.",
+              "observed": true,
+              "hypothetical": false,
+              "reliability": "haute"
+            },
+            {
+              "signal": "tri_manuel",
+              "label": "Qualification ou vérification manuelle des demandes",
+              "weight": 18,
+              "matched_pattern": "nous vous recontactons pour",
+              "evidence_index": 2,
+              "source_url": "https://www.caleo-ts.fr/demande-de-devis/",
+              "quote": "Chaque demande fait l'objet d'une analyse rapide ; plus votre liste est précise (type, marque, modèle, plage, quantité), plus la réponse est rapide. En cas d'instrument inhabituel, nous vous recontact",
+              "observed": true,
+              "hypothetical": false,
+              "reliability": "haute"
+            }
+          ],
+          "missing_information": [
+            "processus observé sur une seule page : confirmer sur une seconde source"
+          ],
+          "confidence": "moyenne",
+          "observed_signals": [
+            "Le formulaire se termine dans la messagerie du client",
+            "Pièces ou justificatifs à collecter",
+            "Qualification ou vérification manuelle des demandes"
+          ],
+          "hypothetical_signals": [],
+          "counter_signals": []
+        },
+        "priority": "moyenne",
+        "best_axis": "ia_automatisation",
+        "engine_version": "v7.1",
+        "opportunity_report": {
+          "automation": [
+            {
+              "signal": "depot_via_messagerie",
+              "label": "Le formulaire se termine dans la messagerie du client",
+              "weight": 24,
+              "matched_pattern": "ouvre votre messagerie",
+              "evidence_index": 0,
+              "source_url": "https://www.caleo-ts.fr/demande-de-devis/",
+              "quote": "Le bouton ci-dessous ouvre votre messagerie avec la demande pré-remplie, prête à envoyer à contact@caleo-ts.fr.",
+              "observed": true,
+              "hypothetical": false,
+              "reliability": "haute"
+            },
+            {
+              "signal": "collecte_pieces",
+              "label": "Pièces ou justificatifs à collecter",
+              "weight": 20,
+              "matched_pattern": "piece jointe",
+              "evidence_index": 1,
+              "source_url": "https://www.caleo-ts.fr/demande-de-devis/",
+              "quote": "Si votre liste est longue, envoyez-la plutôt en pièce jointe (tableur Excel/CSV ou export de votre logiciel de parc) par email à contact@caleo-ts.fr, en mentionnant votre demande.",
+              "observed": true,
+              "hypothetical": false,
+              "reliability": "haute"
+            },
+            {
+              "signal": "tri_manuel",
+              "label": "Qualification ou vérification manuelle des demandes",
+              "weight": 18,
+              "matched_pattern": "nous vous recontactons pour",
+              "evidence_index": 2,
+              "source_url": "https://www.caleo-ts.fr/demande-de-devis/",
+              "quote": "Chaque demande fait l'objet d'une analyse rapide ; plus votre liste est précise (type, marque, modèle, plage, quantité), plus la réponse est rapide. En cas d'instrument inhabituel, nous vous recontact",
+              "observed": true,
+              "hypothetical": false,
+              "reliability": "haute"
+            }
+          ],
+          "maturity": [],
+          "refonte": [],
+          "presence": []
+        }
+      },
+      "commercial_priority": "moyenne",
+      "email_dns_status": "mx_ok",
+      "phone_verification": "verified",
+      "contact_name_source": "",
+      "status": "brouillon_en_attente",
+      "id": "cal-o-tests-services",
+      "created_at": "2026-11-06T16:32:44+00:00",
+      "updated_at": "2026-11-06T16:32:44+00:00",
+      "email_dns_checked_at": "2026-11-06T16:32:44+00:00",
+      "email_dns_detail": "4 MX publiés",
+      "observation": "Le formulaire est bien construit, mais il ne dépose rien chez vous : la demande repart par e-mail, à reprendre ligne par ligne.",
+      "gmail_draft_id": "r-2816909309757794589",
+      "gmail_message_id": "1a1b672541671292",
+      "gmail_label": "Prospection/2026-11-06-lot9",
+      "gmail_label_id": "Label_7",
+      "delivery_status": "non_applicable"
+    },
+    {
+      "company": "Cordonnerie Canfora David",
+      "website": "https://www.cordonnerie-canfora-moulins.fr/",
+      "domain": "cordonnerie-canfora-moulins.fr",
+      "sector": "Cordonnerie, bourrellerie et sellerie équestre",
+      "city": "Moulins",
+      "department": "03",
+      "contact_name": "David",
+      "contact_role": "Entrepreneur individuel, artisan cordonnier-bourrelier",
+      "email": "david.canfora@sfr.fr",
+      "phone": "04 70 44 38 79",
+      "source": "site_officiel",
+      "evidence": [
+        {
+          "kind": "processus_manuel",
+          "source_url": "https://www.cordonnerie-canfora-moulins.fr/bourrellerie",
+          "quote": "Venez nous rencontrer en magasin pour nous présenter votre demande et pour établir un devis personnalisé !",
+          "observed_at": "2026-11-06",
+          "detail": "Le devis suppose un déplacement physique, sans dépôt de demande ni envoi de photos en amont."
+        },
+        {
+          "kind": "processus_manuel",
+          "source_url": "https://www.cordonnerie-canfora-moulins.fr/sellerie-cheval",
+          "quote": "Pour vos travaux de sellerie, n'hésitez pas à venir nous présenter votre demande en magasin et établir un devis personnalisé.",
+          "observed_at": "2026-11-06",
+          "detail": "Même parcours sur la sellerie équestre : deux activités, même point de blocage."
+        },
+        {
+          "kind": "parcours_incomplet",
+          "quote": "Appelez-nous rapidement 04 70 44 38 79 — Ecrivez-nous un e-mail",
+          "source_url": "https://www.cordonnerie-canfora-moulins.fr/contact",
+          "detail": "Les deux seuls canaux de contact sont l'appel et un lien mailto. Aucun formulaire ne permet de décrire une réparation ni d'y joindre des photos.",
+          "source_type": "site_officiel",
+          "reliability": "haute",
+          "verified_at": "2026-11-06",
+          "observed_at": "2026-11-06",
+          "observed": true
+        },
+        {
+          "kind": "maturite_existante",
+          "source_url": "https://www.cordonnerie-canfora-moulins.fr/bourrellerie",
+          "quote": "Site vitrine réalisé par Solocal, avec appel téléphonique et lien e-mail, page horaires et page avis.",
+          "observed_at": "2026-11-06",
+          "detail": "Contre-signal : une présence en ligne existe et les coordonnées sont joignables. Le manque est la collecte structurée d'une demande, pas le site entier."
+        },
+        {
+          "kind": "signal_confiance",
+          "source_url": "https://www.cordonnerie-canfora-moulins.fr/mentions-legales",
+          "quote": "Raison sociale : Cordonnerie Canfora. Forme juridique : Entrepreneur individuel. SIREN : 482141652. Code APE : 9523Z. Nom du directeur de la publication : M. CANFORA DAVID.",
+          "observed_at": "2026-11-06",
+          "detail": "Identité légale et fonction vérifiées dans les mentions légales, qui publient aussi l'adresse électronique et le téléphone."
+        }
+      ],
+      "publication_date": "",
+      "need": "automatisation",
+      "needs": [
+        "automatisation"
+      ],
+      "recommended_service": "un dépôt de demande avec photos qui permet un premier chiffrage à distance",
+      "email_verification": "public_unverified",
+      "score": 55,
+      "tier": "haute",
+      "status_crm": "qualified",
+      "justification": "processus manuel documenté (+50) : https://www.cordonnerie-canfora-moulins.fr/bourrellerie ; prénom du contact connu (+5)",
+      "process_hint": "devis établi uniquement en magasin après présentation physique de la pièce ; contact par téléphone ou lien e-mail ; aucun formulaire de demande sur le site",
+      "demo_detail": "une demande de réparation de sangle avec deux photos, qualifiée et chiffrée en fourchette avant tout déplacement",
+      "custom_hook": "Vos pages bourrellerie et sellerie se terminent par la même invitation : « Venez nous rencontrer en magasin pour nous présenter votre demande et pour établir un devis personnalisé ! ».",
+      "custom_subject": "Bourrellerie Canfora : le devis suppose de passer en boutique",
+      "notes": "Lot 9. Entrepreneur individuel, 17 rue du Pont 03000 Moulins, SIREN 482141652, RCS Cusset, SIRET 48214165200016, APE 9523Z. Directeur de la publication : M. CANFORA DAVID — prénom et fonction vérifiés dans les mentions légales consultées le 2026-11-06. L'adresse david.canfora@sfr.fr y est publiée comme « Adresse électronique » de l'entreprise et reprise en lien mailto en pied de page : c'est une boîte d'opérateur grand public, mais c'est le contact professionnel publié, non une adresse déduite. Téléphone 04 70 44 38 79 relevé sur la même page. Site réalisé par Solocal. Allier (03) et secteur cordonnerie/bourrellerie : deux nouveautés au CRM.",
+      "lot": "2026-11-06-lot9",
+      "discovered_at": "2026-11-06",
+      "email_status": "brouillon",
+      "next_action": "validation manuelle du brouillon ; aucun envoi tant que le pré-vol bloque",
+      "scores": {
+        "site_web": {
+          "axis": "site_web",
+          "score": 5,
+          "level": "faible",
+          "reasons": [
+            "un site est déjà en ligne : pas de création à proprement parler"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "un site existe déjà : la création n'est pas le bon service"
+          ],
+          "confidence": "haute",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": []
+        },
+        "refonte": {
+          "axis": "refonte",
+          "score": 71,
+          "level": "fort",
+          "reasons": [
+            "site existant à moderniser",
+            "+40 parcours_incomplet : « Appelez-nous rapidement 04 70 44 38 79 — Ecrivez-nous un e-mail » (https://www.cordonnerie-canfora-moulins.fr/contact)",
+            "+26 Contact réduit à un lien mailto ou une carte — « Venez nous rencontrer en magasin pour nous présenter votre demande et pour établir un d… » [motif : aucun formulaire] (https://www.cordonnerie-canfora-moulins.fr/bourrellerie)"
+          ],
+          "evidence": [
+            {
+              "signal": "contact_pauvre",
+              "label": "Contact réduit à un lien mailto ou une carte",
+              "weight": 26,
+              "matched_pattern": "aucun formulaire",
+              "evidence_index": 0,
+              "source_url": "https://www.cordonnerie-canfora-moulins.fr/bourrellerie",
+              "quote": "Venez nous rencontrer en magasin pour nous présenter votre demande et pour établir un devis personnalisé !",
+              "observed": true,
+              "hypothetical": false,
+              "reliability": "haute"
+            }
+          ],
+          "missing_information": [
+            "comportement sur mobile non vérifié"
+          ],
+          "confidence": "haute",
+          "observed_signals": [
+            "Contact réduit à un lien mailto ou une carte"
+          ],
+          "hypothetical_signals": [],
+          "counter_signals": []
+        },
+        "ia_automatisation": {
+          "axis": "ia_automatisation",
+          "score": 60,
+          "level": "moyen",
+          "reasons": [
+            "+12 processus manuel signalé par le chercheur (type de preuve seul, volontairement plafonné)",
+            "+26 Devis établi ou transmis à la main — « Venez nous rencontrer en magasin pour nous présenter votre demande et pour établir un d… » [motif : devis personnalise] (https://www.cordonnerie-canfora-moulins.fr/bourrellerie)",
+            "+22 Un déplacement est nécessaire pour être chiffré — « Venez nous rencontrer en magasin pour nous présenter votre demande et pour établir un d… » [motif : venez nous rencontrer] (https://www.cordonnerie-canfora-moulins.fr/bourrellerie)"
+          ],
+          "evidence": [
+            {
+              "signal": "devis_manuel",
+              "label": "Devis établi ou transmis à la main",
+              "weight": 26,
+              "matched_pattern": "devis personnalise",
+              "evidence_index": 0,
+              "source_url": "https://www.cordonnerie-canfora-moulins.fr/bourrellerie",
+              "quote": "Venez nous rencontrer en magasin pour nous présenter votre demande et pour établir un devis personnalisé !",
+              "observed": true,
+              "hypothetical": false,
+              "reliability": "haute"
+            },
+            {
+              "signal": "deplacement_obligatoire",
+              "label": "Un déplacement est nécessaire pour être chiffré",
+              "weight": 22,
+              "matched_pattern": "venez nous rencontrer",
+              "evidence_index": 0,
+              "source_url": "https://www.cordonnerie-canfora-moulins.fr/bourrellerie",
+              "quote": "Venez nous rencontrer en magasin pour nous présenter votre demande et pour établir un devis personnalisé !",
+              "observed": true,
+              "hypothetical": false,
+              "reliability": "haute"
+            }
+          ],
+          "missing_information": [],
+          "confidence": "haute",
+          "observed_signals": [
+            "Devis établi ou transmis à la main",
+            "Un déplacement est nécessaire pour être chiffré"
+          ],
+          "hypothetical_signals": [],
+          "counter_signals": []
+        },
+        "priority": "moyenne",
+        "best_axis": "refonte",
+        "engine_version": "v7.1",
+        "opportunity_report": {
+          "automation": [
+            {
+              "signal": "devis_manuel",
+              "label": "Devis établi ou transmis à la main",
+              "weight": 26,
+              "matched_pattern": "devis personnalise",
+              "evidence_index": 0,
+              "source_url": "https://www.cordonnerie-canfora-moulins.fr/bourrellerie",
+              "quote": "Venez nous rencontrer en magasin pour nous présenter votre demande et pour établir un devis personnalisé !",
+              "observed": true,
+              "hypothetical": false,
+              "reliability": "haute"
+            },
+            {
+              "signal": "deplacement_obligatoire",
+              "label": "Un déplacement est nécessaire pour être chiffré",
+              "weight": 22,
+              "matched_pattern": "venez nous rencontrer",
+              "evidence_index": 0,
+              "source_url": "https://www.cordonnerie-canfora-moulins.fr/bourrellerie",
+              "quote": "Venez nous rencontrer en magasin pour nous présenter votre demande et pour établir un devis personnalisé !",
+              "observed": true,
+              "hypothetical": false,
+              "reliability": "haute"
+            }
+          ],
+          "maturity": [],
+          "refonte": [
+            {
+              "signal": "contact_pauvre",
+              "label": "Contact réduit à un lien mailto ou une carte",
+              "weight": 26,
+              "matched_pattern": "aucun formulaire",
+              "evidence_index": 0,
+              "source_url": "https://www.cordonnerie-canfora-moulins.fr/bourrellerie",
+              "quote": "Venez nous rencontrer en magasin pour nous présenter votre demande et pour établir un devis personnalisé !",
+              "observed": true,
+              "hypothetical": false,
+              "reliability": "haute"
+            }
+          ],
+          "presence": []
+        }
+      },
+      "commercial_priority": "moyenne",
+      "email_dns_status": "mx_ok",
+      "phone_verification": "verified",
+      "contact_name_source": "https://www.cordonnerie-canfora-moulins.fr/mentions-legales",
+      "status": "brouillon_en_attente",
+      "id": "cordonnerie-canfora-david",
+      "created_at": "2026-11-06T16:32:44+00:00",
+      "updated_at": "2026-11-06T16:32:44+00:00",
+      "email_dns_checked_at": "2026-11-06T16:32:44+00:00",
+      "email_dns_detail": "1 MX publiés",
+      "gmail_draft_id": "r-2900807566475937810",
+      "gmail_message_id": "1a1b1b9735345222",
+      "gmail_label": "Prospection/2026-11-06-lot9",
+      "gmail_label_id": "Label_7",
+      "delivery_status": "non_applicable"
+    },
+    {
+      "company": "Froger Étanchéité",
+      "website": "https://froger-etancheite.fr/",
+      "domain": "froger-etancheite.fr",
+      "sector": "Étanchéité de toitures-terrasses et entretien de toits plats",
+      "city": "Cesson-Sévigné",
+      "department": "35",
+      "contact_name": "",
+      "contact_role": "",
+      "email": "frogeretancheite@gmail.com",
+      "phone": "06 35 41 64 70",
+      "source": "site_officiel",
+      "evidence": [
+        {
+          "kind": "parcours_incomplet",
+          "source_url": "https://froger-etancheite.fr/",
+          "quote": "E-mail : moc.liamg%40etiehcnateregorf",
+          "observed_at": "2026-11-06",
+          "detail": "Le href est mailto:moc.liamg%40etiehcnateregorf : la chaîne anti-spam inversée est restée dans le lien. Lu à l'endroit, le texte donne frogeretancheite@gmail.com. Le lien e-mail du site est donc inopérant en l'état."
+        },
+        {
+          "kind": "processus_manuel",
+          "source_url": "https://froger-etancheite.fr/",
+          "quote": "Pour obtenir un devis personnalisé, il vous suffit de nous contacter par téléphone ou via notre formulaire en ligne. Nous convenons d'une visite sur site, pour évaluer vos besoins et les spécificités de votre toiture. Nous pouvons ensuite vous envoyer un devis détaillé, gratuit et sans engagement.",
+          "observed_at": "2026-11-06",
+          "detail": "Visite préalable systématique : la qualification en amont conditionne un déplacement."
+        },
+        {
+          "kind": "processus_manuel",
+          "source_url": "https://froger-etancheite.fr/",
+          "quote": "Nous proposons des contrats annuels comprenant le nettoyage, la vérification des ouvrages et un compte-rendu détaillé.",
+          "observed_at": "2026-11-06",
+          "detail": "Hypothèse, non un fait observé : des échéances annuelles par site et des comptes-rendus à produire impliquent un suivi récurrent. Le site ne dit pas comment ce suivi est tenu."
+        },
+        {
+          "kind": "maturite_existante",
+          "source_url": "https://froger-etancheite.fr/",
+          "quote": "Une question, une demande de devis ? Remplissez le formulaire ou contactez-nous directement par téléphone.",
+          "observed_at": "2026-11-06",
+          "detail": "Contre-signal : un formulaire de contact fonctionne et affiche une confirmation. Le défaut observé porte sur le lien e-mail, pas sur une absence totale de collecte."
+        },
+        {
+          "kind": "signal_confiance",
+          "source_url": "https://froger-etancheite.fr/",
+          "quote": "Froger Étanchéité est membre de la Chambre Syndicale Française de l'Étanchéité (CSFE). Membre de la Fédération Française du Bâtiment (FFB).",
+          "observed_at": "2026-11-06",
+          "detail": "Affiliations professionnelles publiées : entreprise établie, pas un intermédiaire de mise en relation."
+        }
+      ],
+      "publication_date": "",
+      "need": "refonte",
+      "needs": [
+        "refonte"
+      ],
+      "recommended_service": "un parcours de demande réparé qui qualifie la toiture avant la visite technique",
+      "email_verification": "public_unverified",
+      "score": 80,
+      "tier": "haute",
+      "status_crm": "qualified",
+      "justification": "processus manuel documenté (+50) : https://froger-etancheite.fr/ ; parcours client incomplet (+30) : https://froger-etancheite.fr/",
+      "process_hint": "contact par téléphone ou formulaire ; visite sur site systématique avant devis ; contrats annuels d'entretien avec nettoyage, vérification et compte-rendu détaillé",
+      "demo_detail": "une demande d'étanchéité qualifiée — type de revêtement, surface, commune — transmise avec une visite proposée",
+      "custom_hook": "En bas de votre page d'accueil, le lien e-mail pointe vers « moc.liamg%40etiehcnateregorf » : la chaîne anti-spam inversée est restée dans le lien.",
+      "custom_subject": "Froger Étanchéité : votre lien e-mail est écrit à l'envers",
+      "notes": "Lot 9. Centre d'Affaires Alizés, 22 rue de la Rigourdière, 35510 Cesson-Sévigné. Membre CSFE et FFB (publié sur l'accueil). Rayon de 100 km autour de Rennes (35) et Laval (53). Téléphone 06 35 41 64 70 relevé sur https://froger-etancheite.fr/ le 2026-11-06, présent en lien tel:0635416470. ATTENTION — adresse e-mail : le site publie mailto:moc.liamg%40etiehcnateregorf, soit la chaîne inversée. Lue à l'endroit elle donne frogeretancheite@gmail.com, cohérente avec la raison sociale. Il s'agit du décodage déterministe d'une adresse publiée, PAS d'une adresse déduite du nom de domaine. Aucun envoi n'est effectué ; le brouillon reste à valider et l'adresse peut être confirmée par téléphone avant validation. Aucun dirigeant nommé sur les pages consultées : aucun prénom n'est utilisé. Ille-et-Vilaine (35) et secteur étanchéité : deux nouveautés au CRM.",
+      "lot": "2026-11-06-lot9",
+      "discovered_at": "2026-11-06",
+      "email_status": "brouillon",
+      "next_action": "validation manuelle du brouillon ; aucun envoi tant que le pré-vol bloque",
+      "scores": {
+        "site_web": {
+          "axis": "site_web",
+          "score": 5,
+          "level": "faible",
+          "reasons": [
+            "un site est déjà en ligne : pas de création à proprement parler"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "un site existe déjà : la création n'est pas le bon service"
+          ],
+          "confidence": "moyenne",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": []
+        },
+        "refonte": {
+          "axis": "refonte",
+          "score": 71,
+          "level": "fort",
+          "reasons": [
+            "site existant à moderniser",
+            "+40 parcours_incomplet : « E-mail : moc.liamg%40etiehcnateregorf » (https://froger-etancheite.fr/)",
+            "+26 Contact réduit à un lien mailto ou une carte — « E-mail : moc.liamg%40etiehcnateregorf » [motif : mailto:] (https://froger-etancheite.fr/)"
+          ],
+          "evidence": [
+            {
+              "signal": "contact_pauvre",
+              "label": "Contact réduit à un lien mailto ou une carte",
+              "weight": 26,
+              "matched_pattern": "mailto:",
+              "evidence_index": 0,
+              "source_url": "https://froger-etancheite.fr/",
+              "quote": "E-mail : moc.liamg%40etiehcnateregorf",
+              "observed": true,
+              "hypothetical": false,
+              "reliability": "haute"
+            }
+          ],
+          "missing_information": [
+            "comportement sur mobile non vérifié",
+            "une seule page observée : vérifier le parcours de contact sur une seconde page"
+          ],
+          "confidence": "moyenne",
+          "observed_signals": [
+            "Contact réduit à un lien mailto ou une carte"
+          ],
+          "hypothetical_signals": [],
+          "counter_signals": []
+        },
+        "ia_automatisation": {
+          "axis": "ia_automatisation",
+          "score": 56,
+          "level": "moyen",
+          "reasons": [
+            "+12 processus manuel signalé par le chercheur (type de preuve seul, volontairement plafonné)",
+            "+18 Échéances récurrentes à suivre — « E-mail : moc.liamg%40etiehcnateregorf » [motif : contrats annuels] (https://froger-etancheite.fr/)",
+            "+26 Devis établi ou transmis à la main — « Pour obtenir un devis personnalisé, il vous suffit de nous contacter par téléphone ou v… » [motif : devis personnalise] (https://froger-etancheite.fr/)"
+          ],
+          "evidence": [
+            {
+              "signal": "echeances_recurrentes",
+              "label": "Échéances récurrentes à suivre",
+              "weight": 18,
+              "matched_pattern": "contrats annuels",
+              "evidence_index": 0,
+              "source_url": "https://froger-etancheite.fr/",
+              "quote": "E-mail : moc.liamg%40etiehcnateregorf",
+              "observed": true,
+              "hypothetical": false,
+              "reliability": "haute"
+            },
+            {
+              "signal": "devis_manuel",
+              "label": "Devis établi ou transmis à la main",
+              "weight": 26,
+              "matched_pattern": "devis personnalise",
+              "evidence_index": 1,
+              "source_url": "https://froger-etancheite.fr/",
+              "quote": "Pour obtenir un devis personnalisé, il vous suffit de nous contacter par téléphone ou via notre formulaire en ligne. Nous convenons d'une visite sur site, pour évaluer vos besoins et les spécificités ",
+              "observed": true,
+              "hypothetical": false,
+              "reliability": "haute"
+            }
+          ],
+          "missing_information": [
+            "processus observé sur une seule page : confirmer sur une seconde source"
+          ],
+          "confidence": "moyenne",
+          "observed_signals": [
+            "Échéances récurrentes à suivre",
+            "Devis établi ou transmis à la main"
+          ],
+          "hypothetical_signals": [],
+          "counter_signals": []
+        },
+        "priority": "moyenne",
+        "best_axis": "refonte",
+        "engine_version": "v7.1",
+        "opportunity_report": {
+          "automation": [
+            {
+              "signal": "echeances_recurrentes",
+              "label": "Échéances récurrentes à suivre",
+              "weight": 18,
+              "matched_pattern": "contrats annuels",
+              "evidence_index": 0,
+              "source_url": "https://froger-etancheite.fr/",
+              "quote": "E-mail : moc.liamg%40etiehcnateregorf",
+              "observed": true,
+              "hypothetical": false,
+              "reliability": "haute"
+            },
+            {
+              "signal": "devis_manuel",
+              "label": "Devis établi ou transmis à la main",
+              "weight": 26,
+              "matched_pattern": "devis personnalise",
+              "evidence_index": 1,
+              "source_url": "https://froger-etancheite.fr/",
+              "quote": "Pour obtenir un devis personnalisé, il vous suffit de nous contacter par téléphone ou via notre formulaire en ligne. Nous convenons d'une visite sur site, pour évaluer vos besoins et les spécificités ",
+              "observed": true,
+              "hypothetical": false,
+              "reliability": "haute"
+            }
+          ],
+          "maturity": [],
+          "refonte": [
+            {
+              "signal": "contact_pauvre",
+              "label": "Contact réduit à un lien mailto ou une carte",
+              "weight": 26,
+              "matched_pattern": "mailto:",
+              "evidence_index": 0,
+              "source_url": "https://froger-etancheite.fr/",
+              "quote": "E-mail : moc.liamg%40etiehcnateregorf",
+              "observed": true,
+              "hypothetical": false,
+              "reliability": "haute"
+            }
+          ],
+          "presence": []
+        }
+      },
+      "commercial_priority": "moyenne",
+      "email_dns_status": "mx_ok",
+      "phone_verification": "verified",
+      "contact_name_source": "",
+      "status": "brouillon_en_attente",
+      "id": "froger-tanch-it",
+      "created_at": "2026-11-06T16:32:44+00:00",
+      "updated_at": "2026-11-06T16:32:44+00:00",
+      "email_dns_checked_at": "2026-11-04T22:11:15+00:00",
+      "email_dns_detail": "5 MX publiés",
+      "gmail_draft_id": "r-8700207463215455399",
+      "gmail_message_id": "1a1b1b98459979b3",
+      "gmail_label": "Prospection/2026-11-06-lot9",
+      "gmail_label_id": "Label_7",
+      "delivery_status": "non_applicable"
+    },
+    {
+      "company": "Cordes et Âme",
+      "website": "https://www.cordesetame.fr/",
+      "domain": "cordesetame.fr",
+      "sector": "Lutherie — réparation, restauration et location d'instruments à cordes",
+      "city": "Paris",
+      "department": "75",
+      "contact_name": "Jean-Baptiste",
+      "contact_role": "Maître luthier et chef d'atelier",
+      "email": "ateliercordesetame@gmail.com",
+      "phone": "01 42 93 42 91",
+      "source": "site_officiel",
+      "evidence": [
+        {
+          "kind": "processus_manuel",
+          "source_url": "https://www.cordesetame.fr/",
+          "quote": "Selon la nature des travaux et la présence au sein de l'atelier de clientèle, il peut être compliqué de répondre aux appels. Nous relevons les messages une fois par jour. Pour une réponse plus rapide et claire, nous vous invitons à nous contacter de préférence par mail.",
+          "observed_at": "2026-11-06",
+          "detail": "Difficulté opérationnelle énoncée par l'entreprise elle-même, avec la cadence de relevé des messages."
+        },
+        {
+          "kind": "processus_manuel",
+          "source_url": "https://www.cordesetame.fr/",
+          "quote": "Dans tous les cas, nous vous invitons à venir nous rendre visite à l'atelier avec votre instrument pour discuter des besoins et des possibilités, afin que nous vous proposions un devis et fixions éventuellement un rendez-vous.",
+          "observed_at": "2026-11-06",
+          "detail": "Devis et rendez-vous conditionnés à une visite, sans dépôt de demande descriptive en amont."
+        },
+        {
+          "kind": "processus_manuel",
+          "source_url": "https://www.cordesetame.fr/",
+          "quote": "Comme notre stock est mouvant, et comme chaque instrument est révisé avant votre location, vous pouvez rencontrer un délai de préparation avant que l'instrument soit disponible. Nous vous encourageons à nous contacter en avance pour réserver votre instrument.",
+          "observed_at": "2026-11-06",
+          "detail": "Hypothèse, non un fait observé : disponibilités et délais de préparation seraient suivis par échanges, sans visibilité côté client. Le site ne décrit pas l'outil utilisé."
+        },
+        {
+          "kind": "maturite_existante",
+          "source_url": "https://www.cordesetame.fr/",
+          "quote": "Boutique en ligne avec panier et page « Demande une location ».",
+          "observed_at": "2026-11-06",
+          "detail": "Contre-signal : une boutique en ligne et une page de demande de location existent. Le besoin porte sur la description des demandes d'atelier, pas sur la vente."
+        },
+        {
+          "kind": "signal_confiance",
+          "source_url": "https://www.cordesetame.fr/",
+          "quote": "Atelier Cordes et Âme fournis les musiciens du quatuor de tous niveaux depuis 1958. Jean-Baptiste Ferrier, maître luthier et chef d'atelier.",
+          "observed_at": "2026-11-06",
+          "detail": "Antériorité et équipe nommées publiquement : la fonction du contact est vérifiée."
+        }
+      ],
+      "publication_date": "",
+      "need": "automatisation",
+      "needs": [
+        "automatisation"
+      ],
+      "recommended_service": "une demande guidée qui décrit l'instrument et l'intervention avant le premier échange",
+      "email_verification": "public_unverified",
+      "score": 55,
+      "tier": "haute",
+      "status_crm": "qualified",
+      "justification": "processus manuel documenté (+50) : https://www.cordesetame.fr/ ; prénom du contact connu (+5)",
+      "process_hint": "appels difficiles à prendre pendant les travaux ; messages relevés une fois par jour ; devis proposé après visite à l'atelier avec l'instrument ; location à réserver en avance sur stock mouvant",
+      "demo_detail": "une demande de réparation décrite — instrument, nature des travaux, photos — prête à être traitée en une passe",
+      "custom_hook": "Votre page de contact l'écrit : « il peut être compliqué de répondre aux appels » et « Nous relevons les messages une fois par jour ».",
+      "custom_subject": "Cordes et Âme : des messages relevés une fois par jour",
+      "notes": "Lot 9. Atelier depuis 1958, 46 rue de Rome 75008 Paris. Équipe nommée publiquement : Jean-Baptiste Ferrier (maître luthier et chef d'atelier), Hitomi Amano et Brigid Pierce (luthières) — prénom et fonction vérifiés sur https://www.cordesetame.fr/ le 2026-11-06. Adresse ateliercordesetame@gmail.com publiée en clair en lien mailto dans la section Contact ; téléphone 01 42 93 42 91 en lien tel:0142934291 sur la même page. C'est une boîte Gmail mais c'est le contact professionnel publié de l'atelier. La difficulté opérationnelle est énoncée par l'entreprise elle-même : fait observé, pas déduction sectorielle. Une boutique avec panier existe déjà (Squarespace) : l'opportunité ne porte donc PAS sur une création de site. Paris (75) déjà présent au CRM (France-PNL) mais secteur lutherie neuf.",
+      "lot": "2026-11-06-lot9",
+      "discovered_at": "2026-11-06",
+      "email_status": "brouillon",
+      "next_action": "validation manuelle du brouillon ; aucun envoi tant que le pré-vol bloque",
+      "scores": {
+        "site_web": {
+          "axis": "site_web",
+          "score": 5,
+          "level": "faible",
+          "reasons": [
+            "un site est déjà en ligne : pas de création à proprement parler"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "un site existe déjà : la création n'est pas le bon service"
+          ],
+          "confidence": "moyenne",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": []
+        },
+        "refonte": {
+          "axis": "refonte",
+          "score": 5,
+          "level": "faible",
+          "reasons": [
+            "site existant à moderniser",
+            "aucune preuve directe sur cet axe : score volontairement bas"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "comportement sur mobile non vérifié",
+            "une seule page observée : vérifier le parcours de contact sur une seconde page"
+          ],
+          "confidence": "moyenne",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": []
+        },
+        "ia_automatisation": {
+          "axis": "ia_automatisation",
+          "score": 43,
+          "level": "moyen",
+          "reasons": [
+            "+12 processus manuel signalé par le chercheur (type de preuve seul, volontairement plafonné)",
+            "+28 Difficulté à répondre énoncée par l'entreprise — « Selon la nature des travaux et la présence au sein de l'atelier de clientèle, il peut ê… » [motif : complique de repondre] (https://www.cordesetame.fr/)",
+            "+22 Un déplacement est nécessaire pour être chiffré — « Dans tous les cas, nous vous invitons à venir nous rendre visite à l'atelier avec votre… » [motif : venir nous rendre visite] (https://www.cordesetame.fr/)",
+            "-19 Paiement en ligne en place — « Boutique en ligne avec panier et page « Demande une location ». » [motif : boutique en ligne] (https://www.cordesetame.fr/)"
+          ],
+          "evidence": [
+            {
+              "signal": "capacite_reponse_limitee",
+              "label": "Difficulté à répondre énoncée par l'entreprise",
+              "weight": 28,
+              "matched_pattern": "complique de repondre",
+              "evidence_index": 0,
+              "source_url": "https://www.cordesetame.fr/",
+              "quote": "Selon la nature des travaux et la présence au sein de l'atelier de clientèle, il peut être compliqué de répondre aux appels. Nous relevons les messages une fois par jour. Pour une réponse plus rapide ",
+              "observed": true,
+              "hypothetical": false,
+              "reliability": "haute"
+            },
+            {
+              "signal": "deplacement_obligatoire",
+              "label": "Un déplacement est nécessaire pour être chiffré",
+              "weight": 22,
+              "matched_pattern": "venir nous rendre visite",
+              "evidence_index": 1,
+              "source_url": "https://www.cordesetame.fr/",
+              "quote": "Dans tous les cas, nous vous invitons à venir nous rendre visite à l'atelier avec votre instrument pour discuter des besoins et des possibilités, afin que nous vous proposions un devis et fixions éven",
+              "observed": true,
+              "hypothetical": false,
+              "reliability": "haute"
+            }
+          ],
+          "missing_information": [
+            "processus observé sur une seule page : confirmer sur une seconde source"
+          ],
+          "confidence": "moyenne",
+          "observed_signals": [
+            "Difficulté à répondre énoncée par l'entreprise",
+            "Un déplacement est nécessaire pour être chiffré"
+          ],
+          "hypothetical_signals": [],
+          "counter_signals": [
+            "Paiement en ligne en place"
+          ]
+        },
+        "priority": "moyenne",
+        "best_axis": "ia_automatisation",
+        "engine_version": "v7.1",
+        "opportunity_report": {
+          "automation": [
+            {
+              "signal": "capacite_reponse_limitee",
+              "label": "Difficulté à répondre énoncée par l'entreprise",
+              "weight": 28,
+              "matched_pattern": "complique de repondre",
+              "evidence_index": 0,
+              "source_url": "https://www.cordesetame.fr/",
+              "quote": "Selon la nature des travaux et la présence au sein de l'atelier de clientèle, il peut être compliqué de répondre aux appels. Nous relevons les messages une fois par jour. Pour une réponse plus rapide ",
+              "observed": true,
+              "hypothetical": false,
+              "reliability": "haute"
+            },
+            {
+              "signal": "deplacement_obligatoire",
+              "label": "Un déplacement est nécessaire pour être chiffré",
+              "weight": 22,
+              "matched_pattern": "venir nous rendre visite",
+              "evidence_index": 1,
+              "source_url": "https://www.cordesetame.fr/",
+              "quote": "Dans tous les cas, nous vous invitons à venir nous rendre visite à l'atelier avec votre instrument pour discuter des besoins et des possibilités, afin que nous vous proposions un devis et fixions éven",
+              "observed": true,
+              "hypothetical": false,
+              "reliability": "haute"
+            }
+          ],
+          "maturity": [
+            {
+              "signal": "paiement_en_ligne",
+              "label": "Paiement en ligne en place",
+              "weight": 24,
+              "matched_pattern": "boutique en ligne",
+              "evidence_index": 3,
+              "source_url": "https://www.cordesetame.fr/",
+              "quote": "Boutique en ligne avec panier et page « Demande une location ».",
+              "observed": true,
+              "hypothetical": false,
+              "reliability": "haute"
+            }
+          ],
+          "refonte": [],
+          "presence": []
+        }
+      },
+      "commercial_priority": "moyenne",
+      "email_dns_status": "mx_ok",
+      "phone_verification": "verified",
+      "contact_name_source": "https://www.cordesetame.fr/",
+      "status": "brouillon_en_attente",
+      "id": "cordes-et-me",
+      "created_at": "2026-11-06T16:32:44+00:00",
+      "updated_at": "2026-11-06T16:32:44+00:00",
+      "email_dns_checked_at": "2026-11-04T22:11:15+00:00",
+      "email_dns_detail": "5 MX publiés",
+      "gmail_draft_id": "r2871291886672009217",
+      "gmail_message_id": "1a1b1b991300c965",
+      "gmail_label": "Prospection/2026-11-06-lot9",
+      "gmail_label_id": "Label_7",
+      "delivery_status": "non_applicable"
     }
   ]
 }

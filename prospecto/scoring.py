@@ -39,7 +39,7 @@ from .models import (
     EVIDENCE_SITE_DOWN,
     EVIDENCE_SITE_OBSOLETE,
     EVIDENCE_PROCESS_MANUAL,
-    EVIDENCE_JOURNEY_GAP,
+    EVIDENCE_JOURNEY_GAP, EVIDENCE_MATURITY,
     EMAIL_VERIFIED,
     EMAIL_PUBLIC_UNVERIFIED,
 )
@@ -119,13 +119,19 @@ def _weight_of_detection(det: opportunity.Detection) -> float:
 
 
 def _confidence(detections: list[opportunity.Detection], evidences: list[Evidence],
-                today: date | None = None) -> str:
+                today: date | None = None, extra_sources: set[str] | None = None) -> str:
     """Confiance = observed + fiabilité + nombre de sources + fraîcheur."""
     if not detections and not evidences:
         return CONFIDENCE_LOW
     contributing = detections or []
     solid = [d for d in contributing if d.observed and d.reliability == "haute"]
     sources = {d.source_url for d in contributing if d.source_url}
+    # v7.1 — deux pages qui établissent le même processus sont deux sources,
+    # même si un seul signal en a été tiré (le catalogue dédoublonne par
+    # signal, pas par page). Sans cela, Canfora restait en confiance moyenne
+    # alors que bourrellerie ET sellerie décrivent le même devis en magasin.
+    if extra_sources:
+        sources |= {s for s in extra_sources if s}
     if not contributing:
         solid_ev = [e for e in evidences if e.observed and e.reliability == "haute"]
         sources = {e.source_url for e in solid_ev if e.source_url}
@@ -221,7 +227,7 @@ def score_prospect(prospect: Prospect, today: date | None = None) -> dict[str, A
         site_missing.append("un site existe déjà : la création n'est pas le bon service")
     if not has_site:
         site_missing.append("confirmer l'absence de site officiel (annuaire, registre, page professionnelle)")
-    if not report.presence and not absent and not down:
+    if not report.presence and not absent and not down and not has_site:
         site_missing.append("aucune observation directe sur la présence en ligne")
     site = AxisScore(AXIS_SITE_WEB, max(0, min(100, site_total)), _level(max(0, min(100, site_total))),
                      site_reasons or ["aucune preuve directe sur cet axe : score volontairement bas"],
@@ -251,10 +257,15 @@ def score_prospect(prospect: Prospect, today: date | None = None) -> dict[str, A
         ref_missing.append("comportement sur mobile non vérifié")
     if not has_site:
         ref_missing.append("aucun site à évaluer")
-    if len({d.source_url for d in report.refonte}) < 2:
+    ref_sources = ({d.source_url for d in report.refonte if d.source_url}
+                   | {e.source_url for e in evs if e.source_url and e.observed
+                      and e.kind in (EVIDENCE_JOURNEY_GAP, EVIDENCE_WEBSITE_GAP,
+                                     EVIDENCE_SITE_OBSOLETE)})
+    if len(ref_sources) < 2:
         ref_missing.append("une seule page observée : vérifier le parcours de contact sur une seconde page")
     refonte = AxisScore(AXIS_REFONTE, ref_total, _level(ref_total), ref_all_reasons, ref_ev,
-                        ref_missing, _confidence(report.refonte, ref_kind_used or evs, today),
+                        ref_missing, _confidence(report.refonte, ref_kind_used or evs, today,
+                                                 extra_sources=ref_sources),
                         [d.signal.label for d in report.refonte if d.observed],
                         [d.signal.label for d in report.refonte if not d.observed])
 
@@ -285,15 +296,19 @@ def score_prospect(prospect: Prospect, today: date | None = None) -> dict[str, A
     if not report.automation:
         ia_missing.append("aucun processus entrant décrit publiquement : observer comment "
                           "arrivent et sont traitées les demandes (devis, réservation, dossier)")
-    if not report.maturity:
+    if not report.maturity and not any(e.kind == EVIDENCE_MATURITY for e in evs):
         ia_missing.append("ce qui est déjà automatisé n'est pas documenté "
                           "(réservation en ligne, paiement, espace client, réponse automatique)")
-    if len({d.source_url for d in report.automation}) < 2:
+    ia_sources = ({d.source_url for d in report.automation if d.source_url}
+                  | {e.source_url for e in process_evidences
+                     if e.source_url and e.observed})
+    if len(ia_sources) < 2:
         ia_missing.append("processus observé sur une seule page : confirmer sur une seconde source")
     if prospect.process_hint and not report.automation:
         ia_missing.append("le processus est affirmé dans process_hint mais aucune citation ne l'établit")
     ia = AxisScore(AXIS_IA, ia_total, _level(ia_total), ia_reasons, auto_ev, ia_missing,
-                   _confidence(report.automation, process_evidences or evs, today),
+                   _confidence(report.automation, process_evidences or evs, today,
+                               extra_sources=ia_sources),
                    [d.signal.label for d in report.automation if d.observed],
                    [d.signal.label for d in report.automation if not d.observed],
                    [d.signal.label for d in report.maturity])
@@ -301,7 +316,7 @@ def score_prospect(prospect: Prospect, today: date | None = None) -> dict[str, A
     scores = {s.axis: s.to_dict() for s in (site, refonte, ia)}
     scores["priority"] = commercial_priority(prospect, scores)
     scores["best_axis"] = max(AXES, key=lambda a: scores[a]["score"])
-    scores["engine_version"] = "v7"
+    scores["engine_version"] = "v7.1"
     scores["opportunity_report"] = report.to_dict()
     return scores
 

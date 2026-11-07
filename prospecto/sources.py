@@ -285,10 +285,18 @@ class ExplorationLedger:
         return entry
 
     def examined_sector_terms(self) -> set[str]:
+        """Termes de secteur déjà explorés, propres à la comparaison.
+
+        Les secteurs sont stockés en slugs (« etalonnage_metrologie »). Sans
+        découpage sur « _ » et sans suppression des accents, ce slug restait un
+        token unique qui ne matchait aucun terme du pool : le planificateur
+        reproposait donc un secteur déjà traité.
+        """
+        from .opportunity import normalize
         terms: set[str] = set()
         for e in self.entries:
-            terms.update(w for w in _norm(e.get("sector", "")).replace("—", " ").split()
-                         if len(w) > 4)
+            raw = normalize(e.get("sector", "")).replace("_", " ").replace("-", " ")
+            terms.update(w for w in raw.split() if len(w) > 4)
         return terms
 
     def save(self) -> None:

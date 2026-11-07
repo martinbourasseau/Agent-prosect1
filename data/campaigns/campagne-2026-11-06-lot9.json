@@ -1,0 +1,76 @@
+{
+  "name": "campagne-2026-11-06-lot9",
+  "lot": "2026-11-06-lot9",
+  "created_at": "2026-11-06T16:38:33+00:00",
+  "status": "drafts_pending_validation",
+  "enabled": false,
+  "gmail_label": "Prospection/2026-11-06-lot9",
+  "gmail_label_id": "Label_7",
+  "send_allowed": false,
+  "blocking_reasons": [
+    "Campagne non activée (enabled=false)",
+    "DKIM non détecté pour le domaine expéditeur",
+    "Domaine expéditeur gratuit (Gmail)"
+  ],
+  "exploration": {
+    "examined": 55,
+    "retained": 4,
+    "rejected": 27,
+    "directory_only": 24,
+    "departments": 23,
+    "source_types": 3,
+    "ledger": "data/history/exploration-ledger.json"
+  },
+  "engine_version": "v7.1",
+  "drafts": [
+    {
+      "company": "Caléo Tests & Services",
+      "to": "contact@caleo-ts.fr",
+      "subject": "Caléo : vos listes d'instruments arrivent en tableur joint",
+      "variant": "automation_ia",
+      "reference_id": null,
+      "gmail_draft_id": "r-2816909309757794589",
+      "gmail_message_id": "1a1b672541671292",
+      "queue_id": "2026-11-06-lot9-001",
+      "status": "draft",
+      "violations": []
+    },
+    {
+      "company": "Cordonnerie Canfora David",
+      "to": "david.canfora@sfr.fr",
+      "subject": "Bourrellerie Canfora : le devis suppose de passer en boutique",
+      "variant": "with_example",
+      "reference_id": null,
+      "gmail_draft_id": "r-2900807566475937810",
+      "gmail_message_id": "1a1b1b9735345222",
+      "queue_id": "2026-11-06-lot9-002",
+      "status": "draft",
+      "violations": []
+    },
+    {
+      "company": "Froger Étanchéité",
+      "to": "frogeretancheite@gmail.com",
+      "subject": "Froger Étanchéité : votre lien e-mail est écrit à l'envers",
+      "variant": "refonte",
+      "reference_id": null,
+      "gmail_draft_id": "r-8700207463215455399",
+      "gmail_message_id": "1a1b1b98459979b3",
+      "queue_id": "2026-11-06-lot9-003",
+      "status": "draft",
+      "violations": []
+    },
+    {
+      "company": "Cordes et Âme",
+      "to": "ateliercordesetame@gmail.com",
+      "subject": "Cordes et Âme : des messages relevés une fois par jour",
+      "variant": "short_hook",
+      "reference_id": null,
+      "gmail_draft_id": "r2871291886672009217",
+      "gmail_message_id": "1a1b1b991300c965",
+      "queue_id": "2026-11-06-lot9-004",
+      "status": "draft",
+      "violations": []
+    }
+  ],
+  "sent_manually_count": 0
+}

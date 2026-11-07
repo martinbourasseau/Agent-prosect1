@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-06T16:09:52+00:00",
+  "updated_at": "2026-11-06T16:36:56+00:00",
   "items": [
     {
       "id": "2026-11-03-v2-001",
@@ -2586,6 +2586,157 @@
           "reason": "envoi constaté dans Gmail (statut précédent : pending)",
           "source": "gmail_manual_observed",
           "gmail_message_id": "1a1b184c2bc9921b"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-06-lot9-001",
+      "campaign": "2026-11-06-lot9",
+      "to": "contact@caleo-ts.fr",
+      "company": "Caléo Tests & Services",
+      "subject": "Caléo : vos listes d'instruments arrivent en tableur joint",
+      "body": "Bonjour,\n\nVotre page de devis précise que le bouton « ouvre votre messagerie avec la demande pré-remplie », et que les listes longues sont à envoyer en tableur joint.\n\nLe formulaire est bien construit, mais il ne dépose rien chez vous : la demande repart par e-mail, à reprendre ligne par ligne.\n\nJe peux vous proposer un dépôt de demande qui enregistre le parc instrument par instrument et prépare les échéances de réétalonnage : vos demandes de devis arrivent déjà structurées, sans ressaisie ni fichier à reformater.\n\nJe peux vous en faire une démonstration gratuite, sans engagement : une liste de douze instruments déposée en ligne, reprise sans ressaisie dans un récapitulatif de devis.\n\nEst-ce un point qui vous occupe en ce moment ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+      "need": "automatisation",
+      "evidence_sources": [
+        "https://www.caleo-ts.fr/demande-de-devis/",
+        "https://www.caleo-ts.fr/demande-de-devis/",
+        "https://www.caleo-ts.fr/demande-de-devis/",
+        "https://www.caleo-ts.fr/demande-de-devis/",
+        "https://www.caleo-ts.fr/demande-de-devis/",
+        "https://www.caleo-ts.fr/"
+      ],
+      "status": "draft",
+      "created_at": "2026-11-06T16:36:56+00:00",
+      "updated_at": "2026-11-07T14:38:04+00:00",
+      "gmail_draft_id": "r-2816909309757794589",
+      "gmail_message_id": "1a1b672541671292",
+      "decision_reason": "Lot 9. Brouillon en attente de validation manuelle. Aucun envoi : campagne désactivée, DKIM absent, domaine expéditeur gratuit.",
+      "history": [
+        {
+          "at": "2026-11-06T16:36:56+00:00",
+          "action": "created",
+          "status": "pending"
+        },
+        {
+          "at": "2026-11-06T16:38:33+00:00",
+          "action": "gmail_draft_created",
+          "status": "draft",
+          "note": "Brouillon Gmail créé et labellisé Label_7. Aucun envoi."
+        },
+        {
+          "at": "2026-11-07T14:38:04+00:00",
+          "action": "body_shortened",
+          "note": "Observation raccourcie pour rester sous le plafond de 170 mots quelle que soit l'amorce."
+        },
+        {
+          "at": "2026-11-07T14:38:43+00:00",
+          "action": "gmail_draft_updated",
+          "note": "Corps raccourci ; update_draft change le message_id et retire les labels : Label_7 réappliqué sur 1a1b672541671292."
+        }
+      ]
+    },
+    {
+      "id": "2026-11-06-lot9-002",
+      "campaign": "2026-11-06-lot9",
+      "to": "david.canfora@sfr.fr",
+      "company": "Cordonnerie Canfora David",
+      "subject": "Bourrellerie Canfora : le devis suppose de passer en boutique",
+      "body": "Bonjour David,\n\nVos pages bourrellerie et sellerie se terminent par la même invitation : « Venez nous rencontrer en magasin pour nous présenter votre demande et pour établir un devis personnalisé ! ».\n\nUn cavalier dont une sangle ou un trait casse doit donc se déplacer rien que pour savoir si la réparation est possible et à quel prix.\n\nMon idée : un dépôt de demande avec photos qui permet un premier chiffrage à distance : vous ne faites venir en boutique que les réparations qui exigent vraiment de voir la pièce.\n\nJe vous montre gratuitement, sans engagement, une démonstration : une demande de réparation de sangle avec deux photos, qualifiée et chiffrée en fourchette avant tout déplacement.\n\nVous préférez recevoir la démonstration, ou qu'on en parle d'abord ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+      "need": "automatisation",
+      "evidence_sources": [
+        "https://www.cordonnerie-canfora-moulins.fr/bourrellerie",
+        "https://www.cordonnerie-canfora-moulins.fr/sellerie-cheval",
+        "https://www.cordonnerie-canfora-moulins.fr/contact",
+        "https://www.cordonnerie-canfora-moulins.fr/bourrellerie",
+        "https://www.cordonnerie-canfora-moulins.fr/mentions-legales"
+      ],
+      "status": "draft",
+      "created_at": "2026-11-06T16:36:56+00:00",
+      "updated_at": "2026-11-06T16:38:33+00:00",
+      "gmail_draft_id": "r-2900807566475937810",
+      "gmail_message_id": "1a1b1b9735345222",
+      "decision_reason": "Lot 9. Brouillon en attente de validation manuelle. Aucun envoi : campagne désactivée, DKIM absent, domaine expéditeur gratuit.",
+      "history": [
+        {
+          "at": "2026-11-06T16:36:56+00:00",
+          "action": "created",
+          "status": "pending"
+        },
+        {
+          "at": "2026-11-06T16:38:33+00:00",
+          "action": "gmail_draft_created",
+          "status": "draft",
+          "note": "Brouillon Gmail créé et labellisé Label_7. Aucun envoi."
+        }
+      ]
+    },
+    {
+      "id": "2026-11-06-lot9-003",
+      "campaign": "2026-11-06-lot9",
+      "to": "frogeretancheite@gmail.com",
+      "company": "Froger Étanchéité",
+      "subject": "Froger Étanchéité : votre lien e-mail est écrit à l'envers",
+      "body": "Bonjour,\n\nEn bas de votre page d'accueil, le lien e-mail pointe vers « moc.liamg%40etiehcnateregorf » : la chaîne anti-spam inversée est restée dans le lien.\n\nUn visiteur qui clique sur « E-mail » n'écrit donc pas à l'entreprise. Il reste le téléphone et le formulaire, alors que le devis passe de toute façon par une visite sur site.\n\nJe vous suggère un parcours de demande réparé qui qualifie la toiture avant la visite technique : vous récupérez les demandes qui se perdent et vous arrivez sur le toit en connaissant déjà le type d'ouvrage et la surface.\n\nJe vous montre gratuitement, sans engagement, une démonstration : une demande d'étanchéité qualifiée — type de revêtement, surface, commune — transmise avec une visite proposée.\n\nCela vous dirait de la découvrir ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+      "need": "automatisation",
+      "evidence_sources": [
+        "https://froger-etancheite.fr/",
+        "https://froger-etancheite.fr/",
+        "https://froger-etancheite.fr/",
+        "https://froger-etancheite.fr/",
+        "https://froger-etancheite.fr/"
+      ],
+      "status": "draft",
+      "created_at": "2026-11-06T16:36:56+00:00",
+      "updated_at": "2026-11-06T16:38:33+00:00",
+      "gmail_draft_id": "r-8700207463215455399",
+      "gmail_message_id": "1a1b1b98459979b3",
+      "decision_reason": "Lot 9. Brouillon en attente de validation manuelle. Aucun envoi : campagne désactivée, DKIM absent, domaine expéditeur gratuit.",
+      "history": [
+        {
+          "at": "2026-11-06T16:36:56+00:00",
+          "action": "created",
+          "status": "pending"
+        },
+        {
+          "at": "2026-11-06T16:38:33+00:00",
+          "action": "gmail_draft_created",
+          "status": "draft",
+          "note": "Brouillon Gmail créé et labellisé Label_7. Aucun envoi."
+        }
+      ]
+    },
+    {
+      "id": "2026-11-06-lot9-004",
+      "campaign": "2026-11-06-lot9",
+      "to": "ateliercordesetame@gmail.com",
+      "company": "Cordes et Âme",
+      "subject": "Cordes et Âme : des messages relevés une fois par jour",
+      "body": "Bonjour Jean-Baptiste,\n\nVotre page de contact l'écrit : « il peut être compliqué de répondre aux appels » et « Nous relevons les messages une fois par jour ».\n\nConcrètement, je pourrais mettre en place une demande guidée qui décrit l'instrument et l'intervention avant le premier échange : votre relevé quotidien suffit à répondre, sans reprendre la correspondance deux ou trois fois.\n\nSur demande, je vous envoie gratuitement une démonstration, sans engagement : une demande de réparation décrite — instrument, nature des travaux, photos — prête à être traitée en une passe.\n\nSi vous êtes curieux, je vous montre — sinon, aucun souci.\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+      "need": "automatisation",
+      "evidence_sources": [
+        "https://www.cordesetame.fr/",
+        "https://www.cordesetame.fr/",
+        "https://www.cordesetame.fr/",
+        "https://www.cordesetame.fr/",
+        "https://www.cordesetame.fr/"
+      ],
+      "status": "draft",
+      "created_at": "2026-11-06T16:36:56+00:00",
+      "updated_at": "2026-11-06T16:38:33+00:00",
+      "gmail_draft_id": "r2871291886672009217",
+      "gmail_message_id": "1a1b1b991300c965",
+      "decision_reason": "Lot 9. Brouillon en attente de validation manuelle. Aucun envoi : campagne désactivée, DKIM absent, domaine expéditeur gratuit.",
+      "history": [
+        {
+          "at": "2026-11-06T16:36:56+00:00",
+          "action": "created",
+          "status": "pending"
+        },
+        {
+          "at": "2026-11-06T16:38:33+00:00",
+          "action": "gmail_draft_created",
+          "status": "draft",
+          "note": "Brouillon Gmail créé et labellisé Label_7. Aucun envoi."
         }
       ]
     }

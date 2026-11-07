@@ -89,6 +89,10 @@ AXIS_SITE = "site_web"
 # Signaux d'automatisation. Le poids traduit l'ampleur de la tâche manuelle
 # réellement décrite, pas l'intérêt commercial supposé du secteur.
 # ---------------------------------------------------------------------------
+# v7.1 — types de preuve qui ne décrivent pas un manque et ne doivent donc
+# jamais déclencher un signal d'opportunité (voir detect_signals).
+NON_GAP_KINDS = frozenset({"maturite_existante", "signal_confiance"})
+
 AUTOMATION_SIGNALS: tuple[Signal, ...] = (
     Signal("devis_manuel", "Devis établi ou transmis à la main", 26, (
         "devis par e-mail", "devis par email", "devis par telephone",
@@ -126,6 +130,9 @@ AUTOMATION_SIGNALS: tuple[Signal, ...] = (
         "traitement de votre demande", "etude de votre demande",
         "impose au secretariat", "de verifier", "valider manuellement",
         "validation manuelle", "verifie manuellement", "puis de valider",
+        # v7.1 — relevés sur la page devis de Caléo Tests & Services.
+        "nous vous recontactons pour", "avant de chiffrer", "confirmer la faisabilite",
+        "objet d'une analyse", "analyse rapide",
     ), AXIS_IA),
     Signal("ressaisie", "Ressaisie ou reformulation des demandes", 22, (
         "recopier", "recopie", "ressaisir", "ressaisie", "saisir a nouveau",
@@ -159,6 +166,29 @@ AUTOMATION_SIGNALS: tuple[Signal, ...] = (
         "questions frequentes", "les memes questions", "demandes recurrentes",
         "nous recevons souvent", "souvent sollicite", "nombreuses demandes",
         "demandes de renseignement",
+    ), AXIS_IA),
+    # v7.1 — les quatre signaux ci-dessous ont été ajoutés après lecture des
+    # pages du lot 9 : chacun correspond à une formulation réellement publiée
+    # qu'aucun signal du catalogue ne reconnaissait.
+    Signal("capacite_reponse_limitee", "Difficulté à répondre énoncée par l'entreprise", 28, (
+        "complique de repondre", "difficile de repondre", "pas toujours en mesure de repondre",
+        "relevons les messages", "messages une fois par jour", "de preference par mail",
+        "privilegiez le mail", "nous ne pouvons pas repondre", "difficile de joindre",
+    ), AXIS_IA),
+    Signal("depot_via_messagerie", "Le formulaire se termine dans la messagerie du client", 24, (
+        "ouvre votre messagerie", "ouvrir ma messagerie", "demande pre-remplie",
+        "votre logiciel de messagerie", "envoyez-la plutot en piece jointe",
+        "tableur excel", "export de votre logiciel de parc",
+    ), AXIS_IA),
+    Signal("deplacement_obligatoire", "Un déplacement est nécessaire pour être chiffré", 22, (
+        "venez nous rencontrer", "venir nous rendre visite", "venir nous presenter",
+        "venez avec votre", "passez au magasin", "en magasin pour",
+        "venir a l'atelier avec", "sur place pour etablir",
+    ), AXIS_IA),
+    Signal("echeances_recurrentes", "Échéances récurrentes à suivre", 18, (
+        "contrats annuels", "contrat annuel", "revision annuel", "entretien annuel",
+        "compte-rendu detaille", "verification annuelle", "reetalonnage",
+        "passage regulier",
     ), AXIS_IA),
     Signal("delai_reponse", "Délai de réponse annoncé, tenu à la main", 12, (
         "reponse sous 48", "repondons sous 48", "sous 48 h", "sous 48h",
@@ -280,10 +310,19 @@ def detect_signals(evidences: Iterable[Any], axis: str,
     catalogue = [s for s in ALL_SIGNALS if s.axis == axis and s.id not in maturity_ids]
     found: list[Detection] = []
     seen: set[str] = set()
+    hint_used = False
     for idx, ev in enumerate(evs):
+        # v7.1 — « maturite_existante » décrit ce qui fonctionne déjà et
+        # « signal_confiance » l'identité de l'entreprise. Aucune des deux
+        # n'établit un manque : les scanner comme un besoin produisait des
+        # faux positifs (une « boutique en ligne » citée comme contre-signal
+        # pouvait contenir « demande de devis » et créer un besoin de devis).
+        if str(_ev_field(ev, "kind", "")) in NON_GAP_KINDS:
+            continue
         text = _evidence_text(ev)
-        if idx == 0 and extra_text:
+        if extra_text and not hint_used:
             text += " " + normalize(extra_text)
+            hint_used = True
         for sig in catalogue:
             if sig.id in seen:
                 continue
