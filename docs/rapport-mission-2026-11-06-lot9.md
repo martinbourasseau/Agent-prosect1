@@ -373,7 +373,7 @@ rebond + 1 challenge = **60 envoyés**. Brouillons porteurs d'un draft Gmail :
 |---|---|
 | Branche | `arena/7ed6352a-agent-prosect1` |
 | Commit précédent | `9cae5b8` (évolution v7) |
-| Commit de ce lot | voir `git log` — message « Lot 9 : moteur v7.1, 55 explorations, 4 brouillons, catégories réelles » |
+| Commit de ce lot | `df49e42` — « Lot 9 : moteur v7.1, 55 explorations, 4 brouillons, catégories réelles » |
 | Rapport | `docs/rapport-mission-2026-11-06-lot9.md` |
 
 Fichiers principaux modifiés : `prospecto/{opportunity,scoring,models,sources,
