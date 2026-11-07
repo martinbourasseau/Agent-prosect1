@@ -170,12 +170,27 @@ class NewSignalTests(unittest.TestCase):
         self.assertIn("depot_via_messagerie", found)
 
     def test_deplacement_obligatoire_pour_un_devis_est_detecte(self):
-        """Canfora : deux pages imposent le passage en boutique."""
+        """Canfora : deux pages distinctes imposent le passage en boutique.
+
+        v8 : une preuve ne paie qu'une fois. Sur UNE seule page contenant deux
+        formulations, un seul signal est récompensé ; sur DEUX pages qui
+        établissent des constats distincts, les deux comptent. C'est le cas
+        réel de Canfora (bourrellerie + sellerie).
+        """
         self.assertIn("deplacement_obligatoire", self.IDS)
-        e = ev(EVIDENCE_PROCESS_MANUAL,
-               "Venez nous rencontrer en magasin pour établir un devis personnalisé !")
-        found = {d.signal.id for d in detect_signals([e], "ia_automatisation")}
-        self.assertIn("deplacement_obligatoire", found)
+        one = ev(EVIDENCE_PROCESS_MANUAL,
+                 "Venez nous rencontrer en magasin pour établir un devis personnalisé !",
+                 "https://exemple.fr/bourrellerie")
+        found_one = {d.signal.id for d in detect_signals([one], "ia_automatisation")}
+        self.assertEqual(len(found_one), 1, "une preuve ne doit payer qu'une fois")
+
+        two = ev(EVIDENCE_PROCESS_MANUAL,
+                 "Pour vos travaux de sellerie, n'hésitez pas à venir nous "
+                 "présenter votre demande en magasin et établir un devis personnalisé.",
+                 "https://exemple.fr/sellerie")
+        found_two = {d.signal.id for d in detect_signals([one, two], "ia_automatisation")}
+        self.assertIn("deplacement_obligatoire", found_two)
+        self.assertIn("devis_manuel", found_two)
 
     def test_echeances_recurrentes_sont_detectees(self):
         """Froger : contrats annuels avec compte-rendu."""
@@ -315,7 +330,7 @@ class ScoringEvidenceTests(unittest.TestCase):
             self.assertIn(axis, s)
             self.assertTrue(0 <= s[axis]["score"] <= 100)
             self.assertIn(s[axis]["confidence"], RELIABILITY_LEVELS)
-        self.assertEqual(s["engine_version"], "v7.1")
+        self.assertEqual(s["engine_version"], "v8")
 
 
 # ---------------------------------------------------------------------------

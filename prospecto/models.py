@@ -38,6 +38,33 @@ EVIDENCE_KINDS = (
     EVIDENCE_MATURITY, EVIDENCE_TRUST,
 )
 
+# v8 — les quatre niveaux demandés : besoin exprimé, problème observé, signal
+# indirect, opportunité hypothétique. Ils ne se confondent ni avec le type de
+# preuve ni avec la fiabilité de la source :
+#   * fiabilité  = à quel point la SOURCE est digne de confiance ;
+#   * niveau     = à quel point le SIGNAL est direct.
+# Un article de presse très fiable peut porter un signal purement indirect.
+SIGNAL_EXPRESSED = "exprime"          # l'entreprise ou son responsable le dit
+SIGNAL_OBSERVED = "observe"           # problème constaté directement sur la source
+SIGNAL_INDIRECT = "indirect"          # indice à combiner, pas un besoin établi
+SIGNAL_HYPOTHETICAL = "hypothetique"  # supposition du chercheur
+
+SIGNAL_LEVELS = (SIGNAL_EXPRESSED, SIGNAL_OBSERVED, SIGNAL_INDIRECT, SIGNAL_HYPOTHETICAL)
+
+KIND_DEFAULT_LEVEL = {
+    EVIDENCE_PUBLIC_NEED: SIGNAL_EXPRESSED,
+    EVIDENCE_WEBSITE_GAP: SIGNAL_OBSERVED,
+    EVIDENCE_SITE_ABSENT: SIGNAL_OBSERVED,
+    EVIDENCE_SITE_DOWN: SIGNAL_OBSERVED,
+    EVIDENCE_SITE_OBSOLETE: SIGNAL_OBSERVED,
+    EVIDENCE_PROCESS_MANUAL: SIGNAL_OBSERVED,
+    EVIDENCE_JOURNEY_GAP: SIGNAL_OBSERVED,
+    EVIDENCE_MATURITY: SIGNAL_OBSERVED,
+    EVIDENCE_TRUST: SIGNAL_OBSERVED,
+    # Une déduction sectorielle n'a jamais été une observation.
+    EVIDENCE_SECTOR_OPPORTUNITY: SIGNAL_INDIRECT,
+}
+
 # Niveaux de vérification d'un email (v4) — ne jamais présenter un supposé comme vérifié.
 EMAIL_VERIFIED = "verified"                    # vérifié (source fiable / testé)
 EMAIL_PUBLIC_UNVERIFIED = "public_unverified"  # public mais non vérifié
@@ -81,12 +108,21 @@ class Evidence:
     reliability: str = ""                # haute / moyenne / faible ; déduite si vide
     verified_at: str = ""                # dernière revérification ; défaut observed_at
     observed: bool = True                # False = opportunité supposée, non un fait
+    # v8 — force du signal, indépendante du type de preuve et de la fiabilité
+    # de la source. Une entreprise qui DIT chercher une solution n'est pas au
+    # même niveau qu'un indice repéré dans un article de presse.
+    signal_level: str = ""               # voir SIGNAL_LEVELS ; déduit si vide
 
     def __post_init__(self) -> None:
         if not self.reliability:
             self.reliability = SOURCE_RELIABILITY.get(self.source_type, "moyenne")
         if not self.verified_at:
             self.verified_at = self.observed_at
+        if not self.signal_level:
+            self.signal_level = KIND_DEFAULT_LEVEL.get(self.kind, SIGNAL_INDIRECT)
+        # Une non-observation ne peut jamais être un fait exprimé ou observé.
+        if not self.observed and self.signal_level in (SIGNAL_EXPRESSED, SIGNAL_OBSERVED):
+            self.signal_level = SIGNAL_HYPOTHETICAL
 
     def validate(self) -> list[str]:
         errors = []
@@ -102,6 +138,8 @@ class Evidence:
             errors.append(f"type de source inconnu : {self.source_type}")
         if self.reliability not in RELIABILITY_LEVELS:
             errors.append(f"niveau de fiabilité inconnu : {self.reliability}")
+        if self.signal_level not in SIGNAL_LEVELS:
+            errors.append(f"niveau de signal inconnu : {self.signal_level}")
         return errors
 
 

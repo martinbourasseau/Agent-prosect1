@@ -32,6 +32,51 @@ from typing import Any, Iterable
 # « téléphone » ne se ressemblent pas pour un moteur de motifs.
 # ---------------------------------------------------------------------------
 
+# v8 — adverbes qui s'intercalent sans changer la nature du processus.
+# « commande uniquement par téléphone » décrit le même besoin que
+# « commande par téléphone ». Les retirer pour la SEULE comparaison évite de
+# perdre le signal ; le texte affiché reste l'original normalisé.
+_MATCH_FILLERS = (
+    "uniquement", "seulement", "exclusivement", "directement", "eventuellement",
+    "egalement", "aussi", "bien", "donc", "alors",
+)
+
+
+# Une occurrence précédée d'une négation n'affirme rien. La fenêtre est courte
+# et placée AVANT le motif : « pas de paiement en ligne » est nié, « paiement en
+# ligne, pas de frais » ne l'est pas.
+_NEGATION_CUES = (
+    "pas de ", "pas d'", "pas du ", "pas des ", "sans ", "aucun ", "aucune ",
+    "ni ", "absence de ", "absence d'", "ne propose pas ", "ne proposons pas ",
+    "n'y a pas ", "il n'y a pas ", "nous n'avons pas ", "non disponible",
+    "pas encore ", "jamais de ", "plus de paiement", "defaut de ",
+)
+
+
+def _negated(text: str, position: int, window: int = 42) -> bool:
+    """Vrai si l'occurrence en `position` est introduite par une négation."""
+    before = text[max(0, position - window):position]
+    return any(cue in before for cue in _NEGATION_CUES)
+
+
+def _affirmed(text: str, pattern: str) -> bool:
+    """Le motif apparaît-il au moins une fois SANS être nié ?"""
+    start = 0
+    while True:
+        pos = text.find(pattern, start)
+        if pos < 0:
+            return False
+        if not _negated(text, pos):
+            return True
+        start = pos + 1
+
+
+def match_form(text: str) -> str:
+    """Forme souple servant uniquement à la comparaison de motifs."""
+    words = [w for w in normalize(text).split() if w not in _MATCH_FILLERS]
+    return " ".join(words)
+
+
 def normalize(text: str) -> str:
     text = unicodedata.normalize("NFKD", text or "")
     text = "".join(c for c in text if not unicodedata.combining(c))
@@ -61,6 +106,7 @@ class Detection:
     quote: str
     observed: bool
     reliability: str
+    signal_level: str = ""   # v8 : exprime / observe / indirect / hypothetique
 
     @property
     def hypothetical(self) -> bool:
@@ -103,6 +149,7 @@ AUTOMATION_SIGNALS: tuple[Signal, ...] = (
     ), AXIS_IA),
     Signal("reservation_telephone", "Réservation ou commande par téléphone", 26, (
         "reservation par telephone", "reserver par telephone", "appelez-nous pour reserver",
+        "rendez vous par sms", "prise de rendez vous par", "sur rendez vous par telephone", "appelez-nous pour reserver",
         "merci d'appeler", "appeler obligatoirement", "par telephone uniquement",
         "commande par telephone", "reservation uniquement", "nous contacter par telephone pour",
     ), AXIS_IA),
@@ -182,6 +229,7 @@ AUTOMATION_SIGNALS: tuple[Signal, ...] = (
     ), AXIS_IA),
     Signal("deplacement_obligatoire", "Un déplacement est nécessaire pour être chiffré", 22, (
         "venez nous rencontrer", "venir nous rendre visite", "venir nous presenter",
+        "venez nous presenter", "venez nous rendre visite", "venir en magasin",
         "venez avec votre", "passez au magasin", "en magasin pour",
         "venir a l'atelier avec", "sur place pour etablir",
     ), AXIS_IA),
@@ -189,6 +237,35 @@ AUTOMATION_SIGNALS: tuple[Signal, ...] = (
         "contrats annuels", "contrat annuel", "revision annuel", "entretien annuel",
         "compte-rendu detaille", "verification annuelle", "reetalonnage",
         "passage regulier",
+    ), AXIS_IA),
+    # v8 — signaux faibles listés explicitement au cahier des charges et
+    # absents du catalogue. Chacun a été trouvé dans une fiche du portefeuille.
+    Signal("commande_telephone_seulement", "Commande ou réservation téléphonique exclusive", 28, (
+        "commande uniquement par telephone", "commandes uniquement par telephone",
+        "reservation uniquement par telephone", "reservations par telephone uniquement",
+        "commande par telephone uniquement", "prise de commande par telephone",
+    ), AXIS_IA),
+    Signal("inscription_manuelle", "Inscriptions ou adhésions traitées manuellement", 26, (
+        "les inscriptions ont lieu", "inscription sur place", "inscriptions sur place",
+        "bulletin d'inscription", "fiche d'inscription", "formulaire d'inscription a",
+        "pre-adhesions", "preadhesions", "dossier d'inscription",
+        "inscrire au secretariat", "inscription au comptoir",
+        "fiches d'inscription", "inscription par courrier", "inscription par mail",
+        "renvoyer la fiche", "fiche a telecharger",
+    ), AXIS_IA),
+    Signal("paiement_manuel", "Encaissement sans parcours en ligne", 20, (
+        "par cheque", "par cheques", "cheques correspondant", "reglement par cheque",
+        "virement - cheque", "modes de paiement : - virement",
+        "especes ou cheque", "cheque de caution", "regler sur place",
+        "regler un acompte", "verser un acompte", "acompte par cheque",
+        "cheque au courrier", "virement bancaire apres reception",
+    ), AXIS_IA),
+    Signal("contact_direct_manuel", "Demande à adresser directement, sans parcours guidé", 22, (
+        "veuillez nous contacter directement", "contactez-nous directement par",
+        "nous contacter directement par email", "nous contacter directement par e-mail",
+        "devis personnalise par email", "devis par email ou par telephone",
+        "demande a nous adresser",
+        "par mail direct", "par courriel direct", "par email direct",
     ), AXIS_IA),
     Signal("delai_reponse", "Délai de réponse annoncé, tenu à la main", 12, (
         "reponse sous 48", "repondons sous 48", "sous 48 h", "sous 48h",
@@ -309,8 +386,8 @@ def detect_signals(evidences: Iterable[Any], axis: str,
     maturity_ids = {s.id for s in MATURITY_SIGNALS}
     catalogue = [s for s in ALL_SIGNALS if s.axis == axis and s.id not in maturity_ids]
     found: list[Detection] = []
-    seen: set[str] = set()
-    hint_used = False
+    matches: dict[str, list[Detection]] = {}
+    seen: set[int] = set()          # indices de preuve déjà récompensés
     for idx, ev in enumerate(evs):
         # v7.1 — « maturite_existante » décrit ce qui fonctionne déjà et
         # « signal_confiance » l'identité de l'entreprise. Aucune des deux
@@ -319,24 +396,55 @@ def detect_signals(evidences: Iterable[Any], axis: str,
         # pouvait contenir « demande de devis » et créer un besoin de devis).
         if str(_ev_field(ev, "kind", "")) in NON_GAP_KINDS:
             continue
-        text = _evidence_text(ev)
-        if extra_text and not hint_used:
-            text += " " + normalize(extra_text)
-            hint_used = True
+        # v8 — seul l'extrait verbatim fait preuve. `detail` est notre
+        # reformulation et contient souvent la solution PROPOSÉE : la lire
+        # transformait « un paiement en ligne simplifierait… » en
+        # « le paiement en ligne existe déjà ».
+        text = match_form(str(_ev_field(ev, "quote", "")))
         for sig in catalogue:
-            if sig.id in seen:
-                continue
             for pattern in sig.patterns:
-                if pattern in text:
-                    found.append(Detection(
+                if _affirmed(text, match_form(pattern)):
+                    matches.setdefault(sig.id, []).append(Detection(
                         signal=sig, matched_pattern=pattern, evidence_index=idx,
                         source_url=str(_ev_field(ev, "source_url")),
                         quote=str(_ev_field(ev, "quote"))[:200],
                         observed=bool(_ev_field(ev, "observed", True)),
                         reliability=str(_ev_field(ev, "reliability", "moyenne")),
+                        signal_level=str(_ev_field(ev, "signal_level", "")),
                     ))
-                    seen.add(sig.id)
                     break
+
+    # Le constat du chercheur est une source distincte, citée comme telle.
+    # Indice -1 : il ne se confond avec aucune preuve publiée. Il n'est retenu
+    # que s'il existe au moins une preuve réelle.
+    if extra_text and evs:
+        hint_text = match_form(extra_text)
+        for sig in catalogue:
+            for pattern in sig.patterns:
+                if _affirmed(hint_text, match_form(pattern)):
+                    matches.setdefault(sig.id, []).append(Detection(
+                        signal=sig, matched_pattern=pattern, evidence_index=-1,
+                        source_url="",
+                        quote="Constat du chercheur : " + str(extra_text)[:180],
+                        observed=True, reliability="moyenne",
+                        signal_level="observe",   # constat direct du chercheur
+                    ))
+                    break
+
+    # Chaque signal est affecté à une preuve qui l'établit et n'a pas encore
+    # été récompensée. Les plus forts d'abord, pour ne pas gaspiller une preuve
+    # solide sur un indice faible. Un signal sans preuve libre est abandonné :
+    # il répéterait une preuve déjà payée.
+    for sig_id in sorted(matches, key=lambda k: -matches[k][0].signal.weight):
+        candidates = matches[sig_id]
+        candidates.sort(key=lambda d: (d.evidence_index == -1, d.evidence_index))
+        free = [d for d in candidates if d.evidence_index not in seen]
+        if not free:
+            continue
+        pick = free[0]
+        found.append(pick)
+        seen.add(pick.evidence_index)
+    found.sort(key=lambda d: d.evidence_index)
     return found
 
 
@@ -346,20 +454,22 @@ def detect_maturity(evidences: Iterable[Any], extra_text: str = "") -> list[Dete
     found: list[Detection] = []
     seen: set[str] = set()
     for idx, ev in enumerate(evs):
-        text = _evidence_text(ev)
-        if idx == 0 and extra_text:
-            text += " " + normalize(extra_text)
+        # Un contre-signal est un fait cité par l'entreprise. Notre résumé
+        # (`extra_text`) n'est jamais une preuve : il contient trop souvent
+        # « pas de réservation en ligne », qui affirmait l'inverse.
+        text = match_form(str(_ev_field(ev, "quote", "")))
         for sig in MATURITY_SIGNALS:
             if sig.id in seen:
                 continue
             for pattern in sig.patterns:
-                if pattern in text:
+                if _affirmed(text, match_form(pattern)):
                     found.append(Detection(
                         signal=sig, matched_pattern=pattern, evidence_index=idx,
                         source_url=str(_ev_field(ev, "source_url")),
                         quote=str(_ev_field(ev, "quote"))[:200],
                         observed=bool(_ev_field(ev, "observed", True)),
                         reliability=str(_ev_field(ev, "reliability", "moyenne")),
+                        signal_level=str(_ev_field(ev, "signal_level", "")),
                     ))
                     seen.add(sig.id)
                     break

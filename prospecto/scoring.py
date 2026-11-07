@@ -40,6 +40,8 @@ from .models import (
     EVIDENCE_SITE_OBSOLETE,
     EVIDENCE_PROCESS_MANUAL,
     EVIDENCE_JOURNEY_GAP, EVIDENCE_MATURITY,
+    SIGNAL_EXPRESSED, SIGNAL_OBSERVED, SIGNAL_INDIRECT, SIGNAL_HYPOTHETICAL,
+    EMAIL_NONE,
     EMAIL_VERIFIED,
     EMAIL_PUBLIC_UNVERIFIED,
 )
@@ -76,6 +78,76 @@ MATURITY_FACTOR = 0.8
 KIND_BASE_IA = 12
 FRESHNESS_DAYS = 180
 
+# v8 — force du signal. Indépendante de la fiabilité de la source : un article
+# de presse très fiable peut porter un signal purement indirect.
+LEVEL_FACTOR = {
+    SIGNAL_EXPRESSED: 1.0,       # l'entreprise le dit elle-même
+    SIGNAL_OBSERVED: 0.85,       # constaté directement
+    SIGNAL_INDIRECT: 0.45,       # indice à combiner
+    SIGNAL_HYPOTHETICAL: 0.25,   # supposition
+}
+
+# Un besoin exprimé est le signal le plus fort disponible : il est porté
+# directement sur l'axe qu'il désigne, au lieu de tomber systématiquement sur
+# l'axe refonte avec un poids résiduel.
+EXPRESSED_BASE = 34
+EXPRESSED_AXIS_HINTS: dict[str, tuple[str, ...]] = {
+    AXIS_SITE_WEB: (
+        "creer un site", "creation d'un site", "creation de site", "site internet",
+        "site vitrine", "one-page", "site web", "boutique en ligne", "e-commerce",
+        "shopify", "woocommerce", "presence en ligne", "site one page",
+    ),
+    AXIS_REFONTE: (
+        "refonte", "refondre", "moderniser notre site", "ameliorer notre site",
+        "site existant", "reprise du site",
+    ),
+    AXIS_IA: (
+        "automatiser", "automatisation", "automatique", "intelligence artificielle",
+        "outil ia", "agent ia", "relance", "centraliser", "reservation",
+        "relation client", "crm", "devis", "inscription", "categoriser",
+        "repondre aux commentaires", "gestion complete", "secretariat",
+    ),
+}
+
+
+def _level_factor(level: str, observed: bool = True) -> float:
+    if not observed:
+        return LEVEL_FACTOR[SIGNAL_HYPOTHETICAL]
+    return LEVEL_FACTOR.get(level, LEVEL_FACTOR[SIGNAL_INDIRECT])
+
+
+def expressed_axes(evidences: list[Evidence]) -> dict[str, list[Evidence]]:
+    """Axe(s) que désigne réellement un besoin exprimé publiquement.
+
+    Une annonce « site vitrine avec module de réservation » désigne deux axes :
+    les scores sont indépendants, la preuve peut donc éclairer les deux. Elle
+    n'est en revanche comptée qu'une fois PAR axe.
+    """
+    out: dict[str, list[Evidence]] = {a: [] for a in AXES}
+    for ev in evidences:
+        if ev.kind != EVIDENCE_PUBLIC_NEED or ev.signal_level != SIGNAL_EXPRESSED:
+            continue
+        text = opportunity.match_form(f"{ev.quote} {ev.detail}")
+        for axis, hints in EXPRESSED_AXIS_HINTS.items():
+            if any(h in text for h in hints):
+                out[axis].append(ev)
+    return out
+
+
+def strongest_per_evidence(detections: list[opportunity.Detection],
+                           ) -> list[opportunity.Detection]:
+    """Une seule contribution par preuve et par axe : la plus forte.
+
+    La détection continue de rapporter tous les signaux (utile à
+    l'explication) ; seul le calcul refuse de payer deux fois la même preuve.
+    """
+    best: dict[int, opportunity.Detection] = {}
+    for det in detections:
+        current = best.get(det.evidence_index)
+        if current is None or _weight_of_detection(det) > _weight_of_detection(current):
+            best[det.evidence_index] = det
+    return [best[i] for i in sorted(best)]
+
 
 @dataclass
 class AxisScore:
@@ -91,6 +163,8 @@ class AxisScore:
     observed_signals: list[str] = field(default_factory=list)
     hypothetical_signals: list[str] = field(default_factory=list)
     counter_signals: list[str] = field(default_factory=list)
+    evaluated_at: str = ""      # v8 : date de l'évaluation, distincte de la preuve
+    signal_levels: dict[str, int] = field(default_factory=dict)
 
     def to_dict(self) -> dict[str, Any]:
         return asdict(self)
@@ -113,8 +187,7 @@ def _cite(ev: Evidence) -> str:
 
 def _weight_of_detection(det: opportunity.Detection) -> float:
     factor = RELIABILITY_FACTOR.get(det.reliability, 0.75)
-    if det.hypothetical:
-        factor *= INFERRED_FACTOR
+    factor *= _level_factor(det.signal_level, det.observed)
     return det.signal.weight * factor
 
 
@@ -170,11 +243,11 @@ def _kind_contributions(evidences: list[Evidence], weights: dict[str, int],
         if not weight or len(used) >= limit:
             continue
         factor = RELIABILITY_FACTOR.get(ev.reliability, 0.75)
-        if not ev.observed:
-            factor *= INFERRED_FACTOR
+        factor *= _level_factor(ev.signal_level, ev.observed)
         gained = int(round(weight * factor))
         total += gained
-        tag = "" if ev.observed else " [hypothèse, non un fait observé]"
+        tag = (" [hypothèse, non un fait observé]" if not ev.observed
+               else " [signal indirect]" if ev.signal_level == SIGNAL_INDIRECT else "")
         reasons.append(f"+{gained} {ev.kind} : {_cite(ev)}{tag}")
         used.append(ev)
     return total, reasons, used
@@ -215,13 +288,15 @@ def score_prospect(prospect: Prospect, today: date | None = None) -> dict[str, A
         evs, {EVIDENCE_SITE_ABSENT: 15, EVIDENCE_SITE_DOWN: 15})
     presence_total = 0
     presence_reasons, presence_ev = [], []
-    for det in report.presence:
+    for det in strongest_per_evidence(report.presence):
         gained = int(round(_weight_of_detection(det)))
         presence_total += gained
         presence_reasons.append(_det_reason(det, gained))
         presence_ev.append(_det_evidence(det))
-    site_total = base + kind_total + presence_total
-    site_reasons = ([base_reason] if base_reason else []) + kind_reasons + presence_reasons
+    expressed = expressed_axes(evs)
+    site_expr, site_expr_reasons = _expressed_contribution(expressed[AXIS_SITE_WEB])
+    site_total = base + kind_total + presence_total + site_expr
+    site_reasons = ([base_reason] if base_reason else []) + kind_reasons + presence_reasons + site_expr_reasons
     site_missing = []
     if has_site and not absent:
         site_missing.append("un site existe déjà : la création n'est pas le bon service")
@@ -241,15 +316,16 @@ def score_prospect(prospect: Prospect, today: date | None = None) -> dict[str, A
         evs, {EVIDENCE_SITE_OBSOLETE: 50, EVIDENCE_JOURNEY_GAP: 40, EVIDENCE_WEBSITE_GAP: 30,
               EVIDENCE_SITE_DOWN: 20, EVIDENCE_PUBLIC_NEED: 10})
     ref_signal_total, ref_reasons, ref_ev = 0, [], []
-    for det in report.refonte:
+    for det in strongest_per_evidence(report.refonte):
         gained = int(round(_weight_of_detection(det)))
         ref_signal_total += gained
         ref_reasons.append(_det_reason(det, gained))
         ref_ev.append(_det_evidence(det))
     ref_base = 5 if has_site else 0
-    ref_total = max(0, min(100, ref_base + ref_kind_total + ref_signal_total))
+    ref_expr, ref_expr_reasons = _expressed_contribution(expressed[AXIS_REFONTE])
+    ref_total = max(0, min(100, ref_base + ref_kind_total + ref_signal_total + ref_expr))
     ref_all_reasons = (["site existant à moderniser" if has_site else "pas de site à refondre"]
-                       + ref_kind_reasons + ref_reasons)
+                       + ref_kind_reasons + ref_reasons + ref_expr_reasons)
     if not ref_kind_reasons and not ref_reasons:
         ref_all_reasons.append("aucune preuve directe sur cet axe : score volontairement bas")
     ref_missing = []
@@ -279,17 +355,19 @@ def score_prospect(prospect: Prospect, today: date | None = None) -> dict[str, A
         ia_reasons.append(f"+{ia_base} processus manuel signalé par le chercheur "
                           f"(type de preuve seul, volontairement plafonné)")
     auto_total, auto_ev = 0, []
-    for det in report.automation:
+    for det in strongest_per_evidence(report.automation):
         gained = int(round(_weight_of_detection(det)))
         auto_total += gained
         ia_reasons.append(_det_reason(det, gained))
         auto_ev.append(_det_evidence(det))
+    ia_expr, ia_expr_reasons = _expressed_contribution(expressed[AXIS_IA])
+    ia_reasons.extend(ia_expr_reasons)
     maturity_total = 0
-    for det in report.maturity:
+    for det in strongest_per_evidence(report.maturity):
         lost = int(round(_weight_of_detection(det) * MATURITY_FACTOR))
         maturity_total += lost
         ia_reasons.append(_det_reason(det, lost, sign="-"))
-    ia_total = max(0, min(100, ia_base + auto_total - maturity_total))
+    ia_total = max(0, min(100, ia_base + auto_total + ia_expr - maturity_total))
     if not report.automation and not process_evidences:
         ia_reasons.append("aucune preuve directe sur cet axe : score volontairement bas")
     ia_missing = []
@@ -313,12 +391,68 @@ def score_prospect(prospect: Prospect, today: date | None = None) -> dict[str, A
                    [d.signal.label for d in report.automation if not d.observed],
                    [d.signal.label for d in report.maturity])
 
+    stamp = (today or date.today()).isoformat()
+    for axis_score, dets in ((site, report.presence), (refonte, report.refonte),
+                             (ia, report.automation)):
+        axis_score.evaluated_at = stamp
+        levels: dict[str, int] = {}
+        for det in dets:
+            key = det.signal_level or SIGNAL_INDIRECT
+            levels[key] = levels.get(key, 0) + 1
+        axis_score.signal_levels = levels
+
     scores = {s.axis: s.to_dict() for s in (site, refonte, ia)}
     scores["priority"] = commercial_priority(prospect, scores)
     scores["best_axis"] = max(AXES, key=lambda a: scores[a]["score"])
-    scores["engine_version"] = "v7.1"
+    scores["engine_version"] = "v8"
+    scores["evaluated_at"] = stamp
+    # v8 — la contactabilité est une question DISTINCTE de la force du signal.
+    # Une entreprise qui publie un besoin avec un budget garde un score élevé
+    # même si son adresse est masquée : elle est « à identifier », pas « sans
+    # intérêt ». Les deux informations ne doivent plus se masquer l'une l'autre.
+    scores["contactability"] = contactability(prospect)
     scores["opportunity_report"] = report.to_dict()
     return scores
+
+
+def _expressed_contribution(evidences: list[Evidence]) -> tuple[int, list[str]]:
+    """Un besoin exprimé porte directement sur l'axe qu'il désigne.
+
+    Compté une seule fois par axe, même si plusieurs annonces le confirment :
+    la répétition d'une demande n'augmente pas sa force.
+    """
+    if not evidences:
+        return 0, []
+    ev = max(evidences, key=lambda e: RELIABILITY_FACTOR.get(e.reliability, 0.75))
+    gained = int(round(EXPRESSED_BASE * RELIABILITY_FACTOR.get(ev.reliability, 0.75)
+                       * _level_factor(ev.signal_level, ev.observed)))
+    return gained, [f"+{gained} besoin exprimé publiquement par l'entreprise : "
+                    f"{_cite(ev)} [niveau : exprimé]"]
+
+
+def contactability(prospect: Prospect) -> dict[str, Any]:
+    """Ce qui permettrait réellement de contacter, indépendamment des scores."""
+    email = (prospect.contact_email or "").strip()
+    blockers: list[str] = []
+    if not email:
+        blockers.append("aucune adresse professionnelle publiée")
+    elif prospect.email_verification == EMAIL_NONE:
+        blockers.append("adresse marquée non trouvable")
+    dns = getattr(prospect, "email_dns_status", "") or ""
+    if dns in BLOCKING_STATUSES:
+        blockers.append(f"domaine de l'adresse non routable ({dns})")
+    decoded = "décod" in (prospect.notes or "").lower()
+    if decoded:
+        blockers.append("adresse décodée d'un lien mal formé : non confirmée, "
+                        "validation indépendante requise")
+    return {
+        "email_present": bool(email),
+        "email_verification": prospect.email_verification,
+        "phone_present": bool(getattr(prospect, "phone", "")),
+        "decoded_address_unconfirmed": decoded,
+        "blockers": blockers,
+        "contactable": not blockers,
+    }
 
 
 def commercial_priority(prospect: Prospect, scores: dict[str, Any]) -> str:

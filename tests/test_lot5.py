@@ -174,7 +174,9 @@ class TestScoring(unittest.TestCase):
     def test_axes_independants_site_sans_processus(self):
         p = _prospect(evidences=[_ev(EVIDENCE_SITE_OBSOLETE)])
         s = score_prospect(p)
-        self.assertGreaterEqual(s[AXIS_REFONTE]["score"], 50)
+        # v8 : un fait observé est pondéré 0,85 (contre 1,0 en v7) pour laisser
+        # au besoin exprimé la première place. Le seuil baisse mécaniquement.
+        self.assertGreaterEqual(s[AXIS_REFONTE]["score"], 45)
         self.assertLess(s[AXIS_IA]["score"], 40)
         self.assertLess(s[AXIS_SITE_WEB]["score"], 20)
 
