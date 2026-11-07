@@ -450,6 +450,49 @@ def cmd_metrics(args: argparse.Namespace) -> int:
     return 0
 
 
+def cmd_plan(args: argparse.Namespace) -> int:
+    """Planifie les prochaines recherches et trace celles qui sont lancées."""
+    from .planner import SearchPlanner, SearchHistory
+    from .sources import ExplorationLedger
+
+    crm = CRM()
+    history = SearchHistory()
+    planner = SearchPlanner(crm.records, ExplorationLedger(), history)
+
+    if args.overview:
+        print(json.dumps(planner.overview(), ensure_ascii=False, indent=2))
+        return 0
+
+    plan = planner.plan(args.count, expressed_share=args.expressed_share)
+    if args.json:
+        print(json.dumps([q.to_dict() for q in plan], ensure_ascii=False, indent=2))
+    else:
+        cov = planner.coverage
+        print(f"Couverture : {cov['department_count']} départements, "
+              f"{cov['region_count']}/{cov['regions_total']} régions. "
+              f"Secteurs neufs disponibles : {len(planner.fresh_sectors())}.")
+        print("Rendement des sources (examinées -> qualifiées) :")
+        for perf in planner.performance:
+            if perf.examined:
+                print(f"  {perf.source_type:<22} {perf.examined:>3} -> "
+                      f"{perf.qualified:<3} rendement {perf.yield_score:.3f}")
+        print(f"\n{len(plan)} pistes inédites :")
+        for i, q in enumerate(plan, 1):
+            print(f"  {i:>2}. [{q.track}] {q.department} {q.city} — {q.query}")
+            print(f"      {q.rationale}")
+
+    if args.record:
+        for q in plan:
+            history.record(q.query, sector=q.sector, department=q.department,
+                           source_type=q.source_type, lot=args.lot)
+        history.save()
+        print(f"\n{len(plan)} pistes tracées dans l'historique"
+              f"{' (lot ' + args.lot + ')' if args.lot else ''}.")
+    elif not args.json:
+        print("\n(lecture seule : --record pour tracer ces pistes comme lancées)")
+    return 0
+
+
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(prog="prospecto", description="Moteur de prospection Prospecto (v4)")
     sub = parser.add_subparsers(dest="command", required=True)
@@ -555,6 +598,19 @@ def build_parser() -> argparse.ArgumentParser:
     p.add_argument("--apply", action="store_true", help="enregistrer dans le CRM")
     p.add_argument("--verbose", action="store_true", help="afficher les justifications")
     p.set_defaults(func=cmd_scores)
+
+    p = sub.add_parser("plan", help="planifier les recherches : sources rentables, "
+                                    "territoires neufs, sans répétition")
+    p.add_argument("--count", type=int, default=12, help="nombre de pistes (défaut 12)")
+    p.add_argument("--expressed-share", type=float, default=0.4,
+                   help="part consacrée aux besoins déjà publiés (défaut 0.4)")
+    p.add_argument("--lot", default="", help="lot à associer dans l'historique")
+    p.add_argument("--record", action="store_true",
+                   help="tracer les pistes comme lancées dans l'historique")
+    p.add_argument("--overview", action="store_true",
+                   help="couverture et rendement des sources, en JSON")
+    p.add_argument("--json", action="store_true", help="sortie JSON")
+    p.set_defaults(func=cmd_plan)
 
     return parser
 
