@@ -45,7 +45,20 @@ première étape non cochée **sans refaire les recherches déjà faites**.
       Rendement réel : site_officiel 12→4 (**0,260**), page_professionnelle
       12→0 (0,060), **annuaire_pro 31→0 (0,031)**. 40 % du plan consacré aux
       besoins déjà publiés. 27 secteurs neufs encore disponibles.
-- [ ] **F** Qualification : adresse décodée non confirmée, angle commercial
+- [x] **F** Qualification — `prospecto/dossier.py`, `tests/test_dossier.py`
+      (30 tests), CLI **`python3 -m prospecto.cli dossier [--company X] [--json]`**.
+      Vérification fondée sur la **preuve datée de publication sur source
+      officielle**, pas sur un drapeau hérité. Le MX ne prouve que le routage.
+      `email_provenance` explicite prime sur l'heuristique de notes.
+      **3 coordonnées reconfirmées par relecture le 2026-11-07** (archive
+      `data/history/confirmations-coordonnees-2026-11-07.json`) :
+      Canfora `david.canfora@sfr.fr` (mentions légales, SIREN 482141652),
+      Cordes `ateliercordesetame@gmail.com` (accueil, 3 occurrences),
+      **Froger `frogeretancheite@gmail.com` désormais publié EN CLAIR sur
+      l'accueil ⇒ la reconstitution est confirmée, plus une hypothèse**.
+      Les 4 fiches du lot 9 qualifient. Bilan 78 : **7 qualifiées au sens
+      strict**, 48 emails vérifiés, 26 téléphones vérifiés, 13 sans adresse,
+      **0 adresse reconstituée non confirmée**. 53 bloquées car déjà contactées.
 - [ ] **G** Approfondissement lot 9 : 24 annuaire seul + 27 écartées
 - [ ] **H** Lot 10 : ~60 structures, nouveaux départements, brouillons qualifiés
 - [ ] **I** Audit Gmail + réconciliation

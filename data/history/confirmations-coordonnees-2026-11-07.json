@@ -1,0 +1,75 @@
+{
+  "date": "2026-11-07",
+  "purpose": "section F — coordonnées publiées ET vérifiées",
+  "confirmations": [
+    {
+      "company": "Cordonnerie Canfora David",
+      "before": {
+        "email_verification": "public_unverified",
+        "phone_verification": "verified",
+        "email_provenance": null,
+        "scores": {
+          "site_web": 5,
+          "refonte": 56,
+          "ia_automatisation": 70
+        }
+      },
+      "after": {
+        "email_verification": "verified",
+        "phone_verification": "verified",
+        "email_provenance": "publiee",
+        "scores": {
+          "site_web": 5,
+          "refonte": 56,
+          "ia_automatisation": 70
+        }
+      }
+    },
+    {
+      "company": "Froger Étanchéité",
+      "before": {
+        "email_verification": "public_unverified",
+        "phone_verification": "verified",
+        "email_provenance": null,
+        "scores": {
+          "site_web": 5,
+          "refonte": 39,
+          "ia_automatisation": 66
+        }
+      },
+      "after": {
+        "email_verification": "verified",
+        "phone_verification": "verified",
+        "email_provenance": "publiee",
+        "scores": {
+          "site_web": 5,
+          "refonte": 39,
+          "ia_automatisation": 66
+        }
+      }
+    },
+    {
+      "company": "Cordes et Âme",
+      "before": {
+        "email_verification": "public_unverified",
+        "phone_verification": "verified",
+        "email_provenance": null,
+        "scores": {
+          "site_web": 5,
+          "refonte": 5,
+          "ia_automatisation": 39
+        }
+      },
+      "after": {
+        "email_verification": "verified",
+        "phone_verification": "verified",
+        "email_provenance": "publiee",
+        "scores": {
+          "site_web": 5,
+          "refonte": 5,
+          "ia_automatisation": 39
+        }
+      }
+    }
+  ]
+}

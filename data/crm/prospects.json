@@ -13311,6 +13311,17 @@
           "quote": "Raison sociale : Cordonnerie Canfora. Forme juridique : Entrepreneur individuel. SIREN : 482141652. Code APE : 9523Z. Nom du directeur de la publication : M. CANFORA DAVID.",
           "observed_at": "2026-11-06",
           "detail": "Identité légale et fonction vérifiées dans les mentions légales, qui publient aussi l'adresse électronique et le téléphone."
+        },
+        {
+          "kind": "signal_confiance",
+          "quote": "Adresse électronique : david.canfora@sfr.fr — Téléphone : 04 70 44 38 79 — SIREN : 482141652 — SIRET : 48214165200016 — Code APE : 9523Z — Nom du directeur de la rédaction/publication : M. CANFORA DAVID — Adresse : Cordonnerie Canfora David, 17 r Pont, 03000 Moulins",
+          "detail": "Coordonnées professionnelles publiées par l'entreprise, relues et confirmées ; fonde la vérification exigée par la section F.",
+          "source_url": "https://www.cordonnerie-canfora-moulins.fr/mentions-legales",
+          "source_type": "site_officiel",
+          "observed_at": "2026-11-07",
+          "verified_at": "2026-11-07",
+          "reliability": "haute",
+          "observed": true
         }
       ],
       "publication_date": "",
@@ -13319,7 +13330,7 @@
         "automatisation"
       ],
       "recommended_service": "un dépôt de demande avec photos qui permet un premier chiffrage à distance",
-      "email_verification": "public_unverified",
+      "email_verification": "verified",
       "score": 55,
       "tier": "haute",
       "status_crm": "qualified",
@@ -13328,7 +13339,7 @@
       "demo_detail": "une demande de réparation de sangle avec deux photos, qualifiée et chiffrée en fourchette avant tout déplacement",
       "custom_hook": "Vos pages bourrellerie et sellerie se terminent par la même invitation : « Venez nous rencontrer en magasin pour nous présenter votre demande et pour établir un devis personnalisé ! ».",
       "custom_subject": "Bourrellerie Canfora : le devis suppose de passer en boutique",
-      "notes": "Lot 9. Entrepreneur individuel, 17 rue du Pont 03000 Moulins, SIREN 482141652, RCS Cusset, SIRET 48214165200016, APE 9523Z. Directeur de la publication : M. CANFORA DAVID — prénom et fonction vérifiés dans les mentions légales consultées le 2026-11-06. L'adresse david.canfora@sfr.fr y est publiée comme « Adresse électronique » de l'entreprise et reprise en lien mailto en pied de page : c'est une boîte d'opérateur grand public, mais c'est le contact professionnel publié, non une adresse déduite. Téléphone 04 70 44 38 79 relevé sur la même page. Site réalisé par Solocal. Allier (03) et secteur cordonnerie/bourrellerie : deux nouveautés au CRM.",
+      "notes": "Lot 9. Entrepreneur individuel, 17 rue du Pont 03000 Moulins, SIREN 482141652, RCS Cusset, SIRET 48214165200016, APE 9523Z. Directeur de la publication : M. CANFORA DAVID — prénom et fonction vérifiés dans les mentions légales consultées le 2026-11-06. L'adresse david.canfora@sfr.fr y est publiée comme « Adresse électronique » de l'entreprise et reprise en lien mailto en pied de page : c'est une boîte d'opérateur grand public, mais c'est le contact professionnel publié, non une adresse déduite. Téléphone 04 70 44 38 79 relevé sur la même page. Site réalisé par Solocal. Allier (03) et secteur cordonnerie/bourrellerie : deux nouveautés au CRM. Coordonnées relu et confirmées le 2026-11-07 sur la page mentions légales : adresse électronique et téléphone publiés en clair, SIREN 482141652, directeur de publication M. CANFORA DAVID.",
       "lot": "2026-11-06-lot9",
       "discovered_at": "2026-11-06",
       "email_status": "brouillon",
@@ -13452,13 +13463,13 @@
             "observe": 3
           }
         },
-        "priority": "moyenne",
+        "priority": "haute",
         "best_axis": "ia_automatisation",
         "engine_version": "v8",
         "evaluated_at": "2026-11-07",
         "contactability": {
           "email_present": true,
-          "email_verification": "public_unverified",
+          "email_verification": "verified",
           "phone_present": false,
           "decoded_address_unconfirmed": false,
           "blockers": [],
@@ -13528,14 +13539,34 @@
       "status": "brouillon_en_attente",
       "id": "cordonnerie-canfora-david",
       "created_at": "2026-11-06T16:32:44+00:00",
-      "updated_at": "2026-11-06T16:32:44+00:00",
+      "updated_at": "2026-11-07",
       "email_dns_checked_at": "2026-11-06T16:32:44+00:00",
       "email_dns_detail": "1 MX publiés",
       "gmail_draft_id": "r-2900807566475937810",
       "gmail_message_id": "1a1b1b9735345222",
       "gmail_label": "Prospection/2026-11-06-lot9",
       "gmail_label_id": "Label_7",
-      "delivery_status": "non_applicable"
+      "delivery_status": "non_applicable",
+      "email_verification_basis": "adresse citée sur source officielle datée",
+      "email_provenance": "publiee",
+      "history": [
+        {
+          "at": "2026-11-07T16:56:52+00:00",
+          "action": "confirmation_coordonnees",
+          "source_url": "https://www.cordonnerie-canfora-moulins.fr/mentions-legales",
+          "before": {
+            "email_verification": "public_unverified",
+            "phone_verification": "verified",
+            "email_provenance": null,
+            "scores": {
+              "site_web": 5,
+              "refonte": 56,
+              "ia_automatisation": 70
+            }
+          },
+          "reason": "relecture de la source officielle, section F phase 10"
+        }
+      ]
     },
     {
       "company": "Froger Étanchéité",
@@ -13584,6 +13615,17 @@
           "quote": "Froger Étanchéité est membre de la Chambre Syndicale Française de l'Étanchéité (CSFE). Membre de la Fédération Française du Bâtiment (FFB).",
           "observed_at": "2026-11-06",
           "detail": "Affiliations professionnelles publiées : entreprise établie, pas un intermédiaire de mise en relation."
+        },
+        {
+          "kind": "signal_confiance",
+          "quote": "Téléphone : 06 35 41 64 70 — E-mail : frogeretancheite@gmail.com — Adresse : Centre d'Affaires Alizés, 22 Rue de la Rigourdière, 35510 CESSON-SEVIGNE",
+          "detail": "Coordonnées professionnelles publiées par l'entreprise, relues et confirmées ; fonde la vérification exigée par la section F.",
+          "source_url": "https://froger-etancheite.fr/",
+          "source_type": "site_officiel",
+          "observed_at": "2026-11-07",
+          "verified_at": "2026-11-07",
+          "reliability": "haute",
+          "observed": true
         }
       ],
       "publication_date": "",
@@ -13592,7 +13634,7 @@
         "refonte"
       ],
       "recommended_service": "un parcours de demande réparé qui qualifie la toiture avant la visite technique",
-      "email_verification": "public_unverified",
+      "email_verification": "verified",
       "score": 80,
       "tier": "haute",
       "status_crm": "qualified",
@@ -13601,7 +13643,7 @@
       "demo_detail": "une demande d'étanchéité qualifiée — type de revêtement, surface, commune — transmise avec une visite proposée",
       "custom_hook": "En bas de votre page d'accueil, le lien e-mail pointe vers « moc.liamg%40etiehcnateregorf » : la chaîne anti-spam inversée est restée dans le lien.",
       "custom_subject": "Froger Étanchéité : votre lien e-mail est écrit à l'envers",
-      "notes": "Lot 9. Centre d'Affaires Alizés, 22 rue de la Rigourdière, 35510 Cesson-Sévigné. Membre CSFE et FFB (publié sur l'accueil). Rayon de 100 km autour de Rennes (35) et Laval (53). Téléphone 06 35 41 64 70 relevé sur https://froger-etancheite.fr/ le 2026-11-06, présent en lien tel:0635416470. ATTENTION — adresse e-mail : le site publie mailto:moc.liamg%40etiehcnateregorf, soit la chaîne inversée. Lue à l'endroit elle donne frogeretancheite@gmail.com, cohérente avec la raison sociale. Il s'agit du décodage déterministe d'une adresse publiée, PAS d'une adresse déduite du nom de domaine. Aucun envoi n'est effectué ; le brouillon reste à valider et l'adresse peut être confirmée par téléphone avant validation. Aucun dirigeant nommé sur les pages consultées : aucun prénom n'est utilisé. Ille-et-Vilaine (35) et secteur étanchéité : deux nouveautés au CRM.",
+      "notes": "Lot 9. Centre d'Affaires Alizés, 22 rue de la Rigourdière, 35510 Cesson-Sévigné. Membre CSFE et FFB (publié sur l'accueil). Rayon de 100 km autour de Rennes (35) et Laval (53). Téléphone 06 35 41 64 70 relevé sur https://froger-etancheite.fr/ le 2026-11-06, présent en lien tel:0635416470. ATTENTION — adresse e-mail : le site publie mailto:moc.liamg%40etiehcnateregorf, soit la chaîne inversée. Lue à l'endroit elle donne frogeretancheite@gmail.com, cohérente avec la raison sociale. Il s'agit du décodage déterministe d'une adresse publiée, PAS d'une adresse déduite du nom de domaine. Aucun envoi n'est effectué ; le brouillon reste à valider et l'adresse peut être confirmée par téléphone avant validation. Aucun dirigeant nommé sur les pages consultées : aucun prénom n'est utilisé. Ille-et-Vilaine (35) et secteur étanchéité : deux nouveautés au CRM. CONFIRMATION INDÉPENDANTE le 2026-11-07 : l'adresse avait été reconstituée depuis le lien brouillé mailto:moc.liamg%40etiehcnateregorf. L'accueil la publie désormais en clair, « E-mail : frogeretancheite@gmail.com », avec un mailto non obfusqué. La reconstitution est confirmée par une publication explicite ; elle n'est plus une hypothèse.",
       "lot": "2026-11-06-lot9",
       "discovered_at": "2026-11-06",
       "email_status": "brouillon",
@@ -13715,7 +13757,7 @@
         "evaluated_at": "2026-11-07",
         "contactability": {
           "email_present": true,
-          "email_verification": "public_unverified",
+          "email_verification": "verified",
           "phone_present": false,
           "decoded_address_unconfirmed": false,
           "blockers": [],
@@ -13772,14 +13814,34 @@
       "status": "brouillon_en_attente",
       "id": "froger-tanch-it",
       "created_at": "2026-11-06T16:32:44+00:00",
-      "updated_at": "2026-11-06T16:32:44+00:00",
+      "updated_at": "2026-11-07",
       "email_dns_checked_at": "2026-11-04T22:11:15+00:00",
       "email_dns_detail": "5 MX publiés",
       "gmail_draft_id": "r-8700207463215455399",
       "gmail_message_id": "1a1b1b98459979b3",
       "gmail_label": "Prospection/2026-11-06-lot9",
       "gmail_label_id": "Label_7",
-      "delivery_status": "non_applicable"
+      "delivery_status": "non_applicable",
+      "email_verification_basis": "adresse citée sur source officielle datée",
+      "email_provenance": "publiee",
+      "history": [
+        {
+          "at": "2026-11-07T16:56:52+00:00",
+          "action": "confirmation_coordonnees",
+          "source_url": "https://froger-etancheite.fr/",
+          "before": {
+            "email_verification": "public_unverified",
+            "phone_verification": "verified",
+            "email_provenance": null,
+            "scores": {
+              "site_web": 5,
+              "refonte": 39,
+              "ia_automatisation": 66
+            }
+          },
+          "reason": "relecture de la source officielle, section F phase 10"
+        }
+      ]
     },
     {
       "company": "Cordes et Âme",
@@ -13828,6 +13890,17 @@
           "quote": "Atelier Cordes et Âme fournis les musiciens du quatuor de tous niveaux depuis 1958. Jean-Baptiste Ferrier, maître luthier et chef d'atelier.",
           "observed_at": "2026-11-06",
           "detail": "Antériorité et équipe nommées publiquement : la fonction du contact est vérifiée."
+        },
+        {
+          "kind": "signal_confiance",
+          "quote": "Mail : ateliercordesetame@gmail.com — Téléphone : 01 42 93 42 91 — 46 rue de Rome, 75008 Paris France — Jean-Baptiste Ferrier, maître luthier et chef d'atelier — « il peut être compliqué de répondre aux appels » — « Nous relevons les messages une fois par jour » — « nous vous invitons à nous contacter de préférence par mail »",
+          "detail": "Coordonnées professionnelles publiées par l'entreprise, relues et confirmées ; fonde la vérification exigée par la section F.",
+          "source_url": "https://www.cordesetame.fr/",
+          "source_type": "site_officiel",
+          "observed_at": "2026-11-07",
+          "verified_at": "2026-11-07",
+          "reliability": "haute",
+          "observed": true
         }
       ],
       "publication_date": "",
@@ -13836,7 +13909,7 @@
         "automatisation"
       ],
       "recommended_service": "une demande guidée qui décrit l'instrument et l'intervention avant le premier échange",
-      "email_verification": "public_unverified",
+      "email_verification": "verified",
       "score": 55,
       "tier": "haute",
       "status_crm": "qualified",
@@ -13845,7 +13918,7 @@
       "demo_detail": "une demande de réparation décrite — instrument, nature des travaux, photos — prête à être traitée en une passe",
       "custom_hook": "Votre page de contact l'écrit : « il peut être compliqué de répondre aux appels » et « Nous relevons les messages une fois par jour ».",
       "custom_subject": "Cordes et Âme : des messages relevés une fois par jour",
-      "notes": "Lot 9. Atelier depuis 1958, 46 rue de Rome 75008 Paris. Équipe nommée publiquement : Jean-Baptiste Ferrier (maître luthier et chef d'atelier), Hitomi Amano et Brigid Pierce (luthières) — prénom et fonction vérifiés sur https://www.cordesetame.fr/ le 2026-11-06. Adresse ateliercordesetame@gmail.com publiée en clair en lien mailto dans la section Contact ; téléphone 01 42 93 42 91 en lien tel:0142934291 sur la même page. C'est une boîte Gmail mais c'est le contact professionnel publié de l'atelier. La difficulté opérationnelle est énoncée par l'entreprise elle-même : fait observé, pas déduction sectorielle. Une boutique avec panier existe déjà (Squarespace) : l'opportunité ne porte donc PAS sur une création de site. Paris (75) déjà présent au CRM (France-PNL) mais secteur lutherie neuf.",
+      "notes": "Lot 9. Atelier depuis 1958, 46 rue de Rome 75008 Paris. Équipe nommée publiquement : Jean-Baptiste Ferrier (maître luthier et chef d'atelier), Hitomi Amano et Brigid Pierce (luthières) — prénom et fonction vérifiés sur https://www.cordesetame.fr/ le 2026-11-06. Adresse ateliercordesetame@gmail.com publiée en clair en lien mailto dans la section Contact ; téléphone 01 42 93 42 91 en lien tel:0142934291 sur la même page. C'est une boîte Gmail mais c'est le contact professionnel publié de l'atelier. La difficulté opérationnelle est énoncée par l'entreprise elle-même : fait observé, pas déduction sectorielle. Une boutique avec panier existe déjà (Squarespace) : l'opportunité ne porte donc PAS sur une création de site. Paris (75) déjà présent au CRM (France-PNL) mais secteur lutherie neuf. Coordonnées relues et confirmées le 2026-11-07 sur l'accueil : adresse publiée trois fois dont une en texte clair, téléphone 01 42 93 42 91. La difficulté de réponse est toujours publiée.",
       "lot": "2026-11-06-lot9",
       "discovered_at": "2026-11-06",
       "email_status": "brouillon",
@@ -13948,7 +14021,7 @@
         "evaluated_at": "2026-11-07",
         "contactability": {
           "email_present": true,
-          "email_verification": "public_unverified",
+          "email_verification": "verified",
           "phone_present": false,
           "decoded_address_unconfirmed": false,
           "blockers": [],
@@ -14006,14 +14079,34 @@
       "status": "brouillon_en_attente",
       "id": "cordes-et-me",
       "created_at": "2026-11-06T16:32:44+00:00",
-      "updated_at": "2026-11-06T16:32:44+00:00",
+      "updated_at": "2026-11-07",
       "email_dns_checked_at": "2026-11-04T22:11:15+00:00",
       "email_dns_detail": "5 MX publiés",
       "gmail_draft_id": "r2871291886672009217",
       "gmail_message_id": "1a1b1b991300c965",
       "gmail_label": "Prospection/2026-11-06-lot9",
       "gmail_label_id": "Label_7",
-      "delivery_status": "non_applicable"
+      "delivery_status": "non_applicable",
+      "email_verification_basis": "adresse citée sur source officielle datée",
+      "email_provenance": "publiee",
+      "history": [
+        {
+          "at": "2026-11-07T16:56:52+00:00",
+          "action": "confirmation_coordonnees",
+          "source_url": "https://www.cordesetame.fr/",
+          "before": {
+            "email_verification": "public_unverified",
+            "phone_verification": "verified",
+            "email_provenance": null,
+            "scores": {
+              "site_web": 5,
+              "refonte": 5,
+              "ia_automatisation": 39
+            }
+          },
+          "reason": "relecture de la source officielle, section F phase 10"
+        }
+      ]
     }
   ]
 }

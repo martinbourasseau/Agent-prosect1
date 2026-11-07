@@ -450,6 +450,51 @@ def cmd_metrics(args: argparse.Namespace) -> int:
     return 0
 
 
+def cmd_dossier(args: argparse.Namespace) -> int:
+    """Dossier de qualification : ce qui est vérifié, ce qui manque."""
+    from .dossier import build_dossier, audit_portfolio
+
+    crm = CRM()
+    if args.company:
+        rec = next((r for r in crm.records
+                    if args.company.lower() in r.get("company", "").lower()), None)
+        if rec is None:
+            print(f"aucune fiche ne correspond à « {args.company} »", file=sys.stderr)
+            return 1
+        d = build_dossier(rec)
+        if args.json:
+            print(json.dumps(d.to_dict(), ensure_ascii=False, indent=2))
+        else:
+            print(f"{d.company} — {'QUALIFIÉE' if d.qualified else 'NON QUALIFIÉE'}")
+            print(f"  activité      : {d.activity} ({d.city} {d.department})")
+            print(f"  site officiel : {d.website}")
+            print(f"  responsable   : {d.manager or '(non publié)'}")
+            print(f"  email         : {d.email or '(absent)'} — {d.email_provenance}")
+            print(f"                  vérifié : {d.email_verified}"
+                  f" ({d.email_verification_basis or 'aucun fondement'})")
+            print(f"  téléphone     : {d.phone or '(absent)'} — vérifié : {d.phone_verified}")
+            print(f"  scores        : {d.scores} — confiance {d.confidence}")
+            print(f"  service       : {d.recommended_service}")
+            print(f"  angle         : {d.commercial_angle}")
+            print(f"  sources       : {len(d.sources)} datées")
+            for b in d.blockers:
+                print(f"  BLOQUE : {b}")
+        return 0
+
+    audit = audit_portfolio(crm.records)
+    if args.json:
+        print(json.dumps(audit, ensure_ascii=False, indent=2))
+    else:
+        print(f"{audit['examined']} fiches — {audit['qualified']} qualifiées au sens strict")
+        print(f"  emails vérifiés      : {audit['email_verified']}")
+        print(f"  téléphones vérifiés  : {audit['phone_verified']}")
+        print(f"  provenance des adresses : {audit['email_provenance']}")
+        print("\nMotifs de blocage :")
+        for reason, n in audit["blocker_reasons"].items():
+            print(f"  {n:>3}  {reason}")
+    return 0
+
+
 def cmd_plan(args: argparse.Namespace) -> int:
     """Planifie les prochaines recherches et trace celles qui sont lancées."""
     from .planner import SearchPlanner, SearchHistory
@@ -598,6 +643,12 @@ def build_parser() -> argparse.ArgumentParser:
     p.add_argument("--apply", action="store_true", help="enregistrer dans le CRM")
     p.add_argument("--verbose", action="store_true", help="afficher les justifications")
     p.set_defaults(func=cmd_scores)
+
+    p = sub.add_parser("dossier", help="dossier de qualification : coordonnées "
+                                      "publiées et vérifiées, sources datées")
+    p.add_argument("--company", help="une seule fiche (correspondance partielle)")
+    p.add_argument("--json", action="store_true", help="sortie JSON")
+    p.set_defaults(func=cmd_dossier)
 
     p = sub.add_parser("plan", help="planifier les recherches : sources rentables, "
                                     "territoires neufs, sans répétition")
