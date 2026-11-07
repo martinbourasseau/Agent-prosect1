@@ -1,0 +1,609 @@
+{
+  "updated_at": "2026-11-06T16:09:37+00:00",
+  "count": 60,
+  "entries": [
+    {
+      "at": "2026-11-04T21:26:00+00:00",
+      "status": "sent",
+      "queue_id": "2026-11-03-v2-001",
+      "to": "contact@renovationpremium.com",
+      "subject": "Une idée pour le site de R Premium ?",
+      "gmail_message_id": "1a1a34a502673385",
+      "transport": "gmail_manual_observed",
+      "campaign": "2026-11-03-v2"
+    },
+    {
+      "at": "2026-11-04T21:26:00+00:00",
+      "status": "sent",
+      "queue_id": "2026-11-03-v2-002",
+      "to": "secteur72fr@gmail.com",
+      "subject": "Une idée pour gagner du temps chez Secteur 72 ?",
+      "gmail_message_id": "1a1a34a892abaf2e",
+      "transport": "gmail_manual_observed",
+      "campaign": "2026-11-03-v2"
+    },
+    {
+      "at": "2026-11-04T21:26:00+00:00",
+      "status": "sent",
+      "queue_id": "2026-11-04-lancement-001",
+      "to": "reception@camping-galet.com",
+      "subject": "Un agent IA pour Camping Le Galet ?",
+      "gmail_message_id": "1a1a8720126c3fca",
+      "transport": "gmail_manual_observed",
+      "campaign": "2026-11-04-lancement"
+    },
+    {
+      "at": "2026-11-04T21:26:00+00:00",
+      "status": "sent",
+      "queue_id": "2026-11-04-lancement-002",
+      "to": "larenardieredelyna@gmail.com",
+      "subject": "Restaurant La Renardière : automatiser avec un agent ?",
+      "gmail_message_id": "1a1a87226afeb2f8",
+      "transport": "gmail_manual_observed",
+      "campaign": "2026-11-04-lancement"
+    },
+    {
+      "at": "2026-11-04T21:26:00+00:00",
+      "status": "sent",
+      "queue_id": "2026-11-04-lancement-003",
+      "to": "lessantons.laturbie@gmail.com",
+      "subject": "Un agent IA pour Restaurant Les Santons ?",
+      "gmail_message_id": "1a1a8724e43b4818",
+      "transport": "gmail_manual_observed",
+      "campaign": "2026-11-04-lancement"
+    },
+    {
+      "at": "2026-11-04T21:26:00+00:00",
+      "status": "sent",
+      "queue_id": "2026-11-04-lancement-004",
+      "to": "contact@renovationpremium.com",
+      "subject": "Votre annonce WordPress + référencement",
+      "gmail_message_id": "1a1a8727fb3c7644",
+      "transport": "gmail_manual_observed",
+      "campaign": "2026-11-04-lancement"
+    },
+    {
+      "at": "2026-11-04T21:26:00+00:00",
+      "status": "sent",
+      "queue_id": "2026-11-04-lancement-005",
+      "to": "secteur72fr@gmail.com",
+      "subject": "Secteur 72 : automatiser avant l'ouverture ?",
+      "gmail_message_id": "1a1a872a52f17fd0",
+      "transport": "gmail_manual_observed",
+      "campaign": "2026-11-04-lancement"
+    },
+    {
+      "at": "2026-11-04T21:26:00+00:00",
+      "status": "sent",
+      "queue_id": "2026-11-04-lancement-006",
+      "to": "support@bsp-auto.com",
+      "subject": "Votre newsletter mensuelle, en pilote automatique ?",
+      "gmail_message_id": "1a1a872c5c05ac8d",
+      "transport": "gmail_manual_observed",
+      "campaign": "2026-11-04-lancement"
+    },
+    {
+      "at": "2026-11-04T21:26:00+00:00",
+      "status": "sent",
+      "queue_id": "2026-11-04-lancement-007",
+      "to": "contact@cerf-athletic-training.fr",
+      "subject": "CERF : automatiser le suivi de vos adhérents ?",
+      "gmail_message_id": "1a1a872eb5773975",
+      "transport": "gmail_manual_observed",
+      "campaign": "2026-11-04-lancement"
+    },
+    {
+      "at": "2026-11-04T21:26:00+00:00",
+      "status": "sent",
+      "queue_id": "2026-11-04-lancement-008",
+      "to": "charmedelhetre50@gmail.com",
+      "subject": "Charme de l'Hêtre : être trouvé sur Google ?",
+      "gmail_message_id": "1a1a87311bac39c7",
+      "transport": "gmail_manual_observed",
+      "campaign": "2026-11-04-lancement"
+    },
+    {
+      "at": "2026-11-04T21:26:00+00:00",
+      "status": "sent",
+      "queue_id": "2026-11-04-lot2-001",
+      "to": "celarenarde@gmail.com",
+      "subject": "Centre Équestre de la Renarde : automatiser les inscriptions ?",
+      "gmail_message_id": "1a1a873377151814",
+      "transport": "gmail_manual_observed",
+      "campaign": "2026-11-04-lot2"
+    },
+    {
+      "at": "2026-11-04T21:26:00+00:00",
+      "status": "sent",
+      "queue_id": "2026-11-04-lot2-002",
+      "to": "contact@rochedesbancs.com",
+      "subject": "Domaine Roche des Bancs : automatiser vos dégustations ?",
+      "gmail_message_id": "1a1a8735852ed02a",
+      "transport": "gmail_manual_observed",
+      "campaign": "2026-11-04-lot2"
+    },
+    {
+      "at": "2026-11-04T21:26:00+00:00",
+      "status": "sent",
+      "queue_id": "2026-11-04-lot2-003",
+      "to": "courbin-et-fils@orange.fr",
+      "subject": "Domaine Courbin Héritage : commandes et dégustations en ligne ?",
+      "gmail_message_id": "1a1a8738353a1cd1",
+      "transport": "gmail_manual_observed",
+      "campaign": "2026-11-04-lot2"
+    },
+    {
+      "at": "2026-11-04T21:26:00+00:00",
+      "status": "sent",
+      "queue_id": "2026-11-04-lot2-004",
+      "to": "contact@itelecom.pro",
+      "subject": "iTelecom : automatiser votre prospection B2B ?",
+      "gmail_message_id": "1a1a873d7bbca94b",
+      "transport": "gmail_manual_observed",
+      "campaign": "2026-11-04-lot2"
+    },
+    {
+      "at": "2026-11-04T21:26:00+00:00",
+      "status": "sent",
+      "queue_id": "2026-11-04-lot2-005",
+      "to": "info@myk6.fr",
+      "subject": "K6 Pension : automatiser vos pré-réservations ?",
+      "gmail_message_id": "1a1a873f35d975df",
+      "transport": "gmail_manual_observed",
+      "campaign": "2026-11-04-lot2"
+    },
+    {
+      "at": "2026-11-04T21:26:00+00:00",
+      "status": "bounced",
+      "queue_id": "2026-11-04-lot2-006",
+      "to": "contact@severine-lesourd.com",
+      "subject": "Pension Séverine Lesourd : automatiser les inscriptions ?",
+      "gmail_message_id": "1a1a87422963e03d",
+      "transport": "gmail_manual_observed",
+      "campaign": "2026-11-04-lot2",
+      "bounce_severity": "dur",
+      "bounced_at": "2026-11-04T22:09:57+00:00",
+      "bounce_message_id": "1a1a87452d7ca7c0"
+    },
+    {
+      "at": "2026-11-04T21:26:00+00:00",
+      "status": "sent",
+      "queue_id": "2026-11-04-lot2-007",
+      "to": "Jeremiepages22@gmail.com",
+      "subject": "Centre Cynophile de Ruy : réservation de pension en ligne ?",
+      "gmail_message_id": "1a1a87445a8cefa4",
+      "transport": "gmail_manual_observed",
+      "campaign": "2026-11-04-lot2"
+    },
+    {
+      "at": "2026-11-04T21:26:00+00:00",
+      "status": "sent",
+      "queue_id": "2026-11-04-lot3-001",
+      "to": "canoesomme@gmail.com",
+      "subject": "Base nautique de Picquigny : automatiser les devis groupes",
+      "gmail_message_id": "1a1a874841970c60",
+      "transport": "gmail_manual_observed",
+      "campaign": "2026-11-04-lot3"
+    },
+    {
+      "at": "2026-11-04T21:26:00+00:00",
+      "status": "sent",
+      "queue_id": "2026-11-04-lot3-002",
+      "to": "brasserievdl74@gmail.com",
+      "subject": "Brasserie VDL : commandes à emporter sans téléphone",
+      "gmail_message_id": "1a1a874a4fcaa4d2",
+      "transport": "gmail_manual_observed",
+      "campaign": "2026-11-04-lot3"
+    },
+    {
+      "at": "2026-11-04T21:26:00+00:00",
+      "status": "sent",
+      "queue_id": "2026-11-04-lot3-003",
+      "to": "contact@dance-center.fr",
+      "subject": "Dance Center : inscriptions en ligne pour la rentrée",
+      "gmail_message_id": "1a1a874c31f4eb31",
+      "transport": "gmail_manual_observed",
+      "campaign": "2026-11-04-lot3"
+    },
+    {
+      "at": "2026-11-04T21:26:00+00:00",
+      "status": "sent",
+      "queue_id": "2026-11-04-lot3-004",
+      "to": "contact@sam31.fr",
+      "subject": "SAM31 : pré-inscription en ligne pour vos élèves",
+      "gmail_message_id": "1a1a874e162b9146",
+      "transport": "gmail_manual_observed",
+      "campaign": "2026-11-04-lot3"
+    },
+    {
+      "at": "2026-11-04T21:26:00+00:00",
+      "status": "sent",
+      "queue_id": "2026-11-04-lot3-005",
+      "to": "cedmu@yahoo.fr",
+      "subject": "La Bruchoise : commandes à emporter en ligne",
+      "gmail_message_id": "1a1a8751810b09c2",
+      "transport": "gmail_manual_observed",
+      "campaign": "2026-11-04-lot3"
+    },
+    {
+      "at": "2026-11-04T21:26:00+00:00",
+      "status": "sent",
+      "queue_id": "2026-11-04-lot3-006",
+      "to": "directionloccidentale@gmail.com",
+      "subject": "L'Occidentale : réponses plus rapides aux demandes de devis",
+      "gmail_message_id": "1a1a8753daf0bfe6",
+      "transport": "gmail_manual_observed",
+      "campaign": "2026-11-04-lot3"
+    },
+    {
+      "at": "2026-11-05T14:33:59+01:00",
+      "to": "contact@restaurant-lecanotier.fr",
+      "subject": "Le Canotier : réservation en ligne pour vos événements ?",
+      "company": "Restaurant Le Canotier",
+      "campaign": "2026-11-04-lot4",
+      "status": "sent",
+      "gmail_message_id": "1a1abea92f5deeb5",
+      "source": "gmail_manual_observed"
+    },
+    {
+      "at": "2026-11-05T14:34:05+01:00",
+      "to": "contact@boucherie-florian.fr",
+      "subject": "Boucherie Florian : commandes traiteur en ligne ?",
+      "company": "Boucherie Florian",
+      "campaign": "2026-11-04-lot4",
+      "status": "sent",
+      "gmail_message_id": "1a1abeaaa946dee4",
+      "source": "gmail_manual_observed"
+    },
+    {
+      "at": "2026-11-05T14:34:08+01:00",
+      "to": "labergere35@gmail.com",
+      "subject": "Fromagerie Les 2 Alpes : activer la commande en ligne ?",
+      "company": "La Fromagerie Les 2 Alpes",
+      "campaign": "2026-11-04-lot4",
+      "status": "sent",
+      "gmail_message_id": "1a1abeab49495c8d",
+      "source": "gmail_manual_observed"
+    },
+    {
+      "at": "2026-11-05T14:34:11+01:00",
+      "to": "brigitte@fromagerieetbaratte.fr",
+      "subject": "Fromagerie et Baratte : plateaux commandables en ligne ?",
+      "company": "Fromagerie et Baratte",
+      "campaign": "2026-11-04-lot4",
+      "status": "sent",
+      "gmail_message_id": "1a1abeac1d8f4959",
+      "source": "gmail_manual_observed"
+    },
+    {
+      "at": "2026-11-05T14:34:14+01:00",
+      "to": "contact@matproloc.fr",
+      "subject": "Matproloc : réservation de matériel en ligne ?",
+      "company": "Matproloc",
+      "campaign": "2026-11-04-lot4",
+      "status": "sent",
+      "gmail_message_id": "1a1abeacf5ccb9d8",
+      "source": "gmail_manual_observed"
+    },
+    {
+      "at": "2026-11-05T14:34:16+01:00",
+      "to": "contact@lachocolatisserie.com",
+      "subject": "La Chocolatisserie : commandes sur-mesure en ligne ?",
+      "company": "La Chocolatisserie",
+      "campaign": "2026-11-04-lot4",
+      "status": "sent",
+      "gmail_message_id": "1a1abead77825981",
+      "source": "gmail_manual_observed"
+    },
+    {
+      "at": "2026-11-05T14:34:18+01:00",
+      "to": "allo-cation@wanadoo.fr",
+      "subject": "Allo'cation : automatiser les devis location ?",
+      "company": "Allo'cation",
+      "campaign": "2026-11-04-lot4",
+      "status": "sent",
+      "gmail_message_id": "1a1abeadfb545730",
+      "source": "gmail_manual_observed"
+    },
+    {
+      "at": "2026-11-05T14:34:20+01:00",
+      "to": "goudalerestaurant@gmail.com",
+      "subject": "Goudale Orchies : réservation en ligne ?",
+      "company": "Restaurant Goudale Orchies",
+      "campaign": "2026-11-04-lot4",
+      "status": "sent",
+      "gmail_message_id": "1a1abeae419d880a",
+      "source": "gmail_manual_observed"
+    },
+    {
+      "at": "2026-11-05T14:34:22+01:00",
+      "to": "contact@atomer.fr",
+      "subject": "ATOMER : vos inscriptions encore par bulletin PDF ?",
+      "company": "ATOMER",
+      "campaign": "2026-11-04-lot5",
+      "status": "sent",
+      "gmail_message_id": "1a1abeaecbcef640",
+      "source": "gmail_manual_observed"
+    },
+    {
+      "at": "2026-11-05T14:34:24+01:00",
+      "to": "nettoyage.industriel@wanadoo.fr",
+      "subject": "Nettoyage Industriel : qualifier vos demandes de devis",
+      "company": "NETTOYAGE INDUSTRIEL",
+      "campaign": "2026-11-04-lot5",
+      "status": "sent",
+      "gmail_message_id": "1a1abeaf51545a13",
+      "source": "gmail_manual_observed"
+    },
+    {
+      "at": "2026-11-05T14:34:27+01:00",
+      "to": "vigneronsetcaviste@gmail.com",
+      "subject": "Vos cours d'œnologie : réserver sans appeler ?",
+      "company": "Vignerons et Caviste",
+      "campaign": "2026-11-04-lot5",
+      "status": "sent",
+      "gmail_message_id": "1a1abeaff2f7a627",
+      "source": "gmail_manual_observed"
+    },
+    {
+      "at": "2026-11-05T14:34:30+01:00",
+      "to": "boutique@lacaviste.fr",
+      "subject": "La Caviste : vos commandes préparées sans emails",
+      "company": "La Caviste",
+      "campaign": "2026-11-04-lot5",
+      "status": "sent",
+      "gmail_message_id": "1a1abeb0bd7e3299",
+      "source": "gmail_manual_observed"
+    },
+    {
+      "at": "2026-11-05T14:34:32+01:00",
+      "to": "contact@alphamecanique.fr",
+      "subject": "Alpha Mécanique : vos demandes de devis sur plans",
+      "company": "ALPHA MECANIQUE",
+      "campaign": "2026-11-04-lot5",
+      "status": "sent",
+      "gmail_message_id": "1a1abeb156455137",
+      "source": "gmail_manual_observed"
+    },
+    {
+      "at": "2026-11-05T14:34:35+01:00",
+      "to": "ambulancestemarie@gmail.com",
+      "subject": "Ambulances Sainte-Marie : vos ententes préalables",
+      "company": "SARL Ambulances Sainte-Marie",
+      "campaign": "2026-11-04-lot5",
+      "status": "sent",
+      "gmail_message_id": "1a1abeb1ea9a2f13",
+      "source": "gmail_manual_observed"
+    },
+    {
+      "at": "2026-11-05T14:34:37+01:00",
+      "to": "contact@blanchisseriedes3regions.fr",
+      "subject": "B3R : votre site affiche une page d'hébergement suspendu",
+      "company": "Blanchisserie des 3 Régions (B3R)",
+      "campaign": "2026-11-04-lot5",
+      "status": "sent",
+      "gmail_message_id": "1a1abeb27153577d",
+      "source": "gmail_manual_observed"
+    },
+    {
+      "at": "2026-11-03",
+      "to": "atelier@akla-architectes.com",
+      "subject": "Deux ou trois points sur le site d'Akla Architectes",
+      "company": "Akla Architectes",
+      "campaign": "",
+      "status": "sent",
+      "gmail_message_id": "1a1a0b31a0714a24",
+      "source": "gmail_manual_observed"
+    },
+    {
+      "at": "2026-11-03",
+      "to": "contact@thearchitectes.com",
+      "subject": "Deux ou trois points sur le site de The Architectes",
+      "company": "The Architectes",
+      "campaign": "",
+      "status": "sent",
+      "gmail_message_id": "1a1a0b1b62a46fc1",
+      "source": "gmail_manual_observed"
+    },
+    {
+      "at": "2026-11-03",
+      "to": "contact@quattroarchi.fr",
+      "subject": "Deux ou trois points sur le site de Quattro Architectes",
+      "company": "Quattro Architectes",
+      "campaign": "",
+      "status": "sent",
+      "gmail_message_id": "1a1a0b0513563881",
+      "source": "gmail_manual_observed"
+    },
+    {
+      "at": "2026-11-03",
+      "to": "letablidumenuisier@gmail.com",
+      "subject": "Deux ou trois points sur le site de L'Etabli du Menuisier",
+      "company": "L'Etabli du Menuisier",
+      "campaign": "",
+      "status": "sent",
+      "gmail_message_id": "1a1a0aee460069d6",
+      "source": "gmail_manual_observed"
+    },
+    {
+      "at": "2026-11-03",
+      "to": "contact@superchi.fr",
+      "subject": "Deux ou trois points sur le site de Superchi Architectes",
+      "company": "Superchi Architectes",
+      "campaign": "",
+      "status": "sent",
+      "gmail_message_id": "1a1a0ad81832dfff",
+      "source": "gmail_manual_observed"
+    },
+    {
+      "at": "2026-11-03",
+      "to": "leserrurierdacote@gmail.com",
+      "subject": "Gagner du temps sur les e-mails reçus chez Le Serrurier d'A Cote ?",
+      "company": "Le Serrurier d'A Cote",
+      "campaign": "",
+      "status": "sent",
+      "gmail_message_id": "1a1a0ac1d312d06a",
+      "source": "gmail_manual_observed"
+    },
+    {
+      "at": "2026-11-03",
+      "to": "villedieu.automobiles@gmail.com",
+      "subject": "Gagner du temps sur les demandes entrantes chez Garage Villedieu Automobiles ?",
+      "company": "Garage Villedieu Automobiles",
+      "campaign": "",
+      "status": "sent",
+      "gmail_message_id": "1a1a0aab6559d46c",
+      "source": "gmail_manual_observed"
+    },
+    {
+      "at": "2026-11-03",
+      "to": "multitech.assistance@gmail.com",
+      "subject": "Gagner du temps sur les demandes entrantes chez Multitech Assistance ?",
+      "company": "Multitech Assistance",
+      "campaign": "",
+      "status": "sent",
+      "gmail_message_id": "1a1a0a9532c92ff8",
+      "source": "gmail_manual_observed"
+    },
+    {
+      "at": "2026-11-06",
+      "to": "contact@celtuce-traiteur.com",
+      "subject": "Celtuce : vos devis buffets recopiés à la main ?",
+      "company": "Celtuce Traiteur",
+      "campaign": "2026-11-06-lot6",
+      "status": "sent",
+      "gmail_message_id": "1a1b183f2bf3904d",
+      "source": "gmail_manual_observed"
+    },
+    {
+      "at": "2026-11-06",
+      "to": "contact@mamiecuisinetraiteur.fr",
+      "subject": "Mamie Cuisine : la règle des 72 h, appliquée automatiquement ?",
+      "company": "Mamie Cuisine Traiteur",
+      "campaign": "2026-11-06-lot6",
+      "status": "sent",
+      "gmail_message_id": "1a1b183fc0bdaefa",
+      "source": "gmail_manual_observed"
+    },
+    {
+      "at": "2026-11-06",
+      "to": "contact@baptiste-break.fr",
+      "subject": "Baptiste Break : vos semaines complètes visibles avant la demande ?",
+      "company": "Baptiste Break Pâtisserie Traiteur",
+      "campaign": "2026-11-06-lot6",
+      "status": "sent",
+      "gmail_message_id": "1a1b18404ae62e39",
+      "source": "gmail_manual_observed"
+    },
+    {
+      "at": "2026-11-06",
+      "to": "info-location@joly-location.fr",
+      "subject": "Joly Location : votre ancien domaine renvoie « site non publié »",
+      "company": "SARL Joly Location",
+      "campaign": "2026-11-06-lot6",
+      "status": "sent",
+      "gmail_message_id": "1a1b1841a47c1bac",
+      "source": "gmail_manual_observed"
+    },
+    {
+      "at": "2026-11-06",
+      "to": "uzeslocation.30700@gmail.com",
+      "subject": "Uzès Location : matériel, dates, durée — demandés dès le formulaire ?",
+      "company": "SARL Uzès Location",
+      "campaign": "2026-11-06-lot6",
+      "status": "sent",
+      "gmail_message_id": "1a1b18421f8c3683",
+      "source": "gmail_manual_observed"
+    },
+    {
+      "at": "2026-11-06",
+      "to": "contact@techniquespiscine.fr",
+      "subject": "Techniques Piscine : qualifier le projet avant le premier appel ?",
+      "company": "Techniques Piscine",
+      "campaign": "2026-11-06-lot6",
+      "status": "sent",
+      "gmail_message_id": "1a1b1842936c13f0",
+      "source": "gmail_manual_observed"
+    },
+    {
+      "at": "2026-11-06",
+      "to": "contact@france-pnl.com",
+      "subject": "Inscriptions France-PNL : quatre canaux, une seule validation ?",
+      "company": "France-Hypnose-Formation / France-PNL",
+      "campaign": "2026-11-07-lot7",
+      "status": "sent",
+      "gmail_message_id": "1a1b184311907c65",
+      "source": "gmail_manual_observed"
+    },
+    {
+      "at": "2026-11-06",
+      "to": "demenagement@atoutransport.com",
+      "subject": "Atoutransport : vos dates de groupage consultables en ligne ?",
+      "company": "Atoutransport",
+      "campaign": "2026-11-07-lot7",
+      "status": "sent",
+      "gmail_message_id": "1a1b18437782e960",
+      "source": "gmail_manual_observed"
+    },
+    {
+      "at": "2026-11-06",
+      "to": "contact@bonbon-foliz.com",
+      "subject": "Bonbon Foliz : vos ouvertures de compte pro par e-mail ?",
+      "company": "Bonbon Foliz",
+      "campaign": "2026-11-07-lot7",
+      "status": "sent",
+      "gmail_message_id": "1a1b1844273c525a",
+      "source": "gmail_manual_observed"
+    },
+    {
+      "at": "2026-11-06",
+      "to": "reservation@odeclaise.fr",
+      "subject": "Ô de Claise : vos cartes cadeau réservables en ligne ?",
+      "company": "L'Ô de Claise",
+      "campaign": "2026-11-07-lot7",
+      "status": "sent",
+      "gmail_message_id": "1a1b1844cc70bc8c",
+      "source": "gmail_manual_observed"
+    },
+    {
+      "at": "2026-11-06",
+      "to": "contact@bulles-et-detente.fr",
+      "subject": "Bulles & Détente : le suivi de vos bons cadeaux automatisé ?",
+      "company": "Bulles & Détente",
+      "campaign": "2026-11-07-lot7",
+      "status": "sent",
+      "gmail_message_id": "1a1b18453d1c8993",
+      "source": "gmail_manual_observed"
+    },
+    {
+      "at": "2026-11-06",
+      "to": "formation@lecentreformation.fr",
+      "subject": "Dossiers CPF : un lien par profil, puis les dates à caler",
+      "company": "Le Centre Formation",
+      "campaign": "2026-11-06-lot8",
+      "status": "sent",
+      "gmail_message_id": "1a1b184b29206c9d",
+      "source": "gmail_manual_observed"
+    },
+    {
+      "at": "2026-11-06",
+      "to": "kjenback@gmail.com",
+      "subject": "Votre bouton « Devis gratuit » compose un autre numéro",
+      "company": "Kévin Jenback — Couverture, zinguerie, ramonage",
+      "campaign": "2026-11-06-lot8",
+      "status": "sent",
+      "gmail_message_id": "1a1b184bb1591fa8",
+      "source": "gmail_manual_observed"
+    },
+    {
+      "at": "2026-11-06",
+      "to": "sales@msfpro-industries.com",
+      "subject": "Vos demandes de devis MSF PRO ouvrent toutes un e-mail",
+      "company": "MSF PRO Industries",
+      "campaign": "2026-11-06-lot8",
+      "status": "sent",
+      "gmail_message_id": "1a1b184c2bc9921b",
+      "source": "gmail_manual_observed"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "campaign": "2026-11-03-v2",
+  "research_date": "2026-11-03",
+  "method": "Recherche de besoins exprimés publiquement (Codeur.com, presse) + vérification des sites. Priorité aux besoins publics, preuves conservées, aucun problème inventé.",
+  "prospects": [
+    {
+      "company": "R Premium",
+      "domain": "renovationpremium.com",
+      "contact_email": "contact@renovationpremium.com",
+      "sector": "batiment",
+      "location": "Clichy (92)",
+      "website": "https://renovationpremium.com",
+      "needs": ["refonte"],
+      "process_hint": "",
+      "demo_detail": "un aperçu visuel d'amélioration de votre page d'accueil",
+      "evidences": [
+        {
+          "kind": "public_need",
+          "source_url": "https://www.codeur.com/pages/appel-offre",
+          "quote": "Bonjour, Je dirige R Premium, une entreprise de rénovation intérieure tous corps d'état… (projet 'Site WordPress, référencement et communication degitale', ouvert, budget 500–1000 €)",
+          "observed_at": "2026-11-03",
+          "detail": "vous recherchez un prestataire pour faire évoluer votre site WordPress, son référencement et votre communication digitale (annonce Codeur.com consultée le 3 novembre)"
+        }
+      ],
+      "notes": "Site WordPress existant avec portfolio. Besoin public explicite (refonte/SEO/com). Contact public : contact@renovationpremium.com (site + Houzz + Trustpilot)."
+    },
+    {
+      "company": "Secteur 72",
+      "domain": "lesecteur72.fr",
+      "contact_email": "secteur72fr@gmail.com",
+      "sector": "services",
+      "location": "Montval-sur-Loir (72)",
+      "contact_name": "Marc",
+      "website": "https://lesecteur72.fr",
+      "needs": ["automatisation"],
+      "process_hint": "vos réservations de journées et les questions des joueurs",
+      "demo_detail": "une illustration du processus de réservation qui pourrait être automatisé chez vous (confirmations, rappels, réponses aux questions des joueurs)",
+      "evidences": [
+        {
+          "kind": "public_need",
+          "source_url": "https://www.codeur.com/projects/492309-e-commerce-et-site-web-vitrine",
+          "quote": "Nous recherchons un freelance pour animer les réseaux sociaux de Secteur 72, un projet de terrain d'airsoft en Sarthe… avec boutique en ligne d'équipement et une chaîne YouTube.",
+          "observed_at": "2026-11-03",
+          "detail": "vous préparez l'ouverture de votre terrain d'airsoft en Sarthe et cherchez à développer votre communauté en ligne (annonce Codeur.com du 3 novembre)"
+        },
+        {
+          "kind": "sector_opportunity",
+          "source_url": "https://lesecteur72.fr/",
+          "quote": "Réserver ma journée — Une journée a lieu dès 5 inscrits. Préviens-moi de l'ouverture.",
+          "observed_at": "2026-11-03",
+          "detail": "Le site propose déjà la réservation de journées et une alerte d'ouverture : confirmations, rappels et réponses aux questions des joueurs peuvent être automatisés pendant la phase de lancement."
+        }
+      ],
+      "notes": "Site récent et soigné (pas de refonte à proposer). Lancement en cours, fondateur Marc Fontaine. Contact public : secteur72fr@gmail.com (presse actu.fr + site). Angle honnête : automatisation du processus de réservation, pas de problème inventé."
+    }
+  ],
+  "excluded_leads": [
+    {"company": "Gaboriau Ebénisterie (85)", "reason": "Site HTTP inaccessible lors des vérifications (4 tentatives) : lacune non vérifiable honnêtement, écarté."},
+    {"company": "Jobard Energies (85)", "reason": "Site inaccessible (http/https, avec/sans www) : non vérifiable, écarté."},
+    {"company": "LBLF Architectes (85)", "reason": "Site portfolio propre avec formulaire de contact fonctionnel : aucune lacune honnête à citer."},
+    {"company": "Boodbois / Pierre & Jardin / Hoose Bois Design (85)", "reason": "Sites modernes et complets : pas de besoin vérifié, opportunité trop faible pour qualifier."},
+    {"company": "Matabiau Locker Hub (Toulouse)", "reason": "Besoin public réel (création site one-page, Codeur.com) mais aucun contact public exploitable : à recontacter quand un email/site sera publié."},
+    {"company": "HOSSEA (conciergerie)", "reason": "Projet Codeur d'automatisation fermé il y a ~10 mois : besoin ancien, non prioritaire."}
+  ]
+}

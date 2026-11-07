@@ -1,0 +1,255 @@
+[
+  {
+    "company": "France-Hypnose-Formation / France-PNL",
+    "sector": "Organisme de formation professionnelle (PNL, hypnose, neurosciences)",
+    "city": "Paris",
+    "department": "75",
+    "region": "Île-de-France",
+    "website": "https://france-hypnose-formation.com/",
+    "domain": "france-hypnose-formation.com",
+    "contact_email": "contact@france-pnl.com",
+    "email_verification": "verified",
+    "phone": "06 51 95 90 74",
+    "phone_verification": "verified",
+    "contact_name": "",
+    "contact_role": "Docteur Robert Larsonneur, fondateur",
+    "contact_name_source": "https://france-hypnose-formation.com/inscriptions-aux-formations-pnl-et-hypnose/",
+    "needs": [
+      "automatisation"
+    ],
+    "solution_type": "automatisation_admin",
+    "opportunity_type": "besoin_reel",
+    "custom_subject": "Inscriptions France-PNL : quatre canaux, une seule validation ?",
+    "custom_hook": "Votre page d'inscription ouvre quatre canaux et précise que seul le paiement par carte bleue déclenche une prise en compte immédiate.",
+    "observation": "Les demandes par e-mail ou téléphone attendent donc une validation du secrétariat, pour des groupes limités à quinze stagiaires.",
+    "recommended_service": "un parcours d'inscription unique qui vérifie les places restantes, valide la demande et prépare la convention de formation.",
+    "demo_detail": "démo d'une inscription par e-mail devenant dossier complet, place réservée et convention pré-remplie",
+    "process_hint": "inscriptions par e-mail, téléphone, courrier et pré-inscription, validées manuellement par le secrétariat ; convention de formation émise pour chaque stagiaire",
+    "notes": "Lot 7. Organisme accrédité par l'État (N° 11753731075), 130 rue La Fayette, 75010 Paris. Deux secrétaires assurent les réponses. Le site possède déjà une boutique avec paiement CB : le besoin n'est pas une création de site mais l'alignement des trois autres canaux sur le même niveau d'automatisation. Titres et boutons du site sont des images JPG, ce qui limite le référencement, mais ce point n'est pas utilisé dans l'accroche.",
+    "evidences": [
+      {
+        "kind": "processus_manuel",
+        "source_url": "https://france-hypnose-formation.com/inscriptions-aux-formations-pnl-et-hypnose/",
+        "quote": "Seule l'inscription avec paiement carte bleue entraine une prise en compte immédiate.",
+        "observed_at": "2026-11-07",
+        "detail": "Les canaux autres que le paiement en ligne ne produisent pas d'inscription immédiate."
+      },
+      {
+        "kind": "processus_manuel",
+        "source_url": "https://france-hypnose-formation.com/inscriptions-aux-formations-pnl-et-hypnose/",
+        "quote": "Adressez nous un mail à : contact@france-pnl.com en mentionnant vos nom, prénom, N° de téléphone et surtout le N° de la formation : exemple TH8-21 Votre inscription devra être validée pour être définitive.",
+        "observed_at": "2026-11-07",
+        "detail": "L'inscription par e-mail impose au secrétariat de vérifier le code formation, les coordonnées et les places, puis de valider à la main."
+      },
+      {
+        "kind": "parcours_incomplet",
+        "source_url": "https://france-hypnose-formation.com/inscriptions-aux-formations-pnl-et-hypnose/",
+        "quote": "Nous limitons le nombre de stagiaires par groupe à 15 personnes… La pré-inscription ne vous garantie pas une place… tout dépend des places restantes.",
+        "observed_at": "2026-11-07",
+        "detail": "La capacité est limitée à quinze places mais le candidat ne peut pas la consulter avant de demander."
+      }
+    ],
+    "lot": "2026-11-07-lot7",
+    "discovered_at": "2026-11-07",
+    "email_status": "non_contacté",
+    "next_action": "Brouillon personnalisé à préparer — aucun envoi automatique",
+    "qualification_tier": "haute"
+  },
+  {
+    "company": "Atoutransport",
+    "sector": "Transport et déménagement en groupage (navettes Paris – Côte d'Azur)",
+    "city": "Perceneige",
+    "department": "89",
+    "region": "Bourgogne-Franche-Comté",
+    "website": "https://www.atoutransport.com/",
+    "domain": "atoutransport.com",
+    "contact_email": "demenagement@atoutransport.com",
+    "email_verification": "verified",
+    "phone": "06 65 48 92 64",
+    "phone_verification": "verified",
+    "contact_name": "",
+    "contact_role": "",
+    "contact_name_source": "",
+    "needs": [
+      "automatisation",
+      "refonte"
+    ],
+    "solution_type": "devis_automatise",
+    "opportunity_type": "besoin_reel",
+    "custom_subject": "Atoutransport : vos dates de groupage consultables en ligne ?",
+    "custom_hook": "Vous écrivez que les dates de groupage sont connues plusieurs mois à l'avance et qu'il faut prendre contact pour les connaître.",
+    "observation": "Vos clients ne peuvent donc pas situer leur déménagement sur une navette avant de vous appeler, alors que votre formulaire leur demande déjà dates, étages et volume.",
+    "recommended_service": "un calendrier de navettes consultable, relié au devis pour réserver une place sur le trajet choisi.",
+    "demo_detail": "démo d'un calendrier Paris – Nice affichant les places restantes et chiffrant le volume saisi",
+    "process_hint": "dates de navettes communiquées uniquement par contact direct ; devis groupage établi à partir d'un formulaire détaillé (étages, ascenseur, volume, dates)",
+    "notes": "Lot 7. Entreprise artisanale, 22 ans en 2026, déplacée de La Gaude (06) à Perceneige (89260) en juillet 2023 ; dépôts à Saint-Laurent-du-Var et Perceneige. Second téléphone publié : 03 86 96 13 85. Le formulaire de devis est déjà riche : la lacune n'est pas la collecte mais l'absence du calendrier de navettes, information que l'entreprise détient et ne communique que sur demande. Aucun besoin d'agent IA déduit.",
+    "evidences": [
+      {
+        "kind": "parcours_incomplet",
+        "source_url": "https://www.atoutransport.com/",
+        "quote": "Les dates de groupage sont connues plusieurs mois à l'avance, prenez contact afin de les connaître.",
+        "observed_at": "2026-11-07",
+        "detail": "Le calendrier des navettes existe mais n'est pas publié : chaque client doit le demander."
+      },
+      {
+        "kind": "processus_manuel",
+        "source_url": "https://www.atoutransport.com/",
+        "quote": "un devis de transport meubles est proposé soit en ligne, par téléphone au 06 65 48 92 64 ou par e-mail.",
+        "observed_at": "2026-11-07",
+        "detail": "Le devis est établi à la demande depuis un formulaire détaillé, sans lien avec les dates de navette disponibles."
+      }
+    ],
+    "lot": "2026-11-07-lot7",
+    "discovered_at": "2026-11-07",
+    "email_status": "non_contacté",
+    "next_action": "Brouillon personnalisé à préparer — aucun envoi automatique",
+    "qualification_tier": "haute"
+  },
+  {
+    "company": "Bonbon Foliz",
+    "sector": "Grossiste en confiserie, chocolat et biscuiterie pour revendeurs",
+    "city": "Le Perray-en-Yvelines",
+    "department": "78",
+    "region": "Île-de-France",
+    "website": "https://www.bonbon-foliz.com/",
+    "domain": "bonbon-foliz.com",
+    "contact_email": "contact@bonbon-foliz.com",
+    "email_verification": "verified",
+    "phone": "01 34 84 97 95",
+    "phone_verification": "verified",
+    "contact_name": "",
+    "contact_role": "",
+    "contact_name_source": "",
+    "needs": [
+      "automatisation"
+    ],
+    "solution_type": "formulaire_intelligent",
+    "opportunity_type": "besoin_reel",
+    "custom_subject": "Bonbon Foliz : vos ouvertures de compte pro par e-mail ?",
+    "custom_hook": "Votre espace revendeur demande d'envoyer le Kbis et les coordonnées par e-mail, avec les produits souhaités, pour que vous établissiez un bon de commande.",
+    "observation": "Chaque nouveau revendeur mobilise donc une personne pour lire les pièces et rédiger la première commande.",
+    "recommended_service": "un formulaire d'ouverture de compte pro qui dépose le Kbis, contrôle le SIRET et transforme la première sélection en bon de commande.",
+    "demo_detail": "démo d'une demande de compte revendeur avec dépôt de Kbis et bon de commande généré",
+    "process_hint": "ouverture de compte professionnel par e-mail avec Kbis, puis établissement manuel du bon de commande ; minimum 300 € HT",
+    "notes": "Lot 7. BONBONFOLIZ SAS, 27 ZI du Chemin Vert, 78610 Le Perray-en-Yvelines. Plus de 2000 références, 60 marques, 35 ans d'activité. Deux adresses publiques : contact@bonbon-foliz.com (celle explicitement désignée pour les ouvertures de compte, retenue) et contact@bonbon-foliz.fr (pied de page). Les deux domaines ont un MX valide. Aucun besoin d'agent IA : la tâche est un workflow documentaire.",
+    "evidences": [
+      {
+        "kind": "processus_manuel",
+        "source_url": "https://www.bonbon-foliz.com/page/9-espace-professionnel",
+        "quote": "Pour ouvrir votre compte professionnel : Envoyer vos coordonnées complètes : Nom, Prénom - Société - Adresse postale - Téléphone + votre KBIS à l'adresse mail de Bonbon Foliz : contact@bonbon-foliz.com",
+        "observed_at": "2026-11-07",
+        "detail": "L'ouverture d'un compte revendeur se fait intégralement par e-mail, pièces jointes comprises."
+      },
+      {
+        "kind": "processus_manuel",
+        "source_url": "https://www.bonbon-foliz.com/page/9-espace-professionnel",
+        "quote": "inscrivez-vous sur nos service en nous envoyant sur contact@bonbon-foliz.com votre extrait de Kbis et les produits souhaités pour votre première commande afin que nous puissions vous établir un bon de commande.",
+        "observed_at": "2026-11-07",
+        "detail": "La première commande est rédigée manuellement par l'équipe à partir de l'e-mail, alors que le minimum de 300 € HT est une règle automatisable."
+      }
+    ],
+    "lot": "2026-11-07-lot7",
+    "discovered_at": "2026-11-07",
+    "email_status": "non_contacté",
+    "next_action": "Brouillon personnalisé à préparer — aucun envoi automatique",
+    "qualification_tier": "haute"
+  },
+  {
+    "company": "L'Ô de Claise",
+    "sector": "Institut et spa de bien-être",
+    "city": "Saint-Michel-en-Brenne",
+    "department": "36",
+    "region": "Centre-Val de Loire",
+    "website": "https://odeclaise.fr/",
+    "domain": "odeclaise.fr",
+    "contact_email": "reservation@odeclaise.fr",
+    "email_verification": "verified",
+    "phone": "02 54 38 16 01",
+    "phone_verification": "verified",
+    "contact_name": "",
+    "contact_role": "",
+    "contact_name_source": "",
+    "needs": [
+      "automatisation"
+    ],
+    "solution_type": "reservation_en_ligne",
+    "opportunity_type": "besoin_reel",
+    "custom_subject": "Ô de Claise : vos cartes cadeau réservables en ligne ?",
+    "custom_hook": "Votre accueil indique que les détenteurs d'une carte cadeau doivent appeler obligatoirement le 02 54 38 16 01 pour prendre rendez-vous.",
+    "observation": "Vous avez pourtant déjà une réservation en ligne : vos clients porteurs d'un bon cadeau sont les seuls à devoir passer par le téléphone.",
+    "recommended_service": "la reconnaissance des bons cadeaux dans votre module de réservation, pour que le solde soit déduit au moment du créneau choisi.",
+    "demo_detail": "démo d'une réservation payée par bon cadeau, avec solde restant et créneau confirmé sans appel",
+    "process_hint": "réservation en ligne via un prestataire externe, mais prise de rendez-vous par téléphone obligatoire pour les cartes cadeau ; privatisation sur place ou par téléphone",
+    "notes": "Lot 7. Spa situé à Claise, 36290 Saint-Michel-en-Brenne, dans le Parc naturel régional de la Brenne. Réservation en ligne déléguée à app.reservation-en-ligne.fr. Brochure PDF 2024 encore en ligne. Le besoin est ciblé sur l'intégration des bons cadeaux au module existant, pas sur une refonte. Aucun nom de responsable retenu : seule une image de signature est publiée, source insuffisante.",
+    "evidences": [
+      {
+        "kind": "parcours_incomplet",
+        "source_url": "https://odeclaise.fr/",
+        "quote": "Si vous possédez une carte cadeau merci d'appeler obligatoirement au 02 54 38 16 01, pour une prise de rendez-vous !",
+        "observed_at": "2026-11-07",
+        "detail": "Les porteurs de bons cadeaux sont exclus du parcours de réservation en ligne."
+      },
+      {
+        "kind": "website_gap",
+        "source_url": "https://odeclaise.fr/",
+        "quote": "Prendre un rendez-vous en ligne",
+        "observed_at": "2026-11-07",
+        "detail": "Un module de réservation en ligne existe déjà : l'écart ne concerne que les cartes cadeau."
+      }
+    ],
+    "lot": "2026-11-07-lot7",
+    "discovered_at": "2026-11-07",
+    "email_status": "non_contacté",
+    "next_action": "Brouillon personnalisé à préparer — aucun envoi automatique",
+    "qualification_tier": "haute"
+  },
+  {
+    "company": "Bulles & Détente",
+    "sector": "Massage bien-être et espace privatif sauna / spa",
+    "city": "Serre-les-Sapins",
+    "department": "25",
+    "region": "Bourgogne-Franche-Comté",
+    "website": "https://bulles-et-detente.fr/",
+    "domain": "bulles-et-detente.fr",
+    "contact_email": "contact@bulles-et-detente.fr",
+    "email_verification": "verified",
+    "phone": "06 95 32 16 81",
+    "phone_verification": "verified",
+    "contact_name": "",
+    "contact_role": "",
+    "contact_name_source": "",
+    "needs": [
+      "automatisation"
+    ],
+    "solution_type": "automatisation_admin",
+    "opportunity_type": "besoin_reel",
+    "custom_subject": "Bulles & Détente : le suivi de vos bons cadeaux automatisé ?",
+    "custom_hook": "Vos bons cadeaux sont vendus en ligne, valables six mois, avec une prolongation facturée 10 € par mois et une annulation si le rendez-vous n'est pas annulé 48 h à l'avance.",
+    "observation": "Ces trois règles doivent être suivies pour chaque bon émis, alors que la vente, elle, est déjà automatisée.",
+    "recommended_service": "un registre de bons cadeaux qui suit les échéances, calcule les prolongations et alerte avant expiration.",
+    "demo_detail": "démo d'un registre de bons cadeaux signalant les échéances à six mois et calculant une prolongation",
+    "process_hint": "vente de bons cadeaux en ligne avec envoi programmé ; validité de six mois, prolongation 10 €/mois et règle d'annulation 48 h suivies manuellement",
+    "notes": "Lot 7. Praticienne agréée en massage bien-être, 9 rue Champenâtre, 25770 Serre-les-Sapins, près de Besançon. Approche volontairement distincte de celle de L'Ô de Claise : ici il s'agit du suivi administratif du cycle de vie des bons, pas du parcours de réservation. Une mention indexée indique que les réservations du samedi se font par téléphone ; non retrouvée sur la page actuelle, elle n'est donc pas utilisée.",
+    "evidences": [
+      {
+        "kind": "processus_manuel",
+        "source_url": "https://bulles-et-detente.fr/",
+        "quote": "Les bons cadeaux sont valables 6 mois à compter de la date d'achat et ils sont non remboursables. En cas de dépassement, la prolongation sera facturée 10€/mois. Tout rendez vous non honoré ou non annulé 48h à l'avance entrainera l'annulation du bon cadeau.",
+        "observed_at": "2026-11-07",
+        "detail": "Trois règles de gestion s'appliquent à chaque bon : échéance, facturation de prolongation, annulation. Elles sont énoncées mais non outillées."
+      },
+      {
+        "kind": "website_gap",
+        "source_url": "https://bulles-et-detente.fr/",
+        "quote": "Les cartes cadeaux sont ensuite envoyées à l'adresse mail de votre choix et à la date souhaitée.",
+        "observed_at": "2026-11-07",
+        "detail": "L'émission et l'envoi du bon sont automatisés ; le suivi de son cycle de vie ne l'est pas."
+      }
+    ],
+    "lot": "2026-11-07-lot7",
+    "discovered_at": "2026-11-07",
+    "email_status": "non_contacté",
+    "next_action": "Brouillon personnalisé à préparer — aucun envoi automatique",
+    "qualification_tier": "haute"
+  }
+]

@@ -1,0 +1,73 @@
+{
+  "campaign": "2026-11-03-v3",
+  "strategy": "v3 — hook percutant + démo gratuite (docs/strategie-commerciale-v3.md)",
+  "generated_count": 5,
+  "emails": [
+    {
+      "queue_id": "2026-11-03-v3-001",
+      "to": "contact@renovationpremium.com",
+      "subject": "Votre annonce WordPress + référencement",
+      "body": "Bonjour,\n\nJ'ai lu votre annonce : vous voulez faire évoluer votre site WordPress, votre référencement et votre communication.\n\nJe modernise les sites web pour les rendre plus clairs, plus rapides et plus convaincants.\n\nJe peux vous préparer gratuitement une première démonstration personnalisée, sans engagement : un aperçu de votre page d'accueil optimisée pour le référencement.\n\nSeriez-vous intéressé pour la découvrir ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation web · Agents IA · Automatisation\nhttps://prospecto.website\n",
+      "company": "R Premium",
+      "need": "refonte",
+      "evidence_sources": [
+        "https://www.codeur.com/pages/appel-offre"
+      ],
+      "score": 60,
+      "tier": "haute"
+    },
+    {
+      "queue_id": "2026-11-03-v3-002",
+      "to": "secteur72fr@gmail.com",
+      "subject": "Secteur 72 : automatiser avant l'ouverture ?",
+      "body": "Bonjour Marc,\n\nJ'ai suivi le lancement de Secteur 72 : vous préparez l'ouverture de votre terrain d'airsoft et le développement de la boutique.\n\nJe mets en place des automatisations qui font gagner du temps sur les tâches répétitives.\n\nJe peux vous préparer gratuitement une première démonstration personnalisée, sans engagement : un exemple de parcours de réservation automatisé avec rappels avant chaque session.\n\nSeriez-vous intéressé pour la découvrir ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation web · Agents IA · Automatisation\nhttps://prospecto.website\n",
+      "company": "Secteur 72",
+      "need": "automatisation",
+      "evidence_sources": [
+        "https://www.codeur.com/projects/492309-e-commerce-et-site-web-vitrine",
+        "https://www.actu.fr/pays-de-la-loire/montval-sur-loir_72071/sarthe-il-cherche-un-terrain-pour-son-projet-de-terrain-d-airsoft_64922877.html"
+      ],
+      "score": 75,
+      "tier": "haute"
+    },
+    {
+      "queue_id": "2026-11-03-v3-003",
+      "to": "support@bsp-auto.com",
+      "subject": "Votre newsletter mensuelle, en pilote automatique ?",
+      "body": "Bonjour,\n\nJ'ai vu votre projet de newsletter mensuelle pour vos agences de voyages clientes.\n\nJe mets en place des automatisations qui font gagner du temps sur les tâches répétitives.\n\nJe peux vous préparer gratuitement une première démonstration personnalisée, sans engagement : un exemple de newsletter générée et envoyée automatiquement chaque mois.\n\nSeriez-vous intéressé pour la découvrir ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation web · Agents IA · Automatisation\nhttps://prospecto.website\n",
+      "company": "BSP Auto",
+      "need": "automatisation",
+      "evidence_sources": [
+        "https://www.codeur.com/projects/492305-newsletter-location-de-voiture"
+      ],
+      "score": 60,
+      "tier": "haute"
+    },
+    {
+      "queue_id": "2026-11-03-v3-004",
+      "to": "contact@cerf-athletic-training.fr",
+      "subject": "CERF : automatiser le suivi de vos adhérents ?",
+      "body": "Bonjour Elwen,\n\nJ'ai suivi l'ouverture de CERF à Mouzillon : petits groupes, coach présent, objectif d'une centaine d'adhérents.\n\nJe mets en place des automatisations qui font gagner du temps sur les tâches répétitives.\n\nJe peux vous préparer gratuitement une première démonstration personnalisée, sans engagement : un exemple de gestion automatisée des inscriptions et des rappels de séances.\n\nSeriez-vous intéressé pour la découvrir ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation web · Agents IA · Automatisation\nhttps://prospecto.website\n",
+      "company": "CERF Athletic Training",
+      "need": "automatisation",
+      "evidence_sources": [
+        "https://actu.fr/pays-de-la-loire/mouzillon_44108/elle-va-ouvrir-dans-le-vignoble-nantais-que-propose-cette-salle-de-sport-qui-defend-une-autre-approche_64655582.html"
+      ],
+      "score": 25,
+      "tier": "moyenne"
+    },
+    {
+      "queue_id": "2026-11-03-v3-005",
+      "to": "charmedelhetre50@gmail.com",
+      "subject": "Charme de l'Hêtre : être trouvé sur Google ?",
+      "body": "Bonjour Chloé,\n\nJe viens de découvrir Charme de l'Hêtre, votre activité d'arboriste grimpeuse lancée cet été.\n\nJe crée des sites web modernes et professionnels, pensés pour valoriser votre savoir-faire et transformer vos visiteurs en clients.\n\nJe peux vous préparer gratuitement une première démonstration personnalisée, sans engagement : une première maquette de site vitrine pour votre activité d'élagage.\n\nSeriez-vous intéressé pour la découvrir ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation web · Agents IA · Automatisation\nhttps://prospecto.website\n",
+      "company": "Charme de l'Hêtre",
+      "need": "site_web",
+      "evidence_sources": [
+        "https://actu.fr/normandie/la-chapelle-uree_50124/dans-le-sud-manche-elle-a-cree-son-entreprise-darboriste-grimpeuse-pour-mettre-en-valeur-les-vegetaux_64675166.html"
+      ],
+      "score": 25,
+      "tier": "moyenne"
+    }
+  ]
+}

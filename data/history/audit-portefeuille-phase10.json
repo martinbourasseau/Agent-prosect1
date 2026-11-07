@@ -1,0 +1,1104 @@
+{
+  "audited_at": "2026-11-07",
+  "phase": "10",
+  "section": "B",
+  "portfolio_size": 78,
+  "read_only": true,
+  "note": "Diagnostic en lecture seule. Aucun score historique modifié.",
+  "counts_by_category": {
+    "insuffisamment_qualifie": 15,
+    "a_approprier": 12,
+    "faux_positif": 3,
+    "faux_negatif": 12,
+    "preuve_mal_typee": 1
+  },
+  "findings": [
+    {
+      "company": "R Premium",
+      "lot": "2026-11-04-lot1",
+      "status": "contacté",
+      "scores": {
+        "site_web": 5,
+        "refonte": 25,
+        "ia_automatisation": 0
+      },
+      "confidence": {
+        "site_web": "moyenne",
+        "refonte": "moyenne",
+        "ia_automatisation": "moyenne"
+      },
+      "evidence_kinds": {
+        "public_need": 2
+      },
+      "signals_detectibles": [],
+      "tags": [
+        "insuffisamment_qualifie"
+      ],
+      "reasons": [
+        "Besoin exprimé publiquement avec budget déclaré, mais porteur masqué : ni raison sociale ni adresse. Score actuel 25/100 alors qu'une lacune de site déduite en obtient 65."
+      ]
+    },
+    {
+      "company": "Secteur 72",
+      "lot": "2026-11-04-lot1",
+      "status": "contacté",
+      "scores": {
+        "site_web": 5,
+        "refonte": 25,
+        "ia_automatisation": 0
+      },
+      "confidence": {
+        "site_web": "haute",
+        "refonte": "moyenne",
+        "ia_automatisation": "haute"
+      },
+      "evidence_kinds": {
+        "public_need": 2,
+        "sector_opportunity": 2
+      },
+      "signals_detectibles": [],
+      "tags": [
+        "insuffisamment_qualifie"
+      ],
+      "reasons": [
+        "Besoin exprimé publiquement avec budget déclaré, mais porteur masqué : ni raison sociale ni adresse. Score actuel 25/100 alors qu'une lacune de site déduite en obtient 65."
+      ]
+    },
+    {
+      "company": "Multitech Assistance",
+      "lot": "historique-gmail-antérieur",
+      "status": "contacté",
+      "scores": {
+        "site_web": 5,
+        "refonte": 5,
+        "ia_automatisation": 0
+      },
+      "confidence": {
+        "site_web": "faible",
+        "refonte": "faible",
+        "ia_automatisation": "faible"
+      },
+      "evidence_kinds": {},
+      "signals_detectibles": [],
+      "tags": [
+        "a_approprier"
+      ],
+      "reasons": [
+        "Aucune preuve enregistrée : fiche issue de l'historique Gmail, non qualifiable sans recherche."
+      ]
+    },
+    {
+      "company": "Garage Villedieu Automobiles",
+      "lot": "historique-gmail-antérieur",
+      "status": "contacté",
+      "scores": {
+        "site_web": 5,
+        "refonte": 5,
+        "ia_automatisation": 0
+      },
+      "confidence": {
+        "site_web": "faible",
+        "refonte": "faible",
+        "ia_automatisation": "faible"
+      },
+      "evidence_kinds": {},
+      "signals_detectibles": [],
+      "tags": [
+        "a_approprier"
+      ],
+      "reasons": [
+        "Aucune preuve enregistrée : fiche issue de l'historique Gmail, non qualifiable sans recherche."
+      ]
+    },
+    {
+      "company": "Le Serrurier d'A Cote",
+      "lot": "historique-gmail-antérieur",
+      "status": "contacté",
+      "scores": {
+        "site_web": 5,
+        "refonte": 5,
+        "ia_automatisation": 0
+      },
+      "confidence": {
+        "site_web": "faible",
+        "refonte": "faible",
+        "ia_automatisation": "faible"
+      },
+      "evidence_kinds": {},
+      "signals_detectibles": [],
+      "tags": [
+        "a_approprier"
+      ],
+      "reasons": [
+        "Aucune preuve enregistrée : fiche issue de l'historique Gmail, non qualifiable sans recherche."
+      ]
+    },
+    {
+      "company": "Superchi Architectes",
+      "lot": "historique-gmail-antérieur",
+      "status": "contacté",
+      "scores": {
+        "site_web": 5,
+        "refonte": 5,
+        "ia_automatisation": 0
+      },
+      "confidence": {
+        "site_web": "faible",
+        "refonte": "faible",
+        "ia_automatisation": "faible"
+      },
+      "evidence_kinds": {},
+      "signals_detectibles": [],
+      "tags": [
+        "a_approprier"
+      ],
+      "reasons": [
+        "Aucune preuve enregistrée : fiche issue de l'historique Gmail, non qualifiable sans recherche."
+      ]
+    },
+    {
+      "company": "L'Etabli du Menuisier",
+      "lot": "historique-gmail-antérieur",
+      "status": "contacté",
+      "scores": {
+        "site_web": 5,
+        "refonte": 5,
+        "ia_automatisation": 0
+      },
+      "confidence": {
+        "site_web": "faible",
+        "refonte": "faible",
+        "ia_automatisation": "faible"
+      },
+      "evidence_kinds": {},
+      "signals_detectibles": [],
+      "tags": [
+        "a_approprier"
+      ],
+      "reasons": [
+        "Aucune preuve enregistrée : fiche issue de l'historique Gmail, non qualifiable sans recherche."
+      ]
+    },
+    {
+      "company": "Quattro Architectes",
+      "lot": "historique-gmail-antérieur",
+      "status": "contacté",
+      "scores": {
+        "site_web": 5,
+        "refonte": 5,
+        "ia_automatisation": 0
+      },
+      "confidence": {
+        "site_web": "faible",
+        "refonte": "faible",
+        "ia_automatisation": "faible"
+      },
+      "evidence_kinds": {},
+      "signals_detectibles": [],
+      "tags": [
+        "a_approprier"
+      ],
+      "reasons": [
+        "Aucune preuve enregistrée : fiche issue de l'historique Gmail, non qualifiable sans recherche."
+      ]
+    },
+    {
+      "company": "The Architectes",
+      "lot": "historique-gmail-antérieur",
+      "status": "contacté",
+      "scores": {
+        "site_web": 5,
+        "refonte": 5,
+        "ia_automatisation": 0
+      },
+      "confidence": {
+        "site_web": "faible",
+        "refonte": "faible",
+        "ia_automatisation": "faible"
+      },
+      "evidence_kinds": {},
+      "signals_detectibles": [],
+      "tags": [
+        "a_approprier"
+      ],
+      "reasons": [
+        "Aucune preuve enregistrée : fiche issue de l'historique Gmail, non qualifiable sans recherche."
+      ]
+    },
+    {
+      "company": "Akla Architectes",
+      "lot": "historique-gmail-antérieur",
+      "status": "contacté",
+      "scores": {
+        "site_web": 5,
+        "refonte": 5,
+        "ia_automatisation": 0
+      },
+      "confidence": {
+        "site_web": "faible",
+        "refonte": "faible",
+        "ia_automatisation": "faible"
+      },
+      "evidence_kinds": {},
+      "signals_detectibles": [],
+      "tags": [
+        "a_approprier"
+      ],
+      "reasons": [
+        "Aucune preuve enregistrée : fiche issue de l'historique Gmail, non qualifiable sans recherche."
+      ]
+    },
+    {
+      "company": "BSP Auto",
+      "lot": "2026-11-04-lot1",
+      "status": "auto_reply",
+      "scores": {
+        "site_web": 5,
+        "refonte": 15,
+        "ia_automatisation": 0
+      },
+      "confidence": {
+        "site_web": "moyenne",
+        "refonte": "moyenne",
+        "ia_automatisation": "moyenne"
+      },
+      "evidence_kinds": {
+        "public_need": 1
+      },
+      "signals_detectibles": [],
+      "tags": [
+        "insuffisamment_qualifie"
+      ],
+      "reasons": [
+        "Besoin exprimé publiquement avec budget déclaré, mais porteur masqué : ni raison sociale ni adresse. Score actuel 15/100 alors qu'une lacune de site déduite en obtient 65."
+      ]
+    },
+    {
+      "company": "CERF Athletic Training",
+      "lot": "2026-11-04-lot1",
+      "status": "contacté",
+      "scores": {
+        "site_web": 5,
+        "refonte": 5,
+        "ia_automatisation": 0
+      },
+      "confidence": {
+        "site_web": "moyenne",
+        "refonte": "moyenne",
+        "ia_automatisation": "moyenne"
+      },
+      "evidence_kinds": {
+        "sector_opportunity": 1
+      },
+      "signals_detectibles": [],
+      "tags": [
+        "faux_positif"
+      ],
+      "reasons": [
+        "Seule preuve de type sector_opportunity : déduction ou fait de presse locale, pas un besoin observé. Score 5/100 non justifié par une preuve d'opportunité."
+      ]
+    },
+    {
+      "company": "Charme de l'Hêtre",
+      "lot": "2026-11-04-lot1",
+      "status": "contacté",
+      "scores": {
+        "site_web": 40,
+        "refonte": 0,
+        "ia_automatisation": 0
+      },
+      "confidence": {
+        "site_web": "moyenne",
+        "refonte": "moyenne",
+        "ia_automatisation": "moyenne"
+      },
+      "evidence_kinds": {
+        "sector_opportunity": 1
+      },
+      "signals_detectibles": [],
+      "tags": [
+        "faux_positif"
+      ],
+      "reasons": [
+        "Seule preuve de type sector_opportunity : déduction ou fait de presse locale, pas un besoin observé. Score 40/100 non justifié par une preuve d'opportunité."
+      ]
+    },
+    {
+      "company": "Carot's",
+      "lot": "2026-11-03-v3",
+      "status": "nouveau",
+      "scores": {
+        "site_web": 0,
+        "refonte": 0,
+        "ia_automatisation": 0
+      },
+      "confidence": {
+        "site_web": "moyenne",
+        "refonte": "moyenne",
+        "ia_automatisation": "moyenne"
+      },
+      "evidence_kinds": {
+        "sector_opportunity": 1
+      },
+      "signals_detectibles": [],
+      "tags": [
+        "a_approprier"
+      ],
+      "reasons": [
+        "Aucune adresse publique : suivi téléphonique possible, pas de brouillon."
+      ]
+    },
+    {
+      "company": "Matabiau Locker Hub",
+      "lot": "2026-11-03-v3",
+      "status": "nouveau",
+      "scores": {
+        "site_web": 0,
+        "refonte": 10,
+        "ia_automatisation": 0
+      },
+      "confidence": {
+        "site_web": "moyenne",
+        "refonte": "moyenne",
+        "ia_automatisation": "moyenne"
+      },
+      "evidence_kinds": {
+        "public_need": 1
+      },
+      "signals_detectibles": [],
+      "tags": [
+        "insuffisamment_qualifie"
+      ],
+      "reasons": [
+        "Besoin exprimé publiquement avec budget déclaré, mais porteur masqué : ni raison sociale ni adresse. Score actuel 10/100 alors qu'une lacune de site déduite en obtient 65."
+      ]
+    },
+    {
+      "company": "GELA",
+      "lot": "2026-11-03-v3",
+      "status": "nouveau",
+      "scores": {
+        "site_web": 0,
+        "refonte": 10,
+        "ia_automatisation": 0
+      },
+      "confidence": {
+        "site_web": "moyenne",
+        "refonte": "moyenne",
+        "ia_automatisation": "moyenne"
+      },
+      "evidence_kinds": {
+        "public_need": 1
+      },
+      "signals_detectibles": [],
+      "tags": [
+        "insuffisamment_qualifie"
+      ],
+      "reasons": [
+        "Besoin exprimé publiquement avec budget déclaré, mais porteur masqué : ni raison sociale ni adresse. Score actuel 10/100 alors qu'une lacune de site déduite en obtient 65."
+      ]
+    },
+    {
+      "company": "Restaurant traditionnel des quais de Quimper",
+      "lot": "2026-11-04-v4",
+      "status": "nouveau",
+      "scores": {
+        "site_web": 0,
+        "refonte": 10,
+        "ia_automatisation": 0
+      },
+      "confidence": {
+        "site_web": "moyenne",
+        "refonte": "moyenne",
+        "ia_automatisation": "moyenne"
+      },
+      "evidence_kinds": {
+        "public_need": 1
+      },
+      "signals_detectibles": [],
+      "tags": [
+        "insuffisamment_qualifie"
+      ],
+      "reasons": [
+        "Besoin exprimé publiquement avec budget déclaré, mais porteur masqué : ni raison sociale ni adresse. Score actuel 10/100 alors qu'une lacune de site déduite en obtient 65."
+      ]
+    },
+    {
+      "company": "Parfumerie indépendante de Paris",
+      "lot": "2026-11-04-v4",
+      "status": "nouveau",
+      "scores": {
+        "site_web": 0,
+        "refonte": 10,
+        "ia_automatisation": 0
+      },
+      "confidence": {
+        "site_web": "moyenne",
+        "refonte": "moyenne",
+        "ia_automatisation": "moyenne"
+      },
+      "evidence_kinds": {
+        "public_need": 1
+      },
+      "signals_detectibles": [],
+      "tags": [
+        "insuffisamment_qualifie"
+      ],
+      "reasons": [
+        "Besoin exprimé publiquement avec budget déclaré, mais porteur masqué : ni raison sociale ni adresse. Score actuel 10/100 alors qu'une lacune de site déduite en obtient 65."
+      ]
+    },
+    {
+      "company": "Organisme de formation — relance prospects",
+      "lot": "2026-11-04-v4",
+      "status": "nouveau",
+      "scores": {
+        "site_web": 0,
+        "refonte": 10,
+        "ia_automatisation": 0
+      },
+      "confidence": {
+        "site_web": "moyenne",
+        "refonte": "moyenne",
+        "ia_automatisation": "moyenne"
+      },
+      "evidence_kinds": {
+        "public_need": 1
+      },
+      "signals_detectibles": [],
+      "tags": [
+        "insuffisamment_qualifie"
+      ],
+      "reasons": [
+        "Besoin exprimé publiquement avec budget déclaré, mais porteur masqué : ni raison sociale ni adresse. Score actuel 10/100 alors qu'une lacune de site déduite en obtient 65."
+      ]
+    },
+    {
+      "company": "Activité de revente Vinted — outil IA",
+      "lot": "2026-11-04-v4",
+      "status": "nouveau",
+      "scores": {
+        "site_web": 0,
+        "refonte": 10,
+        "ia_automatisation": 0
+      },
+      "confidence": {
+        "site_web": "moyenne",
+        "refonte": "moyenne",
+        "ia_automatisation": "moyenne"
+      },
+      "evidence_kinds": {
+        "public_need": 1
+      },
+      "signals_detectibles": [],
+      "tags": [
+        "insuffisamment_qualifie"
+      ],
+      "reasons": [
+        "Besoin exprimé publiquement avec budget déclaré, mais porteur masqué : ni raison sociale ni adresse. Score actuel 10/100 alors qu'une lacune de site déduite en obtient 65."
+      ]
+    },
+    {
+      "company": "Fabricant de sacs à dos sur mesure",
+      "lot": "2026-11-04-lot1",
+      "status": "nouveau",
+      "scores": {
+        "site_web": 0,
+        "refonte": 10,
+        "ia_automatisation": 0
+      },
+      "confidence": {
+        "site_web": "moyenne",
+        "refonte": "moyenne",
+        "ia_automatisation": "moyenne"
+      },
+      "evidence_kinds": {
+        "public_need": 1
+      },
+      "signals_detectibles": [],
+      "tags": [
+        "insuffisamment_qualifie"
+      ],
+      "reasons": [
+        "Besoin exprimé publiquement avec budget déclaré, mais porteur masqué : ni raison sociale ni adresse. Score actuel 10/100 alors qu'une lacune de site déduite en obtient 65."
+      ]
+    },
+    {
+      "company": "Boutique e-commerce de produits haut de gamme",
+      "lot": "2026-11-04-lot1",
+      "status": "nouveau",
+      "scores": {
+        "site_web": 0,
+        "refonte": 10,
+        "ia_automatisation": 0
+      },
+      "confidence": {
+        "site_web": "moyenne",
+        "refonte": "moyenne",
+        "ia_automatisation": "moyenne"
+      },
+      "evidence_kinds": {
+        "public_need": 1
+      },
+      "signals_detectibles": [],
+      "tags": [
+        "insuffisamment_qualifie"
+      ],
+      "reasons": [
+        "Besoin exprimé publiquement avec budget déclaré, mais porteur masqué : ni raison sociale ni adresse. Score actuel 10/100 alors qu'une lacune de site déduite en obtient 65."
+      ]
+    },
+    {
+      "company": "Projet de boutique Shopify (dizaine de produits)",
+      "lot": "2026-11-04-lot1",
+      "status": "nouveau",
+      "scores": {
+        "site_web": 0,
+        "refonte": 10,
+        "ia_automatisation": 0
+      },
+      "confidence": {
+        "site_web": "moyenne",
+        "refonte": "moyenne",
+        "ia_automatisation": "moyenne"
+      },
+      "evidence_kinds": {
+        "public_need": 1
+      },
+      "signals_detectibles": [],
+      "tags": [
+        "insuffisamment_qualifie"
+      ],
+      "reasons": [
+        "Besoin exprimé publiquement avec budget déclaré, mais porteur masqué : ni raison sociale ni adresse. Score actuel 10/100 alors qu'une lacune de site déduite en obtient 65."
+      ]
+    },
+    {
+      "company": "Vente d'espaces publicitaires TV — outil IA",
+      "lot": "2026-11-04-lot1",
+      "status": "nouveau",
+      "scores": {
+        "site_web": 0,
+        "refonte": 10,
+        "ia_automatisation": 0
+      },
+      "confidence": {
+        "site_web": "moyenne",
+        "refonte": "moyenne",
+        "ia_automatisation": "moyenne"
+      },
+      "evidence_kinds": {
+        "public_need": 1
+      },
+      "signals_detectibles": [],
+      "tags": [
+        "insuffisamment_qualifie"
+      ],
+      "reasons": [
+        "Besoin exprimé publiquement avec budget déclaré, mais porteur masqué : ni raison sociale ni adresse. Score actuel 10/100 alors qu'une lacune de site déduite en obtient 65."
+      ]
+    },
+    {
+      "company": "Marque de soins — réponses aux commentaires",
+      "lot": "2026-11-04-lot1",
+      "status": "nouveau",
+      "scores": {
+        "site_web": 0,
+        "refonte": 10,
+        "ia_automatisation": 0
+      },
+      "confidence": {
+        "site_web": "moyenne",
+        "refonte": "moyenne",
+        "ia_automatisation": "moyenne"
+      },
+      "evidence_kinds": {
+        "public_need": 1
+      },
+      "signals_detectibles": [],
+      "tags": [
+        "insuffisamment_qualifie"
+      ],
+      "reasons": [
+        "Besoin exprimé publiquement avec budget déclaré, mais porteur masqué : ni raison sociale ni adresse. Score actuel 10/100 alors qu'une lacune de site déduite en obtient 65."
+      ]
+    },
+    {
+      "company": "Restaurant Les Santons",
+      "lot": "2026-11-04-lot1",
+      "status": "contacté",
+      "scores": {
+        "site_web": 5,
+        "refonte": 5,
+        "ia_automatisation": 26
+      },
+      "confidence": {
+        "site_web": "moyenne",
+        "refonte": "moyenne",
+        "ia_automatisation": "moyenne"
+      },
+      "evidence_kinds": {
+        "sector_opportunity": 1
+      },
+      "signals_detectibles": [
+        "devis_manuel"
+      ],
+      "tags": [
+        "faux_positif"
+      ],
+      "reasons": [
+        "Seule preuve de type sector_opportunity : déduction ou fait de presse locale, pas un besoin observé. Score 26/100 non justifié par une preuve d'opportunité."
+      ]
+    },
+    {
+      "company": "Centre Équestre de la Renarde",
+      "lot": "2026-11-04-lot2",
+      "status": "opposition",
+      "scores": {
+        "site_web": 5,
+        "refonte": 35,
+        "ia_automatisation": 0
+      },
+      "confidence": {
+        "site_web": "moyenne",
+        "refonte": "moyenne",
+        "ia_automatisation": "moyenne"
+      },
+      "evidence_kinds": {
+        "website_gap": 1,
+        "sector_opportunity": 1
+      },
+      "signals_detectibles": [],
+      "tags": [
+        "faux_negatif"
+      ],
+      "reasons": [
+        "Preuve d'un processus manuel bien réelle, mais typée website_gap : elle gonfle l'axe refonte (35) et laisse l'axe IA/automatisation à 0. Le besoin est de l'automatisation."
+      ]
+    },
+    {
+      "company": "iTelecom",
+      "lot": "2026-11-04-lot2",
+      "status": "contacté",
+      "scores": {
+        "site_web": 5,
+        "refonte": 15,
+        "ia_automatisation": 0
+      },
+      "confidence": {
+        "site_web": "moyenne",
+        "refonte": "moyenne",
+        "ia_automatisation": "moyenne"
+      },
+      "evidence_kinds": {
+        "public_need": 1
+      },
+      "signals_detectibles": [],
+      "tags": [
+        "insuffisamment_qualifie"
+      ],
+      "reasons": [
+        "Besoin exprimé publiquement avec budget déclaré, mais porteur masqué : ni raison sociale ni adresse. Score actuel 15/100 alors qu'une lacune de site déduite en obtient 65."
+      ]
+    },
+    {
+      "company": "Séverine Lesourd — Pension & Éducation Canine",
+      "lot": "2026-11-04-lot2",
+      "status": "rebond",
+      "scores": {
+        "site_web": 5,
+        "refonte": 35,
+        "ia_automatisation": 0
+      },
+      "confidence": {
+        "site_web": "moyenne",
+        "refonte": "moyenne",
+        "ia_automatisation": "moyenne"
+      },
+      "evidence_kinds": {
+        "website_gap": 1,
+        "sector_opportunity": 1
+      },
+      "signals_detectibles": [],
+      "tags": [
+        "a_approprier"
+      ],
+      "reasons": [
+        "Domaine de l'adresse non routable (nxdomain) : vérifier l'existence et les coordonnées avant toute décision."
+      ]
+    },
+    {
+      "company": "Base nautique de Picquigny",
+      "lot": "2026-11-04-lot3",
+      "status": "contacté",
+      "scores": {
+        "site_web": 5,
+        "refonte": 65,
+        "ia_automatisation": 26
+      },
+      "confidence": {
+        "site_web": "moyenne",
+        "refonte": "moyenne",
+        "ia_automatisation": "moyenne"
+      },
+      "evidence_kinds": {
+        "website_gap": 2
+      },
+      "signals_detectibles": [
+        "devis_manuel"
+      ],
+      "tags": [
+        "faux_negatif"
+      ],
+      "reasons": [
+        "Preuve d'un processus manuel bien réelle, mais typée website_gap : elle gonfle l'axe refonte (65) et laisse l'axe IA/automatisation à 26. Le besoin est de l'automatisation."
+      ]
+    },
+    {
+      "company": "Brasserie VDL",
+      "lot": "2026-11-04-lot3",
+      "status": "contacté",
+      "scores": {
+        "site_web": 5,
+        "refonte": 65,
+        "ia_automatisation": 0
+      },
+      "confidence": {
+        "site_web": "haute",
+        "refonte": "haute",
+        "ia_automatisation": "haute"
+      },
+      "evidence_kinds": {
+        "website_gap": 2
+      },
+      "signals_detectibles": [],
+      "tags": [
+        "faux_negatif"
+      ],
+      "reasons": [
+        "Preuve d'un processus manuel bien réelle, mais typée website_gap : elle gonfle l'axe refonte (65) et laisse l'axe IA/automatisation à 0. Le besoin est de l'automatisation."
+      ]
+    },
+    {
+      "company": "Dance Center",
+      "lot": "2026-11-04-lot3",
+      "status": "contacté",
+      "scores": {
+        "site_web": 5,
+        "refonte": 65,
+        "ia_automatisation": 0
+      },
+      "confidence": {
+        "site_web": "moyenne",
+        "refonte": "moyenne",
+        "ia_automatisation": "moyenne"
+      },
+      "evidence_kinds": {
+        "website_gap": 2
+      },
+      "signals_detectibles": [],
+      "tags": [
+        "faux_negatif"
+      ],
+      "reasons": [
+        "Preuve d'un processus manuel bien réelle, mais typée website_gap : elle gonfle l'axe refonte (65) et laisse l'axe IA/automatisation à 0. Le besoin est de l'automatisation."
+      ]
+    },
+    {
+      "company": "SAM31",
+      "lot": "2026-11-04-lot3",
+      "status": "contacté",
+      "scores": {
+        "site_web": 5,
+        "refonte": 65,
+        "ia_automatisation": 0
+      },
+      "confidence": {
+        "site_web": "haute",
+        "refonte": "haute",
+        "ia_automatisation": "haute"
+      },
+      "evidence_kinds": {
+        "website_gap": 2
+      },
+      "signals_detectibles": [],
+      "tags": [
+        "faux_negatif"
+      ],
+      "reasons": [
+        "Preuve d'un processus manuel bien réelle, mais typée website_gap : elle gonfle l'axe refonte (65) et laisse l'axe IA/automatisation à 0. Le besoin est de l'automatisation."
+      ]
+    },
+    {
+      "company": "La Bruchoise / Casa Blu",
+      "lot": "2026-11-04-lot3",
+      "status": "contacté",
+      "scores": {
+        "site_web": 5,
+        "refonte": 65,
+        "ia_automatisation": 0
+      },
+      "confidence": {
+        "site_web": "haute",
+        "refonte": "haute",
+        "ia_automatisation": "haute"
+      },
+      "evidence_kinds": {
+        "website_gap": 2
+      },
+      "signals_detectibles": [],
+      "tags": [
+        "faux_negatif"
+      ],
+      "reasons": [
+        "Preuve d'un processus manuel bien réelle, mais typée website_gap : elle gonfle l'axe refonte (65) et laisse l'axe IA/automatisation à 0. Le besoin est de l'automatisation."
+      ]
+    },
+    {
+      "company": "L'Occidentale",
+      "lot": "2026-11-04-lot3",
+      "status": "contacté",
+      "scores": {
+        "site_web": 5,
+        "refonte": 65,
+        "ia_automatisation": 26
+      },
+      "confidence": {
+        "site_web": "haute",
+        "refonte": "haute",
+        "ia_automatisation": "moyenne"
+      },
+      "evidence_kinds": {
+        "website_gap": 2
+      },
+      "signals_detectibles": [
+        "devis_manuel"
+      ],
+      "tags": [
+        "faux_negatif"
+      ],
+      "reasons": [
+        "Preuve d'un processus manuel bien réelle, mais typée website_gap : elle gonfle l'axe refonte (65) et laisse l'axe IA/automatisation à 26. Le besoin est de l'automatisation."
+      ]
+    },
+    {
+      "company": "Restaurant Le Canotier",
+      "lot": "2026-11-04-lot4",
+      "status": "contacté",
+      "scores": {
+        "site_web": 5,
+        "refonte": 65,
+        "ia_automatisation": 2
+      },
+      "confidence": {
+        "site_web": "moyenne",
+        "refonte": "moyenne",
+        "ia_automatisation": "moyenne"
+      },
+      "evidence_kinds": {
+        "website_gap": 2
+      },
+      "signals_detectibles": [
+        "reservation_telephone"
+      ],
+      "tags": [
+        "faux_negatif"
+      ],
+      "reasons": [
+        "Preuve d'un processus manuel bien réelle, mais typée website_gap : elle gonfle l'axe refonte (65) et laisse l'axe IA/automatisation à 2. Le besoin est de l'automatisation."
+      ]
+    },
+    {
+      "company": "Fromagerie et Baratte",
+      "lot": "2026-11-04-lot4",
+      "status": "contacté",
+      "scores": {
+        "site_web": 5,
+        "refonte": 65,
+        "ia_automatisation": 0
+      },
+      "confidence": {
+        "site_web": "moyenne",
+        "refonte": "moyenne",
+        "ia_automatisation": "moyenne"
+      },
+      "evidence_kinds": {
+        "website_gap": 2
+      },
+      "signals_detectibles": [],
+      "tags": [
+        "faux_negatif"
+      ],
+      "reasons": [
+        "Preuve d'un processus manuel bien réelle, mais typée website_gap : elle gonfle l'axe refonte (65) et laisse l'axe IA/automatisation à 0. Le besoin est de l'automatisation."
+      ]
+    },
+    {
+      "company": "Restaurant Goudale Orchies",
+      "lot": "2026-11-04-lot4",
+      "status": "contacté",
+      "scores": {
+        "site_web": 5,
+        "refonte": 65,
+        "ia_automatisation": 2
+      },
+      "confidence": {
+        "site_web": "moyenne",
+        "refonte": "moyenne",
+        "ia_automatisation": "moyenne"
+      },
+      "evidence_kinds": {
+        "website_gap": 2
+      },
+      "signals_detectibles": [
+        "reservation_telephone"
+      ],
+      "tags": [
+        "faux_negatif"
+      ],
+      "reasons": [
+        "Preuve d'un processus manuel bien réelle, mais typée website_gap : elle gonfle l'axe refonte (65) et laisse l'axe IA/automatisation à 2. Le besoin est de l'automatisation."
+      ]
+    },
+    {
+      "company": "Celtuce Traiteur",
+      "lot": "2026-11-06-lot6",
+      "status": "contacté",
+      "scores": {
+        "site_web": 5,
+        "refonte": 71,
+        "ia_automatisation": 12
+      },
+      "confidence": {
+        "site_web": "moyenne",
+        "refonte": "moyenne",
+        "ia_automatisation": "moyenne"
+      },
+      "evidence_kinds": {
+        "processus_manuel": 1,
+        "parcours_incomplet": 1
+      },
+      "signals_detectibles": [],
+      "tags": [
+        "faux_negatif"
+      ],
+      "reasons": [
+        "Preuve d'un processus manuel bien réelle, mais typée website_gap : elle gonfle l'axe refonte (71) et laisse l'axe IA/automatisation à 12. Le besoin est de l'automatisation."
+      ]
+    },
+    {
+      "company": "SAS Maire",
+      "lot": "2026-11-06-lot6",
+      "status": "a_approfondir",
+      "scores": {
+        "site_web": 5,
+        "refonte": 100,
+        "ia_automatisation": 26
+      },
+      "confidence": {
+        "site_web": "moyenne",
+        "refonte": "moyenne",
+        "ia_automatisation": "moyenne"
+      },
+      "evidence_kinds": {
+        "parcours_incomplet": 1,
+        "website_gap": 1
+      },
+      "signals_detectibles": [],
+      "tags": [
+        "a_approprier",
+        "faux_negatif"
+      ],
+      "reasons": [
+        "Preuve d'un processus manuel bien réelle, mais typée website_gap : elle gonfle l'axe refonte (100) et laisse l'axe IA/automatisation à 26. Le besoin est de l'automatisation.",
+        "Domaine de l'adresse non routable (nxdomain) : vérifier l'existence et les coordonnées avant toute décision."
+      ]
+    },
+    {
+      "company": "Beaujolais Réception",
+      "lot": "campagne-2026-11-06-lot8",
+      "status": "nouveau",
+      "scores": {
+        "site_web": 5,
+        "refonte": 79,
+        "ia_automatisation": 38
+      },
+      "confidence": {
+        "site_web": "haute",
+        "refonte": "moyenne",
+        "ia_automatisation": "moyenne"
+      },
+      "evidence_kinds": {
+        "processus_manuel": 2,
+        "parcours_incomplet": 1,
+        "public_need": 1
+      },
+      "signals_detectibles": [
+        "devis_manuel",
+        "tri_manuel"
+      ],
+      "tags": [
+        "a_approprier",
+        "preuve_mal_typee"
+      ],
+      "reasons": [
+        "Aucune adresse publique : suivi téléphonique possible, pas de brouillon.",
+        "Une identité de dirigeant est enregistrée comme public_need : c'est un signal_confiance, pas un besoin exprimé. Fausses le compte des besoins exprimés."
+      ]
+    }
+  ],
+  "already_equipped_correctly_rejected": [
+    {
+      "company": "Styl'escalier",
+      "domain": "",
+      "reason": "Configurateur et demande de devis en ligne déjà en place : déjà outillé."
+    },
+    {
+      "company": "Top Cheval",
+      "domain": "",
+      "reason": "Boutique en ligne déjà opérationnelle, aucun besoin de captation observé."
+    },
+    {
+      "company": "Cavaland",
+      "domain": "",
+      "reason": "Structure équestre avec réservation déjà en place."
+    },
+    {
+      "company": "L'Artisan Affûteur",
+      "domain": "lartisanaffuteur.fr",
+      "reason": "Déjà très outillé : réservation Calendly avec disponibilités en temps réel, formulaire de tournée structuré, bon d'affûtage postal en ligne, tarifs publiés. Aucune opportunité défendable."
+    },
+    {
+      "company": "Livio Baldelli — Luthier à domicile",
+      "domain": "luthier-domicile.fr",
+      "reason": "Réservation et paiement en ligne déjà en place sur l'activité à domicile ; écarté au profit de Cordes et Âme, même secteur et même département."
+    },
+    {
+      "company": "Azur Toiture Rénovation",
+      "domain": "",
+      "reason": "Longues pages de contenu marketing, parcours de devis déjà en place."
+    },
+    {
+      "company": "Dose Paris",
+      "domain": "",
+      "reason": "Formulaire de compte pro structuré et plus de 200 clients professionnels : parcours B2B déjà en place."
+    },
+    {
+      "company": "Caféophil",
+      "domain": "cafeophil.com",
+      "reason": "Compte pro ouvert sur simple contact, mais boutique et paiement déjà en place ; angle trop proche de fiches déjà contactées."
+    }
+  ],
+  "recoverable_rejections": [
+    {
+      "company": "O Lames Déchues",
+      "domain": "olamesdechues.fr",
+      "reason": "Site en chantier (gabarit non rempli « [ou section Planning] », logos partenaires génériques) mais aucune adresse e-mail vérifiable sur les pages consultées : pas de brouillon possible."
+    },
+    {
+      "company": "Zicplace",
+      "domain": "zicplace.fr",
+      "reason": "Parcours et tarifs très complets ; adresse e-mail non vérifiée sur les pages consultées : pas de brouillon possible en l'état."
+    }
+  ]
+}

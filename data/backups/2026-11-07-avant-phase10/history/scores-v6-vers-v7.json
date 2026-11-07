@@ -1,0 +1,1262 @@
+{
+  "migrated_at": "2026-11-06T16:18:20+00:00",
+  "engine": "v7",
+  "reason": "scores fondés sur le contenu des processus observés, plus sur le type de preuve ; contre-signaux de maturité déduits ; confiance et manques exposés",
+  "count": 66,
+  "changes": [
+    {
+      "company": "R Premium",
+      "email": "contact@renovationpremium.com",
+      "before_v6": {
+        "site_web": null,
+        "refonte": null,
+        "ia_automatisation": null
+      },
+      "after_v7": {
+        "site_web": 5,
+        "refonte": 25,
+        "ia_automatisation": 0
+      },
+      "confidence": {
+        "site_web": "moyenne",
+        "refonte": "moyenne",
+        "ia_automatisation": "moyenne"
+      }
+    },
+    {
+      "company": "Secteur 72",
+      "email": "secteur72fr@gmail.com",
+      "before_v6": {
+        "site_web": null,
+        "refonte": null,
+        "ia_automatisation": null
+      },
+      "after_v7": {
+        "site_web": 5,
+        "refonte": 25,
+        "ia_automatisation": 0
+      },
+      "confidence": {
+        "site_web": "haute",
+        "refonte": "moyenne",
+        "ia_automatisation": "haute"
+      }
+    },
+    {
+      "company": "BSP Auto",
+      "email": "support@bsp-auto.com",
+      "before_v6": {
+        "site_web": null,
+        "refonte": null,
+        "ia_automatisation": null
+      },
+      "after_v7": {
+        "site_web": 5,
+        "refonte": 15,
+        "ia_automatisation": 0
+      },
+      "confidence": {
+        "site_web": "moyenne",
+        "refonte": "moyenne",
+        "ia_automatisation": "moyenne"
+      }
+    },
+    {
+      "company": "CERF Athletic Training",
+      "email": "contact@cerf-athletic-training.fr",
+      "before_v6": {
+        "site_web": null,
+        "refonte": null,
+        "ia_automatisation": null
+      },
+      "after_v7": {
+        "site_web": 5,
+        "refonte": 5,
+        "ia_automatisation": 0
+      },
+      "confidence": {
+        "site_web": "moyenne",
+        "refonte": "moyenne",
+        "ia_automatisation": "moyenne"
+      }
+    },
+    {
+      "company": "Charme de l'Hêtre",
+      "email": "charmedelhetre50@gmail.com",
+      "before_v6": {
+        "site_web": null,
+        "refonte": null,
+        "ia_automatisation": null
+      },
+      "after_v7": {
+        "site_web": 40,
+        "refonte": 0,
+        "ia_automatisation": 0
+      },
+      "confidence": {
+        "site_web": "moyenne",
+        "refonte": "moyenne",
+        "ia_automatisation": "moyenne"
+      }
+    },
+    {
+      "company": "Carot's",
+      "email": "",
+      "before_v6": {
+        "site_web": null,
+        "refonte": null,
+        "ia_automatisation": null
+      },
+      "after_v7": {
+        "site_web": 0,
+        "refonte": 0,
+        "ia_automatisation": 0
+      },
+      "confidence": {
+        "site_web": "moyenne",
+        "refonte": "moyenne",
+        "ia_automatisation": "moyenne"
+      }
+    },
+    {
+      "company": "Matabiau Locker Hub",
+      "email": "",
+      "before_v6": {
+        "site_web": null,
+        "refonte": null,
+        "ia_automatisation": null
+      },
+      "after_v7": {
+        "site_web": 0,
+        "refonte": 10,
+        "ia_automatisation": 0
+      },
+      "confidence": {
+        "site_web": "moyenne",
+        "refonte": "moyenne",
+        "ia_automatisation": "moyenne"
+      }
+    },
+    {
+      "company": "GELA",
+      "email": "",
+      "before_v6": {
+        "site_web": null,
+        "refonte": null,
+        "ia_automatisation": null
+      },
+      "after_v7": {
+        "site_web": 0,
+        "refonte": 10,
+        "ia_automatisation": 0
+      },
+      "confidence": {
+        "site_web": "moyenne",
+        "refonte": "moyenne",
+        "ia_automatisation": "moyenne"
+      }
+    },
+    {
+      "company": "Restaurant traditionnel des quais de Quimper",
+      "email": "",
+      "before_v6": {
+        "site_web": null,
+        "refonte": null,
+        "ia_automatisation": null
+      },
+      "after_v7": {
+        "site_web": 0,
+        "refonte": 10,
+        "ia_automatisation": 0
+      },
+      "confidence": {
+        "site_web": "moyenne",
+        "refonte": "moyenne",
+        "ia_automatisation": "moyenne"
+      }
+    },
+    {
+      "company": "Parfumerie indépendante de Paris",
+      "email": "",
+      "before_v6": {
+        "site_web": null,
+        "refonte": null,
+        "ia_automatisation": null
+      },
+      "after_v7": {
+        "site_web": 0,
+        "refonte": 10,
+        "ia_automatisation": 0
+      },
+      "confidence": {
+        "site_web": "moyenne",
+        "refonte": "moyenne",
+        "ia_automatisation": "moyenne"
+      }
+    },
+    {
+      "company": "Organisme de formation — relance prospects",
+      "email": "",
+      "before_v6": {
+        "site_web": null,
+        "refonte": null,
+        "ia_automatisation": null
+      },
+      "after_v7": {
+        "site_web": 0,
+        "refonte": 10,
+        "ia_automatisation": 0
+      },
+      "confidence": {
+        "site_web": "moyenne",
+        "refonte": "moyenne",
+        "ia_automatisation": "moyenne"
+      }
+    },
+    {
+      "company": "Activité de revente Vinted — outil IA",
+      "email": "",
+      "before_v6": {
+        "site_web": null,
+        "refonte": null,
+        "ia_automatisation": null
+      },
+      "after_v7": {
+        "site_web": 0,
+        "refonte": 10,
+        "ia_automatisation": 0
+      },
+      "confidence": {
+        "site_web": "moyenne",
+        "refonte": "moyenne",
+        "ia_automatisation": "moyenne"
+      }
+    },
+    {
+      "company": "Camping Mer et Camargue — Restaurant Le Pano",
+      "email": "campingmeretcamargue@orange.fr",
+      "before_v6": {
+        "site_web": null,
+        "refonte": null,
+        "ia_automatisation": null
+      },
+      "after_v7": {
+        "site_web": 5,
+        "refonte": 35,
+        "ia_automatisation": 0
+      },
+      "confidence": {
+        "site_web": "moyenne",
+        "refonte": "moyenne",
+        "ia_automatisation": "moyenne"
+      }
+    },
+    {
+      "company": "Fabricant de sacs à dos sur mesure",
+      "email": "",
+      "before_v6": {
+        "site_web": null,
+        "refonte": null,
+        "ia_automatisation": null
+      },
+      "after_v7": {
+        "site_web": 0,
+        "refonte": 10,
+        "ia_automatisation": 0
+      },
+      "confidence": {
+        "site_web": "moyenne",
+        "refonte": "moyenne",
+        "ia_automatisation": "moyenne"
+      }
+    },
+    {
+      "company": "Boutique e-commerce de produits haut de gamme",
+      "email": "",
+      "before_v6": {
+        "site_web": null,
+        "refonte": null,
+        "ia_automatisation": null
+      },
+      "after_v7": {
+        "site_web": 0,
+        "refonte": 10,
+        "ia_automatisation": 0
+      },
+      "confidence": {
+        "site_web": "moyenne",
+        "refonte": "moyenne",
+        "ia_automatisation": "moyenne"
+      }
+    },
+    {
+      "company": "Projet de boutique Shopify (dizaine de produits)",
+      "email": "",
+      "before_v6": {
+        "site_web": null,
+        "refonte": null,
+        "ia_automatisation": null
+      },
+      "after_v7": {
+        "site_web": 0,
+        "refonte": 10,
+        "ia_automatisation": 0
+      },
+      "confidence": {
+        "site_web": "moyenne",
+        "refonte": "moyenne",
+        "ia_automatisation": "moyenne"
+      }
+    },
+    {
+      "company": "Vente d'espaces publicitaires TV — outil IA",
+      "email": "",
+      "before_v6": {
+        "site_web": null,
+        "refonte": null,
+        "ia_automatisation": null
+      },
+      "after_v7": {
+        "site_web": 0,
+        "refonte": 10,
+        "ia_automatisation": 0
+      },
+      "confidence": {
+        "site_web": "moyenne",
+        "refonte": "moyenne",
+        "ia_automatisation": "moyenne"
+      }
+    },
+    {
+      "company": "Marque de soins — réponses aux commentaires",
+      "email": "",
+      "before_v6": {
+        "site_web": null,
+        "refonte": null,
+        "ia_automatisation": null
+      },
+      "after_v7": {
+        "site_web": 0,
+        "refonte": 10,
+        "ia_automatisation": 0
+      },
+      "confidence": {
+        "site_web": "moyenne",
+        "refonte": "moyenne",
+        "ia_automatisation": "moyenne"
+      }
+    },
+    {
+      "company": "Camping Le Galet",
+      "email": "reception@camping-galet.com",
+      "before_v6": {
+        "site_web": null,
+        "refonte": null,
+        "ia_automatisation": null
+      },
+      "after_v7": {
+        "site_web": 5,
+        "refonte": 35,
+        "ia_automatisation": 0
+      },
+      "confidence": {
+        "site_web": "haute",
+        "refonte": "moyenne",
+        "ia_automatisation": "haute"
+      }
+    },
+    {
+      "company": "Restaurant La Renardière",
+      "email": "larenardieredelyna@gmail.com",
+      "before_v6": {
+        "site_web": null,
+        "refonte": null,
+        "ia_automatisation": null
+      },
+      "after_v7": {
+        "site_web": 5,
+        "refonte": 35,
+        "ia_automatisation": 40
+      },
+      "confidence": {
+        "site_web": "moyenne",
+        "refonte": "moyenne",
+        "ia_automatisation": "moyenne"
+      }
+    },
+    {
+      "company": "Restaurant Les Santons",
+      "email": "lessantons.laturbie@gmail.com",
+      "before_v6": {
+        "site_web": null,
+        "refonte": null,
+        "ia_automatisation": null
+      },
+      "after_v7": {
+        "site_web": 5,
+        "refonte": 5,
+        "ia_automatisation": 26
+      },
+      "confidence": {
+        "site_web": "moyenne",
+        "refonte": "moyenne",
+        "ia_automatisation": "moyenne"
+      }
+    },
+    {
+      "company": "Centre Équestre de la Renarde",
+      "email": "celarenarde@gmail.com",
+      "before_v6": {
+        "site_web": null,
+        "refonte": null,
+        "ia_automatisation": null
+      },
+      "after_v7": {
+        "site_web": 5,
+        "refonte": 35,
+        "ia_automatisation": 0
+      },
+      "confidence": {
+        "site_web": "moyenne",
+        "refonte": "moyenne",
+        "ia_automatisation": "moyenne"
+      }
+    },
+    {
+      "company": "Domaine Roche des Bancs",
+      "email": "contact@rochedesbancs.com",
+      "before_v6": {
+        "site_web": null,
+        "refonte": null,
+        "ia_automatisation": null
+      },
+      "after_v7": {
+        "site_web": 5,
+        "refonte": 35,
+        "ia_automatisation": 0
+      },
+      "confidence": {
+        "site_web": "moyenne",
+        "refonte": "moyenne",
+        "ia_automatisation": "moyenne"
+      }
+    },
+    {
+      "company": "Domaine Courbin Héritage",
+      "email": "courbin-et-fils@orange.fr",
+      "before_v6": {
+        "site_web": null,
+        "refonte": null,
+        "ia_automatisation": null
+      },
+      "after_v7": {
+        "site_web": 5,
+        "refonte": 35,
+        "ia_automatisation": 39
+      },
+      "confidence": {
+        "site_web": "haute",
+        "refonte": "moyenne",
+        "ia_automatisation": "haute"
+      }
+    },
+    {
+      "company": "iTelecom",
+      "email": "contact@itelecom.pro",
+      "before_v6": {
+        "site_web": null,
+        "refonte": null,
+        "ia_automatisation": null
+      },
+      "after_v7": {
+        "site_web": 5,
+        "refonte": 15,
+        "ia_automatisation": 0
+      },
+      "confidence": {
+        "site_web": "moyenne",
+        "refonte": "moyenne",
+        "ia_automatisation": "moyenne"
+      }
+    },
+    {
+      "company": "K6 Pension",
+      "email": "info@myk6.fr",
+      "before_v6": {
+        "site_web": null,
+        "refonte": null,
+        "ia_automatisation": null
+      },
+      "after_v7": {
+        "site_web": 5,
+        "refonte": 35,
+        "ia_automatisation": 0
+      },
+      "confidence": {
+        "site_web": "moyenne",
+        "refonte": "moyenne",
+        "ia_automatisation": "moyenne"
+      }
+    },
+    {
+      "company": "Séverine Lesourd — Pension & Éducation Canine",
+      "email": "contact@severine-lesourd.com",
+      "before_v6": {
+        "site_web": null,
+        "refonte": null,
+        "ia_automatisation": null
+      },
+      "after_v7": {
+        "site_web": 5,
+        "refonte": 35,
+        "ia_automatisation": 0
+      },
+      "confidence": {
+        "site_web": "moyenne",
+        "refonte": "moyenne",
+        "ia_automatisation": "moyenne"
+      }
+    },
+    {
+      "company": "Centre Cynophile de Ruy",
+      "email": "Jeremiepages22@gmail.com",
+      "before_v6": {
+        "site_web": null,
+        "refonte": null,
+        "ia_automatisation": null
+      },
+      "after_v7": {
+        "site_web": 5,
+        "refonte": 35,
+        "ia_automatisation": 0
+      },
+      "confidence": {
+        "site_web": "haute",
+        "refonte": "moyenne",
+        "ia_automatisation": "haute"
+      }
+    },
+    {
+      "company": "Base nautique de Picquigny",
+      "email": "canoesomme@gmail.com",
+      "before_v6": {
+        "site_web": null,
+        "refonte": null,
+        "ia_automatisation": null
+      },
+      "after_v7": {
+        "site_web": 5,
+        "refonte": 65,
+        "ia_automatisation": 26
+      },
+      "confidence": {
+        "site_web": "moyenne",
+        "refonte": "moyenne",
+        "ia_automatisation": "moyenne"
+      }
+    },
+    {
+      "company": "Brasserie VDL",
+      "email": "brasserievdl74@gmail.com",
+      "before_v6": {
+        "site_web": null,
+        "refonte": null,
+        "ia_automatisation": null
+      },
+      "after_v7": {
+        "site_web": 5,
+        "refonte": 65,
+        "ia_automatisation": 0
+      },
+      "confidence": {
+        "site_web": "haute",
+        "refonte": "haute",
+        "ia_automatisation": "haute"
+      }
+    },
+    {
+      "company": "Dance Center",
+      "email": "contact@dance-center.fr",
+      "before_v6": {
+        "site_web": null,
+        "refonte": null,
+        "ia_automatisation": null
+      },
+      "after_v7": {
+        "site_web": 5,
+        "refonte": 65,
+        "ia_automatisation": 0
+      },
+      "confidence": {
+        "site_web": "moyenne",
+        "refonte": "moyenne",
+        "ia_automatisation": "moyenne"
+      }
+    },
+    {
+      "company": "SAM31",
+      "email": "contact@sam31.fr",
+      "before_v6": {
+        "site_web": null,
+        "refonte": null,
+        "ia_automatisation": null
+      },
+      "after_v7": {
+        "site_web": 5,
+        "refonte": 65,
+        "ia_automatisation": 0
+      },
+      "confidence": {
+        "site_web": "haute",
+        "refonte": "haute",
+        "ia_automatisation": "haute"
+      }
+    },
+    {
+      "company": "La Bruchoise / Casa Blu",
+      "email": "cedmu@yahoo.fr",
+      "before_v6": {
+        "site_web": null,
+        "refonte": null,
+        "ia_automatisation": null
+      },
+      "after_v7": {
+        "site_web": 5,
+        "refonte": 65,
+        "ia_automatisation": 0
+      },
+      "confidence": {
+        "site_web": "haute",
+        "refonte": "haute",
+        "ia_automatisation": "haute"
+      }
+    },
+    {
+      "company": "L'Occidentale",
+      "email": "directionloccidentale@gmail.com",
+      "before_v6": {
+        "site_web": null,
+        "refonte": null,
+        "ia_automatisation": null
+      },
+      "after_v7": {
+        "site_web": 5,
+        "refonte": 65,
+        "ia_automatisation": 26
+      },
+      "confidence": {
+        "site_web": "haute",
+        "refonte": "haute",
+        "ia_automatisation": "moyenne"
+      }
+    },
+    {
+      "company": "Restaurant Le Canotier",
+      "email": "contact@restaurant-lecanotier.fr",
+      "before_v6": {
+        "site_web": null,
+        "refonte": null,
+        "ia_automatisation": null
+      },
+      "after_v7": {
+        "site_web": 5,
+        "refonte": 65,
+        "ia_automatisation": 2
+      },
+      "confidence": {
+        "site_web": "moyenne",
+        "refonte": "moyenne",
+        "ia_automatisation": "moyenne"
+      }
+    },
+    {
+      "company": "Boucherie Florian",
+      "email": "contact@boucherie-florian.fr",
+      "before_v6": {
+        "site_web": null,
+        "refonte": null,
+        "ia_automatisation": null
+      },
+      "after_v7": {
+        "site_web": 5,
+        "refonte": 65,
+        "ia_automatisation": 0
+      },
+      "confidence": {
+        "site_web": "moyenne",
+        "refonte": "moyenne",
+        "ia_automatisation": "moyenne"
+      }
+    },
+    {
+      "company": "La Fromagerie Les 2 Alpes",
+      "email": "labergere35@gmail.com",
+      "before_v6": {
+        "site_web": null,
+        "refonte": null,
+        "ia_automatisation": null
+      },
+      "after_v7": {
+        "site_web": 5,
+        "refonte": 65,
+        "ia_automatisation": 0
+      },
+      "confidence": {
+        "site_web": "haute",
+        "refonte": "haute",
+        "ia_automatisation": "haute"
+      }
+    },
+    {
+      "company": "Fromagerie et Baratte",
+      "email": "brigitte@fromagerieetbaratte.fr",
+      "before_v6": {
+        "site_web": null,
+        "refonte": null,
+        "ia_automatisation": null
+      },
+      "after_v7": {
+        "site_web": 5,
+        "refonte": 65,
+        "ia_automatisation": 0
+      },
+      "confidence": {
+        "site_web": "moyenne",
+        "refonte": "moyenne",
+        "ia_automatisation": "moyenne"
+      }
+    },
+    {
+      "company": "La Chocolatisserie",
+      "email": "contact@lachocolatisserie.com",
+      "before_v6": {
+        "site_web": null,
+        "refonte": null,
+        "ia_automatisation": null
+      },
+      "after_v7": {
+        "site_web": 5,
+        "refonte": 65,
+        "ia_automatisation": 0
+      },
+      "confidence": {
+        "site_web": "moyenne",
+        "refonte": "moyenne",
+        "ia_automatisation": "moyenne"
+      }
+    },
+    {
+      "company": "Matproloc",
+      "email": "contact@matproloc.fr",
+      "before_v6": {
+        "site_web": null,
+        "refonte": null,
+        "ia_automatisation": null
+      },
+      "after_v7": {
+        "site_web": 5,
+        "refonte": 65,
+        "ia_automatisation": 0
+      },
+      "confidence": {
+        "site_web": "haute",
+        "refonte": "haute",
+        "ia_automatisation": "haute"
+      }
+    },
+    {
+      "company": "Allo'cation",
+      "email": "allo-cation@wanadoo.fr",
+      "before_v6": {
+        "site_web": null,
+        "refonte": null,
+        "ia_automatisation": null
+      },
+      "after_v7": {
+        "site_web": 5,
+        "refonte": 65,
+        "ia_automatisation": 0
+      },
+      "confidence": {
+        "site_web": "moyenne",
+        "refonte": "moyenne",
+        "ia_automatisation": "moyenne"
+      }
+    },
+    {
+      "company": "Restaurant Goudale Orchies",
+      "email": "goudalerestaurant@gmail.com",
+      "before_v6": {
+        "site_web": null,
+        "refonte": null,
+        "ia_automatisation": null
+      },
+      "after_v7": {
+        "site_web": 5,
+        "refonte": 65,
+        "ia_automatisation": 2
+      },
+      "confidence": {
+        "site_web": "moyenne",
+        "refonte": "moyenne",
+        "ia_automatisation": "moyenne"
+      }
+    },
+    {
+      "company": "ATOMER",
+      "email": "contact@atomer.fr",
+      "before_v6": {
+        "site_web": 5,
+        "refonte": 55,
+        "ia_automatisation": 100
+      },
+      "after_v7": {
+        "site_web": 5,
+        "refonte": 55,
+        "ia_automatisation": 28
+      },
+      "confidence": {
+        "site_web": "haute",
+        "refonte": "moyenne",
+        "ia_automatisation": "moyenne"
+      }
+    },
+    {
+      "company": "NETTOYAGE INDUSTRIEL",
+      "email": "nettoyage.industriel@wanadoo.fr",
+      "before_v6": {
+        "site_web": 5,
+        "refonte": 85,
+        "ia_automatisation": 40
+      },
+      "after_v7": {
+        "site_web": 5,
+        "refonte": 85,
+        "ia_automatisation": 0
+      },
+      "confidence": {
+        "site_web": "haute",
+        "refonte": "haute",
+        "ia_automatisation": "haute"
+      }
+    },
+    {
+      "company": "Vignerons et Caviste",
+      "email": "vigneronsetcaviste@gmail.com",
+      "before_v6": {
+        "site_web": 5,
+        "refonte": 75,
+        "ia_automatisation": 30
+      },
+      "after_v7": {
+        "site_web": 5,
+        "refonte": 75,
+        "ia_automatisation": 0
+      },
+      "confidence": {
+        "site_web": "moyenne",
+        "refonte": "moyenne",
+        "ia_automatisation": "moyenne"
+      }
+    },
+    {
+      "company": "La Caviste",
+      "email": "boutique@lacaviste.fr",
+      "before_v6": {
+        "site_web": 5,
+        "refonte": 75,
+        "ia_automatisation": 30
+      },
+      "after_v7": {
+        "site_web": 5,
+        "refonte": 75,
+        "ia_automatisation": 0
+      },
+      "confidence": {
+        "site_web": "haute",
+        "refonte": "haute",
+        "ia_automatisation": "moyenne"
+      }
+    },
+    {
+      "company": "ALPHA MECANIQUE",
+      "email": "contact@alphamecanique.fr",
+      "before_v6": {
+        "site_web": 5,
+        "refonte": 5,
+        "ia_automatisation": 100
+      },
+      "after_v7": {
+        "site_web": 5,
+        "refonte": 5,
+        "ia_automatisation": 60
+      },
+      "confidence": {
+        "site_web": "moyenne",
+        "refonte": "moyenne",
+        "ia_automatisation": "moyenne"
+      }
+    },
+    {
+      "company": "SARL Ambulances Sainte-Marie",
+      "email": "ambulancestemarie@gmail.com",
+      "before_v6": {
+        "site_web": 5,
+        "refonte": 35,
+        "ia_automatisation": 70
+      },
+      "after_v7": {
+        "site_web": 5,
+        "refonte": 35,
+        "ia_automatisation": 12
+      },
+      "confidence": {
+        "site_web": "moyenne",
+        "refonte": "moyenne",
+        "ia_automatisation": "moyenne"
+      }
+    },
+    {
+      "company": "Blanchisserie des 3 Régions (B3R)",
+      "email": "contact@blanchisseriedes3regions.fr",
+      "before_v6": {
+        "site_web": 90,
+        "refonte": 35,
+        "ia_automatisation": 40
+      },
+      "after_v7": {
+        "site_web": 90,
+        "refonte": 35,
+        "ia_automatisation": 0
+      },
+      "confidence": {
+        "site_web": "moyenne",
+        "refonte": "haute",
+        "ia_automatisation": "haute"
+      }
+    },
+    {
+      "company": "Celtuce Traiteur",
+      "email": "contact@celtuce-traiteur.com",
+      "before_v6": {
+        "site_web": 5,
+        "refonte": 45,
+        "ia_automatisation": 90
+      },
+      "after_v7": {
+        "site_web": 5,
+        "refonte": 71,
+        "ia_automatisation": 12
+      },
+      "confidence": {
+        "site_web": "moyenne",
+        "refonte": "moyenne",
+        "ia_automatisation": "moyenne"
+      }
+    },
+    {
+      "company": "Mamie Cuisine Traiteur",
+      "email": "contact@mamiecuisinetraiteur.fr",
+      "before_v6": {
+        "site_web": 5,
+        "refonte": 45,
+        "ia_automatisation": 90
+      },
+      "after_v7": {
+        "site_web": 5,
+        "refonte": 45,
+        "ia_automatisation": 12
+      },
+      "confidence": {
+        "site_web": "moyenne",
+        "refonte": "moyenne",
+        "ia_automatisation": "moyenne"
+      }
+    },
+    {
+      "company": "Baptiste Break Pâtisserie Traiteur",
+      "email": "contact@baptiste-break.fr",
+      "before_v6": {
+        "site_web": 5,
+        "refonte": 5,
+        "ia_automatisation": 100
+      },
+      "after_v7": {
+        "site_web": 5,
+        "refonte": 5,
+        "ia_automatisation": 12
+      },
+      "confidence": {
+        "site_web": "haute",
+        "refonte": "haute",
+        "ia_automatisation": "haute"
+      }
+    },
+    {
+      "company": "SARL Joly Location",
+      "email": "info-location@joly-location.fr",
+      "before_v6": {
+        "site_web": 90,
+        "refonte": 25,
+        "ia_automatisation": 70
+      },
+      "after_v7": {
+        "site_web": 90,
+        "refonte": 25,
+        "ia_automatisation": 58
+      },
+      "confidence": {
+        "site_web": "moyenne",
+        "refonte": "moyenne",
+        "ia_automatisation": "haute"
+      }
+    },
+    {
+      "company": "SARL Uzès Location",
+      "email": "uzeslocation.30700@gmail.com",
+      "before_v6": {
+        "site_web": 5,
+        "refonte": 75,
+        "ia_automatisation": 30
+      },
+      "after_v7": {
+        "site_web": 5,
+        "refonte": 75,
+        "ia_automatisation": 0
+      },
+      "confidence": {
+        "site_web": "haute",
+        "refonte": "haute",
+        "ia_automatisation": "moyenne"
+      }
+    },
+    {
+      "company": "SAS Maire",
+      "email": "info@sas-maire.fr",
+      "before_v6": {
+        "site_web": 5,
+        "refonte": 75,
+        "ia_automatisation": 30
+      },
+      "after_v7": {
+        "site_web": 5,
+        "refonte": 100,
+        "ia_automatisation": 26
+      },
+      "confidence": {
+        "site_web": "moyenne",
+        "refonte": "moyenne",
+        "ia_automatisation": "moyenne"
+      }
+    },
+    {
+      "company": "Techniques Piscine",
+      "email": "contact@techniquespiscine.fr",
+      "before_v6": {
+        "site_web": 5,
+        "refonte": 75,
+        "ia_automatisation": 30
+      },
+      "after_v7": {
+        "site_web": 5,
+        "refonte": 75,
+        "ia_automatisation": 34
+      },
+      "confidence": {
+        "site_web": "moyenne",
+        "refonte": "moyenne",
+        "ia_automatisation": "moyenne"
+      }
+    },
+    {
+      "company": "France-Hypnose-Formation / France-PNL",
+      "email": "contact@france-pnl.com",
+      "before_v6": {
+        "site_web": 5,
+        "refonte": 45,
+        "ia_automatisation": 100
+      },
+      "after_v7": {
+        "site_web": 5,
+        "refonte": 45,
+        "ia_automatisation": 27
+      },
+      "confidence": {
+        "site_web": "moyenne",
+        "refonte": "moyenne",
+        "ia_automatisation": "moyenne"
+      }
+    },
+    {
+      "company": "Atoutransport",
+      "email": "demenagement@atoutransport.com",
+      "before_v6": {
+        "site_web": 5,
+        "refonte": 45,
+        "ia_automatisation": 90
+      },
+      "after_v7": {
+        "site_web": 5,
+        "refonte": 45,
+        "ia_automatisation": 48
+      },
+      "confidence": {
+        "site_web": "moyenne",
+        "refonte": "moyenne",
+        "ia_automatisation": "moyenne"
+      }
+    },
+    {
+      "company": "Bonbon Foliz",
+      "email": "contact@bonbon-foliz.com",
+      "before_v6": {
+        "site_web": 5,
+        "refonte": 5,
+        "ia_automatisation": 100
+      },
+      "after_v7": {
+        "site_web": 5,
+        "refonte": 5,
+        "ia_automatisation": 54
+      },
+      "confidence": {
+        "site_web": "moyenne",
+        "refonte": "moyenne",
+        "ia_automatisation": "moyenne"
+      }
+    },
+    {
+      "company": "L'Ô de Claise",
+      "email": "reservation@odeclaise.fr",
+      "before_v6": {
+        "site_web": 5,
+        "refonte": 75,
+        "ia_automatisation": 30
+      },
+      "after_v7": {
+        "site_web": 5,
+        "refonte": 75,
+        "ia_automatisation": 14
+      },
+      "confidence": {
+        "site_web": "moyenne",
+        "refonte": "moyenne",
+        "ia_automatisation": "moyenne"
+      }
+    },
+    {
+      "company": "Bulles & Détente",
+      "email": "contact@bulles-et-detente.fr",
+      "before_v6": {
+        "site_web": 5,
+        "refonte": 35,
+        "ia_automatisation": 70
+      },
+      "after_v7": {
+        "site_web": 5,
+        "refonte": 35,
+        "ia_automatisation": 11
+      },
+      "confidence": {
+        "site_web": "moyenne",
+        "refonte": "moyenne",
+        "ia_automatisation": "moyenne"
+      }
+    },
+    {
+      "company": "Pépinières Ripaud",
+      "email": "info@ripaudpepinieres.com",
+      "before_v6": {
+        "site_web": 5,
+        "refonte": 45,
+        "ia_automatisation": 100
+      },
+      "after_v7": {
+        "site_web": 5,
+        "refonte": 69,
+        "ia_automatisation": 80
+      },
+      "confidence": {
+        "site_web": "moyenne",
+        "refonte": "moyenne",
+        "ia_automatisation": "moyenne"
+      }
+    },
+    {
+      "company": "Le Centre Formation",
+      "email": "formation@lecentreformation.fr",
+      "before_v6": {
+        "site_web": 5,
+        "refonte": 5,
+        "ia_automatisation": 100
+      },
+      "after_v7": {
+        "site_web": 5,
+        "refonte": 5,
+        "ia_automatisation": 34
+      },
+      "confidence": {
+        "site_web": "moyenne",
+        "refonte": "moyenne",
+        "ia_automatisation": "moyenne"
+      }
+    },
+    {
+      "company": "Kévin Jenback — Couverture, zinguerie, ramonage",
+      "email": "kjenback@gmail.com",
+      "before_v6": {
+        "site_web": 5,
+        "refonte": 75,
+        "ia_automatisation": 90
+      },
+      "after_v7": {
+        "site_web": 5,
+        "refonte": 100,
+        "ia_automatisation": 48
+      },
+      "confidence": {
+        "site_web": "moyenne",
+        "refonte": "moyenne",
+        "ia_automatisation": "moyenne"
+      }
+    },
+    {
+      "company": "MSF PRO Industries",
+      "email": "sales@msfpro-industries.com",
+      "before_v6": {
+        "site_web": 5,
+        "refonte": 45,
+        "ia_automatisation": 90
+      },
+      "after_v7": {
+        "site_web": 5,
+        "refonte": 71,
+        "ia_automatisation": 52
+      },
+      "confidence": {
+        "site_web": "moyenne",
+        "refonte": "moyenne",
+        "ia_automatisation": "moyenne"
+      }
+    },
+    {
+      "company": "Beaujolais Réception",
+      "email": "",
+      "before_v6": {
+        "site_web": 5,
+        "refonte": 55,
+        "ia_automatisation": 100
+      },
+      "after_v7": {
+        "site_web": 5,
+        "refonte": 79,
+        "ia_automatisation": 38
+      },
+      "confidence": {
+        "site_web": "haute",
+        "refonte": "moyenne",
+        "ia_automatisation": "moyenne"
+      }
+    }
+  ]
+}

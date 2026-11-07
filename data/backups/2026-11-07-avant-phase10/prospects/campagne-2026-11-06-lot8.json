@@ -1,0 +1,259 @@
+[
+ {
+  "company": "Pépinières Ripaud",
+  "sector": "Pépinière de production — vente aux professionnels du paysage",
+  "city": "La Tardière",
+  "department": "85",
+  "region": "Pays de la Loire",
+  "website": "https://www.ripaudpepinieres.com/",
+  "domain": "ripaudpepinieres.com",
+  "contact_email": "info@ripaudpepinieres.com",
+  "email_verification": "public_unverified",
+  "phone": "02 51 69 64 08",
+  "phone_verification": "verified",
+  "contact_name": "",
+  "contact_role": "",
+  "contact_name_source": "https://www.ripaudpepinieres.com/content/24-foire-aux-questions",
+  "needs": ["automatisation"],
+  "solution_type": "commande_en_ligne",
+  "opportunity_type": "besoin_reel",
+  "custom_subject": "Commandes pro Ripaud : le K-bis avant le premier chiffrage",
+  "custom_hook": "Votre page « La pépinière » demande aux nouveaux clients professionnels un extrait K-bis et une fiche d'ouverture de compte.",
+  "observation": "Les commandes arrivent ensuite par e-mail, avec le nom des végétaux, le conditionnement, la taille et la quantité.",
+  "recommended_service": "un espace professionnel qui collecte le K-bis, contrôle chaque ligne de commande et la transmet prête à chiffrer",
+  "benefit": "vos équipes reçoivent des commandes complètes plutôt que des e-mails à reformuler",
+  "demo_detail": "démo d'une commande pro saisie en ligne, K-bis joint et lignes contrôlées",
+  "process_hint": "ouverture de compte professionnelle sur envoi d'un K-bis et d'une fiche papier ; commandes transmises par e-mail en texte libre ; catalogue PDF diffusé sans prix",
+  "notes": "Lot 8. Production au Plessis Robineau, 85120 La Tardière ; point de vente 3 route de Mouilleron-en-Pareds, 85390 Cheffois. Plus de 100 hectares, environ 2 millions de plantes, certifiée depuis 2014. Le côté particuliers est déjà outillé (paiement 3D Secure, retrait, franco de port) : l'opportunité ne porte donc PAS sur une création de site mais sur le parcours professionnel, resté au e-mail. La FAQ cite « Amandine et Damien » puis Marc-Henri Doyon (2022) sans fonction explicite : aucun nom n'est utilisé dans le message, faute de rôle vérifié. Angle distinct de Bonbon Foliz (lot 7), qui portait sur un minimum de commande et un bon de commande.",
+  "evidences": [
+   {
+    "kind": "processus_manuel",
+    "source_url": "https://www.ripaudpepinieres.com/content/17-la-pepiniere",
+    "quote": "Si vous êtes un nouveau client, merci de nous adresser votre extrait k-bis et la fiche d'ouverture de compte complétée.",
+    "observed_at": "2026-11-06",
+    "detail": "L'ouverture d'un compte professionnel passe par l'envoi de documents, sans dépôt en ligne."
+   },
+   {
+    "kind": "processus_manuel",
+    "source_url": "https://www.ripaudpepinieres.com/content/17-la-pepiniere",
+    "quote": "Vous pouvez envoyer votre commande à info@ripaudpepinieres.com en précisant le nom des végétaux, le conditionnement, la taille et la quantité.",
+    "observed_at": "2026-11-06",
+    "detail": "La commande professionnelle est un e-mail en texte libre comportant quatre informations obligatoires."
+   },
+   {
+    "kind": "parcours_incomplet",
+    "source_url": "https://www.ripaudpepinieres.com/content/17-la-pepiniere",
+    "quote": "Téléchargez notre catalogue",
+    "observed_at": "2026-11-06",
+    "detail": "Le catalogue lié est « catalogue-ripaud-2026-2027-sans-prix.pdf » : le professionnel consulte un PDF sans tarif puis écrit pour être chiffré."
+   }
+  ]
+ },
+ {
+  "company": "Le Centre Formation",
+  "sector": "Organisme de formation professionnelle — CACES, habilitations, sécurité",
+  "city": "Saint-Quentin-Fallavier",
+  "department": "38",
+  "region": "Auvergne-Rhône-Alpes",
+  "website": "https://www.le-centre-formation.fr/",
+  "domain": "le-centre-formation.fr",
+  "contact_email": "formation@lecentreformation.fr",
+  "email_verification": "public_unverified",
+  "phone": "04 78 90 60 22",
+  "phone_verification": "verified",
+  "contact_name": "",
+  "contact_role": "",
+  "contact_name_source": "https://www.le-centre-formation.fr/2025-12-19/nos-formations-caces-sont-disponibles-sur-mon-compte-formation-cpf/",
+  "needs": ["automatisation"],
+  "solution_type": "automatisation_admin",
+  "opportunity_type": "besoin_reel",
+  "custom_subject": "Dossiers CPF : un lien par profil, puis les dates à caler",
+  "custom_hook": "Votre article du 19 décembre explique que vous envoyez à chaque stagiaire un lien Mon Compte Formation adapté à son profil.",
+  "observation": "Le dossier est ensuite réceptionné, puis vos équipes rappellent pour fixer les dates, sur quatre centres.",
+  "recommended_service": "un parcours qui qualifie le profil, prépare le lien adapté et propose les créneaux du bon centre",
+  "benefit": "des dossiers complets du premier coup, sans ressaisie ni pièce manquante",
+  "demo_detail": "démo d'une demande CPF devenant dossier complet, avec créneau proposé sur le centre le plus proche",
+  "process_hint": "envoi manuel d'un lien Mon Compte Formation adapté au profil de chaque demandeur ; réception du dossier ; rappel téléphonique pour fixer les dates ; quatre centres à répartir",
+  "notes": "Lot 8. Organisme certifié Qualiopi, quatre centres : Saint-Quentin-Fallavier (38), Tossiat (01), Aubière (63), Chassieu (69). Le siège social n'est pas publié : le département 38 est renseigné d'après le premier centre listé, sans affirmation sur le siège. L'organisme dispose DÉJÀ d'un devis en ligne : ne pas proposer de formulaire de devis. L'auteur de l'article est l.cachat@lecentreformation.fr, mais ni le nom complet ni la fonction ne sont publiés : contact_name laissé vide, message adressé à l'entreprise. Le domaine du site (le-centre-formation.fr) diffère de celui des adresses e-mail (lecentreformation.fr) : le contrôle MX porte sur le second.",
+  "evidences": [
+   {
+    "kind": "processus_manuel",
+    "source_url": "https://www.le-centre-formation.fr/2025-12-19/nos-formations-caces-sont-disponibles-sur-mon-compte-formation-cpf/",
+    "quote": "Nous vous envoyons un lien par e-mail, adapté à votre profil, pour créer votre dossier sur Mon Compte Formation.",
+    "observed_at": "2026-11-06",
+    "detail": "Le lien CPF est choisi et envoyé par une personne, après examen du profil du demandeur."
+   },
+   {
+    "kind": "processus_manuel",
+    "source_url": "https://www.le-centre-formation.fr/2025-12-19/nos-formations-caces-sont-disponibles-sur-mon-compte-formation-cpf/",
+    "quote": "Une fois votre dossier réceptionné, Le Centre Formation vous contacte pour fixer ensemble les dates.",
+    "observed_at": "2026-11-06",
+    "detail": "La planification des sessions se fait par rappel téléphonique, centre par centre."
+   },
+   {
+    "kind": "sector_opportunity",
+    "source_url": "https://www.le-centre-formation.fr/2025-12-19/nos-formations-caces-sont-disponibles-sur-mon-compte-formation-cpf/",
+    "quote": "Saint-Quentin-Fallavier, Tossiat, Aubière, Chassieu",
+    "observed_at": "2026-11-06",
+    "detail": "Quatre sites de formation impliquent d'affecter chaque demande au bon centre et à la bonne session."
+   }
+  ]
+ },
+ {
+  "company": "Kévin Jenback — Couverture, zinguerie, ramonage",
+  "sector": "Artisan couvreur-zingueur, ramoneur et ravalement de façade",
+  "city": "Saint-Germain-des-Prés",
+  "department": "49",
+  "region": "Pays de la Loire",
+  "website": "https://www.mrjenbackprotegevotrehabitat.com/",
+  "domain": "mrjenbackprotegevotrehabitat.com",
+  "contact_email": "kjenback@gmail.com",
+  "email_verification": "public_unverified",
+  "phone": "06 16 12 55 42",
+  "phone_verification": "verified",
+  "contact_name": "Kévin",
+  "contact_role": "Artisan couvreur-zingueur, seul à son compte (dirigeant)",
+  "contact_name_source": "https://www.mrjenbackprotegevotrehabitat.com/devis-couvreur-zingueur-ramoneur-angers/",
+  "needs": ["refonte", "automatisation"],
+  "solution_type": "formulaire_intelligent",
+  "opportunity_type": "besoin_reel",
+  "custom_subject": "Votre bouton « Devis gratuit » compose un autre numéro",
+  "custom_hook": "Sur votre page devis, le bouton « Devis gratuit » compose le 06 63 02 64 47, alors que le reste de la page affiche le 06 16 12 55 42.",
+  "observation": "Vous annoncez aussi une réponse sous 48 h, en invitant à rappeler si elle n'arrive pas.",
+  "recommended_service": "la correction du bouton et un formulaire qui range chaque demande par prestation et par secteur",
+  "benefit": "moins de demandes perdues, et moins de temps passé à rappeler",
+  "demo_detail": "démo d'une demande de ramonage reçue, qualifiée et replacée dans votre tournée",
+  "process_hint": "demandes de devis par formulaire ou téléphone ; qualification manuelle de la prestation et du secteur ; déplacement systématique avant chiffrage ; engagement de réponse sous 48 h avec rappel à la charge du client",
+  "notes": "Lot 8. Trois adresses publiées : Z.A La Potherie 49170 Saint-Germain-des-Prés, route de Saumur 49490 Noyant-Villages, Les Maisons Neuves 53100 Saint-Georges-Buttavent. Intervention sur Angers et les départements 37, 44, 49, 53, 72. Treize ans d'activité, six avis Google affichés. Le formulaire existe déjà mais sa liste déroulante ne propose que quatre familles (Couverture, Zinguerie, Nettoyage, Ramonage) alors que le texte demande de préciser parmi dix prestations : la demande arrive donc incomplète. Anomalie vérifiée dans le HTML rendu : le lien « Devis gratuit » pointe vers tel:0663026447. Aucun jugement n'est porté sur l'origine de cette erreur, seule la différence de numéro est constatée.",
+  "evidences": [
+   {
+    "kind": "website_gap",
+    "source_url": "https://www.mrjenbackprotegevotrehabitat.com/devis-couvreur-zingueur-ramoneur-angers/",
+    "quote": "[Devis gratuit](tel:0663026447)",
+    "observed_at": "2026-11-06",
+    "detail": "Le bouton principal de la page devis appelle le 06 63 02 64 47, tandis que l'en-tête, le pied de page et la clause de rappel affichent le 06 16 12 55 42."
+   },
+   {
+    "kind": "processus_manuel",
+    "source_url": "https://www.mrjenbackprotegevotrehabitat.com/devis-couvreur-zingueur-ramoneur-angers/",
+    "quote": "Je réponds à votre devis sous 48h, si vous n'avez pas reçu ma réponse, merci de me contacter au 06 16 12 55 42.",
+    "observed_at": "2026-11-06",
+    "detail": "Le suivi de la demande repose sur le client, qui doit relancer si la réponse n'arrive pas."
+   },
+   {
+    "kind": "parcours_incomplet",
+    "source_url": "https://www.mrjenbackprotegevotrehabitat.com/devis-couvreur-zingueur-ramoneur-angers/",
+    "quote": "Merci de me notifier la prestation ou les prestations : couverture neuve, couverture rénovation, ramonage, zinguerie neuve, zinguerie réparation, nettoyage façade neuve, nettoyage façade rénovation, toiture dé-moussage, toiture hydrofuge, peinture.",
+    "observed_at": "2026-11-06",
+    "detail": "Dix prestations sont demandées dans le texte, mais le champ « Service » du formulaire n'offre que Couverture, Zinguerie, Nettoyage et Ramonage."
+   }
+  ]
+ },
+ {
+  "company": "MSF PRO Industries",
+  "sector": "Négoce de fournitures industrielles — automatisme, motorisation, instrumentation",
+  "city": "Bagnolet",
+  "department": "93",
+  "region": "Île-de-France",
+  "website": "https://msfpro-industries.com/",
+  "domain": "msfpro-industries.com",
+  "contact_email": "sales@msfpro-industries.com",
+  "email_verification": "public_unverified",
+  "phone": "",
+  "phone_verification": "non_trouve",
+  "contact_name": "",
+  "contact_role": "Contact commercial (boîte « Sales », intitulée « CONTACT COMMERCIAL » sur le site)",
+  "contact_name_source": "https://msfpro-industries.com/",
+  "needs": ["automatisation"],
+  "solution_type": "devis_automatise",
+  "opportunity_type": "besoin_reel",
+  "custom_subject": "Vos demandes de devis MSF PRO ouvrent toutes un e-mail",
+  "custom_hook": "Vos deux boutons « Demander un devis » ouvrent un e-mail vers Sales, sans formulaire.",
+  "observation": "Vous demandez pourtant une référence, des quantités et des contraintes d'application pour établir l'offre.",
+  "recommended_service": "une demande guidée qui récupère la référence constructeur, la quantité et l'application avant chiffrage",
+  "benefit": "des demandes entrantes qualifiées dès leur arrivée, sans relance manuelle",
+  "demo_detail": "démo d'une référence saisie, contrôlée et transformée en demande de prix exploitable",
+  "process_hint": "demande de devis uniquement par e-mail ; réception d'une référence, d'une photo de plaque signalétique ou d'un cahier des charges ; échange manuel sur les caractéristiques et quantités ; offre de prix et disponibilité rédigée ensuite",
+  "notes": "Lot 8. SASU M S F PRO, 43 rue Désiré Vienot, 93170 Bagnolet. Aucun téléphone publié sur la page d'accueil. L'adresse est publiée « Sales@msfpro-industries.com » avec une majuscule ; elle est stockée en minuscules pour le dédoublonnage. Un panier et un tunnel de commande existent déjà : l'opportunité ne porte pas sur la vente en ligne mais sur l'entrée en relation devis, entièrement en texte libre. Les visuels proviennent d'une banque d'images et les fichiers ont été déposés en octobre 2026 : site récent, aucune proposition de refonte n'est faite.",
+  "evidences": [
+   {
+    "kind": "parcours_incomplet",
+    "source_url": "https://msfpro-industries.com/",
+    "quote": "[Demander un devis ↗](mailto:Sales@msfpro-industries.com?subject=Demande%20de%20devis)",
+    "observed_at": "2026-11-06",
+    "detail": "Le bouton de demande de devis est un lien mailto : aucun champ structuré ne collecte la référence ou la quantité."
+   },
+   {
+    "kind": "processus_manuel",
+    "source_url": "https://msfpro-industries.com/",
+    "quote": "Une référence, une photo de plaque signalétique ou un cahier des charges : donnez-nous votre point de départ.",
+    "observed_at": "2026-11-06",
+    "detail": "Le point de départ de chaque dossier est hétérogène et doit être interprété avant chiffrage."
+   },
+   {
+    "kind": "processus_manuel",
+    "source_url": "https://msfpro-industries.com/",
+    "quote": "Nous échangeons sur les caractéristiques techniques, les quantités et les contraintes de votre application.",
+    "observed_at": "2026-11-06",
+    "detail": "La qualification passe par un échange manuel avant l'émission de l'offre."
+   }
+  ]
+ },
+ {
+  "company": "Beaujolais Réception",
+  "sector": "Location de matériel et prestations de réception",
+  "city": "Saint-Étienne-des-Oullières",
+  "department": "69",
+  "region": "Auvergne-Rhône-Alpes",
+  "website": "https://beaujolaisreception.fr/",
+  "domain": "beaujolaisreception.fr",
+  "contact_email": "",
+  "email_verification": "non_trouve",
+  "phone": "04 74 03 37 76",
+  "phone_verification": "verified",
+  "contact_name": "Kevin CANARD",
+  "contact_role": "Gérant (directeur de la publication)",
+  "contact_name_source": "https://beaujolaisreception.fr/mentions-legales/",
+  "needs": ["automatisation"],
+  "solution_type": "reservation_en_ligne",
+  "opportunity_type": "besoin_reel",
+  "custom_subject": "",
+  "custom_hook": "",
+  "observation": "Les quantités demandées sont vérifiées une à une contre le stock disponible avant l'envoi du devis.",
+  "recommended_service": "un calendrier de disponibilité du matériel qui pré-remplit le devis à partir des quantités demandées",
+  "benefit": "moins d'allers-retours avant l'accord, et un stock réellement à jour au moment du devis",
+  "demo_detail": "",
+  "process_hint": "demande de quantités via le formulaire ; vérification manuelle de la disponibilité du matériel ; préparation et transmission du devis ; aucun compte client ni dépôt de fichier possible",
+  "notes": "Lot 8 — PROSPECT CONSERVÉ SANS BROUILLON. EURL au capital de 45 800 EUR, 999 route du Terrier, 69460 Saint-Étienne-des-Oullières, SIREN 422 650 309. Fondée en 1999 par Pascale Canard, reprise par Kevin Canard en janvier 2025. AUCUNE adresse e-mail publique n'a été trouvée sur le site refait : seule une formulaire et le téléphone sont publiés. Conformément à la règle, aucune adresse n'est déduite du nom de domaine et aucun message n'est préparé. Piste à reprendre si une adresse professionnelle est publiée ou confirmée par téléphone. Ne pas confondre avec CLS (Chantilly), également en location de réception mais écarté car déjà équipé d'un formulaire de devis qualifié.",
+  "evidences": [
+   {
+    "kind": "processus_manuel",
+    "source_url": "https://beaujolaisreception.fr/",
+    "quote": "Indiquez les quantités… Nous vérifions ensuite leur disponibilité.",
+    "observed_at": "2026-11-06",
+    "detail": "La disponibilité du matériel est contrôlée après réception de la demande, sans calendrier consultable."
+   },
+   {
+    "kind": "processus_manuel",
+    "source_url": "https://beaujolaisreception.fr/",
+    "quote": "vérifier la disponibilité du matériel… préparer et transmettre les devis",
+    "observed_at": "2026-11-06",
+    "detail": "La politique de confidentialité décrit le traitement manuel des demandes comme finalité des données collectées."
+   },
+   {
+    "kind": "parcours_incomplet",
+    "source_url": "https://beaujolaisreception.fr/",
+    "quote": "ne propose pas la création de comptes clients",
+    "observed_at": "2026-11-06",
+    "detail": "Aucun espace client ni téléversement de fichier : chaque demande repart de zéro."
+   },
+   {
+    "kind": "public_need",
+    "source_url": "https://beaujolaisreception.fr/mentions-legales/",
+    "quote": "Directeur de la publication : Kevin CANARD, Gérant",
+    "observed_at": "2026-11-06",
+    "detail": "Identité et fonction du dirigeant vérifiées sur les mentions légales du site officiel."
+   }
+  ]
+ }
+]

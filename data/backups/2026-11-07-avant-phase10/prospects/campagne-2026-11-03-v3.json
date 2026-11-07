@@ -1,0 +1,178 @@
+{
+  "campaign": "2026-11-03-v3",
+  "created": "2026-11-03",
+  "strategy_doc": "docs/strategie-commerciale-v3.md",
+  "note": "Lot v3 : 2 prospects v2 améliorés (accroches sur mesure) + 3 nouveaux avec contact + 3 pistes à approfondir. Aucune coordonnée inventée ; preuves et URL conservées.",
+  "prospects": [
+    {
+      "company": "R Premium",
+      "domain": "renovationpremium.com",
+      "website": "https://www.renovationpremium.com/",
+      "contact_name": "",
+      "contact_email": "contact@renovationpremium.com",
+      "email_source": "verified",
+      "phone": "+33 7 70 30 97 90",
+      "sector": "batiment",
+      "city": "Clichy",
+      "department": "92",
+      "location": "Clichy (92)",
+      "needs": ["refonte"],
+      "recommended_service": "une optimisation de votre site WordPress pour le rendre plus rapide et mieux référencé, sans tout reconstruire",
+      "custom_subject": "Votre annonce WordPress + référencement",
+      "custom_hook": "J'ai lu votre annonce : vous voulez faire évoluer votre site WordPress, votre référencement et votre communication.",
+      "demo_detail": "un aperçu de votre page d'accueil optimisée pour le référencement",
+      "source": "Codeur.com + renovationpremium.com",
+      "publication_date": "2026-11-03",
+      "evidences": [
+        {"kind": "public_need", "source_url": "https://www.codeur.com/pages/appel-offre", "quote": "Site WordPress, référencement et communication degitale", "observed_at": "2026-11-03", "detail": "Annonce Codeur « Site WordPress, référencement et communication degitale » — R Premium (Ouvert, 500-1000 EUR, 68 offres)."}
+      ]
+    },
+    {
+      "company": "Secteur 72",
+      "domain": "lesecteur72.fr",
+      "website": "https://www.lesecteur72.fr/",
+      "contact_name": "Marc Fontaine",
+      "contact_email": "secteur72fr@gmail.com",
+      "email_source": "verified",
+      "phone": "07 44 98 08 58",
+      "sector": "services",
+      "city": "Montval-sur-Loir",
+      "department": "72",
+      "location": "Montval-sur-Loir (72)",
+      "needs": ["automatisation"],
+      "recommended_service": "une automatisation de vos réservations et rappels de sessions, pour ouvrir sans y passer vos soirées",
+      "custom_subject": "Secteur 72 : automatiser avant l'ouverture ?",
+      "custom_hook": "J'ai suivi le lancement de Secteur 72 : vous préparez l'ouverture de votre terrain d'airsoft et le développement de la boutique.",
+      "demo_detail": "un exemple de parcours de réservation automatisé avec rappels avant chaque session",
+      "source": "Codeur.com + actu.fr + lesecteur72.fr",
+      "publication_date": "2026-11-03",
+      "evidences": [
+        {"kind": "public_need", "source_url": "https://www.codeur.com/projects/492309-e-commerce-et-site-web-vitrine", "quote": "animer les réseaux sociaux de Secteur 72 ... avec boutique en ligne d'équipement", "observed_at": "2026-11-03", "detail": "Annonce Codeur (Ouvert, <500 EUR) : animation réseaux sociaux + boutique en ligne pour Secteur 72, avant ouverture."},
+        {"kind": "sector_opportunity", "source_url": "https://www.actu.fr/pays-de-la-loire/montval-sur-loir_72071/sarthe-il-cherche-un-terrain-pour-son-projet-de-terrain-d-airsoft_64922877.html", "quote": "Les personnes intéressées peuvent d'ores et déjà réserver par mail", "observed_at": "2026-10-18", "detail": "Article actu.fr (18/10/2026) : Marc Fontaine, 19 ans, cherche un terrain ; réservations par mail, ouverture visée mi-2027."}
+      ]
+    },
+    {
+      "company": "BSP Auto",
+      "domain": "bsp-auto.com",
+      "website": "https://www.bsp-auto.com/",
+      "contact_name": "",
+      "contact_email": "support@bsp-auto.com",
+      "email_source": "verified",
+      "phone": "+33 1 86 26 90 80",
+      "sector": "automobile",
+      "city": "Paris",
+      "department": "75",
+      "location": "Paris (75)",
+      "needs": ["automatisation"],
+      "recommended_service": "une automatisation qui prépare et envoie votre newsletter mensuelle à vos agences clientes, sans y repasser chaque mois",
+      "custom_subject": "Votre newsletter mensuelle, en pilote automatique ?",
+      "custom_hook": "J'ai vu votre projet de newsletter mensuelle pour vos agences de voyages clientes.",
+      "demo_detail": "un exemple de newsletter générée et envoyée automatiquement chaque mois",
+      "source": "Codeur.com + bsp-auto.com",
+      "publication_date": "2026-11-03",
+      "evidences": [
+        {"kind": "public_need", "source_url": "https://www.codeur.com/projects/492305-newsletter-location-de-voiture", "quote": "la conception entière d'une newsletter envoyé chaque mois ... à destination de nos agences de voyages clientes", "observed_at": "2026-11-03", "detail": "Annonce Codeur (Ouvert, <500 EUR) : BSP-AUTO, newsletter envoyée chaque mois à ses agences de voyages clientes."}
+      ]
+    },
+    {
+      "company": "CERF Athletic Training",
+      "domain": "cerf-athletic-training.fr",
+      "website": "https://cerf-athletic-training.fr/",
+      "contact_name": "Elwen Gicquel",
+      "contact_email": "contact@cerf-athletic-training.fr",
+      "email_source": "verified",
+      "phone": "06 31 75 72 47",
+      "sector": "services",
+      "city": "Mouzillon",
+      "department": "44",
+      "location": "Mouzillon (44)",
+      "needs": ["automatisation"],
+      "recommended_service": "une automatisation de vos inscriptions, rappels de séances et réponses aux questions des adhérents",
+      "custom_subject": "CERF : automatiser le suivi de vos adhérents ?",
+      "custom_hook": "J'ai suivi l'ouverture de CERF à Mouzillon : petits groupes, coach présent, objectif d'une centaine d'adhérents.",
+      "demo_detail": "un exemple de gestion automatisée des inscriptions et des rappels de séances",
+      "source": "actu.fr + cerf-athletic-training.fr",
+      "publication_date": "2026-08-12",
+      "evidences": [
+        {"kind": "sector_opportunity", "source_url": "https://actu.fr/pays-de-la-loire/mouzillon_44108/elle-va-ouvrir-dans-le-vignoble-nantais-que-propose-cette-salle-de-sport-qui-defend-une-autre-approche_64655582.html", "quote": "l'objectif de la première année serait d'atteindre une centaine d'adhérents", "observed_at": "2026-08-12", "detail": "Article actu.fr (12/08/2026) : ouverture 01/09/2026, petits groupes, objectif ~100 adhérents an 1 ; pré-adhésions via le site. Gestion inscriptions/suivi automatisable."}
+      ]
+    },
+    {
+      "company": "Charme de l'Hêtre",
+      "domain": "",
+      "website": "",
+      "contact_name": "Chloé Poupinet",
+      "contact_email": "charmedelhetre50@gmail.com",
+      "email_source": "verified",
+      "phone": "06 37 21 33 85",
+      "sector": "batiment",
+      "city": "La Chapelle-Urée",
+      "department": "50",
+      "location": "La Chapelle-Urée (50)",
+      "needs": ["site_web"],
+      "recommended_service": "un site vitrine clair et rapide qui présente votre activité d'élagage et donne envie de vous contacter",
+      "custom_subject": "Charme de l'Hêtre : être trouvé sur Google ?",
+      "custom_hook": "Je viens de découvrir Charme de l'Hêtre, votre activité d'arboriste grimpeuse lancée cet été.",
+      "demo_detail": "une première maquette de site vitrine pour votre activité d'élagage",
+      "source": "actu.fr + lamanchelibre.fr",
+      "publication_date": "2026-08-18",
+      "evidences": [
+        {"kind": "sector_opportunity", "source_url": "https://actu.fr/normandie/la-chapelle-uree_50124/dans-le-sud-manche-elle-a-cree-son-entreprise-darboriste-grimpeuse-pour-mettre-en-valeur-les-vegetaux_64675166.html", "quote": "Depuis le 1er juillet, Chloé Poupinet a créé sa société, Charme de l'Hêtre", "observed_at": "2026-08-18", "detail": "Article actu.fr (18/08/2026) : Chloé Poupinet a créé Charme de l'Hêtre (élagage) le 01/07/2026. Aucun site web trouvé dans les recherches → présence en ligne à construire."}
+      ]
+    },
+    {
+      "company": "Carot's",
+      "domain": "",
+      "website": "",
+      "contact_name": "Céline Roth / Éric Caron",
+      "contact_email": "",
+      "sector": "commerce",
+      "city": "Manneville-sur-Risle",
+      "department": "27",
+      "location": "Manneville-sur-Risle (27)",
+      "needs": ["site_web"],
+      "recommended_service": "une boutique en ligne pour vendre vos objets personnalisés au-delà de votre zone locale",
+      "source": "actu.fr / titrespresse.com",
+      "publication_date": "2026-05-18",
+      "evidences": [
+        {"kind": "sector_opportunity", "source_url": "https://www.titrespresse.com/12235872503/leon-vatican-produits", "quote": "ont créé la société Carot's spécialisée dans la réalisation d'objets personnalisés et de décoration", "observed_at": "2026-05-18", "detail": "Céline Roth et Éric Caron ont créé Carot's (objets personnalisés/déco) en mai 2026 à Manneville-sur-Risle. Contact public à rechercher."}
+      ]
+    },
+    {
+      "company": "Matabiau Locker Hub",
+      "domain": "",
+      "website": "",
+      "contact_name": "",
+      "contact_email": "",
+      "sector": "services",
+      "city": "Toulouse",
+      "department": "31",
+      "location": "Toulouse (31)",
+      "needs": ["site_web"],
+      "recommended_service": "une page one-page multilingue avec carte interactive et liens de réservation, prête avant la Coupe du Monde",
+      "source": "Codeur.com",
+      "publication_date": "2026-11-02",
+      "evidences": [
+        {"kind": "public_need", "source_url": "https://www.codeur.com/projects/492083-one-page-multilingue-pour-consigne-a-bagages-proche-gare", "quote": "je recherche une personne pour créer un site one-page simple, moderne et efficace pour ma consigne à bagages", "observed_at": "2026-11-02", "detail": "Annonce Codeur (Ouvert, 500-1000 EUR) : consigne à bagages proche Toulouse-Matabiau, one-page FR/EN/ES avec carte + réservation. Contact porteur masqué."}
+      ]
+    },
+    {
+      "company": "GELA",
+      "domain": "",
+      "website": "",
+      "contact_name": "",
+      "contact_email": "",
+      "sector": "commerce",
+      "city": "",
+      "department": "",
+      "location": "",
+      "needs": ["automatisation"],
+      "recommended_service": "une automatisation de la publication et des réponses sur vos réseaux sociaux",
+      "source": "Codeur.com",
+      "publication_date": "2026-11-03",
+      "evidences": [
+        {"kind": "public_need", "source_url": "https://www.codeur.com/projects/492271-social-media-manager-freelance-marque-de-bijoux-innovante-insta", "quote": "Marque de bijoux innovante GELA ... Gestion complète des réseaux sociaux", "observed_at": "2026-11-03", "detail": "Annonce Codeur (Ouvert, <500 EUR) : GELA, marque de bijoux, gestion complète des réseaux sociaux. Contact porteur masqué."}
+      ]
+    }
+  ]
+}

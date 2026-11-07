@@ -1,0 +1,86 @@
+{
+  "updated_at": "2026-11-06",
+  "count": 4,
+  "note": "Journal des rapprochements réels. Les entrées de fixture ont été mises en quarantaine dans reconciliations-pollution-tests-2026-11-06.json.",
+  "reconciliations": [
+    {
+      "at": "2026-11-06",
+      "matched": 15,
+      "already_sent": 0,
+      "unmatched": [],
+      "updated_companies": [
+        "Restaurant Le Canotier",
+        "Boucherie Florian",
+        "La Fromagerie Les 2 Alpes",
+        "Fromagerie et Baratte",
+        "Matproloc",
+        "La Chocolatisserie",
+        "Allo'cation",
+        "Restaurant Goudale Orchies",
+        "ATOMER",
+        "NETTOYAGE INDUSTRIEL",
+        "Vignerons et Caviste",
+        "La Caviste",
+        "ALPHA MECANIQUE",
+        "SARL Ambulances Sainte-Marie",
+        "Blanchisserie des 3 Régions (B3R)"
+      ]
+    },
+    {
+      "at": "2026-11-03",
+      "matched": 0,
+      "already_sent": 0,
+      "unmatched": [
+        "atelier@akla-architectes.com — Deux ou trois points sur le site d'Akla Architectes",
+        "contact@thearchitectes.com — Deux ou trois points sur le site de The Architectes",
+        "contact@quattroarchi.fr — Deux ou trois points sur le site de Quattro Architectes",
+        "letablidumenuisier@gmail.com — Deux ou trois points sur le site de L'Etabli du Menuisier",
+        "contact@superchi.fr — Deux ou trois points sur le site de Superchi Architectes",
+        "leserrurierdacote@gmail.com — Gagner du temps sur les e-mails reçus chez Le Serrurier d'A Cote ?",
+        "villedieu.automobiles@gmail.com — Gagner du temps sur les demandes entrantes chez Garage Villedieu Automobiles ?",
+        "multitech.assistance@gmail.com — Gagner du temps sur les demandes entrantes chez Multitech Assistance ?"
+      ],
+      "updated_companies": []
+    },
+    {
+      "at": "2026-11-03",
+      "matched": 0,
+      "already_sent": 0,
+      "recorded_without_queue": 8,
+      "unmatched": [],
+      "updated_companies": [
+        "Akla Architectes",
+        "The Architectes",
+        "Quattro Architectes",
+        "L'Etabli du Menuisier",
+        "Superchi Architectes",
+        "Le Serrurier d'A Cote",
+        "Garage Villedieu Automobiles",
+        "Multitech Assistance"
+      ]
+    },
+    {
+      "at": "2026-11-06",
+      "matched": 14,
+      "already_sent": 0,
+      "recorded_without_queue": 0,
+      "unmatched": [],
+      "updated_companies": [
+        "Celtuce Traiteur",
+        "Mamie Cuisine Traiteur",
+        "Baptiste Break Pâtisserie Traiteur",
+        "SARL Joly Location",
+        "SARL Uzès Location",
+        "Techniques Piscine",
+        "France-Hypnose-Formation / France-PNL",
+        "Atoutransport",
+        "Bonbon Foliz",
+        "L'Ô de Claise",
+        "Bulles & Détente",
+        "Le Centre Formation",
+        "Kévin Jenback — Couverture, zinguerie, ramonage",
+        "MSF PRO Industries"
+      ]
+    }
+  ]
+}
