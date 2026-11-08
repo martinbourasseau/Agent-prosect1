@@ -102,3 +102,36 @@ Voir `docs/audit-phase10-portefeuille.md` sections B.5 et B.6 :
 (Zicplace 93, O Lames Déchues 95 — adresse e-mail à vérifier).
 
 Registre d'exploration : `data/history/exploration-ledger.json` (55 entrées).
+
+
+---
+
+## Restant à la fin de la phase 10 (reprendre ici, ne pas refaire les recherches)
+
+1. **Brouillons du lot 10 — NON FAITS.** Créer le label
+   `Prospection/2026-11-07-lot10`, puis rédiger et déposer les brouillons des
+   5 fiches neuves qualifiées (O Lames Déchues, Zicplace, Atelier du Bourrelier,
+   Alain Louis, Étanchéité Nantaise). Rappel : plafond **170 mots, viser ≤167**,
+   `LotRotation` obligatoire dans le test de longueur, `select_variant` renvoie
+   `synatrap_ia` pour tout besoin IA ⇒ forcer la variante. **Ne pas modifier les
+   5 brouillons existants.** `update_draft` perd les labels ⇒ re-add +
+   resynchroniser `gmail_message_id`.
+2. **Lot 10 : 47 structures restantes** pour atteindre ~60. Pistes déjà tracées
+   dans l'historique (`plan --lot 2026-11-07-lot10`, 14 entrées) : 79 Niort,
+   81 Albi, 61 Alençon, 73 Chambéry, 65 Tarbes, 47 Agen, 63 Issoire,
+   60 Compiègne, 58 Nevers, 57 Thionville, 40 Mont-de-Marsan, 53 Laval.
+   **Attention** : les motifs de besoin exprimé viennent d'être corrigés, les
+   anciennes requêtes Corse/pressoir ont échoué pour cause de bruit — ne pas les
+   rejouer telles quelles.
+3. **38 fiches du lot 9 non réexaminées** (liste dans
+   `data/history/approfondissement-lot9-2026-11-07.json`, décision
+   `non réexaminé`). Dont **Cemer 34** « probablement fermé » jamais vérifié.
+4. **6 pistes « approfondir » de G**, étape manquante écrite pour chacune :
+   Rhonalpe 01 (mentions légales des 2 sites), Atelier de Lutherie 78
+   (`mareil-lutherie.com`), Abc Forage 34 (`forage34.com`), Forages Berenguer 34
+   (pied de page + page contact), Fermetures Leichnam 02 (Contact & Devis),
+   SET AZUR 83 (**reprendre par SIREN**, identité ambigüe).
+   **2 du lot 10** : Régis de Izarra 80 (aucun e-mail publié), Bossard
+   Philippe 94 (e-mail non vu).
+5. **Échelle commune aux 3 axes** — limite structurelle documentée en §2 du
+   rapport. Demande un calibrage avec revue humaine, pas un patch.
