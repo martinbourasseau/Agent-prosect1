@@ -236,13 +236,22 @@ class TraceabilityTests(unittest.TestCase):
         self.assertEqual(len(self.archive["crm_before_migration"]), 83)
         self.assertEqual(self.archive["axes_modified"], 0)
 
-    def test_chaque_fiche_porte_le_bloc_commercial_et_son_historique(self):
+    def test_chaque_fiche_porte_le_bloc_commercial_et_une_trace(self):
+        # Une fiche créée APRÈS la migration est évaluer directement en v9 :
+        # elle n'a pas d'entrée de migration, et c'est correct. L'invariant est
+        # qu'elle porte le bloc v9 et une trace datée de sa création.
+        migrated = {e["company"] for e in self.archive["entries"]}
         for rec in CRM().records:
             self.assertIn("commercial", rec, rec["company"])
             self.assertEqual(rec["commercial"]["engine_version"], ENGINE_VERSION)
             self.assertEqual(rec["priority_engine_version"], ENGINE_VERSION)
-            actions = [h.get("action") for h in rec.get("history", [])]
-            self.assertIn("calibration_priorite_commerciale_v9", actions, rec["company"])
+            history = rec.get("history", [])
+            self.assertTrue(history, rec["company"])
+            self.assertTrue(all(h.get("at") for h in history), rec["company"])
+            if rec["company"] in migrated:
+                actions = [h.get("action") for h in history]
+                self.assertIn("calibration_priorite_commerciale_v9", actions,
+                              rec["company"])
 
     def test_le_changement_est_trace_avant_apres(self):
         for entry in self.archive["entries"]:

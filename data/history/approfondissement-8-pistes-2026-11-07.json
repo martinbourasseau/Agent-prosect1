@@ -1,0 +1,121 @@
+{
+  "date": "2026-11-07",
+  "section": "F — approfondissement des 8 pistes",
+  "rule": "Une piste n'est pas un prospect. Seule la vérification manquante a été effectuée, sur la source officielle, et la décision cite ce qui a été vu — ou pas vu.",
+  "examined": 8,
+  "qualified": 2,
+  "rejected": 3,
+  "still_open": 2,
+  "identity_resolved": 1,
+  "decisions": [
+    {
+      "company": "Forages Berenguer",
+      "was": "approfondir",
+      "decision": "qualifiée",
+      "department": "34",
+      "domain": "foragemontpellier.fr",
+      "step_done": "Pied de page et page contact lus directement.",
+      "finding": "Adresse forageberenguer@orange.fr publiée EN CLAIR sur /contact, avec le téléphone 04 89 41 07 22 et l'adresse Route de l'Usine de la Planque 34800 Ceyras. Le formulaire ne demande que Nom, Prénom, Téléphone, Email, Message : ni profondeur, ni nature du terrain, ni accès, ni usage. L'entreprise annonce pourtant assurer le suivi des démarches administratives.",
+      "source": "https://www.foragemontpellier.fr/contact"
+    },
+    {
+      "company": "Fermetures Leichnam",
+      "was": "approfondir",
+      "decision": "qualifiée",
+      "department": "02",
+      "domain": "fermetures-leichnam.fr",
+      "step_done": "Page Contact & Devis ouverte directement.",
+      "finding": "contact@fermetures-leichnam.fr publié EN CLAIR en mailto, deux fois, avec 03 23 67 96 68 et 29 rue de la Pomme Rouge 02100 Saint-Quentin (raison sociale FERMETURES DE L'AISNE). CONSTAT MAJEUR : le formulaire de demande de devis est FERMÉ. La page affiche « Bonjour :) Ce formulaire est maintenant fermé » suivi du texte promotionnel de Typeform (« Il aurait été génil, car il a été conçu avec Typeform », « Créez un typeform »). Le seul parcours de demande en ligne est mort et remplacé par de la publicité pour l'éditeur.",
+      "source": "https://fermetures-leichnam.fr/contact/"
+    },
+    {
+      "company": "Rhonalpe Étanchéité",
+      "was": "approfondir",
+      "decision": "approfondir",
+      "department": "01",
+      "domain": "rhonalp-etancheite.com",
+      "step_done": "Identité reprise par SIREN, comme demandé.",
+      "finding": "SIREN 751732702, gérant Metin Ekecik, SARL créée en 2012, 3 à 5 salariés. L'énigme des deux adresses est RÉSOLUE : l'établissement 107 rue René Nicod est FERMÉ depuis le 31/01/2025, le siège actif est 1 rue Grandes Roches (SIRET 75173270200046, ouvert le 31/01/2025). Un des deux sites publie donc une adresse fermée. L'adresse rhonalpe-etancheite@hotmail.fr n'apparaît que sur infonet.fr, annuaire tiers : NON retenue.",
+      "next_step": "Lire les mentions légales du site officiel pour une adresse publiée, et vérifier lequel des deux domaines est à jour.",
+      "source": "https://annuaire-entreprises.data.gouv.fr/entreprise/rhonalpe-etancheite-751732702"
+    },
+    {
+      "company": "Atelier de Lutherie Cassat & Wellmer",
+      "was": "approfondir",
+      "decision": "écartée — aucune adresse publiée",
+      "department": "78",
+      "domain": "mareil-lutherie.com",
+      "step_done": "Site officiel lu : accueil ET page /contact.",
+      "finding": "Aucune adresse e-mail publiée sur aucune des deux pages. Seuls le téléphone 01 39 16 29 70 et un formulaire Nom/Prénom/Email/Téléphone/Message sont proposés. L'adresse contact@mareil-lutherie.com vue sur Facebook n'est donc toujours pas confirmée par une source officielle : elle n'est PAS retenue. Défaut annexe relevé : la tuile « Restauration » pointe vers /fabrication/.",
+      "source": "https://www.mareil-lutherie.com/contact/"
+    },
+    {
+      "company": "Abc Forage 34",
+      "was": "approfondir",
+      "decision": "écartée — déjà outillée",
+      "department": "34",
+      "domain": "forage34.com",
+      "step_done": "Site officiel lu : accueil (2 chunks) ET page /devis/.",
+      "finding": "Aucune adresse e-mail publiée ; téléphone 04 67 59 59 59 et 30 route de Lirou 34820 Guzargues. Surtout, le formulaire de devis est DÉJÀ qualifié : objet de la demande (Forage/Géothermie/Pompes immergées/Panne), adresse complète d'intervention, question « L'accès est-il difficile ? » avec OUI/NON/Je ne sais pas, et description libre. C'est exactement la prestation que nous aurions proposée : contre-signal décisif, pas d'opportunité.",
+      "source": "https://www.forage34.com/devis/"
+    },
+    {
+      "company": "SET AZUR",
+      "was": "approfondir",
+      "decision": "annuaire_seul — identité levée",
+      "department": "83",
+      "domain": "",
+      "step_done": "Identité reprise par SIREN, comme demandé.",
+      "finding": "Identité ÉTABLIE : SET AZUR, SIREN 983435405, 83500 La Seyne-sur-Mer. Bien distincte des homonymes qui avaient pollué la recherche : AZUR ETANCHE (347824260, Six-Fours), AZUR ETANCHEITE 83 (881798466, Toulon), AZ ETANCHE (822932810) et REVETEMENT ETANCHEITE RESINE AZUR (801499583). Aucun site officiel trouvé, donc aucune coordonnée retenue.",
+      "next_step": "Chercher un site officiel à partir du SIREN 983435405 ; à défaut, rester en annuaire seul.",
+      "source": "https://www.societe.com/entreprises/var-83/travaux-d-etancheification-4399A"
+    },
+    {
+      "company": "Régis de Izarra — Taxidermiste",
+      "was": "approfondir",
+      "decision": "écartée — aucune adresse publiée",
+      "department": "80",
+      "domain": "taxidermiste-somme.fr",
+      "step_done": "Accueil ET page Naturaliste lues.",
+      "finding": "Aucune adresse e-mail sur les deux pages : uniquement 06 31 45 85 95 et 03 22 28 57 91. Les signaux manuels sont réels (« Je vous indiquerai comment le conserver jusqu'à ce que je le prenne en charge », uniquement sur rendez-vous, colis express 24 h) mais sans adresse publiée nous ne pouvons pas contacter, et l'adresse ne se devine pas.",
+      "source": "https://taxidermiste-somme.fr/naturaliste-taxidermiste-somme/"
+    },
+    {
+      "company": "Bossard Philippe — Taxidermiste",
+      "was": "approfondir",
+      "decision": "approfondir",
+      "department": "94",
+      "domain": "naturaliste-taxidermiste-bossard.fr",
+      "step_done": "Accueil du site officiel lu.",
+      "finding": "Aucune adresse e-mail sur l'accueil. La navigation annonce une page Contact et des mentions légales, non encore lues. Vérification INCOMPLÈTE : ne pas conclure à une absence.",
+      "next_step": "Ouvrir la page Contact et les mentions légales du site.",
+      "source": "https://naturaliste-taxidermiste-bossard.fr/"
+    }
+  ],
+  "imported": [
+    {
+      "company": "Fermetures Leichnam",
+      "department": "02",
+      "dns": "mx_ok",
+      "axes": [
+        5,
+        81,
+        12
+      ],
+      "tier": "moyenne",
+      "value": 68
+    },
+    {
+      "company": "Forages Berenguer",
+      "department": "34",
+      "dns": "mx_ok",
+      "axes": [
+        5,
+        39,
+        12
+      ],
+      "tier": "moyenne",
+      "value": 50
+    }
+  ]
+}

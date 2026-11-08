@@ -1,0 +1,263 @@
+{
+  "date": "2026-11-07",
+  "lot": "2026-11-07-lot10-suite",
+  "section": "D — reprise des structures restantes",
+  "objective": 47,
+  "examined": 20,
+  "objective_reached": false,
+  "gap_reason": "20 structures réellement vues et décidées sur les 47 visées. Le budget de recherche de cette passe a été consacré en priorité à la calibration (B), aux brouillons (C) et aux 8 pistes (F), conformément à l'ordre demandé. Aucune fiche n'a été créée pour remplir un quota.",
+  "new_departments": [
+    "03",
+    "13",
+    "18",
+    "22",
+    "23",
+    "27",
+    "34",
+    "44",
+    "57",
+    "77",
+    "79",
+    "88",
+    "974"
+  ],
+  "decisions": {
+    "écartée": 9,
+    "non retenu": 2,
+    "retenue": 2,
+    "approfondir": 7
+  },
+  "structural_finding": "Les requêtes de besoin exprimé restent improductives MÊME avec les exclusions ajoutées en v9 : la requête corrigée sur Niort/Alençon/Chambéry a renvoyé 4 vendeurs (Structolabs, Expressweb, un réseau SEO, Fabrik à Sites) et 0 entreprise exprimant un besoin. Cause : les agences rédigent leur argumentaire en citant les mots du prospect (« votre site ne vous ramène aucun client »), donc les motifs côté client les capturent aussi. Les exclusions lexicales ne peuvent pas corriger cela. Ce canal doit passer par des plateformes d'appels d'offres, pas par la recherche web générale.",
+  "source_yield_observed": {
+    "site_officiel": "3 recherches sectorielles → 2 qualifiées, 6 à approfondir",
+    "besoin_exprime_web": "1 recherche → 0 qualifiée, 4 vendeurs écartés"
+  },
+  "imported": [
+    {
+      "company": "Ouest Affûtage",
+      "department": "22",
+      "dns": "mx_ok",
+      "axes": {
+        "site_web": 5,
+        "refonte": 89,
+        "ia_automatisation": 12
+      },
+      "tier": "haute",
+      "value": 71
+    },
+    {
+      "company": "Sellerie Industrielle de l'Est",
+      "department": "57",
+      "dns": "mx_ok",
+      "axes": {
+        "site_web": 5,
+        "refonte": 39,
+        "ia_automatisation": 34
+      },
+      "tier": "moyenne",
+      "value": 50
+    }
+  ],
+  "entries": [
+    {
+      "company": "Structolabs",
+      "domain": "structolabs.fr",
+      "department": "79",
+      "sector": "agence_conseil_ia",
+      "decision": "écartée",
+      "reason": "Cabinet de conseil en automatisation : concurrent direct, pas un prospect.",
+      "source_url": "https://structolabs.fr/niort",
+      "source_type": "autre"
+    },
+    {
+      "company": "Expressweb",
+      "domain": "expresswebfrance.com",
+      "department": "79",
+      "sector": "agence_web",
+      "decision": "écartée",
+      "reason": "Agence de création de sites : vendeur de la prestation.",
+      "source_url": "https://www.expresswebfrance.com/creation-site-internet-niort",
+      "source_type": "autre"
+    },
+    {
+      "company": "Consultant SEO Niort (net.fr)",
+      "domain": "consultant-seo-niort.net.fr",
+      "department": "79",
+      "sector": "agence_seo",
+      "decision": "écartée",
+      "reason": "Réseau de pages SEO par ville, urgence artificielle (« places limitées »), témoignage vraisemblablement générique. Vendeur, pas prospect.",
+      "source_url": "https://consultant-seo-niort.net.fr/",
+      "source_type": "autre"
+    },
+    {
+      "company": "Fabrik à Sites",
+      "domain": "fabrikasites.com",
+      "department": "79",
+      "sector": "agence_web",
+      "decision": "écartée",
+      "reason": "Création de sites et logos : vendeur de la prestation.",
+      "source_url": "https://fabrikasites.com/",
+      "source_type": "autre"
+    },
+    {
+      "company": "Automatic.fr",
+      "domain": "",
+      "department": "79",
+      "sector": "installation_electrique",
+      "decision": "non retenu",
+      "reason": "Remonté par bruit lexical sur « automatiser » : société d'installation électrique vue uniquement dans un annuaire juridique, aucun besoin numérique observé.",
+      "source_url": "https://entreprises.lefigaro.fr/automatic-automatic-fr-79/entreprise-535127005",
+      "source_type": "annuaire_pro"
+    },
+    {
+      "company": "Ouest Affûtage",
+      "domain": "ouestaffutage-22.fr",
+      "department": "22",
+      "sector": "affutage_industriel",
+      "decision": "retenue",
+      "reason": "Site officiel lu. Adresse publiée en clair (mailto), 11 salariés, service de tournées. Défaut vérifiable : le lien e-mail du pied de page utilise le schéma « email: » au lieu de « mailto: », il ne fonctionne pas. Quatre adresses de secteur sur des domaines hétérogènes, et le secteur Nantes reprend le téléphone de Saint-Brieuc.",
+      "source_url": "https://ouestaffutage-22.fr/",
+      "source_type": "site_officiel"
+    },
+    {
+      "company": "Sellerie Industrielle de l'Est",
+      "domain": "57sie.com",
+      "department": "57",
+      "sector": "sellerie_nautique",
+      "decision": "retenue",
+      "reason": "Page contact lue. sie2@wanadoo.fr publié en clair (mailto), 03 87 84 02 10, rue du Port 57520 Grosbliederstroff, 35 ans. Le formulaire demande un objet mais aucune caractéristique du projet (type de bateau, dimensions, matériaux).",
+      "source_url": "https://www.57sie.com/fr/contact",
+      "source_type": "site_officiel"
+    },
+    {
+      "company": "ERM 27",
+      "domain": "erm27.fr",
+      "department": "27",
+      "sector": "affutage_industriel",
+      "decision": "approfondir",
+      "reason": "Page affûtage lue : contenu technique riche, 5 affûteuses, 30 ans. Adresse erm27@erm27.fr et horaires contradictoires vus en extrait seulement, non confirmés sur la page lue. Coquilles publiées (« dépouillent », « encarteurse »).",
+      "source_url": "https://erm27.fr/affutage-industriel/",
+      "source_type": "site_officiel"
+    },
+    {
+      "company": "Conception Hydraulique du Centre",
+      "domain": "conception-hydraulique-centre.fr",
+      "department": "18",
+      "sector": "hydraulique",
+      "decision": "approfondir",
+      "reason": "Constructeur à Mehun-sur-Yèvre, info@conception-hydraulique-centre.fr et 02 48 23 08 88 vus en extrait. Site non ouvert : rien de retenu comme preuve.",
+      "source_url": "https://www.conception-hydraulique-centre.fr/atelier-de-reparation-verins-hydrauliques/",
+      "source_type": "site_officiel"
+    },
+    {
+      "company": "MIHS",
+      "domain": "mihs.fr",
+      "department": "34",
+      "sector": "hydraulique",
+      "decision": "approfondir",
+      "reason": "Saint-Aunès, info@mihs.fr et 04 67 70 17 10 vus en extrait seulement. Site non ouvert.",
+      "source_url": "https://www.mihs.fr/atelier-de-reparation-verins-hydrauliques/",
+      "source_type": "site_officiel"
+    },
+    {
+      "company": "Melun Hydraulique",
+      "domain": "",
+      "department": "77",
+      "sector": "hydraulique",
+      "decision": "non retenu",
+      "reason": "Cité dans une page tierce sans coordonnées ni site propres : non examiné faute d'identité établie.",
+      "source_url": "https://www.conception-hydraulique-centre.fr/atelier-de-reparation-verins-hydrauliques/",
+      "source_type": "autre"
+    },
+    {
+      "company": "AtelierD",
+      "domain": "atelierd.fr",
+      "department": "88",
+      "sector": "alternateurs_demarreurs",
+      "decision": "écartée",
+      "reason": "Déjà outillé : parcours de réparation en ligne complet avec paiement (19,90 € TTC), étiquette d'envoi et devis après diagnostic. Adresse vue en JSON-LD seulement.",
+      "source_url": "https://atelierd.fr/produit/alternateurs-demarreurs/services-alternateurs-demarreurs/reparation-alternateurs-demarreurs/reparation-alternateur-demarreur/",
+      "source_type": "site_officiel"
+    },
+    {
+      "company": "L'Atelier du Marin",
+      "domain": "latelierdumarin.com",
+      "department": "13",
+      "sector": "sellerie_nautique",
+      "decision": "écartée",
+      "reason": "Déjà outillé : le formulaire de contact qualifie le type de sellerie ET le type de bateau. C'est la prestation que nous aurions proposée. Adresse en JSON-LD seulement.",
+      "source_url": "https://latelierdumarin.com/contact/",
+      "source_type": "site_officiel"
+    },
+    {
+      "company": "AMT",
+      "domain": "amt.re",
+      "department": "974",
+      "sector": "alternateurs_demarreurs",
+      "decision": "écartée",
+      "reason": "Le site annonce lui-même « Lancement de notre nouveau site web » : pas de besoin de refonte. Aucune adresse e-mail publiée, téléphone seul.",
+      "source_url": "https://amt.re/",
+      "source_type": "site_officiel"
+    },
+    {
+      "company": "Atelier du Siège",
+      "domain": "atelierdusiege.com",
+      "department": "44",
+      "sector": "sellerie",
+      "decision": "approfondir",
+      "reason": "Nantes, certifié ISO. Partenaire nautique « disponible uniquement sur rendez-vous » à Pornic : ordonnancement manuel réel. Aucune adresse e-mail dans l'extrait, site non ouvert.",
+      "source_url": "https://www.atelierdusiege.com/particuliers-nautisme",
+      "source_type": "site_officiel"
+    },
+    {
+      "company": "La Châtaigneraie de Bel Air",
+      "domain": "lachataigneraiedebelair.fr",
+      "department": "23",
+      "sector": "pension_canine",
+      "decision": "approfondir",
+      "reason": "Accueil lu. Constat fort : « La réservation d'un séjour peut se faire par téléphone ou e-mail », et un avis Google publié SUR LEUR SITE dit « Un peu déçu que sa répond pas au téléphone quand on appelle ». Difficulté opérationnelle publiquement observable. Mais l'adresse contact@lachataigneraiedebelair.fr n'apparaît pas dans la page rendue : vue en extrait seulement, non retenue.",
+      "source_url": "https://lachataigneraiedebelair.fr/",
+      "source_type": "site_officiel"
+    },
+    {
+      "company": "Valcreuse",
+      "domain": "valcreuse.fr",
+      "department": "23",
+      "sector": "pension_canine",
+      "decision": "écartée",
+      "reason": "Déjà outillé : réservation de séjour en ligne avec accusé (« Votre réservation de séjour a été envoyée »). Adresse publiée avec parenthèses à retirer, donc non retenue de toute façon.",
+      "source_url": "https://valcreuse.fr/la-pension/la-pension-canine/tarifs-chiens/",
+      "source_type": "site_officiel"
+    },
+    {
+      "company": "Totem Bau",
+      "domain": "totembau.com",
+      "department": "03",
+      "sector": "pension_canine",
+      "decision": "écartée",
+      "reason": "Déjà outillé : fiche de réservation et fiche de prise en charge en ligne, SIRET et certifications affichés. Léger défaut d'affichage (« SIR ET », « EXP L ») insuffisant pour une opportunité.",
+      "source_url": "https://totembau.com/",
+      "source_type": "site_officiel"
+    },
+    {
+      "company": "Anim'Hôtel",
+      "domain": "anim-hotel.fr",
+      "department": "03",
+      "sector": "pension_canine",
+      "decision": "approfondir",
+      "reason": "contact@anim-hotel.fr vu uniquement sur sa page Facebook : source non officielle, adresse non retenue. Site officiel non ouvert.",
+      "source_url": "https://www.facebook.com/AnimHotel03/",
+      "source_type": "page_professionnelle"
+    },
+    {
+      "company": "1000 CANI",
+      "domain": "1000cani.fr",
+      "department": "23",
+      "sector": "pension_canine",
+      "decision": "approfondir",
+      "reason": "La Nouaille. Téléphone en clair et invitation à appeler ; adresse pensionmillecani23@gmail.com en JSON-LD seulement, donc non retenue.",
+      "source_url": "https://1000cani.fr/",
+      "source_type": "site_officiel"
+    }
+  ]
+}

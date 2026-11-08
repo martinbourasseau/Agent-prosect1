@@ -180,10 +180,66 @@ ici avec assertions sur chaque ancre.
       **Aucune référence commerciale citée** : la bibliothèque ne documente pas
       ce que groupebourasseau.com / synatrap.com démontrent ; les présenter
       comme une réalisation comparable serait une invention.
-- [ ] **D** 47 structures restantes
-- [ ] **E** 38 fiches non réexaminées
-- [ ] **F** 8 pistes à approfondir
-- [ ] **G** Nouvel audit Gmail
-- [ ] **H** Sécurité (vérification continue)
-- [ ] **I** Tests + contrôles 1-10
-- [ ] **J** Rapport final de seconde passe
+- [~] **D** **20 structures examinées sur 47 — objectif NON atteint, assumé.**
+      2 qualifiées et importées : **Ouest Affûtage** (22, `refonte 89`, haute 71,
+      lien e-mail en `email:` au lieu de `mailto:`) et **Sellerie Industrielle
+      de l'Est** (57, moyenne 50). 6 écartées, 7 à approfondir, 5 non retenues.
+      **NE PAS REFAIRE ces 20 décisions** : `lot10-suite-exploration-2026-11-07.json`.
+      **27 structures restent.** Les 13 recherches antérieures n'ont pas été refaites.
+      **DÉCOUVERTE MÉTHODE : les requêtes « besoin exprimé » sont structurellement
+      captées par les agences, MÊME avec `NEED_QUERY_EXCLUSIONS`** (Niort/Alençon/
+      Chambéry : 4 vendeurs, 0 prospect). Les agences citent les mots du prospect
+      dans leur argumentaire. Les exclusions lexicales ne peuvent pas corriger
+      cela : changer de canal (appels d'offres), pas de requête.
+- [x] **E** 38 entrées auditées — **correction factuelle : ce ne sont PAS des
+      fiches CRM**, mais 38 entrées du registre d'exploration jamais promues
+      (**0/38 au CRM**, vérifié aussi par nom approché). Donc ni score, ni
+      coordonnées, ni statut Gmail à auditer. Audit sur le motif de rejet :
+      annuaire seul 14, à revalider 13, déjà outillée 9, concurrent 2.
+      **11 à clore, 27 maintenues.** 0 doublon, 0 opposition, 0 dérive.
+      `audit-38-fiches-2026-11-07.json`. Aucune donnée historique modifiée.
+- [~] **F** 8 pistes traitées, **2 qualifiées — pas 8 prospects.**
+      **QUALIFIÉES** : Fermetures Leichnam 02 (email en clair ×2, **formulaire
+      Typeform FERMÉ** remplacé par la pub de l'éditeur, `refonte 81`) ·
+      Forages Berenguer 34 (`forageberenguer@orange.fr` en clair, formulaire
+      sans qualification). **ÉCARTÉES** : Atelier de Lutherie 78 (2 pages lues,
+      aucun email) · Abc Forage 34 (**déjà outillé**, devis qualifié) ·
+      Régis de Izarra 80 (2 pages, aucun email).
+      **ENCORE OUVERTES — ne refaire que l'étape indiquée** :
+      **Rhonalpe 01** → lire les mentions légales du site officiel (SIREN
+      751732702 ; rue René Nicod **fermée le 31/01/2025**, siège 1 rue Grandes
+      Roches ; email vu sur annuaire tiers seulement, NON retenu) ·
+      **Bossard 94** → lire la page Contact (accueil seul lu).
+      **SET AZUR 83** → identité levée, **SIREN 983435405, La Seyne-sur-Mer**,
+      aucun site officiel trouvé. `approfondissement-8-pistes-2026-11-07.json`.
+- [x] **G** Audit Gmail — `audit-gmail-seconde-passe-2026-11-07.json`.
+      Rebonds **et** oppositions : requêtes **exhaustives** (`complete:true`),
+      **1 chacune, les connues, 0 nouveauté**. 0 réponse humaine, 0 demande
+      commerciale, 0 challenge nouveau. 10 brouillons de prospection, anciens
+      5 intacts. **PIÈGE DOCUMENTÉ : exclure son propre expéditeur** — une
+      requête sur « ne pas me relancer » matche nos propres emails, qui
+      contiennent tous cette formule. Mailinblack **NON validé**.
+- [x] **H** Sécurité — `enabled=false`, `dry_run=true`, pré-vol **`(False, 3)`**,
+      liste de suppression 2, opposition Renarde maintenue. **0 envoi.**
+- [x] **I** **508 tests OK** (+10 livraison seconde passe). 257 JSON, 0 invalide.
+      **MD5 4/4 revérifiés APRÈS les tests** (aucune pollution). Dashboard
+      HTTP 302, login 302, API : 87 fiches / 16 qualifiables / priorités v9.
+      Deux invariants de test corrigés car trop forts (fiche postérieure à la
+      migration ⇒ trace de création, pas entrée de migration).
+- [x] **J** `docs/rapport-final-phase10-2026-11-07.md`, 10 parties.
+
+## État de fin — à lire avant toute reprise
+
+**CRM 87 fiches** (83 + 4), 100 % axes v8 + priorité `v9-priority`.
+**16 dossiers qualifiables / 87 (18 %)**. Priorités : haute 9, moyenne 51,
+basse 13, à approfondir 14. Registre d'exploration **100** structures.
+**58 départements, 13/13 régions.** File de validation **73**. **10 brouillons
+en attente, 0 envoi.** Les 4 nouvelles fiches sont au statut `nouveau`,
+**sans brouillon**.
+
+**NE PAS LANCER LE LOT 11.** Voir §10 du rapport final. Le déblocage réel est
+DNS + validation des brouillons, ce qui **exige l'accord de l'utilisateur**.
+Ensuite, sans coût : approfondir les 12 pistes ouvertes du registre (dont
+**La Châtaigneraie de Bel Air** 23 et **ERM 27**, où il ne manque que la page
+contact), puis les 27 structures restantes de D, **en sites officiels
+uniquement** (rendement 0,352 contre 0,029 pour les annuaires).

@@ -1,0 +1,50 @@
+{
+  "date": "2026-11-07",
+  "audit": "G — nouvel audit Gmail ciblé (seconde passe)",
+  "method": "Requêtes ciblées avec exclusion de notre propre courrier. Une requête large sur « ne pas me relancer » avait d'abord renvoyé nos propres messages : chaque email de prospection contient cette formule d'opposition. Toute requête d'opposition doit exclure l'expéditeur, sinon elle s'auto-déclenche.",
+  "queries": [
+    {
+      "q": "{from:mailer-daemon@googlemail.com from:postmaster subject:\"Delivery Status Notification\" subject:\"Undelivered Mail\"} newer_than:45d",
+      "complete": true,
+      "count": 1,
+      "finding": "Rebond dur connu, Séverine Lesourd, domaine introuvable. Aucun nouveau rebond."
+    },
+    {
+      "q": "-from:martin.bourasseau4@gmail.com -in:sent -in:drafts {\"ne pas me relancer\" \"ne plus me contacter\" \"merci de me retirer\" \"merci de ne plus me\" \"supprimez mon adresse\" \"retirez-moi\" \"cessez de m\"} newer_than:60d",
+      "complete": true,
+      "count": 1,
+      "finding": "Opposition Renarde / Nicolas Smets, message 1a1ada77bcf46db9. Aucune nouvelle opposition."
+    },
+    {
+      "q": "in:drafts",
+      "complete": false,
+      "count_sampled": 30,
+      "finding": "10 brouillons de prospection : 5 Label_8 (lot 10), 4 Label_7, 1 Label_6. Les 5 anciens sont intacts, aucun n'a été modifié."
+    },
+    {
+      "q": "in:inbox -from:martin.bourasseau4@gmail.com -category:promotions -category:social -category:updates newer_than:45d",
+      "complete": false,
+      "count_sampled": 40,
+      "finding": "Échantillon des 40 plus récents : newsletters, notifications de service et courrier personnel. Aucune réponse de prospect, aucune demande commerciale, aucun nouveau challenge. Recherche paginée : couverture non exhaustive, ne pas conclure à une absence absolue."
+    }
+  ],
+  "results": {
+    "nouvelles_reponses_humaines": 0,
+    "nouvelles_reponses_automatiques": 0,
+    "nouveaux_rebonds": 0,
+    "nouvelles_oppositions": 0,
+    "nouveaux_challenges": 0,
+    "demandes_devis": 0,
+    "demandes_tarifs": 0,
+    "demandes_rdv": 0
+  },
+  "protections": {
+    "opposition_renarde": "maintenue, statut opposition + liste de suppression",
+    "liste_suppression": 2,
+    "challenge_mailinblack": "NON validé, conformément à la consigne",
+    "brouillons_anciens": "5/5 intacts",
+    "nouveaux_envois": 0
+  },
+  "reconciliation": "Aucune écriture de réconciliation nécessaire : les 4 entrées existantes et les 60 envois journalisés sont inchangés (MD5 vérifiés 4/4 après la suite de tests). Rien n'a été écrasé.",
+  "limite_honnete": "Les deux requêtes décisives (rebonds, oppositions) sont exhaustives (complete:true). Les deux autres sont paginées : elles établissent l'absence de nouveauté sur l'échantillon récent, pas sur toute la boîte."
+}

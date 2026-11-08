@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-08T17:38:55+00:00",
-  "count": 83,
+  "updated_at": "2026-11-08T17:44:46+00:00",
+  "count": 87,
   "prospects": [
     {
       "company": "R Premium",
@@ -20030,6 +20030,969 @@
         "message_version": "v9",
         "variant": "lot10-individuel"
       }
+    },
+    {
+      "company": "Fermetures Leichnam",
+      "website": "https://fermetures-leichnam.fr/",
+      "domain": "fermetures-leichnam.fr",
+      "sector": "Fabricant et poseur de menuiseries et fermetures du bâtiment",
+      "city": "Saint-Quentin",
+      "department": "02",
+      "email": "contact@fermetures-leichnam.fr",
+      "phone": "03 23 67 96 68",
+      "need": "refonte",
+      "needs": [
+        "refonte",
+        "automatisation"
+      ],
+      "recommended_service": "un formulaire de demande de devis qui fonctionne et qualifie le projet de menuiserie",
+      "evidence": [
+        {
+          "kind": "parcours_incomplet",
+          "quote": "Bonjour :) Ce formulaire est maintenant fermé",
+          "detail": "Le formulaire de demande de devis intégré à la page Contact est fermé : le seul parcours de demande en ligne est inopérant.",
+          "source_url": "https://fermetures-leichnam.fr/contact/",
+          "source_type": "site_officiel",
+          "observed_at": "2026-11-07",
+          "verified_at": "2026-11-07",
+          "reliability": "haute",
+          "observed": true
+        },
+        {
+          "kind": "site_obsolete",
+          "quote": "Il aurait été génial, car il a été conçu avec Typeform. Qu'est-ce que Typeform ? Découvrez Typeform",
+          "detail": "À la place du formulaire, la page publie le texte promotionnel de l'éditeur, y compris une invitation à « Créez un typeform ».",
+          "source_url": "https://fermetures-leichnam.fr/contact/",
+          "source_type": "site_officiel",
+          "observed_at": "2026-11-07",
+          "verified_at": "2026-11-07",
+          "reliability": "haute",
+          "observed": true
+        },
+        {
+          "kind": "maturite_existante",
+          "quote": "Devis gratuit, conseils personnalisés, intervention à Saint-Quentin et dans tous les Hauts-de-France. Un fabricant menuisier à votre écoute.",
+          "detail": "Contre-signal : l'offre commerciale est claire, un magasin d'exposition existe et le téléphone est mis en avant. Le besoin porte sur le parcours de demande, pas sur le contenu.",
+          "source_url": "https://fermetures-leichnam.fr/contact/",
+          "source_type": "site_officiel",
+          "observed_at": "2026-11-07",
+          "verified_at": "2026-11-07",
+          "reliability": "haute",
+          "observed": true
+        },
+        {
+          "kind": "signal_confiance",
+          "quote": "contact@fermetures-leichnam.fr — 03 23 67 96 68 — 29, rue de la Pomme Rouge 02100 Saint-Quentin — FERMETURES DE L'AISNE",
+          "detail": "Adresse publiée en clair sous forme de lien mailto, deux fois. Raison sociale et adresse concordantes ; le registre indiquait 67, la société est bien dans l'Aisne (02).",
+          "source_url": "https://fermetures-leichnam.fr/contact/",
+          "source_type": "site_officiel",
+          "observed_at": "2026-11-07",
+          "verified_at": "2026-11-07",
+          "reliability": "haute",
+          "observed": true
+        }
+      ],
+      "source": "site_officiel",
+      "contact_name": "",
+      "contact_role": "",
+      "publication_date": "",
+      "email_verification": "verified",
+      "email_provenance": "publiee",
+      "email_verification_basis": "adresse citée sur source officielle datée",
+      "phone_verification": "verified",
+      "email_dns_status": "mx_ok",
+      "email_dns_checked_at": "2026-11-07",
+      "lot": "2026-11-07-approfondissement-pistes",
+      "discovered_at": "2026-11-07",
+      "created_at": "2026-11-07",
+      "updated_at": "2026-11-08T17:41:51+00:00",
+      "status": "nouveau",
+      "email_status": "nouveau",
+      "status_crm": "qualified",
+      "next_action": "rédiger un brouillon ; aucun envoi tant que le pré-vol bloque",
+      "justification": "https://fermetures-leichnam.fr/contact/",
+      "notes": "Piste de la section F, vérification manquante effectuée le 2026-11-07.",
+      "scores": {
+        "site_web": {
+          "axis": "site_web",
+          "score": 5,
+          "level": "faible",
+          "reasons": [
+            "un site est déjà en ligne : pas de création à proprement parler"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "un site existe déjà : la création n'est pas le bon service"
+          ],
+          "confidence": "moyenne",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": [],
+          "evaluated_at": "2026-11-08",
+          "signal_levels": {}
+        },
+        "refonte": {
+          "axis": "refonte",
+          "score": 81,
+          "level": "fort",
+          "reasons": [
+            "site existant à moderniser",
+            "+42 site_obsolete : « Il aurait été génial, car il a été conçu avec Typeform. Qu'est-ce que Typeform ? Découvrez Typeform » (https://fermetures-leichnam.fr/contact/)",
+            "+34 parcours_incomplet : « Bonjour :) Ce formulaire est maintenant fermé » (https://fermetures-leichnam.fr/contact/)"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "comportement sur mobile non vérifié",
+            "une seule page observée : vérifier le parcours de contact sur une seconde page"
+          ],
+          "confidence": "moyenne",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": [],
+          "evaluated_at": "2026-11-08",
+          "signal_levels": {}
+        },
+        "ia_automatisation": {
+          "axis": "ia_automatisation",
+          "score": 12,
+          "level": "faible",
+          "reasons": [
+            "+12 processus manuel signalé par le chercheur (type de preuve seul, volontairement plafonné)"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "aucun processus entrant décrit publiquement : observer comment arrivent et sont traitées les demandes (devis, réservation, dossier)",
+            "processus observé sur une seule page : confirmer sur une seconde source"
+          ],
+          "confidence": "moyenne",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": [],
+          "evaluated_at": "2026-11-08",
+          "signal_levels": {}
+        },
+        "priority": "haute",
+        "best_axis": "refonte",
+        "engine_version": "v8",
+        "evaluated_at": "2026-11-08",
+        "contactability": {
+          "email_present": true,
+          "email_verification": "verified",
+          "phone_present": false,
+          "decoded_address_unconfirmed": false,
+          "blockers": [],
+          "contactable": true
+        },
+        "opportunity_report": {
+          "automation": [],
+          "maturity": [],
+          "refonte": [],
+          "presence": []
+        }
+      },
+      "commercial": {
+        "value": 68,
+        "tier": "moyenne",
+        "signal_class": "observe",
+        "signal_class_label": "problème directement observé",
+        "relevance": "propose",
+        "relevance_factor": 1.0,
+        "matched_services": [],
+        "verified": false,
+        "base": 34,
+        "magnitude": 34,
+        "best_axis": "refonte",
+        "best_axis_score": 81,
+        "confidence": "haute",
+        "reasons": [
+          "problème directement observé : base 34",
+          "pertinence offre : propose (×1.00)",
+          "magnitude bornée : +34 (meilleur axe refonte = 81, plafond 42)"
+        ],
+        "counter_signals": [],
+        "driving_evidence": [
+          {
+            "quote": "Bonjour :) Ce formulaire est maintenant fermé",
+            "source_url": "https://fermetures-leichnam.fr/contact/",
+            "observed_at": "2026-11-07",
+            "verified_at": "2026-11-07",
+            "signal_level": "observe"
+          },
+          {
+            "quote": "Il aurait été génial, car il a été conçu avec Typeform. Qu'est-ce que Typeform ? Découvrez Typeform",
+            "source_url": "https://fermetures-leichnam.fr/contact/",
+            "observed_at": "2026-11-07",
+            "verified_at": "2026-11-07",
+            "signal_level": "observe"
+          },
+          {
+            "quote": "Devis gratuit, conseils personnalisés, intervention à Saint-Quentin et dans tous les Hauts-de-France. Un fabricant menuisier à votre écoute.",
+            "source_url": "https://fermetures-leichnam.fr/contact/",
+            "observed_at": "2026-11-07",
+            "verified_at": "2026-11-07",
+            "signal_level": "observe"
+          },
+          {
+            "quote": "contact@fermetures-leichnam.fr — 03 23 67 96 68 — 29, rue de la Pomme Rouge 02100 Saint-Quentin — FERMETURES DE L'AISNE",
+            "source_url": "https://fermetures-leichnam.fr/contact/",
+            "observed_at": "2026-11-07",
+            "verified_at": "2026-11-07",
+            "signal_level": "observe"
+          }
+        ],
+        "contactable": true,
+        "capped_by_contactability": false,
+        "floor_applied": false,
+        "evaluated_at": "2026-11-07",
+        "engine_version": "v9-priority"
+      },
+      "commercial_priority": "moyenne",
+      "commercial_value": 68,
+      "priority_engine_version": "v9-priority",
+      "tier": "moyenne",
+      "scoring_version": "v8",
+      "score": 81,
+      "id": "fermetures-leichnam",
+      "history": [
+        {
+          "at": "2026-11-07",
+          "action": "fiche_creee_piste_approfondie",
+          "reason": "Piste de la section F ; vérification manquante effectuée sur la source officielle. Évaluée directement en v9 (postérieure à la migration).",
+          "lot": "2026-11-07-approfondissement-pistes",
+          "source": "https://fermetures-leichnam.fr/contact/"
+        }
+      ]
+    },
+    {
+      "company": "Forages Berenguer",
+      "website": "https://www.foragemontpellier.fr/",
+      "domain": "foragemontpellier.fr",
+      "sector": "Forage d'eau, pompes immergées et géothermie",
+      "city": "Ceyras",
+      "department": "34",
+      "email": "forageberenguer@orange.fr",
+      "phone": "04 89 41 07 22",
+      "need": "automatisation",
+      "needs": [
+        "automatisation"
+      ],
+      "recommended_service": "une demande de devis qui qualifie le terrain, la profondeur et l'usage avant l'étude",
+      "evidence": [
+        {
+          "kind": "parcours_incomplet",
+          "quote": "Nom* / Prénom / Téléphone* / Email* / Message*",
+          "detail": "Le formulaire de devis ne demande ni profondeur envisagée, ni nature du terrain, ni difficulté d'accès, ni usage de l'eau : l'étude commence par des échanges supplémentaires.",
+          "source_url": "https://www.foragemontpellier.fr/contact",
+          "source_type": "site_officiel",
+          "observed_at": "2026-11-07",
+          "verified_at": "2026-11-07",
+          "reliability": "haute",
+          "observed": true
+        },
+        {
+          "kind": "processus_manuel",
+          "quote": "Suivi démarches administrative",
+          "detail": "L'entreprise prend en charge les démarches administratives du forage, travail de dossier répétitif réalisé à la main.",
+          "source_url": "https://www.foragemontpellier.fr/contact",
+          "source_type": "site_officiel",
+          "observed_at": "2026-11-07",
+          "verified_at": "2026-11-07",
+          "reliability": "haute",
+          "observed": true
+        },
+        {
+          "kind": "maturite_existante",
+          "quote": "Devis et déplacement gratuit — Travaux grande profondeur & accès difficile — Suivi des normes européennes & norme NFX10-999",
+          "detail": "Contre-signal : site entretenu, actualités récentes, panneau de consentement configuré, contenu technique riche. Le besoin n'est pas une refonte.",
+          "source_url": "https://www.foragemontpellier.fr/contact",
+          "source_type": "site_officiel",
+          "observed_at": "2026-11-07",
+          "verified_at": "2026-11-07",
+          "reliability": "haute",
+          "observed": true
+        },
+        {
+          "kind": "signal_confiance",
+          "quote": "Berenguer Forages — Route de l'Usine de la Planque — 34800 CEYRAS — forageberenguer@orange.fr — 04 89 41 07 22",
+          "detail": "Adresse publiée en clair dans le bloc de contact de la page devis, avec téléphone et adresse postale.",
+          "source_url": "https://www.foragemontpellier.fr/contact",
+          "source_type": "site_officiel",
+          "observed_at": "2026-11-07",
+          "verified_at": "2026-11-07",
+          "reliability": "haute",
+          "observed": true
+        }
+      ],
+      "source": "site_officiel",
+      "contact_name": "",
+      "contact_role": "",
+      "publication_date": "",
+      "email_verification": "verified",
+      "email_provenance": "publiee",
+      "email_verification_basis": "adresse citée sur source officielle datée",
+      "phone_verification": "verified",
+      "email_dns_status": "mx_ok",
+      "email_dns_checked_at": "2026-11-07",
+      "lot": "2026-11-07-approfondissement-pistes",
+      "discovered_at": "2026-11-07",
+      "created_at": "2026-11-07",
+      "updated_at": "2026-11-08T17:41:51+00:00",
+      "status": "nouveau",
+      "email_status": "nouveau",
+      "status_crm": "qualified",
+      "next_action": "rédiger un brouillon ; aucun envoi tant que le pré-vol bloque",
+      "justification": "https://www.foragemontpellier.fr/contact",
+      "notes": "Piste de la section F, vérification manquante effectuée le 2026-11-07.",
+      "scores": {
+        "site_web": {
+          "axis": "site_web",
+          "score": 5,
+          "level": "faible",
+          "reasons": [
+            "un site est déjà en ligne : pas de création à proprement parler"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "un site existe déjà : la création n'est pas le bon service"
+          ],
+          "confidence": "moyenne",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": [],
+          "evaluated_at": "2026-11-08",
+          "signal_levels": {}
+        },
+        "refonte": {
+          "axis": "refonte",
+          "score": 39,
+          "level": "faible",
+          "reasons": [
+            "site existant à moderniser",
+            "+34 parcours_incomplet : « Nom* / Prénom / Téléphone* / Email* / Message* » (https://www.foragemontpellier.fr/contact)"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "comportement sur mobile non vérifié",
+            "une seule page observée : vérifier le parcours de contact sur une seconde page"
+          ],
+          "confidence": "moyenne",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": [],
+          "evaluated_at": "2026-11-08",
+          "signal_levels": {}
+        },
+        "ia_automatisation": {
+          "axis": "ia_automatisation",
+          "score": 12,
+          "level": "faible",
+          "reasons": [
+            "+12 processus manuel signalé par le chercheur (type de preuve seul, volontairement plafonné)"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "aucun processus entrant décrit publiquement : observer comment arrivent et sont traitées les demandes (devis, réservation, dossier)",
+            "processus observé sur une seule page : confirmer sur une seconde source"
+          ],
+          "confidence": "moyenne",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": [],
+          "evaluated_at": "2026-11-08",
+          "signal_levels": {}
+        },
+        "priority": "basse",
+        "best_axis": "refonte",
+        "engine_version": "v8",
+        "evaluated_at": "2026-11-08",
+        "contactability": {
+          "email_present": true,
+          "email_verification": "verified",
+          "phone_present": false,
+          "decoded_address_unconfirmed": false,
+          "blockers": [],
+          "contactable": true
+        },
+        "opportunity_report": {
+          "automation": [],
+          "maturity": [],
+          "refonte": [],
+          "presence": []
+        }
+      },
+      "commercial": {
+        "value": 50,
+        "tier": "moyenne",
+        "signal_class": "observe",
+        "signal_class_label": "problème directement observé",
+        "relevance": "propose",
+        "relevance_factor": 1.0,
+        "matched_services": [],
+        "verified": false,
+        "base": 34,
+        "magnitude": 16,
+        "best_axis": "refonte",
+        "best_axis_score": 39,
+        "confidence": "haute",
+        "reasons": [
+          "problème directement observé : base 34",
+          "pertinence offre : propose (×1.00)",
+          "magnitude bornée : +16 (meilleur axe refonte = 39, plafond 42)"
+        ],
+        "counter_signals": [],
+        "driving_evidence": [
+          {
+            "quote": "Nom* / Prénom / Téléphone* / Email* / Message*",
+            "source_url": "https://www.foragemontpellier.fr/contact",
+            "observed_at": "2026-11-07",
+            "verified_at": "2026-11-07",
+            "signal_level": "observe"
+          },
+          {
+            "quote": "Suivi démarches administrative",
+            "source_url": "https://www.foragemontpellier.fr/contact",
+            "observed_at": "2026-11-07",
+            "verified_at": "2026-11-07",
+            "signal_level": "observe"
+          },
+          {
+            "quote": "Devis et déplacement gratuit — Travaux grande profondeur & accès difficile — Suivi des normes européennes & norme NFX10-999",
+            "source_url": "https://www.foragemontpellier.fr/contact",
+            "observed_at": "2026-11-07",
+            "verified_at": "2026-11-07",
+            "signal_level": "observe"
+          },
+          {
+            "quote": "Berenguer Forages — Route de l'Usine de la Planque — 34800 CEYRAS — forageberenguer@orange.fr — 04 89 41 07 22",
+            "source_url": "https://www.foragemontpellier.fr/contact",
+            "observed_at": "2026-11-07",
+            "verified_at": "2026-11-07",
+            "signal_level": "observe"
+          }
+        ],
+        "contactable": true,
+        "capped_by_contactability": false,
+        "floor_applied": false,
+        "evaluated_at": "2026-11-07",
+        "engine_version": "v9-priority"
+      },
+      "commercial_priority": "moyenne",
+      "commercial_value": 50,
+      "priority_engine_version": "v9-priority",
+      "tier": "moyenne",
+      "scoring_version": "v8",
+      "score": 39,
+      "id": "forages-berenguer",
+      "history": [
+        {
+          "at": "2026-11-07",
+          "action": "fiche_creee_piste_approfondie",
+          "reason": "Piste de la section F ; vérification manquante effectuée sur la source officielle. Évaluée directement en v9 (postérieure à la migration).",
+          "lot": "2026-11-07-approfondissement-pistes",
+          "source": "https://www.foragemontpellier.fr/contact"
+        }
+      ]
+    },
+    {
+      "company": "Ouest Affûtage",
+      "website": "https://ouestaffutage-22.fr/",
+      "domain": "ouestaffutage-22.fr",
+      "sector": "Affûtage industriel, fabrication et vente d'outils coupants",
+      "city": "Trégueux",
+      "department": "22",
+      "email": "saintbrieuc@ouestaffutage.com",
+      "phone": "02 96 94 58 54",
+      "need": "refonte",
+      "needs": [
+        "refonte",
+        "automatisation"
+      ],
+      "recommended_service": "une demande de tournée d'affûtage qui qualifie l'outil et la fréquence avant le premier échange",
+      "evidence": [
+        {
+          "kind": "site_obsolete",
+          "quote": "saintbrieuc@ouestaffutage.com",
+          "detail": "Le lien e-mail du pied de page est écrit « email:saintbrieuc@ouestaffutage.com » au lieu de « mailto: ». Le schéma n'est pas reconnu par les clients mail : ce lien ne fonctionne pas, alors que celui de l'en-tête est correct.",
+          "source_url": "https://ouestaffutage-22.fr/",
+          "source_type": "site_officiel",
+          "observed_at": "2026-11-07",
+          "verified_at": "2026-11-07",
+          "reliability": "haute",
+          "observed": true
+        },
+        {
+          "kind": "site_obsolete",
+          "quote": "SECTEUR NANTES — 02 96 94 58 54 — nantes@ouestaffutage.com",
+          "detail": "Le secteur Nantes publie le téléphone de Saint-Brieuc. Le secteur Rennes renvoie à technicboisnouvelle@orange.fr, domaine tiers sans rapport avec la marque : quatre adresses de contact sur trois domaines différents.",
+          "source_url": "https://ouestaffutage-22.fr/",
+          "source_type": "site_officiel",
+          "observed_at": "2026-11-07",
+          "verified_at": "2026-11-07",
+          "reliability": "haute",
+          "observed": true
+        },
+        {
+          "kind": "processus_manuel",
+          "quote": "Ouest Affûtage compte 11 salariés pour un affûtage de qualité, un service de tournées et une écoute disponible.",
+          "detail": "Service de tournées récurrentes chez les industriels ; la demande de rendez-vous passe par un formulaire de contact générique, sans description de l'outil ni de la fréquence.",
+          "source_url": "https://ouestaffutage-22.fr/",
+          "source_type": "site_officiel",
+          "observed_at": "2026-11-07",
+          "verified_at": "2026-11-07",
+          "reliability": "haute",
+          "observed": true
+        },
+        {
+          "kind": "maturite_existante",
+          "quote": "Créée par P.Turmel en 1979, la société rachetée par sa fille en 2006 continue à prospérer avec les mêmes valeurs : Qualité - Service - Disponibilité",
+          "detail": "Contre-signal : site structuré, panneau de consentement configuré (Matomo), pages par métier. Le besoin n'est pas une création de site.",
+          "source_url": "https://ouestaffutage-22.fr/",
+          "source_type": "site_officiel",
+          "observed_at": "2026-11-07",
+          "verified_at": "2026-11-07",
+          "reliability": "haute",
+          "observed": true
+        },
+        {
+          "kind": "signal_confiance",
+          "quote": "8 Av Pierre Mendes France 22950 Trégueux — 02 96 94 58 54 — saintbrieuc@ouestaffutage.com",
+          "detail": "Adresse publiée en clair avec un lien mailto valide dans le bloc adresse, répétée dans le bloc secteur Saint-Brieuc.",
+          "source_url": "https://ouestaffutage-22.fr/",
+          "source_type": "site_officiel",
+          "observed_at": "2026-11-07",
+          "verified_at": "2026-11-07",
+          "reliability": "haute",
+          "observed": true
+        }
+      ],
+      "source": "site_officiel",
+      "contact_name": "",
+      "contact_role": "",
+      "publication_date": "",
+      "email_verification": "verified",
+      "email_provenance": "publiee",
+      "email_verification_basis": "adresse citée sur source officielle datée",
+      "phone_verification": "verified",
+      "email_dns_status": "mx_ok",
+      "email_dns_checked_at": "2026-11-07",
+      "lot": "2026-11-07-lot10-suite",
+      "discovered_at": "2026-11-07",
+      "created_at": "2026-11-07",
+      "updated_at": "2026-11-08T17:44:46+00:00",
+      "status": "nouveau",
+      "email_status": "nouveau",
+      "status_crm": "qualified",
+      "next_action": "rédiger un brouillon ; aucun envoi tant que le pré-vol bloque",
+      "justification": "https://ouestaffutage-22.fr/",
+      "notes": "Lot 10 suite, piste sectorielle sur site officiel.",
+      "history": [
+        {
+          "at": "2026-11-07",
+          "action": "fiche_creee_lot10_suite",
+          "reason": "Structure examinée puis qualifiée : adresse publiée en clair sur source officielle relue.",
+          "source": "https://ouestaffutage-22.fr/"
+        }
+      ],
+      "scores": {
+        "site_web": {
+          "axis": "site_web",
+          "score": 5,
+          "level": "faible",
+          "reasons": [
+            "un site est déjà en ligne : pas de création à proprement parler"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "un site existe déjà : la création n'est pas le bon service"
+          ],
+          "confidence": "moyenne",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": [],
+          "evaluated_at": "2026-11-08",
+          "signal_levels": {}
+        },
+        "refonte": {
+          "axis": "refonte",
+          "score": 89,
+          "level": "fort",
+          "reasons": [
+            "site existant à moderniser",
+            "+42 site_obsolete : « saintbrieuc@ouestaffutage.com » (https://ouestaffutage-22.fr/)",
+            "+42 site_obsolete : « SECTEUR NANTES — 02 96 94 58 54 — nantes@ouestaffutage.com » (https://ouestaffutage-22.fr/)"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "comportement sur mobile non vérifié",
+            "une seule page observée : vérifier le parcours de contact sur une seconde page"
+          ],
+          "confidence": "moyenne",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": [],
+          "evaluated_at": "2026-11-08",
+          "signal_levels": {}
+        },
+        "ia_automatisation": {
+          "axis": "ia_automatisation",
+          "score": 12,
+          "level": "faible",
+          "reasons": [
+            "+12 processus manuel signalé par le chercheur (type de preuve seul, volontairement plafonné)"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "aucun processus entrant décrit publiquement : observer comment arrivent et sont traitées les demandes (devis, réservation, dossier)",
+            "processus observé sur une seule page : confirmer sur une seconde source"
+          ],
+          "confidence": "moyenne",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": [],
+          "evaluated_at": "2026-11-08",
+          "signal_levels": {}
+        },
+        "priority": "haute",
+        "best_axis": "refonte",
+        "engine_version": "v8",
+        "evaluated_at": "2026-11-08",
+        "contactability": {
+          "email_present": true,
+          "email_verification": "verified",
+          "phone_present": false,
+          "decoded_address_unconfirmed": false,
+          "blockers": [],
+          "contactable": true
+        },
+        "opportunity_report": {
+          "automation": [],
+          "maturity": [],
+          "refonte": [],
+          "presence": []
+        }
+      },
+      "commercial": {
+        "value": 71,
+        "tier": "haute",
+        "signal_class": "observe",
+        "signal_class_label": "problème directement observé",
+        "relevance": "propose",
+        "relevance_factor": 1.0,
+        "matched_services": [],
+        "verified": false,
+        "base": 34,
+        "magnitude": 37,
+        "best_axis": "refonte",
+        "best_axis_score": 89,
+        "confidence": "haute",
+        "reasons": [
+          "problème directement observé : base 34",
+          "pertinence offre : propose (×1.00)",
+          "magnitude bornée : +37 (meilleur axe refonte = 89, plafond 42)"
+        ],
+        "counter_signals": [],
+        "driving_evidence": [
+          {
+            "quote": "saintbrieuc@ouestaffutage.com",
+            "source_url": "https://ouestaffutage-22.fr/",
+            "observed_at": "2026-11-07",
+            "verified_at": "2026-11-07",
+            "signal_level": "observe"
+          },
+          {
+            "quote": "SECTEUR NANTES — 02 96 94 58 54 — nantes@ouestaffutage.com",
+            "source_url": "https://ouestaffutage-22.fr/",
+            "observed_at": "2026-11-07",
+            "verified_at": "2026-11-07",
+            "signal_level": "observe"
+          },
+          {
+            "quote": "Ouest Affûtage compte 11 salariés pour un affûtage de qualité, un service de tournées et une écoute disponible.",
+            "source_url": "https://ouestaffutage-22.fr/",
+            "observed_at": "2026-11-07",
+            "verified_at": "2026-11-07",
+            "signal_level": "observe"
+          },
+          {
+            "quote": "Créée par P.Turmel en 1979, la société rachetée par sa fille en 2006 continue à prospérer avec les mêmes valeurs : Qualité - Service - Disponibilité",
+            "source_url": "https://ouestaffutage-22.fr/",
+            "observed_at": "2026-11-07",
+            "verified_at": "2026-11-07",
+            "signal_level": "observe"
+          }
+        ],
+        "contactable": true,
+        "capped_by_contactability": false,
+        "floor_applied": false,
+        "evaluated_at": "2026-11-07",
+        "engine_version": "v9-priority"
+      },
+      "commercial_priority": "haute",
+      "commercial_value": 71,
+      "priority_engine_version": "v9-priority",
+      "tier": "haute",
+      "scoring_version": "v8",
+      "score": 89,
+      "id": "ouest-aff-tage"
+    },
+    {
+      "company": "Sellerie Industrielle de l'Est",
+      "website": "https://www.57sie.com/",
+      "domain": "57sie.com",
+      "sector": "Sellerie industrielle, nautique et aménagement sur mesure",
+      "city": "Grosbliederstroff",
+      "department": "57",
+      "email": "sie2@wanadoo.fr",
+      "phone": "03 87 84 02 10",
+      "need": "automatisation",
+      "needs": [
+        "automatisation"
+      ],
+      "recommended_service": "une demande de projet sellerie qui décrit le support et les dimensions avant le chiffrage",
+      "evidence": [
+        {
+          "kind": "parcours_incomplet",
+          "quote": "Nom et Prénom * / Sujet * / Entreprise / Raison sociale / E-mail * / Téléphone / Objet / Message *",
+          "detail": "Le formulaire distingue l'objet (informations, rappel, devis, témoignage) mais ne demande aucune caractéristique du projet : ni type de bateau ou de véhicule, ni dimensions, ni matériaux, ni usage. Tout le cadrage reste à faire par échange.",
+          "source_url": "https://www.57sie.com/fr/contact",
+          "source_type": "site_officiel",
+          "observed_at": "2026-11-07",
+          "verified_at": "2026-11-07",
+          "reliability": "haute",
+          "observed": true
+        },
+        {
+          "kind": "processus_manuel",
+          "quote": "Contactez-nous dès aujourd'hui pour nous faire part de votre besoin et obtenir un devis personnalisé dans le meilleur délai.",
+          "detail": "Devis personnalisé sur demande libre, pour des projets sur mesure très variables (nautique, automobile, médical, événementiel, commerce).",
+          "source_url": "https://www.57sie.com/fr/contact",
+          "source_type": "site_officiel",
+          "observed_at": "2026-11-07",
+          "verified_at": "2026-11-07",
+          "reliability": "haute",
+          "observed": true
+        },
+        {
+          "kind": "maturite_existante",
+          "quote": "Professionnel de la Sellerie Bateau depuis plus de 35 ans",
+          "detail": "Contre-signal : site multi-activités structuré, galerie de réalisations, formulaire avec antispam et mention RGPD. Le besoin porte sur la qualification, pas sur la refonte.",
+          "source_url": "https://www.57sie.com/fr/sellerie-bateau",
+          "source_type": "site_officiel",
+          "observed_at": "2026-11-07",
+          "verified_at": "2026-11-07",
+          "reliability": "haute",
+          "observed": true
+        },
+        {
+          "kind": "signal_confiance",
+          "quote": "Sellerie Industrielle de l'Est — rue du Port — 57520 Grosbliederstroff — France — 03 87 84 02 10 — sie2@wanadoo.fr",
+          "detail": "Adresse publiée en clair sous forme de lien mailto dans le bloc coordonnées de la page contact.",
+          "source_url": "https://www.57sie.com/fr/contact",
+          "source_type": "site_officiel",
+          "observed_at": "2026-11-07",
+          "verified_at": "2026-11-07",
+          "reliability": "haute",
+          "observed": true
+        }
+      ],
+      "source": "site_officiel",
+      "contact_name": "",
+      "contact_role": "",
+      "publication_date": "",
+      "email_verification": "verified",
+      "email_provenance": "publiee",
+      "email_verification_basis": "adresse citée sur source officielle datée",
+      "phone_verification": "verified",
+      "email_dns_status": "mx_ok",
+      "email_dns_checked_at": "2026-11-07",
+      "lot": "2026-11-07-lot10-suite",
+      "discovered_at": "2026-11-07",
+      "created_at": "2026-11-07",
+      "updated_at": "2026-11-08T17:44:46+00:00",
+      "status": "nouveau",
+      "email_status": "nouveau",
+      "status_crm": "qualified",
+      "next_action": "rédiger un brouillon ; aucun envoi tant que le pré-vol bloque",
+      "justification": "https://www.57sie.com/fr/contact",
+      "notes": "Lot 10 suite, piste sectorielle sur site officiel.",
+      "history": [
+        {
+          "at": "2026-11-07",
+          "action": "fiche_creee_lot10_suite",
+          "reason": "Structure examinée puis qualifiée : adresse publiée en clair sur source officielle relue.",
+          "source": "https://www.57sie.com/fr/contact"
+        }
+      ],
+      "scores": {
+        "site_web": {
+          "axis": "site_web",
+          "score": 5,
+          "level": "faible",
+          "reasons": [
+            "un site est déjà en ligne : pas de création à proprement parler"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "un site existe déjà : la création n'est pas le bon service"
+          ],
+          "confidence": "haute",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": [],
+          "evaluated_at": "2026-11-08",
+          "signal_levels": {}
+        },
+        "refonte": {
+          "axis": "refonte",
+          "score": 39,
+          "level": "faible",
+          "reasons": [
+            "site existant à moderniser",
+            "+34 parcours_incomplet : « Nom et Prénom * / Sujet * / Entreprise / Raison sociale / E-mail * / Téléphone / Objet / Message * » (https://www.57sie.com/fr/contact)"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "comportement sur mobile non vérifié",
+            "une seule page observée : vérifier le parcours de contact sur une seconde page"
+          ],
+          "confidence": "moyenne",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": [],
+          "evaluated_at": "2026-11-08",
+          "signal_levels": {}
+        },
+        "ia_automatisation": {
+          "axis": "ia_automatisation",
+          "score": 34,
+          "level": "faible",
+          "reasons": [
+            "+12 processus manuel signalé par le chercheur (type de preuve seul, volontairement plafonné)",
+            "+22 Devis établi ou transmis à la main — « Contactez-nous dès aujourd'hui pour nous faire part de votre besoin et obtenir un devis… » [motif : devis personnalise] (https://www.57sie.com/fr/contact)"
+          ],
+          "evidence": [
+            {
+              "signal": "devis_manuel",
+              "label": "Devis établi ou transmis à la main",
+              "weight": 26,
+              "matched_pattern": "devis personnalise",
+              "evidence_index": 1,
+              "source_url": "https://www.57sie.com/fr/contact",
+              "quote": "Contactez-nous dès aujourd'hui pour nous faire part de votre besoin et obtenir un devis personnalisé dans le meilleur délai.",
+              "observed": true,
+              "hypothetical": false,
+              "reliability": "haute"
+            }
+          ],
+          "missing_information": [
+            "processus observé sur une seule page : confirmer sur une seconde source"
+          ],
+          "confidence": "moyenne",
+          "observed_signals": [
+            "Devis établi ou transmis à la main"
+          ],
+          "hypothetical_signals": [],
+          "counter_signals": [],
+          "evaluated_at": "2026-11-08",
+          "signal_levels": {
+            "observe": 1
+          }
+        },
+        "priority": "basse",
+        "best_axis": "refonte",
+        "engine_version": "v8",
+        "evaluated_at": "2026-11-08",
+        "contactability": {
+          "email_present": true,
+          "email_verification": "verified",
+          "phone_present": false,
+          "decoded_address_unconfirmed": false,
+          "blockers": [],
+          "contactable": true
+        },
+        "opportunity_report": {
+          "automation": [
+            {
+              "signal": "devis_manuel",
+              "label": "Devis établi ou transmis à la main",
+              "weight": 26,
+              "matched_pattern": "devis personnalise",
+              "evidence_index": 1,
+              "source_url": "https://www.57sie.com/fr/contact",
+              "quote": "Contactez-nous dès aujourd'hui pour nous faire part de votre besoin et obtenir un devis personnalisé dans le meilleur délai.",
+              "observed": true,
+              "hypothetical": false,
+              "reliability": "haute"
+            }
+          ],
+          "maturity": [],
+          "refonte": [],
+          "presence": []
+        }
+      },
+      "commercial": {
+        "value": 50,
+        "tier": "moyenne",
+        "signal_class": "observe",
+        "signal_class_label": "problème directement observé",
+        "relevance": "propose",
+        "relevance_factor": 1.0,
+        "matched_services": [],
+        "verified": false,
+        "base": 34,
+        "magnitude": 16,
+        "best_axis": "refonte",
+        "best_axis_score": 39,
+        "confidence": "haute",
+        "reasons": [
+          "problème directement observé : base 34",
+          "pertinence offre : propose (×1.00)",
+          "magnitude bornée : +16 (meilleur axe refonte = 39, plafond 42)"
+        ],
+        "counter_signals": [],
+        "driving_evidence": [
+          {
+            "quote": "Nom et Prénom * / Sujet * / Entreprise / Raison sociale / E-mail * / Téléphone / Objet / Message *",
+            "source_url": "https://www.57sie.com/fr/contact",
+            "observed_at": "2026-11-07",
+            "verified_at": "2026-11-07",
+            "signal_level": "observe"
+          },
+          {
+            "quote": "Contactez-nous dès aujourd'hui pour nous faire part de votre besoin et obtenir un devis personnalisé dans le meilleur délai.",
+            "source_url": "https://www.57sie.com/fr/contact",
+            "observed_at": "2026-11-07",
+            "verified_at": "2026-11-07",
+            "signal_level": "observe"
+          },
+          {
+            "quote": "Professionnel de la Sellerie Bateau depuis plus de 35 ans",
+            "source_url": "https://www.57sie.com/fr/sellerie-bateau",
+            "observed_at": "2026-11-07",
+            "verified_at": "2026-11-07",
+            "signal_level": "observe"
+          },
+          {
+            "quote": "Sellerie Industrielle de l'Est — rue du Port — 57520 Grosbliederstroff — France — 03 87 84 02 10 — sie2@wanadoo.fr",
+            "source_url": "https://www.57sie.com/fr/contact",
+            "observed_at": "2026-11-07",
+            "verified_at": "2026-11-07",
+            "signal_level": "observe"
+          }
+        ],
+        "contactable": true,
+        "capped_by_contactability": false,
+        "floor_applied": false,
+        "evaluated_at": "2026-11-07",
+        "engine_version": "v9-priority"
+      },
+      "commercial_priority": "moyenne",
+      "commercial_value": 50,
+      "priority_engine_version": "v9-priority",
+      "tier": "moyenne",
+      "scoring_version": "v8",
+      "score": 39,
+      "id": "sellerie-industrielle-de-l-est"
     }
   ]
 }

@@ -18,6 +18,9 @@ from prospecto.planner import NEED_QUERIES, NEED_QUERY_EXCLUSIONS, SearchHistory
 from prospecto.scoring import scores_from_record
 from prospecto.sender import Sender
 from prospecto.sources import ExplorationLedger
+from prospecto.email_verify import BLOCKING_STATUSES
+
+DATA = config.DATA_DIR
 
 ROOT = Path(__file__).resolve().parent.parent
 LOT10 = "2026-11-07-lot10"
@@ -241,3 +244,106 @@ class SafetyTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class SecondePassePhase10Tests(unittest.TestCase):
+    """Contrôles de la seconde passe : pistes F, lot 10 suite, audit E."""
+
+    @classmethod
+    def setUpClass(cls):
+        cls.crm = CRM().records
+        cls.by_name = {r["company"]: r for r in cls.crm}
+
+    def test_les_quatre_nouvelles_fiches_ont_une_adresse_publiee_et_verifiee(self):
+        for name in ("Fermetures Leichnam", "Forages Berenguer", "Ouest Affûtage",
+                     "Sellerie Industrielle de l'Est"):
+            rec = self.by_name[name]
+            self.assertEqual(rec["email_verification"], "verified", name)
+            self.assertEqual(rec["email_provenance"], "publiee", name)
+            self.assertNotIn(rec["email_dns_status"], BLOCKING_STATUSES, name)
+            self.assertTrue(rec.get("department"), name)
+
+    def test_chaque_nouvelle_preuve_est_officielle_datee_et_citee(self):
+        for name in ("Fermetures Leichnam", "Forages Berenguer", "Ouest Affûtage",
+                     "Sellerie Industrielle de l'Est"):
+            for e in self.by_name[name]["evidence"]:
+                self.assertEqual(e["source_type"], "site_officiel", name)
+                self.assertEqual(e["reliability"], "haute", name)
+                self.assertTrue(e["observed"], name)
+                self.assertTrue(e["source_url"].startswith("http"), name)
+                self.assertTrue(e["quote"].strip(), name)
+                self.assertEqual(e["observed_at"], "2026-11-07", name)
+
+    def test_les_huit_pistes_ne_sont_pas_huit_prospects(self):
+        p = DATA / "history" / "approfondissement-8-pistes-2026-11-07.json"
+        d = json.loads(p.read_text(encoding="utf-8"))
+        self.assertEqual(d["examined"], 8)
+        self.assertEqual(d["qualified"], 2, "seules 2 des 8 pistes qualifient")
+        self.assertEqual(len(d["imported"]), 2)
+        self.assertGreater(d["rejected"], 0)
+        for dec in d["decisions"]:
+            self.assertTrue(dec["step_done"], dec["company"])
+            self.assertTrue(dec["source"].startswith("http"), dec["company"])
+
+    def test_une_adresse_vue_seulement_en_extrait_nest_pas_retenue(self):
+        d = json.loads((DATA / "history" / "approfondissement-8-pistes-2026-11-07.json")
+                       .read_text(encoding="utf-8"))
+        rh = next(x for x in d["decisions"] if x["company"].startswith("Rhonalpe"))
+        self.assertEqual(rh["decision"], "approfondir")
+        self.assertNotIn("Rhonalpe Étanchéité", self.by_name,
+                         "adresse vue sur annuaire tiers : ne doit pas entrer au CRM")
+
+    def test_le_lot10_suite_declare_son_objectif_non_atteint(self):
+        d = json.loads((DATA / "history" / "lot10-suite-exploration-2026-11-07.json")
+                       .read_text(encoding="utf-8"))
+        self.assertFalse(d["objective_reached"])
+        self.assertEqual(d["examined"], len(d["entries"]))
+        self.assertLess(d["examined"], d["objective"])
+        self.assertTrue(d["gap_reason"])
+        self.assertTrue(d["structural_finding"])
+
+    def test_une_structure_deja_outillee_est_ecartee(self):
+        d = json.loads((DATA / "history" / "lot10-suite-exploration-2026-11-07.json")
+                       .read_text(encoding="utf-8"))
+        for name in ("L'Atelier du Marin", "AtelierD", "Valcreuse", "Totem Bau"):
+            e = next(x for x in d["entries"] if x["company"] == name)
+            self.assertEqual(e["decision"], "écartée", name)
+            self.assertNotIn(name, self.by_name, name)
+
+    def test_audit_E_clarifie_que_ce_ne_sont_pas_des_fiches_CRM(self):
+        d = json.loads((DATA / "history" / "audit-38-fiches-2026-11-07.json")
+                       .read_text(encoding="utf-8"))
+        self.assertEqual(d["count"], 38)
+        self.assertEqual(d["in_crm"], 0)
+        self.assertTrue(d["clarification"])
+        self.assertEqual(d["promues_au_crm_depuis"], 0)
+        self.assertGreater(d["closables"], 0)
+        for r in d["entries"]:
+            self.assertTrue(r["categorie_rejet"], r["company"])
+            self.assertTrue(r["next_step"], r["company"])
+
+    def test_les_anciens_brouillons_et_les_journaux_sont_intacts(self):
+        d = json.loads((DATA / "messages" / "brouillons-2026-11-07-lot10.json")
+                       .read_text(encoding="utf-8"))
+        self.assertEqual(len(d["messages"]), 5)
+        self.assertTrue(d["deposited_to_gmail"])
+        for legacy in ("1a1b672541671292", "1a1b1b991300c965", "1a1b1b98459979b3",
+                       "1a1b1b9735345222", "1a1b16dee5899e57"):
+            self.assertNotIn(legacy, json.dumps(d["messages"]))
+
+    def test_aucun_envoi_supplementaire(self):
+        log = json.loads((DATA / "history" / "send-log.json").read_text(encoding="utf-8"))
+        entries = log if isinstance(log, list) else log.get("entries", [])
+        self.assertEqual(len(entries), 60, "aucun nouvel envoi en seconde passe")
+        for name in ("Fermetures Leichnam", "Forages Berenguer", "Ouest Affûtage",
+                     "Sellerie Industrielle de l'Est"):
+            self.assertEqual(self.by_name[name]["status"], "nouveau", name)
+
+    def test_le_pref_vol_bloque_toujours(self):
+        import shutil, tempfile
+        tmp = tempfile.mkdtemp()
+        target = Path(tmp) / "s.json"
+        shutil.copy(DATA / "campaigns" / "v4-settings.json", target)
+        ok, reasons = Sender(settings_path=target).preflight()[:2]
+        self.assertFalse(ok)
+        self.assertTrue(reasons)
