@@ -1,0 +1,157 @@
+{
+  "date": "2026-11-07",
+  "lot": "2026-11-07-lot10",
+  "section": "H",
+  "objective": "~60 structures examinées (objectif d'exploration, pas un quota de fiches)",
+  "examined": 13,
+  "objective_reached": false,
+  "gap_reason": "Le budget de recherche de cette phase a été consommé par l'approfondissement du lot 9 (section G) et par la vérification directe des sources. Le chiffre affiché est celui des structures réellement vues et décidées.",
+  "new_departments": [
+    "2A",
+    "2B",
+    "50",
+    "58",
+    "78",
+    "80",
+    "94"
+  ],
+  "decisions": {
+    "annuaire_seul": 2,
+    "retenue": 1,
+    "approfondir": 2,
+    "écartée": 8
+  },
+  "planner_defect_found": "Les requêtes « besoin exprimé » ne ramenaient que des agences web vendeuses de la prestation. Motifs reformulés et exclusions ajoutées.",
+  "entries": [
+    {
+      "company": "Alain Louis — Naturaliste taxidermiste",
+      "domain": "louis-alain-naturaliste.fr",
+      "department": "78",
+      "sector": "taxidermie",
+      "decision": "retenue",
+      "reason": "Site officiel lu, coordonnées en clair, gabarit non terminé (4 liens « Button »).",
+      "source_url": "https://www.louis-alain-naturaliste.fr/naturaliste-taxidermiste-gazeran",
+      "source_type": "site_officiel"
+    },
+    {
+      "company": "Régis de Izarra — Taxidermiste",
+      "domain": "taxidermiste-somme.fr",
+      "department": "80",
+      "sector": "taxidermie",
+      "decision": "approfondir",
+      "reason": "Site officiel lu. Signaux manuels forts (conseils de conservation donnés un par un, uniquement sur rendez-vous, colis express 24h, tannage 15 jours et séchage 3 mois). AUCUNE adresse e-mail publiée : non contactable en l'état.",
+      "source_url": "https://taxidermiste-somme.fr/",
+      "source_type": "site_officiel"
+    },
+    {
+      "company": "Bossard Philippe — Taxidermiste",
+      "domain": "naturaliste-taxidermiste-bossard.fr",
+      "department": "94",
+      "sector": "taxidermie",
+      "decision": "approfondir",
+      "reason": "Site officiel repéré, deux téléphones publiés. Adresse e-mail non vue : à chercher aux mentions légales.",
+      "source_url": "https://naturaliste-taxidermiste-bossard.fr/",
+      "source_type": "site_officiel"
+    },
+    {
+      "company": "Syndicat des Naturalistes et Taxidermistes de France",
+      "domain": "taxidermistes.fr",
+      "department": "50",
+      "sector": "syndicat",
+      "decision": "écartée",
+      "reason": "Organisation professionnelle, pas une entreprise cible.",
+      "source_url": "https://cnams-bfc.fr/metiers/naturaliste-taxidermiste-58",
+      "source_type": "autre"
+    },
+    {
+      "company": "ALP Construction",
+      "domain": "alp-construction.fr",
+      "department": "58",
+      "sector": "demolition_curage",
+      "decision": "écartée",
+      "reason": "Déjà outillée : devis en ligne, espace client, rappel programmé, devis sous 48 h. Deux domaines (.fr/.com) publiant deux adresses différentes — incohérence réelle mais entreprise déjà équipée.",
+      "source_url": "https://www.alp-construction.fr/depose-demolition-curage",
+      "source_type": "site_officiel"
+    },
+    {
+      "company": "La-demolition.fr",
+      "domain": "la-demolition.fr",
+      "department": "58",
+      "sector": "demolition_curage",
+      "decision": "écartée",
+      "reason": "Réseau de mise en relation déguisé en site d'artisan, pages par département, numéro non géographique.",
+      "source_url": "https://la-demolition.fr/Entreprise-de-demolition.departement.Ni%C3%A8vre.58.html",
+      "source_type": "autre"
+    },
+    {
+      "company": "Travaux.com",
+      "domain": "travaux.com",
+      "department": "58",
+      "sector": "plateforme",
+      "decision": "écartée",
+      "reason": "Plateforme de mise en relation, pas une entreprise cible.",
+      "source_url": "https://www.travaux.com/construction-renovation-maison/professionnel-corps-etat-constructeur-professionnels/nevers",
+      "source_type": "autre"
+    },
+    {
+      "company": "Horn Mickael",
+      "domain": "",
+      "department": "58",
+      "sector": "batiment",
+      "decision": "annuaire_seul",
+      "reason": "Vu uniquement dans un annuaire de professionnels ; aucun site officiel trouvé.",
+      "source_url": "https://www.travaux.com/construction-renovation-maison/professionnel-corps-etat-constructeur-professionnels/nevers",
+      "source_type": "annuaire_pro"
+    },
+    {
+      "company": "Grelet Eddy",
+      "domain": "",
+      "department": "58",
+      "sector": "batiment",
+      "decision": "annuaire_seul",
+      "reason": "Vu uniquement dans un annuaire de professionnels ; aucun site officiel trouvé.",
+      "source_url": "https://www.travaux.com/construction-renovation-maison/professionnel-corps-etat-constructeur-professionnels/nevers",
+      "source_type": "annuaire_pro"
+    },
+    {
+      "company": "Atelier Constant-Berger",
+      "domain": "atelier-constantberger.be",
+      "department": "",
+      "sector": "cidrerie_pressoir",
+      "decision": "écartée",
+      "reason": "Entreprise BELGE (Battice, +32) : hors périmètre France. Seule réponse de la requête pressoir à façon.",
+      "source_url": "https://atelier-constantberger.be/le-pressoir/",
+      "source_type": "site_officiel"
+    },
+    {
+      "company": "MS France Concept",
+      "domain": "msfranceconcept.fr",
+      "department": "2A",
+      "sector": "agence_web",
+      "decision": "écartée",
+      "reason": "Agence web : vendeur de la prestation, pas un prospect. pollution typique des requêtes « besoin exprimé ».",
+      "source_url": "https://msfranceconcept.fr/creation-site-internet-corse-sur-devis-2026/",
+      "source_type": "autre"
+    },
+    {
+      "company": "BONU",
+      "domain": "bonu.corsica",
+      "department": "2B",
+      "sector": "agence_web",
+      "decision": "écartée",
+      "reason": "Agence digitale : vendeur de la prestation, pas un prospect.",
+      "source_url": "https://bonu.corsica/agence-web-ajaccio",
+      "source_type": "autre"
+    },
+    {
+      "company": "L'Agence Corse",
+      "domain": "lagencecorse.fr",
+      "department": "2A",
+      "sector": "agence_web",
+      "decision": "écartée",
+      "reason": "Agence web : vendeur de la prestation, pas un prospect.",
+      "source_url": "https://lagencecorse.fr/creation-site-internet-pas-cher-ajaccio-bastia-corse",
+      "source_type": "autre"
+    }
+  ]
+}

@@ -67,13 +67,21 @@ PRIOR_RATE = 0.15
 PRIOR_STRENGTH = 8
 
 EXPRESSED_NEED_SOURCES = ("appel_projet", "presse_locale")
+# Ces requêtes ont d'abord été testées sans exclusion : elles ne ramenaient QUE
+# des agences web vendant la prestation ( Corse : 3 agences, 0 prospect). Le
+# bruit est structurel, pas accidentel — les agences optimisent précisément ces
+# formulations. Les exclusions et le filtre négatif sont donc obligatoires.
+NEED_QUERY_EXCLUSIONS = (
+    '-agence -"agence web" -freelance -prestataire -développeur -developpeur '
+    '-"création de site" -"creation de site" -refonte -devis-gratuit -tarifs'
+)
 NEED_QUERIES: tuple[str, ...] = (
-    '"recherche prestataire" site internet {city}',
-    '"nous recherchons" création site web {city}',
+    "\"nous recherchons quelqu'un\" site internet {city}",
+    '"notre site est obsolète" {city}',
+    "\"nous n'avons pas de site\" {city}",
     '"appel à candidatures" numérique {city}',
-    '"demande de devis" automatisation {city}',
-    'entreprise {city} "cherche à" refonte site',
-    '"nous souhaitons" automatiser {city}',
+    '"nous souhaitons automatiser" {city}',
+    '"nous cherchons un prestataire" {city}',
 )
 
 
@@ -352,7 +360,7 @@ class SearchPlanner:
                 break
             dept, city = territories[i % len(territories)]
             template = NEED_QUERIES[(i + offset) % len(NEED_QUERIES)]
-            query = template.format(city=city)
+            query = template.format(city=city) + " " + NEED_QUERY_EXCLUSIONS
             key = fingerprint(query)
             if key in used_queries or self.history.already_run(query):
                 continue

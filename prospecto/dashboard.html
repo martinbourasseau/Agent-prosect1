@@ -121,6 +121,7 @@ footer{border-top:1px solid var(--line);padding:22px 0;color:var(--dim);font-siz
     <button class="tab" data-tab="campaigns">Campagnes</button>
     <button class="tab" data-tab="sending">Envoi & Performance</button>
     <button class="tab" data-tab="deliverability">Délivrabilité & Lots</button>
+    <button class="tab" data-tab="pilotage">Pilotage & Recherche</button>
   </div>
 
   <section class="panel active" id="panel-prospects">
@@ -155,6 +156,21 @@ footer{border-top:1px solid var(--line);padding:22px 0;color:var(--dim);font-siz
   </section>
 
   <section class="panel" id="panel-campaigns"><div id="campList"></div></section>
+
+  <section class="panel" id="panel-pilotage">
+    <div class="grid2">
+      <div class="box"><h3>Qualification vérifiée</h3><div id="qualifBox"></div></div>
+      <div class="box"><h3>Couverture nationale</h3><div id="coverBox"></div></div>
+    </div>
+    <div class="box" style="margin-top:16px"><h3>Rendement des sources</h3>
+      <div class="sub">Qualifiés / examinés, lissé par un prior de 8 observations à 15 %. Une source jamais essayée reste préférée à une source mauvaise prouvée.</div>
+      <div style="overflow-x:auto" id="srcBox"></div></div>
+    <div class="grid2" style="margin-top:16px">
+      <div class="box"><h3>Revue du portefeuille</h3><div id="reviewBox"></div></div>
+      <div class="box"><h3>Lot 10 et audit Gmail</h3><div id="lot10Box"></div></div>
+    </div>
+    <div class="box" style="margin-top:16px"><h3>Ce qui bloque la qualification</h3><div id="blockBox"></div></div>
+  </section>
 
   <section class="panel" id="panel-deliverability">
     <div class="grid2">
@@ -372,6 +388,51 @@ function renderDeliverability(){
     kv(esc(b.company),`${esc(b.email)} — <span class="badge bad">${esc(b.status)}</span>`)).join("")
     :'<div class="sub">Aucune adresse bloquante détectée.</div>';
 }
+function renderPilotage(){
+  const m=METRICS||{}, q=m.qualification||{}, r=m.recherche||{}, v=m.revue_portefeuille||{};
+  const row=(k,val)=>`<div class="kv"><span>${esc(k)}</span><b>${esc(String(val))}</b></div>`;
+  const tbl=(head,rows)=>`<table><thead><tr>${head.map(h=>`<th>${esc(h)}</th>`).join("")}</tr></thead><tbody>${
+    rows.map(c=>`<tr>${c.map(x=>`<td>${esc(String(x))}</td>`).join("")}</tr>`).join("")}</tbody></table>`;
+
+  const rate=q.examined?Math.round(100*q.qualified/q.examined):0;
+  document.getElementById("qualifBox").innerHTML=
+    row("Fiches examinées",q.examined||0)+row("Dossiers qualifiables",`${q.qualified||0} (${rate} %)`)+
+    row("E-mails vérifiés sur preuve datée",q.email_verified||0)+
+    row("Téléphones vérifiés",q.phone_verified||0)+
+    Object.entries(q.email_provenance||{}).map(([k,n])=>row("Provenance · "+k,n)).join("");
+
+  const c=r.coverage||{};
+  document.getElementById("coverBox").innerHTML=
+    row("Départements explorés",c.department_count||0)+
+    row("Régions couvertes",`${c.region_count||0} / ${c.regions_total||13}`)+
+    row("Secteurs neufs disponibles",(c.fresh_sectors||[]).length)+
+    `<div class="sub" style="margin-top:8px">Jamais explorés : ${esc((c.never_explored||[]).join(", ")||"—")}</div>`;
+
+  document.getElementById("srcBox").innerHTML=tbl(
+    ["Source","Examinées","Retenues","Qualifiées","Brut","Lissé"],
+    (r.source_performance||[]).map(p=>[p.label||p.source_type,p.examined,p.retained,p.qualified,
+      p.examined?(p.raw_rate*100).toFixed(0)+" %":"—",(p.yield_score*100).toFixed(1)+" %"]));
+
+  const a=v.audit_phase10||{}, d=v.approfondissement_lot9||{};
+  document.getElementById("reviewBox").innerHTML=
+    row("Constats de l'audit",a.constats||0)+
+    Object.entries(a.par_tag||{}).map(([k,n])=>row(k.replaceAll("_"," "),n)).join("")+
+    `<div class="sub" style="margin-top:10px">Lot 9 : ${esc(String(d.reexaminees||0))} / ${esc(String(d.total||0))} réexaminées</div>`+
+    Object.entries(d.decisions||{}).map(([k,n])=>row("Lot 9 · "+k,n)).join("");
+
+  const l=v.lot10||{}, g=v.gmail_phase10||{};
+  document.getElementById("lot10Box").innerHTML=
+    row("Lot 10 · structures examinées",`${l.examinees||0} / ${l.objectif||60}`)+
+    row("Objectif atteint",l.objectif_atteint?"oui":"non")+
+    row("Nouveaux départements",(l.nouveaux_departements||[]).join(", ")||"—")+
+    `<div class="sub" style="margin-top:10px">Audit Gmail</div>`+
+    ["humain","automatique","rebond","challenge","opposition","nouveau_depuis_dernier_audit"]
+      .map(k=>row("Gmail · "+k,g[k]===undefined?"—":g[k])).join("");
+
+  document.getElementById("blockBox").innerHTML=tbl(["Blocage","Fiches"],
+    Object.entries(q.blocker_reasons||{}).sort((x,y)=>y[1]-x[1]));
+}
+
 function renderSending(){
   const c=METRICS._campaign||{},s=METRICS.sending||{},d=c.deliverability||{},lim=c.limits||{};
   document.getElementById("sendConfig").innerHTML=
@@ -394,7 +455,7 @@ async function refresh(){
   renderBanner();renderCards();
   PROS=await jget("/api/prospects");fillFilters();renderPros();
   QUEUE=await jget("/api/queue");renderQueue();
-  await renderReferences();await renderCampaigns();renderSending();renderDeliverability();
+  await renderReferences();await renderCampaigns();renderSending();renderDeliverability();renderPilotage();
 }
 document.querySelectorAll(".tab").forEach(t=>t.addEventListener("click",()=>{
   document.querySelectorAll(".tab").forEach(x=>x.classList.remove("active"));

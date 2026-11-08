@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-08T17:16:05+00:00",
-  "count": 82,
+  "updated_at": "2026-11-08T17:21:19+00:00",
+  "count": 83,
   "prospects": [
     {
       "company": "R Premium",
@@ -14962,6 +14962,190 @@
       "score": 39,
       "tier": "moyenne",
       "id": "tanch-it-nantaise"
+    },
+    {
+      "company": "Alain Louis — Naturaliste taxidermiste",
+      "website": "https://www.louis-alain-naturaliste.fr/",
+      "domain": "louis-alain-naturaliste.fr",
+      "sector": "Taxidermie et naturalisation d'animaux",
+      "city": "Gazeran",
+      "department": "78",
+      "contact_name": "Alain",
+      "contact_role": "Gérant",
+      "contact_name_source": "https://www.louis-alain-naturaliste.fr/naturaliste-taxidermiste-gazeran",
+      "email": "alain.louis.naturaliste@orange.fr",
+      "phone": "06 87 31 37 18",
+      "need": "refonte",
+      "needs": [
+        "refonte",
+        "automatisation"
+      ],
+      "recommended_service": "une demande de naturalisation qui décrit l'animal et l'état de la pièce avant le premier échange",
+      "custom_subject": "Alain Louis : quatre boutons de votre galerie s'appellent encore « Button »",
+      "custom_hook": "Sur votre page Naturaliste, les quatre visuels de la galerie portent un lien intitulé « Button » qui renvoie à la page elle-même.",
+      "process_hint": "appel préalable demandé avant toute visite ; demande de devis renvoyée vers la page contact ; aucune description structurée de l'animal à naturaliser",
+      "demo_detail": "une demande décrivant l'espèce, la taille et l'état de la pièce, reprise sans ressaisie avant le devis",
+      "evidence": [
+        {
+          "kind": "site_obsolete",
+          "quote": "Button",
+          "detail": "Les quatre visuels de la galerie portent un lien intitulé « Button », libellé de gabarit non renseigné, qui renvoie à la page courante.",
+          "source_url": "https://www.louis-alain-naturaliste.fr/naturaliste-taxidermiste-gazeran",
+          "source_type": "site_officiel",
+          "observed_at": "2026-11-07",
+          "verified_at": "2026-11-07",
+          "reliability": "haute",
+          "observed": true
+        },
+        {
+          "kind": "parcours_incomplet",
+          "quote": "DEMANDER UN DEVIS",
+          "detail": "Le bouton de devis renvoie à la page contact générique : aucun formulaire décrivant l'animal, sa taille ou l'état de la pièce.",
+          "source_url": "https://www.louis-alain-naturaliste.fr/naturaliste-taxidermiste-gazeran",
+          "source_type": "site_officiel",
+          "observed_at": "2026-11-07",
+          "verified_at": "2026-11-07",
+          "reliability": "haute",
+          "observed": true
+        },
+        {
+          "kind": "processus_manuel",
+          "quote": "Appeler avant de venir",
+          "detail": "Le premier contact est un appel téléphonique ; aucune prise de rendez-vous en ligne.",
+          "source_url": "https://www.louis-alain-naturaliste.fr/naturaliste-taxidermiste-gazeran",
+          "source_type": "site_officiel",
+          "observed_at": "2026-11-07",
+          "verified_at": "2026-11-07",
+          "reliability": "haute",
+          "observed": true
+        },
+        {
+          "kind": "signal_confiance",
+          "quote": "Alain Louis, naturaliste taxidermiste depuis plus de 50 ans, est installé à Gazeran en bordure de la forêt de Rambouillet dans les Yvelines.",
+          "detail": "Ancienneté publiée. Entité « MONSIEUR ALAIN LOUIS », 36 Résidence de la Gare, 78125 Gazeran.",
+          "source_url": "https://www.louis-alain-naturaliste.fr/naturaliste-taxidermiste-gazeran",
+          "source_type": "site_officiel",
+          "observed_at": "2026-11-07",
+          "verified_at": "2026-11-07",
+          "reliability": "haute",
+          "observed": true
+        },
+        {
+          "kind": "signal_confiance",
+          "quote": "Appelez-nous 06 87 31 37 18 — alain.louis.naturaliste@orange.fr — 36 Résidence de la Gare 78125 Gazeran",
+          "detail": "Adresse et téléphone publiés en clair, avec lien mailto, dans le bloc INFOS PRATIQUES.",
+          "source_url": "https://www.louis-alain-naturaliste.fr/naturaliste-taxidermiste-gazeran",
+          "source_type": "site_officiel",
+          "observed_at": "2026-11-07",
+          "verified_at": "2026-11-07",
+          "reliability": "haute",
+          "observed": true
+        }
+      ],
+      "source": "site_officiel",
+      "publication_date": "",
+      "email_verification": "verified",
+      "email_verification_basis": "adresse citée sur source officielle datée",
+      "email_provenance": "publiee",
+      "phone_verification": "verified",
+      "email_dns_status": "mx_ok",
+      "email_dns_detail": "2 MX publiés",
+      "email_dns_checked_at": "2026-11-07",
+      "lot": "2026-11-07-lot10",
+      "discovered_at": "2026-11-07",
+      "created_at": "2026-11-07",
+      "updated_at": "2026-11-08T17:21:19+00:00",
+      "status": "nouveau",
+      "email_status": "nouveau",
+      "status_crm": "qualified",
+      "next_action": "rédiger un brouillon ; aucun envoi tant que le pré-vol bloque",
+      "justification": "https://www.louis-alain-naturaliste.fr/naturaliste-taxidermiste-gazeran",
+      "notes": "Lot 10, piste sectorielle du planificateur (taxidermie).",
+      "scores": {
+        "site_web": {
+          "axis": "site_web",
+          "score": 5,
+          "level": "faible",
+          "reasons": [
+            "un site est déjà en ligne : pas de création à proprement parler"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "un site existe déjà : la création n'est pas le bon service"
+          ],
+          "confidence": "moyenne",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": [],
+          "evaluated_at": "2026-11-08",
+          "signal_levels": {}
+        },
+        "refonte": {
+          "axis": "refonte",
+          "score": 81,
+          "level": "fort",
+          "reasons": [
+            "site existant à moderniser",
+            "+42 site_obsolete : « Button » (https://www.louis-alain-naturaliste.fr/naturaliste-taxidermiste-gazeran)",
+            "+34 parcours_incomplet : « DEMANDER UN DEVIS » (https://www.louis-alain-naturaliste.fr/naturaliste-taxidermiste-gazeran)"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "comportement sur mobile non vérifié",
+            "une seule page observée : vérifier le parcours de contact sur une seconde page"
+          ],
+          "confidence": "moyenne",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": [],
+          "evaluated_at": "2026-11-08",
+          "signal_levels": {}
+        },
+        "ia_automatisation": {
+          "axis": "ia_automatisation",
+          "score": 12,
+          "level": "faible",
+          "reasons": [
+            "+12 processus manuel signalé par le chercheur (type de preuve seul, volontairement plafonné)"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "aucun processus entrant décrit publiquement : observer comment arrivent et sont traitées les demandes (devis, réservation, dossier)",
+            "ce qui est déjà automatisé n'est pas documenté (réservation en ligne, paiement, espace client, réponse automatique)",
+            "processus observé sur une seule page : confirmer sur une seconde source",
+            "le processus est affirmé dans process_hint mais aucune citation ne l'établit"
+          ],
+          "confidence": "moyenne",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": [],
+          "evaluated_at": "2026-11-08",
+          "signal_levels": {}
+        },
+        "priority": "haute",
+        "best_axis": "refonte",
+        "engine_version": "v8",
+        "evaluated_at": "2026-11-08",
+        "contactability": {
+          "email_present": true,
+          "email_verification": "verified",
+          "phone_present": false,
+          "decoded_address_unconfirmed": false,
+          "blockers": [],
+          "contactable": true
+        },
+        "opportunity_report": {
+          "automation": [],
+          "maturity": [],
+          "refonte": [],
+          "presence": []
+        }
+      },
+      "commercial_priority": "haute",
+      "scoring_version": "v8",
+      "score": 81,
+      "tier": "haute",
+      "id": "alain-louis-naturaliste-taxidermiste"
     }
   ]
 }

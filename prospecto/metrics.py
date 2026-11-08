@@ -172,7 +172,69 @@ def compute_metrics() -> dict[str, Any]:
     metrics["pipeline"] = pipeline_categories(metrics, queue.items)
     metrics["portefeuille"] = portfolio_categories(records)
     metrics["exploration"] = _exploration_overview()
+    metrics["qualification"] = _qualification_overview(records)
+    metrics["recherche"] = _search_overview(records)
+    metrics["revue_portefeuille"] = _review_overview()
     return metrics
+
+
+def _qualification_overview(records: list[dict[str, Any]]) -> dict[str, Any]:
+    """Section K — ce qui est réellement vérifié, et ce qui bloque."""
+    from .dossier import audit_portfolio
+    audit = audit_portfolio(records)
+    audit.pop("dossiers", None)          # la vue n'a pas besoin des 83 dossiers
+    return audit
+
+
+def _search_overview(records: list[dict[str, Any]]) -> dict[str, Any]:
+    """Section K — sources les plus performantes et couverture nationale."""
+    from .planner import SearchPlanner, SearchHistory
+    from .sources import ExplorationLedger
+    try:
+        planner = SearchPlanner(records, ExplorationLedger(), SearchHistory())
+    except (OSError, ValueError):
+        return {"note": "registre ou historique indisponible"}
+    ov = planner.overview()
+    ov["note"] = ("Rendement = qualifiés / examinés, lissé par un prior de 8 "
+                  "observations à 15 %. Une source jamais essayée reste "
+                  "préférée à une source mauvaise prouvée.")
+    return ov
+
+
+def _review_overview() -> dict[str, Any]:
+    """Section K — faux positifs, faux négatifs, décisions d'approfondissement.
+
+    Chiffres lus dans les archives réelles, jamais recalculés à la volée : la
+    revue est un constat daté, pas une estimation permanente.
+    """
+    out: dict[str, Any] = {}
+    audit_path = config.DATA_DIR / "history" / "audit-portefeuille-phase10.json"
+    if audit_path.exists():
+        raw = json.loads(audit_path.read_text(encoding="utf-8"))
+        findings = raw.get("findings") or raw.get("constats") or []
+        tags: dict[str, int] = {}
+        for f in findings:
+            for t in (f.get("tags") or []):
+                tags[t] = tags.get(t, 0) + 1
+        out["audit_phase10"] = {"constats": len(findings), "par_tag": tags}
+    deep = config.DATA_DIR / "history" / "approfondissement-lot9-2026-11-07.json"
+    if deep.exists():
+        raw = json.loads(deep.read_text(encoding="utf-8"))
+        out["approfondissement_lot9"] = {
+            "total": raw.get("total", 0), "reexaminees": raw.get("reviewed", 0),
+            "decisions": raw.get("decisions", {})}
+    lot10 = config.DATA_DIR / "history" / "lot10-exploration-2026-11-07.json"
+    if lot10.exists():
+        raw = json.loads(lot10.read_text(encoding="utf-8"))
+        out["lot10"] = {"examinees": raw.get("examined", 0),
+                        "objectif": 60, "objectif_atteint": raw.get("objective_reached", False),
+                        "decisions": raw.get("decisions", {}),
+                        "nouveaux_departements": raw.get("new_departments", [])}
+    gmail = config.DATA_DIR / "history" / "audit-gmail-phase10.json"
+    if gmail.exists():
+        raw = json.loads(gmail.read_text(encoding="utf-8"))
+        out["gmail_phase10"] = raw.get("classification", {})
+    return out
 
 
 # Ordre de priorité de la partition : une fiche ne tombe que dans une case.
