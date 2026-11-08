@@ -1,0 +1,3751 @@
+{
+  "date": "2026-11-07",
+  "engine_version": "v9-priority",
+  "write_to_crm": false,
+  "count": 83,
+  "tiers_before": {
+    "basse": 26,
+    "moyenne": 31,
+    "a_approfondir": 15,
+    "haute": 11
+  },
+  "tiers_after": {
+    "haute": 8,
+    "basse": 13,
+    "a_approfondir": 14,
+    "moyenne": 48
+  },
+  "remontees": 15,
+  "retrogradations": 1,
+  "hors_offre": 1,
+  "double_comptage": 0,
+  "axes_changes": 0,
+  "rows": [
+    {
+      "company": "R Premium",
+      "status": "contacté",
+      "lot": "2026-11-04-lot1",
+      "department": "92",
+      "axes": {
+        "site_web": 5,
+        "refonte": 25,
+        "ia_automatisation": 0
+      },
+      "best": 25,
+      "v8_priority": "basse",
+      "v9_value": 70,
+      "v9_tier": "haute",
+      "signal_class": "exprime_verifie",
+      "relevance": "propose",
+      "matched_services": [
+        "refonte"
+      ],
+      "verified": true,
+      "confidence": "haute",
+      "base": 58,
+      "magnitude": 10,
+      "capped": false,
+      "has_expressed": false,
+      "reasons": [
+        "plancher « besoin exprimé vérifié et pertinent » : 68 -> 70 (un site techniquement correct ne doit pas pénaliser une demande explicite)",
+        "besoin exprimé et vérifié : base 58",
+        "pertinence offre : propose (×1.00) — services concernés : refonte",
+        "magnitude bornée : +10 (meilleur axe refonte = 25, plafond 42)"
+      ],
+      "counter_signals": [],
+      "driving_evidence": [
+        {
+          "quote": "Bonjour, Je dirige R Premium, une entreprise de rénovation intérieure tous corps d'état… (projet 'Site WordPress, référencement et communication degitale', ouvert, budget 500–1000 €)",
+          "source_url": "https://www.codeur.com/pages/appel-offre",
+          "observed_at": "2026-11-03",
+          "verified_at": "2026-11-03",
+          "signal_level": "exprime"
+        },
+        {
+          "quote": "Site WordPress, référencement et communication degitale",
+          "source_url": "https://www.codeur.com/pages/appel-offre",
+          "observed_at": "2026-11-03",
+          "verified_at": "2026-11-03",
+          "signal_level": "exprime"
+        }
+      ]
+    },
+    {
+      "company": "Secteur 72",
+      "status": "contacté",
+      "lot": "2026-11-04-lot1",
+      "department": "72",
+      "axes": {
+        "site_web": 39,
+        "refonte": 25,
+        "ia_automatisation": 0
+      },
+      "best": 39,
+      "v8_priority": "basse",
+      "v9_value": 74,
+      "v9_tier": "haute",
+      "signal_class": "exprime_verifie",
+      "relevance": "propose",
+      "matched_services": [
+        "ia_automatisation",
+        "site_web"
+      ],
+      "verified": true,
+      "confidence": "haute",
+      "base": 58,
+      "magnitude": 16,
+      "capped": false,
+      "has_expressed": false,
+      "reasons": [
+        "besoin exprimé et vérifié : base 58",
+        "pertinence offre : propose (×1.00) — services concernés : ia_automatisation, site_web",
+        "magnitude bornée : +16 (meilleur axe site_web = 39, plafond 42)",
+        "termes hors offre relevés : reseaux sociaux"
+      ],
+      "counter_signals": [
+        "Paiement en ligne en place"
+      ],
+      "driving_evidence": [
+        {
+          "quote": "Nous recherchons un freelance pour animer les réseaux sociaux de Secteur 72, un projet de terrain d'airsoft en Sarthe… avec boutique en ligne d'équipement et une chaîne YouTube.",
+          "source_url": "https://www.codeur.com/projects/492309-e-commerce-et-site-web-vitrine",
+          "observed_at": "2026-11-03",
+          "verified_at": "2026-11-03",
+          "signal_level": "exprime"
+        },
+        {
+          "quote": "animer les réseaux sociaux de Secteur 72 ... avec boutique en ligne d'équipement",
+          "source_url": "https://www.codeur.com/projects/492309-e-commerce-et-site-web-vitrine",
+          "observed_at": "2026-11-03",
+          "verified_at": "2026-11-03",
+          "signal_level": "exprime"
+        }
+      ]
+    },
+    {
+      "company": "Multitech Assistance",
+      "status": "contacté",
+      "lot": "historique-gmail-antérieur",
+      "department": "",
+      "axes": {
+        "site_web": 5,
+        "refonte": 5,
+        "ia_automatisation": 0
+      },
+      "best": 5,
+      "v8_priority": "basse",
+      "v9_value": 10,
+      "v9_tier": "basse",
+      "signal_class": "hypothetique",
+      "relevance": "propose",
+      "matched_services": [],
+      "verified": false,
+      "confidence": "faible",
+      "base": 8,
+      "magnitude": 2,
+      "capped": false,
+      "has_expressed": false,
+      "reasons": [
+        "opportunité hypothétique : base 8",
+        "pertinence offre : propose (×1.00)",
+        "magnitude bornée : +2 (meilleur axe site_web = 5, plafond 42)"
+      ],
+      "counter_signals": [],
+      "driving_evidence": []
+    },
+    {
+      "company": "Garage Villedieu Automobiles",
+      "status": "contacté",
+      "lot": "historique-gmail-antérieur",
+      "department": "",
+      "axes": {
+        "site_web": 5,
+        "refonte": 5,
+        "ia_automatisation": 0
+      },
+      "best": 5,
+      "v8_priority": "basse",
+      "v9_value": 10,
+      "v9_tier": "basse",
+      "signal_class": "hypothetique",
+      "relevance": "propose",
+      "matched_services": [],
+      "verified": false,
+      "confidence": "faible",
+      "base": 8,
+      "magnitude": 2,
+      "capped": false,
+      "has_expressed": false,
+      "reasons": [
+        "opportunité hypothétique : base 8",
+        "pertinence offre : propose (×1.00)",
+        "magnitude bornée : +2 (meilleur axe site_web = 5, plafond 42)"
+      ],
+      "counter_signals": [],
+      "driving_evidence": []
+    },
+    {
+      "company": "Le Serrurier d'A Cote",
+      "status": "contacté",
+      "lot": "historique-gmail-antérieur",
+      "department": "",
+      "axes": {
+        "site_web": 5,
+        "refonte": 5,
+        "ia_automatisation": 0
+      },
+      "best": 5,
+      "v8_priority": "basse",
+      "v9_value": 10,
+      "v9_tier": "basse",
+      "signal_class": "hypothetique",
+      "relevance": "propose",
+      "matched_services": [],
+      "verified": false,
+      "confidence": "faible",
+      "base": 8,
+      "magnitude": 2,
+      "capped": false,
+      "has_expressed": false,
+      "reasons": [
+        "opportunité hypothétique : base 8",
+        "pertinence offre : propose (×1.00)",
+        "magnitude bornée : +2 (meilleur axe site_web = 5, plafond 42)"
+      ],
+      "counter_signals": [],
+      "driving_evidence": []
+    },
+    {
+      "company": "Superchi Architectes",
+      "status": "contacté",
+      "lot": "historique-gmail-antérieur",
+      "department": "",
+      "axes": {
+        "site_web": 5,
+        "refonte": 5,
+        "ia_automatisation": 0
+      },
+      "best": 5,
+      "v8_priority": "basse",
+      "v9_value": 10,
+      "v9_tier": "basse",
+      "signal_class": "hypothetique",
+      "relevance": "propose",
+      "matched_services": [],
+      "verified": false,
+      "confidence": "faible",
+      "base": 8,
+      "magnitude": 2,
+      "capped": false,
+      "has_expressed": false,
+      "reasons": [
+        "opportunité hypothétique : base 8",
+        "pertinence offre : propose (×1.00)",
+        "magnitude bornée : +2 (meilleur axe site_web = 5, plafond 42)"
+      ],
+      "counter_signals": [],
+      "driving_evidence": []
+    },
+    {
+      "company": "L'Etabli du Menuisier",
+      "status": "contacté",
+      "lot": "historique-gmail-antérieur",
+      "department": "",
+      "axes": {
+        "site_web": 5,
+        "refonte": 5,
+        "ia_automatisation": 0
+      },
+      "best": 5,
+      "v8_priority": "basse",
+      "v9_value": 10,
+      "v9_tier": "basse",
+      "signal_class": "hypothetique",
+      "relevance": "propose",
+      "matched_services": [],
+      "verified": false,
+      "confidence": "faible",
+      "base": 8,
+      "magnitude": 2,
+      "capped": false,
+      "has_expressed": false,
+      "reasons": [
+        "opportunité hypothétique : base 8",
+        "pertinence offre : propose (×1.00)",
+        "magnitude bornée : +2 (meilleur axe site_web = 5, plafond 42)"
+      ],
+      "counter_signals": [],
+      "driving_evidence": []
+    },
+    {
+      "company": "Quattro Architectes",
+      "status": "contacté",
+      "lot": "historique-gmail-antérieur",
+      "department": "",
+      "axes": {
+        "site_web": 5,
+        "refonte": 5,
+        "ia_automatisation": 0
+      },
+      "best": 5,
+      "v8_priority": "basse",
+      "v9_value": 10,
+      "v9_tier": "basse",
+      "signal_class": "hypothetique",
+      "relevance": "propose",
+      "matched_services": [],
+      "verified": false,
+      "confidence": "faible",
+      "base": 8,
+      "magnitude": 2,
+      "capped": false,
+      "has_expressed": false,
+      "reasons": [
+        "opportunité hypothétique : base 8",
+        "pertinence offre : propose (×1.00)",
+        "magnitude bornée : +2 (meilleur axe site_web = 5, plafond 42)"
+      ],
+      "counter_signals": [],
+      "driving_evidence": []
+    },
+    {
+      "company": "The Architectes",
+      "status": "contacté",
+      "lot": "historique-gmail-antérieur",
+      "department": "",
+      "axes": {
+        "site_web": 5,
+        "refonte": 5,
+        "ia_automatisation": 0
+      },
+      "best": 5,
+      "v8_priority": "basse",
+      "v9_value": 10,
+      "v9_tier": "basse",
+      "signal_class": "hypothetique",
+      "relevance": "propose",
+      "matched_services": [],
+      "verified": false,
+      "confidence": "faible",
+      "base": 8,
+      "magnitude": 2,
+      "capped": false,
+      "has_expressed": false,
+      "reasons": [
+        "opportunité hypothétique : base 8",
+        "pertinence offre : propose (×1.00)",
+        "magnitude bornée : +2 (meilleur axe site_web = 5, plafond 42)"
+      ],
+      "counter_signals": [],
+      "driving_evidence": []
+    },
+    {
+      "company": "Akla Architectes",
+      "status": "contacté",
+      "lot": "historique-gmail-antérieur",
+      "department": "",
+      "axes": {
+        "site_web": 5,
+        "refonte": 5,
+        "ia_automatisation": 0
+      },
+      "best": 5,
+      "v8_priority": "basse",
+      "v9_value": 10,
+      "v9_tier": "basse",
+      "signal_class": "hypothetique",
+      "relevance": "propose",
+      "matched_services": [],
+      "verified": false,
+      "confidence": "faible",
+      "base": 8,
+      "magnitude": 2,
+      "capped": false,
+      "has_expressed": false,
+      "reasons": [
+        "opportunité hypothétique : base 8",
+        "pertinence offre : propose (×1.00)",
+        "magnitude bornée : +2 (meilleur axe site_web = 5, plafond 42)"
+      ],
+      "counter_signals": [],
+      "driving_evidence": []
+    },
+    {
+      "company": "BSP Auto",
+      "status": "auto_reply",
+      "lot": "2026-11-04-lot1",
+      "department": "75",
+      "axes": {
+        "site_web": 5,
+        "refonte": 15,
+        "ia_automatisation": 0
+      },
+      "best": 15,
+      "v8_priority": "basse",
+      "v9_value": 70,
+      "v9_tier": "haute",
+      "signal_class": "exprime_verifie",
+      "relevance": "propose",
+      "matched_services": [
+        "ia_automatisation"
+      ],
+      "verified": true,
+      "confidence": "haute",
+      "base": 58,
+      "magnitude": 6,
+      "capped": false,
+      "has_expressed": false,
+      "reasons": [
+        "plancher « besoin exprimé vérifié et pertinent » : 64 -> 70 (un site techniquement correct ne doit pas pénaliser une demande explicite)",
+        "besoin exprimé et vérifié : base 58",
+        "pertinence offre : propose (×1.00) — services concernés : ia_automatisation",
+        "magnitude bornée : +6 (meilleur axe refonte = 15, plafond 42)"
+      ],
+      "counter_signals": [],
+      "driving_evidence": [
+        {
+          "quote": "la conception entière d'une newsletter envoyé chaque mois ... à destination de nos agences de voyages clientes",
+          "source_url": "https://www.codeur.com/projects/492305-newsletter-location-de-voiture",
+          "observed_at": "2026-11-03",
+          "verified_at": "2026-11-03",
+          "signal_level": "exprime"
+        }
+      ]
+    },
+    {
+      "company": "CERF Athletic Training",
+      "status": "contacté",
+      "lot": "2026-11-04-lot1",
+      "department": "44",
+      "axes": {
+        "site_web": 5,
+        "refonte": 5,
+        "ia_automatisation": 0
+      },
+      "best": 5,
+      "v8_priority": "basse",
+      "v9_value": 20,
+      "v9_tier": "basse",
+      "signal_class": "indirect",
+      "relevance": "propose",
+      "matched_services": [],
+      "verified": false,
+      "confidence": "haute",
+      "base": 18,
+      "magnitude": 2,
+      "capped": false,
+      "has_expressed": false,
+      "reasons": [
+        "signal indirect : base 18",
+        "pertinence offre : propose (×1.00)",
+        "magnitude bornée : +2 (meilleur axe site_web = 5, plafond 42)"
+      ],
+      "counter_signals": [],
+      "driving_evidence": [
+        {
+          "quote": "l'objectif de la première année serait d'atteindre une centaine d'adhérents",
+          "source_url": "https://actu.fr/pays-de-la-loire/mouzillon_44108/elle-va-ouvrir-dans-le-vignoble-nantais-que-propose-cette-salle-de-sport-qui-defend-une-autre-approche_64655582.html",
+          "observed_at": "2026-08-12",
+          "verified_at": "2026-08-12",
+          "signal_level": "indirect"
+        }
+      ]
+    },
+    {
+      "company": "Charme de l'Hêtre",
+      "status": "contacté",
+      "lot": "2026-11-04-lot1",
+      "department": "50",
+      "axes": {
+        "site_web": 0,
+        "refonte": 0,
+        "ia_automatisation": 0
+      },
+      "best": 0,
+      "v8_priority": "moyenne",
+      "v9_value": 18,
+      "v9_tier": "basse",
+      "signal_class": "indirect",
+      "relevance": "propose",
+      "matched_services": [],
+      "verified": false,
+      "confidence": "haute",
+      "base": 18,
+      "magnitude": 0,
+      "capped": false,
+      "has_expressed": false,
+      "reasons": [
+        "signal indirect : base 18",
+        "pertinence offre : propose (×1.00)",
+        "magnitude bornée : +0 (meilleur axe site_web = 0, plafond 42)"
+      ],
+      "counter_signals": [],
+      "driving_evidence": [
+        {
+          "quote": "Depuis le 1er juillet, Chloé Poupinet a créé sa société, Charme de l'Hêtre",
+          "source_url": "https://actu.fr/normandie/la-chapelle-uree_50124/dans-le-sud-manche-elle-a-cree-son-entreprise-darboriste-grimpeuse-pour-mettre-en-valeur-les-vegetaux_64675166.html",
+          "observed_at": "2026-08-18",
+          "verified_at": "2026-08-18",
+          "signal_level": "indirect"
+        }
+      ]
+    },
+    {
+      "company": "Carot's",
+      "status": "nouveau",
+      "lot": "2026-11-03-v3",
+      "department": "27",
+      "axes": {
+        "site_web": 0,
+        "refonte": 0,
+        "ia_automatisation": 0
+      },
+      "best": 0,
+      "v8_priority": "a_approfondir",
+      "v9_value": 18,
+      "v9_tier": "basse",
+      "signal_class": "indirect",
+      "relevance": "propose",
+      "matched_services": [],
+      "verified": false,
+      "confidence": "haute",
+      "base": 18,
+      "magnitude": 0,
+      "capped": false,
+      "has_expressed": false,
+      "reasons": [
+        "signal indirect : base 18",
+        "pertinence offre : propose (×1.00)",
+        "magnitude bornée : +0 (meilleur axe site_web = 0, plafond 42)"
+      ],
+      "counter_signals": [],
+      "driving_evidence": [
+        {
+          "quote": "ont créé la société Carot's spécialisée dans la réalisation d'objets personnalisés et de décoration",
+          "source_url": "https://www.titrespresse.com/12235872503/leon-vatican-produits",
+          "observed_at": "2026-05-18",
+          "verified_at": "2026-05-18",
+          "signal_level": "indirect"
+        }
+      ]
+    },
+    {
+      "company": "Matabiau Locker Hub",
+      "status": "nouveau",
+      "lot": "2026-11-03-v3",
+      "department": "31",
+      "axes": {
+        "site_web": 34,
+        "refonte": 10,
+        "ia_automatisation": 34
+      },
+      "best": 34,
+      "v8_priority": "a_approfondir",
+      "v9_value": 72,
+      "v9_tier": "a_approfondir",
+      "signal_class": "exprime_verifie",
+      "relevance": "propose",
+      "matched_services": [
+        "ia_automatisation",
+        "site_web"
+      ],
+      "verified": true,
+      "confidence": "haute",
+      "base": 58,
+      "magnitude": 14,
+      "capped": true,
+      "has_expressed": false,
+      "reasons": [
+        "besoin exprimé et vérifié : base 58",
+        "pertinence offre : propose (×1.00) — services concernés : ia_automatisation, site_web",
+        "magnitude bornée : +14 (meilleur axe site_web = 34, plafond 42)",
+        "adresse non joignable : priorité plafonnée à « à approfondir » (la valeur commerciale est conservée telle quelle)"
+      ],
+      "counter_signals": [],
+      "driving_evidence": [
+        {
+          "quote": "je recherche une personne pour créer un site one-page simple, moderne et efficace pour ma consigne à bagages",
+          "source_url": "https://www.codeur.com/projects/492083-one-page-multilingue-pour-consigne-a-bagages-proche-gare",
+          "observed_at": "2026-11-02",
+          "verified_at": "2026-11-02",
+          "signal_level": "exprime"
+        }
+      ]
+    },
+    {
+      "company": "GELA",
+      "status": "nouveau",
+      "lot": "2026-11-03-v3",
+      "department": "",
+      "axes": {
+        "site_web": 0,
+        "refonte": 10,
+        "ia_automatisation": 34
+      },
+      "best": 34,
+      "v8_priority": "a_approfondir",
+      "v9_value": 72,
+      "v9_tier": "a_approfondir",
+      "signal_class": "exprime_verifie",
+      "relevance": "propose",
+      "matched_services": [
+        "ia_automatisation"
+      ],
+      "verified": true,
+      "confidence": "haute",
+      "base": 58,
+      "magnitude": 14,
+      "capped": true,
+      "has_expressed": false,
+      "reasons": [
+        "besoin exprimé et vérifié : base 58",
+        "pertinence offre : propose (×1.00) — services concernés : ia_automatisation",
+        "magnitude bornée : +14 (meilleur axe ia_automatisation = 34, plafond 42)",
+        "termes hors offre relevés : reseaux sociaux",
+        "adresse non joignable : priorité plafonnée à « à approfondir » (la valeur commerciale est conservée telle quelle)"
+      ],
+      "counter_signals": [],
+      "driving_evidence": [
+        {
+          "quote": "Marque de bijoux innovante GELA ... Gestion complète des réseaux sociaux",
+          "source_url": "https://www.codeur.com/projects/492271-social-media-manager-freelance-marque-de-bijoux-innovante-insta",
+          "observed_at": "2026-11-03",
+          "verified_at": "2026-11-03",
+          "signal_level": "exprime"
+        }
+      ]
+    },
+    {
+      "company": "Restaurant traditionnel des quais de Quimper",
+      "status": "nouveau",
+      "lot": "2026-11-04-v4",
+      "department": "29",
+      "axes": {
+        "site_web": 34,
+        "refonte": 10,
+        "ia_automatisation": 60
+      },
+      "best": 60,
+      "v8_priority": "a_approfondir",
+      "v9_value": 83,
+      "v9_tier": "a_approfondir",
+      "signal_class": "exprime_verifie",
+      "relevance": "propose",
+      "matched_services": [
+        "ia_automatisation",
+        "site_web"
+      ],
+      "verified": true,
+      "confidence": "haute",
+      "base": 58,
+      "magnitude": 25,
+      "capped": true,
+      "has_expressed": false,
+      "reasons": [
+        "besoin exprimé et vérifié : base 58",
+        "pertinence offre : propose (×1.00) — services concernés : ia_automatisation, site_web",
+        "magnitude bornée : +25 (meilleur axe ia_automatisation = 60, plafond 42)",
+        "adresse non joignable : priorité plafonnée à « à approfondir » (la valeur commerciale est conservée telle quelle)"
+      ],
+      "counter_signals": [],
+      "driving_evidence": [
+        {
+          "quote": "Nous ouvrons un restaurant traditionnel sur les Quais de Quimper, nous aurions besoin d'un site internet qui fait vitrine, avec les cartes, les horaires, un module de réservation intégré (avec notre logiciel de caisse). Nous ne souhaitons pas d'abonnement mensuel.",
+          "source_url": "https://www.codeur.com/projects/492351-nous-ouvrons-un-restaurant-traditionnel-sur-les-quais-de-quimper",
+          "observed_at": "2026-11-04",
+          "verified_at": "2026-11-04",
+          "signal_level": "exprime"
+        }
+      ]
+    },
+    {
+      "company": "Parfumerie indépendante de Paris",
+      "status": "nouveau",
+      "lot": "2026-11-04-v4",
+      "department": "75",
+      "axes": {
+        "site_web": 34,
+        "refonte": 10,
+        "ia_automatisation": 0
+      },
+      "best": 34,
+      "v8_priority": "a_approfondir",
+      "v9_value": 72,
+      "v9_tier": "a_approfondir",
+      "signal_class": "exprime_verifie",
+      "relevance": "propose",
+      "matched_services": [
+        "site_web"
+      ],
+      "verified": true,
+      "confidence": "haute",
+      "base": 58,
+      "magnitude": 14,
+      "capped": true,
+      "has_expressed": false,
+      "reasons": [
+        "besoin exprimé et vérifié : base 58",
+        "pertinence offre : propose (×1.00) — services concernés : site_web",
+        "magnitude bornée : +14 (meilleur axe site_web = 34, plafond 42)",
+        "adresse non joignable : priorité plafonnée à « à approfondir » (la valeur commerciale est conservée telle quelle)"
+      ],
+      "counter_signals": [],
+      "driving_evidence": [
+        {
+          "quote": "Nous sommes une parfumerie indépendante située à Paris et recherchons un freelance ou une petite agence pour créer notre boutique Shopify de parfums, avec vente en France et dans certains pays de l'Union européenne.",
+          "source_url": "https://www.codeur.com/projects/492346-creation-site-shopify-150-produits-caisse-pos-solpay-et-formation",
+          "observed_at": "2026-11-04",
+          "verified_at": "2026-11-04",
+          "signal_level": "exprime"
+        }
+      ]
+    },
+    {
+      "company": "Organisme de formation — relance prospects",
+      "status": "nouveau",
+      "lot": "2026-11-04-v4",
+      "department": "",
+      "axes": {
+        "site_web": 0,
+        "refonte": 10,
+        "ia_automatisation": 34
+      },
+      "best": 34,
+      "v8_priority": "a_approfondir",
+      "v9_value": 72,
+      "v9_tier": "a_approfondir",
+      "signal_class": "exprime_verifie",
+      "relevance": "propose",
+      "matched_services": [
+        "ia_automatisation"
+      ],
+      "verified": true,
+      "confidence": "haute",
+      "base": 58,
+      "magnitude": 14,
+      "capped": true,
+      "has_expressed": false,
+      "reasons": [
+        "besoin exprimé et vérifié : base 58",
+        "pertinence offre : propose (×1.00) — services concernés : ia_automatisation",
+        "magnitude bornée : +14 (meilleur axe ia_automatisation = 34, plafond 42)",
+        "adresse non joignable : priorité plafonnée à « à approfondir » (la valeur commerciale est conservée telle quelle)"
+      ],
+      "counter_signals": [],
+      "driving_evidence": [
+        {
+          "quote": "Je dirige un organisme de formation... Je souhaite pouvoir catégoriser chaque appel ou prospect... les relances correspondantes doivent se déclencher automatiquement... sans intervention manuelle de ma part.",
+          "source_url": "https://www.codeur.com/projects/492349-application-de-relance-prospects-par-sms-et-message-vocaux-ia",
+          "observed_at": "2026-11-04",
+          "verified_at": "2026-11-04",
+          "signal_level": "exprime"
+        }
+      ]
+    },
+    {
+      "company": "Activité de revente Vinted — outil IA",
+      "status": "nouveau",
+      "lot": "2026-11-04-v4",
+      "department": "",
+      "axes": {
+        "site_web": 0,
+        "refonte": 10,
+        "ia_automatisation": 34
+      },
+      "best": 34,
+      "v8_priority": "a_approfondir",
+      "v9_value": 72,
+      "v9_tier": "a_approfondir",
+      "signal_class": "exprime_verifie",
+      "relevance": "propose",
+      "matched_services": [
+        "ia_automatisation"
+      ],
+      "verified": true,
+      "confidence": "haute",
+      "base": 58,
+      "magnitude": 14,
+      "capped": true,
+      "has_expressed": false,
+      "reasons": [
+        "besoin exprimé et vérifié : base 58",
+        "pertinence offre : propose (×1.00) — services concernés : ia_automatisation",
+        "magnitude bornée : +14 (meilleur axe ia_automatisation = 34, plafond 42)",
+        "adresse non joignable : priorité plafonnée à « à approfondir » (la valeur commerciale est conservée telle quelle)"
+      ],
+      "counter_signals": [],
+      "driving_evidence": [
+        {
+          "quote": "Je suis à la recherche d'un développeur spécialisé en intelligence artificielle, automatisation et développement web afin de créer un outil personnalisé pour gérer une activité de revente sur Vinted.",
+          "source_url": "https://www.codeur.com/projects/492308-creation-d-une-ia-de-recherche-et-d-automatisation-vinted",
+          "observed_at": "2026-11-04",
+          "verified_at": "2026-11-04",
+          "signal_level": "exprime"
+        }
+      ]
+    },
+    {
+      "company": "Camping Mer et Camargue — Restaurant Le Pano",
+      "status": "email_préparé",
+      "lot": "2026-11-04-v4",
+      "department": "30",
+      "axes": {
+        "site_web": 5,
+        "refonte": 31,
+        "ia_automatisation": 22
+      },
+      "best": 31,
+      "v8_priority": "basse",
+      "v9_value": 47,
+      "v9_tier": "moyenne",
+      "signal_class": "observe",
+      "relevance": "propose",
+      "matched_services": [],
+      "verified": false,
+      "confidence": "haute",
+      "base": 34,
+      "magnitude": 13,
+      "capped": false,
+      "has_expressed": false,
+      "reasons": [
+        "problème directement observé : base 34",
+        "pertinence offre : propose (×1.00)",
+        "magnitude bornée : +13 (meilleur axe refonte = 31, plafond 42)"
+      ],
+      "counter_signals": [],
+      "driving_evidence": [
+        {
+          "quote": "Renseignements et réservations au 04.66.81.56.91",
+          "source_url": "https://www.campingmeretcamargue.fr/restaurant/",
+          "observed_at": "2026-11-04",
+          "verified_at": "2026-11-04",
+          "signal_level": "observe"
+        }
+      ]
+    },
+    {
+      "company": "Fabricant de sacs à dos sur mesure",
+      "status": "nouveau",
+      "lot": "2026-11-04-lot1",
+      "department": "",
+      "axes": {
+        "site_web": 34,
+        "refonte": 10,
+        "ia_automatisation": 0
+      },
+      "best": 34,
+      "v8_priority": "a_approfondir",
+      "v9_value": 72,
+      "v9_tier": "a_approfondir",
+      "signal_class": "exprime_verifie",
+      "relevance": "propose",
+      "matched_services": [
+        "refonte",
+        "site_web"
+      ],
+      "verified": true,
+      "confidence": "haute",
+      "base": 58,
+      "magnitude": 14,
+      "capped": true,
+      "has_expressed": false,
+      "reasons": [
+        "besoin exprimé et vérifié : base 58",
+        "pertinence offre : propose (×1.00) — services concernés : refonte, site_web",
+        "magnitude bornée : +14 (meilleur axe site_web = 34, plafond 42)",
+        "adresse non joignable : priorité plafonnée à « à approfondir » (la valeur commerciale est conservée telle quelle)"
+      ],
+      "counter_signals": [],
+      "driving_evidence": [
+        {
+          "quote": "Je recherche un développeur WordPress / WooCommerce expérimenté pour concevoir l'intégralité d'un site internet qui conçoit et fabrique des sacs à dos sur mesure.",
+          "source_url": "https://www.codeur.com/projects/492260-site-internet-e-commerce",
+          "observed_at": "2026-11-04",
+          "verified_at": "2026-11-04",
+          "signal_level": "exprime"
+        }
+      ]
+    },
+    {
+      "company": "Boutique e-commerce de produits haut de gamme",
+      "status": "nouveau",
+      "lot": "2026-11-04-lot1",
+      "department": "",
+      "axes": {
+        "site_web": 34,
+        "refonte": 10,
+        "ia_automatisation": 0
+      },
+      "best": 34,
+      "v8_priority": "a_approfondir",
+      "v9_value": 72,
+      "v9_tier": "a_approfondir",
+      "signal_class": "exprime_verifie",
+      "relevance": "propose",
+      "matched_services": [
+        "site_web"
+      ],
+      "verified": true,
+      "confidence": "haute",
+      "base": 58,
+      "magnitude": 14,
+      "capped": true,
+      "has_expressed": false,
+      "reasons": [
+        "besoin exprimé et vérifié : base 58",
+        "pertinence offre : propose (×1.00) — services concernés : site_web",
+        "magnitude bornée : +14 (meilleur axe site_web = 34, plafond 42)",
+        "adresse non joignable : priorité plafonnée à « à approfondir » (la valeur commerciale est conservée telle quelle)"
+      ],
+      "counter_signals": [],
+      "driving_evidence": [
+        {
+          "quote": "je recherche un designer qui pourrait m'accompagner dans la création d'une boutique e-commerce dédiée à la vente de produits haut de gamme.",
+          "source_url": "https://www.codeur.com/projects/492257-recherche-un-graphiste-web-designer",
+          "observed_at": "2026-11-04",
+          "verified_at": "2026-11-04",
+          "signal_level": "exprime"
+        }
+      ]
+    },
+    {
+      "company": "Projet de boutique Shopify (dizaine de produits)",
+      "status": "nouveau",
+      "lot": "2026-11-04-lot1",
+      "department": "",
+      "axes": {
+        "site_web": 34,
+        "refonte": 10,
+        "ia_automatisation": 0
+      },
+      "best": 34,
+      "v8_priority": "a_approfondir",
+      "v9_value": 72,
+      "v9_tier": "a_approfondir",
+      "signal_class": "exprime_verifie",
+      "relevance": "propose",
+      "matched_services": [
+        "site_web"
+      ],
+      "verified": true,
+      "confidence": "haute",
+      "base": 58,
+      "magnitude": 14,
+      "capped": true,
+      "has_expressed": false,
+      "reasons": [
+        "besoin exprimé et vérifié : base 58",
+        "pertinence offre : propose (×1.00) — services concernés : site_web",
+        "magnitude bornée : +14 (meilleur axe site_web = 34, plafond 42)",
+        "adresse non joignable : priorité plafonnée à « à approfondir » (la valeur commerciale est conservée telle quelle)"
+      ],
+      "counter_signals": [],
+      "driving_evidence": [
+        {
+          "quote": "créer un site web de vente en ligne pour seulement une dizaine de produits",
+          "source_url": "https://www.codeur.com/projects/492234-creation-site-web-shopify",
+          "observed_at": "2026-11-04",
+          "verified_at": "2026-11-04",
+          "signal_level": "exprime"
+        }
+      ]
+    },
+    {
+      "company": "Vente d'espaces publicitaires TV — outil IA",
+      "status": "nouveau",
+      "lot": "2026-11-04-lot1",
+      "department": "",
+      "axes": {
+        "site_web": 0,
+        "refonte": 10,
+        "ia_automatisation": 34
+      },
+      "best": 34,
+      "v8_priority": "a_approfondir",
+      "v9_value": 72,
+      "v9_tier": "a_approfondir",
+      "signal_class": "exprime_verifie",
+      "relevance": "propose",
+      "matched_services": [
+        "ia_automatisation"
+      ],
+      "verified": true,
+      "confidence": "haute",
+      "base": 58,
+      "magnitude": 14,
+      "capped": true,
+      "has_expressed": false,
+      "reasons": [
+        "besoin exprimé et vérifié : base 58",
+        "pertinence offre : propose (×1.00) — services concernés : ia_automatisation",
+        "magnitude bornée : +14 (meilleur axe ia_automatisation = 34, plafond 42)",
+        "adresse non joignable : priorité plafonnée à « à approfondir » (la valeur commerciale est conservée telle quelle)"
+      ],
+      "counter_signals": [],
+      "driving_evidence": [
+        {
+          "quote": "Je travaille dans la vente d'espaces publicitaires audiovisuels (TV et plateformes de streaming). Une grande partie de l'activité repose sur des offres à durée limitée, reçues chaque semaine.",
+          "source_url": "https://www.codeur.com/projects/492236-outil-ia-centraliser-des-offres-pub-et-generer-des-propositions",
+          "observed_at": "2026-11-04",
+          "verified_at": "2026-11-04",
+          "signal_level": "exprime"
+        }
+      ]
+    },
+    {
+      "company": "Marque de soins — réponses aux commentaires",
+      "status": "nouveau",
+      "lot": "2026-11-04-lot1",
+      "department": "",
+      "axes": {
+        "site_web": 0,
+        "refonte": 10,
+        "ia_automatisation": 34
+      },
+      "best": 34,
+      "v8_priority": "a_approfondir",
+      "v9_value": 72,
+      "v9_tier": "a_approfondir",
+      "signal_class": "exprime_verifie",
+      "relevance": "propose",
+      "matched_services": [
+        "ia_automatisation"
+      ],
+      "verified": true,
+      "confidence": "haute",
+      "base": 58,
+      "magnitude": 14,
+      "capped": true,
+      "has_expressed": false,
+      "reasons": [
+        "besoin exprimé et vérifié : base 58",
+        "pertinence offre : propose (×1.00) — services concernés : ia_automatisation",
+        "magnitude bornée : +14 (meilleur axe ia_automatisation = 34, plafond 42)",
+        "termes hors offre relevés : reseaux sociaux, video",
+        "adresse non joignable : priorité plafonnée à « à approfondir » (la valeur commerciale est conservée telle quelle)"
+      ],
+      "counter_signals": [],
+      "driving_evidence": [
+        {
+          "quote": "Petite marque française de soins cherche une personne pour répondre à quelques commentaires sous ses vidéos (TikTok, Facebook).",
+          "source_url": "https://www.codeur.com/projects/492285-repondre-aux-commentaires-tiktok-et-facebook-d-une-marque-de-soins",
+          "observed_at": "2026-11-04",
+          "verified_at": "2026-11-04",
+          "signal_level": "exprime"
+        }
+      ]
+    },
+    {
+      "company": "Camping Le Galet",
+      "status": "contacté",
+      "lot": "2026-11-04-lot1",
+      "department": "34",
+      "axes": {
+        "site_web": 5,
+        "refonte": 31,
+        "ia_automatisation": 22
+      },
+      "best": 31,
+      "v8_priority": "basse",
+      "v9_value": 47,
+      "v9_tier": "moyenne",
+      "signal_class": "observe",
+      "relevance": "propose",
+      "matched_services": [],
+      "verified": false,
+      "confidence": "haute",
+      "base": 34,
+      "magnitude": 13,
+      "capped": false,
+      "has_expressed": false,
+      "reasons": [
+        "problème directement observé : base 34",
+        "pertinence offre : propose (×1.00)",
+        "magnitude bornée : +13 (meilleur axe refonte = 31, plafond 42)"
+      ],
+      "counter_signals": [],
+      "driving_evidence": [
+        {
+          "quote": "Pour réserver un emplacement, nous vous invitons à nous contacter par téléphone... Pas de réservation en ligne possible.",
+          "source_url": "https://camping-galet.com/en/reservations-open-2025/",
+          "observed_at": "2026-11-04",
+          "verified_at": "2026-11-04",
+          "signal_level": "observe"
+        }
+      ]
+    },
+    {
+      "company": "Restaurant La Renardière",
+      "status": "contacté",
+      "lot": "2026-11-04-lot1",
+      "department": "38",
+      "axes": {
+        "site_web": 5,
+        "refonte": 31,
+        "ia_automatisation": 39
+      },
+      "best": 39,
+      "v8_priority": "moyenne",
+      "v9_value": 50,
+      "v9_tier": "moyenne",
+      "signal_class": "observe",
+      "relevance": "propose",
+      "matched_services": [],
+      "verified": false,
+      "confidence": "haute",
+      "base": 34,
+      "magnitude": 16,
+      "capped": false,
+      "has_expressed": false,
+      "reasons": [
+        "problème directement observé : base 34",
+        "pertinence offre : propose (×1.00)",
+        "magnitude bornée : +16 (meilleur axe ia_automatisation = 39, plafond 42)"
+      ],
+      "counter_signals": [],
+      "driving_evidence": [
+        {
+          "quote": "Réservation conseillée au 04 76 08 30 91... n'hésitez pas à nous contacter pour établir un devis.",
+          "source_url": "https://larenardiere-coldemarcieu.fr/",
+          "observed_at": "2026-11-04",
+          "verified_at": "2026-11-04",
+          "signal_level": "observe"
+        }
+      ]
+    },
+    {
+      "company": "Restaurant Les Santons",
+      "status": "contacté",
+      "lot": "2026-11-04-lot1",
+      "department": "06",
+      "axes": {
+        "site_web": 5,
+        "refonte": 5,
+        "ia_automatisation": 12
+      },
+      "best": 12,
+      "v8_priority": "basse",
+      "v9_value": 23,
+      "v9_tier": "basse",
+      "signal_class": "indirect",
+      "relevance": "propose",
+      "matched_services": [],
+      "verified": false,
+      "confidence": "haute",
+      "base": 18,
+      "magnitude": 5,
+      "capped": false,
+      "has_expressed": false,
+      "reasons": [
+        "signal indirect : base 18",
+        "pertinence offre : propose (×1.00)",
+        "magnitude bornée : +5 (meilleur axe ia_automatisation = 12, plafond 42)"
+      ],
+      "counter_signals": [],
+      "driving_evidence": [
+        {
+          "quote": "Menu groupe (de 15 à 60 personnes)... Réservations au 04.93.41.15.76 ou par mail... Nous adaptons nos propositions en fonction des envies et contraintes de nos clients.",
+          "source_url": "https://www.les-santons.fr/evenementiel/",
+          "observed_at": "2026-11-04",
+          "verified_at": "2026-11-04",
+          "signal_level": "indirect"
+        }
+      ]
+    },
+    {
+      "company": "Centre Équestre de la Renarde",
+      "status": "opposition",
+      "lot": "2026-11-04-lot2",
+      "department": "83",
+      "axes": {
+        "site_web": 5,
+        "refonte": 31,
+        "ia_automatisation": 17
+      },
+      "best": 31,
+      "v8_priority": "basse",
+      "v9_value": 47,
+      "v9_tier": "moyenne",
+      "signal_class": "observe",
+      "relevance": "propose",
+      "matched_services": [],
+      "verified": false,
+      "confidence": "haute",
+      "base": 34,
+      "magnitude": 13,
+      "capped": false,
+      "has_expressed": false,
+      "reasons": [
+        "problème directement observé : base 34",
+        "pertinence offre : propose (×1.00)",
+        "magnitude bornée : +13 (meilleur axe refonte = 31, plafond 42)"
+      ],
+      "counter_signals": [],
+      "driving_evidence": [
+        {
+          "quote": "Pour toute inscription ou demande, contactez-nous au 0620928751 ou par email à celarenarde@gmail.com",
+          "source_url": "https://www.centreequestredelarenarde.com/contact-et-acc%C3%A8s",
+          "observed_at": "2026-11-04",
+          "verified_at": "2026-11-04",
+          "signal_level": "observe"
+        }
+      ]
+    },
+    {
+      "company": "Domaine Roche des Bancs",
+      "status": "contacté",
+      "lot": "2026-11-04-lot2",
+      "department": "71",
+      "axes": {
+        "site_web": 5,
+        "refonte": 31,
+        "ia_automatisation": 22
+      },
+      "best": 31,
+      "v8_priority": "basse",
+      "v9_value": 47,
+      "v9_tier": "moyenne",
+      "signal_class": "observe",
+      "relevance": "propose",
+      "matched_services": [],
+      "verified": false,
+      "confidence": "haute",
+      "base": 34,
+      "magnitude": 13,
+      "capped": false,
+      "has_expressed": false,
+      "reasons": [
+        "problème directement observé : base 34",
+        "pertinence offre : propose (×1.00)",
+        "magnitude bornée : +13 (meilleur axe refonte = 31, plafond 42)"
+      ],
+      "counter_signals": [],
+      "driving_evidence": [
+        {
+          "quote": "sur réservation obligatoire par téléphone: 06 75 91 53 01 ou par mail : contact@rochedesbancs.com",
+          "source_url": "https://www.rochedesbancs.com/degustation-au-domaine",
+          "observed_at": "2026-11-04",
+          "verified_at": "2026-11-04",
+          "signal_level": "observe"
+        }
+      ]
+    },
+    {
+      "company": "Domaine Courbin Héritage",
+      "status": "contacté",
+      "lot": "2026-11-04-lot2",
+      "department": "33",
+      "axes": {
+        "site_web": 5,
+        "refonte": 31,
+        "ia_automatisation": 31
+      },
+      "best": 31,
+      "v8_priority": "basse",
+      "v9_value": 47,
+      "v9_tier": "moyenne",
+      "signal_class": "observe",
+      "relevance": "propose",
+      "matched_services": [],
+      "verified": false,
+      "confidence": "haute",
+      "base": 34,
+      "magnitude": 13,
+      "capped": false,
+      "has_expressed": false,
+      "reasons": [
+        "problème directement observé : base 34",
+        "pertinence offre : propose (×1.00)",
+        "magnitude bornée : +13 (meilleur axe refonte = 31, plafond 42)"
+      ],
+      "counter_signals": [],
+      "driving_evidence": [
+        {
+          "quote": "Il n'y a pas de paiement demandé sans que nous vous ayons contacté pour valider avec vous cette commande... Règlement par chèque au courrier ou virement bancaire après réception de votre facture par mail.",
+          "source_url": "https://www.domainecourbinheritage.fr/bon-de-commande/",
+          "observed_at": "2026-11-04",
+          "verified_at": "2026-11-04",
+          "signal_level": "observe"
+        }
+      ]
+    },
+    {
+      "company": "iTelecom",
+      "status": "contacté",
+      "lot": "2026-11-04-lot2",
+      "department": "37",
+      "axes": {
+        "site_web": 5,
+        "refonte": 15,
+        "ia_automatisation": 0
+      },
+      "best": 15,
+      "v8_priority": "basse",
+      "v9_value": 5,
+      "v9_tier": "basse",
+      "signal_class": "exprime_hors_offre",
+      "relevance": "hors_offre",
+      "matched_services": [],
+      "verified": false,
+      "confidence": "haute",
+      "base": 18,
+      "magnitude": 0,
+      "capped": false,
+      "has_expressed": false,
+      "reasons": [
+        "besoin exprimé mais hors de notre offre : base 18",
+        "pertinence offre : hors_offre (×0.30)",
+        "magnitude bornée : +0 (meilleur axe refonte = 15, plafond 42)",
+        "termes hors offre relevés : decideurs d'entreprise, rendez-vous qualifies"
+      ],
+      "counter_signals": [],
+      "driving_evidence": [
+        {
+          "quote": "Prendre des rendez-vous qualifiés (physique) entre notre dirigeant et des décideurs d'entreprises d'Indre-et-Loire... Un fichier de plus de 1 800 entreprises déjà triées par priorité, avec le nom du dirigeant.",
+          "source_url": "https://www.codeur.com/projects/492342",
+          "observed_at": "2026-11-04",
+          "verified_at": "2026-11-04",
+          "signal_level": "exprime"
+        }
+      ]
+    },
+    {
+      "company": "K6 Pension",
+      "status": "contacté",
+      "lot": "2026-11-04-lot2",
+      "department": "76",
+      "axes": {
+        "site_web": 5,
+        "refonte": 31,
+        "ia_automatisation": 22
+      },
+      "best": 31,
+      "v8_priority": "basse",
+      "v9_value": 47,
+      "v9_tier": "moyenne",
+      "signal_class": "observe",
+      "relevance": "propose",
+      "matched_services": [],
+      "verified": false,
+      "confidence": "haute",
+      "base": 34,
+      "magnitude": 13,
+      "capped": false,
+      "has_expressed": false,
+      "reasons": [
+        "problème directement observé : base 34",
+        "pertinence offre : propose (×1.00)",
+        "magnitude bornée : +13 (meilleur axe refonte = 31, plafond 42)"
+      ],
+      "counter_signals": [],
+      "driving_evidence": [
+        {
+          "quote": "le fait de remplir ce formulaire ne garantit pas l'accueil de votre animal. Il s'agit d'une pré-réservation. L'accueil de votre animal sera confirmé après un échange téléphonique avec un membre de notre équipe.",
+          "source_url": "https://www.k6-pension.com/",
+          "observed_at": "2026-11-04",
+          "verified_at": "2026-11-04",
+          "signal_level": "observe"
+        }
+      ]
+    },
+    {
+      "company": "Séverine Lesourd — Pension & Éducation Canine",
+      "status": "rebond",
+      "lot": "2026-11-04-lot2",
+      "department": "77",
+      "axes": {
+        "site_web": 5,
+        "refonte": 31,
+        "ia_automatisation": 22
+      },
+      "best": 31,
+      "v8_priority": "a_approfondir",
+      "v9_value": 47,
+      "v9_tier": "a_approfondir",
+      "signal_class": "observe",
+      "relevance": "propose",
+      "matched_services": [],
+      "verified": false,
+      "confidence": "haute",
+      "base": 34,
+      "magnitude": 13,
+      "capped": true,
+      "has_expressed": false,
+      "reasons": [
+        "problème directement observé : base 34",
+        "pertinence offre : propose (×1.00)",
+        "magnitude bornée : +13 (meilleur axe refonte = 31, plafond 42)",
+        "adresse non joignable : priorité plafonnée à « à approfondir » (la valeur commerciale est conservée telle quelle)"
+      ],
+      "counter_signals": [],
+      "driving_evidence": [
+        {
+          "quote": "Merci de me faire parvenir les fiches d'inscription pension... par mail direct... a télécharger sur mon site... de régler un acompte de 20%.",
+          "source_url": "https://www.severine-lesourd.fr/pension-canine/",
+          "observed_at": "2026-11-04",
+          "verified_at": "2026-11-04",
+          "signal_level": "observe"
+        }
+      ]
+    },
+    {
+      "company": "Centre Cynophile de Ruy",
+      "status": "contacté",
+      "lot": "2026-11-04-lot2",
+      "department": "38",
+      "axes": {
+        "site_web": 5,
+        "refonte": 31,
+        "ia_automatisation": 17
+      },
+      "best": 31,
+      "v8_priority": "basse",
+      "v9_value": 47,
+      "v9_tier": "moyenne",
+      "signal_class": "observe",
+      "relevance": "propose",
+      "matched_services": [],
+      "verified": false,
+      "confidence": "haute",
+      "base": 34,
+      "magnitude": 13,
+      "capped": false,
+      "has_expressed": false,
+      "reasons": [
+        "problème directement observé : base 34",
+        "pertinence offre : propose (×1.00)",
+        "magnitude bornée : +13 (meilleur axe refonte = 31, plafond 42)"
+      ],
+      "counter_signals": [],
+      "driving_evidence": [
+        {
+          "quote": "Contactez-nous au 06 48 82 26 63 pour planifier l'arrivée et le départ de votre chien.",
+          "source_url": "https://dressage38.com/service/hebergement/",
+          "observed_at": "2026-11-04",
+          "verified_at": "2026-11-04",
+          "signal_level": "observe"
+        }
+      ]
+    },
+    {
+      "company": "Base nautique de Picquigny",
+      "status": "contacté",
+      "lot": "2026-11-04-lot3",
+      "department": "80",
+      "axes": {
+        "site_web": 5,
+        "refonte": 57,
+        "ia_automatisation": 56
+      },
+      "best": 57,
+      "v8_priority": "moyenne",
+      "v9_value": 58,
+      "v9_tier": "moyenne",
+      "signal_class": "observe",
+      "relevance": "propose",
+      "matched_services": [],
+      "verified": false,
+      "confidence": "haute",
+      "base": 34,
+      "magnitude": 24,
+      "capped": false,
+      "has_expressed": false,
+      "reasons": [
+        "problème directement observé : base 34",
+        "pertinence offre : propose (×1.00)",
+        "magnitude bornée : +24 (meilleur axe refonte = 57, plafond 42)"
+      ],
+      "counter_signals": [],
+      "driving_evidence": [
+        {
+          "quote": "Pour les groupes (entreprises, collèges, lycées, centres d'accueil jeunesse) : Veuillez nous contacter directement par email ... ou par la fiche contact pour obtenir un devis personnalisé.",
+          "source_url": "https://www.canoe-somme.com/",
+          "observed_at": "2026-11-04",
+          "verified_at": "2026-11-04",
+          "signal_level": "observe"
+        },
+        {
+          "quote": "Modes de paiement : - Virement - Chèque - Espèces (à limiter, faire l'appoint)",
+          "source_url": "https://www.canoe-somme.com/",
+          "observed_at": "2026-11-04",
+          "verified_at": "2026-11-04",
+          "signal_level": "observe"
+        }
+      ]
+    },
+    {
+      "company": "Brasserie VDL",
+      "status": "contacté",
+      "lot": "2026-11-04-lot3",
+      "department": "74",
+      "axes": {
+        "site_web": 5,
+        "refonte": 57,
+        "ia_automatisation": 46
+      },
+      "best": 57,
+      "v8_priority": "moyenne",
+      "v9_value": 58,
+      "v9_tier": "moyenne",
+      "signal_class": "observe",
+      "relevance": "propose",
+      "matched_services": [],
+      "verified": false,
+      "confidence": "haute",
+      "base": 34,
+      "magnitude": 24,
+      "capped": false,
+      "has_expressed": false,
+      "reasons": [
+        "problème directement observé : base 34",
+        "pertinence offre : propose (×1.00)",
+        "magnitude bornée : +24 (meilleur axe refonte = 57, plafond 42)"
+      ],
+      "counter_signals": [],
+      "driving_evidence": [
+        {
+          "quote": "Commande uniquement par téléphone !",
+          "source_url": "https://www.brasserie-vdl.fr/la-brasserie/",
+          "observed_at": "2026-11-04",
+          "verified_at": "2026-11-04",
+          "signal_level": "observe"
+        },
+        {
+          "quote": "Les commandes à emporter se font uniquement par téléphone.",
+          "source_url": "https://www.brasserie-vdl.fr/contact/",
+          "observed_at": "2026-11-04",
+          "verified_at": "2026-11-04",
+          "signal_level": "observe"
+        }
+      ]
+    },
+    {
+      "company": "Dance Center",
+      "status": "contacté",
+      "lot": "2026-11-04-lot3",
+      "department": "59",
+      "axes": {
+        "site_web": 5,
+        "refonte": 57,
+        "ia_automatisation": 39
+      },
+      "best": 57,
+      "v8_priority": "moyenne",
+      "v9_value": 58,
+      "v9_tier": "moyenne",
+      "signal_class": "observe",
+      "relevance": "propose",
+      "matched_services": [],
+      "verified": false,
+      "confidence": "haute",
+      "base": 34,
+      "magnitude": 24,
+      "capped": false,
+      "has_expressed": false,
+      "reasons": [
+        "problème directement observé : base 34",
+        "pertinence offre : propose (×1.00)",
+        "magnitude bornée : +24 (meilleur axe refonte = 57, plafond 42)"
+      ],
+      "counter_signals": [],
+      "driving_evidence": [
+        {
+          "quote": "Les inscriptions ont lieu au Dance-Center au 2bis rue du St Cordon à Valenciennes",
+          "source_url": "https://www.dance-center.fr/inscriptions-2026/27",
+          "observed_at": "2026-11-04",
+          "verified_at": "2026-11-04",
+          "signal_level": "observe"
+        },
+        {
+          "quote": "Les 3 chèques correspondant aux 3 trimestres ... Il est possible de régler les cotisations en CB ou espèces (uniquement en réglant l'année entière)",
+          "source_url": "https://www.dance-center.fr/inscriptions-2026/27",
+          "observed_at": "2026-11-04",
+          "verified_at": "2026-11-04",
+          "signal_level": "observe"
+        }
+      ]
+    },
+    {
+      "company": "SAM31",
+      "status": "contacté",
+      "lot": "2026-11-04-lot3",
+      "department": "31",
+      "axes": {
+        "site_web": 5,
+        "refonte": 57,
+        "ia_automatisation": 44
+      },
+      "best": 57,
+      "v8_priority": "moyenne",
+      "v9_value": 58,
+      "v9_tier": "moyenne",
+      "signal_class": "observe",
+      "relevance": "propose",
+      "matched_services": [],
+      "verified": false,
+      "confidence": "haute",
+      "base": 34,
+      "magnitude": 24,
+      "capped": false,
+      "has_expressed": false,
+      "reasons": [
+        "problème directement observé : base 34",
+        "pertinence offre : propose (×1.00)",
+        "magnitude bornée : +24 (meilleur axe refonte = 57, plafond 42)"
+      ],
+      "counter_signals": [],
+      "driving_evidence": [
+        {
+          "quote": "Pour obtenir un dossier d'inscription chez SAM31, vous pouvez simplement nous contacter par téléphone ... ou par email ... Vous pouvez également vous rendre directement à notre agence",
+          "source_url": "https://sam31-autoecole.fr/",
+          "observed_at": "2026-11-04",
+          "verified_at": "2026-11-04",
+          "signal_level": "observe"
+        },
+        {
+          "quote": "Démarches Administratives, ANTS suivi de dossier d'inscription 290€",
+          "source_url": "https://sam31-autoecole.fr/a-propos/",
+          "observed_at": "2026-11-04",
+          "verified_at": "2026-11-04",
+          "signal_level": "observe"
+        }
+      ]
+    },
+    {
+      "company": "La Bruchoise / Casa Blu",
+      "status": "contacté",
+      "lot": "2026-11-04-lot3",
+      "department": "67",
+      "axes": {
+        "site_web": 5,
+        "refonte": 57,
+        "ia_automatisation": 41
+      },
+      "best": 57,
+      "v8_priority": "moyenne",
+      "v9_value": 58,
+      "v9_tier": "moyenne",
+      "signal_class": "observe",
+      "relevance": "propose",
+      "matched_services": [],
+      "verified": false,
+      "confidence": "haute",
+      "base": 34,
+      "magnitude": 24,
+      "capped": false,
+      "has_expressed": false,
+      "reasons": [
+        "problème directement observé : base 34",
+        "pertinence offre : propose (×1.00)",
+        "magnitude bornée : +24 (meilleur axe refonte = 57, plafond 42)"
+      ],
+      "counter_signals": [],
+      "driving_evidence": [
+        {
+          "quote": "*Commande uniquement par téléphone",
+          "source_url": "https://www.casa-blu.fr/contact.html",
+          "observed_at": "2026-11-04",
+          "verified_at": "2026-11-04",
+          "signal_level": "observe"
+        },
+        {
+          "quote": "notre service de commande à emporter",
+          "source_url": "https://www.casa-blu.fr/",
+          "observed_at": "2026-11-04",
+          "verified_at": "2026-11-04",
+          "signal_level": "observe"
+        }
+      ]
+    },
+    {
+      "company": "L'Occidentale",
+      "status": "contacté",
+      "lot": "2026-11-04-lot3",
+      "department": "83",
+      "axes": {
+        "site_web": 5,
+        "refonte": 57,
+        "ia_automatisation": 39
+      },
+      "best": 57,
+      "v8_priority": "moyenne",
+      "v9_value": 58,
+      "v9_tier": "moyenne",
+      "signal_class": "observe",
+      "relevance": "propose",
+      "matched_services": [],
+      "verified": false,
+      "confidence": "haute",
+      "base": 34,
+      "magnitude": 24,
+      "capped": false,
+      "has_expressed": false,
+      "reasons": [
+        "problème directement observé : base 34",
+        "pertinence offre : propose (×1.00)",
+        "magnitude bornée : +24 (meilleur axe refonte = 57, plafond 42)"
+      ],
+      "counter_signals": [],
+      "driving_evidence": [
+        {
+          "quote": "Tarifs : de 800 € à 5000 € selon la période. Demander un devis par téléphone ou par email !",
+          "source_url": "https://www.loccidentale.fr/reception-mariage-w1",
+          "observed_at": "2026-11-04",
+          "verified_at": "2026-11-04",
+          "signal_level": "observe"
+        },
+        {
+          "quote": "directionloccidentale@gmail.com",
+          "source_url": "https://www.loccidentale.fr/contact",
+          "observed_at": "2026-11-04",
+          "verified_at": "2026-11-04",
+          "signal_level": "observe"
+        }
+      ]
+    },
+    {
+      "company": "Restaurant Le Canotier",
+      "status": "contacté",
+      "lot": "2026-11-04-lot4",
+      "department": "69",
+      "axes": {
+        "site_web": 5,
+        "refonte": 57,
+        "ia_automatisation": 41
+      },
+      "best": 57,
+      "v8_priority": "moyenne",
+      "v9_value": 58,
+      "v9_tier": "moyenne",
+      "signal_class": "observe",
+      "relevance": "propose",
+      "matched_services": [],
+      "verified": false,
+      "confidence": "haute",
+      "base": 34,
+      "magnitude": 24,
+      "capped": false,
+      "has_expressed": false,
+      "reasons": [
+        "problème directement observé : base 34",
+        "pertinence offre : propose (×1.00)",
+        "magnitude bornée : +24 (meilleur axe refonte = 57, plafond 42)"
+      ],
+      "counter_signals": [],
+      "driving_evidence": [
+        {
+          "quote": "RESERVATION UNIQUEMENT PAR TELEPHONE : 04 78 22 05 26. Aucune réservation ne peut être prise par email et/ou messagerie vocale.",
+          "source_url": "https://www.restaurant-lecanotier.fr/",
+          "observed_at": "2026-11-04",
+          "verified_at": "2026-11-04",
+          "signal_level": "observe"
+        },
+        {
+          "quote": "Demande de devis contact@restaurant-lecanotier.fr ... Nous établissons pour vous des menus Tout compris, adaptés à votre budget.",
+          "source_url": "https://www.restaurant-lecanotier.fr/",
+          "observed_at": "2026-11-04",
+          "verified_at": "2026-11-04",
+          "signal_level": "observe"
+        }
+      ]
+    },
+    {
+      "company": "Boucherie Florian",
+      "status": "contacté",
+      "lot": "2026-11-04-lot4",
+      "department": "82",
+      "axes": {
+        "site_web": 5,
+        "refonte": 57,
+        "ia_automatisation": 22
+      },
+      "best": 57,
+      "v8_priority": "moyenne",
+      "v9_value": 58,
+      "v9_tier": "moyenne",
+      "signal_class": "observe",
+      "relevance": "propose",
+      "matched_services": [],
+      "verified": false,
+      "confidence": "haute",
+      "base": 34,
+      "magnitude": 24,
+      "capped": false,
+      "has_expressed": false,
+      "reasons": [
+        "problème directement observé : base 34",
+        "pertinence offre : propose (×1.00)",
+        "magnitude bornée : +24 (meilleur axe refonte = 57, plafond 42)"
+      ],
+      "counter_signals": [],
+      "driving_evidence": [
+        {
+          "quote": "Commandez par téléphone ! ... Nous réalisons des préparations traiteurs ... Consultez la liste des plats disponibles et passez commande !",
+          "source_url": "https://boucherie-florian.fr/",
+          "observed_at": "2026-11-04",
+          "verified_at": "2026-11-04",
+          "signal_level": "observe"
+        },
+        {
+          "quote": "Commandez vos planches le matin avant midi et passez les chercher dans l’après-midi !",
+          "source_url": "https://boucherie-florian.fr/",
+          "observed_at": "2026-11-04",
+          "verified_at": "2026-11-04",
+          "signal_level": "observe"
+        }
+      ]
+    },
+    {
+      "company": "La Fromagerie Les 2 Alpes",
+      "status": "contacté",
+      "lot": "2026-11-04-lot4",
+      "department": "38",
+      "axes": {
+        "site_web": 5,
+        "refonte": 57,
+        "ia_automatisation": 40
+      },
+      "best": 57,
+      "v8_priority": "moyenne",
+      "v9_value": 58,
+      "v9_tier": "moyenne",
+      "signal_class": "observe",
+      "relevance": "propose",
+      "matched_services": [],
+      "verified": false,
+      "confidence": "haute",
+      "base": 34,
+      "magnitude": 24,
+      "capped": false,
+      "has_expressed": false,
+      "reasons": [
+        "problème directement observé : base 34",
+        "pertinence offre : propose (×1.00)",
+        "magnitude bornée : +24 (meilleur axe refonte = 57, plafond 42)"
+      ],
+      "counter_signals": [],
+      "driving_evidence": [
+        {
+          "quote": "Commandez dès à présent vos produits préférés par téléphone. ... Il n'est pas possible de commander via ce site.",
+          "source_url": "https://www.fromagerie-2alpes.com/",
+          "observed_at": "2026-11-04",
+          "verified_at": "2026-11-04",
+          "signal_level": "observe"
+        },
+        {
+          "quote": "Vous pouvez nous contacter par un email à labergere35@gmail.com",
+          "source_url": "https://www.fromagerie-2alpes.com/pages/contact",
+          "observed_at": "2026-11-04",
+          "verified_at": "2026-11-04",
+          "signal_level": "observe"
+        }
+      ]
+    },
+    {
+      "company": "Fromagerie et Baratte",
+      "status": "contacté",
+      "lot": "2026-11-04-lot4",
+      "department": "69",
+      "axes": {
+        "site_web": 5,
+        "refonte": 57,
+        "ia_automatisation": 22
+      },
+      "best": 57,
+      "v8_priority": "moyenne",
+      "v9_value": 58,
+      "v9_tier": "moyenne",
+      "signal_class": "observe",
+      "relevance": "propose",
+      "matched_services": [],
+      "verified": false,
+      "confidence": "haute",
+      "base": 34,
+      "magnitude": 24,
+      "capped": false,
+      "has_expressed": false,
+      "reasons": [
+        "problème directement observé : base 34",
+        "pertinence offre : propose (×1.00)",
+        "magnitude bornée : +24 (meilleur axe refonte = 57, plafond 42)"
+      ],
+      "counter_signals": [],
+      "driving_evidence": [
+        {
+          "quote": "Les commandes finales de plateaux se font uniquement par téléphone ou en boutique minimum 24h à l’avance.",
+          "source_url": "https://fromagerieetbaratte.fr/",
+          "observed_at": "2026-11-04",
+          "verified_at": "2026-11-04",
+          "signal_level": "observe"
+        },
+        {
+          "quote": "Les commandes passées avant 12h sont à retirer J+1 le matin ou J+1 l’après-midi.",
+          "source_url": "https://fromagerieetbaratte.fr/",
+          "observed_at": "2026-11-04",
+          "verified_at": "2026-11-04",
+          "signal_level": "observe"
+        }
+      ]
+    },
+    {
+      "company": "La Chocolatisserie",
+      "status": "contacté",
+      "lot": "2026-11-04-lot4",
+      "department": "68",
+      "axes": {
+        "site_web": 5,
+        "refonte": 57,
+        "ia_automatisation": 22
+      },
+      "best": 57,
+      "v8_priority": "moyenne",
+      "v9_value": 58,
+      "v9_tier": "moyenne",
+      "signal_class": "observe",
+      "relevance": "propose",
+      "matched_services": [],
+      "verified": false,
+      "confidence": "haute",
+      "base": 34,
+      "magnitude": 24,
+      "capped": false,
+      "has_expressed": false,
+      "reasons": [
+        "problème directement observé : base 34",
+        "pertinence offre : propose (×1.00)",
+        "magnitude bornée : +24 (meilleur axe refonte = 57, plafond 42)"
+      ],
+      "counter_signals": [],
+      "driving_evidence": [
+        {
+          "quote": "Pour faciliter les échanges, merci de privilégier le contact par téléphone pour passer vos commandes.",
+          "source_url": "https://lachocolatisserie.com/contact/",
+          "observed_at": "2026-11-04",
+          "verified_at": "2026-11-04",
+          "signal_level": "observe"
+        },
+        {
+          "quote": "Toutes les pâtisseries, tablettes de chocolats et autres créations affichées sur le site internet sont disponibles à la commande.",
+          "source_url": "https://lachocolatisserie.com/contact/",
+          "observed_at": "2026-11-04",
+          "verified_at": "2026-11-04",
+          "signal_level": "observe"
+        }
+      ]
+    },
+    {
+      "company": "Matproloc",
+      "status": "contacté",
+      "lot": "2026-11-04-lot4",
+      "department": "59",
+      "axes": {
+        "site_web": 5,
+        "refonte": 57,
+        "ia_automatisation": 22
+      },
+      "best": 57,
+      "v8_priority": "moyenne",
+      "v9_value": 58,
+      "v9_tier": "moyenne",
+      "signal_class": "observe",
+      "relevance": "propose",
+      "matched_services": [],
+      "verified": false,
+      "confidence": "haute",
+      "base": 34,
+      "magnitude": 24,
+      "capped": false,
+      "has_expressed": false,
+      "reasons": [
+        "problème directement observé : base 34",
+        "pertinence offre : propose (×1.00)",
+        "magnitude bornée : +24 (meilleur axe refonte = 57, plafond 42)"
+      ],
+      "counter_signals": [],
+      "driving_evidence": [
+        {
+          "quote": "Devis & Réservations ... Tél : 03 27 87 51 25 ... contact@matproloc.fr",
+          "source_url": "https://matproloc.fr/",
+          "observed_at": "2026-11-04",
+          "verified_at": "2026-11-04",
+          "signal_level": "observe"
+        },
+        {
+          "quote": "Vous avez une demande sur un de nos produits ou de nos services ? ... Votre nom / Téléphone / Votre e-mail / Votre besoin / Message",
+          "source_url": "https://matproloc.fr/contact",
+          "observed_at": "2026-11-04",
+          "verified_at": "2026-11-04",
+          "signal_level": "observe"
+        }
+      ]
+    },
+    {
+      "company": "Allo'cation",
+      "status": "contacté",
+      "lot": "2026-11-04-lot4",
+      "department": "94",
+      "axes": {
+        "site_web": 5,
+        "refonte": 57,
+        "ia_automatisation": 0
+      },
+      "best": 57,
+      "v8_priority": "moyenne",
+      "v9_value": 58,
+      "v9_tier": "moyenne",
+      "signal_class": "observe",
+      "relevance": "propose",
+      "matched_services": [],
+      "verified": false,
+      "confidence": "haute",
+      "base": 34,
+      "magnitude": 24,
+      "capped": false,
+      "has_expressed": false,
+      "reasons": [
+        "problème directement observé : base 34",
+        "pertinence offre : propose (×1.00)",
+        "magnitude bornée : +24 (meilleur axe refonte = 57, plafond 42)"
+      ],
+      "counter_signals": [],
+      "driving_evidence": [
+        {
+          "quote": "Date de l'évènement / Heure de livraison / Date de reprise / Liste détaillée / Envoyer",
+          "source_url": "https://allo-cation.fr/devis-livraison/",
+          "observed_at": "2026-11-04",
+          "verified_at": "2026-11-04",
+          "signal_level": "observe"
+        },
+        {
+          "quote": "Contactez-nous pour plus de renseignements ... Téléphone : 01 48 89 02 35 Email : allo-cation@wanadoo.fr",
+          "source_url": "https://allo-cation.fr/devis-livraison/",
+          "observed_at": "2026-11-04",
+          "verified_at": "2026-11-04",
+          "signal_level": "observe"
+        }
+      ]
+    },
+    {
+      "company": "Restaurant Goudale Orchies",
+      "status": "contacté",
+      "lot": "2026-11-04-lot4",
+      "department": "59",
+      "axes": {
+        "site_web": 5,
+        "refonte": 57,
+        "ia_automatisation": 26
+      },
+      "best": 57,
+      "v8_priority": "moyenne",
+      "v9_value": 58,
+      "v9_tier": "moyenne",
+      "signal_class": "observe",
+      "relevance": "propose",
+      "matched_services": [],
+      "verified": false,
+      "confidence": "haute",
+      "base": 34,
+      "magnitude": 24,
+      "capped": false,
+      "has_expressed": false,
+      "reasons": [
+        "problème directement observé : base 34",
+        "pertinence offre : propose (×1.00)",
+        "magnitude bornée : +24 (meilleur axe refonte = 57, plafond 42)"
+      ],
+      "counter_signals": [
+        "Réservation déjà en ligne"
+      ],
+      "driving_evidence": [
+        {
+          "quote": "Le restaurant Goudale à Orchies ... Réservation Uniquement par téléphone",
+          "source_url": "https://www.restaurant-goudale.com/restaurants/",
+          "observed_at": "2026-11-04",
+          "verified_at": "2026-11-04",
+          "signal_level": "observe"
+        },
+        {
+          "quote": "Le pub Goudale à Lomme ... Réservation en ligne ou par Téléphone et Email",
+          "source_url": "https://www.restaurant-goudale.com/restaurants/",
+          "observed_at": "2026-11-04",
+          "verified_at": "2026-11-04",
+          "signal_level": "observe"
+        }
+      ]
+    },
+    {
+      "company": "ATOMER",
+      "status": "contacté",
+      "lot": "2026-11-04-lot5",
+      "department": "95",
+      "axes": {
+        "site_web": 5,
+        "refonte": 47,
+        "ia_automatisation": 44
+      },
+      "best": 47,
+      "v8_priority": "moyenne",
+      "v9_value": 54,
+      "v9_tier": "moyenne",
+      "signal_class": "observe",
+      "relevance": "propose",
+      "matched_services": [],
+      "verified": false,
+      "confidence": "haute",
+      "base": 34,
+      "magnitude": 20,
+      "capped": false,
+      "has_expressed": false,
+      "reasons": [
+        "problème directement observé : base 34",
+        "pertinence offre : propose (×1.00)",
+        "magnitude bornée : +20 (meilleur axe refonte = 47, plafond 42)"
+      ],
+      "counter_signals": [],
+      "driving_evidence": [
+        {
+          "quote": "Les inscriptions doivent être confirmées par écrit à l'aide d'un bulletin d'inscription dument complète et renvoyé par e-mail ou par courrier. En cas de bulletin incomplet, votre demande sera en attente jusqu'à l'obtention des informations nécessaires.",
+          "source_url": "http://www.atomer.fr/4/Bulletin_inscription_formation_ATOMER.pdf",
+          "observed_at": "2026-11-04",
+          "verified_at": "2026-11-04",
+          "signal_level": "observe"
+        },
+        {
+          "quote": "A réception des inscriptions, ATOMER transmet à l'entreprise la ou les convention(s)-convocation(s) de formation confirmant la date, l'heure, le lieu de formation et les modalités pratiques, ainsi qu'un plan d'accès.",
+          "source_url": "http://www.atomer.fr/4/Bulletin_inscription_formation_ATOMER.pdf",
+          "observed_at": "2026-11-04",
+          "verified_at": "2026-11-04",
+          "signal_level": "observe"
+        },
+        {
+          "quote": "© ATOMER 1997 - 2024 — Téléchargez notre catalogue Formations continues 2026 (v1.0) — Bulletin d'inscription",
+          "source_url": "http://www.atomer.fr/",
+          "observed_at": "2026-11-04",
+          "verified_at": "2026-11-04",
+          "signal_level": "observe"
+        }
+      ]
+    },
+    {
+      "company": "NETTOYAGE INDUSTRIEL",
+      "status": "contacté",
+      "lot": "2026-11-04-lot5",
+      "department": "39",
+      "axes": {
+        "site_web": 5,
+        "refonte": 73,
+        "ia_automatisation": 0
+      },
+      "best": 73,
+      "v8_priority": "haute",
+      "v9_value": 69,
+      "v9_tier": "moyenne",
+      "signal_class": "exprime_verifie",
+      "relevance": "incertaine",
+      "matched_services": [],
+      "verified": true,
+      "confidence": "haute",
+      "base": 58,
+      "magnitude": 31,
+      "capped": false,
+      "has_expressed": false,
+      "reasons": [
+        "besoin exprimé et vérifié : base 58",
+        "pertinence offre : incertaine (×0.65)",
+        "magnitude bornée : +31 (meilleur axe refonte = 73, plafond 42)"
+      ],
+      "counter_signals": [],
+      "driving_evidence": [
+        {
+          "quote": "Nos responsables de chantier répartis sur le département du JURA, sont présents au quotidien chez nos clients pour s'assurer de la qualité de nos prestations dans vos locaux.",
+          "source_url": "https://www.nettoyage-industriel39.com/",
+          "observed_at": "2026-11-04",
+          "verified_at": "2026-11-04",
+          "signal_level": "exprime"
+        }
+      ]
+    },
+    {
+      "company": "Vignerons et Caviste",
+      "status": "contacté",
+      "lot": "2026-11-04-lot5",
+      "department": "75",
+      "axes": {
+        "site_web": 5,
+        "refonte": 65,
+        "ia_automatisation": 0
+      },
+      "best": 65,
+      "v8_priority": "haute",
+      "v9_value": 61,
+      "v9_tier": "moyenne",
+      "signal_class": "observe",
+      "relevance": "propose",
+      "matched_services": [],
+      "verified": false,
+      "confidence": "haute",
+      "base": 34,
+      "magnitude": 27,
+      "capped": false,
+      "has_expressed": false,
+      "reasons": [
+        "problème directement observé : base 34",
+        "pertinence offre : propose (×1.00)",
+        "magnitude bornée : +27 (meilleur axe refonte = 65, plafond 42)"
+      ],
+      "counter_signals": [
+        "Réservation déjà en ligne",
+        "Paiement en ligne en place"
+      ],
+      "driving_evidence": [
+        {
+          "quote": "IMPORTANT : Avant toute réservation en ligne, merci de nous écrire un mail au préalable ou de nous contacter par téléphone pour s'assurer des disponibilités -sur vigneronsetcaviste@gmail.com ou au 0762181445.",
+          "source_url": "https://vignerons-et-caviste.fr/",
+          "observed_at": "2026-11-04",
+          "verified_at": "2026-11-04",
+          "signal_level": "observe"
+        },
+        {
+          "quote": "25.00€ — 2 en stock — quantité de Cours d'œnologie mensuel - niveau 1 — Ajouter au panier",
+          "source_url": "https://vignerons-et-caviste.fr/",
+          "observed_at": "2026-11-04",
+          "verified_at": "2026-11-04",
+          "signal_level": "observe"
+        }
+      ]
+    },
+    {
+      "company": "La Caviste",
+      "status": "contacté",
+      "lot": "2026-11-04-lot5",
+      "department": "76",
+      "axes": {
+        "site_web": 5,
+        "refonte": 65,
+        "ia_automatisation": 34
+      },
+      "best": 65,
+      "v8_priority": "haute",
+      "v9_value": 61,
+      "v9_tier": "moyenne",
+      "signal_class": "observe",
+      "relevance": "propose",
+      "matched_services": [],
+      "verified": false,
+      "confidence": "haute",
+      "base": 34,
+      "magnitude": 27,
+      "capped": false,
+      "has_expressed": false,
+      "reasons": [
+        "problème directement observé : base 34",
+        "pertinence offre : propose (×1.00)",
+        "magnitude bornée : +27 (meilleur axe refonte = 65, plafond 42)"
+      ],
+      "counter_signals": [],
+      "driving_evidence": [
+        {
+          "quote": "Nous donnons très peu de renseignements par téléphone, car nous privilégions le service des clients en boutique. N'hésitez pas à venir nous rencontrer pour préparer plus aisément vos demandes spéciales.",
+          "source_url": "https://www.lacavistelh.fr/nous-contacter/",
+          "observed_at": "2026-11-04",
+          "verified_at": "2026-11-04",
+          "signal_level": "observe"
+        },
+        {
+          "quote": "Vous recherchez une bouteille en particulier ? Vous avez besoin d'un avis, un conseil ou de plus de renseignements ? N'hésitez pas à nous contacter par mail !",
+          "source_url": "https://www.lacavistelh.fr/",
+          "observed_at": "2026-11-04",
+          "verified_at": "2026-11-04",
+          "signal_level": "observe"
+        }
+      ]
+    },
+    {
+      "company": "ALPHA MECANIQUE",
+      "status": "contacté",
+      "lot": "2026-11-04-lot5",
+      "department": "69",
+      "axes": {
+        "site_web": 5,
+        "refonte": 5,
+        "ia_automatisation": 34
+      },
+      "best": 34,
+      "v8_priority": "moyenne",
+      "v9_value": 48,
+      "v9_tier": "moyenne",
+      "signal_class": "observe",
+      "relevance": "propose",
+      "matched_services": [],
+      "verified": false,
+      "confidence": "haute",
+      "base": 34,
+      "magnitude": 14,
+      "capped": false,
+      "has_expressed": false,
+      "reasons": [
+        "problème directement observé : base 34",
+        "pertinence offre : propose (×1.00)",
+        "magnitude bornée : +14 (meilleur axe ia_automatisation = 34, plafond 42)"
+      ],
+      "counter_signals": [],
+      "driving_evidence": [
+        {
+          "quote": "Dès réception de vos plans, nous analysons les dimensions, les tolérances, la matière, les traitements de surface et les quantités pour vous établir un devis précis et rapide.",
+          "source_url": "https://www.alphamecanique.fr/",
+          "observed_at": "2026-11-04",
+          "verified_at": "2026-11-04",
+          "signal_level": "observe"
+        },
+        {
+          "quote": "Nous vous envoyons votre devis rapidement, généralement sous 24 à 48h. Le client nous envoie sa commande et nous démarrons la fabrication.",
+          "source_url": "https://www.alphamecanique.fr/",
+          "observed_at": "2026-11-04",
+          "verified_at": "2026-11-04",
+          "signal_level": "observe"
+        }
+      ]
+    },
+    {
+      "company": "SARL Ambulances Sainte-Marie",
+      "status": "contacté",
+      "lot": "2026-11-04-lot5",
+      "department": "87",
+      "axes": {
+        "site_web": 5,
+        "refonte": 31,
+        "ia_automatisation": 12
+      },
+      "best": 31,
+      "v8_priority": "basse",
+      "v9_value": 47,
+      "v9_tier": "moyenne",
+      "signal_class": "observe",
+      "relevance": "propose",
+      "matched_services": [],
+      "verified": false,
+      "confidence": "haute",
+      "base": 34,
+      "magnitude": 13,
+      "capped": false,
+      "has_expressed": false,
+      "reasons": [
+        "problème directement observé : base 34",
+        "pertinence offre : propose (×1.00)",
+        "magnitude bornée : +13 (meilleur axe refonte = 31, plafond 42)"
+      ],
+      "counter_signals": [],
+      "driving_evidence": [
+        {
+          "quote": "Gestion des demandes d'\"entente au préalable\" — Tiers payant et mutuelles — 20 employés — 12 véhicules",
+          "source_url": "https://ambulances-sainte-marie.fr/",
+          "observed_at": "2026-11-04",
+          "verified_at": "2026-11-04",
+          "signal_level": "observe"
+        },
+        {
+          "quote": "Votre demande* Ambulance Taxi VSL — Message — Combien font deux plus dix",
+          "source_url": "https://ambulances-sainte-marie.fr/",
+          "observed_at": "2026-11-04",
+          "verified_at": "2026-11-04",
+          "signal_level": "observe"
+        }
+      ]
+    },
+    {
+      "company": "Blanchisserie des 3 Régions (B3R)",
+      "status": "auto_reply",
+      "lot": "2026-11-04-lot5",
+      "department": "28",
+      "axes": {
+        "site_web": 88,
+        "refonte": 32,
+        "ia_automatisation": 34
+      },
+      "best": 88,
+      "v8_priority": "moyenne",
+      "v9_value": 95,
+      "v9_tier": "haute",
+      "signal_class": "exprime_verifie",
+      "relevance": "propose",
+      "matched_services": [
+        "ia_automatisation",
+        "site_web"
+      ],
+      "verified": true,
+      "confidence": "haute",
+      "base": 58,
+      "magnitude": 37,
+      "capped": false,
+      "has_expressed": false,
+      "reasons": [
+        "besoin exprimé et vérifié : base 58",
+        "pertinence offre : propose (×1.00) — services concernés : ia_automatisation, site_web",
+        "magnitude bornée : +37 (meilleur axe site_web = 88, plafond 42)"
+      ],
+      "counter_signals": [],
+      "driving_evidence": [
+        {
+          "quote": "Blanchisserie industrielle familiale spécialisée dans l'entretien et la location de linge pour les professionnels. Acteur engagé en développement durable en Normandie, Centre-Val de Loire et Île-de-France.",
+          "source_url": "https://blanchisseriedes3regions.fr/pressing-livraison-blanchisserie-des-3-regions/",
+          "observed_at": "2026-11-04",
+          "verified_at": "2026-11-04",
+          "signal_level": "exprime"
+        }
+      ]
+    },
+    {
+      "company": "Celtuce Traiteur",
+      "status": "contacté",
+      "lot": "2026-11-06-lot6",
+      "department": "44",
+      "axes": {
+        "site_web": 5,
+        "refonte": 61,
+        "ia_automatisation": 31
+      },
+      "best": 61,
+      "v8_priority": "haute",
+      "v9_value": 60,
+      "v9_tier": "moyenne",
+      "signal_class": "observe",
+      "relevance": "propose",
+      "matched_services": [],
+      "verified": false,
+      "confidence": "haute",
+      "base": 34,
+      "magnitude": 26,
+      "capped": false,
+      "has_expressed": false,
+      "reasons": [
+        "problème directement observé : base 34",
+        "pertinence offre : propose (×1.00)",
+        "magnitude bornée : +26 (meilleur axe refonte = 61, plafond 42)"
+      ],
+      "counter_signals": [],
+      "driving_evidence": [
+        {
+          "quote": "Pour toute demande de devis, veuillez nous contacter par e-mail à l'adresse suivante : contact@celtuce-traiteur.com en nous précisant : Votre entreprise, Votre numéro de téléphone, La prestation souhaitée : livraison de plateaux-repas ou mise en place d'un buffet, Le nombre de personnes, Les informations nécessaires pour la facturation et la livraison.",
+          "source_url": "https://www.celtuce-traiteur.com/contact/",
+          "observed_at": "2026-11-06",
+          "verified_at": "2026-11-06",
+          "signal_level": "observe"
+        },
+        {
+          "quote": "mailto:contact@celtuce-traiteur.com?subject=Demande%20de%20devis&body=Bonjour, je souhaite un devis pour l'entreprise {Nom de votre entreprise} ...",
+          "source_url": "https://www.celtuce-traiteur.com/contact/",
+          "observed_at": "2026-11-06",
+          "verified_at": "2026-11-06",
+          "signal_level": "observe"
+        }
+      ]
+    },
+    {
+      "company": "Mamie Cuisine Traiteur",
+      "status": "contacté",
+      "lot": "2026-11-06-lot6",
+      "department": "38",
+      "axes": {
+        "site_web": 5,
+        "refonte": 39,
+        "ia_automatisation": 12
+      },
+      "best": 39,
+      "v8_priority": "moyenne",
+      "v9_value": 50,
+      "v9_tier": "moyenne",
+      "signal_class": "observe",
+      "relevance": "propose",
+      "matched_services": [],
+      "verified": false,
+      "confidence": "haute",
+      "base": 34,
+      "magnitude": 16,
+      "capped": false,
+      "has_expressed": false,
+      "reasons": [
+        "problème directement observé : base 34",
+        "pertinence offre : propose (×1.00)",
+        "magnitude bornée : +16 (meilleur axe refonte = 39, plafond 42)"
+      ],
+      "counter_signals": [],
+      "driving_evidence": [
+        {
+          "quote": "Commandez vos repas en ligne ou par mail impérativement avant midi la veille du jour voulu. Pour les demandes de buffets ou petit-déjeuners, uniquement par mail au minimum 72h à l'avance.",
+          "source_url": "https://www.mamiecuisinetraiteur.fr/index.php",
+          "observed_at": "2026-11-06",
+          "verified_at": "2026-11-06",
+          "signal_level": "observe"
+        },
+        {
+          "quote": "Sachez qu'un forfait de livraison est toujours appliqué et calculé selon votre zone.",
+          "source_url": "https://www.mamiecuisinetraiteur.fr/index.php",
+          "observed_at": "2026-11-06",
+          "verified_at": "2026-11-06",
+          "signal_level": "observe"
+        }
+      ]
+    },
+    {
+      "company": "Baptiste Break Pâtisserie Traiteur",
+      "status": "contacté",
+      "lot": "2026-11-06-lot6",
+      "department": "78",
+      "axes": {
+        "site_web": 5,
+        "refonte": 5,
+        "ia_automatisation": 29
+      },
+      "best": 29,
+      "v8_priority": "basse",
+      "v9_value": 46,
+      "v9_tier": "moyenne",
+      "signal_class": "observe",
+      "relevance": "propose",
+      "matched_services": [],
+      "verified": false,
+      "confidence": "haute",
+      "base": 34,
+      "magnitude": 12,
+      "capped": false,
+      "has_expressed": false,
+      "reasons": [
+        "problème directement observé : base 34",
+        "pertinence offre : propose (×1.00)",
+        "magnitude bornée : +12 (meilleur axe ia_automatisation = 29, plafond 42)"
+      ],
+      "counter_signals": [],
+      "driving_evidence": [
+        {
+          "quote": "Le Client a la possibilité de passer commande en envoyant un mail ou en appelant, il recevra un devis par mail par la suite sous un maximum de 72h.",
+          "source_url": "https://www.baptiste-break.fr/cgv/",
+          "observed_at": "2026-11-06",
+          "verified_at": "2026-11-06",
+          "signal_level": "observe"
+        },
+        {
+          "quote": "le nombre de commandes est limité chaque semaine ... deux semaines à l'avance est le minimum, mais certaines dates peuvent être complètes plusieurs semaines à l'avance ... la place ne vous est réservée qu'à la réception du virement d'acompte.",
+          "source_url": "https://www.baptiste-break.fr/passez-commande/",
+          "observed_at": "2026-11-06",
+          "verified_at": "2026-11-06",
+          "signal_level": "observe"
+        }
+      ]
+    },
+    {
+      "company": "SARL Joly Location",
+      "status": "contacté",
+      "lot": "2026-11-06-lot6",
+      "department": "62",
+      "axes": {
+        "site_web": 88,
+        "refonte": 22,
+        "ia_automatisation": 51
+      },
+      "best": 88,
+      "v8_priority": "haute",
+      "v9_value": 71,
+      "v9_tier": "haute",
+      "signal_class": "observe",
+      "relevance": "propose",
+      "matched_services": [],
+      "verified": false,
+      "confidence": "haute",
+      "base": 34,
+      "magnitude": 37,
+      "capped": false,
+      "has_expressed": false,
+      "reasons": [
+        "problème directement observé : base 34",
+        "pertinence offre : propose (×1.00)",
+        "magnitude bornée : +37 (meilleur axe site_web = 88, plafond 42)"
+      ],
+      "counter_signals": [],
+      "driving_evidence": [
+        {
+          "quote": "Site not found — This site is not published or does not have a domain assigned to it.",
+          "source_url": "https://www.jolylocation-echafaudage.fr/contact",
+          "observed_at": "2026-11-06",
+          "verified_at": "2026-11-06",
+          "signal_level": "observe"
+        },
+        {
+          "quote": "Peut-on demander un devis pour une location de matériel ? Oui, nous établissons des devis personnalisés selon vos besoins. N'hésitez pas à nous contacter pour obtenir une solution adaptée à votre chantier.",
+          "source_url": "https://www.joly-location.fr/",
+          "observed_at": "2026-11-06",
+          "verified_at": "2026-11-06",
+          "signal_level": "observe"
+        }
+      ]
+    },
+    {
+      "company": "SARL Uzès Location",
+      "status": "suspendu",
+      "lot": "2026-11-06-lot6",
+      "department": "30",
+      "axes": {
+        "site_web": 5,
+        "refonte": 65,
+        "ia_automatisation": 26
+      },
+      "best": 65,
+      "v8_priority": "moyenne",
+      "v9_value": 61,
+      "v9_tier": "moyenne",
+      "signal_class": "observe",
+      "relevance": "propose",
+      "matched_services": [],
+      "verified": false,
+      "confidence": "haute",
+      "base": 34,
+      "magnitude": 27,
+      "capped": false,
+      "has_expressed": false,
+      "reasons": [
+        "problème directement observé : base 34",
+        "pertinence offre : propose (×1.00)",
+        "magnitude bornée : +27 (meilleur axe refonte = 65, plafond 42)"
+      ],
+      "counter_signals": [],
+      "driving_evidence": [
+        {
+          "quote": "Nom & prénom * / Téléphone * / E-mail * / Votre Message *",
+          "source_url": "https://uzes-location.fr/contact/",
+          "observed_at": "2026-11-06",
+          "verified_at": "2026-11-06",
+          "signal_level": "observe"
+        },
+        {
+          "quote": "Vous savez tout ou presque, il ne vous reste plus qu'à réserver ce dont vous avez besoin auprès de la SARL Uzès Location à Uzès !",
+          "source_url": "https://uzes-location.fr/",
+          "observed_at": "2026-11-06",
+          "verified_at": "2026-11-06",
+          "signal_level": "observe"
+        }
+      ]
+    },
+    {
+      "company": "SAS Maire",
+      "status": "a_approfondir",
+      "lot": "2026-11-06-lot6",
+      "department": "55",
+      "axes": {
+        "site_web": 5,
+        "refonte": 65,
+        "ia_automatisation": 43
+      },
+      "best": 65,
+      "v8_priority": "a_approfondir",
+      "v9_value": 61,
+      "v9_tier": "a_approfondir",
+      "signal_class": "observe",
+      "relevance": "propose",
+      "matched_services": [],
+      "verified": false,
+      "confidence": "haute",
+      "base": 34,
+      "magnitude": 27,
+      "capped": true,
+      "has_expressed": false,
+      "reasons": [
+        "problème directement observé : base 34",
+        "pertinence offre : propose (×1.00)",
+        "magnitude bornée : +27 (meilleur axe refonte = 65, plafond 42)",
+        "adresse non joignable : priorité plafonnée à « à approfondir » (la valeur commerciale est conservée telle quelle)"
+      ],
+      "counter_signals": [],
+      "driving_evidence": [
+        {
+          "quote": "Besoin d'un renseignement ? Contactez nous par téléphone : 03 29 85 99 15 — Contactez nous par e-mail : info@sas-maire.fr",
+          "source_url": "https://www.maire-sas.fr/location-de-materiel/",
+          "observed_at": "2026-11-06",
+          "verified_at": "2026-11-06",
+          "signal_level": "observe"
+        },
+        {
+          "quote": "Location de matériel et de véhicules de chantiers avec et sans conducteur",
+          "source_url": "https://www.maire-sas.fr/location-de-materiel/",
+          "observed_at": "2026-11-06",
+          "verified_at": "2026-11-06",
+          "signal_level": "observe"
+        }
+      ]
+    },
+    {
+      "company": "Techniques Piscine",
+      "status": "contacté",
+      "lot": "2026-11-06-lot6",
+      "department": "76",
+      "axes": {
+        "site_web": 5,
+        "refonte": 65,
+        "ia_automatisation": 26
+      },
+      "best": 65,
+      "v8_priority": "haute",
+      "v9_value": 61,
+      "v9_tier": "moyenne",
+      "signal_class": "observe",
+      "relevance": "propose",
+      "matched_services": [],
+      "verified": false,
+      "confidence": "haute",
+      "base": 34,
+      "magnitude": 27,
+      "capped": false,
+      "has_expressed": false,
+      "reasons": [
+        "problème directement observé : base 34",
+        "pertinence offre : propose (×1.00)",
+        "magnitude bornée : +27 (meilleur axe refonte = 65, plafond 42)"
+      ],
+      "counter_signals": [],
+      "driving_evidence": [
+        {
+          "quote": "Vous avez un projet de piscine ou de SPA ? Prénom et Nom* / Email* / Téléphone* / Message",
+          "source_url": "https://techniquespiscine.fr/contactez-nous/",
+          "observed_at": "2026-11-06",
+          "verified_at": "2026-11-06",
+          "signal_level": "observe"
+        },
+        {
+          "quote": "Nous intervenons sur les secteurs du Havres et ses environs, Rouen et ses environs en passant par Saint Valery en Caux et sur les départements de l'Eure et le Calvados",
+          "source_url": "https://techniquespiscine.fr/contactez-nous/",
+          "observed_at": "2026-11-06",
+          "verified_at": "2026-11-06",
+          "signal_level": "observe"
+        }
+      ]
+    },
+    {
+      "company": "France-Hypnose-Formation / France-PNL",
+      "status": "contacté",
+      "lot": "2026-11-07-lot7",
+      "department": "75",
+      "axes": {
+        "site_web": 5,
+        "refonte": 39,
+        "ia_automatisation": 10
+      },
+      "best": 39,
+      "v8_priority": "moyenne",
+      "v9_value": 50,
+      "v9_tier": "moyenne",
+      "signal_class": "observe",
+      "relevance": "propose",
+      "matched_services": [],
+      "verified": false,
+      "confidence": "haute",
+      "base": 34,
+      "magnitude": 16,
+      "capped": false,
+      "has_expressed": false,
+      "reasons": [
+        "problème directement observé : base 34",
+        "pertinence offre : propose (×1.00)",
+        "magnitude bornée : +16 (meilleur axe refonte = 39, plafond 42)"
+      ],
+      "counter_signals": [
+        "Paiement en ligne en place"
+      ],
+      "driving_evidence": [
+        {
+          "quote": "Seule l'inscription avec paiement carte bleue entraine une prise en compte immédiate.",
+          "source_url": "https://france-hypnose-formation.com/inscriptions-aux-formations-pnl-et-hypnose/",
+          "observed_at": "2026-11-07",
+          "verified_at": "2026-11-07",
+          "signal_level": "observe"
+        },
+        {
+          "quote": "Adressez nous un mail à : contact@france-pnl.com en mentionnant vos nom, prénom, N° de téléphone et surtout le N° de la formation : exemple TH8-21 Votre inscription devra être validée pour être définitive.",
+          "source_url": "https://france-hypnose-formation.com/inscriptions-aux-formations-pnl-et-hypnose/",
+          "observed_at": "2026-11-07",
+          "verified_at": "2026-11-07",
+          "signal_level": "observe"
+        },
+        {
+          "quote": "Nous limitons le nombre de stagiaires par groupe à 15 personnes… La pré-inscription ne vous garantie pas une place… tout dépend des places restantes.",
+          "source_url": "https://france-hypnose-formation.com/inscriptions-aux-formations-pnl-et-hypnose/",
+          "observed_at": "2026-11-07",
+          "verified_at": "2026-11-07",
+          "signal_level": "observe"
+        }
+      ]
+    },
+    {
+      "company": "Atoutransport",
+      "status": "contacté",
+      "lot": "2026-11-07-lot7",
+      "department": "89",
+      "axes": {
+        "site_web": 5,
+        "refonte": 39,
+        "ia_automatisation": 51
+      },
+      "best": 51,
+      "v8_priority": "moyenne",
+      "v9_value": 55,
+      "v9_tier": "moyenne",
+      "signal_class": "observe",
+      "relevance": "propose",
+      "matched_services": [],
+      "verified": false,
+      "confidence": "haute",
+      "base": 34,
+      "magnitude": 21,
+      "capped": false,
+      "has_expressed": false,
+      "reasons": [
+        "problème directement observé : base 34",
+        "pertinence offre : propose (×1.00)",
+        "magnitude bornée : +21 (meilleur axe ia_automatisation = 51, plafond 42)"
+      ],
+      "counter_signals": [],
+      "driving_evidence": [
+        {
+          "quote": "Les dates de groupage sont connues plusieurs mois à l'avance, prenez contact afin de les connaître.",
+          "source_url": "https://www.atoutransport.com/",
+          "observed_at": "2026-11-07",
+          "verified_at": "2026-11-07",
+          "signal_level": "observe"
+        },
+        {
+          "quote": "un devis de transport meubles est proposé soit en ligne, par téléphone au 06 65 48 92 64 ou par e-mail.",
+          "source_url": "https://www.atoutransport.com/",
+          "observed_at": "2026-11-07",
+          "verified_at": "2026-11-07",
+          "signal_level": "observe"
+        }
+      ]
+    },
+    {
+      "company": "Bonbon Foliz",
+      "status": "contacté",
+      "lot": "2026-11-07-lot7",
+      "department": "78",
+      "axes": {
+        "site_web": 5,
+        "refonte": 5,
+        "ia_automatisation": 48
+      },
+      "best": 48,
+      "v8_priority": "moyenne",
+      "v9_value": 54,
+      "v9_tier": "moyenne",
+      "signal_class": "observe",
+      "relevance": "propose",
+      "matched_services": [],
+      "verified": false,
+      "confidence": "haute",
+      "base": 34,
+      "magnitude": 20,
+      "capped": false,
+      "has_expressed": false,
+      "reasons": [
+        "problème directement observé : base 34",
+        "pertinence offre : propose (×1.00)",
+        "magnitude bornée : +20 (meilleur axe ia_automatisation = 48, plafond 42)"
+      ],
+      "counter_signals": [],
+      "driving_evidence": [
+        {
+          "quote": "Pour ouvrir votre compte professionnel : Envoyer vos coordonnées complètes : Nom, Prénom - Société - Adresse postale - Téléphone + votre KBIS à l'adresse mail de Bonbon Foliz : contact@bonbon-foliz.com",
+          "source_url": "https://www.bonbon-foliz.com/page/9-espace-professionnel",
+          "observed_at": "2026-11-07",
+          "verified_at": "2026-11-07",
+          "signal_level": "observe"
+        },
+        {
+          "quote": "inscrivez-vous sur nos service en nous envoyant sur contact@bonbon-foliz.com votre extrait de Kbis et les produits souhaités pour votre première commande afin que nous puissions vous établir un bon de commande.",
+          "source_url": "https://www.bonbon-foliz.com/page/9-espace-professionnel",
+          "observed_at": "2026-11-07",
+          "verified_at": "2026-11-07",
+          "signal_level": "observe"
+        }
+      ]
+    },
+    {
+      "company": "L'Ô de Claise",
+      "status": "contacté",
+      "lot": "2026-11-07-lot7",
+      "department": "36",
+      "axes": {
+        "site_web": 5,
+        "refonte": 65,
+        "ia_automatisation": 14
+      },
+      "best": 65,
+      "v8_priority": "haute",
+      "v9_value": 61,
+      "v9_tier": "moyenne",
+      "signal_class": "observe",
+      "relevance": "propose",
+      "matched_services": [],
+      "verified": false,
+      "confidence": "haute",
+      "base": 34,
+      "magnitude": 27,
+      "capped": false,
+      "has_expressed": false,
+      "reasons": [
+        "problème directement observé : base 34",
+        "pertinence offre : propose (×1.00)",
+        "magnitude bornée : +27 (meilleur axe refonte = 65, plafond 42)"
+      ],
+      "counter_signals": [
+        "Réservation déjà en ligne"
+      ],
+      "driving_evidence": [
+        {
+          "quote": "Si vous possédez une carte cadeau merci d'appeler obligatoirement au 02 54 38 16 01, pour une prise de rendez-vous !",
+          "source_url": "https://odeclaise.fr/",
+          "observed_at": "2026-11-07",
+          "verified_at": "2026-11-07",
+          "signal_level": "observe"
+        },
+        {
+          "quote": "Prendre un rendez-vous en ligne",
+          "source_url": "https://odeclaise.fr/",
+          "observed_at": "2026-11-07",
+          "verified_at": "2026-11-07",
+          "signal_level": "observe"
+        }
+      ]
+    },
+    {
+      "company": "Bulles & Détente",
+      "status": "contacté",
+      "lot": "2026-11-07-lot7",
+      "department": "25",
+      "axes": {
+        "site_web": 5,
+        "refonte": 31,
+        "ia_automatisation": 23
+      },
+      "best": 31,
+      "v8_priority": "basse",
+      "v9_value": 47,
+      "v9_tier": "moyenne",
+      "signal_class": "observe",
+      "relevance": "propose",
+      "matched_services": [],
+      "verified": false,
+      "confidence": "haute",
+      "base": 34,
+      "magnitude": 13,
+      "capped": false,
+      "has_expressed": false,
+      "reasons": [
+        "problème directement observé : base 34",
+        "pertinence offre : propose (×1.00)",
+        "magnitude bornée : +13 (meilleur axe refonte = 31, plafond 42)"
+      ],
+      "counter_signals": [],
+      "driving_evidence": [
+        {
+          "quote": "Les bons cadeaux sont valables 6 mois à compter de la date d'achat et ils sont non remboursables. En cas de dépassement, la prolongation sera facturée 10€/mois. Tout rendez vous non honoré ou non annulé 48h à l'avance entrainera l'annulation du bon cadeau.",
+          "source_url": "https://bulles-et-detente.fr/",
+          "observed_at": "2026-11-07",
+          "verified_at": "2026-11-07",
+          "signal_level": "observe"
+        },
+        {
+          "quote": "Les cartes cadeaux sont ensuite envoyées à l'adresse mail de votre choix et à la date souhaitée.",
+          "source_url": "https://bulles-et-detente.fr/",
+          "observed_at": "2026-11-07",
+          "verified_at": "2026-11-07",
+          "signal_level": "observe"
+        }
+      ]
+    },
+    {
+      "company": "Pépinières Ripaud",
+      "status": "brouillon_créé",
+      "lot": "campagne-2026-11-06-lot8",
+      "department": "85",
+      "axes": {
+        "site_web": 5,
+        "refonte": 39,
+        "ia_automatisation": 51
+      },
+      "best": 51,
+      "v8_priority": "moyenne",
+      "v9_value": 55,
+      "v9_tier": "moyenne",
+      "signal_class": "observe",
+      "relevance": "propose",
+      "matched_services": [],
+      "verified": false,
+      "confidence": "haute",
+      "base": 34,
+      "magnitude": 21,
+      "capped": false,
+      "has_expressed": false,
+      "reasons": [
+        "problème directement observé : base 34",
+        "pertinence offre : propose (×1.00)",
+        "magnitude bornée : +21 (meilleur axe ia_automatisation = 51, plafond 42)"
+      ],
+      "counter_signals": [],
+      "driving_evidence": [
+        {
+          "quote": "Si vous êtes un nouveau client, merci de nous adresser votre extrait k-bis et la fiche d'ouverture de compte complétée.",
+          "source_url": "https://www.ripaudpepinieres.com/content/17-la-pepiniere",
+          "observed_at": "2026-11-06",
+          "verified_at": "2026-11-06",
+          "signal_level": "observe"
+        },
+        {
+          "quote": "Vous pouvez envoyer votre commande à info@ripaudpepinieres.com en précisant le nom des végétaux, le conditionnement, la taille et la quantité.",
+          "source_url": "https://www.ripaudpepinieres.com/content/17-la-pepiniere",
+          "observed_at": "2026-11-06",
+          "verified_at": "2026-11-06",
+          "signal_level": "observe"
+        },
+        {
+          "quote": "Téléchargez notre catalogue",
+          "source_url": "https://www.ripaudpepinieres.com/content/17-la-pepiniere",
+          "observed_at": "2026-11-06",
+          "verified_at": "2026-11-06",
+          "signal_level": "observe"
+        }
+      ]
+    },
+    {
+      "company": "Le Centre Formation",
+      "status": "contacté",
+      "lot": "campagne-2026-11-06-lot8",
+      "department": "38",
+      "axes": {
+        "site_web": 5,
+        "refonte": 5,
+        "ia_automatisation": 31
+      },
+      "best": 31,
+      "v8_priority": "basse",
+      "v9_value": 47,
+      "v9_tier": "moyenne",
+      "signal_class": "observe",
+      "relevance": "propose",
+      "matched_services": [],
+      "verified": false,
+      "confidence": "haute",
+      "base": 34,
+      "magnitude": 13,
+      "capped": false,
+      "has_expressed": false,
+      "reasons": [
+        "problème directement observé : base 34",
+        "pertinence offre : propose (×1.00)",
+        "magnitude bornée : +13 (meilleur axe ia_automatisation = 31, plafond 42)"
+      ],
+      "counter_signals": [
+        "Compte ou espace client existant"
+      ],
+      "driving_evidence": [
+        {
+          "quote": "Nous vous envoyons un lien par e-mail, adapté à votre profil, pour créer votre dossier sur Mon Compte Formation.",
+          "source_url": "https://www.le-centre-formation.fr/2025-12-19/nos-formations-caces-sont-disponibles-sur-mon-compte-formation-cpf/",
+          "observed_at": "2026-11-06",
+          "verified_at": "2026-11-06",
+          "signal_level": "observe"
+        },
+        {
+          "quote": "Une fois votre dossier réceptionné, Le Centre Formation vous contacte pour fixer ensemble les dates.",
+          "source_url": "https://www.le-centre-formation.fr/2025-12-19/nos-formations-caces-sont-disponibles-sur-mon-compte-formation-cpf/",
+          "observed_at": "2026-11-06",
+          "verified_at": "2026-11-06",
+          "signal_level": "observe"
+        }
+      ]
+    },
+    {
+      "company": "Kévin Jenback — Couverture, zinguerie, ramonage",
+      "status": "contacté",
+      "lot": "campagne-2026-11-06-lot8",
+      "department": "49",
+      "axes": {
+        "site_web": 5,
+        "refonte": 94,
+        "ia_automatisation": 40
+      },
+      "best": 94,
+      "v8_priority": "moyenne",
+      "v9_value": 73,
+      "v9_tier": "haute",
+      "signal_class": "observe",
+      "relevance": "propose",
+      "matched_services": [],
+      "verified": false,
+      "confidence": "haute",
+      "base": 34,
+      "magnitude": 39,
+      "capped": false,
+      "has_expressed": false,
+      "reasons": [
+        "problème directement observé : base 34",
+        "pertinence offre : propose (×1.00)",
+        "magnitude bornée : +39 (meilleur axe refonte = 94, plafond 42)"
+      ],
+      "counter_signals": [],
+      "driving_evidence": [
+        {
+          "quote": "[Devis gratuit](tel:0663026447)",
+          "source_url": "https://www.mrjenbackprotegevotrehabitat.com/devis-couvreur-zingueur-ramoneur-angers/",
+          "observed_at": "2026-11-06",
+          "verified_at": "2026-11-06",
+          "signal_level": "observe"
+        },
+        {
+          "quote": "Je réponds à votre devis sous 48h, si vous n'avez pas reçu ma réponse, merci de me contacter au 06 16 12 55 42.",
+          "source_url": "https://www.mrjenbackprotegevotrehabitat.com/devis-couvreur-zingueur-ramoneur-angers/",
+          "observed_at": "2026-11-06",
+          "verified_at": "2026-11-06",
+          "signal_level": "observe"
+        },
+        {
+          "quote": "Merci de me notifier la prestation ou les prestations : couverture neuve, couverture rénovation, ramonage, zinguerie neuve, zinguerie réparation, nettoyage façade neuve, nettoyage façade rénovation, toiture dé-moussage, toiture hydrofuge, peinture.",
+          "source_url": "https://www.mrjenbackprotegevotrehabitat.com/devis-couvreur-zingueur-ramoneur-angers/",
+          "observed_at": "2026-11-06",
+          "verified_at": "2026-11-06",
+          "signal_level": "observe"
+        }
+      ]
+    },
+    {
+      "company": "MSF PRO Industries",
+      "status": "contacté",
+      "lot": "campagne-2026-11-06-lot8",
+      "department": "93",
+      "axes": {
+        "site_web": 5,
+        "refonte": 61,
+        "ia_automatisation": 44
+      },
+      "best": 61,
+      "v8_priority": "moyenne",
+      "v9_value": 60,
+      "v9_tier": "moyenne",
+      "signal_class": "observe",
+      "relevance": "propose",
+      "matched_services": [],
+      "verified": false,
+      "confidence": "haute",
+      "base": 34,
+      "magnitude": 26,
+      "capped": false,
+      "has_expressed": false,
+      "reasons": [
+        "problème directement observé : base 34",
+        "pertinence offre : propose (×1.00)",
+        "magnitude bornée : +26 (meilleur axe refonte = 61, plafond 42)"
+      ],
+      "counter_signals": [],
+      "driving_evidence": [
+        {
+          "quote": "[Demander un devis ↗](mailto:Sales@msfpro-industries.com?subject=Demande%20de%20devis)",
+          "source_url": "https://msfpro-industries.com/",
+          "observed_at": "2026-11-06",
+          "verified_at": "2026-11-06",
+          "signal_level": "observe"
+        },
+        {
+          "quote": "Une référence, une photo de plaque signalétique ou un cahier des charges : donnez-nous votre point de départ.",
+          "source_url": "https://msfpro-industries.com/",
+          "observed_at": "2026-11-06",
+          "verified_at": "2026-11-06",
+          "signal_level": "observe"
+        },
+        {
+          "quote": "Nous échangeons sur les caractéristiques techniques, les quantités et les contraintes de votre application.",
+          "source_url": "https://msfpro-industries.com/",
+          "observed_at": "2026-11-06",
+          "verified_at": "2026-11-06",
+          "signal_level": "observe"
+        }
+      ]
+    },
+    {
+      "company": "Beaujolais Réception",
+      "status": "nouveau",
+      "lot": "campagne-2026-11-06-lot8",
+      "department": "69",
+      "axes": {
+        "site_web": 5,
+        "refonte": 69,
+        "ia_automatisation": 49
+      },
+      "best": 69,
+      "v8_priority": "a_approfondir",
+      "v9_value": 67,
+      "v9_tier": "a_approfondir",
+      "signal_class": "exprime_verifie",
+      "relevance": "incertaine",
+      "matched_services": [],
+      "verified": true,
+      "confidence": "haute",
+      "base": 58,
+      "magnitude": 29,
+      "capped": true,
+      "has_expressed": false,
+      "reasons": [
+        "besoin exprimé et vérifié : base 58",
+        "pertinence offre : incertaine (×0.65)",
+        "magnitude bornée : +29 (meilleur axe refonte = 69, plafond 42)",
+        "adresse non joignable : priorité plafonnée à « à approfondir » (la valeur commerciale est conservée telle quelle)"
+      ],
+      "counter_signals": [],
+      "driving_evidence": [
+        {
+          "quote": "Directeur de la publication : Kevin CANARD, Gérant",
+          "source_url": "https://beaujolaisreception.fr/mentions-legales/",
+          "observed_at": "2026-11-06",
+          "verified_at": "2026-11-06",
+          "signal_level": "exprime"
+        }
+      ]
+    },
+    {
+      "company": "Caléo Tests & Services",
+      "status": "brouillon_en_attente",
+      "lot": "2026-11-06-lot9",
+      "department": "62",
+      "axes": {
+        "site_web": 5,
+        "refonte": 39,
+        "ia_automatisation": 64
+      },
+      "best": 64,
+      "v8_priority": "moyenne",
+      "v9_value": 61,
+      "v9_tier": "moyenne",
+      "signal_class": "observe",
+      "relevance": "propose",
+      "matched_services": [],
+      "verified": false,
+      "confidence": "haute",
+      "base": 34,
+      "magnitude": 27,
+      "capped": false,
+      "has_expressed": false,
+      "reasons": [
+        "problème directement observé : base 34",
+        "pertinence offre : propose (×1.00)",
+        "magnitude bornée : +27 (meilleur axe ia_automatisation = 64, plafond 42)"
+      ],
+      "counter_signals": [],
+      "driving_evidence": [
+        {
+          "quote": "Le bouton ci-dessous ouvre votre messagerie avec la demande pré-remplie, prête à envoyer à contact@caleo-ts.fr.",
+          "source_url": "https://www.caleo-ts.fr/demande-de-devis/",
+          "observed_at": "2026-11-06",
+          "verified_at": "2026-11-06",
+          "signal_level": "observe"
+        },
+        {
+          "quote": "Si votre liste est longue, envoyez-la plutôt en pièce jointe (tableur Excel/CSV ou export de votre logiciel de parc) par email à contact@caleo-ts.fr, en mentionnant votre demande.",
+          "source_url": "https://www.caleo-ts.fr/demande-de-devis/",
+          "observed_at": "2026-11-06",
+          "verified_at": "2026-11-06",
+          "signal_level": "observe"
+        },
+        {
+          "quote": "Chaque demande fait l'objet d'une analyse rapide ; plus votre liste est précise (type, marque, modèle, plage, quantité), plus la réponse est rapide. En cas d'instrument inhabituel, nous vous recontactons pour confirmer la faisabilité avant de chiffrer.",
+          "source_url": "https://www.caleo-ts.fr/demande-de-devis/",
+          "observed_at": "2026-11-06",
+          "verified_at": "2026-11-06",
+          "signal_level": "observe"
+        },
+        {
+          "quote": "Les tarifs sont-ils publiés ? Non : chaque parc est différent (volumes, mix d'instruments, exigences documentaires, sur site ou en laboratoire).",
+          "source_url": "https://www.caleo-ts.fr/demande-de-devis/",
+          "observed_at": "2026-11-06",
+          "verified_at": "2026-11-06",
+          "signal_level": "observe"
+        }
+      ]
+    },
+    {
+      "company": "Cordonnerie Canfora David",
+      "status": "brouillon_en_attente",
+      "lot": "2026-11-06-lot9",
+      "department": "03",
+      "axes": {
+        "site_web": 5,
+        "refonte": 56,
+        "ia_automatisation": 70
+      },
+      "best": 70,
+      "v8_priority": "moyenne",
+      "v9_value": 63,
+      "v9_tier": "moyenne",
+      "signal_class": "observe",
+      "relevance": "propose",
+      "matched_services": [],
+      "verified": false,
+      "confidence": "haute",
+      "base": 34,
+      "magnitude": 29,
+      "capped": false,
+      "has_expressed": false,
+      "reasons": [
+        "problème directement observé : base 34",
+        "pertinence offre : propose (×1.00)",
+        "magnitude bornée : +29 (meilleur axe ia_automatisation = 70, plafond 42)"
+      ],
+      "counter_signals": [],
+      "driving_evidence": [
+        {
+          "quote": "Venez nous rencontrer en magasin pour nous présenter votre demande et pour établir un devis personnalisé !",
+          "source_url": "https://www.cordonnerie-canfora-moulins.fr/bourrellerie",
+          "observed_at": "2026-11-06",
+          "verified_at": "2026-11-06",
+          "signal_level": "observe"
+        },
+        {
+          "quote": "Pour vos travaux de sellerie, n'hésitez pas à venir nous présenter votre demande en magasin et établir un devis personnalisé.",
+          "source_url": "https://www.cordonnerie-canfora-moulins.fr/sellerie-cheval",
+          "observed_at": "2026-11-06",
+          "verified_at": "2026-11-06",
+          "signal_level": "observe"
+        },
+        {
+          "quote": "Appelez-nous rapidement 04 70 44 38 79 — Ecrivez-nous un e-mail",
+          "source_url": "https://www.cordonnerie-canfora-moulins.fr/contact",
+          "observed_at": "2026-11-06",
+          "verified_at": "2026-11-06",
+          "signal_level": "observe"
+        },
+        {
+          "quote": "Site vitrine réalisé par Solocal, avec appel téléphonique et lien e-mail, page horaires et page avis.",
+          "source_url": "https://www.cordonnerie-canfora-moulins.fr/bourrellerie",
+          "observed_at": "2026-11-06",
+          "verified_at": "2026-11-06",
+          "signal_level": "observe"
+        }
+      ]
+    },
+    {
+      "company": "Froger Étanchéité",
+      "status": "brouillon_en_attente",
+      "lot": "2026-11-06-lot9",
+      "department": "35",
+      "axes": {
+        "site_web": 5,
+        "refonte": 39,
+        "ia_automatisation": 66
+      },
+      "best": 66,
+      "v8_priority": "moyenne",
+      "v9_value": 62,
+      "v9_tier": "moyenne",
+      "signal_class": "observe",
+      "relevance": "propose",
+      "matched_services": [],
+      "verified": false,
+      "confidence": "haute",
+      "base": 34,
+      "magnitude": 28,
+      "capped": false,
+      "has_expressed": false,
+      "reasons": [
+        "problème directement observé : base 34",
+        "pertinence offre : propose (×1.00)",
+        "magnitude bornée : +28 (meilleur axe ia_automatisation = 66, plafond 42)"
+      ],
+      "counter_signals": [],
+      "driving_evidence": [
+        {
+          "quote": "E-mail : moc.liamg%40etiehcnateregorf",
+          "source_url": "https://froger-etancheite.fr/",
+          "observed_at": "2026-11-06",
+          "verified_at": "2026-11-06",
+          "signal_level": "observe"
+        },
+        {
+          "quote": "Pour obtenir un devis personnalisé, il vous suffit de nous contacter par téléphone ou via notre formulaire en ligne. Nous convenons d'une visite sur site, pour évaluer vos besoins et les spécificités de votre toiture. Nous pouvons ensuite vous envoyer un devis détaillé, gratuit et sans engagement.",
+          "source_url": "https://froger-etancheite.fr/",
+          "observed_at": "2026-11-06",
+          "verified_at": "2026-11-06",
+          "signal_level": "observe"
+        },
+        {
+          "quote": "Nous proposons des contrats annuels comprenant le nettoyage, la vérification des ouvrages et un compte-rendu détaillé.",
+          "source_url": "https://froger-etancheite.fr/",
+          "observed_at": "2026-11-06",
+          "verified_at": "2026-11-06",
+          "signal_level": "observe"
+        },
+        {
+          "quote": "Une question, une demande de devis ? Remplissez le formulaire ou contactez-nous directement par téléphone.",
+          "source_url": "https://froger-etancheite.fr/",
+          "observed_at": "2026-11-06",
+          "verified_at": "2026-11-06",
+          "signal_level": "observe"
+        }
+      ]
+    },
+    {
+      "company": "Cordes et Âme",
+      "status": "brouillon_en_attente",
+      "lot": "2026-11-06-lot9",
+      "department": "75",
+      "axes": {
+        "site_web": 5,
+        "refonte": 5,
+        "ia_automatisation": 39
+      },
+      "best": 39,
+      "v8_priority": "moyenne",
+      "v9_value": 50,
+      "v9_tier": "moyenne",
+      "signal_class": "observe",
+      "relevance": "propose",
+      "matched_services": [],
+      "verified": false,
+      "confidence": "haute",
+      "base": 34,
+      "magnitude": 16,
+      "capped": false,
+      "has_expressed": false,
+      "reasons": [
+        "problème directement observé : base 34",
+        "pertinence offre : propose (×1.00)",
+        "magnitude bornée : +16 (meilleur axe ia_automatisation = 39, plafond 42)"
+      ],
+      "counter_signals": [
+        "Paiement en ligne en place"
+      ],
+      "driving_evidence": [
+        {
+          "quote": "Selon la nature des travaux et la présence au sein de l'atelier de clientèle, il peut être compliqué de répondre aux appels. Nous relevons les messages une fois par jour. Pour une réponse plus rapide et claire, nous vous invitons à nous contacter de préférence par mail.",
+          "source_url": "https://www.cordesetame.fr/",
+          "observed_at": "2026-11-06",
+          "verified_at": "2026-11-06",
+          "signal_level": "observe"
+        },
+        {
+          "quote": "Dans tous les cas, nous vous invitons à venir nous rendre visite à l'atelier avec votre instrument pour discuter des besoins et des possibilités, afin que nous vous proposions un devis et fixions éventuellement un rendez-vous.",
+          "source_url": "https://www.cordesetame.fr/",
+          "observed_at": "2026-11-06",
+          "verified_at": "2026-11-06",
+          "signal_level": "observe"
+        },
+        {
+          "quote": "Comme notre stock est mouvant, et comme chaque instrument est révisé avant votre location, vous pouvez rencontrer un délai de préparation avant que l'instrument soit disponible. Nous vous encourageons à nous contacter en avance pour réserver votre instrument.",
+          "source_url": "https://www.cordesetame.fr/",
+          "observed_at": "2026-11-06",
+          "verified_at": "2026-11-06",
+          "signal_level": "observe"
+        },
+        {
+          "quote": "Boutique en ligne avec panier et page « Demande une location ».",
+          "source_url": "https://www.cordesetame.fr/",
+          "observed_at": "2026-11-06",
+          "verified_at": "2026-11-06",
+          "signal_level": "observe"
+        }
+      ]
+    },
+    {
+      "company": "O Lames Déchues",
+      "status": "nouveau",
+      "lot": "2026-11-07-approfondissement",
+      "department": "95",
+      "axes": {
+        "site_web": 5,
+        "refonte": 89,
+        "ia_automatisation": 27
+      },
+      "best": 89,
+      "v8_priority": "haute",
+      "v9_value": 71,
+      "v9_tier": "haute",
+      "signal_class": "observe",
+      "relevance": "propose",
+      "matched_services": [],
+      "verified": false,
+      "confidence": "haute",
+      "base": 34,
+      "magnitude": 37,
+      "capped": false,
+      "has_expressed": false,
+      "reasons": [
+        "problème directement observé : base 34",
+        "pertinence offre : propose (×1.00)",
+        "magnitude bornée : +37 (meilleur axe refonte = 89, plafond 42)"
+      ],
+      "counter_signals": [],
+      "driving_evidence": [
+        {
+          "quote": "Retrouvez mon planning hebdomadaire mis à jour en direct sur cette page [ou section « Planning »].",
+          "source_url": "https://olamesdechues.fr/",
+          "observed_at": "2026-11-07",
+          "verified_at": "2026-11-07",
+          "signal_level": "observe"
+        },
+        {
+          "quote": "Faut-il prendre rendez-vous pour faire affûter ses outils ? Oui, c'est une possibilié. Sinon il vous suffit de vous rendre à mon camion aux horaires indiqués sur le planning et de me déposer vos tranchants.",
+          "source_url": "https://olamesdechues.fr/",
+          "observed_at": "2026-11-07",
+          "verified_at": "2026-11-07",
+          "signal_level": "observe"
+        },
+        {
+          "quote": "Métiers de bouche (restaurateurs, bouchers), coiffeurs, paysagistes ou collectivités : je peux intervenir directement sur votre site ou programmer un passage régulier sur rendez-vous. Contactez-moi pour un devis sur mesure.",
+          "source_url": "https://olamesdechues.fr/",
+          "observed_at": "2026-11-07",
+          "verified_at": "2026-11-07",
+          "signal_level": "observe"
+        },
+        {
+          "quote": "Nos partenaires",
+          "source_url": "https://olamesdechues.fr/",
+          "observed_at": "2026-11-07",
+          "verified_at": "2026-11-07",
+          "signal_level": "observe"
+        }
+      ]
+    },
+    {
+      "company": "Zicplace",
+      "status": "nouveau",
+      "lot": "2026-11-07-approfondissement",
+      "department": "93",
+      "axes": {
+        "site_web": 5,
+        "refonte": 81,
+        "ia_automatisation": 31
+      },
+      "best": 81,
+      "v8_priority": "haute",
+      "v9_value": 68,
+      "v9_tier": "moyenne",
+      "signal_class": "observe",
+      "relevance": "propose",
+      "matched_services": [],
+      "verified": false,
+      "confidence": "haute",
+      "base": 34,
+      "magnitude": 34,
+      "capped": false,
+      "has_expressed": false,
+      "reasons": [
+        "problème directement observé : base 34",
+        "pertinence offre : propose (×1.00)",
+        "magnitude bornée : +34 (meilleur axe refonte = 81, plafond 42)"
+      ],
+      "counter_signals": [],
+      "driving_evidence": [
+        {
+          "quote": "Vous pouvez passer directement au magasin à Montreuil. Pour un ampli lourd ou une panne complexe, vous pouvez aussi appeler avant de venir.",
+          "source_url": "https://zicplace.fr/reparation-entretien-instrument",
+          "observed_at": "2026-11-07",
+          "verified_at": "2026-11-07",
+          "signal_level": "observe"
+        },
+        {
+          "quote": "Passez au magasin avec votre matériel. On regarde le problème, on vous explique les options, puis on vous propose un devis avant réparation.",
+          "source_url": "https://zicplace.fr/reparation-entretien-instrument",
+          "observed_at": "2026-11-07",
+          "verified_at": "2026-11-07",
+          "signal_level": "observe"
+        },
+        {
+          "quote": "Lutherie & réparation depuis 2019 +2 000 réparations chaque année",
+          "source_url": "https://zicplace.fr/reparation-entretien-instrument",
+          "observed_at": "2026-11-07",
+          "verified_at": "2026-11-07",
+          "signal_level": "observe"
+        },
+        {
+          "quote": "Horaires Lun–Sam · 10h–20h",
+          "source_url": "https://zicplace.fr/reparation-entretien-instrument",
+          "observed_at": "2026-11-07",
+          "verified_at": "2026-11-07",
+          "signal_level": "observe"
+        }
+      ]
+    },
+    {
+      "company": "Atelier du Bourrelier",
+      "status": "nouveau",
+      "lot": "2026-11-07-approfondissement",
+      "department": "45",
+      "axes": {
+        "site_web": 5,
+        "refonte": 98,
+        "ia_automatisation": 12
+      },
+      "best": 98,
+      "v8_priority": "haute",
+      "v9_value": 75,
+      "v9_tier": "haute",
+      "signal_class": "observe",
+      "relevance": "propose",
+      "matched_services": [],
+      "verified": false,
+      "confidence": "haute",
+      "base": 34,
+      "magnitude": 41,
+      "capped": false,
+      "has_expressed": false,
+      "reasons": [
+        "problème directement observé : base 34",
+        "pertinence offre : propose (×1.00)",
+        "magnitude bornée : +41 (meilleur axe refonte = 98, plafond 42)"
+      ],
+      "counter_signals": [],
+      "driving_evidence": [
+        {
+          "quote": "Accueil — Prestations — Nous trouver — Mieux nous connaître — Recrutement",
+          "source_url": "https://atelierdubourrelier.com/mieux-nous-connnaitre/",
+          "observed_at": "2026-11-07",
+          "verified_at": "2026-11-07",
+          "signal_level": "observe"
+        },
+        {
+          "quote": "Retrouvez-moi sur ce salon, je serai ravi de vous rencontrer et vous présenter mon travail ! FERMER",
+          "source_url": "https://atelierdubourrelier.com/mieux-nous-connnaitre/",
+          "observed_at": "2026-11-07",
+          "verified_at": "2026-11-07",
+          "signal_level": "observe"
+        },
+        {
+          "quote": "Créé en 1997, l'Atelier du Bourrelier est l'héritier de savoir-faire d'excellence, et notamment ceux de la Garde Républicaine dont l'entreprise est toujours un fournisseur officiel.",
+          "source_url": "https://atelierdubourrelier.com/mieux-nous-connnaitre/",
+          "observed_at": "2026-11-07",
+          "verified_at": "2026-11-07",
+          "signal_level": "observe"
+        },
+        {
+          "quote": "La Dirigeante : Lisa Ménière — Je suis revenue en France en juillet 2024 pour racheter une pépite française à son fondateur Michel Boissière : l'Atelier du Bourrelier.",
+          "source_url": "https://atelierdubourrelier.com/mieux-nous-connnaitre/",
+          "observed_at": "2026-11-07",
+          "verified_at": "2026-11-07",
+          "signal_level": "observe"
+        }
+      ]
+    },
+    {
+      "company": "Étanchéité Nantaise",
+      "status": "nouveau",
+      "lot": "2026-11-07-approfondissement",
+      "department": "44",
+      "axes": {
+        "site_web": 5,
+        "refonte": 39,
+        "ia_automatisation": 22
+      },
+      "best": 39,
+      "v8_priority": "basse",
+      "v9_value": 50,
+      "v9_tier": "moyenne",
+      "signal_class": "observe",
+      "relevance": "propose",
+      "matched_services": [],
+      "verified": false,
+      "confidence": "haute",
+      "base": 34,
+      "magnitude": 16,
+      "capped": false,
+      "has_expressed": false,
+      "reasons": [
+        "problème directement observé : base 34",
+        "pertinence offre : propose (×1.00)",
+        "magnitude bornée : +16 (meilleur axe refonte = 39, plafond 42)"
+      ],
+      "counter_signals": [],
+      "driving_evidence": [
+        {
+          "quote": "Nom * / Téléphone * / E-mail * / Votre Message * / Je consens à ce que mon adresse email soit collectée afin de traiter cette demande.",
+          "source_url": "https://etancheite-nantaise.fr/contact",
+          "observed_at": "2026-11-07",
+          "verified_at": "2026-11-07",
+          "signal_level": "observe"
+        },
+        {
+          "quote": "Devis gratuit sous 48 h — Diagnostic personnalisé — Je prends contact !",
+          "source_url": "https://etancheite-nantaise.fr/",
+          "observed_at": "2026-11-07",
+          "verified_at": "2026-11-07",
+          "signal_level": "observe"
+        },
+        {
+          "quote": "Éditeur du Site : Etanchéité Nantaise (EI) — Tél : 06 26 12 19 85 — Mail : etancheitenantaise@gmail.com — Siren : 91925954900013",
+          "source_url": "https://etancheite-nantaise.fr/mentions-legales/",
+          "observed_at": "2026-11-07",
+          "verified_at": "2026-11-07",
+          "signal_level": "observe"
+        },
+        {
+          "quote": "Envoyez-nous un message — Envoyer",
+          "source_url": "https://etancheite-nantaise.fr/contact",
+          "observed_at": "2026-11-07",
+          "verified_at": "2026-11-07",
+          "signal_level": "observe"
+        }
+      ]
+    },
+    {
+      "company": "Alain Louis — Naturaliste taxidermiste",
+      "status": "nouveau",
+      "lot": "2026-11-07-lot10",
+      "department": "78",
+      "axes": {
+        "site_web": 5,
+        "refonte": 81,
+        "ia_automatisation": 12
+      },
+      "best": 81,
+      "v8_priority": "haute",
+      "v9_value": 68,
+      "v9_tier": "moyenne",
+      "signal_class": "observe",
+      "relevance": "propose",
+      "matched_services": [],
+      "verified": false,
+      "confidence": "haute",
+      "base": 34,
+      "magnitude": 34,
+      "capped": false,
+      "has_expressed": false,
+      "reasons": [
+        "problème directement observé : base 34",
+        "pertinence offre : propose (×1.00)",
+        "magnitude bornée : +34 (meilleur axe refonte = 81, plafond 42)"
+      ],
+      "counter_signals": [],
+      "driving_evidence": [
+        {
+          "quote": "Button",
+          "source_url": "https://www.louis-alain-naturaliste.fr/naturaliste-taxidermiste-gazeran",
+          "observed_at": "2026-11-07",
+          "verified_at": "2026-11-07",
+          "signal_level": "observe"
+        },
+        {
+          "quote": "DEMANDER UN DEVIS",
+          "source_url": "https://www.louis-alain-naturaliste.fr/naturaliste-taxidermiste-gazeran",
+          "observed_at": "2026-11-07",
+          "verified_at": "2026-11-07",
+          "signal_level": "observe"
+        },
+        {
+          "quote": "Appeler avant de venir",
+          "source_url": "https://www.louis-alain-naturaliste.fr/naturaliste-taxidermiste-gazeran",
+          "observed_at": "2026-11-07",
+          "verified_at": "2026-11-07",
+          "signal_level": "observe"
+        },
+        {
+          "quote": "Alain Louis, naturaliste taxidermiste depuis plus de 50 ans, est installé à Gazeran en bordure de la forêt de Rambouillet dans les Yvelines.",
+          "source_url": "https://www.louis-alain-naturaliste.fr/naturaliste-taxidermiste-gazeran",
+          "observed_at": "2026-11-07",
+          "verified_at": "2026-11-07",
+          "signal_level": "observe"
+        }
+      ]
+    }
+  ]
+}

@@ -77,7 +77,9 @@ première étape non cochée **sans refaire les recherches déjà faites**.
       Rhonalpe 69→**01**. Registre 55→**59** (anciennes décisions conservées,
       nouvelles ajoutées). Historique de recherche : **9 requêtes tracées**.
       Rendement recalculé : site_officiel 13→5 (**0,295**), annuaire_pro 31→0 (0,031).
-- [ ] **H** Lot 10 : ~60 structures, nouveaux départements, brouillons qualifiés
+- [~] **H** Lot 10 — **13 / ~60 structures examinées**, 1 fiche importée
+      (Alain Louis 78). Archive `data/history/lot10-exploration-2026-11-07.json`
+      (`objective_reached:false`). **47 restantes** + **5 brouillons à créer**.
 - [x] **I** Audit Gmail — `docs/audit-gmail-phase10.md` +
       `data/history/audit-gmail-phase10.json`. **69 adresses interrogées** en
       4 requêtes (domaines + adresses grand public), spam/corbeille inclus,
@@ -91,9 +93,11 @@ première étape non cochée **sans refaire les recherches déjà faites**.
       **Incident évité** : `Sender().preflight()` en production réécrit
       `last_checked_at` ; détecté par MD5 et annulé. MD5 des 4 fichiers de
       production stables avant/après tests.
-- [ ] **K** Dashboard : performance par lot, sources, faux positifs/négatifs
-- [ ] **L** Tests complets + contrôles 1 à 11
-- [ ] **M** Rapport final `docs/rapport-phase10.md`
+- [x] **K** Dashboard — panneau « Pilotage & Recherche », commit `3baaf4b`.
+      `metrics` expose `qualification`, `recherche`, `revue_portefeuille`.
+- [x] **L** Tests — `tests/test_phase10_livraison.py`, commit `3baaf4b`.
+- [x] **M** Rapport — `docs/rapport-mission-2026-11-07-phase10.md`, commit `52c48a4`.
+      (Le nom diffère de celui prévu ici : c'est le fichier réellement écrit.)
 
 ## Résultats de recherche déjà acquis (ne pas refaire)
 
@@ -135,3 +139,34 @@ Registre d'exploration : `data/history/exploration-ledger.json` (55 entrées).
    Philippe 94 (e-mail non vu).
 5. **Échelle commune aux 3 axes** — limite structurelle documentée en §2 du
    rapport. Demande un calibrage avec revue humaine, pas un patch.
+
+
+---
+
+# REPRISE DU 2026-11-07 (seconde passe) — travaux B à J
+
+**CETTE SECTION PRIME sur la liste ci-dessus.** La liste A→M contenait des
+cases non cochées alors que les travaux étaient commités : les `.replace()`
+utilisaient des ancres inexistantes et ne faisaient rien en silence. Corrigé
+ici avec assertions sur chaque ancre.
+
+- [x] **A** Reprise vérifiée — branche `arena/7ed6352a-agent-prosect1`, HEAD
+      `52c48a4` propre et poussé (local == distant). **Aucune base SQLite**
+      (CRM en JSON, 83 fiches, 100 % v8). MD5 des 4 journaux **4/4 OK**.
+      Dashboard vivant (HTTP 302 sur /). **473 tests** au vert à l'arrivée
+      (et non 350 : 123 ont été ajoutés depuis).
+- [x] **B** Calibration commerciale v9 — `prospecto/priority.py`,
+      `docs/calibration-priorite-v9.md`, `tests/test_priority_v9.py` (25 tests).
+      Priorité **transversale**, distincte des 3 axes **inchangés**.
+      **27 priorités modifiées / 83, 0 score d'axe modifié.**
+      Archives : `priorite-commerciale-v8-vers-v9.json` (CRM complet avant
+      migration + avant/après par fiche) et `simulation-calibration-v9.json`.
+      **498 tests.** Une calibration rejetée par la simulation est documentée.
+- [ ] **C** 5 brouillons lot 10
+- [ ] **D** 47 structures restantes
+- [ ] **E** 38 fiches non réexaminées
+- [ ] **F** 8 pistes à approfondir
+- [ ] **G** Nouvel audit Gmail
+- [ ] **H** Sécurité (vérification continue)
+- [ ] **I** Tests + contrôles 1-10
+- [ ] **J** Rapport final de seconde passe
