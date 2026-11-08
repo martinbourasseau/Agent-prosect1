@@ -59,7 +59,24 @@ première étape non cochée **sans refaire les recherches déjà faites**.
       Les 4 fiches du lot 9 qualifient. Bilan 78 : **7 qualifiées au sens
       strict**, 48 emails vérifiés, 26 téléphones vérifiés, 13 sans adresse,
       **0 adresse reconstituée non confirmée**. 53 bloquées car déjà contactées.
-- [ ] **G** Approfondissement lot 9 : 24 annuaire seul + 27 écartées
+- [x] **G** Approfondissement lot 9 — **13 / 51 réexaminées**, 38 explicitement
+      « non réexaminé » (motif initial NON revalidé, ne pas le présenter comme acquis).
+      Archive `data/history/approfondissement-lot9-2026-11-07.json`.
+      **4 qualifiées et importées** (lot `2026-11-07-approfondissement`, CRM 78→82,
+      4/4 `mx_ok`, 0 doublon) : **O Lames Déchues** 95 (5/89/27, haute),
+      **Zicplace** 93 (5/81/31, haute), **Atelier du Bourrelier** 45 (5/98/12, haute),
+      **Étanchéité Nantaise** 44 (5/39/22, basse).
+      **6 « approfondir »** avec l'étape précise manquante : Rhonalpe (01, e-mail
+      JSON-LD seulement, 2 sites), Atelier de Lutherie Cassat/Wellmer (78, e-mail
+      vu sur Facebook seulement), Abc Forage 34 (forage34.com non ouvert),
+      Forages Berenguer (34, e-mail en snippet seulement), Fermetures Leichnam
+      (02, site non ouvert), SET AZUR 83 (identité ambigüe, reprendre par SIREN).
+      **3 rejets maintenus** : Aqua Forage (aucun site, absence confirmée par
+      l'annuaire), INSIDE (annuaire seul), Cemer (fermeture non levée).
+      **2 corrections de département** : Atelier du Bourrelier 91→**45**,
+      Rhonalpe 69→**01**. Registre 55→**59** (anciennes décisions conservées,
+      nouvelles ajoutées). Historique de recherche : **9 requêtes tracées**.
+      Rendement recalculé : site_officiel 13→5 (**0,295**), annuaire_pro 31→0 (0,031).
 - [ ] **H** Lot 10 : ~60 structures, nouveaux départements, brouillons qualifiés
 - [ ] **I** Audit Gmail + réconciliation
 - [ ] **J** Sécurité envois (vérification continue)

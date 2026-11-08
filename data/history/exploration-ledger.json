@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-06T16:32:28+00:00",
-  "count": 55,
+  "updated_at": "2026-11-08T17:16:49+00:00",
+  "count": 59,
   "entries": [
     {
       "company": "Styl'escalier",
@@ -661,6 +661,54 @@
       "source_url": "",
       "lot": "2026-11-06-lot9",
       "examined_at": "2026-11-06T16:32:28+00:00"
+    },
+    {
+      "company": "Étanchéité Nantaise",
+      "domain": "etancheite-nantaise.fr",
+      "department": "44",
+      "sector": "etancheite_toiture",
+      "decision": "retenue",
+      "reason": "Site officiel trouvé ; adresse en clair aux mentions légales ; formulaire sans champ de qualification.",
+      "source_type": "site_officiel",
+      "source_url": "https://etancheite-nantaise.fr/mentions-legales/",
+      "lot": "2026-11-07-approfondissement",
+      "examined_at": "2026-11-08T17:16:34+00:00"
+    },
+    {
+      "company": "O Lames Déchues",
+      "domain": "olamesdechues.fr",
+      "department": "95",
+      "sector": "affutage_itinerant",
+      "decision": "retenue",
+      "reason": "RÉÉVALUATION section G : rejet initial levé. Le site n'est plus en chantier, adresse et téléphone publiés en clair. Gabarit non terminé : planning annoncé mais absent.",
+      "source_type": "site_officiel",
+      "source_url": "https://olamesdechues.fr/",
+      "lot": "2026-11-07-approfondissement",
+      "examined_at": "2026-11-08T17:16:49+00:00"
+    },
+    {
+      "company": "Zicplace",
+      "domain": "zicplace.fr",
+      "department": "93",
+      "sector": "lutherie_reparation",
+      "decision": "retenue",
+      "reason": "RÉÉVALUATION section G : rejet initial levé. L'adresse est publiée en clair (pas seulement en JSON-LD). Dépôt physique seul pour +2000 réparations/an ; horaires contradictoires sur la même page.",
+      "source_type": "site_officiel",
+      "source_url": "https://zicplace.fr/reparation-entretien-instrument",
+      "lot": "2026-11-07-approfondissement",
+      "examined_at": "2026-11-08T17:16:49+00:00"
+    },
+    {
+      "company": "Atelier du Bourrelier",
+      "domain": "atelierdubourrelier.com",
+      "department": "45",
+      "sector": "sellerie_maroquinerie",
+      "decision": "retenue",
+      "reason": "RÉÉVALUATION section G : « annuaire seul » levé. Site officiel trouvé et lu ; la société est à Dordives (45), non 91 comme indiqué au registre. Aucune page contact dans la navigation.",
+      "source_type": "site_officiel",
+      "source_url": "https://atelierdubourrelier.com/mieux-nous-connnaitre/",
+      "lot": "2026-11-07-approfondissement",
+      "examined_at": "2026-11-08T17:16:49+00:00"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-07",
-  "count": 78,
+  "updated_at": "2026-11-08T17:16:05+00:00",
+  "count": 82,
   "prospects": [
     {
       "company": "R Premium",
@@ -14107,6 +14107,861 @@
           "reason": "relecture de la source officielle, section F phase 10"
         }
       ]
+    },
+    {
+      "company": "O Lames Déchues",
+      "website": "https://olamesdechues.fr/",
+      "domain": "olamesdechues.fr",
+      "sector": "Affûtage et rémoulage itinérant (camion-atelier)",
+      "city": "Bréançon",
+      "department": "95",
+      "contact_name": "",
+      "contact_role": "",
+      "email": "olamesdechues@gmail.com",
+      "phone": "07 80 95 86 68",
+      "need": "refonte",
+      "needs": [
+        "refonte",
+        "automatisation"
+      ],
+      "recommended_service": "un planning de tournée réellement publié et une demande de passage régulier pour les professionnels",
+      "custom_subject": "O Lames Déchues : le planning annoncé n'est pas sur la page",
+      "custom_hook": "Votre FAQ renvoie à un planning « sur cette page [ou section « Planning »] », mais aucune section planning n'y figure.",
+      "process_hint": "passages réguliers chez les professionnels programmés sur rendez-vous ; devis sur mesure à demander ; dépôt des outils au camion aux horaires du planning",
+      "demo_detail": "un restaurateur demande un passage mensuel et reçoit un créneau confirmé sans échange d'e-mails",
+      "evidence": [
+        {
+          "kind": "site_obsolete",
+          "quote": "Retrouvez mon planning hebdomadaire mis à jour en direct sur cette page [ou section « Planning »].",
+          "detail": "Le marqueur de gabarit est publié tel quel et aucune section planning n'existe sur la page, alors que l'activité itinérante repose entièrement sur cette information.",
+          "source_url": "https://olamesdechues.fr/",
+          "source_type": "site_officiel",
+          "observed_at": "2026-11-07",
+          "verified_at": "2026-11-07",
+          "reliability": "haute",
+          "observed": true
+        },
+        {
+          "kind": "parcours_incomplet",
+          "quote": "Faut-il prendre rendez-vous pour faire affûter ses outils ? Oui, c'est une possibilié. Sinon il vous suffit de vous rendre à mon camion aux horaires indiqués sur le planning et de me déposer vos tranchants.",
+          "detail": "Le parcours renvoie à un planning absent ; aucune demande de rendez-vous en ligne.",
+          "source_url": "https://olamesdechues.fr/",
+          "source_type": "site_officiel",
+          "observed_at": "2026-11-07",
+          "verified_at": "2026-11-07",
+          "reliability": "haute",
+          "observed": true
+        },
+        {
+          "kind": "processus_manuel",
+          "quote": "Métiers de bouche (restaurateurs, bouchers), coiffeurs, paysagistes ou collectivités : je peux intervenir directement sur votre site ou programmer un passage régulier sur rendez-vous. Contactez-moi pour un devis sur mesure.",
+          "detail": "Les tournées professionnelles récurrentes sont calées à la main, contact par contact.",
+          "source_url": "https://olamesdechues.fr/",
+          "source_type": "site_officiel",
+          "observed_at": "2026-11-07",
+          "verified_at": "2026-11-07",
+          "reliability": "haute",
+          "observed": true
+        },
+        {
+          "kind": "site_obsolete",
+          "quote": "Nos partenaires",
+          "detail": "Le bloc partenaires répète cinq fois le logo de l'entreprise elle-même et un pictogramme de banque d'images ; contenu non renseigné.",
+          "source_url": "https://olamesdechues.fr/",
+          "source_type": "site_officiel",
+          "observed_at": "2026-11-07",
+          "verified_at": "2026-11-07",
+          "reliability": "haute",
+          "observed": true
+        },
+        {
+          "kind": "maturite_existante",
+          "quote": "J'accepte les paiements en espèces, par carte bancaire et par chèque.",
+          "detail": "Encaissement sur place déjà possible en CB : contre-signal à un besoin de paiement en ligne.",
+          "source_url": "https://olamesdechues.fr/",
+          "source_type": "site_officiel",
+          "observed_at": "2026-11-07",
+          "verified_at": "2026-11-07",
+          "reliability": "haute",
+          "observed": true
+        },
+        {
+          "kind": "signal_confiance",
+          "quote": "O Lames Déchues — olamesdechues@gmail.com — Téléphone 07 80 95 86 68",
+          "detail": "Coordonnées publiées en clair sur l'accueil et dans le bloc Contact. SIRET 90403486500017, 6 chemin des Châtaigniers, 95640 Bréançon.",
+          "source_url": "https://olamesdechues.fr/",
+          "source_type": "site_officiel",
+          "observed_at": "2026-11-07",
+          "verified_at": "2026-11-07",
+          "reliability": "haute",
+          "observed": true
+        }
+      ],
+      "source": "site_officiel",
+      "publication_date": "",
+      "email_verification": "verified",
+      "email_verification_basis": "adresse citée sur source officielle datée",
+      "email_provenance": "publiee",
+      "phone_verification": "verified",
+      "email_dns_status": "mx_ok",
+      "email_dns_detail": "5 MX publiés",
+      "email_dns_checked_at": "2026-11-07",
+      "lot": "2026-11-07-approfondissement",
+      "discovered_at": "2026-11-07",
+      "created_at": "2026-11-07",
+      "updated_at": "2026-11-08T17:16:05+00:00",
+      "status": "nouveau",
+      "email_status": "nouveau",
+      "status_crm": "qualified",
+      "next_action": "rédiger un brouillon ; aucun envoi tant que le pré-vol bloque",
+      "justification": "https://olamesdechues.fr/ ; https://olamesdechues.fr/",
+      "notes": "Récupération de la section G (approfondissement du lot 9), source officielle relue le 2026-11-07. Voir data/history/approfondissement-lot9-2026-11-07.json.",
+      "scores": {
+        "site_web": {
+          "axis": "site_web",
+          "score": 5,
+          "level": "faible",
+          "reasons": [
+            "un site est déjà en ligne : pas de création à proprement parler"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "un site existe déjà : la création n'est pas le bon service"
+          ],
+          "confidence": "moyenne",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": [],
+          "evaluated_at": "2026-11-08",
+          "signal_levels": {}
+        },
+        "refonte": {
+          "axis": "refonte",
+          "score": 89,
+          "level": "fort",
+          "reasons": [
+            "site existant à moderniser",
+            "+42 site_obsolete : « Retrouvez mon planning hebdomadaire mis à jour en direct sur cette page [ou section « Planning »]. » (https://olamesdechues.fr/)",
+            "+42 site_obsolete : « Nos partenaires » (https://olamesdechues.fr/)"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "comportement sur mobile non vérifié",
+            "une seule page observée : vérifier le parcours de contact sur une seconde page"
+          ],
+          "confidence": "moyenne",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": [],
+          "evaluated_at": "2026-11-08",
+          "signal_levels": {}
+        },
+        "ia_automatisation": {
+          "axis": "ia_automatisation",
+          "score": 27,
+          "level": "faible",
+          "reasons": [
+            "+12 processus manuel signalé par le chercheur (type de preuve seul, volontairement plafonné)",
+            "+15 Échéances récurrentes à suivre — « Métiers de bouche (restaurateurs, bouchers), coiffeurs, paysagistes ou collectivités : … » [motif : passage regulier] (https://olamesdechues.fr/)"
+          ],
+          "evidence": [
+            {
+              "signal": "echeances_recurrentes",
+              "label": "Échéances récurrentes à suivre",
+              "weight": 18,
+              "matched_pattern": "passage regulier",
+              "evidence_index": 2,
+              "source_url": "https://olamesdechues.fr/",
+              "quote": "Métiers de bouche (restaurateurs, bouchers), coiffeurs, paysagistes ou collectivités : je peux intervenir directement sur votre site ou programmer un passage régulier sur rendez-vous. Contactez-moi po",
+              "observed": true,
+              "hypothetical": false,
+              "reliability": "haute"
+            }
+          ],
+          "missing_information": [
+            "processus observé sur une seule page : confirmer sur une seconde source"
+          ],
+          "confidence": "moyenne",
+          "observed_signals": [
+            "Échéances récurrentes à suivre"
+          ],
+          "hypothetical_signals": [],
+          "counter_signals": [],
+          "evaluated_at": "2026-11-08",
+          "signal_levels": {
+            "observe": 1
+          }
+        },
+        "priority": "haute",
+        "best_axis": "refonte",
+        "engine_version": "v8",
+        "evaluated_at": "2026-11-08",
+        "contactability": {
+          "email_present": true,
+          "email_verification": "verified",
+          "phone_present": false,
+          "decoded_address_unconfirmed": false,
+          "blockers": [],
+          "contactable": true
+        },
+        "opportunity_report": {
+          "automation": [
+            {
+              "signal": "echeances_recurrentes",
+              "label": "Échéances récurrentes à suivre",
+              "weight": 18,
+              "matched_pattern": "passage regulier",
+              "evidence_index": 2,
+              "source_url": "https://olamesdechues.fr/",
+              "quote": "Métiers de bouche (restaurateurs, bouchers), coiffeurs, paysagistes ou collectivités : je peux intervenir directement sur votre site ou programmer un passage régulier sur rendez-vous. Contactez-moi po",
+              "observed": true,
+              "hypothetical": false,
+              "reliability": "haute"
+            }
+          ],
+          "maturity": [],
+          "refonte": [],
+          "presence": []
+        }
+      },
+      "commercial_priority": "haute",
+      "scoring_version": "v8",
+      "score": 89,
+      "tier": "haute",
+      "id": "o-lames-d-chues"
+    },
+    {
+      "company": "Zicplace",
+      "website": "https://zicplace.fr/",
+      "domain": "zicplace.fr",
+      "sector": "Magasin de musique, atelier de lutherie et réparation audio",
+      "city": "Montreuil",
+      "department": "93",
+      "contact_name": "",
+      "contact_role": "",
+      "email": "bonjour@zicplace.com",
+      "phone": "01 48 30 65 16",
+      "need": "automatisation",
+      "needs": [
+        "automatisation",
+        "refonte"
+      ],
+      "recommended_service": "un dépôt de demande en ligne qui pré-qualifie la panne avant le passage en atelier",
+      "custom_subject": "Zicplace : 2 000 réparations par an, toutes déposées au comptoir",
+      "custom_hook": "Votre page réparation annonce plus de 2 000 réparations par an et indique « Passez au magasin avec votre matériel » comme seul point d'entrée.",
+      "process_hint": "dépôt physique obligatoire au magasin ; diagnostic et devis en magasin ; appel préalable conseillé pour un ampli lourd ; aucune prise de rendez-vous en ligne",
+      "demo_detail": "un dépôt décrit en ligne (instrument, symptôme, photo) repris sans ressaisie dans la fiche d'atelier",
+      "evidence": [
+        {
+          "kind": "processus_manuel",
+          "quote": "Vous pouvez passer directement au magasin à Montreuil. Pour un ampli lourd ou une panne complexe, vous pouvez aussi appeler avant de venir.",
+          "detail": "Aucune prise de rendez-vous ni pré-diagnostic en ligne : le triage se fait au comptoir ou par téléphone.",
+          "source_url": "https://zicplace.fr/reparation-entretien-instrument",
+          "source_type": "site_officiel",
+          "observed_at": "2026-11-07",
+          "verified_at": "2026-11-07",
+          "reliability": "haute",
+          "observed": true
+        },
+        {
+          "kind": "parcours_incomplet",
+          "quote": "Passez au magasin avec votre matériel. On regarde le problème, on vous explique les options, puis on vous propose un devis avant réparation.",
+          "detail": "Le seul point d'entrée publié est un itinéraire Google Maps ; aucun formulaire de dépôt.",
+          "source_url": "https://zicplace.fr/reparation-entretien-instrument",
+          "source_type": "site_officiel",
+          "observed_at": "2026-11-07",
+          "verified_at": "2026-11-07",
+          "reliability": "haute",
+          "observed": true
+        },
+        {
+          "kind": "signal_confiance",
+          "quote": "Lutherie & réparation depuis 2019 +2 000 réparations chaque année",
+          "detail": "Volume annuel publié par l'entreprise : il dimensionne la charge de traitement manuel.",
+          "source_url": "https://zicplace.fr/reparation-entretien-instrument",
+          "source_type": "site_officiel",
+          "observed_at": "2026-11-07",
+          "verified_at": "2026-11-07",
+          "reliability": "haute",
+          "observed": true
+        },
+        {
+          "kind": "site_obsolete",
+          "quote": "Horaires Lun–Sam · 10h–20h",
+          "detail": "La même page publie « Mar-Sam : 11h-19h30 » dans son pied de page : deux horaires contradictoires pour le même magasin.",
+          "source_url": "https://zicplace.fr/reparation-entretien-instrument",
+          "source_type": "site_officiel",
+          "observed_at": "2026-11-07",
+          "verified_at": "2026-11-07",
+          "reliability": "haute",
+          "observed": true
+        },
+        {
+          "kind": "maturite_existante",
+          "quote": "Diagnostic en magasin, devis gratuit, réparation en atelier. Tarifs indicatifs : réglage + changement de corde 58 €, changement de cordes 20 €.",
+          "detail": "Grille tarifaire complète et parcours en quatre étapes déjà publiés : contre-signal, le besoin n'est pas la refonte du contenu.",
+          "source_url": "https://zicplace.fr/reparation-entretien-instrument",
+          "source_type": "site_officiel",
+          "observed_at": "2026-11-07",
+          "verified_at": "2026-11-07",
+          "reliability": "haute",
+          "observed": true
+        },
+        {
+          "kind": "signal_confiance",
+          "quote": "Email bonjour@zicplace.com — Téléphone +33 1 48 30 65 16 — 2 Bd de Chanzy, 93100 Montreuil",
+          "detail": "Adresse publiée en clair à deux endroits de la page, avec liens mailto. SIRET 84334613100033.",
+          "source_url": "https://zicplace.fr/reparation-entretien-instrument",
+          "source_type": "site_officiel",
+          "observed_at": "2026-11-07",
+          "verified_at": "2026-11-07",
+          "reliability": "haute",
+          "observed": true
+        }
+      ],
+      "source": "site_officiel",
+      "publication_date": "",
+      "email_verification": "verified",
+      "email_verification_basis": "adresse citée sur source officielle datée",
+      "email_provenance": "publiee",
+      "phone_verification": "verified",
+      "email_dns_status": "mx_ok",
+      "email_dns_detail": "3 MX publiés",
+      "email_dns_checked_at": "2026-11-07",
+      "lot": "2026-11-07-approfondissement",
+      "discovered_at": "2026-11-07",
+      "created_at": "2026-11-07",
+      "updated_at": "2026-11-08T17:16:05+00:00",
+      "status": "nouveau",
+      "email_status": "nouveau",
+      "status_crm": "qualified",
+      "next_action": "rédiger un brouillon ; aucun envoi tant que le pré-vol bloque",
+      "justification": "https://zicplace.fr/reparation-entretien-instrument ; https://zicplace.fr/reparation-entretien-instrument",
+      "notes": "Récupération de la section G (approfondissement du lot 9), source officielle relue le 2026-11-07. Voir data/history/approfondissement-lot9-2026-11-07.json.",
+      "scores": {
+        "site_web": {
+          "axis": "site_web",
+          "score": 5,
+          "level": "faible",
+          "reasons": [
+            "un site est déjà en ligne : pas de création à proprement parler"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "un site existe déjà : la création n'est pas le bon service"
+          ],
+          "confidence": "moyenne",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": [],
+          "evaluated_at": "2026-11-08",
+          "signal_levels": {}
+        },
+        "refonte": {
+          "axis": "refonte",
+          "score": 81,
+          "level": "fort",
+          "reasons": [
+            "site existant à moderniser",
+            "+42 site_obsolete : « Horaires Lun–Sam · 10h–20h » (https://zicplace.fr/reparation-entretien-instrument)",
+            "+34 parcours_incomplet : « Passez au magasin avec votre matériel. On regarde le problème, on vous explique les options, puis on vous p… » (https://zicplace.fr/reparation-entretien-instrument)"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "comportement sur mobile non vérifié",
+            "une seule page observée : vérifier le parcours de contact sur une seconde page"
+          ],
+          "confidence": "moyenne",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": [],
+          "evaluated_at": "2026-11-08",
+          "signal_levels": {}
+        },
+        "ia_automatisation": {
+          "axis": "ia_automatisation",
+          "score": 31,
+          "level": "faible",
+          "reasons": [
+            "+12 processus manuel signalé par le chercheur (type de preuve seul, volontairement plafonné)",
+            "+19 Un déplacement est nécessaire pour être chiffré — « Passez au magasin avec votre matériel. On regarde le problème, on vous explique les opt… » [motif : passez au magasin] (https://zicplace.fr/reparation-entretien-instrument)"
+          ],
+          "evidence": [
+            {
+              "signal": "deplacement_obligatoire",
+              "label": "Un déplacement est nécessaire pour être chiffré",
+              "weight": 22,
+              "matched_pattern": "passez au magasin",
+              "evidence_index": 1,
+              "source_url": "https://zicplace.fr/reparation-entretien-instrument",
+              "quote": "Passez au magasin avec votre matériel. On regarde le problème, on vous explique les options, puis on vous propose un devis avant réparation.",
+              "observed": true,
+              "hypothetical": false,
+              "reliability": "haute"
+            }
+          ],
+          "missing_information": [
+            "processus observé sur une seule page : confirmer sur une seconde source"
+          ],
+          "confidence": "moyenne",
+          "observed_signals": [
+            "Un déplacement est nécessaire pour être chiffré"
+          ],
+          "hypothetical_signals": [],
+          "counter_signals": [],
+          "evaluated_at": "2026-11-08",
+          "signal_levels": {
+            "observe": 1
+          }
+        },
+        "priority": "haute",
+        "best_axis": "refonte",
+        "engine_version": "v8",
+        "evaluated_at": "2026-11-08",
+        "contactability": {
+          "email_present": true,
+          "email_verification": "verified",
+          "phone_present": false,
+          "decoded_address_unconfirmed": false,
+          "blockers": [],
+          "contactable": true
+        },
+        "opportunity_report": {
+          "automation": [
+            {
+              "signal": "deplacement_obligatoire",
+              "label": "Un déplacement est nécessaire pour être chiffré",
+              "weight": 22,
+              "matched_pattern": "passez au magasin",
+              "evidence_index": 1,
+              "source_url": "https://zicplace.fr/reparation-entretien-instrument",
+              "quote": "Passez au magasin avec votre matériel. On regarde le problème, on vous explique les options, puis on vous propose un devis avant réparation.",
+              "observed": true,
+              "hypothetical": false,
+              "reliability": "haute"
+            }
+          ],
+          "maturity": [],
+          "refonte": [],
+          "presence": []
+        }
+      },
+      "commercial_priority": "haute",
+      "scoring_version": "v8",
+      "score": 81,
+      "tier": "haute",
+      "id": "zicplace"
+    },
+    {
+      "company": "Atelier du Bourrelier",
+      "website": "https://atelierdubourrelier.com/",
+      "domain": "atelierdubourrelier.com",
+      "sector": "Sellerie, maroquinerie, bourrellerie et restauration d'objets en cuir",
+      "city": "Dordives",
+      "department": "45",
+      "contact_name": "Lisa",
+      "contact_role": "Dirigeante",
+      "contact_name_source": "https://atelierdubourrelier.com/mieux-nous-connnaitre/",
+      "email": "contact@atelierdubourrelier.com",
+      "phone": "02 38 92 73 85",
+      "need": "refonte",
+      "needs": [
+        "refonte",
+        "automatisation"
+      ],
+      "recommended_service": "une page de demande de projet qui qualifie le besoin cuir avant le premier échange",
+      "custom_subject": "Atelier du Bourrelier : aucune page contact dans votre menu",
+      "custom_hook": "Votre navigation propose Accueil, Prestations, Nous trouver, Mieux nous connaître et Recrutement : le contact n'apparaît qu'en pied de page.",
+      "process_hint": "demandes de sur-mesure et de restauration à adresser par e-mail ou téléphone ; aucun formulaire ni parcours de demande publié",
+      "demo_detail": "une demande de restauration décrivant l'objet, le cuir et l'usage, reprise dans un récapitulatif d'atelier",
+      "evidence": [
+        {
+          "kind": "parcours_incomplet",
+          "quote": "Accueil — Prestations — Nous trouver — Mieux nous connaître — Recrutement",
+          "detail": "La navigation ne comporte ni page contact ni page devis : les coordonnées ne sont disponibles qu'en pied de page.",
+          "source_url": "https://atelierdubourrelier.com/mieux-nous-connnaitre/",
+          "source_type": "site_officiel",
+          "observed_at": "2026-11-07",
+          "verified_at": "2026-11-07",
+          "reliability": "haute",
+          "observed": true
+        },
+        {
+          "kind": "site_obsolete",
+          "quote": "Retrouvez-moi sur ce salon, je serai ravi de vous rencontrer et vous présenter mon travail ! FERMER",
+          "detail": "Encart promotionnel publié sans nom de salon, sans lieu ni date ; contenu non renseigné, et l'accord masculin ne correspond pas à la dirigeante présentée sur la même page.",
+          "source_url": "https://atelierdubourrelier.com/mieux-nous-connnaitre/",
+          "source_type": "site_officiel",
+          "observed_at": "2026-11-07",
+          "verified_at": "2026-11-07",
+          "reliability": "haute",
+          "observed": true
+        },
+        {
+          "kind": "signal_confiance",
+          "quote": "Créé en 1997, l'Atelier du Bourrelier est l'héritier de savoir-faire d'excellence, et notamment ceux de la Garde Républicaine dont l'entreprise est toujours un fournisseur officiel.",
+          "detail": "Ancienneté et référence publique vérifiables ; volumes publiés : 1500 ciels de toit, 6000 paires de bottes, 150 000 sangles d'équitation.",
+          "source_url": "https://atelierdubourrelier.com/mieux-nous-connnaitre/",
+          "source_type": "site_officiel",
+          "observed_at": "2026-11-07",
+          "verified_at": "2026-11-07",
+          "reliability": "haute",
+          "observed": true
+        },
+        {
+          "kind": "signal_confiance",
+          "quote": "La Dirigeante : Lisa Ménière — Je suis revenue en France en juillet 2024 pour racheter une pépite française à son fondateur Michel Boissière : l'Atelier du Bourrelier.",
+          "detail": "Responsable nommée publiquement. SIRET 41117746200024, code APE 1512Z, 3 rue Albéric Clément 45680 Dordives.",
+          "source_url": "https://atelierdubourrelier.com/mieux-nous-connnaitre/",
+          "source_type": "site_officiel",
+          "observed_at": "2026-11-07",
+          "verified_at": "2026-11-07",
+          "reliability": "haute",
+          "observed": true
+        },
+        {
+          "kind": "signal_confiance",
+          "quote": "Contactez-nous : contact @ atelierdubourrelier.com — 02 38 92 73 85",
+          "detail": "Adresse et téléphone publiés en pied de page et sur la page mentions légales. Le site insère des espaces autour de l'arobase (protection anti-spam) ; l'adresse est lisible dans l'ordre, sans inversion ni reconstruction.",
+          "source_url": "https://atelierdubourrelier.com/mieux-nous-connnaitre/",
+          "source_type": "site_officiel",
+          "observed_at": "2026-11-07",
+          "verified_at": "2026-11-07",
+          "reliability": "haute",
+          "observed": true
+        }
+      ],
+      "source": "site_officiel",
+      "publication_date": "",
+      "email_verification": "verified",
+      "email_verification_basis": "adresse citée sur source officielle datée",
+      "email_provenance": "publiee",
+      "phone_verification": "verified",
+      "email_dns_status": "mx_ok",
+      "email_dns_detail": "3 MX publiés",
+      "email_dns_checked_at": "2026-11-07",
+      "lot": "2026-11-07-approfondissement",
+      "discovered_at": "2026-11-07",
+      "created_at": "2026-11-07",
+      "updated_at": "2026-11-08T17:16:05+00:00",
+      "status": "nouveau",
+      "email_status": "nouveau",
+      "status_crm": "qualified",
+      "next_action": "rédiger un brouillon ; aucun envoi tant que le pré-vol bloque",
+      "justification": "https://atelierdubourrelier.com/mieux-nous-connnaitre/ ; https://atelierdubourrelier.com/mieux-nous-connnaitre/",
+      "notes": "Récupération de la section G (approfondissement du lot 9), source officielle relue le 2026-11-07. Voir data/history/approfondissement-lot9-2026-11-07.json.",
+      "scores": {
+        "site_web": {
+          "axis": "site_web",
+          "score": 5,
+          "level": "faible",
+          "reasons": [
+            "un site est déjà en ligne : pas de création à proprement parler"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "un site existe déjà : la création n'est pas le bon service"
+          ],
+          "confidence": "moyenne",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": [],
+          "evaluated_at": "2026-11-08",
+          "signal_levels": {}
+        },
+        "refonte": {
+          "axis": "refonte",
+          "score": 98,
+          "level": "fort",
+          "reasons": [
+            "site existant à moderniser",
+            "+42 site_obsolete : « Retrouvez-moi sur ce salon, je serai ravi de vous rencontrer et vous présenter mon travail ! FERMER » (https://atelierdubourrelier.com/mieux-nous-connnaitre/)",
+            "+34 parcours_incomplet : « Accueil — Prestations — Nous trouver — Mieux nous connaître — Recrutement » (https://atelierdubourrelier.com/mieux-nous-connnaitre/)",
+            "+17 Contact réduit à un lien mailto ou une carte — « Constat du chercheur : demandes de sur-mesure et de restauration à adresser par e-mail … » [motif : aucun formulaire] ()"
+          ],
+          "evidence": [
+            {
+              "signal": "contact_pauvre",
+              "label": "Contact réduit à un lien mailto ou une carte",
+              "weight": 26,
+              "matched_pattern": "aucun formulaire",
+              "evidence_index": -1,
+              "source_url": "",
+              "quote": "Constat du chercheur : demandes de sur-mesure et de restauration à adresser par e-mail ou téléphone ; aucun formulaire ni parcours de demande publié",
+              "observed": true,
+              "hypothetical": false,
+              "reliability": "moyenne"
+            }
+          ],
+          "missing_information": [
+            "comportement sur mobile non vérifié",
+            "une seule page observée : vérifier le parcours de contact sur une seconde page"
+          ],
+          "confidence": "faible",
+          "observed_signals": [
+            "Contact réduit à un lien mailto ou une carte"
+          ],
+          "hypothetical_signals": [],
+          "counter_signals": [],
+          "evaluated_at": "2026-11-08",
+          "signal_levels": {
+            "observe": 1
+          }
+        },
+        "ia_automatisation": {
+          "axis": "ia_automatisation",
+          "score": 12,
+          "level": "faible",
+          "reasons": [
+            "+12 processus manuel signalé par le chercheur (type de preuve seul, volontairement plafonné)"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "aucun processus entrant décrit publiquement : observer comment arrivent et sont traitées les demandes (devis, réservation, dossier)",
+            "ce qui est déjà automatisé n'est pas documenté (réservation en ligne, paiement, espace client, réponse automatique)",
+            "processus observé sur une seule page : confirmer sur une seconde source",
+            "le processus est affirmé dans process_hint mais aucune citation ne l'établit"
+          ],
+          "confidence": "moyenne",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": [],
+          "evaluated_at": "2026-11-08",
+          "signal_levels": {}
+        },
+        "priority": "haute",
+        "best_axis": "refonte",
+        "engine_version": "v8",
+        "evaluated_at": "2026-11-08",
+        "contactability": {
+          "email_present": true,
+          "email_verification": "verified",
+          "phone_present": false,
+          "decoded_address_unconfirmed": false,
+          "blockers": [],
+          "contactable": true
+        },
+        "opportunity_report": {
+          "automation": [],
+          "maturity": [],
+          "refonte": [
+            {
+              "signal": "contact_pauvre",
+              "label": "Contact réduit à un lien mailto ou une carte",
+              "weight": 26,
+              "matched_pattern": "aucun formulaire",
+              "evidence_index": -1,
+              "source_url": "",
+              "quote": "Constat du chercheur : demandes de sur-mesure et de restauration à adresser par e-mail ou téléphone ; aucun formulaire ni parcours de demande publié",
+              "observed": true,
+              "hypothetical": false,
+              "reliability": "moyenne"
+            }
+          ],
+          "presence": []
+        }
+      },
+      "commercial_priority": "haute",
+      "scoring_version": "v8",
+      "score": 98,
+      "tier": "haute",
+      "id": "atelier-du-bourrelier"
+    },
+    {
+      "company": "Étanchéité Nantaise",
+      "website": "https://etancheite-nantaise.fr/",
+      "domain": "etancheite-nantaise.fr",
+      "sector": "Étanchéité de toitures et terrasses",
+      "city": "Fay-de-Bretagne",
+      "department": "44",
+      "contact_name": "",
+      "contact_role": "",
+      "email": "etancheitenantaise@gmail.com",
+      "phone": "06 26 12 19 85",
+      "need": "automatisation",
+      "needs": [
+        "automatisation"
+      ],
+      "recommended_service": "un formulaire de devis qui qualifie la toiture avant le déplacement",
+      "custom_subject": "Étanchéité Nantaise : votre formulaire ne demande ni surface ni type de toiture",
+      "custom_hook": "Votre formulaire de contact ne comporte que Nom, Téléphone, E-mail et Votre Message : ni type de toiture, ni surface, ni commune du chantier.",
+      "process_hint": "devis gratuit sous 48 h annoncé ; diagnostic personnalisé ; zone d'intervention Fay-de-Bretagne plus 150 km ; demandes reçues sans information de qualification",
+      "demo_detail": "une demande avec type de toiture, surface et commune, reprise telle quelle dans le devis",
+      "evidence": [
+        {
+          "kind": "parcours_incomplet",
+          "quote": "Nom * / Téléphone * / E-mail * / Votre Message * / Je consens à ce que mon adresse email soit collectée afin de traiter cette demande.",
+          "detail": "Formulaire à champ libre : aucun champ de qualification (type de travaux, surface, localisation du chantier), donc des échanges supplémentaires avant de chiffrer.",
+          "source_url": "https://etancheite-nantaise.fr/contact",
+          "source_type": "site_officiel",
+          "observed_at": "2026-11-07",
+          "verified_at": "2026-11-07",
+          "reliability": "haute",
+          "observed": true
+        },
+        {
+          "kind": "processus_manuel",
+          "quote": "Devis gratuit sous 48 h — Diagnostic personnalisé — Je prends contact !",
+          "detail": "Engagement de délai tenu à la main sur des demandes non qualifiées.",
+          "source_url": "https://etancheite-nantaise.fr/",
+          "source_type": "site_officiel",
+          "observed_at": "2026-11-07",
+          "verified_at": "2026-11-07",
+          "reliability": "haute",
+          "observed": true
+        },
+        {
+          "kind": "signal_confiance",
+          "quote": "Éditeur du Site : Etanchéité Nantaise (EI) — Tél : 06 26 12 19 85 — Mail : etancheitenantaise@gmail.com — Siren : 91925954900013",
+          "detail": "Adresse publiée EN CLAIR dans les mentions légales, pas seulement en JSON-LD. 2 Lieu-Dit Le Bourget, 44130 Fay-de-Bretagne.",
+          "source_url": "https://etancheite-nantaise.fr/mentions-legales/",
+          "source_type": "site_officiel",
+          "observed_at": "2026-11-07",
+          "verified_at": "2026-11-07",
+          "reliability": "haute",
+          "observed": true
+        },
+        {
+          "kind": "maturite_existante",
+          "quote": "Envoyez-nous un message — Envoyer",
+          "detail": "Un formulaire fonctionnel existe déjà et dépose côté serveur : contre-signal, le besoin porte sur la qualification, pas sur la création du formulaire.",
+          "source_url": "https://etancheite-nantaise.fr/contact",
+          "source_type": "site_officiel",
+          "observed_at": "2026-11-07",
+          "verified_at": "2026-11-07",
+          "reliability": "haute",
+          "observed": true
+        }
+      ],
+      "source": "site_officiel",
+      "publication_date": "",
+      "email_verification": "verified",
+      "email_verification_basis": "adresse citée sur source officielle datée",
+      "email_provenance": "publiee",
+      "phone_verification": "verified",
+      "email_dns_status": "mx_ok",
+      "email_dns_detail": "5 MX publiés",
+      "email_dns_checked_at": "2026-11-07",
+      "lot": "2026-11-07-approfondissement",
+      "discovered_at": "2026-11-07",
+      "created_at": "2026-11-07",
+      "updated_at": "2026-11-08T17:16:05+00:00",
+      "status": "nouveau",
+      "email_status": "nouveau",
+      "status_crm": "qualified",
+      "next_action": "rédiger un brouillon ; aucun envoi tant que le pré-vol bloque",
+      "justification": "https://etancheite-nantaise.fr/contact ; https://etancheite-nantaise.fr/",
+      "notes": "Récupération de la section G (approfondissement du lot 9), source officielle relue le 2026-11-07. Voir data/history/approfondissement-lot9-2026-11-07.json.",
+      "scores": {
+        "site_web": {
+          "axis": "site_web",
+          "score": 5,
+          "level": "faible",
+          "reasons": [
+            "un site est déjà en ligne : pas de création à proprement parler"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "un site existe déjà : la création n'est pas le bon service"
+          ],
+          "confidence": "haute",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": [],
+          "evaluated_at": "2026-11-08",
+          "signal_levels": {}
+        },
+        "refonte": {
+          "axis": "refonte",
+          "score": 39,
+          "level": "faible",
+          "reasons": [
+            "site existant à moderniser",
+            "+34 parcours_incomplet : « Nom * / Téléphone * / E-mail * / Votre Message * / Je consens à ce que mon adresse email soit collectée afi… » (https://etancheite-nantaise.fr/contact)"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "comportement sur mobile non vérifié",
+            "une seule page observée : vérifier le parcours de contact sur une seconde page"
+          ],
+          "confidence": "moyenne",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": [],
+          "evaluated_at": "2026-11-08",
+          "signal_levels": {}
+        },
+        "ia_automatisation": {
+          "axis": "ia_automatisation",
+          "score": 22,
+          "level": "faible",
+          "reasons": [
+            "+12 processus manuel signalé par le chercheur (type de preuve seul, volontairement plafonné)",
+            "+10 Délai de réponse annoncé, tenu à la main — « Devis gratuit sous 48 h — Diagnostic personnalisé — Je prends contact ! » [motif : sous 48 h] (https://etancheite-nantaise.fr/)"
+          ],
+          "evidence": [
+            {
+              "signal": "delai_reponse",
+              "label": "Délai de réponse annoncé, tenu à la main",
+              "weight": 12,
+              "matched_pattern": "sous 48 h",
+              "evidence_index": 1,
+              "source_url": "https://etancheite-nantaise.fr/",
+              "quote": "Devis gratuit sous 48 h — Diagnostic personnalisé — Je prends contact !",
+              "observed": true,
+              "hypothetical": false,
+              "reliability": "haute"
+            }
+          ],
+          "missing_information": [],
+          "confidence": "haute",
+          "observed_signals": [
+            "Délai de réponse annoncé, tenu à la main"
+          ],
+          "hypothetical_signals": [],
+          "counter_signals": [],
+          "evaluated_at": "2026-11-08",
+          "signal_levels": {
+            "observe": 1
+          }
+        },
+        "priority": "basse",
+        "best_axis": "refonte",
+        "engine_version": "v8",
+        "evaluated_at": "2026-11-08",
+        "contactability": {
+          "email_present": true,
+          "email_verification": "verified",
+          "phone_present": false,
+          "decoded_address_unconfirmed": false,
+          "blockers": [],
+          "contactable": true
+        },
+        "opportunity_report": {
+          "automation": [
+            {
+              "signal": "delai_reponse",
+              "label": "Délai de réponse annoncé, tenu à la main",
+              "weight": 12,
+              "matched_pattern": "sous 48 h",
+              "evidence_index": 1,
+              "source_url": "https://etancheite-nantaise.fr/",
+              "quote": "Devis gratuit sous 48 h — Diagnostic personnalisé — Je prends contact !",
+              "observed": true,
+              "hypothetical": false,
+              "reliability": "haute"
+            }
+          ],
+          "maturity": [],
+          "refonte": [],
+          "presence": []
+        }
+      },
+      "commercial_priority": "basse",
+      "scoring_version": "v8",
+      "score": 39,
+      "tier": "moyenne",
+      "id": "tanch-it-nantaise"
     }
   ]
 }

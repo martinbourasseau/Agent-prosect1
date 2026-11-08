@@ -1,0 +1,477 @@
+{
+  "date": "2026-11-07",
+  "section": "G — approfondissement du lot 9",
+  "reviewed": 13,
+  "total": 51,
+  "decisions": {
+    "non réexaminé": 38,
+    "approfondir": 6,
+    "écartée maintenue": 3,
+    "qualifiée": 4
+  },
+  "rule": "Aucune réintroduction automatique : une fiche n'est qualifiée que si adresse et téléphone sont publiés en clair sur une source officielle relue directement. Un extrait de moteur de recherche n'est pas une preuve.",
+  "entries": [
+    {
+      "company": "Styl'escalier",
+      "was": "écartée",
+      "department": "02",
+      "decision": "non réexaminé",
+      "reason": "Non réexaminé pendant cette phase : le budget de recherche a été consacré aux pistes dont un site officiel était plausible. Le motif initial reste inchangé et n'est PAS revalidé.",
+      "initial_reason": "Configurateur et demande de devis en ligne déjà en place : déjà outillé."
+    },
+    {
+      "company": "Treppenmeister / ADN Escalier",
+      "was": "écartée",
+      "department": "75",
+      "decision": "non réexaminé",
+      "reason": "Non réexaminé pendant cette phase : le budget de recherche a été consacré aux pistes dont un site officiel était plausible. Le motif initial reste inchangé et n'est PAS revalidé.",
+      "initial_reason": "Réseau national de franchisés, pas une entreprise indépendante."
+    },
+    {
+      "company": "D2Bois",
+      "was": "annuaire_seul",
+      "department": "02",
+      "decision": "non réexaminé",
+      "reason": "Non réexaminé pendant cette phase : le budget de recherche a été consacré aux pistes dont un site officiel était plausible. Le motif initial reste inchangé et n'est PAS revalidé.",
+      "initial_reason": "Annuaire uniquement, aucun site propre vérifié."
+    },
+    {
+      "company": "Fermetures Leichnam",
+      "was": "annuaire_seul",
+      "decision": "approfondir",
+      "department": "02",
+      "city": "Saint-Quentin",
+      "domain": "fermetures-leichnam.fr",
+      "reason": "Site officiel identifié, SIRET 49320365700033, raison sociale FERMETURES DE L'AISNE. Trois domaines coexistent (fermetures-leichnam.fr, .com, aupetitrabot.fr) et de nombreuses pages par ville. Adresse contact@fermetures-leichnam.fr vue dans des extraits seulement : le site n'a pas été ouvert directement, donc rien n'est retenu comme preuve.",
+      "next_step": "Ouvrir la page Contact & Devis et les mentions légales.",
+      "source": "https://www.fermetures-leichnam.fr/contact",
+      "initial_reason": "Annuaire uniquement, aucun site propre vérifié.",
+      "reviewed_at": "2026-11-07"
+    },
+    {
+      "company": "Cosy Home",
+      "was": "annuaire_seul",
+      "department": "54",
+      "decision": "non réexaminé",
+      "reason": "Non réexaminé pendant cette phase : le budget de recherche a été consacré aux pistes dont un site officiel était plausible. Le motif initial reste inchangé et n'est PAS revalidé.",
+      "initial_reason": "Annuaire uniquement, aucun site propre vérifié."
+    },
+    {
+      "company": "Style Industrie",
+      "was": "annuaire_seul",
+      "department": "39",
+      "decision": "non réexaminé",
+      "reason": "Non réexaminé pendant cette phase : le budget de recherche a été consacré aux pistes dont un site officiel était plausible. Le motif initial reste inchangé et n'est PAS revalidé.",
+      "initial_reason": "Annuaire uniquement, aucun site propre vérifié."
+    },
+    {
+      "company": "Menuiserie Mirolo",
+      "was": "annuaire_seul",
+      "department": "68",
+      "decision": "non réexaminé",
+      "reason": "Non réexaminé pendant cette phase : le budget de recherche a été consacré aux pistes dont un site officiel était plausible. Le motif initial reste inchangé et n'est PAS revalidé.",
+      "initial_reason": "Annuaire uniquement, aucun site propre vérifié."
+    },
+    {
+      "company": "Menuimat",
+      "was": "écartée",
+      "department": "67",
+      "decision": "non réexaminé",
+      "reason": "Non réexaminé pendant cette phase : le budget de recherche a été consacré aux pistes dont un site officiel était plausible. Le motif initial reste inchangé et n'est PAS revalidé.",
+      "initial_reason": "Négoce / distributeur, pas un artisan preneur de commandes."
+    },
+    {
+      "company": "Le Parqueteur",
+      "was": "annuaire_seul",
+      "department": "54",
+      "decision": "non réexaminé",
+      "reason": "Non réexaminé pendant cette phase : le budget de recherche a été consacré aux pistes dont un site officiel était plausible. Le motif initial reste inchangé et n'est PAS revalidé.",
+      "initial_reason": "Annuaire uniquement, aucun site propre vérifié."
+    },
+    {
+      "company": "AZ Menuiseries",
+      "was": "annuaire_seul",
+      "department": "68",
+      "decision": "non réexaminé",
+      "reason": "Non réexaminé pendant cette phase : le budget de recherche a été consacré aux pistes dont un site officiel était plausible. Le motif initial reste inchangé et n'est PAS revalidé.",
+      "initial_reason": "Annuaire uniquement, aucun site propre vérifié."
+    },
+    {
+      "company": "Top Cheval",
+      "was": "écartée",
+      "department": "03",
+      "decision": "non réexaminé",
+      "reason": "Non réexaminé pendant cette phase : le budget de recherche a été consacré aux pistes dont un site officiel était plausible. Le motif initial reste inchangé et n'est PAS revalidé.",
+      "initial_reason": "Boutique en ligne déjà opérationnelle, aucun besoin de captation observé."
+    },
+    {
+      "company": "INSIDE",
+      "was": "annuaire_seul",
+      "decision": "écartée maintenue",
+      "department": "72",
+      "city": "",
+      "reason": "Recherche ciblée : la seule trace reste une fiche d'annuaire régional. Aucun site officiel trouvé.",
+      "source": "https://www.pagesjaunes.fr/annuaire/region/auvergne/selliers-garnisseurs",
+      "initial_reason": "Annuaire uniquement, aucun site propre vérifié.",
+      "reviewed_at": "2026-11-07"
+    },
+    {
+      "company": "Atelier du Bourrelier",
+      "was": "annuaire_seul",
+      "decision": "qualifiée",
+      "department": "45",
+      "city": "Dordives",
+      "domain": "atelierdubourrelier.com",
+      "reason": "Site officiel trouvé et relu. Le registre indiquait 91 : la société est en réalité à Dordives (45680, Loiret), 3 rue Albéric Clément. Coordonnées publiées, dirigeante nommée. Aucune page contact ni devis dans la navigation : le contact n'existe qu'en pied de page.",
+      "source": "https://atelierdubourrelier.com/mieux-nous-connnaitre/",
+      "initial_reason": "Annuaire uniquement, aucun site propre vérifié.",
+      "reviewed_at": "2026-11-07"
+    },
+    {
+      "company": "Cavaland",
+      "was": "écartée",
+      "department": "91",
+      "decision": "non réexaminé",
+      "reason": "Non réexaminé pendant cette phase : le budget de recherche a été consacré aux pistes dont un site officiel était plausible. Le motif initial reste inchangé et n'est PAS revalidé.",
+      "initial_reason": "Structure équestre avec réservation déjà en place."
+    },
+    {
+      "company": "L'Artisan Affûteur",
+      "was": "écartée",
+      "department": "35",
+      "decision": "non réexaminé",
+      "reason": "Non réexaminé pendant cette phase : le budget de recherche a été consacré aux pistes dont un site officiel était plausible. Le motif initial reste inchangé et n'est PAS revalidé.",
+      "initial_reason": "Déjà très outillé : réservation Calendly avec disponibilités en temps réel, formulaire de tournée structuré, bon d'affûtage postal en ligne, tarifs publiés. Aucune opportunité défendable."
+    },
+    {
+      "company": "O Lames Déchues",
+      "was": "écartée",
+      "decision": "qualifiée",
+      "department": "95",
+      "city": "Bréançon",
+      "domain": "olamesdechues.fr",
+      "reason": "FAUX NÉGATIF. Écartée car le site était en chantier et l'adresse invérifiable. Le site est aujourd'hui complet, l'adresse et le téléphone sont publiés en clair. Le gabarit n'est pourtant pas fini : la FAQ annonce un planning « sur cette page [ou section « Planning »] » — le marqueur de gabarit est encore publié et aucune section planning n'existe, alors que toute l'activité itinérante en dépend.",
+      "source": "https://olamesdechues.fr/",
+      "initial_reason": "Site en chantier (gabarit non rempli « [ou section Planning] », logos partenaires génériques) mais aucune adresse e-mail vérifiable sur les pages consultées : pas de brouillon possible.",
+      "reviewed_at": "2026-11-07"
+    },
+    {
+      "company": "Eurolame Industrie",
+      "was": "écartée",
+      "department": "69",
+      "decision": "non réexaminé",
+      "reason": "Non réexaminé pendant cette phase : le budget de recherche a été consacré aux pistes dont un site officiel était plausible. Le motif initial reste inchangé et n'est PAS revalidé.",
+      "initial_reason": "Industriel équipé, pages multi-villes assimilables à de la génération de leads."
+    },
+    {
+      "company": "SOFIMAE",
+      "was": "écartée",
+      "department": "92",
+      "decision": "non réexaminé",
+      "reason": "Non réexaminé pendant cette phase : le budget de recherche a été consacré aux pistes dont un site officiel était plausible. Le motif initial reste inchangé et n'est PAS revalidé.",
+      "initial_reason": "Appartient à un groupe (Asgard) : décision hors périmètre PME."
+    },
+    {
+      "company": "ASERTI Metrology",
+      "was": "écartée",
+      "department": "69",
+      "decision": "non réexaminé",
+      "reason": "Non réexaminé pendant cette phase : le budget de recherche a été consacré aux pistes dont un site officiel était plausible. Le motif initial reste inchangé et n'est PAS revalidé.",
+      "initial_reason": "Groupe multi-sites, organisation nationale."
+    },
+    {
+      "company": "iTOS Mesure",
+      "was": "écartée",
+      "department": "44",
+      "decision": "non réexaminé",
+      "reason": "Non réexaminé pendant cette phase : le budget de recherche a été consacré aux pistes dont un site officiel était plausible. Le motif initial reste inchangé et n'est PAS revalidé.",
+      "initial_reason": "Délais de réponse et de devis déjà annoncés, parcours en place ; non prioritaire face aux quatre retenues."
+    },
+    {
+      "company": "Woodbrass",
+      "was": "écartée",
+      "department": "75",
+      "decision": "non réexaminé",
+      "reason": "Non réexaminé pendant cette phase : le budget de recherche a été consacré aux pistes dont un site officiel était plausible. Le motif initial reste inchangé et n'est PAS revalidé.",
+      "initial_reason": "Grand compte national de distribution musicale."
+    },
+    {
+      "company": "Atelier de Lutherie (Saint-Germain-en-Laye)",
+      "was": "annuaire_seul",
+      "decision": "approfondir",
+      "department": "78",
+      "city": "Saint-Germain-en-Laye",
+      "domain": "mareil-lutherie.com",
+      "reason": "Identité établie : Sabine Cassat et Katharina Wellmer, 8 rue Danès de Montardat, 01 39 16 29 70, site mareil-lutherie.com. L'adresse contact@mareil-lutherie.com n'a été vue que sur une page Facebook, pas sur le site officiel.",
+      "next_step": "Lire mareil-lutherie.com (contact / mentions légales).",
+      "source": "https://www.seine-saintgermain.fr/en/touristic_sheet/atelier-de-lutherie-lute-workshop-saint-germain-en-laye-en-5357412/",
+      "initial_reason": "Fiche d'annuaire consulaire : les coordonnées publiées sont celles de la CMA, pas celles de l'atelier.",
+      "reviewed_at": "2026-11-07"
+    },
+    {
+      "company": "Livio Baldelli — Luthier à domicile",
+      "was": "écartée",
+      "department": "75",
+      "decision": "non réexaminé",
+      "reason": "Non réexaminé pendant cette phase : le budget de recherche a été consacré aux pistes dont un site officiel était plausible. Le motif initial reste inchangé et n'est PAS revalidé.",
+      "initial_reason": "Réservation et paiement en ligne déjà en place sur l'activité à domicile ; écarté au profit de Cordes et Âme, même secteur et même département."
+    },
+    {
+      "company": "Zicplace",
+      "was": "écartée",
+      "decision": "qualifiée",
+      "department": "93",
+      "city": "Montreuil",
+      "domain": "zicplace.fr",
+      "reason": "FAUX NÉGATIF. Écartée car l'adresse n'était vue qu'en JSON-LD. Elle est publiée en clair, deux fois, sur la page réparation. Le parcours reste entièrement physique : « Passez au magasin avec votre matériel », aucune prise de rendez-vous ni pré-diagnostic en ligne pour plus de 2 000 réparations par an. La même page publie deux horaires contradictoires (Lun–Sam 10h–20h dans le bloc dépôt, Mar–Sam 11h–19h30 en pied de page).",
+      "source": "https://zicplace.fr/reparation-entretien-instrument",
+      "initial_reason": "Parcours et tarifs très complets ; adresse e-mail non vérifiée sur les pages consultées : pas de brouillon possible en l'état.",
+      "reviewed_at": "2026-11-07"
+    },
+    {
+      "company": "DSD Rénov",
+      "was": "écartée",
+      "department": "75",
+      "decision": "non réexaminé",
+      "reason": "Non réexaminé pendant cette phase : le budget de recherche a été consacré aux pistes dont un site officiel était plausible. Le motif initial reste inchangé et n'est PAS revalidé.",
+      "initial_reason": "Site de contenu SEO très produit, entreprise déjà fortement outillée."
+    },
+    {
+      "company": "Azur Toiture Rénovation",
+      "was": "écartée",
+      "department": "06",
+      "decision": "non réexaminé",
+      "reason": "Non réexaminé pendant cette phase : le budget de recherche a été consacré aux pistes dont un site officiel était plausible. Le motif initial reste inchangé et n'est PAS revalidé.",
+      "initial_reason": "Longues pages de contenu marketing, parcours de devis déjà en place."
+    },
+    {
+      "company": "SET AZUR",
+      "was": "annuaire_seul",
+      "decision": "approfondir",
+      "department": "83",
+      "city": "",
+      "reason": "Recherche ambigüe : les résultats renvoient à AZUR ETANCHE (Six-Fours, SIRET 34782426000017) et SET Étanchéité (Saint-Jean-d'Illac, 33), qui ne sont pas la même société. Identité non établie : aucune coordinate retenue.",
+      "next_step": "Reprendre par le SIREN depuis l'annuaire d'origine avant toute recherche de coordonnées.",
+      "source": "",
+      "initial_reason": "Annuaire uniquement, aucun site propre vérifié.",
+      "reviewed_at": "2026-11-07"
+    },
+    {
+      "company": "Etanchéité Nantaise",
+      "was": "annuaire_seul",
+      "decision": "qualifiée",
+      "department": "44",
+      "city": "Fay-de-Bretagne",
+      "domain": "etancheite-nantaise.fr",
+      "reason": "Site officiel trouvé. Adresse confirmée EN CLAIR dans les mentions légales (pas seulement en JSON-LD), SIREN 91925954900013. Formulaire de contact sans aucun champ de qualification : ni type de travaux, ni surface, ni adresse du chantier.",
+      "source": "https://etancheite-nantaise.fr/mentions-legales/",
+      "initial_reason": "Annuaire uniquement, aucun site propre vérifié.",
+      "reviewed_at": "2026-11-07"
+    },
+    {
+      "company": "RC Étanchéité",
+      "was": "annuaire_seul",
+      "department": "64",
+      "decision": "non réexaminé",
+      "reason": "Non réexaminé pendant cette phase : le budget de recherche a été consacré aux pistes dont un site officiel était plausible. Le motif initial reste inchangé et n'est PAS revalidé.",
+      "initial_reason": "Annuaire uniquement, aucun site propre vérifié."
+    },
+    {
+      "company": "Rhonalpe Étanchéité",
+      "was": "annuaire_seul",
+      "decision": "approfondir",
+      "department": "01",
+      "city": "Oyonnax",
+      "domain": "rhonalp-etancheite.com",
+      "reason": "Deux sites pour la même société (rhonalp-etancheite.com et rhonalpetancheite.fr), adresses différentes selon la page (1 rue des Grandes Roches / 107 rue René Nicod). Le registre indiquait 69 : la société est à Oyonnax (01). Adresse e-mail vue uniquement en JSON-LD : non retenue.",
+      "next_step": "Lire les mentions légales des deux sites pour trouver une adresse publiée en clair et trancher sur le domaine officiel.",
+      "source": "https://www.rhonalp-etancheite.com/nous-contacter.php",
+      "initial_reason": "Annuaire uniquement, aucun site propre vérifié.",
+      "reviewed_at": "2026-11-07"
+    },
+    {
+      "company": "devis-etancheite-toiture.fr",
+      "was": "écartée",
+      "department": "75",
+      "decision": "non réexaminé",
+      "reason": "Non réexaminé pendant cette phase : le budget de recherche a été consacré aux pistes dont un site officiel était plausible. Le motif initial reste inchangé et n'est PAS revalidé.",
+      "initial_reason": "Réseau de mise en relation déguisé en site d'artisan, pages par région."
+    },
+    {
+      "company": "Travaux Obat",
+      "was": "écartée",
+      "department": "75",
+      "decision": "non réexaminé",
+      "reason": "Non réexaminé pendant cette phase : le budget de recherche a été consacré aux pistes dont un site officiel était plausible. Le motif initial reste inchangé et n'est PAS revalidé.",
+      "initial_reason": "Plateforme de devis, pas une entreprise cible."
+    },
+    {
+      "company": "Dose Paris",
+      "was": "écartée",
+      "department": "75",
+      "decision": "non réexaminé",
+      "reason": "Non réexaminé pendant cette phase : le budget de recherche a été consacré aux pistes dont un site officiel était plausible. Le motif initial reste inchangé et n'est PAS revalidé.",
+      "initial_reason": "Formulaire de compte pro structuré et plus de 200 clients professionnels : parcours B2B déjà en place."
+    },
+    {
+      "company": "Caféophil",
+      "was": "écartée",
+      "department": "74",
+      "decision": "non réexaminé",
+      "reason": "Non réexaminé pendant cette phase : le budget de recherche a été consacré aux pistes dont un site officiel était plausible. Le motif initial reste inchangé et n'est PAS revalidé.",
+      "initial_reason": "Compte pro ouvert sur simple contact, mais boutique et paiement déjà en place ; angle trop proche de fiches déjà contactées."
+    },
+    {
+      "company": "Coffeegone",
+      "was": "écartée",
+      "department": "69",
+      "decision": "non réexaminé",
+      "reason": "Non réexaminé pendant cette phase : le budget de recherche a été consacré aux pistes dont un site officiel était plausible. Le motif initial reste inchangé et n'est PAS revalidé.",
+      "initial_reason": "Site ancien et peu lisible, mais parcours de commande groupée déjà décrit ; non prioritaire."
+    },
+    {
+      "company": "Le Torré / Le Torréfacteur",
+      "was": "écartée",
+      "department": "",
+      "decision": "non réexaminé",
+      "reason": "Non réexaminé pendant cette phase : le budget de recherche a été consacré aux pistes dont un site officiel était plausible. Le motif initial reste inchangé et n'est PAS revalidé.",
+      "initial_reason": "Entreprise canadienne : hors périmètre France."
+    },
+    {
+      "company": "Le Temps d'une Pinte",
+      "was": "écartée",
+      "department": "",
+      "decision": "non réexaminé",
+      "reason": "Non réexaminé pendant cette phase : le budget de recherche a été consacré aux pistes dont un site officiel était plausible. Le motif initial reste inchangé et n'est PAS revalidé.",
+      "initial_reason": "Entreprise canadienne : hors périmètre France."
+    },
+    {
+      "company": "Berga-sud SARL",
+      "was": "annuaire_seul",
+      "department": "34",
+      "decision": "non réexaminé",
+      "reason": "Non réexaminé pendant cette phase : le budget de recherche a été consacré aux pistes dont un site officiel était plausible. Le motif initial reste inchangé et n'est PAS revalidé.",
+      "initial_reason": "Annuaire uniquement, aucun site propre vérifié."
+    },
+    {
+      "company": "BRGM Montpellier",
+      "was": "écartée",
+      "department": "34",
+      "decision": "non réexaminé",
+      "reason": "Non réexaminé pendant cette phase : le budget de recherche a été consacré aux pistes dont un site officiel était plausible. Le motif initial reste inchangé et n'est PAS revalidé.",
+      "initial_reason": "Établissement public de recherche, hors cible."
+    },
+    {
+      "company": "Géotec Montpellier",
+      "was": "écartée",
+      "department": "34",
+      "decision": "non réexaminé",
+      "reason": "Non réexaminé pendant cette phase : le budget de recherche a été consacré aux pistes dont un site officiel était plausible. Le motif initial reste inchangé et n'est PAS revalidé.",
+      "initial_reason": "Groupe national d'ingénierie géotechnique."
+    },
+    {
+      "company": "Ingeosol",
+      "was": "annuaire_seul",
+      "department": "34",
+      "decision": "non réexaminé",
+      "reason": "Non réexaminé pendant cette phase : le budget de recherche a été consacré aux pistes dont un site officiel était plausible. Le motif initial reste inchangé et n'est PAS revalidé.",
+      "initial_reason": "Annuaire uniquement, aucun site propre vérifié."
+    },
+    {
+      "company": "SAS ForExpert",
+      "was": "annuaire_seul",
+      "department": "34",
+      "decision": "non réexaminé",
+      "reason": "Non réexaminé pendant cette phase : le budget de recherche a été consacré aux pistes dont un site officiel était plausible. Le motif initial reste inchangé et n'est PAS revalidé.",
+      "initial_reason": "Annuaire uniquement, aucun site propre vérifié."
+    },
+    {
+      "company": "Aqua Forage",
+      "was": "annuaire_seul",
+      "decision": "écartée maintenue",
+      "department": "34",
+      "city": "Lunel",
+      "reason": "L'annuaire départemental donne le SIREN 517716635 et l'adresse mais AUCUN site internet, contrairement aux autres fiches de la même page qui en ont un. Absence confirmée, pas déduite.",
+      "source": "https://forage.annuairefrancais.fr/34-herault-dept/",
+      "initial_reason": "Annuaire uniquement, aucun site propre vérifié.",
+      "reviewed_at": "2026-11-07"
+    },
+    {
+      "company": "Forages Berenguer",
+      "was": "annuaire_seul",
+      "decision": "approfondir",
+      "department": "34",
+      "city": "Ceyras",
+      "domain": "foragemontpellier.fr",
+      "reason": "Site officiel ouvert et lu : entreprise familiale, 40 ans, 4 salariés, actualités récentes. Deux domaines jumeaux (foragemontpellier.fr et forage-montpellier.fr). Caractères corrompus publiés dans les titres d'actualité (« ???? Actualité »). L'adresse forageberenguer@orange.fr n'apparaît que dans un extrait de moteur : non confirmée sur la page.",
+      "next_step": "Lire le pied de page et la page contact pour confirmer l'adresse, puis vérifier quel domaine est canonique.",
+      "source": "https://www.foragemontpellier.fr/",
+      "initial_reason": "Annuaire uniquement, aucun site propre vérifié.",
+      "reviewed_at": "2026-11-07"
+    },
+    {
+      "company": "Team Forages",
+      "was": "annuaire_seul",
+      "department": "34",
+      "decision": "non réexaminé",
+      "reason": "Non réexaminé pendant cette phase : le budget de recherche a été consacré aux pistes dont un site officiel était plausible. Le motif initial reste inchangé et n'est PAS revalidé.",
+      "initial_reason": "Annuaire uniquement, aucun site propre vérifié."
+    },
+    {
+      "company": "Atelier Tiphon SARL",
+      "was": "annuaire_seul",
+      "department": "34",
+      "decision": "non réexaminé",
+      "reason": "Non réexaminé pendant cette phase : le budget de recherche a été consacré aux pistes dont un site officiel était plausible. Le motif initial reste inchangé et n'est PAS revalidé.",
+      "initial_reason": "Annuaire uniquement, aucun site propre vérifié."
+    },
+    {
+      "company": "Abc Forage 34",
+      "was": "annuaire_seul",
+      "decision": "approfondir",
+      "department": "34",
+      "city": "Guzargues",
+      "domain": "forage34.com",
+      "reason": "Un site est référencé par l'annuaire (forage34.com), SIREN 489834283, 30 route du Lirou. Le site n'a pas encore été ouvert : aucune coordonnées confirmée.",
+      "next_step": "Ouvrir forage34.com et chercher une adresse publiée.",
+      "source": "https://forage.annuairefrancais.fr/34-herault-dept/",
+      "initial_reason": "Annuaire uniquement, aucun site propre vérifié.",
+      "reviewed_at": "2026-11-07"
+    },
+    {
+      "company": "Cemer",
+      "was": "écartée",
+      "decision": "écartée maintenue",
+      "department": "34",
+      "city": "",
+      "reason": "Fermeture probable non levée : aucune source officielle active trouvée.",
+      "source": "",
+      "initial_reason": "Signalé « probablement fermé définitivement » : activité non confirmée.",
+      "reviewed_at": "2026-11-07"
+    },
+    {
+      "company": "Forages Volpellière / NOVA DRILL",
+      "was": "annuaire_seul",
+      "department": "30",
+      "decision": "non réexaminé",
+      "reason": "Non réexaminé pendant cette phase : le budget de recherche a été consacré aux pistes dont un site officiel était plausible. Le motif initial reste inchangé et n'est PAS revalidé.",
+      "initial_reason": "Annuaire uniquement, aucun site propre vérifié."
+    },
+    {
+      "company": "Equaterre",
+      "was": "annuaire_seul",
+      "department": "34",
+      "decision": "non réexaminé",
+      "reason": "Non réexaminé pendant cette phase : le budget de recherche a été consacré aux pistes dont un site officiel était plausible. Le motif initial reste inchangé et n'est PAS revalidé.",
+      "initial_reason": "Annuaire uniquement, aucun site propre vérifié."
+    },
+    {
+      "company": "Geo france",
+      "was": "écartée",
+      "department": "",
+      "decision": "non réexaminé",
+      "reason": "Non réexaminé pendant cette phase : le budget de recherche a été consacré aux pistes dont un site officiel était plausible. Le motif initial reste inchangé et n'est PAS revalidé.",
+      "initial_reason": "Coordonnées marocaines et espagnoles : hors périmètre France."
+    }
+  ]
+}

@@ -581,7 +581,11 @@ class Lot9IntegrityTests(unittest.TestCase):
     def test_le_journal_d_exploration_couvre_plus_que_les_fiches(self):
         stats = ExplorationLedger().stats()
         self.assertGreaterEqual(stats["examined"], 50)
-        self.assertEqual(stats["by_decision"]["retenue"], 4)
+        # Le registre est un journal : le nombre de retenues croît quand une
+        # décision antérieure est levée (section G). L'invariant est que le
+        # journal couvre plus large que le CRM, pas un compte figé du lot 9.
+        self.assertGreaterEqual(stats["by_decision"]["retenue"], 4)
+        self.assertGreater(stats["examined"], len(stats["by_decision"]) * 4)
         self.assertGreaterEqual(len(stats["departments"]), 20)
         self.assertGreaterEqual(len(stats["by_source_type"]), 3)
 

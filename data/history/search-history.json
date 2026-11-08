@@ -1,0 +1,114 @@
+{
+  "updated_at": "2026-11-08T17:16:34+00:00",
+  "count": 9,
+  "entries": [
+    {
+      "query": "\"atelier du bourrelier\" sellerie Essonnes 91 site officiel contact",
+      "sector": "sellerie_equestre",
+      "department": "45",
+      "source_type": "site_officiel",
+      "lot": "2026-11-07-approfondissement",
+      "executed_at": "2026-11-08T17:16:34+00:00",
+      "examined": 2,
+      "retained": 1,
+      "qualified": 1,
+      "note": "section G — approfondissement du lot 9"
+    },
+    {
+      "query": "\"Etanchéité Nantaise\" OR \"RC Étanchéité\" OR \"Rhonalpe Étanchéité\" site officiel devis contact",
+      "sector": "etancheite_toiture",
+      "department": "44",
+      "source_type": "site_officiel",
+      "lot": "2026-11-07-approfondissement",
+      "executed_at": "2026-11-08T17:16:34+00:00",
+      "examined": 3,
+      "retained": 1,
+      "qualified": 1,
+      "note": "section G — approfondissement du lot 9"
+    },
+    {
+      "query": "Zicplace luthier Vincennes contact email téléphone atelier",
+      "sector": "lutherie_reparation",
+      "department": "93",
+      "source_type": "site_officiel",
+      "lot": "2026-11-07-approfondissement",
+      "executed_at": "2026-11-08T17:16:34+00:00",
+      "examined": 2,
+      "retained": 1,
+      "qualified": 1,
+      "note": "section G — approfondissement du lot 9"
+    },
+    {
+      "query": "\"O Lames Déchues\" affûtage Val-d'Oise contact email site",
+      "sector": "affutage_itinerant",
+      "department": "95",
+      "source_type": "site_officiel",
+      "lot": "2026-11-07-approfondissement",
+      "executed_at": "2026-11-08T17:16:34+00:00",
+      "examined": 1,
+      "retained": 1,
+      "qualified": 1,
+      "note": "section G — approfondissement du lot 9"
+    },
+    {
+      "query": "forage puits Hérault 34 \"Berga-sud\" OR \"ForExpert\" OR \"Aqua Forage\" OR \"Forages Berenguer\" site web officiel",
+      "sector": "forage_puits",
+      "department": "34",
+      "source_type": "annuaire_pro",
+      "lot": "2026-11-07-approfondissement",
+      "executed_at": "2026-11-08T17:16:34+00:00",
+      "examined": 5,
+      "retained": 0,
+      "qualified": 0,
+      "note": "section G — approfondissement du lot 9"
+    },
+    {
+      "query": "\"Fermetures Leichnam\" OR \"AZ Menuiseries\" OR \"Style Industrie\" menuiserie site officiel contact",
+      "sector": "menuiserie_alu_pvc",
+      "department": "02",
+      "source_type": "site_officiel",
+      "lot": "2026-11-07-approfondissement",
+      "executed_at": "2026-11-08T17:16:34+00:00",
+      "examined": 2,
+      "retained": 0,
+      "qualified": 0,
+      "note": "section G — approfondissement du lot 9"
+    },
+    {
+      "query": "\"SET AZUR\" étanchéité 83 OR \"RC Étanchéité\" Pau OR \"Le Parqueteur\" Nancy site officiel contact email",
+      "sector": "etancheite_toiture",
+      "department": "83",
+      "source_type": "annuaire_pro",
+      "lot": "2026-11-07-approfondissement",
+      "executed_at": "2026-11-08T17:16:34+00:00",
+      "examined": 3,
+      "retained": 0,
+      "qualified": 0,
+      "note": "section G — approfondissement du lot 9"
+    },
+    {
+      "query": "\"atelier de lutherie\" Saint-Germain-en-Laye OR \"D2Bois\" escalier OR \"Equaterre\" OR \"Ingeosol\" site officiel contact",
+      "sector": "lutherie",
+      "department": "78",
+      "source_type": "site_officiel",
+      "lot": "2026-11-07-approfondissement",
+      "executed_at": "2026-11-08T17:16:34+00:00",
+      "examined": 1,
+      "retained": 0,
+      "qualified": 0,
+      "note": "section G — approfondissement du lot 9"
+    },
+    {
+      "query": "\"INSIDE\" sellerie cheval OR \"Le Parqueteur\" Nancy OR \"Menuiserie Mirolo\" site officiel contact devis",
+      "sector": "sellerie_equestre",
+      "department": "72",
+      "source_type": "annuaire_pro",
+      "lot": "2026-11-07-approfondissement",
+      "executed_at": "2026-11-08T17:16:34+00:00",
+      "examined": 1,
+      "retained": 0,
+      "qualified": 0,
+      "note": "section G — approfondissement du lot 9"
+    }
+  ]
+}
