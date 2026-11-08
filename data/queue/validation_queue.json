@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-06T16:36:56+00:00",
+  "updated_at": "2026-11-08T17:38:55+00:00",
   "items": [
     {
       "id": "2026-11-03-v2-001",
@@ -2737,6 +2737,156 @@
           "action": "gmail_draft_created",
           "status": "draft",
           "note": "Brouillon Gmail créé et labellisé Label_7. Aucun envoi."
+        }
+      ]
+    },
+    {
+      "id": "2026-11-07-lot10-001",
+      "campaign": "2026-11-07-lot10",
+      "to": "olamesdechues@gmail.com",
+      "company": "O Lames Déchues",
+      "subject": "O Lames Déchues : le planning annoncé est absent de la page",
+      "body": "Bonjour,\n\nVotre FAQ indique « Retrouvez mon planning hebdomadaire [...] sur cette page [ou section « Planning »] ». Le marqueur de gabarit est resté publié, et aucune section Planning n'apparaît. Pour une tournée en camion-atelier, c'est l'information que vos clients viennent chercher en premier.\n\nVos passages réguliers chez les restaurateurs et les coiffeurs se calent aussi un par un, par téléphone.\n\nJe peux vous préparer gratuitement une maquette : un planning de tournée tenu à jour, et une demande de passage récurrent qui vous arrive déjà qualifiée. Démonstration sans engagement, vous ne gardez que ce qui vous sert.\n\nSi le sujet ne vous intéresse pas, dites-le moi et je ne vous relance pas — répondez simplement « ne pas me relancer ».\n\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website",
+      "need": "refonte",
+      "evidence_sources": [
+        "https://olamesdechues.fr/"
+      ],
+      "status": "pending",
+      "created_at": "2026-11-08T17:38:55+00:00",
+      "updated_at": "2026-11-08T17:38:55+00:00",
+      "gmail_draft_id": "r-5364782935530613267",
+      "gmail_message_id": "1a1bc3d084adb267",
+      "decision_reason": "",
+      "history": [
+        {
+          "at": "2026-11-08T17:38:55+00:00",
+          "action": "created",
+          "status": "pending"
+        },
+        {
+          "at": "2026-11-07",
+          "action": "gmail_draft_created",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-07-lot10-002",
+      "campaign": "2026-11-07-lot10",
+      "to": "bonjour@zicplace.com",
+      "company": "Zicplace",
+      "subject": "Zicplace : 2 000 réparations par an, toutes au comptoir",
+      "body": "Bonjour,\n\nVotre page réparation annonce plus de 2 000 interventions annuelles et n'offre qu'un point d'entrée : « Passez au magasin avec votre matériel ». Le diagnostic commence donc toujours au comptoir, ou par téléphone pour un ampli lourd.\n\nJ'ai aussi relevé deux horaires différents sur cette même page : Lun–Sam 10h–20h dans le bloc dépôt, Mar–Sam 11h–19h30 en pied de page.\n\nJe vous prépare gratuitement une maquette de dépôt en ligne : instrument, symptôme, photo, et une fiche reprise sans ressaisie à l'arrivée en atelier. Votre grille tarifaire et votre parcours en quatre étapes sont déjà clairs, je n'y touche pas. Démonstration sans engagement.\n\nPour arrêter là, répondez « ne pas me relancer ».\n\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website",
+      "need": "automatisation",
+      "evidence_sources": [
+        "https://zicplace.fr/reparation-entretien-instrument"
+      ],
+      "status": "pending",
+      "created_at": "2026-11-08T17:38:55+00:00",
+      "updated_at": "2026-11-08T17:38:55+00:00",
+      "gmail_draft_id": "r8291386275938075826",
+      "gmail_message_id": "1a1bc3d138306410",
+      "decision_reason": "",
+      "history": [
+        {
+          "at": "2026-11-08T17:38:55+00:00",
+          "action": "created",
+          "status": "pending"
+        },
+        {
+          "at": "2026-11-07",
+          "action": "gmail_draft_created",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-07-lot10-003",
+      "campaign": "2026-11-07-lot10",
+      "to": "contact@atelierdubourrelier.com",
+      "company": "Atelier du Bourrelier",
+      "subject": "Atelier du Bourrelier : aucune page contact dans le menu",
+      "body": "Bonjour Lisa,\n\nVotre navigation propose Accueil, Prestations, Nous trouver, Mieux nous connaître et Recrutement : le contact n'existe qu'en pied de page. Pour un atelier qui travaille le sur-mesure et la restauration, c'est un détour pour qui veut lancer un projet.\n\nL'encart « Retrouvez-moi sur ce salon » est également publié sans nom, sans lieu ni date.\n\nJe peux vous montrer gratuitement une maquette de demande de projet : type d'objet, cuir, usage, état actuel — de quoi préparer un chiffrage avant le premier échange. Démonstration sans engagement, et vous restez seule juge de la suite.\n\nSi vous préférez ne pas être sollicitée, répondez « ne pas me relancer » et j'en reste là.\n\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website",
+      "need": "refonte",
+      "evidence_sources": [
+        "https://atelierdubourrelier.com/mieux-nous-connnaitre/"
+      ],
+      "status": "pending",
+      "created_at": "2026-11-08T17:38:55+00:00",
+      "updated_at": "2026-11-08T17:38:55+00:00",
+      "gmail_draft_id": "r-4868647836702402127",
+      "gmail_message_id": "1a1bc3d26f3748e2",
+      "decision_reason": "",
+      "history": [
+        {
+          "at": "2026-11-08T17:38:55+00:00",
+          "action": "created",
+          "status": "pending"
+        },
+        {
+          "at": "2026-11-07",
+          "action": "gmail_draft_created",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-07-lot10-004",
+      "campaign": "2026-11-07-lot10",
+      "to": "alain.louis.naturaliste@orange.fr",
+      "company": "Alain Louis — Naturaliste taxidermiste",
+      "subject": "Alain Louis : quatre liens de votre galerie nommés « Button »",
+      "body": "Bonjour Monsieur Louis,\n\nSur votre page Naturaliste, les quatre visuels de la galerie portent un lien intitulé « Button » qui renvoie à la page elle-même. Le libellé du gabarit n'a pas été remplacé.\n\nVotre bouton « Demander un devis » mène par ailleurs à la page contact générique, et vous demandez d'appeler avant de venir : l'espèce, la taille et l'état de la pièce ne sont donc décrits qu'au téléphone.\n\nJe vous prépare gratuitement une maquette de demande de naturalisation qui recueille ces éléments avant l'appel. Démonstration sans engagement ; vos textes et vos photos ne bougent pas.\n\nPour que je n'insiste pas, répondez « ne pas me relancer ».\n\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website",
+      "need": "refonte",
+      "evidence_sources": [
+        "https://www.louis-alain-naturaliste.fr/naturaliste-taxidermiste-gazeran"
+      ],
+      "status": "pending",
+      "created_at": "2026-11-08T17:38:55+00:00",
+      "updated_at": "2026-11-08T17:38:55+00:00",
+      "gmail_draft_id": "r-3698618390914515863",
+      "gmail_message_id": "1a1bc3d302b54ef5",
+      "decision_reason": "",
+      "history": [
+        {
+          "at": "2026-11-08T17:38:55+00:00",
+          "action": "created",
+          "status": "pending"
+        },
+        {
+          "at": "2026-11-07",
+          "action": "gmail_draft_created",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-07-lot10-005",
+      "campaign": "2026-11-07-lot10",
+      "to": "etancheitenantaise@gmail.com",
+      "company": "Étanchéité Nantaise",
+      "subject": "Étanchéité Nantaise : votre formulaire ne qualifie pas la toiture",
+      "body": "Bonjour,\n\nVotre formulaire de contact ne comporte que Nom, Téléphone, E-mail et Votre Message. Ni le type de toiture, ni la surface, ni la commune du chantier n'y sont demandés — alors que vous annoncez un devis gratuit sous 48 h sur une zone de 150 km autour de Fay-de-Bretagne.\n\nCes informations vous manquent donc à chaque première réponse, et il faut un aller-retour de plus avant de chiffrer.\n\nJe peux vous préparer gratuitement une maquette du même formulaire, avec les trois champs de qualification et un récapitulatif repris tel quel dans le devis. Démonstration sans engagement.\n\nSi cela ne vous parle pas, répondez « ne pas me relancer ».\n\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website",
+      "need": "automatisation",
+      "evidence_sources": [
+        "https://etancheite-nantaise.fr/contact"
+      ],
+      "status": "pending",
+      "created_at": "2026-11-08T17:38:55+00:00",
+      "updated_at": "2026-11-08T17:38:55+00:00",
+      "gmail_draft_id": "r5641186055023628194",
+      "gmail_message_id": "1a1bc3d3aadd1cf6",
+      "decision_reason": "",
+      "history": [
+        {
+          "at": "2026-11-08T17:38:55+00:00",
+          "action": "created",
+          "status": "pending"
+        },
+        {
+          "at": "2026-11-07",
+          "action": "gmail_draft_created",
+          "status": "pending"
         }
       ]
     }

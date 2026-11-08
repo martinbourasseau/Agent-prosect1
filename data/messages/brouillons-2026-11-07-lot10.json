@@ -1,0 +1,173 @@
+{
+  "date": "2026-11-07",
+  "lot": "2026-11-07-lot10",
+  "label": "Prospection/2026-11-07-lot10",
+  "sent": false,
+  "deposited_to_gmail": true,
+  "signature": "Martin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website",
+  "count": 5,
+  "refusals": [],
+  "messages": [
+    {
+      "company": "O Lames Déchues",
+      "to": "olamesdechues@gmail.com",
+      "subject": "O Lames Déchues : le planning annoncé est absent de la page",
+      "body": "Bonjour,\n\nVotre FAQ indique « Retrouvez mon planning hebdomadaire [...] sur cette page [ou section « Planning »] ». Le marqueur de gabarit est resté publié, et aucune section Planning n'apparaît. Pour une tournée en camion-atelier, c'est l'information que vos clients viennent chercher en premier.\n\nVos passages réguliers chez les restaurateurs et les coiffeurs se calent aussi un par un, par téléphone.\n\nJe peux vous préparer gratuitement une maquette : un planning de tournée tenu à jour, et une demande de passage récurrent qui vous arrive déjà qualifiée. Démonstration sans engagement, vous ne gardez que ce qui vous sert.\n\nSi le sujet ne vous intéresse pas, dites-le moi et je ne vous relance pas — répondez simplement « ne pas me relancer ».\n\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website",
+      "words": 137,
+      "label": "Prospection/2026-11-07-lot10",
+      "check_email_v4": "conforme",
+      "reference_used": null,
+      "reference_reason": "Aucune référence citée : la bibliothèque ne documente pas ce que ces sites démontrent. Les présenter comme une réalisation comparable serait une invention.",
+      "verification": {
+        "email": "olamesdechues@gmail.com",
+        "email_verification": "verified",
+        "email_provenance": "publiee",
+        "dns": "mx_ok",
+        "phone": "07 80 95 86 68",
+        "phone_verification": "verified",
+        "source": "https://olamesdechues.fr/",
+        "verified_at": "2026-11-07"
+      },
+      "scores": {
+        "site_web": 5,
+        "refonte": 89,
+        "ia_automatisation": 27
+      },
+      "commercial_priority": "haute",
+      "commercial_value": 71,
+      "recommended_service": "un planning de tournée réellement publié et une demande de passage régulier pour les professionnels",
+      "gmail_draft_id": "r-5364782935530613267",
+      "gmail_message_id": "1a1bc3d084adb267",
+      "gmail_label_id": "Label_8"
+    },
+    {
+      "company": "Zicplace",
+      "to": "bonjour@zicplace.com",
+      "subject": "Zicplace : 2 000 réparations par an, toutes au comptoir",
+      "body": "Bonjour,\n\nVotre page réparation annonce plus de 2 000 interventions annuelles et n'offre qu'un point d'entrée : « Passez au magasin avec votre matériel ». Le diagnostic commence donc toujours au comptoir, ou par téléphone pour un ampli lourd.\n\nJ'ai aussi relevé deux horaires différents sur cette même page : Lun–Sam 10h–20h dans le bloc dépôt, Mar–Sam 11h–19h30 en pied de page.\n\nJe vous prépare gratuitement une maquette de dépôt en ligne : instrument, symptôme, photo, et une fiche reprise sans ressaisie à l'arrivée en atelier. Votre grille tarifaire et votre parcours en quatre étapes sont déjà clairs, je n'y touche pas. Démonstration sans engagement.\n\nPour arrêter là, répondez « ne pas me relancer ».\n\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website",
+      "words": 129,
+      "label": "Prospection/2026-11-07-lot10",
+      "check_email_v4": "conforme",
+      "reference_used": null,
+      "reference_reason": "Aucune référence citée : la bibliothèque ne documente pas ce que ces sites démontrent. Les présenter comme une réalisation comparable serait une invention.",
+      "verification": {
+        "email": "bonjour@zicplace.com",
+        "email_verification": "verified",
+        "email_provenance": "publiee",
+        "dns": "mx_ok",
+        "phone": "01 48 30 65 16",
+        "phone_verification": "verified",
+        "source": "https://zicplace.fr/reparation-entretien-instrument",
+        "verified_at": "2026-11-07"
+      },
+      "scores": {
+        "site_web": 5,
+        "refonte": 81,
+        "ia_automatisation": 31
+      },
+      "commercial_priority": "moyenne",
+      "commercial_value": 68,
+      "recommended_service": "un dépôt de demande en ligne qui pré-qualifie la panne avant le passage en atelier",
+      "gmail_draft_id": "r8291386275938075826",
+      "gmail_message_id": "1a1bc3d138306410",
+      "gmail_label_id": "Label_8"
+    },
+    {
+      "company": "Atelier du Bourrelier",
+      "to": "contact@atelierdubourrelier.com",
+      "subject": "Atelier du Bourrelier : aucune page contact dans le menu",
+      "body": "Bonjour Lisa,\n\nVotre navigation propose Accueil, Prestations, Nous trouver, Mieux nous connaître et Recrutement : le contact n'existe qu'en pied de page. Pour un atelier qui travaille le sur-mesure et la restauration, c'est un détour pour qui veut lancer un projet.\n\nL'encart « Retrouvez-moi sur ce salon » est également publié sans nom, sans lieu ni date.\n\nJe peux vous montrer gratuitement une maquette de demande de projet : type d'objet, cuir, usage, état actuel — de quoi préparer un chiffrage avant le premier échange. Démonstration sans engagement, et vous restez seule juge de la suite.\n\nSi vous préférez ne pas être sollicitée, répondez « ne pas me relancer » et j'en reste là.\n\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website",
+      "words": 128,
+      "label": "Prospection/2026-11-07-lot10",
+      "check_email_v4": "conforme",
+      "reference_used": null,
+      "reference_reason": "Aucune référence citée : la bibliothèque ne documente pas ce que ces sites démontrent. Les présenter comme une réalisation comparable serait une invention.",
+      "verification": {
+        "email": "contact@atelierdubourrelier.com",
+        "email_verification": "verified",
+        "email_provenance": "publiee",
+        "dns": "mx_ok",
+        "phone": "02 38 92 73 85",
+        "phone_verification": "verified",
+        "source": "https://atelierdubourrelier.com/mieux-nous-connnaitre/",
+        "verified_at": "2026-11-07"
+      },
+      "scores": {
+        "site_web": 5,
+        "refonte": 98,
+        "ia_automatisation": 12
+      },
+      "commercial_priority": "haute",
+      "commercial_value": 75,
+      "recommended_service": "une page de demande de projet qui qualifie le besoin cuir avant le premier échange",
+      "gmail_draft_id": "r-4868647836702402127",
+      "gmail_message_id": "1a1bc3d26f3748e2",
+      "gmail_label_id": "Label_8"
+    },
+    {
+      "company": "Alain Louis — Naturaliste taxidermiste",
+      "to": "alain.louis.naturaliste@orange.fr",
+      "subject": "Alain Louis : quatre liens de votre galerie nommés « Button »",
+      "body": "Bonjour Monsieur Louis,\n\nSur votre page Naturaliste, les quatre visuels de la galerie portent un lien intitulé « Button » qui renvoie à la page elle-même. Le libellé du gabarit n'a pas été remplacé.\n\nVotre bouton « Demander un devis » mène par ailleurs à la page contact générique, et vous demandez d'appeler avant de venir : l'espèce, la taille et l'état de la pièce ne sont donc décrits qu'au téléphone.\n\nJe vous prépare gratuitement une maquette de demande de naturalisation qui recueille ces éléments avant l'appel. Démonstration sans engagement ; vos textes et vos photos ne bougent pas.\n\nPour que je n'insiste pas, répondez « ne pas me relancer ».\n\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website",
+      "words": 125,
+      "label": "Prospection/2026-11-07-lot10",
+      "check_email_v4": "conforme",
+      "reference_used": null,
+      "reference_reason": "Aucune référence citée : la bibliothèque ne documente pas ce que ces sites démontrent. Les présenter comme une réalisation comparable serait une invention.",
+      "verification": {
+        "email": "alain.louis.naturaliste@orange.fr",
+        "email_verification": "verified",
+        "email_provenance": "publiee",
+        "dns": "mx_ok",
+        "phone": "06 87 31 37 18",
+        "phone_verification": "verified",
+        "source": "https://www.louis-alain-naturaliste.fr/naturaliste-taxidermiste-gazeran",
+        "verified_at": "2026-11-07"
+      },
+      "scores": {
+        "site_web": 5,
+        "refonte": 81,
+        "ia_automatisation": 12
+      },
+      "commercial_priority": "moyenne",
+      "commercial_value": 68,
+      "recommended_service": "une demande de naturalisation qui décrit l'animal et l'état de la pièce avant le premier échange",
+      "gmail_draft_id": "r-3698618390914515863",
+      "gmail_message_id": "1a1bc3d302b54ef5",
+      "gmail_label_id": "Label_8"
+    },
+    {
+      "company": "Étanchéité Nantaise",
+      "to": "etancheitenantaise@gmail.com",
+      "subject": "Étanchéité Nantaise : votre formulaire ne qualifie pas la toiture",
+      "body": "Bonjour,\n\nVotre formulaire de contact ne comporte que Nom, Téléphone, E-mail et Votre Message. Ni le type de toiture, ni la surface, ni la commune du chantier n'y sont demandés — alors que vous annoncez un devis gratuit sous 48 h sur une zone de 150 km autour de Fay-de-Bretagne.\n\nCes informations vous manquent donc à chaque première réponse, et il faut un aller-retour de plus avant de chiffrer.\n\nJe peux vous préparer gratuitement une maquette du même formulaire, avec les trois champs de qualification et un récapitulatif repris tel quel dans le devis. Démonstration sans engagement.\n\nSi cela ne vous parle pas, répondez « ne pas me relancer ».\n\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website",
+      "words": 124,
+      "label": "Prospection/2026-11-07-lot10",
+      "check_email_v4": "conforme",
+      "reference_used": null,
+      "reference_reason": "Aucune référence citée : la bibliothèque ne documente pas ce que ces sites démontrent. Les présenter comme une réalisation comparable serait une invention.",
+      "verification": {
+        "email": "etancheitenantaise@gmail.com",
+        "email_verification": "verified",
+        "email_provenance": "publiee",
+        "dns": "mx_ok",
+        "phone": "06 26 12 19 85",
+        "phone_verification": "verified",
+        "source": "https://etancheite-nantaise.fr/contact",
+        "verified_at": "2026-11-07"
+      },
+      "scores": {
+        "site_web": 5,
+        "refonte": 39,
+        "ia_automatisation": 22
+      },
+      "commercial_priority": "moyenne",
+      "commercial_value": 50,
+      "recommended_service": "un formulaire de devis qui qualifie la toiture avant le déplacement",
+      "gmail_draft_id": "r5641186055023628194",
+      "gmail_message_id": "1a1bc3d3aadd1cf6",
+      "gmail_label_id": "Label_8"
+    }
+  ],
+  "gmail_label_id": "Label_8"
+}

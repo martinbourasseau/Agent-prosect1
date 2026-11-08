@@ -162,7 +162,24 @@ ici avec assertions sur chaque ancre.
       Archives : `priorite-commerciale-v8-vers-v9.json` (CRM complet avant
       migration + avant/après par fiche) et `simulation-calibration-v9.json`.
       **498 tests.** Une calibration rejetée par la simulation est documentée.
-- [ ] **C** 5 brouillons lot 10
+- [x] **C** 5 brouillons lot 10 — **créés et vérifiés**. Label
+      `Prospection/2026-11-07-lot10` = **`Label_8`** (créé, aucun doublon : la
+      recherche `in:drafts to:<les 5>` renvoyait 0 avec `complete:true`).
+      `check_email_v4` **conforme 5/5** (124 à 137 mots, objets 55-65 car.).
+      | Entreprise | Brouillon | Message |
+      |---|---|---|
+      | O Lames Déchues | `r-5364782935530613267` | `1a1bc3d084adb267` |
+      | Zicplace | `r8291386275938075826` | `1a1bc3d138306410` |
+      | Atelier du Bourrelier | `r-4868647836702402127` | `1a1bc3d26f3748e2` |
+      | Alain Louis | `r-3698618390914515863` | `1a1bc3d302b54ef5` |
+      | Étanchéité Nantaise | `r5641186055023628194` | `1a1bc3d3aadd1cf6` |
+      5/5 `["DRAFT","Label_8"]`. **Les 5 anciens brouillons sont intacts**
+      (mêmes ids, mêmes labels `Label_7`/`Label_6`). CRM + file de validation
+      synchronisés (**68 → 73**). Archive
+      `data/messages/brouillons-2026-11-07-lot10.json`.
+      **Aucune référence commerciale citée** : la bibliothèque ne documente pas
+      ce que groupebourasseau.com / synatrap.com démontrent ; les présenter
+      comme une réalisation comparable serait une invention.
 - [ ] **D** 47 structures restantes
 - [ ] **E** 38 fiches non réexaminées
 - [ ] **F** 8 pistes à approfondir
