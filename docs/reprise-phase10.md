@@ -78,8 +78,19 @@ première étape non cochée **sans refaire les recherches déjà faites**.
       nouvelles ajoutées). Historique de recherche : **9 requêtes tracées**.
       Rendement recalculé : site_officiel 13→5 (**0,295**), annuaire_pro 31→0 (0,031).
 - [ ] **H** Lot 10 : ~60 structures, nouveaux départements, brouillons qualifiés
-- [ ] **I** Audit Gmail + réconciliation
-- [ ] **J** Sécurité envois (vérification continue)
+- [x] **I** Audit Gmail — `docs/audit-gmail-phase10.md` +
+      `data/history/audit-gmail-phase10.json`. **69 adresses interrogées** en
+      4 requêtes (domaines + adresses grand public), spam/corbeille inclus,
+      `complete:true` exigé. **1 réponse humaine** (opposition Renarde, déjà
+      réconciliée), **1 rebond** (severine-lesourd.com, déjà connu),
+      **1 challenge** Mailinblack/Alpha Mécanique **non validé**, **0 nouveauté**.
+      **0 demande commerciale ⇒ 0 brouillon de réponse** (rien à quoi répondre).
+      **5 brouillons vérifiés intacts**, aucun modifié. Rien à réconcilier.
+- [x] **J** Sécurité — pré-vol `(False, 3 blocages)` revérifié. `enabled=false`,
+      SPF/DKIM/DMARC et protections intacts. Aucun achat, aucun contournement.
+      **Incident évité** : `Sender().preflight()` en production réécrit
+      `last_checked_at` ; détecté par MD5 et annulé. MD5 des 4 fichiers de
+      production stables avant/après tests.
 - [ ] **K** Dashboard : performance par lot, sources, faux positifs/négatifs
 - [ ] **L** Tests complets + contrôles 1 à 11
 - [ ] **M** Rapport final `docs/rapport-phase10.md`

@@ -1,0 +1,127 @@
+{
+  "date": "2026-11-07",
+  "section": "I",
+  "account": "martin.bourasseau4@gmail.com",
+  "sent_by_agent": 0,
+  "method": "requêtes par adresse et par domaine du CRM, spam et corbeille inclus, search_scope.complete exigé",
+  "addresses_queried": 69,
+  "queries": [
+    {
+      "q": "{from:akla-architectes.com … from:fromagerieetbaratte.fr}",
+      "results": 0,
+      "complete": true
+    },
+    {
+      "q": "{from:itelecom.pro … from:thearchitectes.com}",
+      "results": 0,
+      "complete": true
+    },
+    {
+      "q": "{from:allo-cation@wanadoo.fr … from:frogeretancheite@gmail.com}",
+      "results": 1,
+      "complete": true
+    },
+    {
+      "q": "{from:goudalerestaurant@gmail.com … from:villedieu.automobiles@gmail.com}",
+      "results": 0,
+      "complete": true
+    },
+    {
+      "q": "{from:mailer-daemon from:postmaster from:Mail Delivery Subsystem} newer_than:5d",
+      "results": 1,
+      "complete": true
+    },
+    {
+      "q": "from:mailinblack",
+      "results": 1,
+      "complete": true
+    },
+    {
+      "q": "in:drafts {label:Prospection/2026-11-06-lot9 label:Prospection/2026-11-06-lot8 label:Prospection/2026-11-07-lot7 label:Prospection/2026-11-06-lot6}",
+      "results": 5,
+      "complete": true
+    }
+  ],
+  "classification": {
+    "humain": 1,
+    "automatique": 0,
+    "rebond": 1,
+    "challenge": 1,
+    "demande_information": 0,
+    "demande_devis": 0,
+    "demande_rdv": 0,
+    "objection": 0,
+    "refus": 0,
+    "opposition": 1,
+    "nouveau_depuis_dernier_audit": 0
+  },
+  "human_replies": [
+    {
+      "message_id": "1a1ada77bcf46db9",
+      "from": "celarenarde@gmail.com",
+      "company": "Centre Équestre de la Renarde",
+      "intent": "opposition",
+      "quote": "Ne pas me relancer",
+      "already_reconciled": true,
+      "action": "aucune, opposition définitive"
+    }
+  ],
+  "bounces": [
+    {
+      "message_id": "1a1a87452d7ca7c0",
+      "address": "contact@severine-lesourd.com",
+      "severity": "dure",
+      "already_reconciled": true
+    }
+  ],
+  "challenges": [
+    {
+      "message_id": "1a1abeb8ee41cbb7",
+      "provider": "Mailinblack",
+      "company": "Alpha Mécanique",
+      "validated": false,
+      "reason": "section J : ne valider aucun challenge de sécurité"
+    }
+  ],
+  "reply_drafts_created": 0,
+  "reply_drafts_reason": "aucune demande commerciale explicite trouvée : il n'y avait rien à quoi répondre",
+  "drafts_verified": [
+    {
+      "company": "Caléo Tests & Services",
+      "message_id": "1a1b672541671292",
+      "label": "Label_7"
+    },
+    {
+      "company": "Cordes et Âme",
+      "message_id": "1a1b1b991300c965",
+      "label": "Label_7"
+    },
+    {
+      "company": "Froger Étanchéité",
+      "message_id": "1a1b1b98459979b3",
+      "label": "Label_7"
+    },
+    {
+      "company": "Cordonnerie Canfora David",
+      "message_id": "1a1b1b9735345222",
+      "label": "Label_7"
+    },
+    {
+      "company": "Pépinières Ripaud",
+      "message_id": "1a1b16dee5899e57",
+      "label": "Label_6"
+    }
+  ],
+  "drafts_modified": 0,
+  "preflight": {
+    "passed": false,
+    "blocking_reasons": 3
+  },
+  "production_files_unchanged": [
+    "data/history/reconciliations.json",
+    "data/history/send-log.json",
+    "data/campaigns/v4-settings.json",
+    "data/suppression.json"
+  ],
+  "limit": "les requêtes couvrent les adresses connues du CRM, pas une réponse émise depuis une autre adresse du même prospect"
+}
