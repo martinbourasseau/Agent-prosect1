@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-08T17:38:55+00:00",
+  "updated_at": "2026-11-09T14:25:18+00:00",
   "items": [
     {
       "id": "2026-11-03-v2-001",
@@ -2650,12 +2650,12 @@
         "https://www.cordonnerie-canfora-moulins.fr/bourrellerie",
         "https://www.cordonnerie-canfora-moulins.fr/mentions-legales"
       ],
-      "status": "draft",
+      "status": "sent",
       "created_at": "2026-11-06T16:36:56+00:00",
-      "updated_at": "2026-11-06T16:38:33+00:00",
+      "updated_at": "2026-11-09T14:25:18+00:00",
       "gmail_draft_id": "r-2900807566475937810",
-      "gmail_message_id": "1a1b1b9735345222",
-      "decision_reason": "Lot 9. Brouillon en attente de validation manuelle. Aucun envoi : campagne désactivée, DKIM absent, domaine expéditeur gratuit.",
+      "gmail_message_id": "1a1c00ba70772b3c",
+      "decision_reason": "envoi constaté hors agent, réconcilié depuis Gmail",
       "history": [
         {
           "at": "2026-11-06T16:36:56+00:00",
@@ -2667,6 +2667,17 @@
           "action": "gmail_draft_created",
           "status": "draft",
           "note": "Brouillon Gmail créé et labellisé Label_7. Aucun envoi."
+        },
+        {
+          "at": "2026-11-09T14:25:18+00:00",
+          "action": "external_send_reconciled",
+          "status_before": "draft",
+          "status_after": "sent",
+          "gmail_sent_message_id": "1a1c00ba70772b3c",
+          "gmail_draft_message_id": "1a1b1b9735345222",
+          "sent_at_observed": "2026-11-09T12:22:30+01:00",
+          "source": "data/history/audit-gmail-phase10bis-2026-11-07.json",
+          "reason": "brouillon envoyé depuis l'interface Gmail ; l'agent n'a effectué aucun envoi (enabled=false, dry_run=true)"
         }
       ]
     },
@@ -2685,12 +2696,12 @@
         "https://froger-etancheite.fr/",
         "https://froger-etancheite.fr/"
       ],
-      "status": "draft",
+      "status": "sent",
       "created_at": "2026-11-06T16:36:56+00:00",
-      "updated_at": "2026-11-06T16:38:33+00:00",
+      "updated_at": "2026-11-09T14:25:18+00:00",
       "gmail_draft_id": "r-8700207463215455399",
-      "gmail_message_id": "1a1b1b98459979b3",
-      "decision_reason": "Lot 9. Brouillon en attente de validation manuelle. Aucun envoi : campagne désactivée, DKIM absent, domaine expéditeur gratuit.",
+      "gmail_message_id": "1a1c00bb68372697",
+      "decision_reason": "envoi constaté hors agent, réconcilié depuis Gmail",
       "history": [
         {
           "at": "2026-11-06T16:36:56+00:00",
@@ -2702,6 +2713,17 @@
           "action": "gmail_draft_created",
           "status": "draft",
           "note": "Brouillon Gmail créé et labellisé Label_7. Aucun envoi."
+        },
+        {
+          "at": "2026-11-09T14:25:18+00:00",
+          "action": "external_send_reconciled",
+          "status_before": "draft",
+          "status_after": "sent",
+          "gmail_sent_message_id": "1a1c00bb68372697",
+          "gmail_draft_message_id": "1a1b1b98459979b3",
+          "sent_at_observed": "2026-11-09T12:22:34+01:00",
+          "source": "data/history/audit-gmail-phase10bis-2026-11-07.json",
+          "reason": "brouillon envoyé depuis l'interface Gmail ; l'agent n'a effectué aucun envoi (enabled=false, dry_run=true)"
         }
       ]
     },
@@ -2720,12 +2742,12 @@
         "https://www.cordesetame.fr/",
         "https://www.cordesetame.fr/"
       ],
-      "status": "draft",
+      "status": "sent",
       "created_at": "2026-11-06T16:36:56+00:00",
-      "updated_at": "2026-11-06T16:38:33+00:00",
+      "updated_at": "2026-11-09T14:25:18+00:00",
       "gmail_draft_id": "r2871291886672009217",
-      "gmail_message_id": "1a1b1b991300c965",
-      "decision_reason": "Lot 9. Brouillon en attente de validation manuelle. Aucun envoi : campagne désactivée, DKIM absent, domaine expéditeur gratuit.",
+      "gmail_message_id": "1a1c00bc51a16abd",
+      "decision_reason": "envoi constaté hors agent, réconcilié depuis Gmail",
       "history": [
         {
           "at": "2026-11-06T16:36:56+00:00",
@@ -2737,6 +2759,17 @@
           "action": "gmail_draft_created",
           "status": "draft",
           "note": "Brouillon Gmail créé et labellisé Label_7. Aucun envoi."
+        },
+        {
+          "at": "2026-11-09T14:25:18+00:00",
+          "action": "external_send_reconciled",
+          "status_before": "draft",
+          "status_after": "sent",
+          "gmail_sent_message_id": "1a1c00bc51a16abd",
+          "gmail_draft_message_id": "1a1b1b991300c965",
+          "sent_at_observed": "2026-11-09T12:22:38+01:00",
+          "source": "data/history/audit-gmail-phase10bis-2026-11-07.json",
+          "reason": "brouillon envoyé depuis l'interface Gmail ; l'agent n'a effectué aucun envoi (enabled=false, dry_run=true)"
         }
       ]
     },
@@ -2751,12 +2784,12 @@
       "evidence_sources": [
         "https://olamesdechues.fr/"
       ],
-      "status": "pending",
+      "status": "sent",
       "created_at": "2026-11-08T17:38:55+00:00",
-      "updated_at": "2026-11-08T17:38:55+00:00",
+      "updated_at": "2026-11-09T14:25:18+00:00",
       "gmail_draft_id": "r-5364782935530613267",
-      "gmail_message_id": "1a1bc3d084adb267",
-      "decision_reason": "",
+      "gmail_message_id": "1a1c00beeaca3de6",
+      "decision_reason": "envoi constaté hors agent, réconcilié depuis Gmail",
       "history": [
         {
           "at": "2026-11-08T17:38:55+00:00",
@@ -2767,6 +2800,17 @@
           "at": "2026-11-07",
           "action": "gmail_draft_created",
           "status": "pending"
+        },
+        {
+          "at": "2026-11-09T14:25:18+00:00",
+          "action": "external_send_reconciled",
+          "status_before": "pending",
+          "status_after": "sent",
+          "gmail_sent_message_id": "1a1c00beeaca3de6",
+          "gmail_draft_message_id": "1a1bc3d084adb267",
+          "sent_at_observed": "2026-11-09T12:22:49+01:00",
+          "source": "data/history/audit-gmail-phase10bis-2026-11-07.json",
+          "reason": "brouillon envoyé depuis l'interface Gmail ; l'agent n'a effectué aucun envoi (enabled=false, dry_run=true)"
         }
       ]
     },
@@ -2781,12 +2825,12 @@
       "evidence_sources": [
         "https://zicplace.fr/reparation-entretien-instrument"
       ],
-      "status": "pending",
+      "status": "sent",
       "created_at": "2026-11-08T17:38:55+00:00",
-      "updated_at": "2026-11-08T17:38:55+00:00",
+      "updated_at": "2026-11-09T14:25:18+00:00",
       "gmail_draft_id": "r8291386275938075826",
-      "gmail_message_id": "1a1bc3d138306410",
-      "decision_reason": "",
+      "gmail_message_id": "1a1c00c235cb0769",
+      "decision_reason": "envoi constaté hors agent, réconcilié depuis Gmail",
       "history": [
         {
           "at": "2026-11-08T17:38:55+00:00",
@@ -2797,6 +2841,17 @@
           "at": "2026-11-07",
           "action": "gmail_draft_created",
           "status": "pending"
+        },
+        {
+          "at": "2026-11-09T14:25:18+00:00",
+          "action": "external_send_reconciled",
+          "status_before": "pending",
+          "status_after": "sent",
+          "gmail_sent_message_id": "1a1c00c235cb0769",
+          "gmail_draft_message_id": "1a1bc3d138306410",
+          "sent_at_observed": "2026-11-09T12:23:02+01:00",
+          "source": "data/history/audit-gmail-phase10bis-2026-11-07.json",
+          "reason": "brouillon envoyé depuis l'interface Gmail ; l'agent n'a effectué aucun envoi (enabled=false, dry_run=true)"
         }
       ]
     },
@@ -2811,12 +2866,12 @@
       "evidence_sources": [
         "https://atelierdubourrelier.com/mieux-nous-connnaitre/"
       ],
-      "status": "pending",
+      "status": "sent",
       "created_at": "2026-11-08T17:38:55+00:00",
-      "updated_at": "2026-11-08T17:38:55+00:00",
+      "updated_at": "2026-11-09T14:25:18+00:00",
       "gmail_draft_id": "r-4868647836702402127",
-      "gmail_message_id": "1a1bc3d26f3748e2",
-      "decision_reason": "",
+      "gmail_message_id": "1a1c00c43cb2d8a0",
+      "decision_reason": "envoi constaté hors agent, réconcilié depuis Gmail",
       "history": [
         {
           "at": "2026-11-08T17:38:55+00:00",
@@ -2827,6 +2882,17 @@
           "at": "2026-11-07",
           "action": "gmail_draft_created",
           "status": "pending"
+        },
+        {
+          "at": "2026-11-09T14:25:18+00:00",
+          "action": "external_send_reconciled",
+          "status_before": "pending",
+          "status_after": "sent",
+          "gmail_sent_message_id": "1a1c00c43cb2d8a0",
+          "gmail_draft_message_id": "1a1bc3d26f3748e2",
+          "sent_at_observed": "2026-11-09T12:23:11+01:00",
+          "source": "data/history/audit-gmail-phase10bis-2026-11-07.json",
+          "reason": "brouillon envoyé depuis l'interface Gmail ; l'agent n'a effectué aucun envoi (enabled=false, dry_run=true)"
         }
       ]
     },
@@ -2841,12 +2907,12 @@
       "evidence_sources": [
         "https://www.louis-alain-naturaliste.fr/naturaliste-taxidermiste-gazeran"
       ],
-      "status": "pending",
+      "status": "sent",
       "created_at": "2026-11-08T17:38:55+00:00",
-      "updated_at": "2026-11-08T17:38:55+00:00",
+      "updated_at": "2026-11-09T14:25:18+00:00",
       "gmail_draft_id": "r-3698618390914515863",
-      "gmail_message_id": "1a1bc3d302b54ef5",
-      "decision_reason": "",
+      "gmail_message_id": "1a1c00c520d052b1",
+      "decision_reason": "envoi constaté hors agent, réconcilié depuis Gmail",
       "history": [
         {
           "at": "2026-11-08T17:38:55+00:00",
@@ -2857,6 +2923,17 @@
           "at": "2026-11-07",
           "action": "gmail_draft_created",
           "status": "pending"
+        },
+        {
+          "at": "2026-11-09T14:25:18+00:00",
+          "action": "external_send_reconciled",
+          "status_before": "pending",
+          "status_after": "sent",
+          "gmail_sent_message_id": "1a1c00c520d052b1",
+          "gmail_draft_message_id": "1a1bc3d302b54ef5",
+          "sent_at_observed": "2026-11-09T12:23:15+01:00",
+          "source": "data/history/audit-gmail-phase10bis-2026-11-07.json",
+          "reason": "brouillon envoyé depuis l'interface Gmail ; l'agent n'a effectué aucun envoi (enabled=false, dry_run=true)"
         }
       ]
     },
@@ -2871,12 +2948,12 @@
       "evidence_sources": [
         "https://etancheite-nantaise.fr/contact"
       ],
-      "status": "pending",
+      "status": "sent",
       "created_at": "2026-11-08T17:38:55+00:00",
-      "updated_at": "2026-11-08T17:38:55+00:00",
+      "updated_at": "2026-11-09T14:25:18+00:00",
       "gmail_draft_id": "r5641186055023628194",
-      "gmail_message_id": "1a1bc3d3aadd1cf6",
-      "decision_reason": "",
+      "gmail_message_id": "1a1c00c5ee05b471",
+      "decision_reason": "envoi constaté hors agent, réconcilié depuis Gmail",
       "history": [
         {
           "at": "2026-11-08T17:38:55+00:00",
@@ -2887,6 +2964,17 @@
           "at": "2026-11-07",
           "action": "gmail_draft_created",
           "status": "pending"
+        },
+        {
+          "at": "2026-11-09T14:25:18+00:00",
+          "action": "external_send_reconciled",
+          "status_before": "pending",
+          "status_after": "sent",
+          "gmail_sent_message_id": "1a1c00c5ee05b471",
+          "gmail_draft_message_id": "1a1bc3d3aadd1cf6",
+          "sent_at_observed": "2026-11-09T12:23:17+01:00",
+          "source": "data/history/audit-gmail-phase10bis-2026-11-07.json",
+          "reason": "brouillon envoyé depuis l'interface Gmail ; l'agent n'a effectué aucun envoi (enabled=false, dry_run=true)"
         }
       ]
     }

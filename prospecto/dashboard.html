@@ -219,7 +219,7 @@ function renderCards(){
     {n:crm.probable,l:"Opportunités probables"},
     {n:co.emails_total,l:"Emails récupérés",cls:"glacier"},
     {n:co.phones,l:"Téléphones récupérés"},
-    {n:(q.pending||0)+(q.approved||0)+(q.sent||0),l:"Emails préparés"},
+    {n:(m.pipeline||{}).messages_prepares??((q.pending||0)+(q.approved||0)+(q.sent||0)),l:"Messages préparés"},
     {n:(m.pipeline||{}).brouillons??q.pending||0,l:"Brouillons Gmail en attente",cls:"glacier"},
     {n:(m.pipeline||{}).en_attente??0,l:"Préparés sans brouillon"},
     {n:(m.pipeline||{}).delivres_confirmes??0,l:"Délivrés confirmés",cls:"tide"},
@@ -227,7 +227,8 @@ function renderCards(){
     {n:(m.pipeline||{}).challenges_delivrance??0,l:"Challenges de délivrance",cls:((m.pipeline||{}).challenges_delivrance?"bad":"")},
     {n:(m.pipeline||{}).obsoletes??0,l:"File obsolète neutralisée"},
     {n:crm.suspended||0,l:"Suspendus (non envoyables)",cls:(crm.suspended?"bad":"")},
-    {n:s.sent,l:"Emails envoyés",cls:"tide"},
+    {n:(m.pipeline||{}).envoyes??s.sent,l:"Messages sortis (consolidés)",cls:"tide"},
+    {n:(m.pipeline||{}).acceptes_par_fournisseur??0,l:"Acceptés par le fournisseur"},
     {n:(m.deliverability||{}).hard_bounces??s.bounced,l:"Rebonds durs constatés",cls:((m.deliverability||{}).hard_bounces||s.bounced)?"bad":""},
     {n:(m.deliverability||{}).human_replies??0,l:"Réponses humaines",cls:"glacier"},
     {n:(m.deliverability||{}).auto_replies??0,l:"Accusés automatiques"},
@@ -324,7 +325,10 @@ function dnsBadge(p){
 function renderPipeline(){
   const p=METRICS.pipeline||{};const defs=p.definitions||{};
   const rows=[
-    ["Envoyés",p.envoyes,"envoyes"],
+    ["Messages préparés",p.messages_prepares,"messages_prepares"],
+    ["Brouillons en attente",p.brouillons,"brouillons"],
+    ["Messages sortis",p.envoyes,"envoyes"],
+    ["Acceptés par le fournisseur",p.acceptes_par_fournisseur,"acceptes_par_fournisseur"],
     ["Délivrés confirmés",p.delivres_confirmes,"delivres_confirmes"],
     ["Délivrance non confirmée",p.delivrance_non_confirmee,"delivrance_non_confirmee"],
     ["Rebonds",p.rebonds,null],
@@ -335,7 +339,16 @@ function renderPipeline(){
     ["Brouillons en attente",p.brouillons,"brouillons"],
     ["Préparés sans brouillon",p.en_attente,"en_attente"],
   ];
-  const line=rows.map(([l,v,k])=>kv(l,(v??0)+(k&&defs[k]?` <span class="sub" title="${esc(defs[k])}">ⓘ</span>`:""))).join("");
+  let line=rows.map(([l,v,k])=>kv(l,(v??0)+(k&&defs[k]?` <span class="sub" title="${esc(defs[k])}">ⓘ</span>`:""))).join("");
+  const ob=METRICS.outbound||{};
+  if(ob.total!=null){
+    line+=`<div class="sub" style="margin-top:10px;padding-top:9px;border-top:1px solid var(--line)">`
+      +`Provenance des ${ob.total} messages sortis : ${ob.journal_production} au journal de production, `
+      +`${ob.rapproches} constatés dans Gmail et rapprochés. `
+      +`${ob.doublons_ecartes} doublons écartés par identifiant`
+      +(ob.non_attribuables?`, ${ob.non_attribuables} non attribuables (non comptés)`:"")
+      +`. Aucun journal historique modifié.</div>`;
+  }
   const ok=p.controle_exclusif;
   const f=METRICS.portefeuille||{},fd=f.definitions||{};
   const steps=[

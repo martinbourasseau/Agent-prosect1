@@ -9,6 +9,7 @@ from __future__ import annotations
 from typing import Any
 
 from .crm import CRM
+from .outbound import ConsolidatedOutbound, load_outbound
 from .queue import ValidationQueue
 from .sender import SendLog
 from .suppression import SuppressionList
@@ -103,6 +104,11 @@ def compute_metrics() -> dict[str, Any]:
     # alors qu'il apparaissait déjà dans « deliverability ».
     audit_findings = _load_audit()
     inbound = merge_inbound(replies, audit_findings)
+
+    # Phase 10 finale : les envois effectués hors agent vivent dans le journal
+    # des rapprochements, pas dans le journal de production. Lire le seul
+    # send-log affichait 60 messages sortis au lieu de 68. La consolidation
+    # dédoublonne par identifiant de message, de fil, puis de référence.
     intents: dict[str, int] = {}
     for rp in inbound:
         it = rp.get("intent", "inconnu")
@@ -125,6 +131,8 @@ def compute_metrics() -> dict[str, Any]:
                     b["replies"] += 1
                     if rp.get("intent") in ("positive", "demande_rdv", "demande_info"):
                         b["positive"] += 1
+
+    outbound = load_outbound(records)
 
     metrics = {
         "crm": {
@@ -165,7 +173,8 @@ def compute_metrics() -> dict[str, Any]:
         },
         "suppression": {"count": suppression.count()},
         "performance": {"by_variant": by_variant, "by_reference": by_reference},
-        "deliverability": _deliverability(log.entries, records, audit_findings),
+        "outbound": outbound.summary(),
+        "deliverability": _deliverability(log.entries, records, audit_findings, outbound),
         "by_lot": _by_lot(records, log.entries, queue),
         "scoring": _scoring_overview(records),
     }
@@ -326,7 +335,9 @@ def pipeline_categories(metrics: dict[str, Any], queue_items: list[Any]) -> dict
     drafts = [i for i in open_items if getattr(i, "gmail_draft_id", None)]
     waiting = [i for i in open_items if not getattr(i, "gmail_draft_id", None)]
     return {
+        "messages_prepares": len(queue_items),
         "envoyes": out,
+        "acceptes_par_fournisseur": int(d.get("accepted_by_provider", out)),
         "delivres_confirmes": confirmed,
         "delivrance_non_confirmee": max(0, out - confirmed - bounces - challenges),
         "rebonds": bounces,
@@ -341,7 +352,9 @@ def pipeline_categories(metrics: dict[str, Any], queue_items: list[Any]) -> dict
         "controle_exclusif": confirmed + max(0, out - confirmed - bounces - challenges)
                              + bounces + challenges == out,
         "definitions": {
-            "envoyes": "messages sortis, rebonds compris : la présence dans « Envoyés » ne prouve pas la remise",
+            "messages_prepares": "messages générés et présents en file de validation, envoyés ou non",
+            "envoyes": "messages sortis (production + rapprochements, dédoublonnés) : ne prouve pas la remise",
+            "acceptes_par_fournisseur": "le fournisseur a renvoyé un identifiant : acceptation, pas remise",
             "delivres_confirmes": "accusé de réception ou réponse humaine rattachant le message à une entreprise",
             "delivrance_non_confirmee": "ni preuve de remise, ni rebond, ni challenge : statut inconnu, pas « délivré »",
             "challenges_delivrance": "message retenu par un système de vérification d'expéditeur : remise non acquise",
@@ -351,7 +364,8 @@ def pipeline_categories(metrics: dict[str, Any], queue_items: list[Any]) -> dict
     }
 
 
-def _deliverability(entries: list[dict], records: list[dict], audit: list[dict]) -> dict[str, Any]:
+def _deliverability(entries: list[dict], records: list[dict], audit: list[dict],
+                    outbound: ConsolidatedOutbound | None = None) -> dict[str, Any]:
     """Distinguer « envoyé » de « délivré » : un message envoyé peut rebondir.
 
     La présence dans le dossier « Envoyés » ne prouve pas la remise. Seuls un
@@ -376,9 +390,14 @@ def _deliverability(entries: list[dict], records: list[dict], audit: list[dict])
     confirmed = {f.get("company") for f in autos + humans if f.get("company")}
     bounced_companies = {f.get("company") for f in bounces if f.get("company")}
     dns_blocking = [r for r in records if r.get("email_dns_status") in ("nxdomain", "no_mx", "syntaxe_invalide")]
-    total_sent = len(sent)
+    # Le total consolidé fait foi : il inclut les envois constatés hors agent.
+    total_sent = outbound.total if outbound is not None else len(sent)
+    accepted = outbound.accepted_by_provider if outbound is not None else len(sent)
     return {
         "sent": total_sent,
+        "sent_production": len(sent),
+        "sent_reconciled": max(0, total_sent - len(sent)),
+        "accepted_by_provider": accepted,
         "hard_bounces": len(hard),
         "soft_bounces": len(bounces) - len(hard),
         "auto_replies": len(autos),
@@ -388,7 +407,11 @@ def _deliverability(entries: list[dict], records: list[dict], audit: list[dict])
         "bounce_rate": round(len(bounces) / total_sent * 100, 1) if total_sent else 0.0,
         "human_reply_rate": round(len(humans) / total_sent * 100, 1) if total_sent else 0.0,
         "delivery_confirmed": len(confirmed),
-        "delivery_unconfirmed": max(0, total_sent - len(confirmed) - len(bounced_companies)),
+        # Définition alignée sur pipeline_categories : ni preuve de remise, ni
+        # rebond, ni challenge. Les deux vues affichaient 56 et 55 pour la même
+        # réalité, ce qui prêtait à confusion.
+        "delivery_unconfirmed": max(0, total_sent - len(confirmed)
+                                    - len(bounced_companies) - len(challenges)),
         "bounced_companies": sorted(c for c in bounced_companies if c),
         "dns_blocking_addresses": [
             {"company": r.get("company", ""), "email": r.get("email", ""),

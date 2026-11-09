@@ -148,6 +148,48 @@ class ValidationQueue:
         item.gmail_message_id = gmail_message_id or item.gmail_message_id
         return self._transition(item_id, SENT)
 
+    def reconcile_external_send(
+        self,
+        item_id: str,
+        gmail_sent_message_id: str,
+        sent_at: str = "",
+        source: str = "",
+    ) -> QueueItem:
+        """Acter un envoi effectué HORS de l'agent, constaté dans Gmail.
+
+        `mark_sent` exige l'état « approuvé » : c'est le garde-fou du circuit
+        normal (validation humaine puis envoi par l'agent). Un brouillon déposé
+        puis envoyé à la main depuis Gmail n'a jamais traversé ce circuit ;
+        l'exiger ici obligerait à fabriquer une approbation qui n'a pas eu lieu.
+
+        Cette méthode n'autorise rien : elle **constate** un fait déjà observé.
+        L'identifiant du brouillon est conservé dans l'historique, car Gmail
+        attribue un nouvel identifiant au message envoyé tout en gardant le
+        même fil. Aucun envoi n'est déclenché.
+        """
+        item = self.get(item_id)
+        if item.status == SENT:
+            raise ValueError("élément déjà marqué envoyé : rapprochement répété")
+        if not gmail_sent_message_id:
+            raise ValueError("un identifiant de message envoyé est requis comme preuve")
+        previous_status = item.status
+        previous_draft_message_id = item.gmail_message_id
+        item.gmail_message_id = gmail_sent_message_id
+        item.status = SENT
+        item.updated_at = _now()
+        item.decision_reason = "envoi constaté hors agent, réconcilié depuis Gmail"
+        item.history.append({
+            "at": _now(), "action": "external_send_reconciled",
+            "status_before": previous_status, "status_after": SENT,
+            "gmail_sent_message_id": gmail_sent_message_id,
+            "gmail_draft_message_id": previous_draft_message_id,
+            "sent_at_observed": sent_at, "source": source,
+            "reason": ("brouillon envoyé depuis l'interface Gmail ; l'agent n'a "
+                       "effectué aucun envoi (enabled=false, dry_run=true)"),
+        })
+        self.save()
+        return item
+
     def list(self, status: str | None = None, campaign: str | None = None) -> list[QueueItem]:
         result = self.items
         if status:
