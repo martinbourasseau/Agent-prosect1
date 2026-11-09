@@ -1,0 +1,79 @@
+{
+  "date": "2026-11-03",
+  "methode": "copie isolee tempfile (Sender(settings_path=...))",
+  "resultat": false,
+  "motifs": [
+    "Campagne non activée (enabled=false). Activation explicite requise.",
+    "DKIM non détecté pour le domaine expéditeur.",
+    "Domaine expéditeur gratuit (Gmail (gratuit)) : prospection de masse déconseillée/interdite par les CGU."
+  ],
+  "config_reelle_inchangee": true,
+  "copie_modifiee_par_le_preflight": true,
+  "champs_ecrits_par_le_preflight": {
+    "deliverability": {
+      "avant": {
+        "require_spf": true,
+        "require_dkim": true,
+        "require_dmarc": true,
+        "last_checked_at": "2026-11-07T14:41:13+00:00",
+        "last_result": {
+          "domain": "gmail.com",
+          "is_free_provider": true,
+          "provider": "Gmail (gratuit)",
+          "spf_present": true,
+          "spf_record": "v=spf1 redirect=_spf.google.com",
+          "dkim_present": false,
+          "dkim_selector": "",
+          "dmarc_present": true,
+          "dmarc_record": "v=DMARC1; p=none; sp=quarantine; rua=mailto:mailauth-reports@google.com",
+          "dmarc_policy": "none",
+          "dns_checked": true,
+          "warnings": [
+            "Le domaine expéditeur 'gmail.com' est un fournisseur gratuit (Gmail (gratuit)). La prospection commerciale en masse depuis un compte gratuit est contraire aux CGU et dégrade fortement la délivrabilité (voire suspend le compte)."
+          ],
+          "recommendations": [
+            "Utiliser un domaine professionnel dédié (ex. contact@prospecto.website ou un domaine d'envoi dédié) avec SPF, DKIM et DMARC configurés, et un prestataire d'envoi adapté (Google Workspace sur domaine propre, ou ESP : Brevo, Sendgrid, Mailgun…)."
+          ],
+          "ok_for_bulk": false
+        }
+      },
+      "apres": {
+        "require_spf": true,
+        "require_dkim": true,
+        "require_dmarc": true,
+        "last_checked_at": "2026-11-09T23:38:01+00:00",
+        "last_result": {
+          "domain": "gmail.com",
+          "is_free_provider": true,
+          "provider": "Gmail (gratuit)",
+          "spf_present": true,
+          "spf_record": "v=spf1 redirect=_spf.google.com",
+          "dkim_present": false,
+          "dkim_selector": "",
+          "dmarc_present": true,
+          "dmarc_record": "v=DMARC1; p=none; sp=quarantine; rua=mailto:mailauth-reports@google.com",
+          "dmarc_policy": "none",
+          "dns_checked": true,
+          "warnings": [
+            "Le domaine expéditeur 'gmail.com' est un fournisseur gratuit (Gmail (gratuit)). La prospection commerciale en masse depuis un compte gratuit est contraire aux CGU et dégrade fortement la délivrabilité (voire suspend le compte)."
+          ],
+          "recommendations": [
+            "Utiliser un domaine professionnel dédié (ex. contact@prospecto.website ou un domaine d'envoi dédié) avec SPF, DKIM et DMARC configurés, et un prestataire d'envoi adapté (Google Workspace sur domaine propre, ou ESP : Brevo, Sendgrid, Mailgun…)."
+          ],
+          "ok_for_bulk": false
+        }
+      }
+    }
+  },
+  "pourquoi_isoler": "preflight() persiste son etat dans le fichier de reglages ; l'executer sur la config de production modifierait data/campaigns/v4-settings.json.",
+  "actions_requises": [
+    "Choisir et acheter un domaine d'envoi dedie (decision utilisateur ; aucun achat effectue).",
+    "Publier SPF et DKIM chez l'hebergeur DNS (aucune modification DNS effectuee).",
+    "Configurer une adresse d'envoi sur ce domaine plutot qu'une adresse Gmail gratuite.",
+    "Activer enabled=true et lever dry_run uniquement apres validation explicite de l'utilisateur."
+  ],
+  "blocage_de_fond": "Le domaine expéditeur gratuit reste disqualifiant meme si enabled etait active et le DKIM publie.",
+  "aucun_envoi_reel": true,
+  "dns_non_modifie": true,
+  "aucun_achat": true
+}

@@ -1,0 +1,389 @@
+{
+  "note": "suivi-dates-lots-1-a-11",
+  "date_session": "2026-11-03",
+  "horodatage_redaction_machine": "2026-11-09T23:37:42+00:00",
+  "statut": "DOCUMENTATION SEULE — aucune correction appliquee",
+  "constat_initial": "Les lots 1 a 11 portaient des dates (2026-11-04 a 2026-11-09) posterieures a la date de session declaree (2026-11-03), soupconnees d'etre erronees.",
+  "conclusion_apres_verification": {
+    "sens_de_l_anomalie": "INVERSE de l'hypothese initiale",
+    "resume": "Les dates des lots 1 a 11 sont CORROBOREES par deux sources independantes (Git et Gmail cote serveur). Ce sont les lots 12 et 13, dates '2026-11-03' d'apres la date de session declaree, qui sont ANTIDATES par rapport a l'horodatage machine reel (2026-11-09).",
+    "ne_pas_corriger": "Aucune modification effectuee. La decision de correction appartient a l'utilisateur."
+  },
+  "sources_de_dates_reelles": [
+    {
+      "source": "Git — date de commit (auteur)",
+      "independante": true,
+      "comment": "git log --format='%h %ad %s' --date=short",
+      "correspondances": [
+        [
+          "lot1",
+          "fb87665",
+          "2026-11-04"
+        ],
+        [
+          "lot2",
+          "632496f",
+          "2026-11-04"
+        ],
+        [
+          "lot3",
+          "dbfde90",
+          "2026-11-04"
+        ],
+        [
+          "lot4",
+          "9785084",
+          "2026-11-04"
+        ],
+        [
+          "lot5",
+          "28279b2",
+          "2026-11-04"
+        ],
+        [
+          "lot6",
+          "472abfc",
+          "2026-11-06"
+        ],
+        [
+          "lot7",
+          "8f4aa85",
+          "2026-11-06"
+        ],
+        [
+          "lot8",
+          "4d017f4",
+          "2026-11-06"
+        ],
+        [
+          "lot9",
+          "df49e42",
+          "2026-11-07"
+        ],
+        [
+          "lot10",
+          "713680f",
+          "2026-11-08"
+        ],
+        [
+          "lot11",
+          "7a31abe",
+          "2026-11-09"
+        ],
+        [
+          "lot12",
+          "9da909b",
+          "2026-11-09"
+        ]
+      ],
+      "limite": "La date de commit est celle de la machine ; elle corrobore la chronologie relative, pas une date civile absolue."
+    },
+    {
+      "source": "Gmail — internal_date (horodatage SERVEUR Google)",
+      "independante": true,
+      "comment": "Lecture seule via list_messages, metadata internal_date (ms epoch). Non forgeable par le depot.",
+      "releves": [
+        {
+          "objet": "envois du 03/11 (Akla Architectes, The Architectes, Quattro Architectes)",
+          "internal_date_ms": 1793697455000,
+          "utc": "2026-11-03T09:17:35+00:00"
+        },
+        {
+          "objet": "lot 1 — L'Occidentale / La Bruchoise / SAM31 / Dance Center",
+          "internal_date_ms": 1793827617000,
+          "utc": "2026-11-04T21:26:57+00:00"
+        },
+        {
+          "objet": "8 envois hors agent — Etancheite Nantaise / Alain Louis / Atelier du Bourrelier",
+          "internal_date_ms": 1794223397000,
+          "utc": "2026-11-09T11:23:17+00:00"
+        }
+      ],
+      "portee": "Confirme que le 03/11, le 04/11 et le 09/11 ont reellement existe cote Google : la chronologie des lots 1 a 11 est authentique."
+    },
+    {
+      "source": "Horloge de la sandbox",
+      "independante": false,
+      "releve": "date -u => 2026-11-09T23:35Z pendant la session declaree au 2026-11-03",
+      "comment": "Ecart de 6 jours entre la date de session declaree et l'horloge systeme. Origine de l'antidatage des lots 12-13."
+    }
+  ],
+  "champs_porteurs_de_dates": {
+    "created_at": 121,
+    "updated_at": 121,
+    "discovered_at": 96,
+    "email_dns_checked_at": 96,
+    "sent_at": 37,
+    "publication_date": 18,
+    "draft_created_at": 11,
+    "draft_updated_at": 11,
+    "sent_observed_at": 8,
+    "last_inbound_at": 4,
+    "last_reply_at": 1,
+    "suspended_at": 1
+  },
+  "Mecanismes": {
+    "horodates_par_la_machine": [
+      "created_at",
+      "updated_at",
+      "history[].at",
+      "examined_at (registre)"
+    ],
+    "code": "prospecto/crm.py:_now(), prospecto/queue.py:_now(), prospecto/sources.py — datetime.now(timezone.utc)",
+    "dates_saisies_par_le_chercheur": [
+      "discovered_at",
+      "evidence[].observed_at",
+      "evidence[].verified_at",
+      "email_dns_checked_at",
+      "lot",
+      "campaign",
+      "publication_date"
+    ],
+    "constante": "scripts/lot12/fiches.py et scripts/lot13/fiches.py figent D = \"2026-11-03\" (date de session declaree), d'ou l'ecart avec created_at.",
+    "dates_observées_sur_source_externe": [
+      "sent_at",
+      "sent_observed_at",
+      "last_inbound_at",
+      "last_reply_at",
+      "draft_created_at",
+      "draft_updated_at"
+    ]
+  },
+  "incoherences_internes_relevees": [
+    {
+      "lot": "2026-11-03-lot12",
+      "n": 12,
+      "discovered_at": "2026-11-03",
+      "created_at": "2026-11-09",
+      "ecart_jours": 6
+    },
+    {
+      "lot": "2026-11-03-lot13",
+      "n": 1,
+      "discovered_at": "2026-11-03",
+      "created_at": "2026-11-09",
+      "ecart_jours": 6
+    },
+    {
+      "lot": "2026-11-04-lot1",
+      "n": 5,
+      "discovered_at": "2026-11-04",
+      "created_at": "2026-11-03",
+      "ecart_jours": -1,
+      "note": "5 fiches rattachees au lot 1 apres coup : created_at anterieur a discovered_at."
+    },
+    {
+      "lot": "2026-11-07-lot7",
+      "n": 5,
+      "discovered_at": "2026-11-07",
+      "created_at": "2026-11-06",
+      "ecart_jours": -1
+    }
+  ],
+  "par_lot": {
+    "2026-11-03-lot12": {
+      "n": 12,
+      "discovered_at": {
+        "2026-11-03": 12
+      },
+      "created_at": {
+        "2026-11-09": 12
+      }
+    },
+    "2026-11-03-lot13": {
+      "n": 1,
+      "discovered_at": {
+        "2026-11-03": 1
+      },
+      "created_at": {
+        "2026-11-09": 1
+      }
+    },
+    "2026-11-03-v3": {
+      "n": 3,
+      "discovered_at": {
+        "(vide)": 3
+      },
+      "created_at": {
+        "2026-11-03": 3
+      }
+    },
+    "2026-11-04-lot1": {
+      "n": 13,
+      "discovered_at": {
+        "2026-11-04": 8,
+        "(vide)": 5
+      },
+      "created_at": {
+        "2026-11-03": 5,
+        "2026-11-04": 8
+      }
+    },
+    "2026-11-04-lot2": {
+      "n": 7,
+      "discovered_at": {
+        "2026-11-04": 7
+      },
+      "created_at": {
+        "2026-11-04": 7
+      }
+    },
+    "2026-11-04-lot3": {
+      "n": 6,
+      "discovered_at": {
+        "2026-11-04": 6
+      },
+      "created_at": {
+        "2026-11-04": 6
+      }
+    },
+    "2026-11-04-lot4": {
+      "n": 8,
+      "discovered_at": {
+        "2026-11-04": 8
+      },
+      "created_at": {
+        "2026-11-04": 8
+      }
+    },
+    "2026-11-04-lot5": {
+      "n": 7,
+      "discovered_at": {
+        "2026-11-04": 7
+      },
+      "created_at": {
+        "2026-11-04": 7
+      }
+    },
+    "2026-11-04-v4": {
+      "n": 5,
+      "discovered_at": {
+        "(vide)": 4,
+        "2026-11-04": 1
+      },
+      "created_at": {
+        "2026-11-04": 5
+      }
+    },
+    "2026-11-06-lot6": {
+      "n": 7,
+      "discovered_at": {
+        "2026-11-06": 7
+      },
+      "created_at": {
+        "2026-11-06": 7
+      }
+    },
+    "2026-11-06-lot9": {
+      "n": 4,
+      "discovered_at": {
+        "2026-11-06": 4
+      },
+      "created_at": {
+        "2026-11-06": 4
+      }
+    },
+    "2026-11-07-approfondissement": {
+      "n": 4,
+      "discovered_at": {
+        "2026-11-07": 4
+      },
+      "created_at": {
+        "2026-11-07": 4
+      }
+    },
+    "2026-11-07-approfondissement-pistes": {
+      "n": 2,
+      "discovered_at": {
+        "2026-11-07": 2
+      },
+      "created_at": {
+        "2026-11-07": 2
+      }
+    },
+    "2026-11-07-lot10": {
+      "n": 1,
+      "discovered_at": {
+        "2026-11-07": 1
+      },
+      "created_at": {
+        "2026-11-07": 1
+      }
+    },
+    "2026-11-07-lot10-suite": {
+      "n": 2,
+      "discovered_at": {
+        "2026-11-07": 2
+      },
+      "created_at": {
+        "2026-11-07": 2
+      }
+    },
+    "2026-11-07-lot7": {
+      "n": 5,
+      "discovered_at": {
+        "2026-11-07": 5
+      },
+      "created_at": {
+        "2026-11-06": 5
+      }
+    },
+    "2026-11-07-phase10bis": {
+      "n": 5,
+      "discovered_at": {
+        "2026-11-07": 5
+      },
+      "created_at": {
+        "2026-11-07": 5
+      }
+    },
+    "2026-11-09-lot11": {
+      "n": 16,
+      "discovered_at": {
+        "2026-11-09": 16
+      },
+      "created_at": {
+        "2026-11-09": 16
+      }
+    },
+    "campagne-2026-11-06-lot8": {
+      "n": 5,
+      "discovered_at": {
+        "(vide)": 5
+      },
+      "created_at": {
+        "2026-11-06": 5
+      }
+    },
+    "historique-gmail-antérieur": {
+      "n": 8,
+      "discovered_at": {
+        "(vide)": 8
+      },
+      "created_at": {
+        "2026-11-03": 8
+      }
+    }
+  },
+  "impact_sur_le_scoring": {
+    "regle": "scoring.FRESHNESS_DAYS = 180 ; priority et counter_signals comparent observed_at/verified_at a today.",
+    "effet": "Un ecart de 6 jours est tres inferieur a 180 jours : AUCUN score, palier ou penalite de contre-signal n'est modifie par cette anomalie.",
+    "risque_reel": "Le risque est documentaire (ne pas presenter une date comme preuve de recence) et non numerique.",
+    "consigne_appliquee_au_lot13": "Les dates des lots 1-11 n'ont PAS ete utilisees comme preuve de recence. La recence a ete etablie par les dates de publication des sources externes (ex. projet StyleHome publie le 06/09/2026, AO Bisca expire le 31/10/2025)."
+  },
+  "methode_de_correction_proposee_NON_APPLIQUEE": [
+    "1. Obtenir de l'utilisateur la date civile de reference de chaque session (le depot seul ne peut pas la determiner).",
+    "2. Construire une table de correspondance lot -> date reelle a partir des dates de commit Git ET des internal_date Gmail, en gardant les deux comme pieces.",
+    "3. Ecrire un script en lecture seule qui produit un RAPPORT des champs a corriger, sans ecrire dans le CRM.",
+    "4. Faire valider ce rapport par l'utilisateur, champ par champ et lot par lot.",
+    "5. Sur autorisation explicite seulement : sauvegarde horodatee, puis correction additive — conserver la valeur d'origine dans un champ distinct (ex. date_original_declaree) et ajouter une entree d'historique motivant chaque changement.",
+    "6. Ne jamais reecrire sent_at / last_reply_at / draft_created_at : ces dates viennent de Gmail et sont deja authentiques ; les corriger falsifierait l'historique d'envoi.",
+    "7. Reexecuter la suite de tests et verifier que les 120 fiches anterieures restent identiques hors champs explicitement autorises.",
+    "8. Ajouter un test d'invariant : created_at et discovered_at d'une meme fiche ne doivent pas diverger de plus d'un jour, sans figer de date de lot."
+  ],
+  "actions_requises_de_l_utilisateur": [
+    "Confirmer la date civile reelle des sessions des lots 1 a 13.",
+    "Autoriser ou refuser la correction, et dire si elle doit porter sur les lots 12-13 (antidates) plutot que sur les lots 1-11 (corrobores).",
+    "Decider si les champs saisis doivent etre alignes sur l'horodatage machine ou sur la date civile declaree."
+  ]
+}

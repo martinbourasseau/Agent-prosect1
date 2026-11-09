@@ -1,0 +1,2089 @@
+{
+  "lot": "2026-11-03-lot13",
+  "date": "2026-11-03",
+  "strategie": "besoins commerciaux exprimés et processus observés",
+  "stats": {
+    "requetes": 17,
+    "appels_lecture": 22,
+    "appels_reussis": 20,
+    "appels_echoues": 2,
+    "pages_distinctes_lues": 18,
+    "pages_lecture_revue_brouillons": 5,
+    "entites_examinees": 63,
+    "intermediaires_agregateurs": 32,
+    "categories": {
+      "A": 1,
+      "B": 0,
+      "C": 19,
+      "D": 43
+    },
+    "decisions": {
+      "importee": 1,
+      "approfondir": 19,
+      "écartée": 43
+    },
+    "importables": 1,
+    "lectures": {
+      "officielle": 6,
+      "recherche_seule": 57
+    },
+    "departements": [
+      "07",
+      "14",
+      "17",
+      "29",
+      "31",
+      "32",
+      "34",
+      "35",
+      "38",
+      "40",
+      "45",
+      "51",
+      "59",
+      "61",
+      "63",
+      "67",
+      "69",
+      "72",
+      "74",
+      "75",
+      "78",
+      "92",
+      "95",
+      "971",
+      "973"
+    ],
+    "secteurs": 48,
+    "axes_recherche": {
+      "besoin_exprime": 5,
+      "marche_public": 5,
+      "developpement": 3,
+      "processus": 2,
+      "automatisation": 2
+    }
+  },
+  "requetes": [
+    {
+      "axe": "besoin_exprime",
+      "libelle": "\"nous recherchons un prestataire\" refonte site internet entreprise 2026",
+      "rendement": "Plateformes de projets : besoins explicites réels, mais identité client souvent masquée"
+    },
+    {
+      "axe": "marche_public",
+      "libelle": "appel d'offres refonte site internet réservation office de tourisme 2026 consultation",
+      "rendement": "Acheteurs nommés, maismajorité d' échéances dépassées"
+    },
+    {
+      "axe": "developpement",
+      "libelle": "entreprise \"nouvelle agence\" ouverture 2026 \"développer notre présence\" site internet",
+      "rendement": "Franchises et grands groupes ; aucune TPE indépendante"
+    },
+    {
+      "axe": "processus",
+      "libelle": "\"recrute\" \"assistant administratif\" \"traitement des demandes clients\" devis PME 2026",
+      "rendement": "Agrégateurs d'offres ; employeur affiché = agence d'intérim"
+    },
+    {
+      "axe": "automatisation",
+      "libelle": "entreprise \"nous souhaitons automatiser\" traitement devis demandes clients 2026",
+      "rendement": "PIÈGE : uniquement des vendeurs de solutions d'automatisation"
+    },
+    {
+      "axe": "marche_public",
+      "libelle": "\"refonte\" \"site internet\" consultation entreprise novembre 2026 date limite réponse marché",
+      "rendement": "Avis expirés ou hors cible budget ; mot-clé « site » bruité"
+    },
+    {
+      "axe": "besoin_exprime",
+      "libelle": "codeur.com projet \"AD Rénovation\" refonte site vitrine Charente-Maritime",
+      "rendement": "Projet clos depuis 7 mois, page projet non retrouvée"
+    },
+    {
+      "axe": "besoin_exprime",
+      "libelle": "\"Styl'Home\" OR \"stylhome.fr\" entreprise artisanale site",
+      "rendement": "ENTREPRISE IDENTIFIÉE : site officiel + besoin explicite recoupés"
+    },
+    {
+      "axe": "marche_public",
+      "libelle": "\"création d'un site internet\" commune village marché procédure adaptée novembre 2026 décembre 2026",
+      "rendement": "Petites collectivités nommées, échéances souvent closes"
+    },
+    {
+      "axe": "besoin_exprime",
+      "libelle": "Adastra cabinet formalités juridiques création société en ligne France",
+      "rendement": "Homonyme avocats à écarter ; société correspondante trouvée, rattachement non établi"
+    },
+    {
+      "axe": "developpement",
+      "libelle": "\"refonte de notre site\" actualité entreprise 2026 annonce nouveau site internet PME",
+      "rendement": "PIÈGE : pages de témoignages d'agences, clients déjà équipés"
+    },
+    {
+      "axe": "besoin_exprime",
+      "libelle": "codeur.com \"Finalisation et optimisation du site vitrine Styl'Home\"",
+      "rendement": "URL du projet retrouvée, besoin lu intégralement"
+    },
+    {
+      "axe": "marche_public",
+      "libelle": "\"COMMUNE D ARVERT\" refonte site internet communal appel d'offres 27 novembre 2026",
+      "rendement": "Acheteur identifié, avis primaire non lu"
+    },
+    {
+      "axe": "marche_public",
+      "libelle": "\"COMMUNE DE GRAVELINES\" refonte hébergement maintenance site web appel d'offres novembre 2026",
+      "rendement": "Dates contradictoires entre agrégateurs, avis primaire non lu"
+    },
+    {
+      "axe": "automatisation",
+      "libelle": "codeur.com projet automatisation processus Make n8n entreprise recherche prestataire",
+      "rendement": "3 projets, tous clos depuis plus de 9 mois, porteurs anonymes"
+    },
+    {
+      "axe": "processus",
+      "libelle": "\"nous recherchons\" \"assistant ADV\" \"saisie des commandes\" recrutement entreprise 2026 -indeed -linkedin -apec",
+      "rendement": "PIÈGE : agences d'intérim, client final anonyme"
+    },
+    {
+      "axe": "developpement",
+      "libelle": "entreprise annonce \"nouvelle agence\" 2026 \"site internet\" développement activité communiqué officiel",
+      "rendement": "Réseaux de franchise et grands groupes ; décision web mutualisée"
+    }
+  ],
+  "pages": [
+    {
+      "url": "https://www.biscagrandslacs.com/espace-pro/les-consultations-des-entreprises/appel-d-offre-refonte-site-web",
+      "statut": "ok",
+      "objet": "OT Bisca Grands Lacs"
+    },
+    {
+      "url": "https://www.codeur.com/refonte-site-vitrine",
+      "statut": "ok",
+      "objet": "plateforme — 3 tronçons lus"
+    },
+    {
+      "url": "https://www.codeur.com/projects/491582-refonte-du-site-cave-a-vin-toulouse",
+      "statut": "ok",
+      "objet": "cave à vin Toulouse"
+    },
+    {
+      "url": "https://www.codeur.com/projects/491245-conception-et-realisation-d-un-site-vitrine-internet",
+      "statut": "ok",
+      "objet": "réseau 5 boulangeries"
+    },
+    {
+      "url": "https://www.codeur.com/projects/491192-refonte-de-site-web-evolution-vers-application",
+      "statut": "ok",
+      "objet": "fournisseur fluides frigorigènes"
+    },
+    {
+      "url": "https://www.codeur.com/projects/489291-finalisation-et-optimisation-du-site-vitrine-styl-home",
+      "statut": "ok",
+      "objet": "Styl'Home"
+    },
+    {
+      "url": "https://www.codeur.com/projects/488406-site-web",
+      "statut": "ok",
+      "objet": "Adastra ( cahier des charges )"
+    },
+    {
+      "url": "https://stylhome.fr/",
+      "statut": "ok",
+      "objet": "Styl'Home"
+    },
+    {
+      "url": "https://stylhome.fr/contact",
+      "statut": "ok",
+      "objet": "Styl'Home"
+    },
+    {
+      "url": "https://www.adastra-legal.fr/",
+      "statut": "ok",
+      "objet": "Adastra"
+    },
+    {
+      "url": "https://www.codeur.com/creation-site-vitrine",
+      "statut": "ok",
+      "objet": "plateforme"
+    },
+    {
+      "url": "https://www.codeur.com/creation-automatisation-n8n",
+      "statut": "ok",
+      "objet": "plateforme"
+    },
+    {
+      "url": "https://www.francemarches.com/appels-offre/creation-site-web",
+      "statut": "ok",
+      "objet": "agrégateur de marchés"
+    },
+    {
+      "url": "https://www.miditracage-esvia.com/actualites/2026-04-29/assistant-e-administratif-et-commercial-avignon/",
+      "statut": "ok",
+      "objet": "Miditraçage Esvia — revue brouillon"
+    },
+    {
+      "url": "https://metalleriedesalpilles.fr/",
+      "statut": "ok",
+      "objet": "Métallerie des Alpilles — revue brouillon"
+    },
+    {
+      "url": "https://www.etudebbc.fr/contactus",
+      "statut": "ok",
+      "objet": "Bureau Bois Concept — revue brouillon"
+    },
+    {
+      "url": "https://www.etudebbc.fr/",
+      "statut": "ok",
+      "objet": "Bureau Bois Concept — revue brouillon"
+    },
+    {
+      "url": "https://www.frezouls.fr/controle-dacces/",
+      "statut": "ok",
+      "objet": "ETS Frézouls — revue brouillon"
+    },
+    {
+      "url": "(url proxy mal formée)",
+      "statut": "echec",
+      "objet": "erreur agent"
+    },
+    {
+      "url": "(url proxy mal formée)",
+      "statut": "echec",
+      "objet": "erreur agent"
+    }
+  ],
+  "entites": [
+    {
+      "nom": "Styl'Home",
+      "departement": "59",
+      "secteur": "Rénovation intérieure / peinture en bâtiment",
+      "categorie": "A",
+      "categorie_label": "Besoin explicite",
+      "decision": "importee",
+      "motif": "Demande publique de finalisation/correction du site stylhome.fr, lue intégralement ; défauts corroborés indépendamment sur le site officiel (photo des gérants encore en placehold.co « Soon.. », ancienneté incohérente). Consultation close après 122 offres : contre-signal retenu.",
+      "raisons_moteur": [
+        "besoin demandé publiquement par l'entreprise, lu et encore pertinent"
+      ],
+      "url": "https://www.codeur.com/projects/489291-finalisation-et-optimisation-du-site-vitrine-styl-home",
+      "lecture": "officielle",
+      "source_type": "plateforme_projet",
+      "date": "2026-11-03",
+      "signal": {
+        "exprimed": true,
+        "identite_etablie": true,
+        "page_lue": true,
+        "pertinent": true,
+        "observe": true,
+        "rattachement_etabli": true,
+        "disqualifiants": []
+      }
+    },
+    {
+      "nom": "Adastra",
+      "departement": "75",
+      "secteur": "Formalités juridiques et création de sociétés",
+      "categorie": "C",
+      "categorie_label": "Hypothèse",
+      "decision": "approfondir",
+      "motif": "Un cahier des charges public demande refonte + automatisation pour une entité nommée Adastra dont l'activité correspond, mais l'URL du site et le contact y sont masqués. adastra-legal.fr concorde par activité et adresse ; le contact cité (« Djamil ») n'apparaît pas dans l'équipe publiée. Rattachement non établi : aucune fiche créée.",
+      "raisons_moteur": [
+        "rattachement du signal à cette entreprise non établi"
+      ],
+      "url": "https://www.adastra-legal.fr/",
+      "lecture": "officielle",
+      "source_type": "site_officiel",
+      "date": "2026-11-03",
+      "signal": {
+        "exprimed": true,
+        "identite_etablie": true,
+        "page_lue": true,
+        "pertinent": true,
+        "observe": false,
+        "rattachement_etabli": false,
+        "disqualifiants": []
+      }
+    },
+    {
+      "nom": "Cave à vin et épicerie fine (Toulouse)",
+      "departement": "31",
+      "secteur": "Commerce de détail alimentaire",
+      "categorie": "C",
+      "categorie_label": "Hypothèse",
+      "decision": "approfondir",
+      "motif": "Besoin explicite et projet OUVERT (21/10/2026) : site Wix lent, mal adapté au téléphone, mises à jour difficiles. Mais « le profil du client est réservé aux prestataires abonnés » : identité non publique, aucun canal de contact. Accès payant non contourné.",
+      "raisons_moteur": [
+        "identité de l'entreprise non établie : aucune fiche possible"
+      ],
+      "url": "https://www.codeur.com/projects/491582-refonte-du-site-cave-a-vin-toulouse",
+      "lecture": "officielle",
+      "source_type": "plateforme_projet",
+      "date": "2026-11-03",
+      "signal": {
+        "exprimed": true,
+        "identite_etablie": false,
+        "page_lue": true,
+        "pertinent": true,
+        "observe": false,
+        "rattachement_etabli": true,
+        "disqualifiants": []
+      }
+    },
+    {
+      "nom": "Réseau de 5 boulangeries",
+      "departement": "",
+      "secteur": "Boulangerie / commerce de bouche",
+      "categorie": "C",
+      "categorie_label": "Hypothèse",
+      "decision": "approfondir",
+      "motif": "Besoin explicite, projet OUVERT (14/10/2026), site vitrine multi-boutiques pensé mobile. Identité du porteur réservée aux abonnés : non exploitable.",
+      "raisons_moteur": [
+        "identité de l'entreprise non établie : aucune fiche possible"
+      ],
+      "url": "https://www.codeur.com/projects/491245-conception-et-realisation-d-un-site-vitrine-internet",
+      "lecture": "officielle",
+      "source_type": "plateforme_projet",
+      "date": "2026-11-03",
+      "signal": {
+        "exprimed": true,
+        "identite_etablie": false,
+        "page_lue": true,
+        "pertinent": true,
+        "observe": false,
+        "rattachement_etabli": true,
+        "disqualifiants": []
+      }
+    },
+    {
+      "nom": "Fournisseur français de fluides frigorigènes",
+      "departement": "",
+      "secteur": "Distribution de fluides frigorigènes",
+      "categorie": "C",
+      "categorie_label": "Hypothèse",
+      "decision": "approfondir",
+      "motif": "Projet OUVERT (13/10/2026) mais périmètre applicatif imposé (React/TanStack SSR, Supabase, 230 redirections) au-delà de l'offre Prospecto, et identité réservée aux abonnés.",
+      "raisons_moteur": [
+        "identité de l'entreprise non établie : aucune fiche possible"
+      ],
+      "url": "https://www.codeur.com/projects/491192-refonte-de-site-web-evolution-vers-application",
+      "lecture": "officielle",
+      "source_type": "plateforme_projet",
+      "date": "2026-11-03",
+      "signal": {
+        "exprimed": true,
+        "identite_etablie": false,
+        "page_lue": true,
+        "pertinent": true,
+        "observe": false,
+        "rattachement_etabli": true,
+        "disqualifiants": []
+      }
+    },
+    {
+      "nom": "AD Rénovation",
+      "departement": "17",
+      "secteur": "Entreprise générale du bâtiment",
+      "categorie": "C",
+      "categorie_label": "Hypothèse",
+      "decision": "approfondir",
+      "motif": "Besoin explicite repéré (refonte, site de plus de 8 ans) mais projet clos depuis 7 mois et page projet non retrouvée : ni lecture ni site officiel.",
+      "raisons_moteur": [
+        "aucune page lue : le signal reste non vérifié"
+      ],
+      "url": "",
+      "lecture": "recherche_seule",
+      "source_type": "autre",
+      "date": "2026-11-03",
+      "signal": {
+        "exprimed": false,
+        "identite_etablie": true,
+        "page_lue": false,
+        "pertinent": true,
+        "observe": false,
+        "rattachement_etabli": true,
+        "disqualifiants": []
+      }
+    },
+    {
+      "nom": "Via Prépa",
+      "departement": "",
+      "secteur": "Plateforme d'accompagnement prépa ECG",
+      "categorie": "C",
+      "categorie_label": "Hypothèse",
+      "decision": "approfondir",
+      "motif": "Demande de refonte complète vue en résultat de recherche seulement ; page projet non lue, site officiel non lu.",
+      "raisons_moteur": [
+        "aucune page lue : le signal reste non vérifié"
+      ],
+      "url": "",
+      "lecture": "recherche_seule",
+      "source_type": "autre",
+      "date": "2026-11-03",
+      "signal": {
+        "exprimed": false,
+        "identite_etablie": true,
+        "page_lue": false,
+        "pertinent": true,
+        "observe": false,
+        "rattachement_etabli": true,
+        "disqualifiants": []
+      }
+    },
+    {
+      "nom": "Zenspire Army",
+      "departement": "",
+      "secteur": "Commerce en ligne",
+      "categorie": "C",
+      "categorie_label": "Hypothèse",
+      "decision": "approfondir",
+      "motif": "Demande de modernisation vue en extrait de recherche ; page non lue.",
+      "raisons_moteur": [
+        "aucune page lue : le signal reste non vérifié"
+      ],
+      "url": "",
+      "lecture": "recherche_seule",
+      "source_type": "autre",
+      "date": "2026-11-03",
+      "signal": {
+        "exprimed": false,
+        "identite_etablie": true,
+        "page_lue": false,
+        "pertinent": true,
+        "observe": false,
+        "rattachement_etabli": true,
+        "disqualifiants": []
+      }
+    },
+    {
+      "nom": "Commune d'Arvert",
+      "departement": "17",
+      "secteur": "Collectivité territoriale",
+      "categorie": "C",
+      "categorie_label": "Hypothèse",
+      "decision": "approfondir",
+      "motif": "Acheteur nommé pour une refonte de site communal (échéance 27/11/2026 annoncée) mais avis primaire non lu : montant et éligibilité inconnus.",
+      "raisons_moteur": [
+        "aucune page lue : le signal reste non vérifié"
+      ],
+      "url": "",
+      "lecture": "recherche_seule",
+      "source_type": "autre",
+      "date": "2026-11-03",
+      "signal": {
+        "exprimed": false,
+        "identite_etablie": true,
+        "page_lue": false,
+        "pertinent": true,
+        "observe": false,
+        "rattachement_etabli": true,
+        "disqualifiants": []
+      }
+    },
+    {
+      "nom": "Commune de Gravelines",
+      "departement": "59",
+      "secteur": "Collectivité territoriale",
+      "categorie": "C",
+      "categorie_label": "Hypothèse",
+      "decision": "approfondir",
+      "motif": "Refonte/hébergement/maintenance annoncés au 17/11/2026 par un agrégateur, dates contradictoires ailleurs ; avis primaire non lu.",
+      "raisons_moteur": [
+        "aucune page lue : le signal reste non vérifié"
+      ],
+      "url": "",
+      "lecture": "recherche_seule",
+      "source_type": "autre",
+      "date": "2026-11-03",
+      "signal": {
+        "exprimed": false,
+        "identite_etablie": true,
+        "page_lue": false,
+        "pertinent": true,
+        "observe": false,
+        "rattachement_etabli": true,
+        "disqualifiants": []
+      }
+    },
+    {
+      "nom": "HEXAPAGE",
+      "departement": "92",
+      "secteur": "Services bureautiques",
+      "categorie": "C",
+      "categorie_label": "Hypothèse",
+      "decision": "approfondir",
+      "motif": "Offre ADV vue via agrégateur ; employeur final et processus non vérifiés sur source officielle.",
+      "raisons_moteur": [
+        "aucune page lue : le signal reste non vérifié"
+      ],
+      "url": "",
+      "lecture": "recherche_seule",
+      "source_type": "autre",
+      "date": "2026-11-03",
+      "signal": {
+        "exprimed": false,
+        "identite_etablie": true,
+        "page_lue": false,
+        "pertinent": true,
+        "observe": false,
+        "rattachement_etabli": true,
+        "disqualifiants": []
+      }
+    },
+    {
+      "nom": "SIMPLICITI",
+      "departement": "78",
+      "secteur": "Éditeur de logiciels",
+      "categorie": "C",
+      "categorie_label": "Hypothèse",
+      "decision": "approfondir",
+      "motif": "Offre ADV « optimisation et fluidification » vue via agrégateur ; éditeur logiciel, vendeur probable plutôt qu'acheteur.",
+      "raisons_moteur": [
+        "aucune page lue : le signal reste non vérifié"
+      ],
+      "url": "",
+      "lecture": "recherche_seule",
+      "source_type": "autre",
+      "date": "2026-11-03",
+      "signal": {
+        "exprimed": false,
+        "identite_etablie": true,
+        "page_lue": false,
+        "pertinent": true,
+        "observe": false,
+        "rattachement_etabli": true,
+        "disqualifiants": []
+      }
+    },
+    {
+      "nom": "Europe Contract",
+      "departement": "",
+      "secteur": "Services aux entreprises",
+      "categorie": "C",
+      "categorie_label": "Hypothèse",
+      "decision": "approfondir",
+      "motif": "Offres ADV multiples vues via agrégateur ; agit comme intermédiaire.",
+      "raisons_moteur": [
+        "aucune page lue : le signal reste non vérifié"
+      ],
+      "url": "",
+      "lecture": "recherche_seule",
+      "source_type": "autre",
+      "date": "2026-11-03",
+      "signal": {
+        "exprimed": false,
+        "identite_etablie": true,
+        "page_lue": false,
+        "pertinent": true,
+        "observe": false,
+        "rattachement_etabli": true,
+        "disqualifiants": []
+      }
+    },
+    {
+      "nom": "O'RECUP",
+      "departement": "971",
+      "secteur": "Récupération / négoce",
+      "categorie": "C",
+      "categorie_label": "Hypothèse",
+      "decision": "approfondir",
+      "motif": "Offre « assistante administrative et chargé de planning » vue via agrégateur ; site officiel non lu.",
+      "raisons_moteur": [
+        "aucune page lue : le signal reste non vérifié"
+      ],
+      "url": "",
+      "lecture": "recherche_seule",
+      "source_type": "autre",
+      "date": "2026-11-03",
+      "signal": {
+        "exprimed": false,
+        "identite_etablie": true,
+        "page_lue": false,
+        "pertinent": true,
+        "observe": false,
+        "rattachement_etabli": true,
+        "disqualifiants": []
+      }
+    },
+    {
+      "nom": "HEXIS",
+      "departement": "971",
+      "secteur": "Distribution de films adhésifs",
+      "categorie": "C",
+      "categorie_label": "Hypothèse",
+      "decision": "approfondir",
+      "motif": "Offre d'assistant polyvalent vue via agrégateur ; site officiel non lu.",
+      "raisons_moteur": [
+        "aucune page lue : le signal reste non vérifié"
+      ],
+      "url": "",
+      "lecture": "recherche_seule",
+      "source_type": "autre",
+      "date": "2026-11-03",
+      "signal": {
+        "exprimed": false,
+        "identite_etablie": true,
+        "page_lue": false,
+        "pertinent": true,
+        "observe": false,
+        "rattachement_etabli": true,
+        "disqualifiants": []
+      }
+    },
+    {
+      "nom": "SCI PRO IMMO",
+      "departement": "971",
+      "secteur": "Immobilier",
+      "categorie": "C",
+      "categorie_label": "Hypothèse",
+      "decision": "approfondir",
+      "motif": "Offre administrative vue via agrégateur ; hors périmètre métropolitain et site non lu.",
+      "raisons_moteur": [
+        "aucune page lue : le signal reste non vérifié"
+      ],
+      "url": "",
+      "lecture": "recherche_seule",
+      "source_type": "autre",
+      "date": "2026-11-03",
+      "signal": {
+        "exprimed": false,
+        "identite_etablie": true,
+        "page_lue": false,
+        "pertinent": true,
+        "observe": false,
+        "rattachement_etabli": true,
+        "disqualifiants": []
+      }
+    },
+    {
+      "nom": "KHM",
+      "departement": "95",
+      "secteur": "Automobile / garage",
+      "categorie": "C",
+      "categorie_label": "Hypothèse",
+      "decision": "approfondir",
+      "motif": "Offre secrétaire comptable (devis, facturation, planning) vue via agrégateur ; entreprise non vérifiée.",
+      "raisons_moteur": [
+        "aucune page lue : le signal reste non vérifié"
+      ],
+      "url": "",
+      "lecture": "recherche_seule",
+      "source_type": "autre",
+      "date": "2026-11-03",
+      "signal": {
+        "exprimed": false,
+        "identite_etablie": true,
+        "page_lue": false,
+        "pertinent": true,
+        "observe": false,
+        "rattachement_etabli": true,
+        "disqualifiants": []
+      }
+    },
+    {
+      "nom": "NG PRO MULTI SERVICES",
+      "departement": "95",
+      "secteur": "Multi-services bâtiment",
+      "categorie": "C",
+      "categorie_label": "Hypothèse",
+      "decision": "approfondir",
+      "motif": "Offre secrétaire polyvalente vue via agrégateur ; entreprise non vérifiée.",
+      "raisons_moteur": [
+        "aucune page lue : le signal reste non vérifié"
+      ],
+      "url": "",
+      "lecture": "recherche_seule",
+      "source_type": "autre",
+      "date": "2026-11-03",
+      "signal": {
+        "exprimed": false,
+        "identite_etablie": true,
+        "page_lue": false,
+        "pertinent": true,
+        "observe": false,
+        "rattachement_etabli": true,
+        "disqualifiants": []
+      }
+    },
+    {
+      "nom": "EXPERTNET TECHNOLOGIES SA",
+      "departement": "95",
+      "secteur": "BTP",
+      "categorie": "C",
+      "categorie_label": "Hypothèse",
+      "decision": "approfondir",
+      "motif": "Offre d'assistant administrative vue via agrégateur ; entreprise non vérifiée.",
+      "raisons_moteur": [
+        "aucune page lue : le signal reste non vérifié"
+      ],
+      "url": "",
+      "lecture": "recherche_seule",
+      "source_type": "autre",
+      "date": "2026-11-03",
+      "signal": {
+        "exprimed": false,
+        "identite_etablie": true,
+        "page_lue": false,
+        "pertinent": true,
+        "observe": false,
+        "rattachement_etabli": true,
+        "disqualifiants": []
+      }
+    },
+    {
+      "nom": "Afigec",
+      "departement": "92",
+      "secteur": "Expertise comptable",
+      "categorie": "C",
+      "categorie_label": "Hypothèse",
+      "decision": "approfondir",
+      "motif": "Offre d'assistant administratif externalisé vue via agrégateur ; prestation vendue, pas un processus interne documenté.",
+      "raisons_moteur": [
+        "aucune page lue : le signal reste non vérifié"
+      ],
+      "url": "",
+      "lecture": "recherche_seule",
+      "source_type": "autre",
+      "date": "2026-11-03",
+      "signal": {
+        "exprimed": false,
+        "identite_etablie": true,
+        "page_lue": false,
+        "pertinent": true,
+        "observe": false,
+        "rattachement_etabli": true,
+        "disqualifiants": []
+      }
+    },
+    {
+      "nom": "Office de Tourisme Bisca Grands Lacs",
+      "departement": "40",
+      "secteur": "Office de tourisme",
+      "categorie": "D",
+      "categorie_label": "Non pertinente",
+      "decision": "écartée",
+      "motif": "Besoin explicite très détaillé (refonte, réservation, RGAA/OPQUAST) LU sur le site officiel, mais « limite de réception des offres avant le vendredi 31 octobre 2025 » : expiré depuis plus d'un an. L'extrait de recherche ne montrait pas la date ; seule la lecture l'a révélée.",
+      "raisons_moteur": [
+        "contre-signal disqualifiant : signal_expire"
+      ],
+      "url": "https://www.biscagrandslacs.com/espace-pro/les-consultations-des-entreprises/appel-d-offre-refonte-site-web",
+      "lecture": "officielle",
+      "source_type": "registre_public",
+      "date": "2026-11-03",
+      "signal": {
+        "exprimed": true,
+        "identite_etablie": true,
+        "page_lue": true,
+        "pertinent": true,
+        "observe": false,
+        "rattachement_etabli": true,
+        "disqualifiants": [
+          "signal_expire"
+        ]
+      }
+    },
+    {
+      "nom": "CRT Centre-Val de Loire",
+      "departement": "45",
+      "secteur": "Comité régional du tourisme",
+      "categorie": "D",
+      "categorie_label": "Non pertinente",
+      "decision": "écartée",
+      "motif": "Consultation 26-51899 close le 24/06/2026.",
+      "raisons_moteur": [
+        "contre-signal disqualifiant : signal_expire"
+      ],
+      "url": "",
+      "lecture": "recherche_seule",
+      "source_type": "registre_public",
+      "date": "2026-11-03",
+      "signal": {
+        "exprimed": false,
+        "identite_etablie": true,
+        "page_lue": false,
+        "pertinent": true,
+        "observe": false,
+        "rattachement_etabli": true,
+        "disqualifiants": [
+          "signal_expire"
+        ]
+      }
+    },
+    {
+      "nom": "OT Clermont Auvergne Volcans",
+      "departement": "63",
+      "secteur": "Office de tourisme",
+      "categorie": "D",
+      "categorie_label": "Non pertinente",
+      "decision": "écartée",
+      "motif": "Refonte de clermontauvergnevolcans.com, dépôt clos le 07/04/2026.",
+      "raisons_moteur": [
+        "contre-signal disqualifiant : signal_expire"
+      ],
+      "url": "",
+      "lecture": "recherche_seule",
+      "source_type": "registre_public",
+      "date": "2026-11-03",
+      "signal": {
+        "exprimed": false,
+        "identite_etablie": true,
+        "page_lue": false,
+        "pertinent": true,
+        "observe": false,
+        "rattachement_etabli": true,
+        "disqualifiants": [
+          "signal_expire"
+        ]
+      }
+    },
+    {
+      "nom": "SPL Gorges de l'Ardèche - Pont d'Arc",
+      "departement": "07",
+      "secteur": "SPL touristique",
+      "categorie": "D",
+      "categorie_label": "Non pertinente",
+      "decision": "écartée",
+      "motif": "Refonte du dispositif digital, réponse close le 14/10/2026.",
+      "raisons_moteur": [
+        "contre-signal disqualifiant : signal_expire"
+      ],
+      "url": "",
+      "lecture": "recherche_seule",
+      "source_type": "registre_public",
+      "date": "2026-11-03",
+      "signal": {
+        "exprimed": false,
+        "identite_etablie": true,
+        "page_lue": false,
+        "pertinent": true,
+        "observe": false,
+        "rattachement_etabli": true,
+        "disqualifiants": [
+          "signal_expire"
+        ]
+      }
+    },
+    {
+      "nom": "Commune de Marciac",
+      "departement": "32",
+      "secteur": "Collectivité territoriale",
+      "categorie": "D",
+      "categorie_label": "Non pertinente",
+      "decision": "écartée",
+      "motif": "Création du site du Pôle des Augustins, MP2026_003, clos le 30/10/2026.",
+      "raisons_moteur": [
+        "contre-signal disqualifiant : signal_expire"
+      ],
+      "url": "",
+      "lecture": "recherche_seule",
+      "source_type": "registre_public",
+      "date": "2026-11-03",
+      "signal": {
+        "exprimed": false,
+        "identite_etablie": true,
+        "page_lue": false,
+        "pertinent": true,
+        "observe": false,
+        "rattachement_etabli": true,
+        "disqualifiants": [
+          "signal_expire"
+        ]
+      }
+    },
+    {
+      "nom": "EESAB",
+      "departement": "29",
+      "secteur": "Enseignement supérieur",
+      "categorie": "D",
+      "categorie_label": "Non pertinente",
+      "decision": "écartée",
+      "motif": "Refonte du site, remise des plis close le 16/10/2026.",
+      "raisons_moteur": [
+        "contre-signal disqualifiant : signal_expire"
+      ],
+      "url": "",
+      "lecture": "recherche_seule",
+      "source_type": "registre_public",
+      "date": "2026-11-03",
+      "signal": {
+        "exprimed": false,
+        "identite_etablie": true,
+        "page_lue": false,
+        "pertinent": true,
+        "observe": false,
+        "rattachement_etabli": true,
+        "disqualifiants": [
+          "signal_expire"
+        ]
+      }
+    },
+    {
+      "nom": "Hôpitaux Universitaires de Strasbourg / CH Erstein",
+      "departement": "67",
+      "secteur": "Santé",
+      "categorie": "D",
+      "categorie_label": "Non pertinente",
+      "decision": "écartée",
+      "motif": "Refonte site + intranet, avis archivé, clos le 12/10/2026.",
+      "raisons_moteur": [
+        "contre-signal disqualifiant : signal_expire"
+      ],
+      "url": "",
+      "lecture": "recherche_seule",
+      "source_type": "registre_public",
+      "date": "2026-11-03",
+      "signal": {
+        "exprimed": false,
+        "identite_etablie": true,
+        "page_lue": false,
+        "pertinent": true,
+        "observe": false,
+        "rattachement_etabli": true,
+        "disqualifiants": [
+          "signal_expire"
+        ]
+      }
+    },
+    {
+      "nom": "Le Mans Métropole — Office de Tourisme",
+      "departement": "72",
+      "secteur": "Office de tourisme",
+      "categorie": "D",
+      "categorie_label": "Non pertinente",
+      "decision": "écartée",
+      "motif": "Refonte site OT et Bureau des Congrès, clos le 20/02/2026.",
+      "raisons_moteur": [
+        "contre-signal disqualifiant : signal_expire"
+      ],
+      "url": "",
+      "lecture": "recherche_seule",
+      "source_type": "registre_public",
+      "date": "2026-11-03",
+      "signal": {
+        "exprimed": false,
+        "identite_etablie": true,
+        "page_lue": false,
+        "pertinent": true,
+        "observe": false,
+        "rattachement_etabli": true,
+        "disqualifiants": [
+          "signal_expire"
+        ]
+      }
+    },
+    {
+      "nom": "Sénéo",
+      "departement": "92",
+      "secteur": "Syndicat des eaux",
+      "categorie": "D",
+      "categorie_label": "Non pertinente",
+      "decision": "écartée",
+      "motif": "Refonte/hébergement/maintenance, clos le 26/11/2025.",
+      "raisons_moteur": [
+        "contre-signal disqualifiant : signal_expire"
+      ],
+      "url": "",
+      "lecture": "recherche_seule",
+      "source_type": "registre_public",
+      "date": "2026-11-03",
+      "signal": {
+        "exprimed": false,
+        "identite_etablie": true,
+        "page_lue": false,
+        "pertinent": true,
+        "observe": false,
+        "rattachement_etabli": true,
+        "disqualifiants": [
+          "signal_expire"
+        ]
+      }
+    },
+    {
+      "nom": "Ville de Clichy",
+      "departement": "92",
+      "secteur": "Collectivité territoriale",
+      "categorie": "D",
+      "categorie_label": "Non pertinente",
+      "decision": "écartée",
+      "motif": "Refonte ouverte jusqu'au 23/11/2026 mais estimée à 210 k€, accord-cadre reconductible 3 fois : hors de portée d'une micro-entreprise.",
+      "raisons_moteur": [
+        "contre-signal disqualifiant : hors_cible_taille"
+      ],
+      "url": "",
+      "lecture": "recherche_seule",
+      "source_type": "registre_public",
+      "date": "2026-11-03",
+      "signal": {
+        "exprimed": false,
+        "identite_etablie": true,
+        "page_lue": false,
+        "pertinent": true,
+        "observe": false,
+        "rattachement_etabli": true,
+        "disqualifiants": [
+          "hors_cible_taille"
+        ]
+      }
+    },
+    {
+      "nom": "Ville de Lyon — Théâtre des Célestins",
+      "departement": "69",
+      "secteur": "Collectivité territoriale",
+      "categorie": "D",
+      "categorie_label": "Non pertinente",
+      "decision": "écartée",
+      "motif": "Hébergement, maintenance et développement, échéance 20/11/2026 : marché de taille institutionnelle.",
+      "raisons_moteur": [
+        "contre-signal disqualifiant : hors_cible_taille"
+      ],
+      "url": "",
+      "lecture": "recherche_seule",
+      "source_type": "registre_public",
+      "date": "2026-11-03",
+      "signal": {
+        "exprimed": false,
+        "identite_etablie": true,
+        "page_lue": false,
+        "pertinent": true,
+        "observe": false,
+        "rattachement_etabli": true,
+        "disqualifiants": [
+          "hors_cible_taille"
+        ]
+      }
+    },
+    {
+      "nom": "Centre National de Gestion",
+      "departement": "75",
+      "secteur": "Établissement public",
+      "categorie": "D",
+      "categorie_label": "Non pertinente",
+      "decision": "écartée",
+      "motif": "Tierce maintenance applicative, échéance 13/11/2026 : hors offre.",
+      "raisons_moteur": [
+        "contre-signal disqualifiant : hors_cible_taille"
+      ],
+      "url": "",
+      "lecture": "recherche_seule",
+      "source_type": "registre_public",
+      "date": "2026-11-03",
+      "signal": {
+        "exprimed": false,
+        "identite_etablie": true,
+        "page_lue": false,
+        "pertinent": true,
+        "observe": false,
+        "rattachement_etabli": true,
+        "disqualifiants": [
+          "hors_cible_taille"
+        ]
+      }
+    },
+    {
+      "nom": "CMA Centre-Val de Loire",
+      "departement": "45",
+      "secteur": "Chambre consulaire",
+      "categorie": "D",
+      "categorie_label": "Non pertinente",
+      "decision": "écartée",
+      "motif": "Marché conclu le 03/02/2026 : avis d'attribution, pas une opportunité.",
+      "raisons_moteur": [
+        "contre-signal disqualifiant : attribution_deja_prononcee"
+      ],
+      "url": "",
+      "lecture": "recherche_seule",
+      "source_type": "registre_public",
+      "date": "2026-11-03",
+      "signal": {
+        "exprimed": false,
+        "identite_etablie": true,
+        "page_lue": false,
+        "pertinent": true,
+        "observe": false,
+        "rattachement_etabli": true,
+        "disqualifiants": [
+          "attribution_deja_prononcee"
+        ]
+      }
+    },
+    {
+      "nom": "NEOMA Business School",
+      "departement": "51",
+      "secteur": "Enseignement supérieur",
+      "categorie": "D",
+      "categorie_label": "Non pertinente",
+      "decision": "écartée",
+      "motif": "Avis d'attribution pour le nouveau site web.",
+      "raisons_moteur": [
+        "contre-signal disqualifiant : attribution_deja_prononcee"
+      ],
+      "url": "",
+      "lecture": "recherche_seule",
+      "source_type": "registre_public",
+      "date": "2026-11-03",
+      "signal": {
+        "exprimed": false,
+        "identite_etablie": true,
+        "page_lue": false,
+        "pertinent": true,
+        "observe": false,
+        "rattachement_etabli": true,
+        "disqualifiants": [
+          "attribution_deja_prononcee"
+        ]
+      }
+    },
+    {
+      "nom": "Commune de Mieussy",
+      "departement": "74",
+      "secteur": "Collectivité territoriale",
+      "categorie": "D",
+      "categorie_label": "Non pertinente",
+      "decision": "écartée",
+      "motif": "Déjà instruite au Lot 11 : 20 000 € HT, références de 3 ans et attestations exigées, bloquantes pour une micro-entreprise.",
+      "raisons_moteur": [
+        "contre-signal disqualifiant : hors_cible_taille"
+      ],
+      "url": "",
+      "lecture": "recherche_seule",
+      "source_type": "registre_public",
+      "date": "2026-11-03",
+      "signal": {
+        "exprimed": false,
+        "identite_etablie": true,
+        "page_lue": false,
+        "pertinent": true,
+        "observe": false,
+        "rattachement_etabli": true,
+        "disqualifiants": [
+          "hors_cible_taille"
+        ]
+      }
+    },
+    {
+      "nom": "Région Occitanie",
+      "departement": "34",
+      "secteur": "Collectivité régionale",
+      "categorie": "D",
+      "categorie_label": "Non pertinente",
+      "decision": "écartée",
+      "motif": "Avis remonté par le mot-clé « site » alors qu'il porte sur un Site de Maintenance et de Remisage ferroviaire : faux positif de requête.",
+      "raisons_moteur": [
+        "contre-signal disqualifiant : hors_cible_statut"
+      ],
+      "url": "",
+      "lecture": "recherche_seule",
+      "source_type": "registre_public",
+      "date": "2026-11-03",
+      "signal": {
+        "exprimed": false,
+        "identite_etablie": true,
+        "page_lue": false,
+        "pertinent": true,
+        "observe": false,
+        "rattachement_etabli": true,
+        "disqualifiants": [
+          "hors_cible_statut"
+        ]
+      }
+    },
+    {
+      "nom": "Néosoft",
+      "departement": "35",
+      "secteur": "ESN / conseil",
+      "categorie": "D",
+      "categorie_label": "Non pertinente",
+      "decision": "écartée",
+      "motif": "Objectif 240 M€ de CA en 2028, ouvertures d'agences annuelles : ETI.",
+      "raisons_moteur": [
+        "contre-signal disqualifiant : hors_cible_taille"
+      ],
+      "url": "",
+      "lecture": "recherche_seule",
+      "source_type": "autre",
+      "date": "2026-11-03",
+      "signal": {
+        "exprimed": false,
+        "identite_etablie": true,
+        "page_lue": false,
+        "pertinent": true,
+        "observe": false,
+        "rattachement_etabli": true,
+        "disqualifiants": [
+          "hors_cible_taille"
+        ]
+      }
+    },
+    {
+      "nom": "TechFirm Engineering",
+      "departement": "",
+      "secteur": "Ingénierie",
+      "categorie": "D",
+      "categorie_label": "Non pertinente",
+      "decision": "écartée",
+      "motif": "Groupe suisse basé à Genève : hors territoire français.",
+      "raisons_moteur": [
+        "contre-signal disqualifiant : hors_territoire"
+      ],
+      "url": "",
+      "lecture": "recherche_seule",
+      "source_type": "autre",
+      "date": "2026-11-03",
+      "signal": {
+        "exprimed": false,
+        "identite_etablie": true,
+        "page_lue": false,
+        "pertinent": true,
+        "observe": false,
+        "rattachement_etabli": true,
+        "disqualifiants": [
+          "hors_territoire"
+        ]
+      }
+    },
+    {
+      "nom": "Agency Car",
+      "departement": "",
+      "secteur": "Réseau automobile",
+      "categorie": "D",
+      "categorie_label": "Non pertinente",
+      "decision": "écartée",
+      "motif": "Ouvertures d'agences multiples en 2026 mais réseau de franchise : la présence web est décidée au niveau national.",
+      "raisons_moteur": [
+        "contre-signal disqualifiant : reseau_decision_mutualisee"
+      ],
+      "url": "",
+      "lecture": "recherche_seule",
+      "source_type": "autre",
+      "date": "2026-11-03",
+      "signal": {
+        "exprimed": false,
+        "identite_etablie": true,
+        "page_lue": false,
+        "pertinent": true,
+        "observe": false,
+        "rattachement_etabli": true,
+        "disqualifiants": [
+          "reseau_decision_mutualisee"
+        ]
+      }
+    },
+    {
+      "nom": "Arthurimmo.com",
+      "departement": "",
+      "secteur": "Réseau immobilier",
+      "categorie": "D",
+      "categorie_label": "Non pertinente",
+      "decision": "écartée",
+      "motif": "Plus de 300 implantations ; les nouvelles agences bénéficient du site national et de la multidiffusion du réseau.",
+      "raisons_moteur": [
+        "contre-signal disqualifiant : reseau_decision_mutualisee"
+      ],
+      "url": "",
+      "lecture": "recherche_seule",
+      "source_type": "autre",
+      "date": "2026-11-03",
+      "signal": {
+        "exprimed": false,
+        "identite_etablie": true,
+        "page_lue": false,
+        "pertinent": true,
+        "observe": false,
+        "rattachement_etabli": true,
+        "disqualifiants": [
+          "reseau_decision_mutualisee"
+        ]
+      }
+    },
+    {
+      "nom": "Kuehne+Nagel",
+      "departement": "",
+      "secteur": "Transport / logistique",
+      "categorie": "D",
+      "categorie_label": "Non pertinente",
+      "decision": "écartée",
+      "motif": "Nouvelles agences relayées par la presse professionnelle : grand groupe.",
+      "raisons_moteur": [
+        "contre-signal disqualifiant : hors_cible_taille"
+      ],
+      "url": "",
+      "lecture": "recherche_seule",
+      "source_type": "autre",
+      "date": "2026-11-03",
+      "signal": {
+        "exprimed": false,
+        "identite_etablie": true,
+        "page_lue": false,
+        "pertinent": true,
+        "observe": false,
+        "rattachement_etabli": true,
+        "disqualifiants": [
+          "hors_cible_taille"
+        ]
+      }
+    },
+    {
+      "nom": "CARBURO",
+      "departement": "",
+      "secteur": "Réseau de garages",
+      "categorie": "D",
+      "categorie_label": "Non pertinente",
+      "decision": "écartée",
+      "motif": "Nouveau site internet lancé en octobre 2026, architecture pensée pour l'IA : le besoin vient d'être satisfait.",
+      "raisons_moteur": [
+        "contre-signal disqualifiant : prestataire_deja_en_place"
+      ],
+      "url": "",
+      "lecture": "recherche_seule",
+      "source_type": "autre",
+      "date": "2026-11-03",
+      "signal": {
+        "exprimed": false,
+        "identite_etablie": true,
+        "page_lue": false,
+        "pertinent": true,
+        "observe": false,
+        "rattachement_etabli": true,
+        "disqualifiants": [
+          "prestataire_deja_en_place"
+        ]
+      }
+    },
+    {
+      "nom": "Moulin de Radray",
+      "departement": "61",
+      "secteur": "Hébergement / tourisme",
+      "categorie": "D",
+      "categorie_label": "Non pertinente",
+      "decision": "écartée",
+      "motif": "Cité en témoignage : site web déjà réalisé par une agence de Normandie.",
+      "raisons_moteur": [
+        "contre-signal disqualifiant : prestataire_deja_en_place"
+      ],
+      "url": "",
+      "lecture": "recherche_seule",
+      "source_type": "autre",
+      "date": "2026-11-03",
+      "signal": {
+        "exprimed": false,
+        "identite_etablie": true,
+        "page_lue": false,
+        "pertinent": true,
+        "observe": false,
+        "rattachement_etabli": true,
+        "disqualifiants": [
+          "prestataire_deja_en_place"
+        ]
+      }
+    },
+    {
+      "nom": "FSGT 61",
+      "departement": "61",
+      "secteur": "Association sportive",
+      "categorie": "D",
+      "categorie_label": "Non pertinente",
+      "decision": "écartée",
+      "motif": "Cité en témoignage : « peut enfin se vanter d'avoir son propre site internet » — site déjà livré par l'agence.",
+      "raisons_moteur": [
+        "contre-signal disqualifiant : prestataire_deja_en_place"
+      ],
+      "url": "",
+      "lecture": "recherche_seule",
+      "source_type": "autre",
+      "date": "2026-11-03",
+      "signal": {
+        "exprimed": false,
+        "identite_etablie": true,
+        "page_lue": false,
+        "pertinent": true,
+        "observe": false,
+        "rattachement_etabli": true,
+        "disqualifiants": [
+          "prestataire_deja_en_place"
+        ]
+      }
+    },
+    {
+      "nom": "Baert.fr",
+      "departement": "",
+      "secteur": "Négoce",
+      "categorie": "D",
+      "categorie_label": "Non pertinente",
+      "decision": "écartée",
+      "motif": "Cité en témoignage pour la refonte de son site, cahier des charges et délais respectés : prestataire en place.",
+      "raisons_moteur": [
+        "contre-signal disqualifiant : prestataire_deja_en_place"
+      ],
+      "url": "",
+      "lecture": "recherche_seule",
+      "source_type": "autre",
+      "date": "2026-11-03",
+      "signal": {
+        "exprimed": false,
+        "identite_etablie": true,
+        "page_lue": false,
+        "pertinent": true,
+        "observe": false,
+        "rattachement_etabli": true,
+        "disqualifiants": [
+          "prestataire_deja_en_place"
+        ]
+      }
+    },
+    {
+      "nom": "Armel Levesque",
+      "departement": "",
+      "secteur": "Activité de services",
+      "categorie": "D",
+      "categorie_label": "Non pertinente",
+      "decision": "écartée",
+      "motif": "Cité en témoignage : refonte totale accompagnée par une agence.",
+      "raisons_moteur": [
+        "contre-signal disqualifiant : prestataire_deja_en_place"
+      ],
+      "url": "",
+      "lecture": "recherche_seule",
+      "source_type": "autre",
+      "date": "2026-11-03",
+      "signal": {
+        "exprimed": false,
+        "identite_etablie": true,
+        "page_lue": false,
+        "pertinent": true,
+        "observe": false,
+        "rattachement_etabli": true,
+        "disqualifiants": [
+          "prestataire_deja_en_place"
+        ]
+      }
+    },
+    {
+      "nom": "Future4care",
+      "departement": "",
+      "secteur": "Santé / innovation",
+      "categorie": "D",
+      "categorie_label": "Non pertinente",
+      "decision": "écartée",
+      "motif": "Cité en témoignage : refonte du site vitrine réalisée par une agence parisienne.",
+      "raisons_moteur": [
+        "contre-signal disqualifiant : prestataire_deja_en_place"
+      ],
+      "url": "",
+      "lecture": "recherche_seule",
+      "source_type": "autre",
+      "date": "2026-11-03",
+      "signal": {
+        "exprimed": false,
+        "identite_etablie": true,
+        "page_lue": false,
+        "pertinent": true,
+        "observe": false,
+        "rattachement_etabli": true,
+        "disqualifiants": [
+          "prestataire_deja_en_place"
+        ]
+      }
+    },
+    {
+      "nom": "Escarbille",
+      "departement": "",
+      "secteur": "Restauration",
+      "categorie": "D",
+      "categorie_label": "Non pertinente",
+      "decision": "écartée",
+      "motif": "Cité en réalisation : refonte complète avec réservation simplifiée déjà livrée.",
+      "raisons_moteur": [
+        "contre-signal disqualifiant : prestataire_deja_en_place"
+      ],
+      "url": "",
+      "lecture": "recherche_seule",
+      "source_type": "autre",
+      "date": "2026-11-03",
+      "signal": {
+        "exprimed": false,
+        "identite_etablie": true,
+        "page_lue": false,
+        "pertinent": true,
+        "observe": false,
+        "rattachement_etabli": true,
+        "disqualifiants": [
+          "prestataire_deja_en_place"
+        ]
+      }
+    },
+    {
+      "nom": "Instant Mouvement",
+      "departement": "38",
+      "secteur": "Cours de yoga",
+      "categorie": "D",
+      "categorie_label": "Non pertinente",
+      "decision": "écartée",
+      "motif": "Cité en réalisation : site vitrine et e-commerce créé en avril 2026 avec module de réservation.",
+      "raisons_moteur": [
+        "contre-signal disqualifiant : prestataire_deja_en_place"
+      ],
+      "url": "",
+      "lecture": "recherche_seule",
+      "source_type": "autre",
+      "date": "2026-11-03",
+      "signal": {
+        "exprimed": false,
+        "identite_etablie": true,
+        "page_lue": false,
+        "pertinent": true,
+        "observe": false,
+        "rattachement_etabli": true,
+        "disqualifiants": [
+          "prestataire_deja_en_place"
+        ]
+      }
+    },
+    {
+      "nom": "Disques Anciens",
+      "departement": "14",
+      "secteur": "Commerce en ligne",
+      "categorie": "D",
+      "categorie_label": "Non pertinente",
+      "decision": "écartée",
+      "motif": "Cité en réalisation : dépannage et refonte progressive en juin 2026.",
+      "raisons_moteur": [
+        "contre-signal disqualifiant : prestataire_deja_en_place"
+      ],
+      "url": "",
+      "lecture": "recherche_seule",
+      "source_type": "autre",
+      "date": "2026-11-03",
+      "signal": {
+        "exprimed": false,
+        "identite_etablie": true,
+        "page_lue": false,
+        "pertinent": true,
+        "observe": false,
+        "rattachement_etabli": true,
+        "disqualifiants": [
+          "prestataire_deja_en_place"
+        ]
+      }
+    },
+    {
+      "nom": "Pepin Pialou Avocates",
+      "departement": "973",
+      "secteur": "Cabinet d'avocates",
+      "categorie": "D",
+      "categorie_label": "Non pertinente",
+      "decision": "écartée",
+      "motif": "Cité en réalisation : site vitrine créé en septembre 2026.",
+      "raisons_moteur": [
+        "contre-signal disqualifiant : prestataire_deja_en_place"
+      ],
+      "url": "",
+      "lecture": "recherche_seule",
+      "source_type": "autre",
+      "date": "2026-11-03",
+      "signal": {
+        "exprimed": false,
+        "identite_etablie": true,
+        "page_lue": false,
+        "pertinent": true,
+        "observe": false,
+        "rattachement_etabli": true,
+        "disqualifiants": [
+          "prestataire_deja_en_place"
+        ]
+      }
+    },
+    {
+      "nom": "Automatisation-Intelligence-Artificielle.fr",
+      "departement": "",
+      "secteur": "Conseil automatisation",
+      "categorie": "D",
+      "categorie_label": "Non pertinente",
+      "decision": "écartée",
+      "motif": "Guide commercial « automatiser la génération de devis PDF » : vendeur.",
+      "raisons_moteur": [
+        "contre-signal disqualifiant : vendeur_de_solution"
+      ],
+      "url": "",
+      "lecture": "recherche_seule",
+      "source_type": "autre",
+      "date": "2026-11-03",
+      "signal": {
+        "exprimed": false,
+        "identite_etablie": true,
+        "page_lue": false,
+        "pertinent": true,
+        "observe": false,
+        "rattachement_etabli": true,
+        "disqualifiants": [
+          "vendeur_de_solution"
+        ]
+      }
+    },
+    {
+      "nom": "Tamarin Flow",
+      "departement": "",
+      "secteur": "Conseil automatisation",
+      "categorie": "D",
+      "categorie_label": "Non pertinente",
+      "decision": "écartée",
+      "motif": "Méthode PME pour automatiser devis/factures : vendeur.",
+      "raisons_moteur": [
+        "contre-signal disqualifiant : vendeur_de_solution"
+      ],
+      "url": "",
+      "lecture": "recherche_seule",
+      "source_type": "autre",
+      "date": "2026-11-03",
+      "signal": {
+        "exprimed": false,
+        "identite_etablie": true,
+        "page_lue": false,
+        "pertinent": true,
+        "observe": false,
+        "rattachement_etabli": true,
+        "disqualifiants": [
+          "vendeur_de_solution"
+        ]
+      }
+    },
+    {
+      "nom": "PROPRET",
+      "departement": "",
+      "secteur": "Éditeur logiciel",
+      "categorie": "D",
+      "categorie_label": "Non pertinente",
+      "decision": "écartée",
+      "motif": "Logiciel de devis/facturation multiservices : vendeur.",
+      "raisons_moteur": [
+        "contre-signal disqualifiant : vendeur_de_solution"
+      ],
+      "url": "",
+      "lecture": "recherche_seule",
+      "source_type": "autre",
+      "date": "2026-11-03",
+      "signal": {
+        "exprimed": false,
+        "identite_etablie": true,
+        "page_lue": false,
+        "pertinent": true,
+        "observe": false,
+        "rattachement_etabli": true,
+        "disqualifiants": [
+          "vendeur_de_solution"
+        ]
+      }
+    },
+    {
+      "nom": "IMAGIN",
+      "departement": "",
+      "secteur": "Agence automatisation",
+      "categorie": "D",
+      "categorie_label": "Non pertinente",
+      "decision": "écartée",
+      "motif": "Prestation d'automatisation devis/factures chiffrée 800 à 1 500 € : vendeur.",
+      "raisons_moteur": [
+        "contre-signal disqualifiant : vendeur_de_solution"
+      ],
+      "url": "",
+      "lecture": "recherche_seule",
+      "source_type": "autre",
+      "date": "2026-11-03",
+      "signal": {
+        "exprimed": false,
+        "identite_etablie": true,
+        "page_lue": false,
+        "pertinent": true,
+        "observe": false,
+        "rattachement_etabli": true,
+        "disqualifiants": [
+          "vendeur_de_solution"
+        ]
+      }
+    },
+    {
+      "nom": "Just Use AI",
+      "departement": "",
+      "secteur": "Conseil IA",
+      "categorie": "D",
+      "categorie_label": "Non pertinente",
+      "decision": "écartée",
+      "motif": "Guide et cas clients d'automatisation de devis : vendeur.",
+      "raisons_moteur": [
+        "contre-signal disqualifiant : vendeur_de_solution"
+      ],
+      "url": "",
+      "lecture": "recherche_seule",
+      "source_type": "autre",
+      "date": "2026-11-03",
+      "signal": {
+        "exprimed": false,
+        "identite_etablie": true,
+        "page_lue": false,
+        "pertinent": true,
+        "observe": false,
+        "rattachement_etabli": true,
+        "disqualifiants": [
+          "vendeur_de_solution"
+        ]
+      }
+    },
+    {
+      "nom": "Agence Intelligence Artificielle",
+      "departement": "",
+      "secteur": "Conseil IA",
+      "categorie": "D",
+      "categorie_label": "Non pertinente",
+      "decision": "écartée",
+      "motif": "Comparatif d'agences n8n : vendeur ; sa statistique sur 39 annonces Codeur n'est pas une preuve et n'a pas été retenue comme telle.",
+      "raisons_moteur": [
+        "contre-signal disqualifiant : vendeur_de_solution"
+      ],
+      "url": "",
+      "lecture": "recherche_seule",
+      "source_type": "autre",
+      "date": "2026-11-03",
+      "signal": {
+        "exprimed": false,
+        "identite_etablie": true,
+        "page_lue": false,
+        "pertinent": true,
+        "observe": false,
+        "rattachement_etabli": true,
+        "disqualifiants": [
+          "vendeur_de_solution"
+        ]
+      }
+    },
+    {
+      "nom": "Aurone",
+      "departement": "",
+      "secteur": "Agence web",
+      "categorie": "D",
+      "categorie_label": "Non pertinente",
+      "decision": "écartée",
+      "motif": "Page de service « refonte de site internet » : vendeur.",
+      "raisons_moteur": [
+        "contre-signal disqualifiant : vendeur_de_solution"
+      ],
+      "url": "",
+      "lecture": "recherche_seule",
+      "source_type": "autre",
+      "date": "2026-11-03",
+      "signal": {
+        "exprimed": false,
+        "identite_etablie": true,
+        "page_lue": false,
+        "pertinent": true,
+        "observe": false,
+        "rattachement_etabli": true,
+        "disqualifiants": [
+          "vendeur_de_solution"
+        ]
+      }
+    },
+    {
+      "nom": "Je Communique",
+      "departement": "",
+      "secteur": "Agence web",
+      "categorie": "D",
+      "categorie_label": "Non pertinente",
+      "decision": "écartée",
+      "motif": "Agence normande de création/refonte : vendeur ; ses témoignages ont servi à identifier des clients déjà équipés, pas des prospects.",
+      "raisons_moteur": [
+        "contre-signal disqualifiant : vendeur_de_solution"
+      ],
+      "url": "",
+      "lecture": "recherche_seule",
+      "source_type": "autre",
+      "date": "2026-11-03",
+      "signal": {
+        "exprimed": false,
+        "identite_etablie": true,
+        "page_lue": false,
+        "pertinent": true,
+        "observe": false,
+        "rattachement_etabli": true,
+        "disqualifiants": [
+          "vendeur_de_solution"
+        ]
+      }
+    },
+    {
+      "nom": "Agence Dilo",
+      "departement": "",
+      "secteur": "Agence web",
+      "categorie": "D",
+      "categorie_label": "Non pertinente",
+      "decision": "écartée",
+      "motif": "Page de service création/refonte TPE-PME : vendeur.",
+      "raisons_moteur": [
+        "contre-signal disqualifiant : vendeur_de_solution"
+      ],
+      "url": "",
+      "lecture": "recherche_seule",
+      "source_type": "autre",
+      "date": "2026-11-03",
+      "signal": {
+        "exprimed": false,
+        "identite_etablie": true,
+        "page_lue": false,
+        "pertinent": true,
+        "observe": false,
+        "rattachement_etabli": true,
+        "disqualifiants": [
+          "vendeur_de_solution"
+        ]
+      }
+    },
+    {
+      "nom": "Digital Unicorn",
+      "departement": "",
+      "secteur": "Agence web",
+      "categorie": "D",
+      "categorie_label": "Non pertinente",
+      "decision": "écartée",
+      "motif": "Classement d'agences et tarifs d'automatisation IA : vendeur.",
+      "raisons_moteur": [
+        "contre-signal disqualifiant : vendeur_de_solution"
+      ],
+      "url": "",
+      "lecture": "recherche_seule",
+      "source_type": "autre",
+      "date": "2026-11-03",
+      "signal": {
+        "exprimed": false,
+        "identite_etablie": true,
+        "page_lue": false,
+        "pertinent": true,
+        "observe": false,
+        "rattachement_etabli": true,
+        "disqualifiants": [
+          "vendeur_de_solution"
+        ]
+      }
+    },
+    {
+      "nom": "Arrêt Net",
+      "departement": "",
+      "secteur": "Webmaster indépendant",
+      "categorie": "D",
+      "categorie_label": "Non pertinente",
+      "decision": "écartée",
+      "motif": "Page SEO « refonte de site internet » par ville : vendeur.",
+      "raisons_moteur": [
+        "contre-signal disqualifiant : vendeur_de_solution"
+      ],
+      "url": "",
+      "lecture": "recherche_seule",
+      "source_type": "autre",
+      "date": "2026-11-03",
+      "signal": {
+        "exprimed": false,
+        "identite_etablie": true,
+        "page_lue": false,
+        "pertinent": true,
+        "observe": false,
+        "rattachement_etabli": true,
+        "disqualifiants": [
+          "vendeur_de_solution"
+        ]
+      }
+    },
+    {
+      "nom": "SeriousWeb",
+      "departement": "",
+      "secteur": "Agence web",
+      "categorie": "D",
+      "categorie_label": "Non pertinente",
+      "decision": "écartée",
+      "motif": "Articles promotionnels relayés sur deux sites : vendeur.",
+      "raisons_moteur": [
+        "contre-signal disqualifiant : vendeur_de_solution"
+      ],
+      "url": "",
+      "lecture": "recherche_seule",
+      "source_type": "autre",
+      "date": "2026-11-03",
+      "signal": {
+        "exprimed": false,
+        "identite_etablie": true,
+        "page_lue": false,
+        "pertinent": true,
+        "observe": false,
+        "rattachement_etabli": true,
+        "disqualifiants": [
+          "vendeur_de_solution"
+        ]
+      }
+    }
+  ],
+  "intermediaires": [
+    {
+      "nom": "Codeur.com",
+      "type": "plateforme de projets",
+      "note": "Source de découverte ; identité des clients réservée aux abonnés"
+    },
+    {
+      "nom": "France Marchés",
+      "type": "agrégateur de marchés",
+      "note": "Agrégateur ; mot-clé « site » fortement bruité"
+    },
+    {
+      "nom": "Marchés Online",
+      "type": "agrégateur de marchés",
+      "note": "Agrégateur"
+    },
+    {
+      "nom": "Instao",
+      "type": "agrégateur de marchés",
+      "note": "Agrégateur"
+    },
+    {
+      "nom": "Akkel",
+      "type": "agrégateur de marchés",
+      "note": "Agrégateur"
+    },
+    {
+      "nom": "Semagora",
+      "type": "agrégateur de marchés",
+      "note": "Agrégateur ; son « astuce » commerciale n'est pas une preuve"
+    },
+    {
+      "nom": "francemarches (liste création site web)",
+      "type": "agrégateur de marchés",
+      "note": "199 avis, majorité hors sujet"
+    },
+    {
+      "nom": "Indeed",
+      "type": "agrégateur d'offres",
+      "note": "Employeur affiché souvent l'agence, pas l'entreprise"
+    },
+    {
+      "nom": "Jooble",
+      "type": "agrégateur d'offres",
+      "note": "Idem"
+    },
+    {
+      "nom": "Le Figaro Emploi",
+      "type": "agrégateur d'offres",
+      "note": "Idem"
+    },
+    {
+      "nom": "Meteojob",
+      "type": "agrégateur d'offres",
+      "note": "Idem"
+    },
+    {
+      "nom": "FreeHire",
+      "type": "agrégateur d'offres",
+      "note": "Idem"
+    },
+    {
+      "nom": "GrabJobs",
+      "type": "agrégateur d'offres",
+      "note": "Idem"
+    },
+    {
+      "nom": "SIMON",
+      "type": "agence de recrutement",
+      "note": "Recrute pour un client anonyme"
+    },
+    {
+      "nom": "Adecco",
+      "type": "agence d'intérim",
+      "note": "Recrute pour un client anonyme"
+    },
+    {
+      "nom": "Randstad",
+      "type": "agence d'intérim",
+      "note": "Recrute pour un client anonyme"
+    },
+    {
+      "nom": "LIP Tertiaire",
+      "type": "agence d'intérim",
+      "note": "Recrute pour un client anonyme"
+    },
+    {
+      "nom": "Walters People",
+      "type": "agence d'intérim",
+      "note": "Recrute pour un client anonyme ; offre close"
+    },
+    {
+      "nom": "Harry Hope",
+      "type": "cabinet de recrutement",
+      "note": "Recrute pour un client anonyme"
+    },
+    {
+      "nom": "Talents ADV Supply",
+      "type": "cabinet de recrutement",
+      "note": "Recrute pour un client anonyme"
+    },
+    {
+      "nom": "Manpower",
+      "type": "agence d'intérim",
+      "note": "Recrute pour un client anonyme"
+    },
+    {
+      "nom": "Proman",
+      "type": "agence d'intérim",
+      "note": "Recrute pour un client anonyme"
+    },
+    {
+      "nom": "Iziwork",
+      "type": "plateforme d'intérim",
+      "note": "Recrute pour un client anonyme"
+    },
+    {
+      "nom": "Actual",
+      "type": "agence d'intérim",
+      "note": "Recrute pour un client anonyme"
+    },
+    {
+      "nom": "Pappers",
+      "type": "registre d'entreprises",
+      "note": "Découverte only, jamais une preuve de besoin"
+    },
+    {
+      "nom": "Annuaire Entreprises (data.gouv)",
+      "type": "registre public",
+      "note": "Identité, pas besoin"
+    },
+    {
+      "nom": "Le Journal des Entreprises",
+      "type": "média",
+      "note": "Source de signaux, pas un prospect"
+    },
+    {
+      "nom": "L'Express Franchise",
+      "type": "média",
+      "note": "Source de signaux, pas un prospect"
+    },
+    {
+      "nom": "Observatoire de la Franchise",
+      "type": "média",
+      "note": "Source de signaux, pas un prospect"
+    },
+    {
+      "nom": "FAQ Logistique",
+      "type": "média",
+      "note": "Source de signaux, pas un prospect"
+    },
+    {
+      "nom": "Emploi-Événementiel",
+      "type": "média emploi",
+      "note": "Source de signaux, pas un prospect"
+    },
+    {
+      "nom": "Ancoris",
+      "type": "média implantations",
+      "note": "Source de signaux, pas un prospect"
+    }
+  ],
+  "securite": {
+    "envoi_autorise": false,
+    "dry_run": true,
+    "aucun_envoi_reel": true,
+    "aucun_achat": true,
+    "aucun_abonnement": true,
+    "acces_payant_non_contourne": true,
+    "aucun_contournement_antibot": true
+  }
+}

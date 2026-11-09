@@ -1,0 +1,11 @@
+{
+  "Styl'Home": {
+    "email": "contact@stylhome.fr",
+    "status": "mx_ok",
+    "mx_hosts": [
+      "mx1.hostinger.com",
+      "mx2.hostinger.com"
+    ],
+    "checked_at": "2026-11-09T23:27:09+00:00"
+  }
+}

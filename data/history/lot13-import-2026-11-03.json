@@ -1,0 +1,94 @@
+{
+  "lot": "2026-11-03-lot13",
+  "date": "2026-11-03",
+  "crm_avant": 120,
+  "crm_apres": 121,
+  "fiches_creees": 1,
+  "collisions": [],
+  "bloquees_suppression": [],
+  "registre_avant": 385,
+  "registre_apres": 448,
+  "registre_ajouts": 63,
+  "recherche": {
+    "requetes": 17,
+    "appels_lecture": 22,
+    "appels_reussis": 20,
+    "appels_echoues": 2,
+    "pages_distinctes_lues": 18,
+    "pages_lecture_revue_brouillons": 5,
+    "entites_examinees": 63,
+    "intermediaires_agregateurs": 32,
+    "categories": {
+      "A": 1,
+      "B": 0,
+      "C": 19,
+      "D": 43
+    },
+    "decisions": {
+      "importee": 1,
+      "approfondir": 19,
+      "écartée": 43
+    },
+    "importables": 1,
+    "lectures": {
+      "officielle": 6,
+      "recherche_seule": 57
+    },
+    "departements": [
+      "07",
+      "14",
+      "17",
+      "29",
+      "31",
+      "32",
+      "34",
+      "35",
+      "38",
+      "40",
+      "45",
+      "51",
+      "59",
+      "61",
+      "63",
+      "67",
+      "69",
+      "72",
+      "74",
+      "75",
+      "78",
+      "92",
+      "95",
+      "971",
+      "973"
+    ],
+    "secteurs": 48,
+    "axes_recherche": {
+      "besoin_exprime": 5,
+      "marche_public": 5,
+      "developpement": 3,
+      "processus": 2,
+      "automatisation": 2
+    }
+  },
+  "brouillons_autorises": [],
+  "fiches": [
+    {
+      "company": "Styl'Home",
+      "department": "59",
+      "axes": {
+        "site_web": 39,
+        "refonte": 100,
+        "ia_automatisation": 12
+      },
+      "priorite": 86,
+      "palier": "haute",
+      "categorie": "A",
+      "penalite_contre_signaux": 0,
+      "email": "contact@stylhome.fr",
+      "brouillon": false,
+      "brouillon_motif": "pilote de détection : rédaction et validation réservées à l'utilisateur (palier haute, confiance haute sur l'axe refonte)"
+    }
+  ],
+  "fiches_anterieures_inchangees": 120,
+  "envoi_autorise": false
+}
