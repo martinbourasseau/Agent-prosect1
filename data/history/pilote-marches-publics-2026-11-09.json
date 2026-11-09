@@ -1,0 +1,819 @@
+{
+  "date_reference": "2026-11-09",
+  "mission": "Section D — pilote marchés publics",
+  "note_date": "La date de référence est le 09/11/2026, établie par recoupement des sources vivantes (une page datée du 09/11/2026 indiquant « 8 jours restants » pour une clôture au 17/11/2026, et un lien de DCE signé daté du 09/11/2026). Le brief mentionnait le 03/11 et les données internes du projet le 07/11 : la date la plus tardive est retenue pour ne jamais présenter comme ouverte une consultation expirée.",
+  "aucune_candidature_deposee": true,
+  "aucun_acheteur_contacte": true,
+  "aucune_depense": true,
+  "consultations": [
+    {
+      "ref": "BOAMP 26-97266",
+      "title": "Marché à procédure adaptée — Missions liées à la réalisation du nouveau site internet de la Commune de Mieussy",
+      "buyer": "Commune de Mieussy (74440), M. Xavier BOSSUT, Maire",
+      "source": "BOAMP",
+      "official_url": "https://www.boamp.fr/pages/avis/?q=idweb:26-97266",
+      "notice_type": "concurrence",
+      "published_at": "2026-10-08",
+      "deadline": "2026-11-20",
+      "estimated_value_eur": 20000,
+      "value_verified": true,
+      "procedure": "procédure adaptée (MAPA)",
+      "cpv": [
+        "72413000",
+        "72130000"
+      ],
+      "sector": "collectivité communale",
+      "reference_acheteur": "S-2026-03",
+      "profil_acheteur": "http://www.mp74.fr",
+      "contact_publie": "dgs@mairie-mieussy.com / juridique@mairie-mieussy.com / 04 50 43 01 67",
+      "scope_summary": "Conception, développement, mise en service, hébergement et maintenance du site institutionnel ; reprise et restructuration des contenus ; connexion à un panneau d'affichage électronique ; formation des élus et agents.",
+      "requirements": "RÈGLEMENT DE CONSULTATION LU (marché S-2026-03). Candidature : DC1 + DC2. Qualifications professionnelles : « la preuve de la capacité du candidat peut être apportée par tout moyen ». RÉFÉRENCES PROFESSIONNELLES EXIGÉES : liste des missions exécutées sur les 3 dernières années, avec attestations de bonne exécution pour les plus importantes (montant, époque, lieu, exécution selon les règles de l'art). Offre : acte d'engagement + DPGF (6 lignes de prix) + mémoire technique structuré (organisation, méthodologie, qualité de l'accompagnement, compréhension des besoins, organisation de l'équipe et calendrier, assistance et maintenance). Candidature et offre remises simultanément. Variantes NON autorisées. Aucun lot. Dépôt électronique sur www.mp74.fr. Service DUME accepté. Groupement conjoint à mandataire solidaire si groupement. Documents non exigés si accessibles gratuitement via un espace de stockage numérique.",
+      "calendrier": "Prestataire désigné vers le 01/01/2027, mise en ligne visée au 01/07/2027. Hébergement/maintenance 1 an + 3 reconductions tacites.",
+      "questions_reponses_acheteur": "Publiées le 08/10/2026 : DPGF à proposer par le candidat ; modèle de panneau d'affichage non arrêté ; nouvelle identité visuelle attendue au T1 2027 par un autre prestataire ; AUCUN export des contenus existants, toute l'antériorité doit être reprise ; visioconférence acceptée en complément du présentiel ; 5 à 7 agents à former ; domaine mieussy.fr géré par Réseau des communes ; messagerie hors marché ; module de formulaire NEOPSE à conserver ou équivalent.",
+      "unverified": [
+        "Capacité à produire des attestations de bonne exécution sur 3 ans : à confirmer par l'exploitant",
+        "Sous-critères de notation de l'article 4.1 non lus (seconde partie du RC)",
+        "Volume exact de contenus à reprendre : aucun export fourni par la commune",
+        "Modèle du panneau d'affichage non arrêté par l'acheteur (fourniture et installation hors marché)"
+      ],
+      "pages_read": [
+        "https://www.boamp.fr/telechargements/FILES/PDF/2026/10/26-97266.pdf",
+        "https://marches-publics.com/appel-offre/auvergne-rhone-alpes/haute-savoie/mieussy/2433568",
+        "https://dl.aws-achat.info/avis/index.cfm?fuseaction=dce.dRC&IDM=77545"
+      ],
+      "notes": "Meilleure piste du pilote, et la seule dont le règlement de consultation a été lu directement. Montant de 20 000 € HT confirmé DEUX fois par l'acheteur (avis BOAMP section 5 et RC article 1.4). Point rassurant : la fourniture et l'installation du panneau d'affichage sont explicitement HORS marché, seule la connexion est due. Point bloquant : les références sur 3 ans avec attestations de bonne exécution sont exigées. Un site d'agence l'affirmait déjà ; cette affirmation n'a été acceptée qu'après lecture du document de l'acheteur, jamais sur la foi du commentateur."
+    },
+    {
+      "ref": "2026-011 / megalis Bretagne",
+      "title": "Refonte du site web de la commune de Saint-Pierre-Quiberon",
+      "buyer": "Commune de Saint-Pierre-Quiberon, 70 rue du Docteur Le Gall, 56510",
+      "source": "BOAMP / Le Télégramme / profil megalis Bretagne",
+      "official_url": "https://marches.megalis.bretagne.bzh/",
+      "notice_type": "concurrence",
+      "published_at": "2026-10-07",
+      "deadline": "2026-11-16",
+      "estimated_value_eur": null,
+      "value_verified": false,
+      "procedure": "procédure adaptée (MAPA < 90 k€)",
+      "cpv": [
+        "72413000",
+        "72420000",
+        "72415000",
+        "72267100"
+      ],
+      "sector": "collectivité communale",
+      "scope_summary": "Refonte du site web communal, développement internet, hébergement et maintenance logicielle. Le DCE contient les maquettes HTML des pages actuelles (accueil, urbanisme, annuaire économique, sports nautiques, arrêtés municipaux) et un fichier cartographique.",
+      "requirements": "RC, CCAP, CCTP v2, DPGF/BPU/DQE et fichier de questions-réponses disponibles au DCE (18 pièces). Aucune lecture du RC effectuée.",
+      "unverified": [
+        "Montant non publié dans les sources consultées",
+        "RC non lu : références et capacités exigées inconnues",
+        "Périmètre cartographique (fichiers GeoJSON et projet QGIS joints) : compétence SIG à évaluer"
+      ],
+      "pages_read": [
+        "https://www.francemarches.com/appel-offre/18teleg1185536-2026-refonte-site-commune",
+        "https://marches-publics.com/appel-offre/bretagne/ille-et-vilaine/rennes/2430629"
+      ],
+      "notes": "Échéance la plus proche des pistes pertinentes. La présence de fichiers SIG au DCE signale un volet cartographie qui n'est pas dans l'offre actuelle."
+    },
+    {
+      "ref": "BOAMP 26-98846 / TED 708553-2026",
+      "title": "Refonte du site internet de la Ville de Clichy",
+      "buyer": "Mairie de Clichy-la-Garenne (92110), SIRET 21920024300018",
+      "source": "BOAMP / TED",
+      "official_url": "https://marches.maximilien.fr/entreprise/consultation/947140?orgAcronyme=d7m",
+      "notice_type": "concurrence",
+      "published_at": "2026-10-13",
+      "deadline": "2026-11-23",
+      "estimated_value_eur": 210000,
+      "value_verified": true,
+      "procedure": "appel d'offres ouvert (procédure formalisée européenne)",
+      "cpv": [
+        "72413000"
+      ],
+      "sector": "collectivité urbaine",
+      "contact_publie": "marches.publics@ville-clichy.fr",
+      "scope_summary": "Accord-cadre mono-attributaire : partie forfaitaire pour la refonte, partie à prix unitaires pour hébergement et maintenance annuelle. 12 mois, reconductible 3 fois.",
+      "requirements": "L'avis indique explicitement « le marché convient aussi aux PME : oui ». Facturation électronique requise. Validité des offres 120 jours.",
+      "unverified": [
+        "Montant de 210 000 € sur 4 ans reconductibles : capacité de portage à évaluer",
+        "RC non lu : références exigées inconnues"
+      ],
+      "pages_read": [
+        "https://marches-publics.com/appel-offre/ile-de-france/hauts-de-seine/saint-cloud/2437159",
+        "https://lacentraledesmarches.com/marches-publics/Clichy-Mairie-de-Clichy-la-Garenne-REFONTE-DU-SITE-INTERNET-DE-LA-VILLE-DE-CLICHY/624881"
+      ],
+      "notes": "Classée C par le plafond de portée financière, mais l'avis mentionne l'ouverture aux PME : à reconsidérer en groupement si une capacité de portage existe."
+    },
+    {
+      "ref": "CPV 72413000 / ODEADOM",
+      "title": "Conception, réalisation et mise en ligne du site internet institutionnel de l'ODEADOM",
+      "buyer": "Office de développement agricole de l'outre-mer (Montreuil, 93)",
+      "source": "BOAMP / agrégateur marches-publics.com",
+      "official_url": "https://marches-publics.com/appel-offre/ile-de-france/seine-saint-denis/montreuil/2432311",
+      "notice_type": "concurrence",
+      "published_at": "2026-10-07",
+      "deadline": "2026-11-13",
+      "estimated_value_eur": null,
+      "value_verified": false,
+      "procedure": "procédure formalisée",
+      "cpv": [
+        "72413000"
+      ],
+      "sector": "établissement public national",
+      "scope_summary": "Site internet institutionnel : conception, réalisation, mise en ligne.",
+      "requirements": "4 pièces au DCE, non consultées.",
+      "unverified": [
+        "Échéance dans 4 jours",
+        "Montant non publié",
+        "RC non lu"
+      ],
+      "pages_read": [
+        "https://marches-publics.com/appels-offres/cpv/services-de-conception-de-sites-www-world-wide-web/72413000"
+      ],
+      "notes": "Besoin exactement dans le périmètre, mais délai très court et procédure formalisée."
+    },
+    {
+      "ref": "CPV 72413000 / Craponne",
+      "title": "Conception, réalisation, hébergement, maintenance et accompagnement des nouveaux sites internet de la ville de Craponne et de l'Espace culturel Eole",
+      "buyer": "Ville de Craponne (69)",
+      "source": "BOAMP / agrégateur marches-publics.com",
+      "official_url": "https://marches-publics.com/appel-offre/auvergne-rhone-alpes/rhone/craponne/2437621",
+      "notice_type": "concurrence",
+      "published_at": "2026-10-12",
+      "deadline": "2026-11-13",
+      "estimated_value_eur": null,
+      "value_verified": false,
+      "procedure": "procédure formalisée",
+      "cpv": [
+        "72413000"
+      ],
+      "sector": "collectivité communale",
+      "scope_summary": "Deux sites internet (ville et espace culturel), hébergement, maintenance et accompagnement.",
+      "requirements": "16 pièces au DCE, non consultées.",
+      "unverified": [
+        "Échéance dans 4 jours",
+        "Deux sites à porter",
+        "Montant non publié",
+        "RC non lu"
+      ],
+      "pages_read": [
+        "https://marches-publics.com/appels-offres/cpv/services-de-conception-de-sites-www-world-wide-web/72413000"
+      ],
+      "notes": ""
+    },
+    {
+      "ref": "CPV 72413000 / Saint-Quentin-en-Yvelines",
+      "title": "Hébergement, maintenance et gestion des sites internet de l'agglomération, accessibilité numérique, et prestations de marketing digital et de visibilité",
+      "buyer": "Saint-Quentin-en-Yvelines — Communauté d'agglomération (78)",
+      "source": "BOAMP / TED / agrégateur",
+      "official_url": "https://marches-publics.com/appel-offre/ile-de-france/yvelines/courgent/2443045",
+      "notice_type": "concurrence",
+      "published_at": "2026-10-15",
+      "deadline": "2026-11-17",
+      "estimated_value_eur": null,
+      "value_verified": false,
+      "procedure": "procédure formalisée, 2 lots",
+      "cpv": [
+        "72413000"
+      ],
+      "sector": "intercommunalité",
+      "scope_summary": "Hébergement, maintenance et gestion de sites, accessibilité numérique, marketing digital.",
+      "requirements": "13 pièces au DCE, non consultées. Allotissement en 2 lots : un lot pourrait être accessible seul.",
+      "unverified": [
+        "Montant non publié",
+        "Contenu des 2 lots non vérifié",
+        "RC non lu",
+        "Volet marketing digital partiellement hors offre"
+      ],
+      "pages_read": [
+        "https://marches-publics.com/appels-offres/cpv/services-de-conception-de-sites-www-world-wide-web/72413000"
+      ],
+      "notes": "L'allotissement est le point à vérifier : il peut rendre un sous-périmètre accessible."
+    },
+    {
+      "ref": "CPV 72413000 / Gravelines",
+      "title": "Réalisation, hébergement et maintenance du site web — Ville de Gravelines",
+      "buyer": "Ville de Gravelines (59)",
+      "source": "agrégateur marches-publics.com",
+      "official_url": "https://marches-publics.com/appel-offre/hauts-de-france/nord/gravelines/2444491",
+      "notice_type": "concurrence",
+      "published_at": "",
+      "deadline": "2026-11-17",
+      "estimated_value_eur": null,
+      "value_verified": false,
+      "procedure": "non précisée dans la source consultée",
+      "cpv": [
+        "72413000"
+      ],
+      "sector": "collectivité communale",
+      "scope_summary": "Réalisation, hébergement et maintenance du site web communal.",
+      "requirements": "Non consultées.",
+      "unverified": [
+        "Avis officiel non ouvert",
+        "Procédure inconnue",
+        "Montant non publié",
+        "Date de publication non relevée"
+      ],
+      "pages_read": [
+        "https://marches-publics.com/appel-offre/bretagne/ille-et-vilaine/rennes/2430629"
+      ],
+      "notes": "Repérée dans les avis similaires. Seule la liste a été lue : à vérifier sur le profil acheteur avant toute décision."
+    },
+    {
+      "ref": "CPV 72413000 / Arvert",
+      "title": "Refonte du site internet de la Commune d'Arvert",
+      "buyer": "Commune d'Arvert (17)",
+      "source": "agrégateur marches-publics.com",
+      "official_url": "https://marches-publics.com/appel-offre/nouvelle-aquitaine/charente-maritime/arvert/2446704",
+      "notice_type": "concurrence",
+      "published_at": "",
+      "deadline": "2026-11-27",
+      "estimated_value_eur": null,
+      "value_verified": false,
+      "procedure": "non précisée dans la source consultée",
+      "cpv": [
+        "72413000"
+      ],
+      "sector": "collectivité communale",
+      "scope_summary": "Refonte du site internet communal.",
+      "requirements": "Non consultées.",
+      "unverified": [
+        "Avis officiel non ouvert",
+        "Procédure inconnue",
+        "Montant non publié"
+      ],
+      "pages_read": [
+        "https://marches-publics.com/appel-offre/bretagne/ille-et-vilaine/rennes/2430629"
+      ],
+      "notes": "Échéance confortable (18 jours). Petite commune : profil comparable à Mieussy, à instruire en priorité à la prochaine passe."
+    },
+    {
+      "ref": "CPV 72413000 / USH",
+      "title": "USH — Refonte du site union-habitat.org",
+      "buyer": "Union Sociale pour l'Habitat (75)",
+      "source": "agrégateur marches-publics.com",
+      "official_url": "https://marches-publics.com/appel-offre/ile-de-france/paris/paris/2448725",
+      "notice_type": "concurrence",
+      "published_at": "",
+      "deadline": "2026-11-27",
+      "estimated_value_eur": null,
+      "value_verified": false,
+      "procedure": "non précisée dans la source consultée",
+      "cpv": [
+        "72413000"
+      ],
+      "sector": "organisme associatif d'intérêt collectif",
+      "scope_summary": "Refonte du site institutionnel union-habitat.org.",
+      "requirements": "Non consultées.",
+      "unverified": [
+        "Statut d'acheteur public à confirmer (association)",
+        "Avis officiel non ouvert",
+        "Montant non publié"
+      ],
+      "pages_read": [
+        "https://marches-publics.com/appel-offre/bretagne/ille-et-vilaine/rennes/2430629"
+      ],
+      "notes": "Le statut exact de l'acheteur doit être vérifié : une association peut publier un marché privé, ce qui sort du cadre « acheteur public »."
+    },
+    {
+      "ref": "CPV 72413000 / CHU Bordeaux",
+      "title": "Refonte, développement, maintenance et prestations associées pour le site internet du CHU de Bordeaux",
+      "buyer": "CHU de Bordeaux (33)",
+      "source": "BOAMP / agrégateur",
+      "official_url": "https://marches-publics.com/appel-offre/nouvelle-aquitaine/gironde/talence/2445204",
+      "notice_type": "concurrence",
+      "published_at": "2026-10-21",
+      "deadline": "2026-12-11",
+      "estimated_value_eur": null,
+      "value_verified": false,
+      "procedure": "appel d'offres, accord-cadre composite",
+      "cpv": [
+        "72413000"
+      ],
+      "sector": "santé / établissement public",
+      "scope_summary": "Accord-cadre composite : marché ordinaire + accord-cadre à bons de commande, refonte et maintenance du site du CHU.",
+      "requirements": "Non consultées.",
+      "unverified": [
+        "Montant non publié",
+        "Volumétrie d'un site hospitalier universitaire",
+        "RC non lu"
+      ],
+      "pages_read": [
+        "https://marches-publics.com/appels-offres/cpv/services-de-conception-de-sites-www-world-wide-web/72413000"
+      ],
+      "notes": "Échéance lointaine mais volumétrie et exigences d'un CHU : à instruire seulement avec des références hospitalières."
+    },
+    {
+      "ref": "CNRS 26.14.027",
+      "title": "Mise en œuvre et maintenance de sites d'intranets et de portails métier CNRS",
+      "buyer": "CNRS — Délégation Occitanie Ouest (31)",
+      "source": "TED / agrégateur",
+      "official_url": "https://marches-publics.com/appel-offre/occitanie/haute-garonne/toulouse/2450698",
+      "notice_type": "concurrence",
+      "published_at": "2026-11-04",
+      "deadline": "2026-12-08",
+      "estimated_value_eur": 1500000,
+      "value_verified": true,
+      "procedure": "procédure négociée",
+      "cpv": [
+        "72413000"
+      ],
+      "sector": "recherche / établissement public",
+      "scope_summary": "Intranets et portails métier, mise en œuvre et maintenance.",
+      "requirements": "15 pièces au DCE.",
+      "unverified": [],
+      "pages_read": [
+        "https://marches-publics.com/appels-offres/cpv/services-de-conception-de-sites-www-world-wide-web/72413000",
+        "https://bidherald.com/tenders/cpv/72410000/"
+      ],
+      "notes": "1,5 M€ : hors de portée d'une micro-entreprise."
+    },
+    {
+      "ref": "METEO-FRANCE2637F0267",
+      "title": "Reprise, développement, évolutions, hébergement et maintenance en conditions opérationnelles de l'offre WebSite Factory",
+      "buyer": "Météo-France (94)",
+      "source": "TED / agrégateur",
+      "official_url": "https://marches-publics.com/appel-offre/ile-de-france/val-de-marne/saint-mande/2438689",
+      "notice_type": "concurrence",
+      "published_at": "2026-10-29",
+      "deadline": "2027-01-21",
+      "estimated_value_eur": 300000,
+      "value_verified": true,
+      "procedure": "appel d'offres",
+      "cpv": [
+        "72413000"
+      ],
+      "sector": "établissement public national",
+      "scope_summary": "Reprise et maintenance d'une fabrique de sites industrialisée.",
+      "requirements": "2 pièces au DCE.",
+      "unverified": [],
+      "pages_read": [
+        "https://marches-publics.com/appels-offres/cpv/services-de-conception-de-sites-www-world-wide-web/72413000",
+        "https://bidherald.com/tenders/cpv/72410000/"
+      ],
+      "notes": "300 k€ et reprise d'un outil industrialisé : hors de portée."
+    },
+    {
+      "ref": "CPV 72413000 / Météo-France Widget Factory",
+      "title": "Reprise et développement de la plateforme « Widget Factory », maintenance applicative, évolutions et hébergement associés",
+      "buyer": "Météo-France (94)",
+      "source": "agrégateur marches-publics.com",
+      "official_url": "https://marches-publics.com/appel-offre/ile-de-france/val-de-marne/saint-mande/2438685",
+      "notice_type": "concurrence",
+      "published_at": "2026-10-14",
+      "deadline": "2026-12-17",
+      "estimated_value_eur": null,
+      "value_verified": false,
+      "procedure": "appel d'offres",
+      "cpv": [
+        "72413000"
+      ],
+      "sector": "établissement public national",
+      "scope_summary": "Plateforme applicative de widgets, TMA et hébergement.",
+      "requirements": "2 pièces au DCE.",
+      "unverified": [
+        "Montant non publié",
+        "Reprise d'une plateforme existante non documentée"
+      ],
+      "pages_read": [
+        "https://marches-publics.com/appels-offres/cpv/services-de-conception-de-sites-www-world-wide-web/72413000"
+      ],
+      "notes": "Nature applicative intéressante mais reprise d'un socle inconnu : risque de charge non chiffrable."
+    },
+    {
+      "ref": "CPV 72413000 / SPL Seine Park",
+      "title": "Prestations de communication globale pour le compte de la SPL Seine Park",
+      "buyer": "SPL Seine Park (92)",
+      "source": "agrégateur marches-publics.com",
+      "official_url": "https://marches-publics.com/appel-offre/ile-de-france/hauts-de-seine/saint-cloud/2451695",
+      "notice_type": "concurrence",
+      "published_at": "2026-11-07",
+      "deadline": "2026-12-07",
+      "estimated_value_eur": null,
+      "value_verified": false,
+      "procedure": "appel d'offres",
+      "cpv": [
+        "72413000"
+      ],
+      "sector": "société publique locale",
+      "scope_summary": "Communication globale ; le code CPV web est présent mais l'objet dominant est la communication.",
+      "requirements": "4 pièces au DCE.",
+      "unverified": [
+        "Part réelle du web dans le marché non vérifiée"
+      ],
+      "pages_read": [
+        "https://marches-publics.com/appels-offres/cpv/services-de-conception-de-sites-www-world-wide-web/72413000"
+      ],
+      "notes": "Exemple typique de faux positif par code CPV : le code web ne fait pas du marché un marché web."
+    },
+    {
+      "ref": "CPV 72413000 / INRS",
+      "title": "Services d'accompagnement dans l'organisation des événements INRS (journées techniques hybrides, congrès scientifiques, colloques)",
+      "buyer": "Institut national de recherche et de sécurité (75)",
+      "source": "agrégateur marches-publics.com",
+      "official_url": "https://marches-publics.com/appel-offre/ile-de-france/paris/paris/2438484",
+      "notice_type": "concurrence",
+      "published_at": "2026-10-13",
+      "deadline": "2026-11-10",
+      "estimated_value_eur": null,
+      "value_verified": false,
+      "procedure": "procédure formalisée",
+      "cpv": [
+        "72413000"
+      ],
+      "sector": "établissement public national",
+      "scope_summary": "Organisation d'événements, congrès et colloques.",
+      "requirements": "2 pièces au DCE.",
+      "unverified": [],
+      "pages_read": [
+        "https://marches-publics.com/appels-offres/cpv/services-de-conception-de-sites-www-world-wide-web/72413000"
+      ],
+      "notes": "Hors périmètre malgré le CPV web, et échéance au lendemain de la date de référence."
+    },
+    {
+      "ref": "GIP Un Été Au Havre",
+      "title": "Conception, production et mise en œuvre de la communication des programmations 2027 à 2030",
+      "buyer": "GIP Un Été Au Havre",
+      "source": "TED (via relevé CPV 72413000)",
+      "official_url": "https://ted.europa.eu/",
+      "notice_type": "concurrence",
+      "published_at": "",
+      "deadline": "2026-11-09",
+      "estimated_value_eur": null,
+      "value_verified": false,
+      "procedure": "non précisée",
+      "cpv": [
+        "72413000"
+      ],
+      "sector": "groupement d'intérêt public / culture",
+      "scope_summary": "Communication des programmations culturelles.",
+      "requirements": "Non consultées.",
+      "unverified": [
+        "Clôture le jour même de la référence"
+      ],
+      "pages_read": [
+        "https://bidherald.com/tenders/cpv/72410000/"
+      ],
+      "notes": "La source indiquait « closes today ». Traité comme non exploitable : aucun délai pour préparer une réponse."
+    },
+    {
+      "ref": "BOAMP 26-52332",
+      "title": "Refonte du système d'information Routes et Rivière (SIR) — Direction des Infrastructures de Mobilité",
+      "buyer": "Conseil départemental de la Mayenne (53)",
+      "source": "BOAMP",
+      "official_url": "https://www.boamp.fr/telechargements/FILES/PDF/2026/05/26-52332.pdf",
+      "notice_type": "concurrence",
+      "published_at": "2026-05-26",
+      "deadline": "2026-07-08",
+      "estimated_value_eur": null,
+      "value_verified": false,
+      "procedure": "appel d'offres ouvert",
+      "cpv": [],
+      "sector": "collectivité départementale",
+      "scope_summary": "Refonte d'un système d'information métier : données routières, données rivière, saisie terrain, programmation de travaux.",
+      "requirements": "Avis rectificatif consulté.",
+      "unverified": [],
+      "pages_read": [
+        "https://www.boamp.fr/telechargements/FILES/PDF/2026/05/26-52332.pdf"
+      ],
+      "notes": "Expirée. Nature applicative proche de l'offre, à surveiller pour une éventuelle relance."
+    },
+    {
+      "ref": "BOAMP 26-84365",
+      "title": "Mission de refonte de la communication du Musée Cécile Sabourdy — lot 2 : site internet",
+      "buyer": "Mairie de Vicq-sur-Breuilh (87260), SIRET 21872030800095",
+      "source": "BOAMP",
+      "official_url": "https://www.francemarches.com/appel-offre/3boamp2684365-2026-mission-refonte-communication",
+      "notice_type": "concurrence",
+      "published_at": "2026-08-31",
+      "deadline": "2026-09-28",
+      "estimated_value_eur": null,
+      "value_verified": false,
+      "procedure": "procédure adaptée, 3 lots",
+      "cpv": [
+        "79341000",
+        "79822500",
+        "32584000"
+      ],
+      "sector": "collectivité communale / culture",
+      "scope_summary": "Lot 2 : conception d'un site internet. Lots 1 et 3 : identité visuelle et signalétique.",
+      "requirements": "Critères : 70 % valeur technique, 30 % prix. Variantes exigées. Profil : centreofficielles.com",
+      "unverified": [],
+      "pages_read": [
+        "https://www.francemarches.com/appel-offre/3boamp2684365-2026-mission-refonte-communication"
+      ],
+      "notes": "Expirée. Le lot 2 seul aurait été dans le périmètre : bon exemple d'allotissement favorable, à surveiller."
+    },
+    {
+      "ref": "BOAMP 26-51899",
+      "title": "Refonte du site internet à destination des professionnels du tourisme",
+      "buyer": "Comité régional du tourisme Centre-Val de Loire",
+      "source": "BOAMP",
+      "official_url": "https://www.akkel.fr/appel-offre/2026-51899-refonte-site-internet-destination",
+      "notice_type": "concurrence",
+      "published_at": "2026-05-27",
+      "deadline": "2026-06-24",
+      "estimated_value_eur": null,
+      "value_verified": false,
+      "procedure": "procédure adaptée",
+      "cpv": [],
+      "sector": "tourisme / organisme public",
+      "scope_summary": "Refonte d'un site B2B pour les professionnels du tourisme régional.",
+      "requirements": "Consultation auprès de prestataires qualifiés.",
+      "unverified": [],
+      "pages_read": [
+        "https://www.akkel.fr/appel-offre/2026-51899-refonte-site-internet-destination"
+      ],
+      "notes": "Explicitement marquée « clôturé » par la source."
+    },
+    {
+      "ref": "BOAMP 25-64393",
+      "title": "Acquisition d'une solution d'agent conversationnel",
+      "buyer": "France Travail DSI",
+      "source": "BOAMP",
+      "official_url": "https://www.boamp.fr/telechargements/FILES/PDF/2025/06/25-64393.pdf",
+      "notice_type": "concurrence",
+      "published_at": "2025-06-10",
+      "deadline": "",
+      "estimated_value_eur": null,
+      "value_verified": false,
+      "procedure": "procédure négociée avec appel à la concurrence",
+      "cpv": [],
+      "sector": "opérateur national / emploi",
+      "scope_summary": "Solution logicielle d'agent conversationnel à scripts guidés pour les agents France Travail et le Réseau pour l'emploi.",
+      "requirements": "Référence SIPN2501.",
+      "unverified": [
+        "Échéance non publiée dans l'extrait",
+        "Avis de 2025 : très probablement clos"
+      ],
+      "pages_read": [
+        "https://www.boamp.fr/telechargements/FILES/PDF/2025/06/25-64393.pdf"
+      ],
+      "notes": "Seul avis d'agent conversationnel trouvé émanant d'un acheteur identifié, mais ancien et dimensionné pour un éditeur logiciel, pas pour une intégration sur mesure."
+    },
+    {
+      "ref": "BOAMP 26-29022",
+      "title": "Accord-cadre pour la mise à disposition de solutions d'intelligence artificielle pour le Groupe Caisse des Dépôts",
+      "buyer": "Caisse des Dépôts et Consignations",
+      "source": "BOAMP",
+      "official_url": "https://www.francemarches.com/appel-offre/3boamp2629022-2026-accord-cadre-pour",
+      "notice_type": "attribution",
+      "published_at": "2026-02-10",
+      "deadline": "",
+      "estimated_value_eur": 60000000,
+      "value_verified": true,
+      "procedure": "appel d'offres ouvert",
+      "cpv": [],
+      "sector": "organisme public / finances",
+      "scope_summary": "Lot 1 services d'IA et expertises ; lot 2 puissance de calcul GPU (60 M€).",
+      "requirements": "Lauréat choisi le 14/01/2026, marché conclu le 10/02/2026.",
+      "unverified": [],
+      "pages_read": [
+        "https://www.francemarches.com/appel-offre/3boamp2629022-2026-accord-cadre-pour"
+      ],
+      "notes": "Déjà attribué, et hors de portée par le montant."
+    },
+    {
+      "ref": "AMI 26LM06 / Solutions IA marchés publics",
+      "title": "Solutions d'intelligence artificielle dédiées aux marchés publics",
+      "buyer": "Acheteur public non confirmé dans la source consultée",
+      "source": "agrégateur alertoffres.fr",
+      "official_url": "https://www.alertoffres.fr/tenders/solutions-d-intelligence-artificielle-dediees-aux-marches-publics",
+      "notice_type": "concurrence",
+      "published_at": "2026-07-20",
+      "deadline": "2026-09-02",
+      "estimated_value_eur": null,
+      "value_verified": false,
+      "procedure": "appel à manifestation d'intérêt",
+      "cpv": [
+        "72260000"
+      ],
+      "sector": "secteur public (à confirmer)",
+      "scope_summary": "Solutions d'IA appliquées aux marchés publics.",
+      "requirements": "AMI et règlement de consultation annoncés au DCE.",
+      "unverified": [
+        "Identité de l'acheteur non établie"
+      ],
+      "pages_read": [
+        "https://www.alertoffres.fr/tenders/solutions-d-intelligence-artificielle-dediees-aux-marches-publics"
+      ],
+      "notes": "Expirée, et acheteur non identifié : double motif de rejet."
+    },
+    {
+      "ref": "SIMAP 2785137e",
+      "title": "Assistant IA cantonal",
+      "buyer": "Département de la formation et des finances, État de Neuchâtel (Suisse)",
+      "source": "SIMAP (via relevé tiers)",
+      "official_url": "https://tenderlift.ch/tenders/neuchatel/assistant-ia-cantonal-2785137e/",
+      "notice_type": "concurrence",
+      "published_at": "2026-09-19",
+      "deadline": "2026-11-03",
+      "estimated_value_eur": null,
+      "value_verified": false,
+      "procedure": "procédure ouverte",
+      "cpv": [],
+      "sector": "administration cantonale étrangère",
+      "scope_summary": "Plateforme d'assistant IA pour 3 000 utilisateurs : génération, synthèse, traduction, transcription.",
+      "requirements": "Acquisition d'une plateforme, pas d'une intégration sur mesure.",
+      "unverified": [],
+      "pages_read": [
+        "https://tenderlift.ch/tenders/neuchatel/assistant-ia-cantonal-2785137e/"
+      ],
+      "notes": "Expirée, hors France, et acquisition de plateforme pour 3 000 postes : hors de portée."
+    },
+    {
+      "ref": "BOAMP 25-83409",
+      "title": "Accompagnement du Programme IA de la Métropole Aix-Marseille-Provence (PRIAM)",
+      "buyer": "Métropole Aix-Marseille-Provence",
+      "source": "BOAMP",
+      "official_url": "https://www.francemarches.com/appel-offre/3boamp2583409-2025-accompagnement-programme-metropole",
+      "notice_type": "concurrence",
+      "published_at": "2025-01-01",
+      "deadline": "",
+      "estimated_value_eur": null,
+      "value_verified": false,
+      "procedure": "procédure restreinte",
+      "cpv": [
+        "72220000"
+      ],
+      "sector": "métropole",
+      "scope_summary": "Modernisation des services par systèmes d'IA, dont une catégorie formation et acculturation.",
+      "requirements": "Procédure restreinte : sélection préalable des candidats.",
+      "unverified": [
+        "Échéance non publiée dans l'extrait",
+        "Avis de 2025"
+      ],
+      "pages_read": [
+        "https://www.francemarches.com/appel-offre/3boamp2583409-2025-accompagnement-programme-metropole"
+      ],
+      "notes": "Ancien et en procédure restreinte."
+    },
+    {
+      "ref": "AO 26180658 / INNOP'IA",
+      "title": "Projet INNOP'IA — Phase 2 — Missions d'assistance",
+      "buyer": "CCI de Rouen",
+      "source": "BOAMP / JOUE",
+      "official_url": "https://www.francemarches.com/appel-offre/37ao26180658290520267576-2026-projet-innop-phase",
+      "notice_type": "concurrence",
+      "published_at": "2026-05-29",
+      "deadline": "",
+      "estimated_value_eur": null,
+      "value_verified": false,
+      "procedure": "appel d'offres ouvert",
+      "cpv": [
+        "75130000",
+        "72600000"
+      ],
+      "sector": "chambre consulaire",
+      "scope_summary": "Lot 2 : assistance au développement d'un outil IA de conception de parcours de formation personnalisés.",
+      "requirements": "Référence CCIRM-2026-AOO-02.",
+      "unverified": [
+        "Échéance non relevée",
+        "Publication de mai 2026 : probablement close"
+      ],
+      "pages_read": [
+        "https://www.francemarches.com/appel-offre/37ao26180658290520267576-2026-projet-innop-phase"
+      ],
+      "notes": "Nature du besoin très proche de l'offre (assistance IA), mais échéance non établie : ne peut pas être présentée comme ouverte."
+    },
+    {
+      "ref": "Avis d'attribution / Département de l'Allier",
+      "title": "Refonte du site internet du Département de l'Allier",
+      "buyer": "Département de l'Allier (03)",
+      "source": "BOAMP",
+      "official_url": "https://www.francemarches.com/appels-offre/refonte-site-internet",
+      "notice_type": "attribution",
+      "published_at": "2026-08-26",
+      "deadline": "",
+      "estimated_value_eur": null,
+      "value_verified": false,
+      "procedure": "procédure formalisée",
+      "cpv": [],
+      "sector": "collectivité départementale",
+      "scope_summary": "Refonte de site départemental.",
+      "requirements": "Marché déjà attribué.",
+      "unverified": [],
+      "pages_read": [
+        "https://www.francemarches.com/appels-offre/refonte-site-internet"
+      ],
+      "notes": "Certaines listes affichent une « date de clôture » postérieure sur des avis d'attribution : ce n'est pas une échéance de candidature."
+    },
+    {
+      "ref": "Avis d'attribution / Ville de Poitiers",
+      "title": "Refonte du site internet de la Ville de Poitiers, hébergement, maintenance et évolution",
+      "buyer": "Ville de Poitiers (86)",
+      "source": "BOAMP",
+      "official_url": "https://www.francemarches.com/appels-offre/refonte-site-internet",
+      "notice_type": "attribution",
+      "published_at": "2026-08-24",
+      "deadline": "",
+      "estimated_value_eur": null,
+      "value_verified": false,
+      "procedure": "procédure formalisée",
+      "cpv": [],
+      "sector": "collectivité urbaine",
+      "scope_summary": "Refonte, hébergement, maintenance et évolution.",
+      "requirements": "Marché déjà attribué.",
+      "unverified": [],
+      "pages_read": [
+        "https://www.francemarches.com/appels-offre/refonte-site-internet"
+      ],
+      "notes": "Même piège de date que l'Allier."
+    },
+    {
+      "ref": "Avis d'attribution / Asnières-sur-Seine",
+      "title": "Reprise, exploitation technique et optimisation du site internet et de la progressive web app de la Ville d'Asnières-sur-Seine",
+      "buyer": "Mairie d'Asnières-sur-Seine (92)",
+      "source": "BOAMP",
+      "official_url": "https://www.francemarches.com/appels-offre/internet-web",
+      "notice_type": "attribution",
+      "published_at": "2026-10-05",
+      "deadline": "",
+      "estimated_value_eur": null,
+      "value_verified": false,
+      "procedure": "procédure formalisée",
+      "cpv": [],
+      "sector": "collectivité communale",
+      "scope_summary": "Site internet et application web progressive.",
+      "requirements": "Marché déjà attribué.",
+      "unverified": [],
+      "pages_read": [
+        "https://www.francemarches.com/appels-offre/internet-web"
+      ],
+      "notes": ""
+    },
+    {
+      "ref": "Musée de l'Air et de l'Espace",
+      "title": "Refonte architecturale, créative et technique, maintenance et hébergement du site internet",
+      "buyer": "Musée de l'Air et de l'Espace",
+      "source": "BOAMP",
+      "official_url": "https://www.francemarches.com/appels-offre/refonte-site-internet",
+      "notice_type": "concurrence",
+      "published_at": "2026-09-25",
+      "deadline": "2026-10-26",
+      "estimated_value_eur": null,
+      "value_verified": false,
+      "procedure": "non précisée",
+      "cpv": [],
+      "sector": "culture / établissement public",
+      "scope_summary": "Refonte et hébergement de site muséal.",
+      "requirements": "Non consultées.",
+      "unverified": [],
+      "pages_read": [
+        "https://www.francemarches.com/appels-offre/refonte-site-internet"
+      ],
+      "notes": "Expirée."
+    },
+    {
+      "ref": "Pôle culturel et touristique des Augustins",
+      "title": "Création d'un site internet pour le Pôle culturel et touristique des Augustins",
+      "buyer": "Acheteur public du Gers (32), nom non confirmé dans la liste consultée",
+      "source": "BOAMP",
+      "official_url": "https://www.francemarches.com/appels-offre/creation-site-web",
+      "notice_type": "concurrence",
+      "published_at": "2026-09-23",
+      "deadline": "2026-10-30",
+      "estimated_value_eur": null,
+      "value_verified": false,
+      "procedure": "procédure adaptée",
+      "cpv": [],
+      "sector": "culture / tourisme",
+      "scope_summary": "Création d'un site internet culturel et touristique.",
+      "requirements": "Non consultées.",
+      "unverified": [
+        "Nom exact de l'acheteur non établi"
+      ],
+      "pages_read": [
+        "https://www.francemarches.com/appels-offre/creation-site-web"
+      ],
+      "notes": "Expirée. Les listes d'agrégateurs désalignent parfois acheteur et intitulé : ne pas attribuer un avis à un acheteur sans lire l'avis."
+    }
+  ],
+  "annonces_non_acheteurs_ecartees": [
+    {
+      "source_url": "https://www.avismarchespublics.net/fiches-conseils-reponse/travaux-ia",
+      "auteur": "prestataire privé (conseil en réponse aux marchés)",
+      "contenu": "Page listant des « offres de marché public en cours » pour un assistant IA conversationnel et un moteur de synthèse de rapports, avec des acheteurs anonymisés : « Métropole de .................... », « Direction Régionale des Finances Publiques .............................. ».",
+      "motif_rejet": "Aucun acheteur identifiable, aucun numéro d'avis, aucune date limite, aucun lien officiel. Ce sont des illustrations commerciales, pas des avis publiés. Ne sont PAS comptées comme consultations examinées."
+    },
+    {
+      "source_url": "https://www.wearetandem.ai/fr/blog/cas-concret/agent-conversationnel-chatbot-ia-entreprise",
+      "auteur": "éditeur d'agents conversationnels",
+      "contenu": "Guide commercial sur les agents conversationnels en entreprise.",
+      "motif_rejet": "Argumentaire de prestataire : aucune demande d'acheteur."
+    },
+    {
+      "source_url": "https://www.lafabriquedunet.fr/agences/pages/agences-site-internet",
+      "auteur": "annuaire d'agences web",
+      "contenu": "Fiche sur le marché de Mieussy affirmant : « Attention, le marché est exigeant en termes de références et de compétences techniques ».",
+      "motif_rejet": "Commentaire de tiers sur un avis réel. L'affirmation sur les références n'a PAS été retenue : l'avis officiel renvoie au règlement de consultation, qui n'a pas été lu. Retenir ce commentaire aurait créé une exigence imaginaire."
+    }
+  ],
+  "constats": {
+    "ia_et_automatisation": "Aucune consultation ouverte et accessible à une micro-entreprise n'a été trouvée sur l'IA, les agents conversationnels ou l'automatisation. Les avis réels identifiés sont soit attribués (Caisse des Dépôts), soit expirés (AMI solutions IA, Neuchâtel, INNOP'IA), soit dimensionnés pour des éditeurs et intégrateurs (France Travail, Métropole AM, CNRS). Le besoin public existe mais se formule en acquisition de plateformes et en accompagnement de programme, pas en intégration sur mesure.",
+    "piege_code_cpv": "Le code CPV 72413000 (« conception de sites WWW ») est apposé sur des marchés d'événementiel (INRS) et de communication globale (SPL Seine Park). Filtrer par code seul produit des faux positifs : l'objet doit être lu.",
+    "piege_dates_attribution": "Des listes d'agrégateurs affichent une date de clôture future sur des avis d'attribution (Allier 21/11, Poitiers 18/11). Ce ne sont pas des échéances de candidature.",
+    "acces_aux_dce": "Les règlements de consultation sont généralement derrière une inscription. Aucune inscription n'a été créée. EXCEPTION VÉRIFIÉE : sur les profils AWS / Association des Maires (mp74.fr), le lien « RC » est public et le règlement de Mieussy a pu être lu sans compte. C'est la voie à privilégier pour instruire les autres MAPA. Les exigences de références restent non vérifiées pour les 9 autres avis classés B.",
+    "meilleur_canal": "Les marchés à procédure adaptée de petites communes sont le seul segment où le besoin publié, le montant et la procédure soient compatibles avec une micro-entreprise. Mieussy (20 000 € HT, service DUME) en est l'exemple vérifié."
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "date": "2026-11-09",
+  "mission": "Sections E et G — vérification des deux brouillons et audit Gmail ciblé",
+  "brouillons": [
+    {
+      "company": "Caléo Tests & Services",
+      "gmail_message_id": "1a1b672541671292",
+      "gmail_thread_id": "1a1b1b9678b12486",
+      "message_id_header": "<CABk0BOy24n_2K=pXK4xdTPmvYhrsDbEUT_zaPnNDvBU_H0TPYQ@mail.gmail.com>",
+      "destinataire": "contact@caleo-ts.fr",
+      "sujet": "Caléo : vos listes d'instruments arrivent en tableur joint",
+      "date_brouillon": "2026-11-07T06:38:28-08:00",
+      "libelles": ["DRAFT", "Label_7"],
+      "libelle_lot": "Prospection/2026-11-06-lot9",
+      "statut": "brouillon, non envoyé",
+      "fil_de_discussion": "Le fil a été ouvert et contient UN SEUL message : le brouillon. Aucun échange antérieur avec Caléo, aucune réponse. L'identifiant de fil diffère de l'identifiant de message, ce qui est normal et ne signale pas une conversation existante.",
+      "attachements": 0,
+      "caracteres": 970,
+      "signature_exacte": true,
+      "signature_attendue": "Martin BOURASSEAU / Création de sites web · Refonte · Agents IA · Automatisation / https://prospecto.website",
+      "mention_opposition": true,
+      "personnalisation": "Appuyée sur la page de devis réelle : le bouton « ouvre votre messagerie avec la demande pré-remplie » et l'envoi des listes longues en tableur joint. La proposition (dépôt enregistrant le parc instrument par instrument et préparant les échéances de réétalonnage) répond au manque de persistence, pas à une absence de formulaire.",
+      "contre_signal_pris_en_compte": "Oui. Le message écrit explicitement « Le formulaire est bien construit, mais il ne dépose rien chez vous » : il ne propose pas de refaire un formulaire existant. Cohérent avec le contre-signal de force faible, priorité inchangée.",
+      "scores_v8": {"refonte": 39, "ia_automatisation": 64},
+      "priorite_commerciale": "moyenne",
+      "valeur_commerciale": 61,
+      "penalite_contre_signaux": 0,
+      "decision": "CONSERVÉ EN L'ÉTAT. Aucune erreur détectée. Aucun envoi.",
+      "erreurs": []
+    },
+    {
+      "company": "Pépinières Ripaud",
+      "gmail_message_id": "1a1b16dee5899e57",
+      "gmail_thread_id": "1a1b16dee5899e57",
+      "message_id_header": "<CABk0BOyydqDLMFORzStOEn=EYFujza7tbe7PTC5ECMcx3ZsnAg@mail.gmail.com>",
+      "destinataire": "info@ripaudpepinieres.com",
+      "sujet": "Commandes pro Ripaud : le K-bis avant le premier chiffrage",
+      "date_brouillon": "2026-11-06T10:15:34-05:00",
+      "libelles": ["DRAFT", "Label_6"],
+      "libelle_lot": "Prospection/2026-11-06-lot8",
+      "statut": "brouillon, non envoyé",
+      "fil_de_discussion": "Fil neuf, un seul message (le brouillon). Aucune correspondance antérieure.",
+      "attachements": 0,
+      "caracteres": 966,
+      "signature_exacte": true,
+      "signature_attendue": "Martin BOURASSEAU / Création de sites web · Refonte · Agents IA · Automatisation / https://prospecto.website",
+      "mention_opposition": true,
+      "personnalisation": "Appuyée sur la page « La pépinière » : K-bis et fiche d'ouverture de compte exigés des nouveaux clients professionnels, puis commandes par e-mail avec nom des végétaux, conditionnement, taille et quantité. La proposition (espace pro collectant le K-bis et contrôlant chaque ligne) cible la ressaisie, pas le site.",
+      "lien_de_reference": "https://groupebourasseau.com présenté comme « le site institutionnel de mon groupe ». C'est une référence commerciale, distincte de l'URL de portfolio de la signature. Vérifié cohérent : les deux domaines appartiennent à l'exploitant (des notifications Search Console pour groupebourasseau.com et prospecto.website arrivent bien dans cette boîte).",
+      "priorite_commerciale": "moyenne",
+      "penalite_contre_signaux": 0,
+      "decision": "CONSERVÉ EN L'ÉTAT. Aucune erreur détectée. Aucun envoi.",
+      "erreurs": []
+    }
+  ],
+  "audit_cible": {
+    "methode": "Requête par_ADRESSE des destinataires réels, pas par libellé ni par mot-clé. Spam et corbeille inclus (in:anywhere). Exclusion de soi implicite : on interroge from:<destinataire>.",
+    "requete_reponses": "in:anywhere {from:<19 adresses de prospects, dont les 10 des lots 9 et 10, les 2 brouillons, l'opposition et les 2 nxdomain>} after:2026/11/06",
+    "resultat_reponses": 0,
+    "complete_reponses": true,
+    "requete_rebonds": "in:anywhere {from:mailer-daemon@googlemail.com from:postmaster} after:2026/11/06",
+    "resultat_rebonds": 0,
+    "complete_rebonds": true,
+    "controle_positif": {
+      "pourquoi": "Un résultat nul avec complete:true ne prouve pas que les critères étaient corrects. La même forme de requête a donc été rejouée sur une période où des résultats sont attendus.",
+      "requete": "in:anywhere {from:celarenarde@gmail.com from:mailer-daemon@googlemail.com from:contact@caleo-ts.fr} after:2026/10/01",
+      "resultats": 2,
+      "retrouve": [
+        {"id": "1a1ada77bcf46db9", "objet": "Re: Centre Équestre de la Renarde : automatiser les inscriptions ?", "date": "2026-11-05", "nature": "opposition connue"},
+        {"id": "1a1a87452d7ca7c0", "objet": "Delivery Status Notification (Failure)", "date": "2026-11-04", "nature": "rebond dur connu"}
+      ],
+      "conclusion": "La forme de requête fonctionne : le zéro observé après le 06/11 est significatif, et non un artefact de syntaxe."
+    },
+    "requete_large_abandonnee": {
+      "requete": "in:anywhere -from:martin.bourasseau4@gmail.com -in:sent -in:drafts after:2026/11/07",
+      "pourquoi_abandonnee": "201 résultats, essentiellement des lettres d'information et des hameçonnages « colis en attente », résultat tronqué et complete:false. Une requête large ne constitue pas un audit : elle noie les réponses commerciales et ne permet aucune conclusion.",
+      "incident_remarque": "Plusieurs hameçonnages usurpant Chronopost et DPD (domaines en .us et .fr jetables) demandent des « frais de douane impayés ». Aucun lien suivi, aucune pièce ouverte, aucun challenge validé."
+    },
+    "nouvelles_reponses_humaines": 0,
+    "nouvelles_reponses_automatiques": 0,
+    "nouveaux_rebonds": 0,
+    "nouvelles_oppositions": 0,
+    "nouveaux_challenges": 0,
+    "nouvelles_conversations_commerciales": 0,
+    "demandes_de_tarif_ou_devis": 0,
+    "brouillons_de_reponse_crees": 0,
+    "note_reponses": "Aucune demande commerciale, simple ou chiffrée, n'est arrivée : aucun brouillon de réponse n'était nécessaire."
+  },
+  "protections": {
+    "opposition_nicolas_smets": "MAINTENUE. celarenarde@gmail.com, statut opposition au CRM et présent dans data/suppression.json.",
+    "liste_suppression": 2,
+    "challenge_mailinblack": "NON validé (Alpha Mécanique, message 1a1abeb8ee41cbb7).",
+    "envois_par_agent": 0,
+    "enabled": false,
+    "dry_run": true,
+    "dns_modifie": false,
+    "achat_ou_souscription": false
+  },
+  "delivrances": {
+    "messages_sortis_consolides": 68,
+    "acceptes_par_fournisseur": 68,
+    "delivrances_confirmees": 3,
+    "delivrance_non_confirmee": 63,
+    "rebonds": 1,
+    "challenges": 1,
+    "note": "Non confirmée n'est pas échouée. Aucun nouveau rebond ne prouve pas la remise : sans instrumentation de la délivrance, l'absence de rebond reste une absence d'information."
+  }
+}

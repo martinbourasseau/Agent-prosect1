@@ -163,12 +163,19 @@ footer{border-top:1px solid var(--line);padding:22px 0;color:var(--dim);font-siz
       <div class="box"><h3>Couverture nationale</h3><div id="coverBox"></div></div>
     </div>
     <div class="box" style="margin-top:16px"><h3>Rendement des sources</h3>
-      <div class="sub">Qualifiés / examinés, lissé par un prior de 8 observations à 15 %. Une source jamais essayée reste préférée à une source mauvaise prouvée.</div>
+      <div class="sub">« Brut » = qualifiées / examinées, le taux réel. « Lissé » = score du planificateur, tiré vers un prior de 15 % : ce n'est PAS un taux. Une source jamais essayée (0 examinée) garde 15 % et reste préférée à une source mauvaise prouvée.</div>
       <div style="overflow-x:auto" id="srcBox"></div></div>
     <div class="grid2" style="margin-top:16px">
       <div class="box"><h3>Revue du portefeuille</h3><div id="reviewBox"></div></div>
       <div class="box"><h3>Lot 10 et audit Gmail</h3><div id="lot10Box"></div></div>
     </div>
+    <div class="grid2" style="margin-top:16px">
+      <div class="box"><h3>Priorité commerciale — distribution</h3><div id="prioBox"></div></div>
+      <div class="box"><h3>Contre-signaux appliqués</h3><div id="csBox"></div></div>
+    </div>
+    <div class="box" style="margin-top:16px"><h3>Marchés publics — pilote (registre distinct du CRM)</h3>
+      <div class="sub">Un avis de marché n'est pas une fiche prospect : aucun acheteur public n'est ajouté au CRM ni démarché. A = directement exploitable par une micro-entreprise · B = à vérifier ou capacité supplémentaire · C = non pertinent ou inaccessible.</div>
+      <div id="mpBox"></div></div>
     <div class="box" style="margin-top:16px"><h3>Ce qui bloque la qualification</h3><div id="blockBox"></div></div>
   </section>
 
@@ -220,7 +227,7 @@ function renderCards(){
     {n:co.emails_total,l:"Emails récupérés",cls:"glacier"},
     {n:co.phones,l:"Téléphones récupérés"},
     {n:(m.pipeline||{}).messages_prepares??((q.pending||0)+(q.approved||0)+(q.sent||0)),l:"Messages préparés"},
-    {n:(m.pipeline||{}).brouillons??q.pending||0,l:"Brouillons Gmail en attente",cls:"glacier"},
+    {n:(m.pipeline||{}).brouillons??(q.pending||0),l:"Brouillons Gmail en attente",cls:"glacier"},
     {n:(m.pipeline||{}).en_attente??0,l:"Préparés sans brouillon"},
     {n:(m.pipeline||{}).delivres_confirmes??0,l:"Délivrés confirmés",cls:"tide"},
     {n:(m.pipeline||{}).delivrance_non_confirmee??0,l:"Délivrance non confirmée"},
@@ -326,7 +333,7 @@ function renderPipeline(){
   const p=METRICS.pipeline||{};const defs=p.definitions||{};
   const rows=[
     ["Messages préparés",p.messages_prepares,"messages_prepares"],
-    ["Brouillons en attente",p.brouillons,"brouillons"],
+    ["Brouillons Gmail en attente",p.brouillons,"brouillons"],
     ["Messages sortis",p.envoyes,"envoyes"],
     ["Acceptés par le fournisseur",p.acceptes_par_fournisseur,"acceptes_par_fournisseur"],
     ["Délivrés confirmés",p.delivres_confirmes,"delivres_confirmes"],
@@ -336,7 +343,7 @@ function renderPipeline(){
     ["Réponses humaines",p.reponses_humaines,null],
     ["Réponses automatiques",p.reponses_automatiques,null],
     ["Oppositions",p.oppositions,null],
-    ["Brouillons en attente",p.brouillons,"brouillons"],
+    ["Brouillons Gmail en attente",p.brouillons,"brouillons"],
     ["Préparés sans brouillon",p.en_attente,"en_attente"],
   ];
   let line=rows.map(([l,v,k])=>kv(l,(v??0)+(k&&defs[k]?` <span class="sub" title="${esc(defs[k])}">ⓘ</span>`:""))).join("");
@@ -354,7 +361,7 @@ function renderPipeline(){
   const steps=[
     ["Découverts",f.decouverts,"decouverts"],
     ["À investiguer",f.a_investiguer,"a_investiguer"],
-    ["Brouillons en attente",f.brouillons_en_attente,"brouillons_en_attente"],
+    ["Fiches au statut brouillon",f.brouillons_en_attente,"brouillons_en_attente"],
     ["Contactés",f.contactes,"contactes"],
     ["Rebonds",f.rebonds,null],
     ["Oppositions",f.oppositions,null],
@@ -424,7 +431,39 @@ function renderPilotage(){
   document.getElementById("srcBox").innerHTML=tbl(
     ["Source","Examinées","Retenues","Qualifiées","Brut","Lissé"],
     (r.source_performance||[]).map(p=>[p.label||p.source_type,p.examined,p.retained,p.qualified,
-      p.examined?(p.raw_rate*100).toFixed(0)+" %":"—",(p.yield_score*100).toFixed(1)+" %"]));
+      p.examined?(p.qualification_rate*100).toFixed(0)+" %":"—",(p.yield_score*100).toFixed(1)+" %"]));
+
+  const sc=m.scoring||{}, pv=sc.priority_value||{}, cs=sc.contre_signaux||{};
+  document.getElementById("prioBox").innerHTML=
+    row("Fiches portant une priorité",pv.n||0)+
+    row("Moyenne",pv.moyenne??"—")+row("Médiane",pv.mediane??"—")+
+    row("Minimum / maximum",`${pv.min??"—"} / ${pv.max??"—"}`)+
+    Object.entries(sc.commercial_priority||{}).map(([k,n])=>row("Palier · "+k,n)).join("")+
+    `<div class="sub" style="margin-top:8px">La médiane décrit le portefeuille ; la moyenne est tirée par quelques valeurs extrêmes. Les deux sont affichées pour éviter de piloter sur la seule moyenne.</div>`;
+  document.getElementById("csBox").innerHTML=
+    row("Fiches avec contre-signal explicite",cs.fiches_avec_contre_signal||0)+
+    row("Fiches effectivement pénalisées",cs.fiches_penalisees||0)+
+    Object.entries(cs.par_force||{}).map(([k,n])=>row("Force · "+k,n)).join("")+
+    `<div class="sub" style="margin-top:8px">Un contre-signal « faible » ne pénalise pas : un site déjà automatisé peut encore avoir besoin d'un agent. Les trois axes v8 restent inchangés.</div>`;
+
+  const mp=m.marches_publics||{};
+  if(mp.disponible){
+    const cat=mp.categories||{};
+    document.getElementById("mpBox").innerHTML=
+      `<div class="grid2">`+
+      `<div>`+row("Consultations examinées",mp.consultations_examinees||0)+
+        row("A · directement exploitables",cat.A||0)+
+        row("B · à vérifier",cat.B||0)+row("C · écartées",cat.C||0)+
+        row("Acheteurs distincts",mp.acheteurs_distincts||0)+
+        row("Annonces de prestataires écartées",mp.annonces_non_acheteurs_ecartees||0)+`</div>`+
+      `<div>`+Object.entries(mp.raisons_exclusion||{}).map(([k,n])=>row("Exclusion · "+k,n)).join("")+`</div>`+
+      `</div>`+
+      (mp.meilleure_piste?`<div class="sub" style="margin-top:10px"><b>Meilleure piste (B)</b> : ${esc(mp.meilleure_piste.acheteur)} — ${esc(mp.meilleure_piste.titre)} · ${esc(String(mp.meilleure_piste.montant_eur))} € · échéance ${esc(mp.meilleure_piste.echeance)}</div>`:"")+
+      `<div class="sub" style="margin-top:6px">${esc((mp.constats||{}).capacite_micro_entreprise||"")}</div>`+
+      `<div class="sub" style="margin-top:6px">${esc((mp.constats||{}).ia_et_automatisation||"")}</div>`;
+  } else {
+    document.getElementById("mpBox").innerHTML='<div class="sub">Pilote non disponible.</div>';
+  }
 
   const a=v.audit_phase10||{}, d=v.approfondissement_lot9||{};
   document.getElementById("reviewBox").innerHTML=

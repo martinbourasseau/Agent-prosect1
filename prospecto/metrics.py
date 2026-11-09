@@ -184,6 +184,8 @@ def compute_metrics() -> dict[str, Any]:
     metrics["qualification"] = _qualification_overview(records)
     metrics["recherche"] = _search_overview(records)
     metrics["revue_portefeuille"] = _review_overview()
+    metrics["marches_publics"] = _public_tenders_overview()
+    metrics["rendement_sources"] = _source_yield_overview(records)
     return metrics
 
 
@@ -465,4 +467,92 @@ def _scoring_overview(records: list[dict]) -> dict[str, Any]:
         if pr:
             priorities[pr] = priorities.get(pr, 0) + 1
     out["commercial_priority"] = priorities
+    # Phase 10 finale — moyenne et médiane de la priorité commerciale. La
+    # médiane est indispensable : quelques valeurs hautes déplacent la moyenne
+    # sans que le portefeuille ait changé.
+    values = sorted(int(r["commercial_value"]) for r in records
+                    if isinstance(r.get("commercial_value"), (int, float)))
+    if values:
+        mid = len(values) // 2
+        median = (values[mid] if len(values) % 2
+                  else (values[mid - 1] + values[mid]) / 2)
+        out["priority_value"] = {
+            "n": len(values), "moyenne": round(sum(values) / len(values), 1),
+            "mediane": median, "min": values[0], "max": values[-1],
+        }
+    # Contre-signaux explicites : rendus visibles pour que la pénalité appliquée
+    # soit auditable depuis le tableau de bord, pas seulement dans les archives.
+    strengths = {"fort": 0, "modere": 0, "faible": 0}
+    penalised = 0
+    for rec in records:
+        block = rec.get("commercial") or {}
+        details = block.get("counter_signal_details") or []
+        for d in details:
+            key = d.get("strength")
+            if key in strengths:
+                strengths[key] += 1
+        if block.get("counter_signal_penalty"):
+            penalised += 1
+    out["contre_signaux"] = {
+        "fiches_avec_contre_signal": sum(
+            1 for r in records if (r.get("commercial") or {}).get("counter_signal_details")),
+        "fiches_penalisees": penalised, "par_force": strengths,
+    }
     return out
+
+
+def _public_tenders_overview() -> dict[str, Any]:
+    """Pilote marchés publics. Registre DISTINCT du CRM : un avis n'est pas une
+    fiche prospect, et un acheteur public n'est pas démarché par e-mail."""
+    from .public_tenders import load_pilot
+    try:
+        pilot, raw = load_pilot()
+    except (OSError, ValueError, KeyError):
+        return {"disponible": False}
+    summary = pilot.summary()
+    by_ref = {n.ref: n for n in pilot.notices}
+    exclusion_reasons: dict[str, int] = {}
+    for a in pilot.assessments():
+        if a.category == "C":
+            reason = a.reasons[0] if a.reasons else "non précisé"
+            # Regrouper par nature de motif plutôt que par texte exact.
+            for marker, label in (("expirée", "consultation expirée"),
+                                  ("attribution", "marché déjà attribué"),
+                                  ("hors de portée", "montant hors de portée"),
+                                  ("hors du périmètre", "objet hors périmètre"),
+                                  ("ouverture non établie", "avis ancien sans échéance"),
+                                  ("auteur", "auteur non acheteur")):
+                if marker in reason:
+                    exclusion_reasons[label] = exclusion_reasons.get(label, 0) + 1
+                    break
+            else:
+                exclusion_reasons[reason[:60]] = exclusion_reasons.get(reason[:60], 0) + 1
+    summary["disponible"] = True
+    summary["raisons_exclusion"] = exclusion_reasons
+    summary["registre_distinct_du_crm"] = True
+    summary["meilleure_piste"] = next(
+        ({"ref": r, "acheteur": by_ref[r].buyer, "titre": by_ref[r].title,
+          "montant_eur": by_ref[r].estimated_value_eur,
+          "echeance": by_ref[r].deadline}
+         for r in ("BOAMP 26-97266",) if r in by_ref), None)
+    summary["constats"] = raw.get("constats", {})
+    return summary
+
+
+def _source_yield_overview(records: list[dict]) -> list[dict[str, Any]]:
+    """Rendement par source, taux BRUT et taux LISSÉ côte à côte.
+
+    Le taux lissé du planificateur n'est pas un taux de qualification : il
+    remonte les petites séries et écrase les grandes séries nulles. Les afficher
+    sans distinction induit en erreur.
+    """
+    from .sources import ExplorationLedger
+    from .planner import source_performance
+    try:
+        rows = source_performance(ExplorationLedger(), records)
+    except (OSError, ValueError):
+        return []
+    return [{"source": p.source_type, "examinees": p.examined,
+             "qualifiees": p.qualified, "taux_brut": round(p.qualification_rate, 3),
+             "taux_lisse": round(p.yield_score, 3)}
+            for p in rows if p.examined]

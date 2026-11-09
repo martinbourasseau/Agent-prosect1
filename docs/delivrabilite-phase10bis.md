@@ -1,7 +1,9 @@
 # Délivrabilité — audit technique et plan de mise en service
 
-**Date :** 2026-11-07 · **Aucune modification DNS effectuée. Aucun achat. Aucun compte créé.**
-Ce document est un plan, pas une mise en œuvre.
+**Date :** 2026-11-07, **chiffres révisés le 2026-11-09** (phase 10 finale, §F).
+**Aucune modification DNS effectuée. Aucun achat. Aucun compte créé.**
+Ce document est un plan, pas une mise en œuvre. Le budget de 10 à 15 €/an cité
+plus bas est **indicatif** : ce n'est pas une autorisation d'achat.
 
 ---
 
@@ -10,22 +12,29 @@ Ce document est un plan, pas une mise en œuvre.
 Chiffres recalculés depuis `data/history/send-log.json`, `reconciliations.json`
 et `prospecto.metrics.compute_metrics()` — et non repris du rapport précédent.
 
+**Révision du 09/11 :** la consolidation (`prospecto/outbound.py`) a rapproché
+**8 messages réellement partis de Gmail le 09/11 hors agent**, absents du journal
+de production. Le total passe de 60 à **68 messages sortis**, sans qu'aucune
+ligne n'ait été ajoutée au journal historique : les 8 sont comptés depuis la
+source Gmail, avec leur identifiant de message. **Envoyé hors agent ≠ envoyé par
+Prospecto**, et la provenance reste distinguée dans le tableau de bord.
+
 | Mesure | Valeur vérifiée | Correction |
 |---|---:|---|
-| Messages sortis | **60** | conforme |
+| Messages sortis (consolidés) | **68** | 60 production + 8 rapprochés de Gmail |
 | Délivrances **confirmées** | **3** | conforme |
-| Délivrances **non confirmées** | **56** | le brief indiquait 55 |
+| Délivrances **non confirmées** | **63** | 55 au brief, 56 au 07/11, 63 après rapprochement |
 | Rebonds durs | **1** | conforme |
 | Rebonds souples | 0 | — |
 | Réponses automatiques | 2 | — |
 | Challenges de délivrance | **1** | Mailinblack, non validé |
 | Réponses humaines | 1 | l'opposition Renarde |
 | Oppositions | 1 | — |
-| Taux de rebond | 1,7 % | — |
+| Taux de rebond | 1,5 % | 1 rebond / 68 messages |
 
 **Rappel de lecture, non négociable :** *délivrance non confirmée* ≠ *échec de
-délivrance*. Sur 60 envois, 3 sont prouvés par un accusé ou une réponse
-humaine ; les 56 autres sont **sans preuve**, ni dans un sens ni dans l'autre.
+délivrance*. Sur 68 messages sortis, 3 sont prouvés par un accusé ou une réponse
+humaine ; les 63 autres sont **sans preuve**, ni dans un sens ni dans l'autre.
 L'absence de rebond ne prouve pas la remise en boîte de réception : un message
 peut être accepté puis classé en indésirable sans jamais générer de rebond.
 
@@ -33,8 +42,8 @@ Les cinq états à ne jamais confondre, et ce que nous savons réellement :
 
 | État | Preuve nécessaire | Notre situation |
 |---|---|---|
-| Envoyé | entrée dans le journal | 60 |
-| Accepté par Gmail | identifiant de message renvoyé | 60 |
+| Envoyé | journal de production **ou** message `SENT` constaté dans Gmail | 68 |
+| Accepté par Gmail | identifiant de message renvoyé | 68 |
 | Délivré | accusé, webhook ESP ou réponse | **3** |
 | Lu | aucune (pixel non fiable, non utilisé) | **inconnu** |
 | Répondu | message entrant d'un humain | 1 |
@@ -69,7 +78,7 @@ que aucune configuration ne peut contourner :
    **Il n'est pas question de la contourner.**
 
 Conclusion : un **domaine professionnel dédié n'est pas une optimisation, c'est
-un prérequis**. Tant qu'il n'existe pas, les 10 brouillons ne peuvent pas partir
+un prérequis**. Tant qu'il n'existe pas, les 2 brouillons restants ne peuvent pas partir
 proprement, quel que soit le reste.
 
 ### Problème de mesure, distinct du problème d'envoi
@@ -88,7 +97,7 @@ n'a été créé et aucune offre n'a été souscrite dans cette mission.
 
 | Solution | Coût récurrent | Authentification | Gestion rebonds / désabonnement | Limites | Verdict |
 |---|---|---|---|---|---|
-| **Domaine seul + SMTP d'un hébergeur mutualisé** (OVH, Infomaniak inclus) | **0 €** en plus du domaine | SPF/DKIM fournis, DMARC à publier | à faire soi-disant | quota horaire faible, réputation partagée | viable pour < 50/jour |
+| **Domaine seul + SMTP d'un hébergeur mutualisé** (OVH, Infomaniak inclus) | **0 €** en plus du domaine | SPF/DKIM fournis, DMARC à publier | à construire soi-même | quota horaire faible, réputation partagée | viable pour < 50/jour |
 | **Domaine + Brevo offre gratuite** | **0 €** | SPF/DKIM guidés, DMARC à publier | **fournis** (webhooks, désinscription) | ~300 e-mails/jour | **recommandé pour démarrer** |
 | **Domaine + Amazon SES** | ~**0,10 $ / 1 000** e-mails | SPF/DKIM/DMARC à publier | webhooks SNS à câbler | sortie de bac à sable à demander, mise en œuvre technique | le moins cher au volume |
 | **Domaine + Google Workspace Starter** | ~**6 €/utilisateur/mois** | DKIM en un clic | non fournis pour la prospection | ~2 000/jour, prospection de masse encadrée | coûteux, n'apporte pas la mesure |
@@ -106,6 +115,10 @@ prestataire d'envoi apporte **la gestion des rebonds et des désabonnements par
 webhooks**, c'est-à-dire exactement la mesure qui nous manque. Avec SES il
 faudrait la construire. Le surcoût de SES est nul, mais le coût de développement
 est réel.
+
+**Le volume peut rester nul.** Tant que l'envoi n'est pas autorisé, le coût
+récurrent est de **0 €** : aucune offre payante n'est nécessaire pour préparer
+le terrain, et l'absence d'envoi n'est pas un dysfonctionnement à corriger.
 
 **Architecture conseillée :** envoyer depuis un sous-domaine dédié, par exemple
 `envoi.votre-domaine.fr`, et garder la boîte de réception actuelle pour les
@@ -136,6 +149,36 @@ et offre un moyen simple de s'opposer. Les paramètres actuels vont déjà dans 
 sens (`b2b_only`, `identify_sender`, `include_opt_out`,
 `honor_suppression_list`) et doivent rester activés. Ce n'est pas un avis
 juridique : à faire confirmer avant tout envoi en volume.
+
+### Architecture événementielle : livraison, rebond, plainte, réponse
+
+Quatre familles d'événements, quatre traitements. Les confondre est la cause
+directe de l'incertitude actuelle sur 63 messages.
+
+| Événement | Source de preuve | Traitement | Statut CRM résultant |
+|---|---|---|---|
+| **Livraison** (`delivered`) | webhook du prestataire, ou accusé / réponse humaine | horodater, rattacher par identifiant de message | `délivré` — **seul cas** autorisant ce statut |
+| **Rebond dur** (`hard_bounce`) | webhook, ou notification du serveur destinataire | ajouter à `data/suppression.json`, ne **jamais** réécrire | `rebond` |
+| **Rebond souple** (`soft_bounce`) | webhook | nouvelle tentative bornée, puis abandon | `à réessayer` puis `rebond` |
+| **Plainte** (`spam_complaint`) | boucle de rétroaction du prestataire | suppression **du domaine**, arrêt de la campagne | `opposition` |
+| **Réponse humaine** | message entrant d'un correspondant identifié | revue humaine ; tarif, devis ou engagement ⇒ brouillon soumis à validation | `répondu` |
+| **Réponse automatique** | en-têtes `Auto-Submitted`, accusé de vacances | journaliser, **ne pas** compter comme intérêt | inchangé |
+| **Opposition** | mots-clés explicites du destinataire | suppression immédiate et définitive | `opposition` |
+
+Trois règles de rattachement, tirées des erreurs réellement rencontrées :
+
+1. **Rapprocher par identifiant de message**, jamais par seule adresse : une
+   même entreprise peut avoir reçu plusieurs messages.
+2. **Un identifiant de fil n'est pas un identifiant de message.** Un fil peut
+   contenir un seul message — c'est le cas du brouillon Caléo vérifié le 09/11.
+3. **Aucun événement ≠ aucune information.** Sans webhook, l'état reste
+   `délivrance non confirmée`, jamais `délivré` par défaut.
+
+Aujourd'hui, seuls les événements observables **dans Gmail** sont traités
+(rebonds, accusés, réponses, oppositions). Les événements `delivered`,
+`soft_bounce` et `spam_complaint` **n'existent pas dans nos données** : ils
+requièrent le prestataire d'envoi de l'étape 3. C'est une limite structurelle de
+mesure, pas un défaut conjoncturel.
 
 ---
 
@@ -191,7 +234,11 @@ lus et d'un cycle remise/rebond mesuré de bout en bout.
 - `dry_run=true` — inchangé.
 - Pré-vol `(False, 3 motifs)` — inchangé.
 - **Aucun DNS modifié, aucun achat, aucune souscription, aucun contournement.**
-- Les **10 brouillons** restent en attente de votre validation.
+- Les **2 brouillons restants** (Caléo Tests & Services, Pépinières Ripaud)
+  restent en attente de votre validation. Ils ont été relus intégralement dans
+  Gmail le 09/11 et **conservés sans modification** : destinataire, signature
+  officielle, mention d'opposition et personnalisation sont conformes. Les 8
+  autres messages préparés ont été envoyés hors agent le 09/11 et rapprochés.
 
 Le chemin critique est court et il ne dépend pas de l'agent : **décider du
 domaine, publier quatre enregistrements, brancher les webhooks**. Ensuite
