@@ -1,0 +1,2251 @@
+{
+  "date": "2026-11-07",
+  "section": "C — application v10",
+  "moteur": "v10-priority",
+  "simulation_acceptee": true,
+  "axes_v8_modifies": 0,
+  "fiches_traitees": 92,
+  "fiches_modifiees": 92,
+  "changements": [
+    {
+      "company": "R Premium",
+      "avant": {
+        "commercial_priority": "haute",
+        "commercial_value": 70,
+        "priority_engine_version": "v9-priority",
+        "counter_signals": []
+      },
+      "apres_tier": "haute",
+      "apres_valeur": 70,
+      "penalite": 0
+    },
+    {
+      "company": "Secteur 72",
+      "avant": {
+        "commercial_priority": "haute",
+        "commercial_value": 74,
+        "priority_engine_version": "v9-priority",
+        "counter_signals": [
+          "Paiement en ligne en place"
+        ]
+      },
+      "apres_tier": "haute",
+      "apres_valeur": 74,
+      "penalite": 0
+    },
+    {
+      "company": "Multitech Assistance",
+      "avant": {
+        "commercial_priority": "basse",
+        "commercial_value": 10,
+        "priority_engine_version": "v9-priority",
+        "counter_signals": []
+      },
+      "apres_tier": "basse",
+      "apres_valeur": 10,
+      "penalite": 0
+    },
+    {
+      "company": "Garage Villedieu Automobiles",
+      "avant": {
+        "commercial_priority": "basse",
+        "commercial_value": 10,
+        "priority_engine_version": "v9-priority",
+        "counter_signals": []
+      },
+      "apres_tier": "basse",
+      "apres_valeur": 10,
+      "penalite": 0
+    },
+    {
+      "company": "Le Serrurier d'A Cote",
+      "avant": {
+        "commercial_priority": "basse",
+        "commercial_value": 10,
+        "priority_engine_version": "v9-priority",
+        "counter_signals": []
+      },
+      "apres_tier": "basse",
+      "apres_valeur": 10,
+      "penalite": 0
+    },
+    {
+      "company": "Superchi Architectes",
+      "avant": {
+        "commercial_priority": "basse",
+        "commercial_value": 10,
+        "priority_engine_version": "v9-priority",
+        "counter_signals": []
+      },
+      "apres_tier": "basse",
+      "apres_valeur": 10,
+      "penalite": 0
+    },
+    {
+      "company": "L'Etabli du Menuisier",
+      "avant": {
+        "commercial_priority": "basse",
+        "commercial_value": 10,
+        "priority_engine_version": "v9-priority",
+        "counter_signals": []
+      },
+      "apres_tier": "basse",
+      "apres_valeur": 10,
+      "penalite": 0
+    },
+    {
+      "company": "Quattro Architectes",
+      "avant": {
+        "commercial_priority": "basse",
+        "commercial_value": 10,
+        "priority_engine_version": "v9-priority",
+        "counter_signals": []
+      },
+      "apres_tier": "basse",
+      "apres_valeur": 10,
+      "penalite": 0
+    },
+    {
+      "company": "The Architectes",
+      "avant": {
+        "commercial_priority": "basse",
+        "commercial_value": 10,
+        "priority_engine_version": "v9-priority",
+        "counter_signals": []
+      },
+      "apres_tier": "basse",
+      "apres_valeur": 10,
+      "penalite": 0
+    },
+    {
+      "company": "Akla Architectes",
+      "avant": {
+        "commercial_priority": "basse",
+        "commercial_value": 10,
+        "priority_engine_version": "v9-priority",
+        "counter_signals": []
+      },
+      "apres_tier": "basse",
+      "apres_valeur": 10,
+      "penalite": 0
+    },
+    {
+      "company": "BSP Auto",
+      "avant": {
+        "commercial_priority": "haute",
+        "commercial_value": 70,
+        "priority_engine_version": "v9-priority",
+        "counter_signals": []
+      },
+      "apres_tier": "haute",
+      "apres_valeur": 70,
+      "penalite": 0
+    },
+    {
+      "company": "CERF Athletic Training",
+      "avant": {
+        "commercial_priority": "basse",
+        "commercial_value": 20,
+        "priority_engine_version": "v9-priority",
+        "counter_signals": []
+      },
+      "apres_tier": "basse",
+      "apres_valeur": 20,
+      "penalite": 0
+    },
+    {
+      "company": "Charme de l'Hêtre",
+      "avant": {
+        "commercial_priority": "basse",
+        "commercial_value": 18,
+        "priority_engine_version": "v9-priority",
+        "counter_signals": []
+      },
+      "apres_tier": "basse",
+      "apres_valeur": 18,
+      "penalite": 0
+    },
+    {
+      "company": "Carot's",
+      "avant": {
+        "commercial_priority": "basse",
+        "commercial_value": 18,
+        "priority_engine_version": "v9-priority",
+        "counter_signals": []
+      },
+      "apres_tier": "basse",
+      "apres_valeur": 18,
+      "penalite": 0
+    },
+    {
+      "company": "Matabiau Locker Hub",
+      "avant": {
+        "commercial_priority": "a_approfondir",
+        "commercial_value": 72,
+        "priority_engine_version": "v9-priority",
+        "counter_signals": []
+      },
+      "apres_tier": "a_approfondir",
+      "apres_valeur": 72,
+      "penalite": 0
+    },
+    {
+      "company": "GELA",
+      "avant": {
+        "commercial_priority": "a_approfondir",
+        "commercial_value": 72,
+        "priority_engine_version": "v9-priority",
+        "counter_signals": []
+      },
+      "apres_tier": "a_approfondir",
+      "apres_valeur": 72,
+      "penalite": 0
+    },
+    {
+      "company": "Restaurant traditionnel des quais de Quimper",
+      "avant": {
+        "commercial_priority": "a_approfondir",
+        "commercial_value": 83,
+        "priority_engine_version": "v9-priority",
+        "counter_signals": []
+      },
+      "apres_tier": "a_approfondir",
+      "apres_valeur": 83,
+      "penalite": 0
+    },
+    {
+      "company": "Parfumerie indépendante de Paris",
+      "avant": {
+        "commercial_priority": "a_approfondir",
+        "commercial_value": 72,
+        "priority_engine_version": "v9-priority",
+        "counter_signals": []
+      },
+      "apres_tier": "a_approfondir",
+      "apres_valeur": 72,
+      "penalite": 0
+    },
+    {
+      "company": "Organisme de formation — relance prospects",
+      "avant": {
+        "commercial_priority": "a_approfondir",
+        "commercial_value": 72,
+        "priority_engine_version": "v9-priority",
+        "counter_signals": []
+      },
+      "apres_tier": "a_approfondir",
+      "apres_valeur": 72,
+      "penalite": 0
+    },
+    {
+      "company": "Activité de revente Vinted — outil IA",
+      "avant": {
+        "commercial_priority": "a_approfondir",
+        "commercial_value": 72,
+        "priority_engine_version": "v9-priority",
+        "counter_signals": []
+      },
+      "apres_tier": "a_approfondir",
+      "apres_valeur": 72,
+      "penalite": 0
+    },
+    {
+      "company": "Camping Mer et Camargue — Restaurant Le Pano",
+      "avant": {
+        "commercial_priority": "moyenne",
+        "commercial_value": 47,
+        "priority_engine_version": "v9-priority",
+        "counter_signals": []
+      },
+      "apres_tier": "moyenne",
+      "apres_valeur": 47,
+      "penalite": 0
+    },
+    {
+      "company": "Fabricant de sacs à dos sur mesure",
+      "avant": {
+        "commercial_priority": "a_approfondir",
+        "commercial_value": 72,
+        "priority_engine_version": "v9-priority",
+        "counter_signals": []
+      },
+      "apres_tier": "a_approfondir",
+      "apres_valeur": 72,
+      "penalite": 0
+    },
+    {
+      "company": "Boutique e-commerce de produits haut de gamme",
+      "avant": {
+        "commercial_priority": "a_approfondir",
+        "commercial_value": 72,
+        "priority_engine_version": "v9-priority",
+        "counter_signals": []
+      },
+      "apres_tier": "a_approfondir",
+      "apres_valeur": 72,
+      "penalite": 0
+    },
+    {
+      "company": "Projet de boutique Shopify (dizaine de produits)",
+      "avant": {
+        "commercial_priority": "a_approfondir",
+        "commercial_value": 72,
+        "priority_engine_version": "v9-priority",
+        "counter_signals": []
+      },
+      "apres_tier": "a_approfondir",
+      "apres_valeur": 72,
+      "penalite": 0
+    },
+    {
+      "company": "Vente d'espaces publicitaires TV — outil IA",
+      "avant": {
+        "commercial_priority": "a_approfondir",
+        "commercial_value": 72,
+        "priority_engine_version": "v9-priority",
+        "counter_signals": []
+      },
+      "apres_tier": "a_approfondir",
+      "apres_valeur": 72,
+      "penalite": 0
+    },
+    {
+      "company": "Marque de soins — réponses aux commentaires",
+      "avant": {
+        "commercial_priority": "a_approfondir",
+        "commercial_value": 72,
+        "priority_engine_version": "v9-priority",
+        "counter_signals": []
+      },
+      "apres_tier": "a_approfondir",
+      "apres_valeur": 72,
+      "penalite": 0
+    },
+    {
+      "company": "Camping Le Galet",
+      "avant": {
+        "commercial_priority": "moyenne",
+        "commercial_value": 47,
+        "priority_engine_version": "v9-priority",
+        "counter_signals": []
+      },
+      "apres_tier": "moyenne",
+      "apres_valeur": 47,
+      "penalite": 0
+    },
+    {
+      "company": "Restaurant La Renardière",
+      "avant": {
+        "commercial_priority": "moyenne",
+        "commercial_value": 50,
+        "priority_engine_version": "v9-priority",
+        "counter_signals": []
+      },
+      "apres_tier": "moyenne",
+      "apres_valeur": 50,
+      "penalite": 0
+    },
+    {
+      "company": "Restaurant Les Santons",
+      "avant": {
+        "commercial_priority": "basse",
+        "commercial_value": 23,
+        "priority_engine_version": "v9-priority",
+        "counter_signals": []
+      },
+      "apres_tier": "basse",
+      "apres_valeur": 23,
+      "penalite": 0
+    },
+    {
+      "company": "Centre Équestre de la Renarde",
+      "avant": {
+        "commercial_priority": "moyenne",
+        "commercial_value": 47,
+        "priority_engine_version": "v9-priority",
+        "counter_signals": []
+      },
+      "apres_tier": "moyenne",
+      "apres_valeur": 47,
+      "penalite": 0
+    },
+    {
+      "company": "Domaine Roche des Bancs",
+      "avant": {
+        "commercial_priority": "moyenne",
+        "commercial_value": 47,
+        "priority_engine_version": "v9-priority",
+        "counter_signals": []
+      },
+      "apres_tier": "moyenne",
+      "apres_valeur": 47,
+      "penalite": 0
+    },
+    {
+      "company": "Domaine Courbin Héritage",
+      "avant": {
+        "commercial_priority": "moyenne",
+        "commercial_value": 47,
+        "priority_engine_version": "v9-priority",
+        "counter_signals": []
+      },
+      "apres_tier": "moyenne",
+      "apres_valeur": 47,
+      "penalite": 0
+    },
+    {
+      "company": "iTelecom",
+      "avant": {
+        "commercial_priority": "basse",
+        "commercial_value": 5,
+        "priority_engine_version": "v9-priority",
+        "counter_signals": []
+      },
+      "apres_tier": "basse",
+      "apres_valeur": 5,
+      "penalite": 0
+    },
+    {
+      "company": "K6 Pension",
+      "avant": {
+        "commercial_priority": "moyenne",
+        "commercial_value": 47,
+        "priority_engine_version": "v9-priority",
+        "counter_signals": []
+      },
+      "apres_tier": "moyenne",
+      "apres_valeur": 47,
+      "penalite": 0
+    },
+    {
+      "company": "Séverine Lesourd — Pension & Éducation Canine",
+      "avant": {
+        "commercial_priority": "a_approfondir",
+        "commercial_value": 47,
+        "priority_engine_version": "v9-priority",
+        "counter_signals": []
+      },
+      "apres_tier": "a_approfondir",
+      "apres_valeur": 47,
+      "penalite": 0
+    },
+    {
+      "company": "Centre Cynophile de Ruy",
+      "avant": {
+        "commercial_priority": "moyenne",
+        "commercial_value": 47,
+        "priority_engine_version": "v9-priority",
+        "counter_signals": []
+      },
+      "apres_tier": "moyenne",
+      "apres_valeur": 47,
+      "penalite": 0
+    },
+    {
+      "company": "Base nautique de Picquigny",
+      "avant": {
+        "commercial_priority": "moyenne",
+        "commercial_value": 58,
+        "priority_engine_version": "v9-priority",
+        "counter_signals": []
+      },
+      "apres_tier": "moyenne",
+      "apres_valeur": 58,
+      "penalite": 0
+    },
+    {
+      "company": "Brasserie VDL",
+      "avant": {
+        "commercial_priority": "moyenne",
+        "commercial_value": 58,
+        "priority_engine_version": "v9-priority",
+        "counter_signals": []
+      },
+      "apres_tier": "moyenne",
+      "apres_valeur": 58,
+      "penalite": 0
+    },
+    {
+      "company": "Dance Center",
+      "avant": {
+        "commercial_priority": "moyenne",
+        "commercial_value": 58,
+        "priority_engine_version": "v9-priority",
+        "counter_signals": []
+      },
+      "apres_tier": "moyenne",
+      "apres_valeur": 58,
+      "penalite": 0
+    },
+    {
+      "company": "SAM31",
+      "avant": {
+        "commercial_priority": "moyenne",
+        "commercial_value": 58,
+        "priority_engine_version": "v9-priority",
+        "counter_signals": []
+      },
+      "apres_tier": "moyenne",
+      "apres_valeur": 58,
+      "penalite": 0
+    },
+    {
+      "company": "La Bruchoise / Casa Blu",
+      "avant": {
+        "commercial_priority": "moyenne",
+        "commercial_value": 58,
+        "priority_engine_version": "v9-priority",
+        "counter_signals": []
+      },
+      "apres_tier": "moyenne",
+      "apres_valeur": 58,
+      "penalite": 0
+    },
+    {
+      "company": "L'Occidentale",
+      "avant": {
+        "commercial_priority": "moyenne",
+        "commercial_value": 58,
+        "priority_engine_version": "v9-priority",
+        "counter_signals": []
+      },
+      "apres_tier": "moyenne",
+      "apres_valeur": 58,
+      "penalite": 0
+    },
+    {
+      "company": "Restaurant Le Canotier",
+      "avant": {
+        "commercial_priority": "moyenne",
+        "commercial_value": 58,
+        "priority_engine_version": "v9-priority",
+        "counter_signals": []
+      },
+      "apres_tier": "moyenne",
+      "apres_valeur": 58,
+      "penalite": 0
+    },
+    {
+      "company": "Boucherie Florian",
+      "avant": {
+        "commercial_priority": "moyenne",
+        "commercial_value": 58,
+        "priority_engine_version": "v9-priority",
+        "counter_signals": []
+      },
+      "apres_tier": "moyenne",
+      "apres_valeur": 58,
+      "penalite": 0
+    },
+    {
+      "company": "La Fromagerie Les 2 Alpes",
+      "avant": {
+        "commercial_priority": "moyenne",
+        "commercial_value": 58,
+        "priority_engine_version": "v9-priority",
+        "counter_signals": []
+      },
+      "apres_tier": "moyenne",
+      "apres_valeur": 58,
+      "penalite": 0
+    },
+    {
+      "company": "Fromagerie et Baratte",
+      "avant": {
+        "commercial_priority": "moyenne",
+        "commercial_value": 58,
+        "priority_engine_version": "v9-priority",
+        "counter_signals": []
+      },
+      "apres_tier": "moyenne",
+      "apres_valeur": 58,
+      "penalite": 0
+    },
+    {
+      "company": "La Chocolatisserie",
+      "avant": {
+        "commercial_priority": "moyenne",
+        "commercial_value": 58,
+        "priority_engine_version": "v9-priority",
+        "counter_signals": []
+      },
+      "apres_tier": "moyenne",
+      "apres_valeur": 58,
+      "penalite": 0
+    },
+    {
+      "company": "Matproloc",
+      "avant": {
+        "commercial_priority": "moyenne",
+        "commercial_value": 58,
+        "priority_engine_version": "v9-priority",
+        "counter_signals": []
+      },
+      "apres_tier": "moyenne",
+      "apres_valeur": 58,
+      "penalite": 0
+    },
+    {
+      "company": "Allo'cation",
+      "avant": {
+        "commercial_priority": "moyenne",
+        "commercial_value": 58,
+        "priority_engine_version": "v9-priority",
+        "counter_signals": []
+      },
+      "apres_tier": "moyenne",
+      "apres_valeur": 58,
+      "penalite": 0
+    },
+    {
+      "company": "Restaurant Goudale Orchies",
+      "avant": {
+        "commercial_priority": "moyenne",
+        "commercial_value": 58,
+        "priority_engine_version": "v9-priority",
+        "counter_signals": [
+          "Réservation déjà en ligne"
+        ]
+      },
+      "apres_tier": "moyenne",
+      "apres_valeur": 58,
+      "penalite": 0
+    },
+    {
+      "company": "ATOMER",
+      "avant": {
+        "commercial_priority": "moyenne",
+        "commercial_value": 54,
+        "priority_engine_version": "v9-priority",
+        "counter_signals": []
+      },
+      "apres_tier": "moyenne",
+      "apres_valeur": 54,
+      "penalite": 0
+    },
+    {
+      "company": "NETTOYAGE INDUSTRIEL",
+      "avant": {
+        "commercial_priority": "moyenne",
+        "commercial_value": 69,
+        "priority_engine_version": "v9-priority",
+        "counter_signals": []
+      },
+      "apres_tier": "moyenne",
+      "apres_valeur": 69,
+      "penalite": 0
+    },
+    {
+      "company": "Vignerons et Caviste",
+      "avant": {
+        "commercial_priority": "moyenne",
+        "commercial_value": 61,
+        "priority_engine_version": "v9-priority",
+        "counter_signals": [
+          "Réservation déjà en ligne",
+          "Paiement en ligne en place"
+        ]
+      },
+      "apres_tier": "moyenne",
+      "apres_valeur": 61,
+      "penalite": 0
+    },
+    {
+      "company": "La Caviste",
+      "avant": {
+        "commercial_priority": "moyenne",
+        "commercial_value": 61,
+        "priority_engine_version": "v9-priority",
+        "counter_signals": []
+      },
+      "apres_tier": "moyenne",
+      "apres_valeur": 61,
+      "penalite": 0
+    },
+    {
+      "company": "ALPHA MECANIQUE",
+      "avant": {
+        "commercial_priority": "moyenne",
+        "commercial_value": 48,
+        "priority_engine_version": "v9-priority",
+        "counter_signals": []
+      },
+      "apres_tier": "moyenne",
+      "apres_valeur": 48,
+      "penalite": 0
+    },
+    {
+      "company": "SARL Ambulances Sainte-Marie",
+      "avant": {
+        "commercial_priority": "moyenne",
+        "commercial_value": 47,
+        "priority_engine_version": "v9-priority",
+        "counter_signals": []
+      },
+      "apres_tier": "moyenne",
+      "apres_valeur": 47,
+      "penalite": 0
+    },
+    {
+      "company": "Blanchisserie des 3 Régions (B3R)",
+      "avant": {
+        "commercial_priority": "haute",
+        "commercial_value": 95,
+        "priority_engine_version": "v9-priority",
+        "counter_signals": []
+      },
+      "apres_tier": "haute",
+      "apres_valeur": 95,
+      "penalite": 0
+    },
+    {
+      "company": "Celtuce Traiteur",
+      "avant": {
+        "commercial_priority": "moyenne",
+        "commercial_value": 60,
+        "priority_engine_version": "v9-priority",
+        "counter_signals": []
+      },
+      "apres_tier": "moyenne",
+      "apres_valeur": 60,
+      "penalite": 0
+    },
+    {
+      "company": "Mamie Cuisine Traiteur",
+      "avant": {
+        "commercial_priority": "moyenne",
+        "commercial_value": 50,
+        "priority_engine_version": "v9-priority",
+        "counter_signals": []
+      },
+      "apres_tier": "moyenne",
+      "apres_valeur": 50,
+      "penalite": 0
+    },
+    {
+      "company": "Baptiste Break Pâtisserie Traiteur",
+      "avant": {
+        "commercial_priority": "moyenne",
+        "commercial_value": 46,
+        "priority_engine_version": "v9-priority",
+        "counter_signals": []
+      },
+      "apres_tier": "moyenne",
+      "apres_valeur": 46,
+      "penalite": 0
+    },
+    {
+      "company": "SARL Joly Location",
+      "avant": {
+        "commercial_priority": "haute",
+        "commercial_value": 71,
+        "priority_engine_version": "v9-priority",
+        "counter_signals": []
+      },
+      "apres_tier": "haute",
+      "apres_valeur": 71,
+      "penalite": 0
+    },
+    {
+      "company": "SARL Uzès Location",
+      "avant": {
+        "commercial_priority": "moyenne",
+        "commercial_value": 61,
+        "priority_engine_version": "v9-priority",
+        "counter_signals": []
+      },
+      "apres_tier": "moyenne",
+      "apres_valeur": 61,
+      "penalite": 0
+    },
+    {
+      "company": "SAS Maire",
+      "avant": {
+        "commercial_priority": "a_approfondir",
+        "commercial_value": 61,
+        "priority_engine_version": "v9-priority",
+        "counter_signals": []
+      },
+      "apres_tier": "a_approfondir",
+      "apres_valeur": 61,
+      "penalite": 0
+    },
+    {
+      "company": "Techniques Piscine",
+      "avant": {
+        "commercial_priority": "moyenne",
+        "commercial_value": 61,
+        "priority_engine_version": "v9-priority",
+        "counter_signals": []
+      },
+      "apres_tier": "moyenne",
+      "apres_valeur": 61,
+      "penalite": 0
+    },
+    {
+      "company": "France-Hypnose-Formation / France-PNL",
+      "avant": {
+        "commercial_priority": "moyenne",
+        "commercial_value": 50,
+        "priority_engine_version": "v9-priority",
+        "counter_signals": [
+          "Paiement en ligne en place"
+        ]
+      },
+      "apres_tier": "moyenne",
+      "apres_valeur": 50,
+      "penalite": 0
+    },
+    {
+      "company": "Atoutransport",
+      "avant": {
+        "commercial_priority": "moyenne",
+        "commercial_value": 55,
+        "priority_engine_version": "v9-priority",
+        "counter_signals": []
+      },
+      "apres_tier": "moyenne",
+      "apres_valeur": 55,
+      "penalite": 0
+    },
+    {
+      "company": "Bonbon Foliz",
+      "avant": {
+        "commercial_priority": "moyenne",
+        "commercial_value": 54,
+        "priority_engine_version": "v9-priority",
+        "counter_signals": []
+      },
+      "apres_tier": "moyenne",
+      "apres_valeur": 54,
+      "penalite": 0
+    },
+    {
+      "company": "L'Ô de Claise",
+      "avant": {
+        "commercial_priority": "moyenne",
+        "commercial_value": 61,
+        "priority_engine_version": "v9-priority",
+        "counter_signals": [
+          "Réservation déjà en ligne"
+        ]
+      },
+      "apres_tier": "moyenne",
+      "apres_valeur": 61,
+      "penalite": 0
+    },
+    {
+      "company": "Bulles & Détente",
+      "avant": {
+        "commercial_priority": "moyenne",
+        "commercial_value": 47,
+        "priority_engine_version": "v9-priority",
+        "counter_signals": []
+      },
+      "apres_tier": "moyenne",
+      "apres_valeur": 47,
+      "penalite": 0
+    },
+    {
+      "company": "Pépinières Ripaud",
+      "avant": {
+        "commercial_priority": "moyenne",
+        "commercial_value": 55,
+        "priority_engine_version": "v9-priority",
+        "counter_signals": []
+      },
+      "apres_tier": "moyenne",
+      "apres_valeur": 55,
+      "penalite": 0
+    },
+    {
+      "company": "Le Centre Formation",
+      "avant": {
+        "commercial_priority": "moyenne",
+        "commercial_value": 47,
+        "priority_engine_version": "v9-priority",
+        "counter_signals": [
+          "Compte ou espace client existant"
+        ]
+      },
+      "apres_tier": "moyenne",
+      "apres_valeur": 47,
+      "penalite": 0
+    },
+    {
+      "company": "Kévin Jenback — Couverture, zinguerie, ramonage",
+      "avant": {
+        "commercial_priority": "haute",
+        "commercial_value": 73,
+        "priority_engine_version": "v9-priority",
+        "counter_signals": []
+      },
+      "apres_tier": "haute",
+      "apres_valeur": 73,
+      "penalite": 0
+    },
+    {
+      "company": "MSF PRO Industries",
+      "avant": {
+        "commercial_priority": "moyenne",
+        "commercial_value": 60,
+        "priority_engine_version": "v9-priority",
+        "counter_signals": []
+      },
+      "apres_tier": "moyenne",
+      "apres_valeur": 60,
+      "penalite": 0
+    },
+    {
+      "company": "Beaujolais Réception",
+      "avant": {
+        "commercial_priority": "a_approfondir",
+        "commercial_value": 67,
+        "priority_engine_version": "v9-priority",
+        "counter_signals": []
+      },
+      "apres_tier": "a_approfondir",
+      "apres_valeur": 67,
+      "penalite": 0
+    },
+    {
+      "company": "Caléo Tests & Services",
+      "avant": {
+        "commercial_priority": "moyenne",
+        "commercial_value": 61,
+        "priority_engine_version": "v9-priority",
+        "counter_signals": []
+      },
+      "apres_tier": "moyenne",
+      "apres_valeur": 61,
+      "penalite": 0
+    },
+    {
+      "company": "Cordonnerie Canfora David",
+      "avant": {
+        "commercial_priority": "moyenne",
+        "commercial_value": 63,
+        "priority_engine_version": "v9-priority",
+        "counter_signals": []
+      },
+      "apres_tier": "moyenne",
+      "apres_valeur": 63,
+      "penalite": 0
+    },
+    {
+      "company": "Froger Étanchéité",
+      "avant": {
+        "commercial_priority": "moyenne",
+        "commercial_value": 62,
+        "priority_engine_version": "v9-priority",
+        "counter_signals": []
+      },
+      "apres_tier": "moyenne",
+      "apres_valeur": 62,
+      "penalite": 0
+    },
+    {
+      "company": "Cordes et Âme",
+      "avant": {
+        "commercial_priority": "moyenne",
+        "commercial_value": 50,
+        "priority_engine_version": "v9-priority",
+        "counter_signals": [
+          "Paiement en ligne en place"
+        ]
+      },
+      "apres_tier": "basse",
+      "apres_valeur": 39,
+      "penalite": 11
+    },
+    {
+      "company": "O Lames Déchues",
+      "avant": {
+        "commercial_priority": "haute",
+        "commercial_value": 71,
+        "priority_engine_version": "v9-priority",
+        "counter_signals": []
+      },
+      "apres_tier": "haute",
+      "apres_valeur": 71,
+      "penalite": 0
+    },
+    {
+      "company": "Zicplace",
+      "avant": {
+        "commercial_priority": "moyenne",
+        "commercial_value": 68,
+        "priority_engine_version": "v9-priority",
+        "counter_signals": []
+      },
+      "apres_tier": "moyenne",
+      "apres_valeur": 57,
+      "penalite": 11
+    },
+    {
+      "company": "Atelier du Bourrelier",
+      "avant": {
+        "commercial_priority": "haute",
+        "commercial_value": 75,
+        "priority_engine_version": "v9-priority",
+        "counter_signals": []
+      },
+      "apres_tier": "haute",
+      "apres_valeur": 75,
+      "penalite": 0
+    },
+    {
+      "company": "Étanchéité Nantaise",
+      "avant": {
+        "commercial_priority": "moyenne",
+        "commercial_value": 50,
+        "priority_engine_version": "v9-priority",
+        "counter_signals": []
+      },
+      "apres_tier": "moyenne",
+      "apres_valeur": 50,
+      "penalite": 0
+    },
+    {
+      "company": "Alain Louis — Naturaliste taxidermiste",
+      "avant": {
+        "commercial_priority": "moyenne",
+        "commercial_value": 68,
+        "priority_engine_version": "v9-priority",
+        "counter_signals": []
+      },
+      "apres_tier": "moyenne",
+      "apres_valeur": 68,
+      "penalite": 0
+    },
+    {
+      "company": "Fermetures Leichnam",
+      "avant": {
+        "commercial_priority": "moyenne",
+        "commercial_value": 68,
+        "priority_engine_version": "v9-priority",
+        "counter_signals": []
+      },
+      "apres_tier": "moyenne",
+      "apres_valeur": 68,
+      "penalite": 0
+    },
+    {
+      "company": "Forages Berenguer",
+      "avant": {
+        "commercial_priority": "moyenne",
+        "commercial_value": 50,
+        "priority_engine_version": "v9-priority",
+        "counter_signals": []
+      },
+      "apres_tier": "basse",
+      "apres_valeur": 39,
+      "penalite": 11
+    },
+    {
+      "company": "Ouest Affûtage",
+      "avant": {
+        "commercial_priority": "haute",
+        "commercial_value": 71,
+        "priority_engine_version": "v9-priority",
+        "counter_signals": []
+      },
+      "apres_tier": "moyenne",
+      "apres_valeur": 60,
+      "penalite": 11
+    },
+    {
+      "company": "Sellerie Industrielle de l'Est",
+      "avant": {
+        "commercial_priority": "moyenne",
+        "commercial_value": 50,
+        "priority_engine_version": "v9-priority",
+        "counter_signals": []
+      },
+      "apres_tier": "basse",
+      "apres_valeur": 39,
+      "penalite": 11
+    },
+    {
+      "company": "Scierie Labrue",
+      "avant": {
+        "commercial_priority": "haute",
+        "commercial_value": 71,
+        "priority_engine_version": "v9-priority",
+        "counter_signals": []
+      },
+      "apres_tier": "moyenne",
+      "apres_valeur": 60,
+      "penalite": 11
+    },
+    {
+      "company": "D2Bois",
+      "avant": {
+        "commercial_priority": "moyenne",
+        "commercial_value": 68,
+        "priority_engine_version": "v9-priority",
+        "counter_signals": []
+      },
+      "apres_tier": "moyenne",
+      "apres_valeur": 68,
+      "penalite": 0
+    },
+    {
+      "company": "Menuiserie Mirolo",
+      "avant": {
+        "commercial_priority": "haute",
+        "commercial_value": 71,
+        "priority_engine_version": "v9-priority",
+        "counter_signals": []
+      },
+      "apres_tier": "moyenne",
+      "apres_valeur": 60,
+      "penalite": 11
+    },
+    {
+      "company": "Delahautemaison",
+      "avant": {
+        "commercial_priority": "moyenne",
+        "commercial_value": 54,
+        "priority_engine_version": "v9-priority",
+        "counter_signals": []
+      },
+      "apres_tier": "basse",
+      "apres_valeur": 26,
+      "penalite": 28
+    },
+    {
+      "company": "ERM 27",
+      "avant": {
+        "commercial_priority": "haute",
+        "commercial_value": 71,
+        "priority_engine_version": "v9-priority",
+        "counter_signals": []
+      },
+      "apres_tier": "moyenne",
+      "apres_valeur": 47,
+      "penalite": 24
+    }
+  ],
+  "crm_before": [
+    {
+      "company": "R Premium",
+      "commercial_priority": "haute",
+      "commercial_value": 70,
+      "priority_engine_version": "v9-priority",
+      "counter_signals": [],
+      "axes_v8": {
+        "site_web": 5,
+        "refonte": 25,
+        "ia_automatisation": 0
+      }
+    },
+    {
+      "company": "Secteur 72",
+      "commercial_priority": "haute",
+      "commercial_value": 74,
+      "priority_engine_version": "v9-priority",
+      "counter_signals": [
+        "Paiement en ligne en place"
+      ],
+      "axes_v8": {
+        "site_web": 39,
+        "refonte": 25,
+        "ia_automatisation": 0
+      }
+    },
+    {
+      "company": "Multitech Assistance",
+      "commercial_priority": "basse",
+      "commercial_value": 10,
+      "priority_engine_version": "v9-priority",
+      "counter_signals": [],
+      "axes_v8": {
+        "site_web": 5,
+        "refonte": 5,
+        "ia_automatisation": 0
+      }
+    },
+    {
+      "company": "Garage Villedieu Automobiles",
+      "commercial_priority": "basse",
+      "commercial_value": 10,
+      "priority_engine_version": "v9-priority",
+      "counter_signals": [],
+      "axes_v8": {
+        "site_web": 5,
+        "refonte": 5,
+        "ia_automatisation": 0
+      }
+    },
+    {
+      "company": "Le Serrurier d'A Cote",
+      "commercial_priority": "basse",
+      "commercial_value": 10,
+      "priority_engine_version": "v9-priority",
+      "counter_signals": [],
+      "axes_v8": {
+        "site_web": 5,
+        "refonte": 5,
+        "ia_automatisation": 0
+      }
+    },
+    {
+      "company": "Superchi Architectes",
+      "commercial_priority": "basse",
+      "commercial_value": 10,
+      "priority_engine_version": "v9-priority",
+      "counter_signals": [],
+      "axes_v8": {
+        "site_web": 5,
+        "refonte": 5,
+        "ia_automatisation": 0
+      }
+    },
+    {
+      "company": "L'Etabli du Menuisier",
+      "commercial_priority": "basse",
+      "commercial_value": 10,
+      "priority_engine_version": "v9-priority",
+      "counter_signals": [],
+      "axes_v8": {
+        "site_web": 5,
+        "refonte": 5,
+        "ia_automatisation": 0
+      }
+    },
+    {
+      "company": "Quattro Architectes",
+      "commercial_priority": "basse",
+      "commercial_value": 10,
+      "priority_engine_version": "v9-priority",
+      "counter_signals": [],
+      "axes_v8": {
+        "site_web": 5,
+        "refonte": 5,
+        "ia_automatisation": 0
+      }
+    },
+    {
+      "company": "The Architectes",
+      "commercial_priority": "basse",
+      "commercial_value": 10,
+      "priority_engine_version": "v9-priority",
+      "counter_signals": [],
+      "axes_v8": {
+        "site_web": 5,
+        "refonte": 5,
+        "ia_automatisation": 0
+      }
+    },
+    {
+      "company": "Akla Architectes",
+      "commercial_priority": "basse",
+      "commercial_value": 10,
+      "priority_engine_version": "v9-priority",
+      "counter_signals": [],
+      "axes_v8": {
+        "site_web": 5,
+        "refonte": 5,
+        "ia_automatisation": 0
+      }
+    },
+    {
+      "company": "BSP Auto",
+      "commercial_priority": "haute",
+      "commercial_value": 70,
+      "priority_engine_version": "v9-priority",
+      "counter_signals": [],
+      "axes_v8": {
+        "site_web": 5,
+        "refonte": 15,
+        "ia_automatisation": 0
+      }
+    },
+    {
+      "company": "CERF Athletic Training",
+      "commercial_priority": "basse",
+      "commercial_value": 20,
+      "priority_engine_version": "v9-priority",
+      "counter_signals": [],
+      "axes_v8": {
+        "site_web": 5,
+        "refonte": 5,
+        "ia_automatisation": 0
+      }
+    },
+    {
+      "company": "Charme de l'Hêtre",
+      "commercial_priority": "basse",
+      "commercial_value": 18,
+      "priority_engine_version": "v9-priority",
+      "counter_signals": [],
+      "axes_v8": {
+        "site_web": 0,
+        "refonte": 0,
+        "ia_automatisation": 0
+      }
+    },
+    {
+      "company": "Carot's",
+      "commercial_priority": "basse",
+      "commercial_value": 18,
+      "priority_engine_version": "v9-priority",
+      "counter_signals": [],
+      "axes_v8": {
+        "site_web": 0,
+        "refonte": 0,
+        "ia_automatisation": 0
+      }
+    },
+    {
+      "company": "Matabiau Locker Hub",
+      "commercial_priority": "a_approfondir",
+      "commercial_value": 72,
+      "priority_engine_version": "v9-priority",
+      "counter_signals": [],
+      "axes_v8": {
+        "site_web": 34,
+        "refonte": 10,
+        "ia_automatisation": 34
+      }
+    },
+    {
+      "company": "GELA",
+      "commercial_priority": "a_approfondir",
+      "commercial_value": 72,
+      "priority_engine_version": "v9-priority",
+      "counter_signals": [],
+      "axes_v8": {
+        "site_web": 0,
+        "refonte": 10,
+        "ia_automatisation": 34
+      }
+    },
+    {
+      "company": "Restaurant traditionnel des quais de Quimper",
+      "commercial_priority": "a_approfondir",
+      "commercial_value": 83,
+      "priority_engine_version": "v9-priority",
+      "counter_signals": [],
+      "axes_v8": {
+        "site_web": 34,
+        "refonte": 10,
+        "ia_automatisation": 60
+      }
+    },
+    {
+      "company": "Parfumerie indépendante de Paris",
+      "commercial_priority": "a_approfondir",
+      "commercial_value": 72,
+      "priority_engine_version": "v9-priority",
+      "counter_signals": [],
+      "axes_v8": {
+        "site_web": 34,
+        "refonte": 10,
+        "ia_automatisation": 0
+      }
+    },
+    {
+      "company": "Organisme de formation — relance prospects",
+      "commercial_priority": "a_approfondir",
+      "commercial_value": 72,
+      "priority_engine_version": "v9-priority",
+      "counter_signals": [],
+      "axes_v8": {
+        "site_web": 0,
+        "refonte": 10,
+        "ia_automatisation": 34
+      }
+    },
+    {
+      "company": "Activité de revente Vinted — outil IA",
+      "commercial_priority": "a_approfondir",
+      "commercial_value": 72,
+      "priority_engine_version": "v9-priority",
+      "counter_signals": [],
+      "axes_v8": {
+        "site_web": 0,
+        "refonte": 10,
+        "ia_automatisation": 34
+      }
+    },
+    {
+      "company": "Camping Mer et Camargue — Restaurant Le Pano",
+      "commercial_priority": "moyenne",
+      "commercial_value": 47,
+      "priority_engine_version": "v9-priority",
+      "counter_signals": [],
+      "axes_v8": {
+        "site_web": 5,
+        "refonte": 31,
+        "ia_automatisation": 22
+      }
+    },
+    {
+      "company": "Fabricant de sacs à dos sur mesure",
+      "commercial_priority": "a_approfondir",
+      "commercial_value": 72,
+      "priority_engine_version": "v9-priority",
+      "counter_signals": [],
+      "axes_v8": {
+        "site_web": 34,
+        "refonte": 10,
+        "ia_automatisation": 0
+      }
+    },
+    {
+      "company": "Boutique e-commerce de produits haut de gamme",
+      "commercial_priority": "a_approfondir",
+      "commercial_value": 72,
+      "priority_engine_version": "v9-priority",
+      "counter_signals": [],
+      "axes_v8": {
+        "site_web": 34,
+        "refonte": 10,
+        "ia_automatisation": 0
+      }
+    },
+    {
+      "company": "Projet de boutique Shopify (dizaine de produits)",
+      "commercial_priority": "a_approfondir",
+      "commercial_value": 72,
+      "priority_engine_version": "v9-priority",
+      "counter_signals": [],
+      "axes_v8": {
+        "site_web": 34,
+        "refonte": 10,
+        "ia_automatisation": 0
+      }
+    },
+    {
+      "company": "Vente d'espaces publicitaires TV — outil IA",
+      "commercial_priority": "a_approfondir",
+      "commercial_value": 72,
+      "priority_engine_version": "v9-priority",
+      "counter_signals": [],
+      "axes_v8": {
+        "site_web": 0,
+        "refonte": 10,
+        "ia_automatisation": 34
+      }
+    },
+    {
+      "company": "Marque de soins — réponses aux commentaires",
+      "commercial_priority": "a_approfondir",
+      "commercial_value": 72,
+      "priority_engine_version": "v9-priority",
+      "counter_signals": [],
+      "axes_v8": {
+        "site_web": 0,
+        "refonte": 10,
+        "ia_automatisation": 34
+      }
+    },
+    {
+      "company": "Camping Le Galet",
+      "commercial_priority": "moyenne",
+      "commercial_value": 47,
+      "priority_engine_version": "v9-priority",
+      "counter_signals": [],
+      "axes_v8": {
+        "site_web": 5,
+        "refonte": 31,
+        "ia_automatisation": 22
+      }
+    },
+    {
+      "company": "Restaurant La Renardière",
+      "commercial_priority": "moyenne",
+      "commercial_value": 50,
+      "priority_engine_version": "v9-priority",
+      "counter_signals": [],
+      "axes_v8": {
+        "site_web": 5,
+        "refonte": 31,
+        "ia_automatisation": 39
+      }
+    },
+    {
+      "company": "Restaurant Les Santons",
+      "commercial_priority": "basse",
+      "commercial_value": 23,
+      "priority_engine_version": "v9-priority",
+      "counter_signals": [],
+      "axes_v8": {
+        "site_web": 5,
+        "refonte": 5,
+        "ia_automatisation": 12
+      }
+    },
+    {
+      "company": "Centre Équestre de la Renarde",
+      "commercial_priority": "moyenne",
+      "commercial_value": 47,
+      "priority_engine_version": "v9-priority",
+      "counter_signals": [],
+      "axes_v8": {
+        "site_web": 5,
+        "refonte": 31,
+        "ia_automatisation": 17
+      }
+    },
+    {
+      "company": "Domaine Roche des Bancs",
+      "commercial_priority": "moyenne",
+      "commercial_value": 47,
+      "priority_engine_version": "v9-priority",
+      "counter_signals": [],
+      "axes_v8": {
+        "site_web": 5,
+        "refonte": 31,
+        "ia_automatisation": 22
+      }
+    },
+    {
+      "company": "Domaine Courbin Héritage",
+      "commercial_priority": "moyenne",
+      "commercial_value": 47,
+      "priority_engine_version": "v9-priority",
+      "counter_signals": [],
+      "axes_v8": {
+        "site_web": 5,
+        "refonte": 31,
+        "ia_automatisation": 31
+      }
+    },
+    {
+      "company": "iTelecom",
+      "commercial_priority": "basse",
+      "commercial_value": 5,
+      "priority_engine_version": "v9-priority",
+      "counter_signals": [],
+      "axes_v8": {
+        "site_web": 5,
+        "refonte": 15,
+        "ia_automatisation": 0
+      }
+    },
+    {
+      "company": "K6 Pension",
+      "commercial_priority": "moyenne",
+      "commercial_value": 47,
+      "priority_engine_version": "v9-priority",
+      "counter_signals": [],
+      "axes_v8": {
+        "site_web": 5,
+        "refonte": 31,
+        "ia_automatisation": 22
+      }
+    },
+    {
+      "company": "Séverine Lesourd — Pension & Éducation Canine",
+      "commercial_priority": "a_approfondir",
+      "commercial_value": 47,
+      "priority_engine_version": "v9-priority",
+      "counter_signals": [],
+      "axes_v8": {
+        "site_web": 5,
+        "refonte": 31,
+        "ia_automatisation": 22
+      }
+    },
+    {
+      "company": "Centre Cynophile de Ruy",
+      "commercial_priority": "moyenne",
+      "commercial_value": 47,
+      "priority_engine_version": "v9-priority",
+      "counter_signals": [],
+      "axes_v8": {
+        "site_web": 5,
+        "refonte": 31,
+        "ia_automatisation": 17
+      }
+    },
+    {
+      "company": "Base nautique de Picquigny",
+      "commercial_priority": "moyenne",
+      "commercial_value": 58,
+      "priority_engine_version": "v9-priority",
+      "counter_signals": [],
+      "axes_v8": {
+        "site_web": 5,
+        "refonte": 57,
+        "ia_automatisation": 56
+      }
+    },
+    {
+      "company": "Brasserie VDL",
+      "commercial_priority": "moyenne",
+      "commercial_value": 58,
+      "priority_engine_version": "v9-priority",
+      "counter_signals": [],
+      "axes_v8": {
+        "site_web": 5,
+        "refonte": 57,
+        "ia_automatisation": 46
+      }
+    },
+    {
+      "company": "Dance Center",
+      "commercial_priority": "moyenne",
+      "commercial_value": 58,
+      "priority_engine_version": "v9-priority",
+      "counter_signals": [],
+      "axes_v8": {
+        "site_web": 5,
+        "refonte": 57,
+        "ia_automatisation": 39
+      }
+    },
+    {
+      "company": "SAM31",
+      "commercial_priority": "moyenne",
+      "commercial_value": 58,
+      "priority_engine_version": "v9-priority",
+      "counter_signals": [],
+      "axes_v8": {
+        "site_web": 5,
+        "refonte": 57,
+        "ia_automatisation": 44
+      }
+    },
+    {
+      "company": "La Bruchoise / Casa Blu",
+      "commercial_priority": "moyenne",
+      "commercial_value": 58,
+      "priority_engine_version": "v9-priority",
+      "counter_signals": [],
+      "axes_v8": {
+        "site_web": 5,
+        "refonte": 57,
+        "ia_automatisation": 41
+      }
+    },
+    {
+      "company": "L'Occidentale",
+      "commercial_priority": "moyenne",
+      "commercial_value": 58,
+      "priority_engine_version": "v9-priority",
+      "counter_signals": [],
+      "axes_v8": {
+        "site_web": 5,
+        "refonte": 57,
+        "ia_automatisation": 39
+      }
+    },
+    {
+      "company": "Restaurant Le Canotier",
+      "commercial_priority": "moyenne",
+      "commercial_value": 58,
+      "priority_engine_version": "v9-priority",
+      "counter_signals": [],
+      "axes_v8": {
+        "site_web": 5,
+        "refonte": 57,
+        "ia_automatisation": 41
+      }
+    },
+    {
+      "company": "Boucherie Florian",
+      "commercial_priority": "moyenne",
+      "commercial_value": 58,
+      "priority_engine_version": "v9-priority",
+      "counter_signals": [],
+      "axes_v8": {
+        "site_web": 5,
+        "refonte": 57,
+        "ia_automatisation": 22
+      }
+    },
+    {
+      "company": "La Fromagerie Les 2 Alpes",
+      "commercial_priority": "moyenne",
+      "commercial_value": 58,
+      "priority_engine_version": "v9-priority",
+      "counter_signals": [],
+      "axes_v8": {
+        "site_web": 5,
+        "refonte": 57,
+        "ia_automatisation": 40
+      }
+    },
+    {
+      "company": "Fromagerie et Baratte",
+      "commercial_priority": "moyenne",
+      "commercial_value": 58,
+      "priority_engine_version": "v9-priority",
+      "counter_signals": [],
+      "axes_v8": {
+        "site_web": 5,
+        "refonte": 57,
+        "ia_automatisation": 22
+      }
+    },
+    {
+      "company": "La Chocolatisserie",
+      "commercial_priority": "moyenne",
+      "commercial_value": 58,
+      "priority_engine_version": "v9-priority",
+      "counter_signals": [],
+      "axes_v8": {
+        "site_web": 5,
+        "refonte": 57,
+        "ia_automatisation": 22
+      }
+    },
+    {
+      "company": "Matproloc",
+      "commercial_priority": "moyenne",
+      "commercial_value": 58,
+      "priority_engine_version": "v9-priority",
+      "counter_signals": [],
+      "axes_v8": {
+        "site_web": 5,
+        "refonte": 57,
+        "ia_automatisation": 22
+      }
+    },
+    {
+      "company": "Allo'cation",
+      "commercial_priority": "moyenne",
+      "commercial_value": 58,
+      "priority_engine_version": "v9-priority",
+      "counter_signals": [],
+      "axes_v8": {
+        "site_web": 5,
+        "refonte": 57,
+        "ia_automatisation": 0
+      }
+    },
+    {
+      "company": "Restaurant Goudale Orchies",
+      "commercial_priority": "moyenne",
+      "commercial_value": 58,
+      "priority_engine_version": "v9-priority",
+      "counter_signals": [
+        "Réservation déjà en ligne"
+      ],
+      "axes_v8": {
+        "site_web": 5,
+        "refonte": 57,
+        "ia_automatisation": 26
+      }
+    },
+    {
+      "company": "ATOMER",
+      "commercial_priority": "moyenne",
+      "commercial_value": 54,
+      "priority_engine_version": "v9-priority",
+      "counter_signals": [],
+      "axes_v8": {
+        "site_web": 5,
+        "refonte": 47,
+        "ia_automatisation": 44
+      }
+    },
+    {
+      "company": "NETTOYAGE INDUSTRIEL",
+      "commercial_priority": "moyenne",
+      "commercial_value": 69,
+      "priority_engine_version": "v9-priority",
+      "counter_signals": [],
+      "axes_v8": {
+        "site_web": 5,
+        "refonte": 73,
+        "ia_automatisation": 0
+      }
+    },
+    {
+      "company": "Vignerons et Caviste",
+      "commercial_priority": "moyenne",
+      "commercial_value": 61,
+      "priority_engine_version": "v9-priority",
+      "counter_signals": [
+        "Réservation déjà en ligne",
+        "Paiement en ligne en place"
+      ],
+      "axes_v8": {
+        "site_web": 5,
+        "refonte": 65,
+        "ia_automatisation": 0
+      }
+    },
+    {
+      "company": "La Caviste",
+      "commercial_priority": "moyenne",
+      "commercial_value": 61,
+      "priority_engine_version": "v9-priority",
+      "counter_signals": [],
+      "axes_v8": {
+        "site_web": 5,
+        "refonte": 65,
+        "ia_automatisation": 34
+      }
+    },
+    {
+      "company": "ALPHA MECANIQUE",
+      "commercial_priority": "moyenne",
+      "commercial_value": 48,
+      "priority_engine_version": "v9-priority",
+      "counter_signals": [],
+      "axes_v8": {
+        "site_web": 5,
+        "refonte": 5,
+        "ia_automatisation": 34
+      }
+    },
+    {
+      "company": "SARL Ambulances Sainte-Marie",
+      "commercial_priority": "moyenne",
+      "commercial_value": 47,
+      "priority_engine_version": "v9-priority",
+      "counter_signals": [],
+      "axes_v8": {
+        "site_web": 5,
+        "refonte": 31,
+        "ia_automatisation": 12
+      }
+    },
+    {
+      "company": "Blanchisserie des 3 Régions (B3R)",
+      "commercial_priority": "haute",
+      "commercial_value": 95,
+      "priority_engine_version": "v9-priority",
+      "counter_signals": [],
+      "axes_v8": {
+        "site_web": 88,
+        "refonte": 32,
+        "ia_automatisation": 34
+      }
+    },
+    {
+      "company": "Celtuce Traiteur",
+      "commercial_priority": "moyenne",
+      "commercial_value": 60,
+      "priority_engine_version": "v9-priority",
+      "counter_signals": [],
+      "axes_v8": {
+        "site_web": 5,
+        "refonte": 61,
+        "ia_automatisation": 31
+      }
+    },
+    {
+      "company": "Mamie Cuisine Traiteur",
+      "commercial_priority": "moyenne",
+      "commercial_value": 50,
+      "priority_engine_version": "v9-priority",
+      "counter_signals": [],
+      "axes_v8": {
+        "site_web": 5,
+        "refonte": 39,
+        "ia_automatisation": 12
+      }
+    },
+    {
+      "company": "Baptiste Break Pâtisserie Traiteur",
+      "commercial_priority": "moyenne",
+      "commercial_value": 46,
+      "priority_engine_version": "v9-priority",
+      "counter_signals": [],
+      "axes_v8": {
+        "site_web": 5,
+        "refonte": 5,
+        "ia_automatisation": 29
+      }
+    },
+    {
+      "company": "SARL Joly Location",
+      "commercial_priority": "haute",
+      "commercial_value": 71,
+      "priority_engine_version": "v9-priority",
+      "counter_signals": [],
+      "axes_v8": {
+        "site_web": 88,
+        "refonte": 22,
+        "ia_automatisation": 51
+      }
+    },
+    {
+      "company": "SARL Uzès Location",
+      "commercial_priority": "moyenne",
+      "commercial_value": 61,
+      "priority_engine_version": "v9-priority",
+      "counter_signals": [],
+      "axes_v8": {
+        "site_web": 5,
+        "refonte": 65,
+        "ia_automatisation": 26
+      }
+    },
+    {
+      "company": "SAS Maire",
+      "commercial_priority": "a_approfondir",
+      "commercial_value": 61,
+      "priority_engine_version": "v9-priority",
+      "counter_signals": [],
+      "axes_v8": {
+        "site_web": 5,
+        "refonte": 65,
+        "ia_automatisation": 43
+      }
+    },
+    {
+      "company": "Techniques Piscine",
+      "commercial_priority": "moyenne",
+      "commercial_value": 61,
+      "priority_engine_version": "v9-priority",
+      "counter_signals": [],
+      "axes_v8": {
+        "site_web": 5,
+        "refonte": 65,
+        "ia_automatisation": 26
+      }
+    },
+    {
+      "company": "France-Hypnose-Formation / France-PNL",
+      "commercial_priority": "moyenne",
+      "commercial_value": 50,
+      "priority_engine_version": "v9-priority",
+      "counter_signals": [
+        "Paiement en ligne en place"
+      ],
+      "axes_v8": {
+        "site_web": 5,
+        "refonte": 39,
+        "ia_automatisation": 10
+      }
+    },
+    {
+      "company": "Atoutransport",
+      "commercial_priority": "moyenne",
+      "commercial_value": 55,
+      "priority_engine_version": "v9-priority",
+      "counter_signals": [],
+      "axes_v8": {
+        "site_web": 5,
+        "refonte": 39,
+        "ia_automatisation": 51
+      }
+    },
+    {
+      "company": "Bonbon Foliz",
+      "commercial_priority": "moyenne",
+      "commercial_value": 54,
+      "priority_engine_version": "v9-priority",
+      "counter_signals": [],
+      "axes_v8": {
+        "site_web": 5,
+        "refonte": 5,
+        "ia_automatisation": 48
+      }
+    },
+    {
+      "company": "L'Ô de Claise",
+      "commercial_priority": "moyenne",
+      "commercial_value": 61,
+      "priority_engine_version": "v9-priority",
+      "counter_signals": [
+        "Réservation déjà en ligne"
+      ],
+      "axes_v8": {
+        "site_web": 5,
+        "refonte": 65,
+        "ia_automatisation": 14
+      }
+    },
+    {
+      "company": "Bulles & Détente",
+      "commercial_priority": "moyenne",
+      "commercial_value": 47,
+      "priority_engine_version": "v9-priority",
+      "counter_signals": [],
+      "axes_v8": {
+        "site_web": 5,
+        "refonte": 31,
+        "ia_automatisation": 23
+      }
+    },
+    {
+      "company": "Pépinières Ripaud",
+      "commercial_priority": "moyenne",
+      "commercial_value": 55,
+      "priority_engine_version": "v9-priority",
+      "counter_signals": [],
+      "axes_v8": {
+        "site_web": 5,
+        "refonte": 39,
+        "ia_automatisation": 51
+      }
+    },
+    {
+      "company": "Le Centre Formation",
+      "commercial_priority": "moyenne",
+      "commercial_value": 47,
+      "priority_engine_version": "v9-priority",
+      "counter_signals": [
+        "Compte ou espace client existant"
+      ],
+      "axes_v8": {
+        "site_web": 5,
+        "refonte": 5,
+        "ia_automatisation": 31
+      }
+    },
+    {
+      "company": "Kévin Jenback — Couverture, zinguerie, ramonage",
+      "commercial_priority": "haute",
+      "commercial_value": 73,
+      "priority_engine_version": "v9-priority",
+      "counter_signals": [],
+      "axes_v8": {
+        "site_web": 5,
+        "refonte": 94,
+        "ia_automatisation": 40
+      }
+    },
+    {
+      "company": "MSF PRO Industries",
+      "commercial_priority": "moyenne",
+      "commercial_value": 60,
+      "priority_engine_version": "v9-priority",
+      "counter_signals": [],
+      "axes_v8": {
+        "site_web": 5,
+        "refonte": 61,
+        "ia_automatisation": 44
+      }
+    },
+    {
+      "company": "Beaujolais Réception",
+      "commercial_priority": "a_approfondir",
+      "commercial_value": 67,
+      "priority_engine_version": "v9-priority",
+      "counter_signals": [],
+      "axes_v8": {
+        "site_web": 5,
+        "refonte": 69,
+        "ia_automatisation": 49
+      }
+    },
+    {
+      "company": "Caléo Tests & Services",
+      "commercial_priority": "moyenne",
+      "commercial_value": 61,
+      "priority_engine_version": "v9-priority",
+      "counter_signals": [],
+      "axes_v8": {
+        "site_web": 5,
+        "refonte": 39,
+        "ia_automatisation": 64
+      }
+    },
+    {
+      "company": "Cordonnerie Canfora David",
+      "commercial_priority": "moyenne",
+      "commercial_value": 63,
+      "priority_engine_version": "v9-priority",
+      "counter_signals": [],
+      "axes_v8": {
+        "site_web": 5,
+        "refonte": 56,
+        "ia_automatisation": 70
+      }
+    },
+    {
+      "company": "Froger Étanchéité",
+      "commercial_priority": "moyenne",
+      "commercial_value": 62,
+      "priority_engine_version": "v9-priority",
+      "counter_signals": [],
+      "axes_v8": {
+        "site_web": 5,
+        "refonte": 39,
+        "ia_automatisation": 66
+      }
+    },
+    {
+      "company": "Cordes et Âme",
+      "commercial_priority": "moyenne",
+      "commercial_value": 50,
+      "priority_engine_version": "v9-priority",
+      "counter_signals": [
+        "Paiement en ligne en place"
+      ],
+      "axes_v8": {
+        "site_web": 5,
+        "refonte": 5,
+        "ia_automatisation": 39
+      }
+    },
+    {
+      "company": "O Lames Déchues",
+      "commercial_priority": "haute",
+      "commercial_value": 71,
+      "priority_engine_version": "v9-priority",
+      "counter_signals": [],
+      "axes_v8": {
+        "site_web": 5,
+        "refonte": 89,
+        "ia_automatisation": 27
+      }
+    },
+    {
+      "company": "Zicplace",
+      "commercial_priority": "moyenne",
+      "commercial_value": 68,
+      "priority_engine_version": "v9-priority",
+      "counter_signals": [],
+      "axes_v8": {
+        "site_web": 5,
+        "refonte": 81,
+        "ia_automatisation": 31
+      }
+    },
+    {
+      "company": "Atelier du Bourrelier",
+      "commercial_priority": "haute",
+      "commercial_value": 75,
+      "priority_engine_version": "v9-priority",
+      "counter_signals": [],
+      "axes_v8": {
+        "site_web": 5,
+        "refonte": 98,
+        "ia_automatisation": 12
+      }
+    },
+    {
+      "company": "Étanchéité Nantaise",
+      "commercial_priority": "moyenne",
+      "commercial_value": 50,
+      "priority_engine_version": "v9-priority",
+      "counter_signals": [],
+      "axes_v8": {
+        "site_web": 5,
+        "refonte": 39,
+        "ia_automatisation": 22
+      }
+    },
+    {
+      "company": "Alain Louis — Naturaliste taxidermiste",
+      "commercial_priority": "moyenne",
+      "commercial_value": 68,
+      "priority_engine_version": "v9-priority",
+      "counter_signals": [],
+      "axes_v8": {
+        "site_web": 5,
+        "refonte": 81,
+        "ia_automatisation": 12
+      }
+    },
+    {
+      "company": "Fermetures Leichnam",
+      "commercial_priority": "moyenne",
+      "commercial_value": 68,
+      "priority_engine_version": "v9-priority",
+      "counter_signals": [],
+      "axes_v8": {
+        "site_web": 5,
+        "refonte": 81,
+        "ia_automatisation": 12
+      }
+    },
+    {
+      "company": "Forages Berenguer",
+      "commercial_priority": "moyenne",
+      "commercial_value": 50,
+      "priority_engine_version": "v9-priority",
+      "counter_signals": [],
+      "axes_v8": {
+        "site_web": 5,
+        "refonte": 39,
+        "ia_automatisation": 12
+      }
+    },
+    {
+      "company": "Ouest Affûtage",
+      "commercial_priority": "haute",
+      "commercial_value": 71,
+      "priority_engine_version": "v9-priority",
+      "counter_signals": [],
+      "axes_v8": {
+        "site_web": 5,
+        "refonte": 89,
+        "ia_automatisation": 12
+      }
+    },
+    {
+      "company": "Sellerie Industrielle de l'Est",
+      "commercial_priority": "moyenne",
+      "commercial_value": 50,
+      "priority_engine_version": "v9-priority",
+      "counter_signals": [],
+      "axes_v8": {
+        "site_web": 5,
+        "refonte": 39,
+        "ia_automatisation": 34
+      }
+    },
+    {
+      "company": "Scierie Labrue",
+      "commercial_priority": "haute",
+      "commercial_value": 71,
+      "priority_engine_version": "v9-priority",
+      "counter_signals": [],
+      "axes_v8": {
+        "site_web": 5,
+        "refonte": 89,
+        "ia_automatisation": 12
+      }
+    },
+    {
+      "company": "D2Bois",
+      "commercial_priority": "moyenne",
+      "commercial_value": 68,
+      "priority_engine_version": "v9-priority",
+      "counter_signals": [],
+      "axes_v8": {
+        "site_web": 5,
+        "refonte": 81,
+        "ia_automatisation": 12
+      }
+    },
+    {
+      "company": "Menuiserie Mirolo",
+      "commercial_priority": "haute",
+      "commercial_value": 71,
+      "priority_engine_version": "v9-priority",
+      "counter_signals": [],
+      "axes_v8": {
+        "site_web": 5,
+        "refonte": 89,
+        "ia_automatisation": 0
+      }
+    },
+    {
+      "company": "Delahautemaison",
+      "commercial_priority": "moyenne",
+      "commercial_value": 54,
+      "priority_engine_version": "v9-priority",
+      "counter_signals": [],
+      "axes_v8": {
+        "site_web": 5,
+        "refonte": 47,
+        "ia_automatisation": 0
+      }
+    },
+    {
+      "company": "ERM 27",
+      "commercial_priority": "haute",
+      "commercial_value": 71,
+      "priority_engine_version": "v9-priority",
+      "counter_signals": [],
+      "axes_v8": {
+        "site_web": 5,
+        "refonte": 89,
+        "ia_automatisation": 0
+      }
+    }
+  ]
+}

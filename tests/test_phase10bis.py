@@ -184,10 +184,14 @@ class ContreSignauxTests(unittest.TestCase):
             self.assertTrue(crm[name].get("revue_humaine_requise"), name)
             self.assertTrue(crm[name].get("revue_motif"), name)
 
-    def test_les_axes_restant_en_v8_et_la_priorite_en_v9(self):
+    def test_les_axes_restant_en_v8_et_la_priorite_versionnee(self):
+        # La version du moteur de priorité évolue (v9 puis v10 avec les
+        # contre-signaux) ; l'invariant durable est que les axes restent en v8
+        # et que TOUTES les fiches portent la même version de priorité.
+        from prospecto.priority import ENGINE_VERSION
         for rec in CRM().records:
             self.assertEqual(rec["scores"]["engine_version"], "v8", rec["company"])
-            self.assertEqual(rec["priority_engine_version"], "v9-priority", rec["company"])
+            self.assertEqual(rec["priority_engine_version"], ENGINE_VERSION, rec["company"])
 
 
 class SecuritePhase10BisTests(unittest.TestCase):

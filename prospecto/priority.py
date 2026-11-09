@@ -46,8 +46,9 @@ from .models import (
     SIGNAL_HYPOTHETICAL, EVIDENCE_PUBLIC_NEED,
 )
 from .email_verify import DELIVERABLE_STATUSES, BLOCKING_STATUSES, MX_NOT_CHECKED
+from . import counter_signals as cs
 
-ENGINE_VERSION = "v9-priority"
+ENGINE_VERSION = "v10-priority"
 
 AXES = ("site_web", "refonte", "ia_automatisation")
 
@@ -181,6 +182,8 @@ class CommercialAssessment:
     confidence: str = CONFIDENCE_LOW
     reasons: list[str] = field(default_factory=list)
     counter_signals: list[str] = field(default_factory=list)
+    counter_signal_penalty: int = 0
+    counter_signal_details: list[dict[str, Any]] = field(default_factory=list)
     driving_evidence: list[dict[str, Any]] = field(default_factory=list)
     contactable: bool = False
     capped_by_contactability: bool = False
@@ -327,7 +330,27 @@ def assess(prospect: Prospect, scores: dict[str, Any],
     base = BASE_BY_CLASS.get(signal_class, BASE_BY_CLASS[SIGNAL_INDIRECT])
     value = max(0, min(100, int(round(base * factor)) + magnitude))
 
+    # v10 — contre-signaux explicites. Les preuves typées « maturite_existante »
+    # n'étaient lues par aucun moteur : MATURITY_FACTOR ne porte que sur les
+    # automatisations auto-détectées. Elles réduisent désormais la priorité
+    # transversale, JAMAIS les trois scores techniques v8, qui décrivent
+    # factuellement l'existant. La pénalité est bornée et une simple mention
+    # d'équipement (force faible) ne déplace pas la priorité.
+    signals = cs.collect(evidences, today)
+    penalty = cs.total_penalty(signals)
+    before_penalty = value
+    if penalty:
+        value = max(0, value - penalty)
+
     reasons = []
+    if signals:
+        counts = cs.breakdown(signals)
+        reasons.append(
+            f"contre-signaux explicites : {counts['fort']} fort(s), "
+            f"{counts['modere']} modéré(s), {counts['faible']} faible(s) "
+            f"→ pénalité bornée -{penalty} ({before_penalty} -> {value})")
+        for sig in signals:
+            reasons.append("contre-signal — " + sig.reason)
     # Plancher explicite : si l'entreprise demande elle-même une prestation que
     # nous vendons et que la demande est vérifiée, elle passe en tête de liste
     # même si son site est techniquement correct. C'est le cas que la v8
@@ -335,7 +358,14 @@ def assess(prospect: Prospect, scores: dict[str, Any],
     # exige la vérification ET l'adéquation à l'offre (une demande non vérifiée
     # reste « moyenne », une demande hors offre reste « basse »).
     floor_applied = False
+    # Le plancher est appliqué APRÈS la pénalité, volontairement : si une
+    # entreprise demande elle-même une prestation que nous vendons, sa demande
+    # vaut mieux que notre constat sur son équipement. Un contre-signal ne doit
+    # pas annuler une demande explicite — il informera la conversation.
     if signal_class == "exprime_verifie" and relevance == RELEVANCE_PROPOSE and value < THRESHOLD_HAUTE:
+        if penalty:
+            reasons.append("plancher maintenu malgré les contre-signaux : une demande "
+                           "explicite de l'entreprise prime sur notre constat d'équipement")
         reasons.append(f"plancher « besoin exprimé vérifié et pertinent » : "
                        f"{value} -> {THRESHOLD_HAUTE} (un site techniquement correct "
                        f"ne doit pas pénaliser une demande explicite)")
@@ -380,9 +410,15 @@ def assess(prospect: Prospect, scores: dict[str, Any],
 
     counter: list[str] = []
     for axis in AXES:
-        for cs in (scores.get(axis) or {}).get("counter_signals", []):
-            if cs not in counter:
-                counter.append(cs)
+        for item in (scores.get(axis) or {}).get("counter_signals", []):
+            if item not in counter:
+                counter.append(item)
+    # Les contre-signaux explicites alimentent enfin ce champ, qui restait vide
+    # alors que les preuves existaient : c'était le défaut signalé par l'audit.
+    for sig in signals:
+        label = (sig.quote or sig.source_url or "contre-signal")[:160]
+        if label not in counter:
+            counter.append(label)
 
     return CommercialAssessment(
         value=value, tier=tier, signal_class=signal_class,
@@ -392,6 +428,8 @@ def assess(prospect: Prospect, scores: dict[str, Any],
         best_axis=best_axis, best_axis_score=best_value,
         confidence=_confidence(carriers, today), reasons=reasons,
         counter_signals=counter,
+        counter_signal_penalty=penalty,
+        counter_signal_details=[sig.to_dict() for sig in signals],
         driving_evidence=[{"quote": e.quote, "source_url": e.source_url,
                            "observed_at": e.observed_at, "verified_at": e.verified_at,
                            "signal_level": e.signal_level} for e in carriers[:4]],

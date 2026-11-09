@@ -1,0 +1,2745 @@
+{
+  "date": "2026-11-07",
+  "section": "C — recalibration des contre-signaux",
+  "moteur_avant": "v9-priority",
+  "moteur_apres": "v10-priority",
+  "methode": "comparaison v9 (pénalité neutralisée) / v10 sur les 92 fiches, mêmes preuves et mêmes axes ; aucune écriture CRM",
+  "regle": "pénalité bornée sur la priorité transversale : fort 24, modéré 11, faible 0 ; empilement à 40 % au-delà du plus fort ; plafond 32 ; plancher « exprimé vérifié » appliqué après la pénalité",
+  "axes_v8_modifies": 0,
+  "fiches_analysees": 92,
+  "contre_signaux_par_force": {
+    "faible": 7,
+    "modere": 8,
+    "fort": 2
+  },
+  "fiches_avec_contre_signal": 16,
+  "changements_de_valeur": 9,
+  "changements_de_palier": 8,
+  "paliers_v9": {
+    "haute": 12,
+    "basse": 13,
+    "a_approfondir": 14,
+    "moyenne": 53
+  },
+  "paliers_v10": {
+    "haute": 8,
+    "basse": 17,
+    "a_approfondir": 14,
+    "moyenne": 53
+  },
+  "controles": {
+    "fiches_sans_contre_signal": 76,
+    "fiches_sans_contre_signal_ayant_bouge": [],
+    "fiches_a_contre_signal_faible_seul": 7,
+    "fiches_faibles_ayant_change_de_palier": [],
+    "besoins_exprimes_verifies": 17,
+    "besoins_exprimes_degrades": []
+  },
+  "cas_limites_examines": [
+    {
+      "company": "O Lames Déchues",
+      "enjeu": "valeur 71, juste au-dessus du seuil haute ; contre-signal visant l'encaissement CB alors que le besoin est une page de planning absente",
+      "decision": "force faible → pénalité 0, priorité haute conservée"
+    },
+    {
+      "company": "Scierie Labrue",
+      "enjeu": "« le besoin n'est pas la création d'un parcours de devis » ne nie pas la refonte poursuivie (panneau cookies en anglais, liens morts)",
+      "decision": "négation partielle → modérée, haute 71 → moyenne 60"
+    },
+    {
+      "company": "Caléo Tests & Services",
+      "enjeu": "la collecte existe mais la persistence manque : le besoin subsiste",
+      "decision": "force faible → priorité inchangée"
+    }
+  ],
+  "simulation_acceptee": true,
+  "rows": [
+    {
+      "company": "R Premium",
+      "department": "92",
+      "status": "contacté",
+      "priorite_enregistree": "haute",
+      "valeur_enregistree": 70,
+      "v9": {
+        "value": 70,
+        "tier": "haute",
+        "class": "exprime_verifie"
+      },
+      "v10": {
+        "value": 70,
+        "tier": "haute",
+        "class": "exprime_verifie",
+        "penalty": 0
+      },
+      "axes_v8_inchanges": {
+        "site_web": 5,
+        "refonte": 25,
+        "ia_automatisation": 0
+      },
+      "contre_signaux": [],
+      "plancher_exprime": true,
+      "changement_palier": false,
+      "changement_valeur": false
+    },
+    {
+      "company": "Secteur 72",
+      "department": "72",
+      "status": "contacté",
+      "priorite_enregistree": "haute",
+      "valeur_enregistree": 74,
+      "v9": {
+        "value": 74,
+        "tier": "haute",
+        "class": "exprime_verifie"
+      },
+      "v10": {
+        "value": 74,
+        "tier": "haute",
+        "class": "exprime_verifie",
+        "penalty": 0
+      },
+      "axes_v8_inchanges": {
+        "site_web": 39,
+        "refonte": 25,
+        "ia_automatisation": 0
+      },
+      "contre_signaux": [],
+      "plancher_exprime": false,
+      "changement_palier": false,
+      "changement_valeur": false
+    },
+    {
+      "company": "Multitech Assistance",
+      "department": "",
+      "status": "contacté",
+      "priorite_enregistree": "basse",
+      "valeur_enregistree": 10,
+      "v9": {
+        "value": 10,
+        "tier": "basse",
+        "class": "hypothetique"
+      },
+      "v10": {
+        "value": 10,
+        "tier": "basse",
+        "class": "hypothetique",
+        "penalty": 0
+      },
+      "axes_v8_inchanges": {
+        "site_web": 5,
+        "refonte": 5,
+        "ia_automatisation": 0
+      },
+      "contre_signaux": [],
+      "plancher_exprime": false,
+      "changement_palier": false,
+      "changement_valeur": false
+    },
+    {
+      "company": "Garage Villedieu Automobiles",
+      "department": "",
+      "status": "contacté",
+      "priorite_enregistree": "basse",
+      "valeur_enregistree": 10,
+      "v9": {
+        "value": 10,
+        "tier": "basse",
+        "class": "hypothetique"
+      },
+      "v10": {
+        "value": 10,
+        "tier": "basse",
+        "class": "hypothetique",
+        "penalty": 0
+      },
+      "axes_v8_inchanges": {
+        "site_web": 5,
+        "refonte": 5,
+        "ia_automatisation": 0
+      },
+      "contre_signaux": [],
+      "plancher_exprime": false,
+      "changement_palier": false,
+      "changement_valeur": false
+    },
+    {
+      "company": "Le Serrurier d'A Cote",
+      "department": "",
+      "status": "contacté",
+      "priorite_enregistree": "basse",
+      "valeur_enregistree": 10,
+      "v9": {
+        "value": 10,
+        "tier": "basse",
+        "class": "hypothetique"
+      },
+      "v10": {
+        "value": 10,
+        "tier": "basse",
+        "class": "hypothetique",
+        "penalty": 0
+      },
+      "axes_v8_inchanges": {
+        "site_web": 5,
+        "refonte": 5,
+        "ia_automatisation": 0
+      },
+      "contre_signaux": [],
+      "plancher_exprime": false,
+      "changement_palier": false,
+      "changement_valeur": false
+    },
+    {
+      "company": "Superchi Architectes",
+      "department": "",
+      "status": "contacté",
+      "priorite_enregistree": "basse",
+      "valeur_enregistree": 10,
+      "v9": {
+        "value": 10,
+        "tier": "basse",
+        "class": "hypothetique"
+      },
+      "v10": {
+        "value": 10,
+        "tier": "basse",
+        "class": "hypothetique",
+        "penalty": 0
+      },
+      "axes_v8_inchanges": {
+        "site_web": 5,
+        "refonte": 5,
+        "ia_automatisation": 0
+      },
+      "contre_signaux": [],
+      "plancher_exprime": false,
+      "changement_palier": false,
+      "changement_valeur": false
+    },
+    {
+      "company": "L'Etabli du Menuisier",
+      "department": "",
+      "status": "contacté",
+      "priorite_enregistree": "basse",
+      "valeur_enregistree": 10,
+      "v9": {
+        "value": 10,
+        "tier": "basse",
+        "class": "hypothetique"
+      },
+      "v10": {
+        "value": 10,
+        "tier": "basse",
+        "class": "hypothetique",
+        "penalty": 0
+      },
+      "axes_v8_inchanges": {
+        "site_web": 5,
+        "refonte": 5,
+        "ia_automatisation": 0
+      },
+      "contre_signaux": [],
+      "plancher_exprime": false,
+      "changement_palier": false,
+      "changement_valeur": false
+    },
+    {
+      "company": "Quattro Architectes",
+      "department": "",
+      "status": "contacté",
+      "priorite_enregistree": "basse",
+      "valeur_enregistree": 10,
+      "v9": {
+        "value": 10,
+        "tier": "basse",
+        "class": "hypothetique"
+      },
+      "v10": {
+        "value": 10,
+        "tier": "basse",
+        "class": "hypothetique",
+        "penalty": 0
+      },
+      "axes_v8_inchanges": {
+        "site_web": 5,
+        "refonte": 5,
+        "ia_automatisation": 0
+      },
+      "contre_signaux": [],
+      "plancher_exprime": false,
+      "changement_palier": false,
+      "changement_valeur": false
+    },
+    {
+      "company": "The Architectes",
+      "department": "",
+      "status": "contacté",
+      "priorite_enregistree": "basse",
+      "valeur_enregistree": 10,
+      "v9": {
+        "value": 10,
+        "tier": "basse",
+        "class": "hypothetique"
+      },
+      "v10": {
+        "value": 10,
+        "tier": "basse",
+        "class": "hypothetique",
+        "penalty": 0
+      },
+      "axes_v8_inchanges": {
+        "site_web": 5,
+        "refonte": 5,
+        "ia_automatisation": 0
+      },
+      "contre_signaux": [],
+      "plancher_exprime": false,
+      "changement_palier": false,
+      "changement_valeur": false
+    },
+    {
+      "company": "Akla Architectes",
+      "department": "",
+      "status": "contacté",
+      "priorite_enregistree": "basse",
+      "valeur_enregistree": 10,
+      "v9": {
+        "value": 10,
+        "tier": "basse",
+        "class": "hypothetique"
+      },
+      "v10": {
+        "value": 10,
+        "tier": "basse",
+        "class": "hypothetique",
+        "penalty": 0
+      },
+      "axes_v8_inchanges": {
+        "site_web": 5,
+        "refonte": 5,
+        "ia_automatisation": 0
+      },
+      "contre_signaux": [],
+      "plancher_exprime": false,
+      "changement_palier": false,
+      "changement_valeur": false
+    },
+    {
+      "company": "BSP Auto",
+      "department": "75",
+      "status": "auto_reply",
+      "priorite_enregistree": "haute",
+      "valeur_enregistree": 70,
+      "v9": {
+        "value": 70,
+        "tier": "haute",
+        "class": "exprime_verifie"
+      },
+      "v10": {
+        "value": 70,
+        "tier": "haute",
+        "class": "exprime_verifie",
+        "penalty": 0
+      },
+      "axes_v8_inchanges": {
+        "site_web": 5,
+        "refonte": 15,
+        "ia_automatisation": 0
+      },
+      "contre_signaux": [],
+      "plancher_exprime": true,
+      "changement_palier": false,
+      "changement_valeur": false
+    },
+    {
+      "company": "CERF Athletic Training",
+      "department": "44",
+      "status": "contacté",
+      "priorite_enregistree": "basse",
+      "valeur_enregistree": 20,
+      "v9": {
+        "value": 20,
+        "tier": "basse",
+        "class": "indirect"
+      },
+      "v10": {
+        "value": 20,
+        "tier": "basse",
+        "class": "indirect",
+        "penalty": 0
+      },
+      "axes_v8_inchanges": {
+        "site_web": 5,
+        "refonte": 5,
+        "ia_automatisation": 0
+      },
+      "contre_signaux": [],
+      "plancher_exprime": false,
+      "changement_palier": false,
+      "changement_valeur": false
+    },
+    {
+      "company": "Charme de l'Hêtre",
+      "department": "50",
+      "status": "contacté",
+      "priorite_enregistree": "basse",
+      "valeur_enregistree": 18,
+      "v9": {
+        "value": 18,
+        "tier": "basse",
+        "class": "indirect"
+      },
+      "v10": {
+        "value": 18,
+        "tier": "basse",
+        "class": "indirect",
+        "penalty": 0
+      },
+      "axes_v8_inchanges": {
+        "site_web": 0,
+        "refonte": 0,
+        "ia_automatisation": 0
+      },
+      "contre_signaux": [],
+      "plancher_exprime": false,
+      "changement_palier": false,
+      "changement_valeur": false
+    },
+    {
+      "company": "Carot's",
+      "department": "27",
+      "status": "nouveau",
+      "priorite_enregistree": "basse",
+      "valeur_enregistree": 18,
+      "v9": {
+        "value": 18,
+        "tier": "basse",
+        "class": "indirect"
+      },
+      "v10": {
+        "value": 18,
+        "tier": "basse",
+        "class": "indirect",
+        "penalty": 0
+      },
+      "axes_v8_inchanges": {
+        "site_web": 0,
+        "refonte": 0,
+        "ia_automatisation": 0
+      },
+      "contre_signaux": [],
+      "plancher_exprime": false,
+      "changement_palier": false,
+      "changement_valeur": false
+    },
+    {
+      "company": "Matabiau Locker Hub",
+      "department": "31",
+      "status": "nouveau",
+      "priorite_enregistree": "a_approfondir",
+      "valeur_enregistree": 72,
+      "v9": {
+        "value": 72,
+        "tier": "a_approfondir",
+        "class": "exprime_verifie"
+      },
+      "v10": {
+        "value": 72,
+        "tier": "a_approfondir",
+        "class": "exprime_verifie",
+        "penalty": 0
+      },
+      "axes_v8_inchanges": {
+        "site_web": 34,
+        "refonte": 10,
+        "ia_automatisation": 34
+      },
+      "contre_signaux": [],
+      "plancher_exprime": false,
+      "changement_palier": false,
+      "changement_valeur": false
+    },
+    {
+      "company": "GELA",
+      "department": "",
+      "status": "nouveau",
+      "priorite_enregistree": "a_approfondir",
+      "valeur_enregistree": 72,
+      "v9": {
+        "value": 72,
+        "tier": "a_approfondir",
+        "class": "exprime_verifie"
+      },
+      "v10": {
+        "value": 72,
+        "tier": "a_approfondir",
+        "class": "exprime_verifie",
+        "penalty": 0
+      },
+      "axes_v8_inchanges": {
+        "site_web": 0,
+        "refonte": 10,
+        "ia_automatisation": 34
+      },
+      "contre_signaux": [],
+      "plancher_exprime": false,
+      "changement_palier": false,
+      "changement_valeur": false
+    },
+    {
+      "company": "Restaurant traditionnel des quais de Quimper",
+      "department": "29",
+      "status": "nouveau",
+      "priorite_enregistree": "a_approfondir",
+      "valeur_enregistree": 83,
+      "v9": {
+        "value": 83,
+        "tier": "a_approfondir",
+        "class": "exprime_verifie"
+      },
+      "v10": {
+        "value": 83,
+        "tier": "a_approfondir",
+        "class": "exprime_verifie",
+        "penalty": 0
+      },
+      "axes_v8_inchanges": {
+        "site_web": 34,
+        "refonte": 10,
+        "ia_automatisation": 60
+      },
+      "contre_signaux": [],
+      "plancher_exprime": false,
+      "changement_palier": false,
+      "changement_valeur": false
+    },
+    {
+      "company": "Parfumerie indépendante de Paris",
+      "department": "75",
+      "status": "nouveau",
+      "priorite_enregistree": "a_approfondir",
+      "valeur_enregistree": 72,
+      "v9": {
+        "value": 72,
+        "tier": "a_approfondir",
+        "class": "exprime_verifie"
+      },
+      "v10": {
+        "value": 72,
+        "tier": "a_approfondir",
+        "class": "exprime_verifie",
+        "penalty": 0
+      },
+      "axes_v8_inchanges": {
+        "site_web": 34,
+        "refonte": 10,
+        "ia_automatisation": 0
+      },
+      "contre_signaux": [],
+      "plancher_exprime": false,
+      "changement_palier": false,
+      "changement_valeur": false
+    },
+    {
+      "company": "Organisme de formation — relance prospects",
+      "department": "",
+      "status": "nouveau",
+      "priorite_enregistree": "a_approfondir",
+      "valeur_enregistree": 72,
+      "v9": {
+        "value": 72,
+        "tier": "a_approfondir",
+        "class": "exprime_verifie"
+      },
+      "v10": {
+        "value": 72,
+        "tier": "a_approfondir",
+        "class": "exprime_verifie",
+        "penalty": 0
+      },
+      "axes_v8_inchanges": {
+        "site_web": 0,
+        "refonte": 10,
+        "ia_automatisation": 34
+      },
+      "contre_signaux": [],
+      "plancher_exprime": false,
+      "changement_palier": false,
+      "changement_valeur": false
+    },
+    {
+      "company": "Activité de revente Vinted — outil IA",
+      "department": "",
+      "status": "nouveau",
+      "priorite_enregistree": "a_approfondir",
+      "valeur_enregistree": 72,
+      "v9": {
+        "value": 72,
+        "tier": "a_approfondir",
+        "class": "exprime_verifie"
+      },
+      "v10": {
+        "value": 72,
+        "tier": "a_approfondir",
+        "class": "exprime_verifie",
+        "penalty": 0
+      },
+      "axes_v8_inchanges": {
+        "site_web": 0,
+        "refonte": 10,
+        "ia_automatisation": 34
+      },
+      "contre_signaux": [],
+      "plancher_exprime": false,
+      "changement_palier": false,
+      "changement_valeur": false
+    },
+    {
+      "company": "Camping Mer et Camargue — Restaurant Le Pano",
+      "department": "30",
+      "status": "email_préparé",
+      "priorite_enregistree": "moyenne",
+      "valeur_enregistree": 47,
+      "v9": {
+        "value": 47,
+        "tier": "moyenne",
+        "class": "observe"
+      },
+      "v10": {
+        "value": 47,
+        "tier": "moyenne",
+        "class": "observe",
+        "penalty": 0
+      },
+      "axes_v8_inchanges": {
+        "site_web": 5,
+        "refonte": 31,
+        "ia_automatisation": 22
+      },
+      "contre_signaux": [],
+      "plancher_exprime": false,
+      "changement_palier": false,
+      "changement_valeur": false
+    },
+    {
+      "company": "Fabricant de sacs à dos sur mesure",
+      "department": "",
+      "status": "nouveau",
+      "priorite_enregistree": "a_approfondir",
+      "valeur_enregistree": 72,
+      "v9": {
+        "value": 72,
+        "tier": "a_approfondir",
+        "class": "exprime_verifie"
+      },
+      "v10": {
+        "value": 72,
+        "tier": "a_approfondir",
+        "class": "exprime_verifie",
+        "penalty": 0
+      },
+      "axes_v8_inchanges": {
+        "site_web": 34,
+        "refonte": 10,
+        "ia_automatisation": 0
+      },
+      "contre_signaux": [],
+      "plancher_exprime": false,
+      "changement_palier": false,
+      "changement_valeur": false
+    },
+    {
+      "company": "Boutique e-commerce de produits haut de gamme",
+      "department": "",
+      "status": "nouveau",
+      "priorite_enregistree": "a_approfondir",
+      "valeur_enregistree": 72,
+      "v9": {
+        "value": 72,
+        "tier": "a_approfondir",
+        "class": "exprime_verifie"
+      },
+      "v10": {
+        "value": 72,
+        "tier": "a_approfondir",
+        "class": "exprime_verifie",
+        "penalty": 0
+      },
+      "axes_v8_inchanges": {
+        "site_web": 34,
+        "refonte": 10,
+        "ia_automatisation": 0
+      },
+      "contre_signaux": [],
+      "plancher_exprime": false,
+      "changement_palier": false,
+      "changement_valeur": false
+    },
+    {
+      "company": "Projet de boutique Shopify (dizaine de produits)",
+      "department": "",
+      "status": "nouveau",
+      "priorite_enregistree": "a_approfondir",
+      "valeur_enregistree": 72,
+      "v9": {
+        "value": 72,
+        "tier": "a_approfondir",
+        "class": "exprime_verifie"
+      },
+      "v10": {
+        "value": 72,
+        "tier": "a_approfondir",
+        "class": "exprime_verifie",
+        "penalty": 0
+      },
+      "axes_v8_inchanges": {
+        "site_web": 34,
+        "refonte": 10,
+        "ia_automatisation": 0
+      },
+      "contre_signaux": [],
+      "plancher_exprime": false,
+      "changement_palier": false,
+      "changement_valeur": false
+    },
+    {
+      "company": "Vente d'espaces publicitaires TV — outil IA",
+      "department": "",
+      "status": "nouveau",
+      "priorite_enregistree": "a_approfondir",
+      "valeur_enregistree": 72,
+      "v9": {
+        "value": 72,
+        "tier": "a_approfondir",
+        "class": "exprime_verifie"
+      },
+      "v10": {
+        "value": 72,
+        "tier": "a_approfondir",
+        "class": "exprime_verifie",
+        "penalty": 0
+      },
+      "axes_v8_inchanges": {
+        "site_web": 0,
+        "refonte": 10,
+        "ia_automatisation": 34
+      },
+      "contre_signaux": [],
+      "plancher_exprime": false,
+      "changement_palier": false,
+      "changement_valeur": false
+    },
+    {
+      "company": "Marque de soins — réponses aux commentaires",
+      "department": "",
+      "status": "nouveau",
+      "priorite_enregistree": "a_approfondir",
+      "valeur_enregistree": 72,
+      "v9": {
+        "value": 72,
+        "tier": "a_approfondir",
+        "class": "exprime_verifie"
+      },
+      "v10": {
+        "value": 72,
+        "tier": "a_approfondir",
+        "class": "exprime_verifie",
+        "penalty": 0
+      },
+      "axes_v8_inchanges": {
+        "site_web": 0,
+        "refonte": 10,
+        "ia_automatisation": 34
+      },
+      "contre_signaux": [],
+      "plancher_exprime": false,
+      "changement_palier": false,
+      "changement_valeur": false
+    },
+    {
+      "company": "Camping Le Galet",
+      "department": "34",
+      "status": "contacté",
+      "priorite_enregistree": "moyenne",
+      "valeur_enregistree": 47,
+      "v9": {
+        "value": 47,
+        "tier": "moyenne",
+        "class": "observe"
+      },
+      "v10": {
+        "value": 47,
+        "tier": "moyenne",
+        "class": "observe",
+        "penalty": 0
+      },
+      "axes_v8_inchanges": {
+        "site_web": 5,
+        "refonte": 31,
+        "ia_automatisation": 22
+      },
+      "contre_signaux": [],
+      "plancher_exprime": false,
+      "changement_palier": false,
+      "changement_valeur": false
+    },
+    {
+      "company": "Restaurant La Renardière",
+      "department": "38",
+      "status": "contacté",
+      "priorite_enregistree": "moyenne",
+      "valeur_enregistree": 50,
+      "v9": {
+        "value": 50,
+        "tier": "moyenne",
+        "class": "observe"
+      },
+      "v10": {
+        "value": 50,
+        "tier": "moyenne",
+        "class": "observe",
+        "penalty": 0
+      },
+      "axes_v8_inchanges": {
+        "site_web": 5,
+        "refonte": 31,
+        "ia_automatisation": 39
+      },
+      "contre_signaux": [],
+      "plancher_exprime": false,
+      "changement_palier": false,
+      "changement_valeur": false
+    },
+    {
+      "company": "Restaurant Les Santons",
+      "department": "06",
+      "status": "contacté",
+      "priorite_enregistree": "basse",
+      "valeur_enregistree": 23,
+      "v9": {
+        "value": 23,
+        "tier": "basse",
+        "class": "indirect"
+      },
+      "v10": {
+        "value": 23,
+        "tier": "basse",
+        "class": "indirect",
+        "penalty": 0
+      },
+      "axes_v8_inchanges": {
+        "site_web": 5,
+        "refonte": 5,
+        "ia_automatisation": 12
+      },
+      "contre_signaux": [],
+      "plancher_exprime": false,
+      "changement_palier": false,
+      "changement_valeur": false
+    },
+    {
+      "company": "Centre Équestre de la Renarde",
+      "department": "83",
+      "status": "opposition",
+      "priorite_enregistree": "moyenne",
+      "valeur_enregistree": 47,
+      "v9": {
+        "value": 47,
+        "tier": "moyenne",
+        "class": "observe"
+      },
+      "v10": {
+        "value": 47,
+        "tier": "moyenne",
+        "class": "observe",
+        "penalty": 0
+      },
+      "axes_v8_inchanges": {
+        "site_web": 5,
+        "refonte": 31,
+        "ia_automatisation": 17
+      },
+      "contre_signaux": [],
+      "plancher_exprime": false,
+      "changement_palier": false,
+      "changement_valeur": false
+    },
+    {
+      "company": "Domaine Roche des Bancs",
+      "department": "71",
+      "status": "contacté",
+      "priorite_enregistree": "moyenne",
+      "valeur_enregistree": 47,
+      "v9": {
+        "value": 47,
+        "tier": "moyenne",
+        "class": "observe"
+      },
+      "v10": {
+        "value": 47,
+        "tier": "moyenne",
+        "class": "observe",
+        "penalty": 0
+      },
+      "axes_v8_inchanges": {
+        "site_web": 5,
+        "refonte": 31,
+        "ia_automatisation": 22
+      },
+      "contre_signaux": [],
+      "plancher_exprime": false,
+      "changement_palier": false,
+      "changement_valeur": false
+    },
+    {
+      "company": "Domaine Courbin Héritage",
+      "department": "33",
+      "status": "contacté",
+      "priorite_enregistree": "moyenne",
+      "valeur_enregistree": 47,
+      "v9": {
+        "value": 47,
+        "tier": "moyenne",
+        "class": "observe"
+      },
+      "v10": {
+        "value": 47,
+        "tier": "moyenne",
+        "class": "observe",
+        "penalty": 0
+      },
+      "axes_v8_inchanges": {
+        "site_web": 5,
+        "refonte": 31,
+        "ia_automatisation": 31
+      },
+      "contre_signaux": [],
+      "plancher_exprime": false,
+      "changement_palier": false,
+      "changement_valeur": false
+    },
+    {
+      "company": "iTelecom",
+      "department": "37",
+      "status": "contacté",
+      "priorite_enregistree": "basse",
+      "valeur_enregistree": 5,
+      "v9": {
+        "value": 5,
+        "tier": "basse",
+        "class": "exprime_hors_offre"
+      },
+      "v10": {
+        "value": 5,
+        "tier": "basse",
+        "class": "exprime_hors_offre",
+        "penalty": 0
+      },
+      "axes_v8_inchanges": {
+        "site_web": 5,
+        "refonte": 15,
+        "ia_automatisation": 0
+      },
+      "contre_signaux": [],
+      "plancher_exprime": false,
+      "changement_palier": false,
+      "changement_valeur": false
+    },
+    {
+      "company": "K6 Pension",
+      "department": "76",
+      "status": "contacté",
+      "priorite_enregistree": "moyenne",
+      "valeur_enregistree": 47,
+      "v9": {
+        "value": 47,
+        "tier": "moyenne",
+        "class": "observe"
+      },
+      "v10": {
+        "value": 47,
+        "tier": "moyenne",
+        "class": "observe",
+        "penalty": 0
+      },
+      "axes_v8_inchanges": {
+        "site_web": 5,
+        "refonte": 31,
+        "ia_automatisation": 22
+      },
+      "contre_signaux": [],
+      "plancher_exprime": false,
+      "changement_palier": false,
+      "changement_valeur": false
+    },
+    {
+      "company": "Séverine Lesourd — Pension & Éducation Canine",
+      "department": "77",
+      "status": "rebond",
+      "priorite_enregistree": "a_approfondir",
+      "valeur_enregistree": 47,
+      "v9": {
+        "value": 47,
+        "tier": "a_approfondir",
+        "class": "observe"
+      },
+      "v10": {
+        "value": 47,
+        "tier": "a_approfondir",
+        "class": "observe",
+        "penalty": 0
+      },
+      "axes_v8_inchanges": {
+        "site_web": 5,
+        "refonte": 31,
+        "ia_automatisation": 22
+      },
+      "contre_signaux": [],
+      "plancher_exprime": false,
+      "changement_palier": false,
+      "changement_valeur": false
+    },
+    {
+      "company": "Centre Cynophile de Ruy",
+      "department": "38",
+      "status": "contacté",
+      "priorite_enregistree": "moyenne",
+      "valeur_enregistree": 47,
+      "v9": {
+        "value": 47,
+        "tier": "moyenne",
+        "class": "observe"
+      },
+      "v10": {
+        "value": 47,
+        "tier": "moyenne",
+        "class": "observe",
+        "penalty": 0
+      },
+      "axes_v8_inchanges": {
+        "site_web": 5,
+        "refonte": 31,
+        "ia_automatisation": 17
+      },
+      "contre_signaux": [],
+      "plancher_exprime": false,
+      "changement_palier": false,
+      "changement_valeur": false
+    },
+    {
+      "company": "Base nautique de Picquigny",
+      "department": "80",
+      "status": "contacté",
+      "priorite_enregistree": "moyenne",
+      "valeur_enregistree": 58,
+      "v9": {
+        "value": 58,
+        "tier": "moyenne",
+        "class": "observe"
+      },
+      "v10": {
+        "value": 58,
+        "tier": "moyenne",
+        "class": "observe",
+        "penalty": 0
+      },
+      "axes_v8_inchanges": {
+        "site_web": 5,
+        "refonte": 57,
+        "ia_automatisation": 56
+      },
+      "contre_signaux": [],
+      "plancher_exprime": false,
+      "changement_palier": false,
+      "changement_valeur": false
+    },
+    {
+      "company": "Brasserie VDL",
+      "department": "74",
+      "status": "contacté",
+      "priorite_enregistree": "moyenne",
+      "valeur_enregistree": 58,
+      "v9": {
+        "value": 58,
+        "tier": "moyenne",
+        "class": "observe"
+      },
+      "v10": {
+        "value": 58,
+        "tier": "moyenne",
+        "class": "observe",
+        "penalty": 0
+      },
+      "axes_v8_inchanges": {
+        "site_web": 5,
+        "refonte": 57,
+        "ia_automatisation": 46
+      },
+      "contre_signaux": [],
+      "plancher_exprime": false,
+      "changement_palier": false,
+      "changement_valeur": false
+    },
+    {
+      "company": "Dance Center",
+      "department": "59",
+      "status": "contacté",
+      "priorite_enregistree": "moyenne",
+      "valeur_enregistree": 58,
+      "v9": {
+        "value": 58,
+        "tier": "moyenne",
+        "class": "observe"
+      },
+      "v10": {
+        "value": 58,
+        "tier": "moyenne",
+        "class": "observe",
+        "penalty": 0
+      },
+      "axes_v8_inchanges": {
+        "site_web": 5,
+        "refonte": 57,
+        "ia_automatisation": 39
+      },
+      "contre_signaux": [],
+      "plancher_exprime": false,
+      "changement_palier": false,
+      "changement_valeur": false
+    },
+    {
+      "company": "SAM31",
+      "department": "31",
+      "status": "contacté",
+      "priorite_enregistree": "moyenne",
+      "valeur_enregistree": 58,
+      "v9": {
+        "value": 58,
+        "tier": "moyenne",
+        "class": "observe"
+      },
+      "v10": {
+        "value": 58,
+        "tier": "moyenne",
+        "class": "observe",
+        "penalty": 0
+      },
+      "axes_v8_inchanges": {
+        "site_web": 5,
+        "refonte": 57,
+        "ia_automatisation": 44
+      },
+      "contre_signaux": [],
+      "plancher_exprime": false,
+      "changement_palier": false,
+      "changement_valeur": false
+    },
+    {
+      "company": "La Bruchoise / Casa Blu",
+      "department": "67",
+      "status": "contacté",
+      "priorite_enregistree": "moyenne",
+      "valeur_enregistree": 58,
+      "v9": {
+        "value": 58,
+        "tier": "moyenne",
+        "class": "observe"
+      },
+      "v10": {
+        "value": 58,
+        "tier": "moyenne",
+        "class": "observe",
+        "penalty": 0
+      },
+      "axes_v8_inchanges": {
+        "site_web": 5,
+        "refonte": 57,
+        "ia_automatisation": 41
+      },
+      "contre_signaux": [],
+      "plancher_exprime": false,
+      "changement_palier": false,
+      "changement_valeur": false
+    },
+    {
+      "company": "L'Occidentale",
+      "department": "83",
+      "status": "contacté",
+      "priorite_enregistree": "moyenne",
+      "valeur_enregistree": 58,
+      "v9": {
+        "value": 58,
+        "tier": "moyenne",
+        "class": "observe"
+      },
+      "v10": {
+        "value": 58,
+        "tier": "moyenne",
+        "class": "observe",
+        "penalty": 0
+      },
+      "axes_v8_inchanges": {
+        "site_web": 5,
+        "refonte": 57,
+        "ia_automatisation": 39
+      },
+      "contre_signaux": [],
+      "plancher_exprime": false,
+      "changement_palier": false,
+      "changement_valeur": false
+    },
+    {
+      "company": "Restaurant Le Canotier",
+      "department": "69",
+      "status": "contacté",
+      "priorite_enregistree": "moyenne",
+      "valeur_enregistree": 58,
+      "v9": {
+        "value": 58,
+        "tier": "moyenne",
+        "class": "observe"
+      },
+      "v10": {
+        "value": 58,
+        "tier": "moyenne",
+        "class": "observe",
+        "penalty": 0
+      },
+      "axes_v8_inchanges": {
+        "site_web": 5,
+        "refonte": 57,
+        "ia_automatisation": 41
+      },
+      "contre_signaux": [],
+      "plancher_exprime": false,
+      "changement_palier": false,
+      "changement_valeur": false
+    },
+    {
+      "company": "Boucherie Florian",
+      "department": "82",
+      "status": "contacté",
+      "priorite_enregistree": "moyenne",
+      "valeur_enregistree": 58,
+      "v9": {
+        "value": 58,
+        "tier": "moyenne",
+        "class": "observe"
+      },
+      "v10": {
+        "value": 58,
+        "tier": "moyenne",
+        "class": "observe",
+        "penalty": 0
+      },
+      "axes_v8_inchanges": {
+        "site_web": 5,
+        "refonte": 57,
+        "ia_automatisation": 22
+      },
+      "contre_signaux": [],
+      "plancher_exprime": false,
+      "changement_palier": false,
+      "changement_valeur": false
+    },
+    {
+      "company": "La Fromagerie Les 2 Alpes",
+      "department": "38",
+      "status": "contacté",
+      "priorite_enregistree": "moyenne",
+      "valeur_enregistree": 58,
+      "v9": {
+        "value": 58,
+        "tier": "moyenne",
+        "class": "observe"
+      },
+      "v10": {
+        "value": 58,
+        "tier": "moyenne",
+        "class": "observe",
+        "penalty": 0
+      },
+      "axes_v8_inchanges": {
+        "site_web": 5,
+        "refonte": 57,
+        "ia_automatisation": 40
+      },
+      "contre_signaux": [],
+      "plancher_exprime": false,
+      "changement_palier": false,
+      "changement_valeur": false
+    },
+    {
+      "company": "Fromagerie et Baratte",
+      "department": "69",
+      "status": "contacté",
+      "priorite_enregistree": "moyenne",
+      "valeur_enregistree": 58,
+      "v9": {
+        "value": 58,
+        "tier": "moyenne",
+        "class": "observe"
+      },
+      "v10": {
+        "value": 58,
+        "tier": "moyenne",
+        "class": "observe",
+        "penalty": 0
+      },
+      "axes_v8_inchanges": {
+        "site_web": 5,
+        "refonte": 57,
+        "ia_automatisation": 22
+      },
+      "contre_signaux": [],
+      "plancher_exprime": false,
+      "changement_palier": false,
+      "changement_valeur": false
+    },
+    {
+      "company": "La Chocolatisserie",
+      "department": "68",
+      "status": "contacté",
+      "priorite_enregistree": "moyenne",
+      "valeur_enregistree": 58,
+      "v9": {
+        "value": 58,
+        "tier": "moyenne",
+        "class": "observe"
+      },
+      "v10": {
+        "value": 58,
+        "tier": "moyenne",
+        "class": "observe",
+        "penalty": 0
+      },
+      "axes_v8_inchanges": {
+        "site_web": 5,
+        "refonte": 57,
+        "ia_automatisation": 22
+      },
+      "contre_signaux": [],
+      "plancher_exprime": false,
+      "changement_palier": false,
+      "changement_valeur": false
+    },
+    {
+      "company": "Matproloc",
+      "department": "59",
+      "status": "contacté",
+      "priorite_enregistree": "moyenne",
+      "valeur_enregistree": 58,
+      "v9": {
+        "value": 58,
+        "tier": "moyenne",
+        "class": "observe"
+      },
+      "v10": {
+        "value": 58,
+        "tier": "moyenne",
+        "class": "observe",
+        "penalty": 0
+      },
+      "axes_v8_inchanges": {
+        "site_web": 5,
+        "refonte": 57,
+        "ia_automatisation": 22
+      },
+      "contre_signaux": [],
+      "plancher_exprime": false,
+      "changement_palier": false,
+      "changement_valeur": false
+    },
+    {
+      "company": "Allo'cation",
+      "department": "94",
+      "status": "contacté",
+      "priorite_enregistree": "moyenne",
+      "valeur_enregistree": 58,
+      "v9": {
+        "value": 58,
+        "tier": "moyenne",
+        "class": "observe"
+      },
+      "v10": {
+        "value": 58,
+        "tier": "moyenne",
+        "class": "observe",
+        "penalty": 0
+      },
+      "axes_v8_inchanges": {
+        "site_web": 5,
+        "refonte": 57,
+        "ia_automatisation": 0
+      },
+      "contre_signaux": [],
+      "plancher_exprime": false,
+      "changement_palier": false,
+      "changement_valeur": false
+    },
+    {
+      "company": "Restaurant Goudale Orchies",
+      "department": "59",
+      "status": "contacté",
+      "priorite_enregistree": "moyenne",
+      "valeur_enregistree": 58,
+      "v9": {
+        "value": 58,
+        "tier": "moyenne",
+        "class": "observe"
+      },
+      "v10": {
+        "value": 58,
+        "tier": "moyenne",
+        "class": "observe",
+        "penalty": 0
+      },
+      "axes_v8_inchanges": {
+        "site_web": 5,
+        "refonte": 57,
+        "ia_automatisation": 26
+      },
+      "contre_signaux": [],
+      "plancher_exprime": false,
+      "changement_palier": false,
+      "changement_valeur": false
+    },
+    {
+      "company": "ATOMER",
+      "department": "95",
+      "status": "contacté",
+      "priorite_enregistree": "moyenne",
+      "valeur_enregistree": 54,
+      "v9": {
+        "value": 54,
+        "tier": "moyenne",
+        "class": "observe"
+      },
+      "v10": {
+        "value": 54,
+        "tier": "moyenne",
+        "class": "observe",
+        "penalty": 0
+      },
+      "axes_v8_inchanges": {
+        "site_web": 5,
+        "refonte": 47,
+        "ia_automatisation": 44
+      },
+      "contre_signaux": [],
+      "plancher_exprime": false,
+      "changement_palier": false,
+      "changement_valeur": false
+    },
+    {
+      "company": "NETTOYAGE INDUSTRIEL",
+      "department": "39",
+      "status": "contacté",
+      "priorite_enregistree": "moyenne",
+      "valeur_enregistree": 69,
+      "v9": {
+        "value": 69,
+        "tier": "moyenne",
+        "class": "exprime_verifie"
+      },
+      "v10": {
+        "value": 69,
+        "tier": "moyenne",
+        "class": "exprime_verifie",
+        "penalty": 0
+      },
+      "axes_v8_inchanges": {
+        "site_web": 5,
+        "refonte": 73,
+        "ia_automatisation": 0
+      },
+      "contre_signaux": [],
+      "plancher_exprime": false,
+      "changement_palier": false,
+      "changement_valeur": false
+    },
+    {
+      "company": "Vignerons et Caviste",
+      "department": "75",
+      "status": "contacté",
+      "priorite_enregistree": "moyenne",
+      "valeur_enregistree": 61,
+      "v9": {
+        "value": 61,
+        "tier": "moyenne",
+        "class": "observe"
+      },
+      "v10": {
+        "value": 61,
+        "tier": "moyenne",
+        "class": "observe",
+        "penalty": 0
+      },
+      "axes_v8_inchanges": {
+        "site_web": 5,
+        "refonte": 65,
+        "ia_automatisation": 0
+      },
+      "contre_signaux": [],
+      "plancher_exprime": false,
+      "changement_palier": false,
+      "changement_valeur": false
+    },
+    {
+      "company": "La Caviste",
+      "department": "76",
+      "status": "contacté",
+      "priorite_enregistree": "moyenne",
+      "valeur_enregistree": 61,
+      "v9": {
+        "value": 61,
+        "tier": "moyenne",
+        "class": "observe"
+      },
+      "v10": {
+        "value": 61,
+        "tier": "moyenne",
+        "class": "observe",
+        "penalty": 0
+      },
+      "axes_v8_inchanges": {
+        "site_web": 5,
+        "refonte": 65,
+        "ia_automatisation": 34
+      },
+      "contre_signaux": [],
+      "plancher_exprime": false,
+      "changement_palier": false,
+      "changement_valeur": false
+    },
+    {
+      "company": "ALPHA MECANIQUE",
+      "department": "69",
+      "status": "contacté",
+      "priorite_enregistree": "moyenne",
+      "valeur_enregistree": 48,
+      "v9": {
+        "value": 48,
+        "tier": "moyenne",
+        "class": "observe"
+      },
+      "v10": {
+        "value": 48,
+        "tier": "moyenne",
+        "class": "observe",
+        "penalty": 0
+      },
+      "axes_v8_inchanges": {
+        "site_web": 5,
+        "refonte": 5,
+        "ia_automatisation": 34
+      },
+      "contre_signaux": [],
+      "plancher_exprime": false,
+      "changement_palier": false,
+      "changement_valeur": false
+    },
+    {
+      "company": "SARL Ambulances Sainte-Marie",
+      "department": "87",
+      "status": "contacté",
+      "priorite_enregistree": "moyenne",
+      "valeur_enregistree": 47,
+      "v9": {
+        "value": 47,
+        "tier": "moyenne",
+        "class": "observe"
+      },
+      "v10": {
+        "value": 47,
+        "tier": "moyenne",
+        "class": "observe",
+        "penalty": 0
+      },
+      "axes_v8_inchanges": {
+        "site_web": 5,
+        "refonte": 31,
+        "ia_automatisation": 12
+      },
+      "contre_signaux": [],
+      "plancher_exprime": false,
+      "changement_palier": false,
+      "changement_valeur": false
+    },
+    {
+      "company": "Blanchisserie des 3 Régions (B3R)",
+      "department": "28",
+      "status": "auto_reply",
+      "priorite_enregistree": "haute",
+      "valeur_enregistree": 95,
+      "v9": {
+        "value": 95,
+        "tier": "haute",
+        "class": "exprime_verifie"
+      },
+      "v10": {
+        "value": 95,
+        "tier": "haute",
+        "class": "exprime_verifie",
+        "penalty": 0
+      },
+      "axes_v8_inchanges": {
+        "site_web": 88,
+        "refonte": 32,
+        "ia_automatisation": 34
+      },
+      "contre_signaux": [],
+      "plancher_exprime": false,
+      "changement_palier": false,
+      "changement_valeur": false
+    },
+    {
+      "company": "Celtuce Traiteur",
+      "department": "44",
+      "status": "contacté",
+      "priorite_enregistree": "moyenne",
+      "valeur_enregistree": 60,
+      "v9": {
+        "value": 60,
+        "tier": "moyenne",
+        "class": "observe"
+      },
+      "v10": {
+        "value": 60,
+        "tier": "moyenne",
+        "class": "observe",
+        "penalty": 0
+      },
+      "axes_v8_inchanges": {
+        "site_web": 5,
+        "refonte": 61,
+        "ia_automatisation": 31
+      },
+      "contre_signaux": [],
+      "plancher_exprime": false,
+      "changement_palier": false,
+      "changement_valeur": false
+    },
+    {
+      "company": "Mamie Cuisine Traiteur",
+      "department": "38",
+      "status": "contacté",
+      "priorite_enregistree": "moyenne",
+      "valeur_enregistree": 50,
+      "v9": {
+        "value": 50,
+        "tier": "moyenne",
+        "class": "observe"
+      },
+      "v10": {
+        "value": 50,
+        "tier": "moyenne",
+        "class": "observe",
+        "penalty": 0
+      },
+      "axes_v8_inchanges": {
+        "site_web": 5,
+        "refonte": 39,
+        "ia_automatisation": 12
+      },
+      "contre_signaux": [],
+      "plancher_exprime": false,
+      "changement_palier": false,
+      "changement_valeur": false
+    },
+    {
+      "company": "Baptiste Break Pâtisserie Traiteur",
+      "department": "78",
+      "status": "contacté",
+      "priorite_enregistree": "moyenne",
+      "valeur_enregistree": 46,
+      "v9": {
+        "value": 46,
+        "tier": "moyenne",
+        "class": "observe"
+      },
+      "v10": {
+        "value": 46,
+        "tier": "moyenne",
+        "class": "observe",
+        "penalty": 0
+      },
+      "axes_v8_inchanges": {
+        "site_web": 5,
+        "refonte": 5,
+        "ia_automatisation": 29
+      },
+      "contre_signaux": [],
+      "plancher_exprime": false,
+      "changement_palier": false,
+      "changement_valeur": false
+    },
+    {
+      "company": "SARL Joly Location",
+      "department": "62",
+      "status": "contacté",
+      "priorite_enregistree": "haute",
+      "valeur_enregistree": 71,
+      "v9": {
+        "value": 71,
+        "tier": "haute",
+        "class": "observe"
+      },
+      "v10": {
+        "value": 71,
+        "tier": "haute",
+        "class": "observe",
+        "penalty": 0
+      },
+      "axes_v8_inchanges": {
+        "site_web": 88,
+        "refonte": 22,
+        "ia_automatisation": 51
+      },
+      "contre_signaux": [],
+      "plancher_exprime": false,
+      "changement_palier": false,
+      "changement_valeur": false
+    },
+    {
+      "company": "SARL Uzès Location",
+      "department": "30",
+      "status": "suspendu",
+      "priorite_enregistree": "moyenne",
+      "valeur_enregistree": 61,
+      "v9": {
+        "value": 61,
+        "tier": "moyenne",
+        "class": "observe"
+      },
+      "v10": {
+        "value": 61,
+        "tier": "moyenne",
+        "class": "observe",
+        "penalty": 0
+      },
+      "axes_v8_inchanges": {
+        "site_web": 5,
+        "refonte": 65,
+        "ia_automatisation": 26
+      },
+      "contre_signaux": [],
+      "plancher_exprime": false,
+      "changement_palier": false,
+      "changement_valeur": false
+    },
+    {
+      "company": "SAS Maire",
+      "department": "55",
+      "status": "a_approfondir",
+      "priorite_enregistree": "a_approfondir",
+      "valeur_enregistree": 61,
+      "v9": {
+        "value": 61,
+        "tier": "a_approfondir",
+        "class": "observe"
+      },
+      "v10": {
+        "value": 61,
+        "tier": "a_approfondir",
+        "class": "observe",
+        "penalty": 0
+      },
+      "axes_v8_inchanges": {
+        "site_web": 5,
+        "refonte": 65,
+        "ia_automatisation": 43
+      },
+      "contre_signaux": [],
+      "plancher_exprime": false,
+      "changement_palier": false,
+      "changement_valeur": false
+    },
+    {
+      "company": "Techniques Piscine",
+      "department": "76",
+      "status": "contacté",
+      "priorite_enregistree": "moyenne",
+      "valeur_enregistree": 61,
+      "v9": {
+        "value": 61,
+        "tier": "moyenne",
+        "class": "observe"
+      },
+      "v10": {
+        "value": 61,
+        "tier": "moyenne",
+        "class": "observe",
+        "penalty": 0
+      },
+      "axes_v8_inchanges": {
+        "site_web": 5,
+        "refonte": 65,
+        "ia_automatisation": 26
+      },
+      "contre_signaux": [],
+      "plancher_exprime": false,
+      "changement_palier": false,
+      "changement_valeur": false
+    },
+    {
+      "company": "France-Hypnose-Formation / France-PNL",
+      "department": "75",
+      "status": "contacté",
+      "priorite_enregistree": "moyenne",
+      "valeur_enregistree": 50,
+      "v9": {
+        "value": 50,
+        "tier": "moyenne",
+        "class": "observe"
+      },
+      "v10": {
+        "value": 50,
+        "tier": "moyenne",
+        "class": "observe",
+        "penalty": 0
+      },
+      "axes_v8_inchanges": {
+        "site_web": 5,
+        "refonte": 39,
+        "ia_automatisation": 10
+      },
+      "contre_signaux": [],
+      "plancher_exprime": false,
+      "changement_palier": false,
+      "changement_valeur": false
+    },
+    {
+      "company": "Atoutransport",
+      "department": "89",
+      "status": "contacté",
+      "priorite_enregistree": "moyenne",
+      "valeur_enregistree": 55,
+      "v9": {
+        "value": 55,
+        "tier": "moyenne",
+        "class": "observe"
+      },
+      "v10": {
+        "value": 55,
+        "tier": "moyenne",
+        "class": "observe",
+        "penalty": 0
+      },
+      "axes_v8_inchanges": {
+        "site_web": 5,
+        "refonte": 39,
+        "ia_automatisation": 51
+      },
+      "contre_signaux": [],
+      "plancher_exprime": false,
+      "changement_palier": false,
+      "changement_valeur": false
+    },
+    {
+      "company": "Bonbon Foliz",
+      "department": "78",
+      "status": "contacté",
+      "priorite_enregistree": "moyenne",
+      "valeur_enregistree": 54,
+      "v9": {
+        "value": 54,
+        "tier": "moyenne",
+        "class": "observe"
+      },
+      "v10": {
+        "value": 54,
+        "tier": "moyenne",
+        "class": "observe",
+        "penalty": 0
+      },
+      "axes_v8_inchanges": {
+        "site_web": 5,
+        "refonte": 5,
+        "ia_automatisation": 48
+      },
+      "contre_signaux": [],
+      "plancher_exprime": false,
+      "changement_palier": false,
+      "changement_valeur": false
+    },
+    {
+      "company": "L'Ô de Claise",
+      "department": "36",
+      "status": "contacté",
+      "priorite_enregistree": "moyenne",
+      "valeur_enregistree": 61,
+      "v9": {
+        "value": 61,
+        "tier": "moyenne",
+        "class": "observe"
+      },
+      "v10": {
+        "value": 61,
+        "tier": "moyenne",
+        "class": "observe",
+        "penalty": 0
+      },
+      "axes_v8_inchanges": {
+        "site_web": 5,
+        "refonte": 65,
+        "ia_automatisation": 14
+      },
+      "contre_signaux": [],
+      "plancher_exprime": false,
+      "changement_palier": false,
+      "changement_valeur": false
+    },
+    {
+      "company": "Bulles & Détente",
+      "department": "25",
+      "status": "contacté",
+      "priorite_enregistree": "moyenne",
+      "valeur_enregistree": 47,
+      "v9": {
+        "value": 47,
+        "tier": "moyenne",
+        "class": "observe"
+      },
+      "v10": {
+        "value": 47,
+        "tier": "moyenne",
+        "class": "observe",
+        "penalty": 0
+      },
+      "axes_v8_inchanges": {
+        "site_web": 5,
+        "refonte": 31,
+        "ia_automatisation": 23
+      },
+      "contre_signaux": [],
+      "plancher_exprime": false,
+      "changement_palier": false,
+      "changement_valeur": false
+    },
+    {
+      "company": "Pépinières Ripaud",
+      "department": "85",
+      "status": "brouillon_créé",
+      "priorite_enregistree": "moyenne",
+      "valeur_enregistree": 55,
+      "v9": {
+        "value": 55,
+        "tier": "moyenne",
+        "class": "observe"
+      },
+      "v10": {
+        "value": 55,
+        "tier": "moyenne",
+        "class": "observe",
+        "penalty": 0
+      },
+      "axes_v8_inchanges": {
+        "site_web": 5,
+        "refonte": 39,
+        "ia_automatisation": 51
+      },
+      "contre_signaux": [],
+      "plancher_exprime": false,
+      "changement_palier": false,
+      "changement_valeur": false
+    },
+    {
+      "company": "Le Centre Formation",
+      "department": "38",
+      "status": "contacté",
+      "priorite_enregistree": "moyenne",
+      "valeur_enregistree": 47,
+      "v9": {
+        "value": 47,
+        "tier": "moyenne",
+        "class": "observe"
+      },
+      "v10": {
+        "value": 47,
+        "tier": "moyenne",
+        "class": "observe",
+        "penalty": 0
+      },
+      "axes_v8_inchanges": {
+        "site_web": 5,
+        "refonte": 5,
+        "ia_automatisation": 31
+      },
+      "contre_signaux": [],
+      "plancher_exprime": false,
+      "changement_palier": false,
+      "changement_valeur": false
+    },
+    {
+      "company": "Kévin Jenback — Couverture, zinguerie, ramonage",
+      "department": "49",
+      "status": "contacté",
+      "priorite_enregistree": "haute",
+      "valeur_enregistree": 73,
+      "v9": {
+        "value": 73,
+        "tier": "haute",
+        "class": "observe"
+      },
+      "v10": {
+        "value": 73,
+        "tier": "haute",
+        "class": "observe",
+        "penalty": 0
+      },
+      "axes_v8_inchanges": {
+        "site_web": 5,
+        "refonte": 94,
+        "ia_automatisation": 40
+      },
+      "contre_signaux": [],
+      "plancher_exprime": false,
+      "changement_palier": false,
+      "changement_valeur": false
+    },
+    {
+      "company": "MSF PRO Industries",
+      "department": "93",
+      "status": "contacté",
+      "priorite_enregistree": "moyenne",
+      "valeur_enregistree": 60,
+      "v9": {
+        "value": 60,
+        "tier": "moyenne",
+        "class": "observe"
+      },
+      "v10": {
+        "value": 60,
+        "tier": "moyenne",
+        "class": "observe",
+        "penalty": 0
+      },
+      "axes_v8_inchanges": {
+        "site_web": 5,
+        "refonte": 61,
+        "ia_automatisation": 44
+      },
+      "contre_signaux": [],
+      "plancher_exprime": false,
+      "changement_palier": false,
+      "changement_valeur": false
+    },
+    {
+      "company": "Beaujolais Réception",
+      "department": "69",
+      "status": "nouveau",
+      "priorite_enregistree": "a_approfondir",
+      "valeur_enregistree": 67,
+      "v9": {
+        "value": 67,
+        "tier": "a_approfondir",
+        "class": "exprime_verifie"
+      },
+      "v10": {
+        "value": 67,
+        "tier": "a_approfondir",
+        "class": "exprime_verifie",
+        "penalty": 0
+      },
+      "axes_v8_inchanges": {
+        "site_web": 5,
+        "refonte": 69,
+        "ia_automatisation": 49
+      },
+      "contre_signaux": [],
+      "plancher_exprime": false,
+      "changement_palier": false,
+      "changement_valeur": false
+    },
+    {
+      "company": "Caléo Tests & Services",
+      "department": "62",
+      "status": "brouillon_en_attente",
+      "priorite_enregistree": "moyenne",
+      "valeur_enregistree": 61,
+      "v9": {
+        "value": 61,
+        "tier": "moyenne",
+        "class": "observe"
+      },
+      "v10": {
+        "value": 61,
+        "tier": "moyenne",
+        "class": "observe",
+        "penalty": 0
+      },
+      "axes_v8_inchanges": {
+        "site_web": 5,
+        "refonte": 39,
+        "ia_automatisation": 64
+      },
+      "contre_signaux": [
+        {
+          "quote": "Une carte par instrument (ou par lot d'instruments identiques) : désignation, quantité, marque, modèle, n° de série, plage de mesure, prestation souhaitée, besoin COFRAC.",
+          "source_url": "https://www.caleo-ts.fr/demande-de-devis/",
+          "observed_at": "2026-11-06",
+          "strength": "faible",
+          "negates_need": false,
+          "fresh": true,
+          "reliable_source": true,
+          "penalty": 0,
+          "reason": "force faible (marqueurs : le manque est) ; délimite le besoin sans l'annuler"
+        }
+      ],
+      "plancher_exprime": false,
+      "changement_palier": false,
+      "changement_valeur": false
+    },
+    {
+      "company": "Cordonnerie Canfora David",
+      "department": "03",
+      "status": "contacté",
+      "priorite_enregistree": "moyenne",
+      "valeur_enregistree": 63,
+      "v9": {
+        "value": 63,
+        "tier": "moyenne",
+        "class": "observe"
+      },
+      "v10": {
+        "value": 63,
+        "tier": "moyenne",
+        "class": "observe",
+        "penalty": 0
+      },
+      "axes_v8_inchanges": {
+        "site_web": 5,
+        "refonte": 56,
+        "ia_automatisation": 70
+      },
+      "contre_signaux": [
+        {
+          "quote": "Site vitrine réalisé par Solocal, avec appel téléphonique et lien e-mail, page horaires et page avis.",
+          "source_url": "https://www.cordonnerie-canfora-moulins.fr/bourrellerie",
+          "observed_at": "2026-11-06",
+          "strength": "faible",
+          "negates_need": false,
+          "fresh": true,
+          "reliable_source": true,
+          "penalty": 0,
+          "reason": "force faible (marqueurs : le manque est, présence en ligne existe, coordonnées sont joignables) ; délimite le besoin sans l'annuler"
+        }
+      ],
+      "plancher_exprime": false,
+      "changement_palier": false,
+      "changement_valeur": false
+    },
+    {
+      "company": "Froger Étanchéité",
+      "department": "35",
+      "status": "contacté",
+      "priorite_enregistree": "moyenne",
+      "valeur_enregistree": 62,
+      "v9": {
+        "value": 62,
+        "tier": "moyenne",
+        "class": "observe"
+      },
+      "v10": {
+        "value": 62,
+        "tier": "moyenne",
+        "class": "observe",
+        "penalty": 0
+      },
+      "axes_v8_inchanges": {
+        "site_web": 5,
+        "refonte": 39,
+        "ia_automatisation": 66
+      },
+      "contre_signaux": [
+        {
+          "quote": "Une question, une demande de devis ? Remplissez le formulaire ou contactez-nous directement par téléphone.",
+          "source_url": "https://froger-etancheite.fr/",
+          "observed_at": "2026-11-06",
+          "strength": "faible",
+          "negates_need": false,
+          "fresh": true,
+          "reliable_source": true,
+          "penalty": 0,
+          "reason": "force faible (marqueurs : un formulaire de contact fonctionne) ; délimite le besoin sans l'annuler"
+        }
+      ],
+      "plancher_exprime": false,
+      "changement_palier": false,
+      "changement_valeur": false
+    },
+    {
+      "company": "Cordes et Âme",
+      "department": "75",
+      "status": "contacté",
+      "priorite_enregistree": "moyenne",
+      "valeur_enregistree": 50,
+      "v9": {
+        "value": 50,
+        "tier": "moyenne",
+        "class": "observe"
+      },
+      "v10": {
+        "value": 39,
+        "tier": "basse",
+        "class": "observe",
+        "penalty": 11
+      },
+      "axes_v8_inchanges": {
+        "site_web": 5,
+        "refonte": 5,
+        "ia_automatisation": 39
+      },
+      "contre_signaux": [
+        {
+          "quote": "Boutique en ligne avec panier et page « Demande une location ».",
+          "source_url": "https://www.cordesetame.fr/",
+          "observed_at": "2026-11-06",
+          "strength": "modere",
+          "negates_need": false,
+          "fresh": true,
+          "reliable_source": true,
+          "penalty": 11,
+          "reason": "force modere (marqueurs : boutique en ligne) ; délimite le besoin sans l'annuler"
+        }
+      ],
+      "plancher_exprime": false,
+      "changement_palier": true,
+      "changement_valeur": true
+    },
+    {
+      "company": "O Lames Déchues",
+      "department": "95",
+      "status": "contacté",
+      "priorite_enregistree": "haute",
+      "valeur_enregistree": 71,
+      "v9": {
+        "value": 71,
+        "tier": "haute",
+        "class": "observe"
+      },
+      "v10": {
+        "value": 71,
+        "tier": "haute",
+        "class": "observe",
+        "penalty": 0
+      },
+      "axes_v8_inchanges": {
+        "site_web": 5,
+        "refonte": 89,
+        "ia_automatisation": 27
+      },
+      "contre_signaux": [
+        {
+          "quote": "J'accepte les paiements en espèces, par carte bancaire et par chèque.",
+          "source_url": "https://olamesdechues.fr/",
+          "observed_at": "2026-11-07",
+          "strength": "faible",
+          "negates_need": false,
+          "fresh": true,
+          "reliable_source": true,
+          "penalty": 0,
+          "reason": "force faible (marqueurs : contre-signal à un besoin de) ; délimite le besoin sans l'annuler"
+        }
+      ],
+      "plancher_exprime": false,
+      "changement_palier": false,
+      "changement_valeur": false
+    },
+    {
+      "company": "Zicplace",
+      "department": "93",
+      "status": "contacté",
+      "priorite_enregistree": "moyenne",
+      "valeur_enregistree": 68,
+      "v9": {
+        "value": 68,
+        "tier": "moyenne",
+        "class": "observe"
+      },
+      "v10": {
+        "value": 57,
+        "tier": "moyenne",
+        "class": "observe",
+        "penalty": 11
+      },
+      "axes_v8_inchanges": {
+        "site_web": 5,
+        "refonte": 81,
+        "ia_automatisation": 31
+      },
+      "contre_signaux": [
+        {
+          "quote": "Diagnostic en magasin, devis gratuit, réparation en atelier. Tarifs indicatifs : réglage + changement de corde 58 €, changement de cordes 20 €.",
+          "source_url": "https://zicplace.fr/reparation-entretien-instrument",
+          "observed_at": "2026-11-07",
+          "strength": "modere",
+          "negates_need": false,
+          "fresh": true,
+          "reliable_source": true,
+          "penalty": 11,
+          "reason": "force modere (marqueurs : le besoin n'est pas, grille tarifaire complète) ; délimite le besoin sans l'annuler"
+        }
+      ],
+      "plancher_exprime": false,
+      "changement_palier": false,
+      "changement_valeur": true
+    },
+    {
+      "company": "Atelier du Bourrelier",
+      "department": "45",
+      "status": "contacté",
+      "priorite_enregistree": "haute",
+      "valeur_enregistree": 75,
+      "v9": {
+        "value": 75,
+        "tier": "haute",
+        "class": "observe"
+      },
+      "v10": {
+        "value": 75,
+        "tier": "haute",
+        "class": "observe",
+        "penalty": 0
+      },
+      "axes_v8_inchanges": {
+        "site_web": 5,
+        "refonte": 98,
+        "ia_automatisation": 12
+      },
+      "contre_signaux": [],
+      "plancher_exprime": false,
+      "changement_palier": false,
+      "changement_valeur": false
+    },
+    {
+      "company": "Étanchéité Nantaise",
+      "department": "44",
+      "status": "contacté",
+      "priorite_enregistree": "moyenne",
+      "valeur_enregistree": 50,
+      "v9": {
+        "value": 50,
+        "tier": "moyenne",
+        "class": "observe"
+      },
+      "v10": {
+        "value": 50,
+        "tier": "moyenne",
+        "class": "observe",
+        "penalty": 0
+      },
+      "axes_v8_inchanges": {
+        "site_web": 5,
+        "refonte": 39,
+        "ia_automatisation": 22
+      },
+      "contre_signaux": [
+        {
+          "quote": "Envoyez-nous un message — Envoyer",
+          "source_url": "https://etancheite-nantaise.fr/contact",
+          "observed_at": "2026-11-07",
+          "strength": "faible",
+          "negates_need": false,
+          "fresh": true,
+          "reliable_source": true,
+          "penalty": 0,
+          "reason": "force faible (marqueurs : le besoin porte sur, formulaire fonctionnel existe) ; délimite le besoin sans l'annuler"
+        }
+      ],
+      "plancher_exprime": false,
+      "changement_palier": false,
+      "changement_valeur": false
+    },
+    {
+      "company": "Alain Louis — Naturaliste taxidermiste",
+      "department": "78",
+      "status": "contacté",
+      "priorite_enregistree": "moyenne",
+      "valeur_enregistree": 68,
+      "v9": {
+        "value": 68,
+        "tier": "moyenne",
+        "class": "observe"
+      },
+      "v10": {
+        "value": 68,
+        "tier": "moyenne",
+        "class": "observe",
+        "penalty": 0
+      },
+      "axes_v8_inchanges": {
+        "site_web": 5,
+        "refonte": 81,
+        "ia_automatisation": 12
+      },
+      "contre_signaux": [],
+      "plancher_exprime": false,
+      "changement_palier": false,
+      "changement_valeur": false
+    },
+    {
+      "company": "Fermetures Leichnam",
+      "department": "02",
+      "status": "nouveau",
+      "priorite_enregistree": "moyenne",
+      "valeur_enregistree": 68,
+      "v9": {
+        "value": 68,
+        "tier": "moyenne",
+        "class": "observe"
+      },
+      "v10": {
+        "value": 68,
+        "tier": "moyenne",
+        "class": "observe",
+        "penalty": 0
+      },
+      "axes_v8_inchanges": {
+        "site_web": 5,
+        "refonte": 81,
+        "ia_automatisation": 12
+      },
+      "contre_signaux": [
+        {
+          "quote": "Devis gratuit, conseils personnalisés, intervention à Saint-Quentin et dans tous les Hauts-de-France. Un fabricant menuisier à votre écoute.",
+          "source_url": "https://fermetures-leichnam.fr/contact/",
+          "observed_at": "2026-11-07",
+          "strength": "faible",
+          "negates_need": false,
+          "fresh": true,
+          "reliable_source": true,
+          "penalty": 0,
+          "reason": "force faible (marqueurs : le besoin porte sur) ; délimite le besoin sans l'annuler"
+        }
+      ],
+      "plancher_exprime": false,
+      "changement_palier": false,
+      "changement_valeur": false
+    },
+    {
+      "company": "Forages Berenguer",
+      "department": "34",
+      "status": "nouveau",
+      "priorite_enregistree": "moyenne",
+      "valeur_enregistree": 50,
+      "v9": {
+        "value": 50,
+        "tier": "moyenne",
+        "class": "observe"
+      },
+      "v10": {
+        "value": 39,
+        "tier": "basse",
+        "class": "observe",
+        "penalty": 11
+      },
+      "axes_v8_inchanges": {
+        "site_web": 5,
+        "refonte": 39,
+        "ia_automatisation": 12
+      },
+      "contre_signaux": [
+        {
+          "quote": "Devis et déplacement gratuit — Travaux grande profondeur & accès difficile — Suivi des normes européennes & norme NFX10-999",
+          "source_url": "https://www.foragemontpellier.fr/contact",
+          "observed_at": "2026-11-07",
+          "strength": "modere",
+          "negates_need": false,
+          "fresh": true,
+          "reliable_source": true,
+          "penalty": 11,
+          "reason": "force modere (marqueurs : le besoin n'est pas, consentement configuré) ; délimite le besoin sans l'annuler"
+        }
+      ],
+      "plancher_exprime": false,
+      "changement_palier": true,
+      "changement_valeur": true
+    },
+    {
+      "company": "Ouest Affûtage",
+      "department": "22",
+      "status": "nouveau",
+      "priorite_enregistree": "haute",
+      "valeur_enregistree": 71,
+      "v9": {
+        "value": 71,
+        "tier": "haute",
+        "class": "observe"
+      },
+      "v10": {
+        "value": 60,
+        "tier": "moyenne",
+        "class": "observe",
+        "penalty": 11
+      },
+      "axes_v8_inchanges": {
+        "site_web": 5,
+        "refonte": 89,
+        "ia_automatisation": 12
+      },
+      "contre_signaux": [
+        {
+          "quote": "Créée par P.Turmel en 1979, la société rachetée par sa fille en 2006 continue à prospérer avec les mêmes valeurs : Qualité - Service - Disponibilité",
+          "source_url": "https://ouestaffutage-22.fr/",
+          "observed_at": "2026-11-07",
+          "strength": "modere",
+          "negates_need": false,
+          "fresh": true,
+          "reliable_source": true,
+          "penalty": 11,
+          "reason": "force modere (marqueurs : le besoin n'est pas, site structuré, consentement configuré) ; délimite le besoin sans l'annuler"
+        }
+      ],
+      "plancher_exprime": false,
+      "changement_palier": true,
+      "changement_valeur": true
+    },
+    {
+      "company": "Sellerie Industrielle de l'Est",
+      "department": "57",
+      "status": "nouveau",
+      "priorite_enregistree": "moyenne",
+      "valeur_enregistree": 50,
+      "v9": {
+        "value": 50,
+        "tier": "moyenne",
+        "class": "observe"
+      },
+      "v10": {
+        "value": 39,
+        "tier": "basse",
+        "class": "observe",
+        "penalty": 11
+      },
+      "axes_v8_inchanges": {
+        "site_web": 5,
+        "refonte": 39,
+        "ia_automatisation": 34
+      },
+      "contre_signaux": [
+        {
+          "quote": "Professionnel de la Sellerie Bateau depuis plus de 35 ans",
+          "source_url": "https://www.57sie.com/fr/sellerie-bateau",
+          "observed_at": "2026-11-07",
+          "strength": "modere",
+          "negates_need": false,
+          "fresh": true,
+          "reliable_source": true,
+          "penalty": 11,
+          "reason": "force modere (marqueurs : site multi-activités structuré) ; délimite le besoin sans l'annuler"
+        }
+      ],
+      "plancher_exprime": false,
+      "changement_palier": true,
+      "changement_valeur": true
+    },
+    {
+      "company": "Scierie Labrue",
+      "department": "19",
+      "status": "nouveau",
+      "priorite_enregistree": "haute",
+      "valeur_enregistree": 71,
+      "v9": {
+        "value": 71,
+        "tier": "haute",
+        "class": "observe"
+      },
+      "v10": {
+        "value": 60,
+        "tier": "moyenne",
+        "class": "observe",
+        "penalty": 11
+      },
+      "axes_v8_inchanges": {
+        "site_web": 5,
+        "refonte": 89,
+        "ia_automatisation": 12
+      },
+      "contre_signaux": [
+        {
+          "quote": "Nom / E-mail / Type de projet (Charpente traditionnelle, Aménagement Intérieur, Aménagement extérieur, Ossature, Coffrage, Autre) / Décrivez votre projet ici",
+          "source_url": "https://scierielabrue.com/Contact/",
+          "observed_at": "2026-11-07",
+          "strength": "modere",
+          "negates_need": false,
+          "fresh": true,
+          "reliable_source": true,
+          "penalty": 11,
+          "reason": "force modere (marqueurs : le besoin n'est pas, qualifie déjà) ; délimite le besoin sans l'annuler"
+        }
+      ],
+      "plancher_exprime": false,
+      "changement_palier": true,
+      "changement_valeur": true
+    },
+    {
+      "company": "D2Bois",
+      "department": "02",
+      "status": "nouveau",
+      "priorite_enregistree": "moyenne",
+      "valeur_enregistree": 68,
+      "v9": {
+        "value": 68,
+        "tier": "moyenne",
+        "class": "observe"
+      },
+      "v10": {
+        "value": 68,
+        "tier": "moyenne",
+        "class": "observe",
+        "penalty": 0
+      },
+      "axes_v8_inchanges": {
+        "site_web": 5,
+        "refonte": 81,
+        "ia_automatisation": 12
+      },
+      "contre_signaux": [
+        {
+          "quote": "Spécialisé dans les escaliers depuis sa création, D2Bois vous apporte ses conseils et sa maîtrise éprouvés par plus de 35 ans de pratique.",
+          "source_url": "https://escaliers-d2bois.fr/contact",
+          "observed_at": "2026-11-07",
+          "strength": "faible",
+          "negates_need": false,
+          "fresh": true,
+          "reliable_source": true,
+          "penalty": 0,
+          "reason": "force faible (marqueurs : le besoin porte sur) ; délimite le besoin sans l'annuler"
+        }
+      ],
+      "plancher_exprime": false,
+      "changement_palier": false,
+      "changement_valeur": false
+    },
+    {
+      "company": "Menuiserie Mirolo",
+      "department": "02",
+      "status": "nouveau",
+      "priorite_enregistree": "haute",
+      "valeur_enregistree": 71,
+      "v9": {
+        "value": 71,
+        "tier": "haute",
+        "class": "observe"
+      },
+      "v10": {
+        "value": 60,
+        "tier": "moyenne",
+        "class": "observe",
+        "penalty": 11
+      },
+      "axes_v8_inchanges": {
+        "site_web": 5,
+        "refonte": 89,
+        "ia_automatisation": 0
+      },
+      "contre_signaux": [
+        {
+          "quote": "Demande de devis ou de rendez-vous",
+          "source_url": "https://www.menuiserie-mirolo.fr/",
+          "observed_at": "2026-11-07",
+          "strength": "modere",
+          "negates_need": false,
+          "fresh": true,
+          "reliable_source": true,
+          "penalty": 11,
+          "reason": "force modere (marqueurs : formulaire de demande existe) ; délimite le besoin sans l'annuler"
+        }
+      ],
+      "plancher_exprime": false,
+      "changement_palier": true,
+      "changement_valeur": true
+    },
+    {
+      "company": "Delahautemaison",
+      "department": "84",
+      "status": "nouveau",
+      "priorite_enregistree": "moyenne",
+      "valeur_enregistree": 54,
+      "v9": {
+        "value": 54,
+        "tier": "moyenne",
+        "class": "observe"
+      },
+      "v10": {
+        "value": 26,
+        "tier": "basse",
+        "class": "observe",
+        "penalty": 28
+      },
+      "axes_v8_inchanges": {
+        "site_web": 5,
+        "refonte": 47,
+        "ia_automatisation": 0
+      },
+      "contre_signaux": [
+        {
+          "quote": "Type de prestation souhaitée / Ville / Code postal / Détails du projet / Comment nous avez-vous connus ?",
+          "source_url": "https://delahautemaison.fr/demande-de-devis-personnalise-restauration-cannage-rideaux-sur-mesure/",
+          "observed_at": "2026-11-07",
+          "strength": "fort",
+          "negates_need": true,
+          "fresh": true,
+          "reliable_source": true,
+          "penalty": 24,
+          "reason": "force fort (marqueurs : contre-signal majeur, pleinement qualifié, déjà pleinement) ; nie le besoin poursuivi"
+        },
+        {
+          "quote": "Site réalisé par CNDSEO",
+          "source_url": "https://delahautemaison.fr/demande-de-devis-personnalise-restauration-cannage-rideaux-sur-mesure/",
+          "observed_at": "2026-11-07",
+          "strength": "modere",
+          "negates_need": false,
+          "fresh": true,
+          "reliable_source": true,
+          "penalty": 11,
+          "reason": "force modere (marqueurs : prestataire web est déjà crédité, un prestataire web) ; délimite le besoin sans l'annuler"
+        }
+      ],
+      "plancher_exprime": false,
+      "changement_palier": true,
+      "changement_valeur": true
+    },
+    {
+      "company": "ERM 27",
+      "department": "27",
+      "status": "nouveau",
+      "priorite_enregistree": "haute",
+      "valeur_enregistree": 71,
+      "v9": {
+        "value": 71,
+        "tier": "haute",
+        "class": "observe"
+      },
+      "v10": {
+        "value": 47,
+        "tier": "moyenne",
+        "class": "observe",
+        "penalty": 24
+      },
+      "axes_v8_inchanges": {
+        "site_web": 5,
+        "refonte": 89,
+        "ia_automatisation": 0
+      },
+      "contre_signaux": [
+        {
+          "quote": "Nous disposons entre autre de 5 affûteuses de grandes capacités de 2 à 4 mètres maximum",
+          "source_url": "https://erm27.fr/affutage-industriel/",
+          "observed_at": "2026-11-07",
+          "strength": "fort",
+          "negates_need": true,
+          "fresh": true,
+          "reliable_source": true,
+          "penalty": 24,
+          "reason": "force fort (marqueurs : aucun besoin, prestataire web déjà en place) ; nie le besoin poursuivi"
+        }
+      ],
+      "plancher_exprime": false,
+      "changement_palier": true,
+      "changement_valeur": true
+    }
+  ]
+}
