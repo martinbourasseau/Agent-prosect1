@@ -1,0 +1,2220 @@
+{
+  "lot": "2026-11-03-lot12",
+  "date": "2026-11-03",
+  "stats": {
+    "requetes": 34,
+    "tentatives_lecture": 46,
+    "lectures_reussies": 39,
+    "lectures_echouees": 7,
+    "entites_examinees": 173,
+    "entreprises_hors_annuaires": 134,
+    "annuaires_rencontres": 39,
+    "decisions": {
+      "importee": 12,
+      "ecartee": 118,
+      "approfondir": 2,
+      "non_verifie": 2,
+      "annuaire_seul": 39
+    },
+    "lectures": {
+      "officielle": 24,
+      "recherche_seule": 110,
+      "annuaire": 39
+    },
+    "departements": [
+      "02",
+      "08",
+      "09",
+      "10",
+      "11",
+      "14",
+      "16",
+      "17",
+      "19",
+      "23",
+      "25",
+      "28",
+      "37",
+      "43",
+      "48",
+      "55",
+      "61",
+      "65",
+      "66",
+      "71",
+      "73",
+      "74",
+      "75",
+      "76",
+      "80",
+      "82",
+      "85",
+      "87",
+      "90"
+    ],
+    "sites_officiels_lus": 22
+  },
+  "requetes": [
+    {
+      "famille": "services",
+      "libelle": "expertise comptable Ardennes 08 cabinet",
+      "departement_vise": "08",
+      "rendement": "3 cabinets indépendants + 2 réseaux"
+    },
+    {
+      "famille": "services",
+      "libelle": "cabinet recrutement Orne 61 Alencon",
+      "departement_vise": "61",
+      "rendement": "aucune TPE : réseaux nationaux à pages-villes"
+    },
+    {
+      "famille": "services",
+      "libelle": "nettoyage après sinistre Calvados 14",
+      "departement_vise": "14",
+      "rendement": "aucune TPE : plateforme SEO + comparateur"
+    },
+    {
+      "famille": "industrie",
+      "libelle": "décolletage usinage Doubs 25",
+      "departement_vise": "25",
+      "rendement": "annuaires seulements, noms à reprendre"
+    },
+    {
+      "famille": "tourisme",
+      "libelle": "camping indépendant Lozère 48 Florac réservation",
+      "departement_vise": "48",
+      "rendement": "office de tourisme + campings chaînés"
+    },
+    {
+      "famille": "tourisme",
+      "libelle": "hébergement insolite cabanes yourtes Ariège 09",
+      "departement_vise": "09",
+      "rendement": "1 site officiel exploitable (Alcamparol)"
+    },
+    {
+      "famille": "distribution",
+      "libelle": "grossiste pièces détachées Vendée 85 catalogue pro",
+      "departement_vise": "85",
+      "rendement": "annuaires + grossistes nationaux"
+    },
+    {
+      "famille": "services",
+      "libelle": "organisme formation Qualiopi Indre-et-Loire 37",
+      "departement_vise": "37",
+      "rendement": "2 associations + réseaux SEO"
+    },
+    {
+      "famille": "numerique",
+      "libelle": "numérisation archivage GED Haute-Vienne 87",
+      "departement_vise": "87",
+      "rendement": "annuaires ; piège vendeurs de GED"
+    },
+    {
+      "famille": "industrie",
+      "libelle": "traitement de surface Belfort 90 zingage",
+      "departement_vise": "90",
+      "rendement": "1 TPE exploitable (MFMG, actually 08)"
+    },
+    {
+      "famille": "industrie",
+      "libelle": "fabricant mobilier bois Saône-et-Loire 71",
+      "departement_vise": "71",
+      "rendement": "1 site officiel (Ateliers Genetier)"
+    },
+    {
+      "famille": "services",
+      "libelle": "maintenance CVC contrat entretien Eure-et-Loir 28",
+      "departement_vise": "28",
+      "rendement": "2 TPE (LGC, Tuvache) + réseaux"
+    },
+    {
+      "famille": "tourisme",
+      "libelle": "base de loisirs plein air Pyrénées-Orientales 66",
+      "departement_vise": "66",
+      "rendement": "2 sites officiels (Kap'oupa Kap, Extérieur Nature)"
+    },
+    {
+      "famille": "services",
+      "libelle": "cabinet conseil RH QVT Meuse 55 Verdun",
+      "departement_vise": "55",
+      "rendement": "aucune TPE locale : cabinets nationaux"
+    },
+    {
+      "famille": "distribution",
+      "libelle": "distributeur fournitures industrielles Charente 16",
+      "departement_vise": "16",
+      "rendement": "1 site officiel (L.C. Bois) + réseaux"
+    },
+    {
+      "famille": "services",
+      "libelle": "nettoyage industriel spécialisé Haute-Vienne Limoges",
+      "departement_vise": "87",
+      "rendement": "2 TPE (TAM NET, Azur) + plateforme SEO"
+    },
+    {
+      "famille": "numerique",
+      "libelle": "recrutement assistant ADV saisie des commandes",
+      "departement_vise": "national",
+      "rendement": "1 PDF d'entreprise (Stratus) hors zone ciblée"
+    },
+    {
+      "famille": "industrie",
+      "libelle": "tôlerie fine découpe pliage Savoie 73",
+      "departement_vise": "73",
+      "rendement": "1 TPE (Damiani, actually 74) + annuaires"
+    },
+    {
+      "famille": "services",
+      "libelle": "organisme formation Aude 11 Carcassonne catalogue",
+      "departement_vise": "11",
+      "rendement": "1 association (Défi 11) + organismes publics"
+    },
+    {
+      "famille": "numerique",
+      "libelle": "conseil informatique infogérance Tarn-et-Garonne 82",
+      "departement_vise": "82",
+      "rendement": "1 TPE (LORDI) + franchise + réseau"
+    },
+    {
+      "famille": "services",
+      "libelle": "assainissement vidange Orne 61 Argentan",
+      "departement_vise": "61",
+      "rendement": "3 TPE (ACPT, Assainissement Argentanais, ALM)"
+    },
+    {
+      "famille": "distribution",
+      "libelle": "fabricant agroalimentaire biscuiterie Aube 10",
+      "departement_vise": "10",
+      "rendement": "1 site officiel (Tortora, équipement) + annuaires"
+    },
+    {
+      "famille": "services",
+      "libelle": "cabinet recrutement indépendant Seine-Maritime 76",
+      "departement_vise": "76",
+      "rendement": "2 cabinets multi-bureaux, hors cible TPE"
+    },
+    {
+      "famille": "services",
+      "libelle": "bureau études techniques BTP Hautes-Pyrénées 65 Tarbes",
+      "departement_vise": "65",
+      "rendement": "1 site officiel (BETEP) + LinkedIn"
+    },
+    {
+      "famille": "industrie",
+      "libelle": "matériel agricole atelier Aisne 02 Saint-Quentin",
+      "departement_vise": "02",
+      "rendement": "1 site officiel (MG02) + annuaires"
+    },
+    {
+      "famille": "distribution",
+      "libelle": "commerce spécialisé fabricant Vendée 85 boutique pro",
+      "departement_vise": "85",
+      "rendement": "1 site officiel (Vente Directe PME)"
+    },
+    {
+      "famille": "industrie",
+      "libelle": "chaudronnerie métallerie Meuse 55 Verdun",
+      "departement_vise": "55",
+      "rendement": "3 sites officiels (BKCS, ATS 55, Blanchefleur)"
+    },
+    {
+      "famille": "services",
+      "libelle": "formation sécurité incendie SST Calvados 14 Caen",
+      "departement_vise": "14",
+      "rendement": "1 TPE (VT Prévention) + réseaux SEO"
+    },
+    {
+      "famille": "numerique",
+      "libelle": "dématérialisation factures Territoire de Belfort 90",
+      "departement_vise": "90",
+      "rendement": "PIÈGE : uniquement des vendeurs de solutions"
+    },
+    {
+      "famille": "tourisme",
+      "libelle": "Alcamparol contact Sainte-Croix-Volvestre",
+      "departement_vise": "09",
+      "rendement": "annuaires uniquement, aucun e-mail publié"
+    },
+    {
+      "famille": "tourisme",
+      "libelle": "domaine viticole indépendant Côte des Bar Aube 10",
+      "departement_vise": "10",
+      "rendement": "4 domaines, non approfondis faute de temps"
+    },
+    {
+      "famille": "distribution",
+      "libelle": "menuiserie agencement Charente fabricant catalogue",
+      "departement_vise": "16",
+      "rendement": "annuaires + BODACC, aucun site officiel neuf"
+    },
+    {
+      "famille": "numerique",
+      "libelle": "société traduction technique documentation manuels",
+      "departement_vise": "national",
+      "rendement": "agences nationales + 1 indépendant"
+    },
+    {
+      "famille": "tourisme",
+      "libelle": "camping domaine indépendant Creuse Corrèze",
+      "departement_vise": "23/19",
+      "rendement": "2 sites officiels, chaînés Castels"
+    }
+  ],
+  "pages": [
+    {
+      "url": "https://www.ajzenstein-expert-comptable.com/expertise-comptable-08",
+      "statut": "ok",
+      "entite": "Ajzenstein Louis et Associés"
+    },
+    {
+      "url": "https://www.alcamparol.com/",
+      "statut": "ok",
+      "entite": "Alcamparol"
+    },
+    {
+      "url": "https://www.ess37.fr/",
+      "statut": "ok",
+      "entite": "E.S.S. 37"
+    },
+    {
+      "url": "https://www.mfmg.eu/zingage/",
+      "statut": "ok",
+      "entite": "MFMG"
+    },
+    {
+      "url": "https://www.ebeniste-genetier.com/meuble.php",
+      "statut": "ok",
+      "entite": "Les Ateliers Genetier"
+    },
+    {
+      "url": "https://hmcconseil.fr/",
+      "statut": "ok",
+      "entite": "HMC Conseil"
+    },
+    {
+      "url": "https://www.mfmg.eu/contact/",
+      "statut": "ok",
+      "entite": "MFMG"
+    },
+    {
+      "url": "https://lgc28.fr/",
+      "statut": "ok",
+      "entite": "Laizeau Génie Climatique"
+    },
+    {
+      "url": "https://www.kapoupakap.fr/activites.html",
+      "statut": "ok",
+      "entite": "Kap'oupa Kap"
+    },
+    {
+      "url": "https://lgc28.fr/contact.html",
+      "statut": "ok",
+      "entite": "Laizeau Génie Climatique"
+    },
+    {
+      "url": "https://www.lc-bois.fr/",
+      "statut": "ok",
+      "entite": "L.C. Bois"
+    },
+    {
+      "url": "https://www.kapoupakap.fr/",
+      "statut": "ok",
+      "entite": "Kap'oupa Kap"
+    },
+    {
+      "url": "https://azur-nettoyage-limoges.fr/",
+      "statut": "ok",
+      "entite": "Azur Nettoyage"
+    },
+    {
+      "url": "https://www.tam-net-87.fr/",
+      "statut": "ok",
+      "entite": "TAM NET 87"
+    },
+    {
+      "url": "https://www.tam-net-87.fr/contact",
+      "statut": "ok",
+      "entite": "TAM NET 87"
+    },
+    {
+      "url": "https://defi11.fr/",
+      "statut": "ok",
+      "entite": "Défi 11"
+    },
+    {
+      "url": "https://damiani-laser-tolerie.fr/",
+      "statut": "ok",
+      "entite": "Damiani AlpMétal"
+    },
+    {
+      "url": "https://www.acpt-vidange.com/",
+      "statut": "ok",
+      "entite": "A.C.P.T."
+    },
+    {
+      "url": "https://www.lordi.info/",
+      "statut": "ok",
+      "entite": "LORDI"
+    },
+    {
+      "url": "https://tortora.fr/",
+      "statut": "ok",
+      "entite": "Tortora"
+    },
+    {
+      "url": "http://www.assainissement-argentanais-orne.fr/",
+      "statut": "echec",
+      "entite": "Assainissement Argentanais"
+    },
+    {
+      "url": "https://www.acpt-vidange.com/contactez-nous.php",
+      "statut": "ok",
+      "entite": "A.C.P.T."
+    },
+    {
+      "url": "http://www.betep.fr/",
+      "statut": "ok",
+      "entite": "BETEP"
+    },
+    {
+      "url": "https://www.mg-02.fr/",
+      "statut": "ok",
+      "entite": "MG02"
+    },
+    {
+      "url": "https://www.kapoupakap.fr/contact.html",
+      "statut": "ok",
+      "entite": "Kap'oupa Kap"
+    },
+    {
+      "url": "https://www.alcamparol.com/contact/",
+      "statut": "echec",
+      "entite": "Alcamparol"
+    },
+    {
+      "url": "https://www.mg-02.fr/contact.php",
+      "statut": "ok",
+      "entite": "MG02"
+    },
+    {
+      "url": "https://www.ebeniste-genetier.com/contactez-nous.php",
+      "statut": "ok",
+      "entite": "Les Ateliers Genetier"
+    },
+    {
+      "url": "https://www.ess37.fr/contact",
+      "statut": "echec",
+      "entite": "E.S.S. 37"
+    },
+    {
+      "url": "https://www.lc-bois.fr/contact",
+      "statut": "ok",
+      "entite": "L.C. Bois"
+    },
+    {
+      "url": "https://www.alcamparol.com/contact-2/",
+      "statut": "ok_404",
+      "entite": "Alcamparol"
+    },
+    {
+      "url": "https://tortora.fr/contacter-lentreprise-tortora-dans-laube-pres-de-troyes/",
+      "statut": "ok",
+      "entite": "Tortora"
+    },
+    {
+      "url": "https://www.mfmg.eu/recrutement/",
+      "statut": "ok",
+      "entite": "MFMG"
+    },
+    {
+      "url": "https://damiani-laser-tolerie.fr/fr/page/contact",
+      "statut": "ok",
+      "entite": "Damiani AlpMétal"
+    },
+    {
+      "url": "https://www.vente-directe-pme.com/",
+      "statut": "ok",
+      "entite": "Vente Directe PME"
+    },
+    {
+      "url": "https://bkcs.fr/",
+      "statut": "echec",
+      "entite": "BKCS"
+    },
+    {
+      "url": "https://www.ats55.fr/",
+      "statut": "ok",
+      "entite": "ATS 55"
+    },
+    {
+      "url": "https://www.vt-prevention-formation-caen.fr/",
+      "statut": "ok",
+      "entite": "VT Prévention"
+    },
+    {
+      "url": "https://www.blanchefleur-metallerie.fr/",
+      "statut": "ok",
+      "entite": "Blanchefleur"
+    },
+    {
+      "url": "https://www.ats55.fr/contact-et-devis.php",
+      "statut": "ok",
+      "entite": "ATS 55"
+    },
+    {
+      "url": "https://www.blanchefleur-metallerie.fr/contact.php",
+      "statut": "ok",
+      "entite": "Blanchefleur"
+    },
+    {
+      "url": "https://www.vente-directe-pme.com/infos/4-a-propos-vdpme",
+      "statut": "ok",
+      "entite": "Vente Directe PME"
+    },
+    {
+      "url": "https://www.vt-prevention-formation-caen.fr/contact/",
+      "statut": "ok",
+      "entite": "VT Prévention"
+    }
+  ],
+  "tentatives_proxy_invalides": 3,
+  "entites": [
+    {
+      "nom": "Laizeau Génie Climatique",
+      "departement": "28",
+      "secteur": "Génie climatique / maintenance CVC",
+      "decision": "importee",
+      "motif": "Défaut ou processus constaté sur page officielle lue",
+      "lecture": "officielle",
+      "url": "https://lgc28.fr/",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "BETEP",
+      "departement": "65",
+      "secteur": "Bureau d'études structure",
+      "decision": "importee",
+      "motif": "Défaut ou processus constaté sur page officielle lue",
+      "lecture": "officielle",
+      "url": "http://www.betep.fr/",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "Tortora",
+      "departement": "10",
+      "secteur": "Équipement boulangerie / maintenance",
+      "decision": "importee",
+      "motif": "Défaut ou processus constaté sur page officielle lue",
+      "lecture": "officielle",
+      "url": "https://tortora.fr/",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "L.C. Bois",
+      "departement": "16",
+      "secteur": "Négoce de bois / distribution",
+      "decision": "importee",
+      "motif": "Défaut ou processus constaté sur page officielle lue",
+      "lecture": "officielle",
+      "url": "https://www.lc-bois.fr/",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "MFMG",
+      "departement": "08",
+      "secteur": "Traitement de surface / mécano-soudure",
+      "decision": "importee",
+      "motif": "Défaut ou processus constaté sur page officielle lue",
+      "lecture": "officielle",
+      "url": "https://www.mfmg.eu/",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "A.C.P.T.",
+      "departement": "61",
+      "secteur": "Assainissement / vidange",
+      "decision": "importee",
+      "motif": "Défaut ou processus constaté sur page officielle lue",
+      "lecture": "officielle",
+      "url": "https://www.acpt-vidange.com/",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "Kap'oupa Kap",
+      "departement": "66",
+      "secteur": "Parc de loisirs / tourisme",
+      "decision": "importee",
+      "motif": "Défaut ou processus constaté sur page officielle lue",
+      "lecture": "officielle",
+      "url": "https://www.kapoupakap.fr/",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "Alcamparol",
+      "departement": "09",
+      "secteur": "Hébergement insolite / tourisme",
+      "decision": "importee",
+      "motif": "Défaut ou processus constaté sur page officielle lue",
+      "lecture": "officielle",
+      "url": "https://www.alcamparol.com/",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "Ajzenstein Louis et Associés",
+      "departement": "08",
+      "secteur": "Expertise comptable",
+      "decision": "importee",
+      "motif": "Défaut ou processus constaté sur page officielle lue",
+      "lecture": "officielle",
+      "url": "https://www.ajzenstein-expert-comptable.com/",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "TAM NET 87",
+      "departement": "87",
+      "secteur": "Nettoyage professionnel",
+      "decision": "importee",
+      "motif": "Défaut ou processus constaté sur page officielle lue",
+      "lecture": "officielle",
+      "url": "https://www.tam-net-87.fr/",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "Blanchefleur",
+      "departement": "55",
+      "secteur": "Métallerie / chaudronnerie",
+      "decision": "importee",
+      "motif": "Défaut ou processus constaté sur page officielle lue",
+      "lecture": "officielle",
+      "url": "https://www.blanchefleur-metallerie.fr/",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "Les Ateliers Genetier",
+      "departement": "71",
+      "secteur": "Ébénisterie / fabrication mobilier",
+      "decision": "importee",
+      "motif": "Défaut ou processus constaté sur page officielle lue",
+      "lecture": "officielle",
+      "url": "https://www.ebeniste-genetier.com/",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "Azur Nettoyage",
+      "departement": "87",
+      "secteur": "Nettoyage professionnel",
+      "decision": "ecartee",
+      "motif": "Site récent et structuré, formulaire qualifié, e-mail et téléphone publiés : aucun défaut exploitable",
+      "lecture": "officielle",
+      "url": "https://azur-nettoyage-limoges.fr/",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "Damiani AlpMétal",
+      "departement": "74",
+      "secteur": "Tôlerie / découpe laser",
+      "decision": "ecartee",
+      "motif": "Site moderne, suivi de production informatisé revendiqué, formulaire complet : contre-signal fort",
+      "lecture": "officielle",
+      "url": "https://damiani-laser-tolerie.fr/",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "Vente Directe PME",
+      "departement": "85",
+      "secteur": "Fabricant mobilier / e-commerce",
+      "decision": "ecartee",
+      "motif": "Boutique en ligne pleinement fonctionnelle (prix, panier, avis) : rien à créer ni refondre",
+      "lecture": "officielle",
+      "url": "https://www.vente-directe-pme.com/",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "HMC Conseil",
+      "departement": "08",
+      "secteur": "Expertise comptable",
+      "decision": "ecartee",
+      "motif": "Site sobre mais complet, formulaire + reCAPTCHA, e-mail publié ; groupe Fizalys mutualisé",
+      "lecture": "officielle",
+      "url": "https://hmcconseil.fr/",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "LORDI",
+      "departement": "82",
+      "secteur": "Prestataire informatique",
+      "decision": "ecartee",
+      "motif": "Est lui-même prestataire informatique et cybersécurité : pertinence offre faible",
+      "lecture": "officielle",
+      "url": "https://www.lordi.info/",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "VT Prévention",
+      "departement": "14",
+      "secteur": "Organisme de formation",
+      "decision": "ecartee",
+      "motif": "Site WordPress récent et complet ; compteurs à 0 = artefact de lecture sans JavaScript, pas un défaut",
+      "lecture": "officielle",
+      "url": "https://www.vt-prevention-formation-caen.fr/",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "E.S.S. 37",
+      "departement": "37",
+      "secteur": "Association formation secourisme",
+      "decision": "ecartee",
+      "motif": "Association ; compteurs à 0 = artefact JS ; page /contact en AccessDenied, parcours non vérifiable",
+      "lecture": "officielle",
+      "url": "https://www.ess37.fr/",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "Défi 11",
+      "departement": "11",
+      "secteur": "Association insertion / handicap",
+      "decision": "ecartee",
+      "motif": "Association d'insertion financée sur fonds publics : hors cible commerciale B2B",
+      "lecture": "officielle",
+      "url": "https://defi11.fr/",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "ATS 55",
+      "departement": "55",
+      "secteur": "Métallerie / serrurerie",
+      "decision": "approfondir",
+      "motif": "Site correct, processus devis publié mais aucune preuve de charge manuelle ; pas d'e-mail publié",
+      "lecture": "officielle",
+      "url": "https://www.ats55.fr/",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "MG02",
+      "departement": "02",
+      "secteur": "Mécanique de précision",
+      "decision": "approfondir",
+      "motif": "Site correct avec formulaire et dépôt de plans ; aucun défaut net, pas d'e-mail publié",
+      "lecture": "officielle",
+      "url": "https://www.mg-02.fr/",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "Assainissement Argentanais",
+      "departement": "61",
+      "secteur": "Assainissement",
+      "decision": "non_verifie",
+      "motif": "Page non récupérée (échec de lecture) : aucun signal retenable",
+      "lecture": "officielle",
+      "url": "http://www.assainissement-argentanais-orne.fr/",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "BKCS",
+      "departement": "55",
+      "secteur": "Chaudronnerie / réparation engins",
+      "decision": "non_verifie",
+      "motif": "Page non récupérée (échec de lecture) : aucun signal retenable",
+      "lecture": "officielle",
+      "url": "https://bkcs.fr/",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "C-W-A Colas Wilemme & Associés",
+      "departement": "08",
+      "secteur": "Expertise comptable",
+      "decision": "ecartee",
+      "motif": "Réseau H10 (6 cabinets) : décision web mutualisée",
+      "lecture": "recherche_seule",
+      "url": "",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "FICOM",
+      "departement": "08",
+      "secteur": "Expertise comptable",
+      "decision": "ecartee",
+      "motif": "Même adresse et même téléphone que HMC Conseil : doublon probable, non résolu",
+      "lecture": "recherche_seule",
+      "url": "",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "Florian Mantione Institute",
+      "departement": "61",
+      "secteur": "Recrutement",
+      "decision": "ecartee",
+      "motif": "Réseau national à pages-villes SEO",
+      "lecture": "recherche_seule",
+      "url": "",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "Keyman Executive Search",
+      "departement": "61",
+      "secteur": "Recrutement",
+      "decision": "ecartee",
+      "motif": "Réseau national à pages-villes SEO",
+      "lecture": "recherche_seule",
+      "url": "",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "Talents Banque Assurance",
+      "departement": "61",
+      "secteur": "Recrutement",
+      "decision": "ecartee",
+      "motif": "Réseau national à pages-villes SEO",
+      "lecture": "recherche_seule",
+      "url": "",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "Talents Commerciaux",
+      "departement": "61",
+      "secteur": "Recrutement",
+      "decision": "ecartee",
+      "motif": "Réseau national à pages-villes SEO",
+      "lecture": "recherche_seule",
+      "url": "",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "Nova Clean",
+      "departement": "14",
+      "secteur": "Nettoyage après sinistre",
+      "decision": "ecartee",
+      "motif": "Plateforme à milliers de pages-villes, téléphones variables : contre-signal fort",
+      "lecture": "recherche_seule",
+      "url": "",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "Cleanolia",
+      "departement": "14",
+      "secteur": "Comparateur de devis",
+      "decision": "ecartee",
+      "motif": "Marketplace de mise en relation, pas une TPE cliente",
+      "lecture": "recherche_seule",
+      "url": "",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "Climatisation-28 / SE Habitat",
+      "departement": "28",
+      "secteur": "Climatisation",
+      "decision": "ecartee",
+      "motif": "Réseau Climatifrance à pages-départements",
+      "lecture": "recherche_seule",
+      "url": "",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "Degré Celsius",
+      "departement": "28",
+      "secteur": "Génie climatique",
+      "decision": "ecartee",
+      "motif": "Groupe à 3 filiales, GMAO revendiquée : maturité et taille hors cible",
+      "lecture": "recherche_seule",
+      "url": "",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "Tuvache",
+      "departement": "28",
+      "secteur": "Chauffage / plomberie",
+      "decision": "ecartee",
+      "motif": "Non approfondi, priorité aux cas plus nets",
+      "lecture": "recherche_seule",
+      "url": "",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "Extérieur Nature",
+      "departement": "66",
+      "secteur": "Parc de loisirs",
+      "decision": "ecartee",
+      "motif": "Réservation en ligne aboutie : contre-signal, non approfondi",
+      "lecture": "recherche_seule",
+      "url": "",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "Outdoor 66",
+      "departement": "66",
+      "secteur": "Activités pleine nature",
+      "decision": "ecartee",
+      "motif": "Réservation et paiement en ligne avec confirmation immédiate",
+      "lecture": "recherche_seule",
+      "url": "",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "Écosystème QVT",
+      "departement": "55",
+      "secteur": "Conseil RH",
+      "decision": "ecartee",
+      "motif": "Cabinet national, 10 consultants, aucune implantation 55 établie",
+      "lecture": "recherche_seule",
+      "url": "",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "LFC Humain",
+      "departement": "55",
+      "secteur": "Conseil QVT",
+      "decision": "ecartee",
+      "motif": "Cabinet national, page générique",
+      "lecture": "recherche_seule",
+      "url": "",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "HR Move Conseil",
+      "departement": "55",
+      "secteur": "Conseil RH",
+      "decision": "ecartee",
+      "motif": "Cabinet national, 250 références",
+      "lecture": "recherche_seule",
+      "url": "",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "Ad'Solutions",
+      "departement": "55",
+      "secteur": "Conseil RH / RSE",
+      "decision": "ecartee",
+      "motif": "Cabinet national, page générique",
+      "lecture": "recherche_seule",
+      "url": "",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "T'hompouss Consultants",
+      "departement": "55",
+      "secteur": "Conseil QVCT",
+      "decision": "ecartee",
+      "motif": "Cabinet national, page générique",
+      "lecture": "recherche_seule",
+      "url": "",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "SOCOREBAT Propreté",
+      "departement": "87",
+      "secteur": "Nettoyage",
+      "decision": "ecartee",
+      "motif": "Réseau à pages-villes, gabarit dupliqué",
+      "lecture": "recherche_seule",
+      "url": "",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "Amireged SARL",
+      "departement": "87",
+      "secteur": "GED / reprographie",
+      "decision": "ecartee",
+      "motif": "Annuaire seul (site-solocal), aucun site officiel lu",
+      "lecture": "recherche_seule",
+      "url": "",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "Grapho Tech 87",
+      "departement": "87",
+      "secteur": "Reprographie",
+      "decision": "ecartee",
+      "motif": "Annuaire seul, non vérifié",
+      "lecture": "recherche_seule",
+      "url": "",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "Graphicolor SARL",
+      "departement": "87",
+      "secteur": "Imprimerie",
+      "decision": "ecartee",
+      "motif": "Annuaire seul, non vérifié",
+      "lecture": "recherche_seule",
+      "url": "",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "Malinvaud et Cie",
+      "departement": "87",
+      "secteur": "Imprimerie / signalétique",
+      "decision": "ecartee",
+      "motif": "Annuaire seul, groupe ancien, non vérifié",
+      "lecture": "recherche_seule",
+      "url": "",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "Copies Centre",
+      "departement": "87",
+      "secteur": "Reprographie",
+      "decision": "ecartee",
+      "motif": "Annuaire seul, non vérifié",
+      "lecture": "recherche_seule",
+      "url": "",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "Copifac",
+      "departement": "87",
+      "secteur": "Reprographie",
+      "decision": "ecartee",
+      "motif": "Annuaire seul, non vérifié",
+      "lecture": "recherche_seule",
+      "url": "",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "Axe Fournitures",
+      "departement": "87",
+      "secteur": "Fournitures de bureau",
+      "decision": "ecartee",
+      "motif": "Annuaire seul, non vérifié",
+      "lecture": "recherche_seule",
+      "url": "",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "Dactylo'Claire",
+      "departement": "87",
+      "secteur": "Secrétariat / saisie",
+      "decision": "ecartee",
+      "motif": "Annuaire seul ; activité de saisie = prestataire, pas client",
+      "lecture": "recherche_seule",
+      "url": "",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "MS Gestion",
+      "departement": "87",
+      "secteur": "Secrétariat externalisé",
+      "decision": "ecartee",
+      "motif": "Annuaire seul ; prestataire administratif",
+      "lecture": "recherche_seule",
+      "url": "",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "Limousin Entreprise Solution Administrative",
+      "departement": "87",
+      "secteur": "Gestion RH / archivage",
+      "decision": "ecartee",
+      "motif": "Annuaire seul ; prestataire administratif",
+      "lecture": "recherche_seule",
+      "url": "",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "Stratus Packaging",
+      "departement": "87",
+      "secteur": "Fabricant d'étiquettes",
+      "decision": "ecartee",
+      "motif": "520 salariés, 100 M€ CA : hors cible TPE",
+      "lecture": "recherche_seule",
+      "url": "",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "SENS & Compétences",
+      "departement": "80",
+      "secteur": "Cabinet de recrutement",
+      "decision": "ecartee",
+      "motif": "Offre vue sur LinkedIn seulement, entreprise non vérifiée",
+      "lecture": "recherche_seule",
+      "url": "",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "Le CabRH",
+      "departement": "76",
+      "secteur": "Cabinet de recrutement",
+      "decision": "ecartee",
+      "motif": "5 bureaux régionaux : structure multi-implantations",
+      "lecture": "recherche_seule",
+      "url": "",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "AMALO Recrutement",
+      "departement": "76",
+      "secteur": "Cabinet de recrutement",
+      "decision": "ecartee",
+      "motif": "5 implantations nationales",
+      "lecture": "recherche_seule",
+      "url": "",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "XEFI Montauban",
+      "departement": "82",
+      "secteur": "Infogérance",
+      "decision": "ecartee",
+      "motif": "Franchise d'un réseau national",
+      "lecture": "recherche_seule",
+      "url": "",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "Infranat",
+      "departement": "82",
+      "secteur": "Infogérance",
+      "decision": "ecartee",
+      "motif": "Réseau à pages-départements SEO",
+      "lecture": "recherche_seule",
+      "url": "",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "Ordi 82",
+      "departement": "82",
+      "secteur": "Assistance informatique",
+      "decision": "ecartee",
+      "motif": "Services à la personne pour particuliers : hors B2B",
+      "lecture": "recherche_seule",
+      "url": "",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "CDG 82",
+      "departement": "82",
+      "secteur": "Collectivité / numérique",
+      "decision": "ecartee",
+      "motif": "Organisme public, hors cible",
+      "lecture": "recherche_seule",
+      "url": "",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "ALM Assainissement",
+      "departement": "61",
+      "secteur": "Assainissement",
+      "decision": "ecartee",
+      "motif": "Créée en 2025, non approfondie",
+      "lecture": "recherche_seule",
+      "url": "",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "Tegma",
+      "departement": "90",
+      "secteur": "Traitement de surface",
+      "decision": "ecartee",
+      "motif": "4 sociétés, 12 M€ CA : hors cible TPE",
+      "lecture": "recherche_seule",
+      "url": "",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "Stach Industries",
+      "departement": "90",
+      "secteur": "Traitement de surface",
+      "decision": "ecartee",
+      "motif": "Groupe industriel, chaînes haute capacité",
+      "lecture": "recherche_seule",
+      "url": "",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "Chromelec Groupe & Industries",
+      "departement": "90",
+      "secteur": "Traitement de surface",
+      "decision": "ecartee",
+      "motif": "Groupe, consortium européen CTAC",
+      "lecture": "recherche_seule",
+      "url": "",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "Inodec",
+      "departement": "74",
+      "secteur": "Décolletage",
+      "decision": "ecartee",
+      "motif": "Non approfondi,hors zone 25 visée",
+      "lecture": "recherche_seule",
+      "url": "",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "Pliages Online / Pliages Pays de Savoie",
+      "departement": "73",
+      "secteur": "Tôle pliée en ligne",
+      "decision": "ecartee",
+      "motif": "Configurateur et commande en ligne aboutis",
+      "lecture": "recherche_seule",
+      "url": "",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "TCS Tôlerie",
+      "departement": "73",
+      "secteur": "Tôlerie",
+      "decision": "ecartee",
+      "motif": "Page de zone d'intervention = SEO multi-villes",
+      "lecture": "recherche_seule",
+      "url": "",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "Garnier Industries",
+      "departement": "73",
+      "secteur": "Chaudronnerie / découpe laser",
+      "decision": "ecartee",
+      "motif": "Annuaire seul, non vérifié",
+      "lecture": "recherche_seule",
+      "url": "",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "S2P Métallerie",
+      "departement": "73",
+      "secteur": "Métallerie / tuyauterie",
+      "decision": "ecartee",
+      "motif": "Gabarit SEO à pages-villes et prestations",
+      "lecture": "recherche_seule",
+      "url": "",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "Someto",
+      "departement": "55",
+      "secteur": "Métallerie",
+      "decision": "ecartee",
+      "motif": "Gabarit SEO à pages-villes",
+      "lecture": "recherche_seule",
+      "url": "",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "Titan Chaudronnerie",
+      "departement": "55",
+      "secteur": "Chaudronnerie",
+      "decision": "ecartee",
+      "motif": "Adossée à Titan Prefa, non vérifiée",
+      "lecture": "recherche_seule",
+      "url": "",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "EROB",
+      "departement": "25",
+      "secteur": "Décolletage",
+      "decision": "ecartee",
+      "motif": "Annuaire seul, aucun site officiel trouvé",
+      "lecture": "recherche_seule",
+      "url": "",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "Atelier de Mécanique Deniziot",
+      "departement": "25",
+      "secteur": "Décolletage",
+      "decision": "ecartee",
+      "motif": "Annuaire seul, aucun site officiel trouvé",
+      "lecture": "recherche_seule",
+      "url": "",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "STS Industrie",
+      "departement": "25",
+      "secteur": "Décolletage",
+      "decision": "ecartee",
+      "motif": "Annuaire seul, non vérifié",
+      "lecture": "recherche_seule",
+      "url": "",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "A2Métal",
+      "departement": "25",
+      "secteur": "Décolletage",
+      "decision": "ecartee",
+      "motif": "Annuaire seul, non vérifié",
+      "lecture": "recherche_seule",
+      "url": "",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "Perrenoud Décolletage",
+      "departement": "25",
+      "secteur": "Décolletage",
+      "decision": "ecartee",
+      "motif": "Annuaire seul, non vérifié",
+      "lecture": "recherche_seule",
+      "url": "",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "SITTB",
+      "departement": "25",
+      "secteur": "Décolletage",
+      "decision": "ecartee",
+      "motif": "Annuaire seul, non vérifié",
+      "lecture": "recherche_seule",
+      "url": "",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "Putaud Mécanique",
+      "departement": "25",
+      "secteur": "Décolletage",
+      "decision": "ecartee",
+      "motif": "Annuaire seul, non vérifié",
+      "lecture": "recherche_seule",
+      "url": "",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "SOSOLIC Industries",
+      "departement": "25",
+      "secteur": "Décolletage",
+      "decision": "ecartee",
+      "motif": "Annuaire seul, non vérifié",
+      "lecture": "recherche_seule",
+      "url": "",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "AMPS61",
+      "departement": "61",
+      "secteur": "Micro-usinage",
+      "decision": "ecartee",
+      "motif": "Annuaire seul, non vérifié",
+      "lecture": "recherche_seule",
+      "url": "",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "Microtec",
+      "departement": "25",
+      "secteur": "Décolletage",
+      "decision": "ecartee",
+      "motif": "Certifié ISO/EN9100, taille supérieure : maturité",
+      "lecture": "recherche_seule",
+      "url": "",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "IDMM",
+      "departement": "25",
+      "secteur": "Décolletage",
+      "decision": "ecartee",
+      "motif": "Certifié, taille supérieure : maturité",
+      "lecture": "recherche_seule",
+      "url": "",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "AFPA Centre de Carcassonne",
+      "departement": "11",
+      "secteur": "Formation",
+      "decision": "ecartee",
+      "motif": "Établissement public national",
+      "lecture": "recherche_seule",
+      "url": "",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "Sud Formation CCI Aude",
+      "departement": "11",
+      "secteur": "Formation",
+      "decision": "ecartee",
+      "motif": "CCI : organisme consulaire",
+      "lecture": "recherche_seule",
+      "url": "",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "CFPPA des Pays d'Aude",
+      "departement": "11",
+      "secteur": "Formation",
+      "decision": "ecartee",
+      "motif": "Établissement public agricole",
+      "lecture": "recherche_seule",
+      "url": "",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "AFFIC CRIA 37",
+      "departement": "37",
+      "secteur": "Formation / illettrisme",
+      "decision": "ecartee",
+      "motif": "Association, formations gratuites : hors cible",
+      "lecture": "recherche_seule",
+      "url": "",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "B et C Formation",
+      "departement": "37",
+      "secteur": "Formation SSIAP",
+      "decision": "ecartee",
+      "motif": "Annuaire seul, non vérifié",
+      "lecture": "recherche_seule",
+      "url": "",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "Odyssée Formations",
+      "departement": "37",
+      "secteur": "Formation SSIAP",
+      "decision": "ecartee",
+      "motif": "Annuaire seul, non vérifié",
+      "lecture": "recherche_seule",
+      "url": "",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "Guard's Conseil Formation",
+      "departement": "37",
+      "secteur": "Formation SSIAP",
+      "decision": "ecartee",
+      "motif": "Annuaire seul, non vérifié",
+      "lecture": "recherche_seule",
+      "url": "",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "OFSP",
+      "departement": "14",
+      "secteur": "Formation sécurité",
+      "decision": "ecartee",
+      "motif": "Réseau à pages-villes, basé Bourg-en-Bresse",
+      "lecture": "recherche_seule",
+      "url": "",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "Alertis",
+      "departement": "14",
+      "secteur": "Formation sécurité",
+      "decision": "ecartee",
+      "motif": "Réseau national à pages-centres",
+      "lecture": "recherche_seule",
+      "url": "",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "Caen Rescue / FFSS 14",
+      "departement": "14",
+      "secteur": "Formation secourisme",
+      "decision": "ecartee",
+      "motif": "Association agréée, hors cible commerciale",
+      "lecture": "recherche_seule",
+      "url": "",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "Magasins Bleus",
+      "departement": "85",
+      "secteur": "Vente à domicile",
+      "decision": "ecartee",
+      "motif": "Réseau national de vente à domicile",
+      "lecture": "recherche_seule",
+      "url": "",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "DASIR",
+      "departement": "85",
+      "secteur": "Distribution pièces auto",
+      "decision": "ecartee",
+      "motif": "Groupe national, 3 M pièces/an, portail pro abouti",
+      "lecture": "recherche_seule",
+      "url": "",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "Distri Cash",
+      "departement": "85",
+      "secteur": "Grossiste pneumatiques",
+      "decision": "ecartee",
+      "motif": "715 salariés, leader national : hors cible",
+      "lecture": "recherche_seule",
+      "url": "",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "Exaparts",
+      "departement": "85",
+      "secteur": "Grossiste pièces auto",
+      "decision": "ecartee",
+      "motif": "Non localisé 85, aire Île-de-France",
+      "lecture": "recherche_seule",
+      "url": "",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "Autodistribution Rembaud",
+      "departement": "85",
+      "secteur": "Distribution pièces auto",
+      "decision": "ecartee",
+      "motif": "Réseau national Autodistribution",
+      "lecture": "recherche_seule",
+      "url": "",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "T.D.N. TDR",
+      "departement": "85",
+      "secteur": "Radiateurs / thermique",
+      "decision": "ecartee",
+      "motif": "Annuaire seul, non vérifié",
+      "lecture": "recherche_seule",
+      "url": "",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "VM Matériaux",
+      "departement": "16",
+      "secteur": "Négoce matériaux",
+      "decision": "ecartee",
+      "motif": "Groupe SAMSE",
+      "lecture": "recherche_seule",
+      "url": "",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "Partedis",
+      "departement": "16",
+      "secteur": "Négoce matériaux",
+      "decision": "ecartee",
+      "motif": "Réseau national de distribution",
+      "lecture": "recherche_seule",
+      "url": "",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "Tout Faire",
+      "departement": "16",
+      "secteur": "Négoce matériaux",
+      "decision": "ecartee",
+      "motif": "Réseau 450 points de vente",
+      "lecture": "recherche_seule",
+      "url": "",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "Promeca Distribution",
+      "departement": "43",
+      "secteur": "Fournitures industrielles",
+      "decision": "ecartee",
+      "motif": "700 000 références, hors zone et hors taille",
+      "lecture": "recherche_seule",
+      "url": "",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "Maison Fossier",
+      "departement": "10",
+      "secteur": "Biscuiterie",
+      "decision": "ecartee",
+      "motif": "6 magasins + boutique en ligne : maturité",
+      "lecture": "recherche_seule",
+      "url": "",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "Salaisons La Champenoise",
+      "departement": "10",
+      "secteur": "Charcuterie",
+      "decision": "ecartee",
+      "motif": "Annuaire seul, non vérifié",
+      "lecture": "recherche_seule",
+      "url": "",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "Bioster",
+      "departement": "10",
+      "secteur": "Condiments",
+      "decision": "ecartee",
+      "motif": "Annuaire seul, non vérifié",
+      "lecture": "recherche_seule",
+      "url": "",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "Nogue Structures Ingénierie",
+      "departement": "65",
+      "secteur": "Bureau d'études",
+      "decision": "ecartee",
+      "motif": "Vu sur un club d'affaires seulement, site non lu",
+      "lecture": "recherche_seule",
+      "url": "",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "SETES.SA",
+      "departement": "65",
+      "secteur": "Bureau d'études",
+      "decision": "ecartee",
+      "motif": "LinkedIn seul, 11-50 salariés",
+      "lecture": "recherche_seule",
+      "url": "",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "BET Sodeba",
+      "departement": "65",
+      "secteur": "Bureau d'études béton",
+      "decision": "ecartee",
+      "motif": "Gabarit SEO à pages-départements",
+      "lecture": "recherche_seule",
+      "url": "",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "David SA",
+      "departement": "02",
+      "secteur": "Matériel agricole",
+      "decision": "ecartee",
+      "motif": "Réseau multi-départements",
+      "lecture": "recherche_seule",
+      "url": "",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "Rocha SA",
+      "departement": "02",
+      "secteur": "Matériel agricole",
+      "decision": "ecartee",
+      "motif": "Annuaire seul, non vérifié",
+      "lecture": "recherche_seule",
+      "url": "",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "Motor'Aisne",
+      "departement": "02",
+      "secteur": "Motoculture",
+      "decision": "ecartee",
+      "motif": "3 magasins, non approfondi",
+      "lecture": "recherche_seule",
+      "url": "",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "Charente Menuiseries Miroiterie",
+      "departement": "16",
+      "secteur": "Menuiserie / agencement",
+      "decision": "ecartee",
+      "motif": "Annuaire seul, non vérifié",
+      "lecture": "recherche_seule",
+      "url": "",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "Atlantique Stores et Fermetures",
+      "departement": "17",
+      "secteur": "Menuiserie",
+      "decision": "ecartee",
+      "motif": "Réseau Solabaie",
+      "lecture": "recherche_seule",
+      "url": "",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "Reproland",
+      "departement": "90",
+      "secteur": "GED / dématérialisation",
+      "decision": "ecartee",
+      "motif": "VENDEUR de solutions, pas un acheteur : piège de requête",
+      "lecture": "recherche_seule",
+      "url": "",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "Deltic",
+      "departement": "90",
+      "secteur": "GED / dématérialisation",
+      "decision": "ecartee",
+      "motif": "VENDEUR de solutions : piège de requête",
+      "lecture": "recherche_seule",
+      "url": "",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "DIMO Dématérialisation",
+      "departement": "90",
+      "secteur": "GED / dématérialisation",
+      "decision": "ecartee",
+      "motif": "VENDEUR de solutions : piège de requête",
+      "lecture": "recherche_seule",
+      "url": "",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "Numeria",
+      "departement": "90",
+      "secteur": "GED",
+      "decision": "ecartee",
+      "motif": "VENDEUR de solutions : piège de requête",
+      "lecture": "recherche_seule",
+      "url": "",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "Sotratech",
+      "departement": "75",
+      "secteur": "Traduction technique",
+      "decision": "ecartee",
+      "motif": "Agence nationale, TAO outillée : maturité",
+      "lecture": "recherche_seule",
+      "url": "",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "OT Technique",
+      "departement": "75",
+      "secteur": "Traduction technique",
+      "decision": "ecartee",
+      "motif": "Agence nationale, non vérifiée",
+      "lecture": "recherche_seule",
+      "url": "",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "Alphatrad",
+      "departement": "75",
+      "secteur": "Traduction technique",
+      "decision": "ecartee",
+      "motif": "Groupe international, post-édition IA déjà offerte",
+      "lecture": "recherche_seule",
+      "url": "",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "Diléal / Alessia Vonau",
+      "departement": "national",
+      "secteur": "Traduction technique",
+      "decision": "ecartee",
+      "motif": "Indépendante outillée Trados ; elle-même prestataire",
+      "lecture": "recherche_seule",
+      "url": "",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "TT Traduction Technique",
+      "departement": "national",
+      "secteur": "Traduction technique",
+      "decision": "ecartee",
+      "motif": "Agence, non vérifiée",
+      "lecture": "recherche_seule",
+      "url": "",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "Camping Le Pont du Tarn",
+      "departement": "48",
+      "secteur": "Camping",
+      "decision": "ecartee",
+      "motif": "Chaîne Flower Campings, moteur de réservation intégré",
+      "lecture": "recherche_seule",
+      "url": "",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "Camping Château de Poinsouze",
+      "departement": "23",
+      "secteur": "Camping",
+      "decision": "ecartee",
+      "motif": "Chaîne Les Castels, réservation en ligne aboutie",
+      "lecture": "recherche_seule",
+      "url": "",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "Domaine de la Chapelle en Corrèze",
+      "departement": "19",
+      "secteur": "Hébergement / gîtes",
+      "decision": "ecartee",
+      "motif": "Non approfondi, tarifs et hébergements publiés",
+      "lecture": "recherche_seule",
+      "url": "",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "Champagne René Jolly",
+      "departement": "10",
+      "secteur": "Vignoble / œnotourisme",
+      "decision": "ecartee",
+      "motif": "Réservation de visite en ligne déjà en place",
+      "lecture": "recherche_seule",
+      "url": "",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "Champagne Urbain",
+      "departement": "10",
+      "secteur": "Vignoble / chambres d'hôtes",
+      "decision": "ecartee",
+      "motif": "Réservation par formulaire en ligne, non approfondi",
+      "lecture": "recherche_seule",
+      "url": "",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "Champagne Laurent Courtillier",
+      "departement": "10",
+      "secteur": "Vignoble",
+      "decision": "ecartee",
+      "motif": "Non approfondi",
+      "lecture": "recherche_seule",
+      "url": "",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "Tolix La Manufacture",
+      "departement": "71",
+      "secteur": "Fabricant mobilier",
+      "decision": "ecartee",
+      "motif": "Marque nationale distribuée largement",
+      "lecture": "recherche_seule",
+      "url": "",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "Creabois 71",
+      "departement": "71",
+      "secteur": "Fabrication mobilier",
+      "decision": "ecartee",
+      "motif": "Annuaire seul, vente en ligne signalée",
+      "lecture": "recherche_seule",
+      "url": "",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "Frédéric Bardin",
+      "departement": "71",
+      "secteur": "Fabrication mobilier",
+      "decision": "ecartee",
+      "motif": "Annuaire seul, non vérifié",
+      "lecture": "recherche_seule",
+      "url": "",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "Nicolas Bassot",
+      "departement": "71",
+      "secteur": "Ébénisterie d'art",
+      "decision": "ecartee",
+      "motif": "Annuaire seul, non vérifié",
+      "lecture": "recherche_seule",
+      "url": "",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "Rhetat Cardon SARL",
+      "departement": "71",
+      "secteur": "Ébénisterie",
+      "decision": "ecartee",
+      "motif": "Annuaire seul, non vérifié",
+      "lecture": "recherche_seule",
+      "url": "",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "PagesJaunes",
+      "departement": "",
+      "secteur": "annuaire / plateforme",
+      "decision": "annuaire_seul",
+      "motif": "Annuaire, place de marché ou média : rendement import nul, jamais une preuve",
+      "lecture": "annuaire",
+      "url": "https://www.pagesjaunes.fr/",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "PagesPro",
+      "departement": "",
+      "secteur": "annuaire / plateforme",
+      "decision": "annuaire_seul",
+      "motif": "Annuaire, place de marché ou média : rendement import nul, jamais une preuve",
+      "lecture": "annuaire",
+      "url": "https://www.pagespro.com/",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "Kompass",
+      "departement": "",
+      "secteur": "annuaire / plateforme",
+      "decision": "annuaire_seul",
+      "motif": "Annuaire, place de marché ou média : rendement import nul, jamais une preuve",
+      "lecture": "annuaire",
+      "url": "https://fr.kompass.com/",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "Fabriquons.fr",
+      "departement": "",
+      "secteur": "annuaire / plateforme",
+      "decision": "annuaire_seul",
+      "motif": "Annuaire, place de marché ou média : rendement import nul, jamais une preuve",
+      "lecture": "annuaire",
+      "url": "https://www.fabriquons.fr/",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "Manageo",
+      "departement": "",
+      "secteur": "annuaire / plateforme",
+      "decision": "annuaire_seul",
+      "motif": "Annuaire, place de marché ou média : rendement import nul, jamais une preuve",
+      "lecture": "annuaire",
+      "url": "https://www.manageo.fr/",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "Europages",
+      "departement": "",
+      "secteur": "annuaire / plateforme",
+      "decision": "annuaire_seul",
+      "motif": "Annuaire, place de marché ou média : rendement import nul, jamais une preuve",
+      "lecture": "annuaire",
+      "url": "https://www.europages.fr/",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "118712",
+      "departement": "",
+      "secteur": "annuaire / plateforme",
+      "decision": "annuaire_seul",
+      "motif": "Annuaire, place de marché ou média : rendement import nul, jamais une preuve",
+      "lecture": "annuaire",
+      "url": "https://www.118712.fr/",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "Solocal / site-solocal",
+      "departement": "",
+      "secteur": "annuaire / plateforme",
+      "decision": "annuaire_seul",
+      "motif": "Annuaire, place de marché ou média : rendement import nul, jamais une preuve",
+      "lecture": "annuaire",
+      "url": "https://amiregedsarl.site-solocal.com/",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "Webrankinfo",
+      "departement": "",
+      "secteur": "annuaire / plateforme",
+      "decision": "annuaire_seul",
+      "motif": "Annuaire, place de marché ou média : rendement import nul, jamais une preuve",
+      "lecture": "annuaire",
+      "url": "https://www.webrankinfo.net/",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "Artisans du Patrimoine",
+      "departement": "",
+      "secteur": "annuaire / plateforme",
+      "decision": "annuaire_seul",
+      "motif": "Annuaire, place de marché ou média : rendement import nul, jamais une preuve",
+      "lecture": "annuaire",
+      "url": "https://artisansdupatrimoine.fr/",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "Omizi",
+      "departement": "",
+      "secteur": "annuaire / plateforme",
+      "decision": "annuaire_seul",
+      "motif": "Annuaire, place de marché ou média : rendement import nul, jamais une preuve",
+      "lecture": "annuaire",
+      "url": "https://omizi.com/",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "ssiap.pro",
+      "departement": "",
+      "secteur": "annuaire / plateforme",
+      "decision": "annuaire_seul",
+      "motif": "Annuaire, place de marché ou média : rendement import nul, jamais une preuve",
+      "lecture": "annuaire",
+      "url": "https://ssiap.pro/",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "Lozère Tourisme",
+      "departement": "",
+      "secteur": "annuaire / plateforme",
+      "decision": "annuaire_seul",
+      "motif": "Annuaire, place de marché ou média : rendement import nul, jamais une preuve",
+      "lecture": "annuaire",
+      "url": "https://www.lozere-tourisme.com/",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "Perpignan Tourisme",
+      "departement": "",
+      "secteur": "annuaire / plateforme",
+      "decision": "annuaire_seul",
+      "motif": "Annuaire, place de marché ou média : rendement import nul, jamais une preuve",
+      "lecture": "annuaire",
+      "url": "https://www.perpignantourisme.com/",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "Gîtes de France Ariège",
+      "departement": "",
+      "secteur": "annuaire / plateforme",
+      "decision": "annuaire_seul",
+      "motif": "Annuaire, place de marché ou média : rendement import nul, jamais une preuve",
+      "lecture": "annuaire",
+      "url": "https://www.gites-de-france-ariege.com/",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "GreenGo",
+      "departement": "",
+      "secteur": "annuaire / plateforme",
+      "decision": "annuaire_seul",
+      "motif": "Annuaire, place de marché ou média : rendement import nul, jamais une preuve",
+      "lecture": "annuaire",
+      "url": "https://www.greengo.voyage/",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "CampingFrance",
+      "departement": "",
+      "secteur": "annuaire / plateforme",
+      "decision": "annuaire_seul",
+      "motif": "Annuaire, place de marché ou média : rendement import nul, jamais une preuve",
+      "lecture": "annuaire",
+      "url": "https://www.campingfrance.com/",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "Les Castels",
+      "departement": "",
+      "secteur": "annuaire / plateforme",
+      "decision": "annuaire_seul",
+      "motif": "Annuaire, place de marché ou média : rendement import nul, jamais une preuve",
+      "lecture": "annuaire",
+      "url": "https://www.les-castels.co.uk/",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "camping-insolite.fr",
+      "departement": "",
+      "secteur": "annuaire / plateforme",
+      "decision": "annuaire_seul",
+      "motif": "Annuaire, place de marché ou média : rendement import nul, jamais une preuve",
+      "lecture": "annuaire",
+      "url": "https://camping-insolite.fr/",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "chambres-hotes.org",
+      "departement": "",
+      "secteur": "annuaire / plateforme",
+      "decision": "annuaire_seul",
+      "motif": "Annuaire, place de marché ou média : rendement import nul, jamais une preuve",
+      "lecture": "annuaire",
+      "url": "https://www.chambres-hotes.org/",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "InterCarifOref",
+      "departement": "",
+      "secteur": "annuaire / plateforme",
+      "decision": "annuaire_seul",
+      "motif": "Annuaire, place de marché ou média : rendement import nul, jamais une preuve",
+      "lecture": "annuaire",
+      "url": "https://www.intercariforef.org/",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "MéfomerEnRégion",
+      "departement": "",
+      "secteur": "annuaire / plateforme",
+      "decision": "annuaire_seul",
+      "motif": "Annuaire, place de marché ou média : rendement import nul, jamais une preuve",
+      "lecture": "annuaire",
+      "url": "https://www.meformerenregion.fr/",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "Annuaire service-public",
+      "departement": "",
+      "secteur": "annuaire / plateforme",
+      "decision": "annuaire_seul",
+      "motif": "Annuaire, place de marché ou média : rendement import nul, jamais une preuve",
+      "lecture": "annuaire",
+      "url": "https://lannuaire.service-public.gouv.fr/",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "Equiressources",
+      "departement": "",
+      "secteur": "annuaire / plateforme",
+      "decision": "annuaire_seul",
+      "motif": "Annuaire, place de marché ou média : rendement import nul, jamais une preuve",
+      "lecture": "annuaire",
+      "url": "https://www.equiressources.fr/",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "Apec",
+      "departement": "",
+      "secteur": "annuaire / plateforme",
+      "decision": "annuaire_seul",
+      "motif": "Annuaire, place de marché ou média : rendement import nul, jamais une preuve",
+      "lecture": "annuaire",
+      "url": "https://www.apec.fr/",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "France Travail",
+      "departement": "",
+      "secteur": "annuaire / plateforme",
+      "decision": "annuaire_seul",
+      "motif": "Annuaire, place de marché ou média : rendement import nul, jamais une preuve",
+      "lecture": "annuaire",
+      "url": "https://candidat.francetravail.fr/",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "Indeed",
+      "departement": "",
+      "secteur": "annuaire / plateforme",
+      "decision": "annuaire_seul",
+      "motif": "Annuaire, place de marché ou média : rendement import nul, jamais une preuve",
+      "lecture": "annuaire",
+      "url": "https://fr.indeed.com/",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "Jooble",
+      "departement": "",
+      "secteur": "annuaire / plateforme",
+      "decision": "annuaire_seul",
+      "motif": "Annuaire, place de marché ou média : rendement import nul, jamais une preuve",
+      "lecture": "annuaire",
+      "url": "https://fr.jooble.org/",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "LinkedIn",
+      "departement": "",
+      "secteur": "annuaire / plateforme",
+      "decision": "annuaire_seul",
+      "motif": "Annuaire, place de marché ou média : rendement import nul, jamais une preuve",
+      "lecture": "annuaire",
+      "url": "https://fr.linkedin.com/",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "talent.com",
+      "departement": "",
+      "secteur": "annuaire / plateforme",
+      "decision": "annuaire_seul",
+      "motif": "Annuaire, place de marché ou média : rendement import nul, jamais une preuve",
+      "lecture": "annuaire",
+      "url": "https://fr.talent.com/",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "trabajo.org",
+      "departement": "",
+      "secteur": "annuaire / plateforme",
+      "decision": "annuaire_seul",
+      "motif": "Annuaire, place de marché ou média : rendement import nul, jamais une preuve",
+      "lecture": "annuaire",
+      "url": "https://fr.trabajo.org/",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "BODACC",
+      "departement": "",
+      "secteur": "annuaire / plateforme",
+      "decision": "annuaire_seul",
+      "motif": "Annuaire, place de marché ou média : rendement import nul, jamais une preuve",
+      "lecture": "annuaire",
+      "url": "https://www.bodacc.fr/",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "LocalityBiz",
+      "departement": "",
+      "secteur": "annuaire / plateforme",
+      "decision": "annuaire_seul",
+      "motif": "Annuaire, place de marché ou média : rendement import nul, jamais une preuve",
+      "lecture": "annuaire",
+      "url": "https://localitybiz.com/",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "Mapstr",
+      "departement": "",
+      "secteur": "annuaire / plateforme",
+      "decision": "annuaire_seul",
+      "motif": "Annuaire, place de marché ou média : rendement import nul, jamais une preuve",
+      "lecture": "annuaire",
+      "url": "https://mapstr.com/",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "Google Hotels",
+      "departement": "",
+      "secteur": "annuaire / plateforme",
+      "decision": "annuaire_seul",
+      "motif": "Annuaire, place de marché ou média : rendement import nul, jamais une preuve",
+      "lecture": "annuaire",
+      "url": "https://www.google.com/travel/hotels/",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "Bigorre & Business",
+      "departement": "",
+      "secteur": "annuaire / plateforme",
+      "decision": "annuaire_seul",
+      "motif": "Annuaire, place de marché ou média : rendement import nul, jamais une preuve",
+      "lecture": "annuaire",
+      "url": "https://www.bigorre-business.fr/",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "Imaginalsalce",
+      "departement": "",
+      "secteur": "annuaire / plateforme",
+      "decision": "annuaire_seul",
+      "motif": "Annuaire, place de marché ou média : rendement import nul, jamais une preuve",
+      "lecture": "annuaire",
+      "url": "https://www.marque.alsace/",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "La Dépêche",
+      "departement": "",
+      "secteur": "annuaire / plateforme",
+      "decision": "annuaire_seul",
+      "motif": "Annuaire, place de marché ou média : rendement import nul, jamais une preuve",
+      "lecture": "annuaire",
+      "url": "https://www.ladepeche.fr/",
+      "date": "2026-11-03"
+    },
+    {
+      "nom": "Aube Champagne (guide PDF)",
+      "departement": "",
+      "secteur": "annuaire / plateforme",
+      "decision": "annuaire_seul",
+      "motif": "Annuaire, place de marché ou média : rendement import nul, jamais une preuve",
+      "lecture": "annuaire",
+      "url": "https://www.aube-champagne.com/",
+      "date": "2026-11-03"
+    }
+  ],
+  "securite": {
+    "envoi_autorise": false,
+    "dry_run": true,
+    "aucun_envoi_reel": true,
+    "aucun_achat": true,
+    "aucun_contournement_antibot": true
+  }
+}

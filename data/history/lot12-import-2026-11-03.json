@@ -1,0 +1,259 @@
+{
+  "lot": "2026-11-03-lot12",
+  "date": "2026-11-03",
+  "crm_avant": 108,
+  "crm_apres": 120,
+  "fiches_creees": 12,
+  "collisions": [],
+  "bloquees_suppression": [],
+  "registre_avant": 213,
+  "registre_apres": 385,
+  "registre_ajouts": 172,
+  "recherche": {
+    "requetes": 34,
+    "tentatives_lecture": 46,
+    "lectures_reussies": 39,
+    "lectures_echouees": 7,
+    "entites_examinees": 173,
+    "entreprises_hors_annuaires": 134,
+    "annuaires_rencontres": 39,
+    "decisions": {
+      "importee": 12,
+      "ecartee": 118,
+      "approfondir": 2,
+      "non_verifie": 2,
+      "annuaire_seul": 39
+    },
+    "lectures": {
+      "officielle": 24,
+      "recherche_seule": 110,
+      "annuaire": 39
+    },
+    "departements": [
+      "02",
+      "08",
+      "09",
+      "10",
+      "11",
+      "14",
+      "16",
+      "17",
+      "19",
+      "23",
+      "25",
+      "28",
+      "37",
+      "43",
+      "48",
+      "55",
+      "61",
+      "65",
+      "66",
+      "71",
+      "73",
+      "74",
+      "75",
+      "76",
+      "80",
+      "82",
+      "85",
+      "87",
+      "90"
+    ],
+    "sites_officiels_lus": 22
+  },
+  "brouillons_autorises": [],
+  "fiches": [
+    {
+      "company": "Laizeau Génie Climatique",
+      "department": "28",
+      "axes": {
+        "site_web": 5,
+        "refonte": 81,
+        "ia_automatisation": 34
+      },
+      "priorite": 57,
+      "palier": "a_approfondir",
+      "penalite_contre_signaux": 11,
+      "email": "",
+      "brouillon": false,
+      "brouillon_motif": "aucune adresse publiée sur les pages lues"
+    },
+    {
+      "company": "L.C. Bois",
+      "department": "16",
+      "axes": {
+        "site_web": 5,
+        "refonte": 65,
+        "ia_automatisation": 29
+      },
+      "priorite": 61,
+      "palier": "moyenne",
+      "penalite_contre_signaux": 0,
+      "email": "contact@lcbois.fr",
+      "brouillon": false,
+      "brouillon_motif": "priorité moyenne (61) : en dessous du seuil haute"
+    },
+    {
+      "company": "A.C.P.T.",
+      "department": "61",
+      "axes": {
+        "site_web": 5,
+        "refonte": 31,
+        "ia_automatisation": 12
+      },
+      "priorite": 47,
+      "palier": "a_approfondir",
+      "penalite_contre_signaux": 0,
+      "email": "",
+      "brouillon": false,
+      "brouillon_motif": "aucune adresse publiée sur les pages lues"
+    },
+    {
+      "company": "Alcamparol",
+      "department": "09",
+      "axes": {
+        "site_web": 5,
+        "refonte": 73,
+        "ia_automatisation": 34
+      },
+      "priorite": 65,
+      "palier": "a_approfondir",
+      "penalite_contre_signaux": 0,
+      "email": "",
+      "brouillon": false,
+      "brouillon_motif": "aucune adresse publiée sur les pages lues"
+    },
+    {
+      "company": "Kap'oupa Kap",
+      "department": "66",
+      "axes": {
+        "site_web": 5,
+        "refonte": 65,
+        "ia_automatisation": 36
+      },
+      "priorite": 61,
+      "palier": "a_approfondir",
+      "penalite_contre_signaux": 0,
+      "email": "",
+      "brouillon": false,
+      "brouillon_motif": "aucune adresse publiée sur les pages lues"
+    },
+    {
+      "company": "MFMG",
+      "department": "08",
+      "axes": {
+        "site_web": 5,
+        "refonte": 57,
+        "ia_automatisation": 0
+      },
+      "priorite": 34,
+      "palier": "basse",
+      "penalite_contre_signaux": 24,
+      "email": "contact@mfmg.fr",
+      "brouillon": false,
+      "brouillon_motif": "priorité basse (34) : en dessous du seuil haute"
+    },
+    {
+      "company": "Tortora",
+      "department": "10",
+      "axes": {
+        "site_web": 5,
+        "refonte": 57,
+        "ia_automatisation": 0
+      },
+      "priorite": 58,
+      "palier": "a_approfondir",
+      "penalite_contre_signaux": 0,
+      "email": "",
+      "brouillon": false,
+      "brouillon_motif": "aucune adresse publiée sur les pages lues"
+    },
+    {
+      "company": "Ajzenstein Louis et Associés",
+      "department": "08",
+      "axes": {
+        "site_web": 5,
+        "refonte": 73,
+        "ia_automatisation": 0
+      },
+      "priorite": 65,
+      "palier": "a_approfondir",
+      "penalite_contre_signaux": 0,
+      "email": "",
+      "brouillon": false,
+      "brouillon_motif": "aucune adresse publiée sur les pages lues"
+    },
+    {
+      "company": "Blanchefleur",
+      "department": "55",
+      "axes": {
+        "site_web": 5,
+        "refonte": 65,
+        "ia_automatisation": 34
+      },
+      "priorite": 61,
+      "palier": "a_approfondir",
+      "penalite_contre_signaux": 0,
+      "email": "",
+      "brouillon": false,
+      "brouillon_motif": "aucune adresse publiée sur les pages lues"
+    },
+    {
+      "company": "TAM NET 87",
+      "department": "87",
+      "axes": {
+        "site_web": 5,
+        "refonte": 65,
+        "ia_automatisation": 12
+      },
+      "priorite": 61,
+      "palier": "a_approfondir",
+      "penalite_contre_signaux": 0,
+      "email": "",
+      "brouillon": false,
+      "brouillon_motif": "aucune adresse publiée sur les pages lues"
+    },
+    {
+      "company": "Les Ateliers Genetier",
+      "department": "71",
+      "axes": {
+        "site_web": 5,
+        "refonte": 57,
+        "ia_automatisation": 0
+      },
+      "priorite": 34,
+      "palier": "basse",
+      "penalite_contre_signaux": 24,
+      "email": "",
+      "brouillon": false,
+      "brouillon_motif": "aucune adresse publiée sur les pages lues"
+    },
+    {
+      "company": "BETEP",
+      "department": "65",
+      "axes": {
+        "site_web": 5,
+        "refonte": 47,
+        "ia_automatisation": 0
+      },
+      "priorite": 54,
+      "palier": "moyenne",
+      "penalite_contre_signaux": 0,
+      "email": "betep@betep.fr",
+      "brouillon": false,
+      "brouillon_motif": "priorité moyenne (54) : en dessous du seuil haute"
+    }
+  ],
+  "fiches_anterieures_inchangees": 108,
+  "envoi_autorise": false,
+  "doublons_inter_lots": [
+    {
+      "company": "BET Sodeba",
+      "deja_au_registre_lot": "2026-11-09-lot11",
+      "decision": "écartée",
+      "action": "non réinscrite, aucune fiche créée"
+    }
+  ],
+  "note_vocabulaire": "Décisions traduites vers le vocabulaire du registre (retenue/écartée/approfondir/annuaire_seul) pour ne pas scinder les catégories du tableau de bord."
+}

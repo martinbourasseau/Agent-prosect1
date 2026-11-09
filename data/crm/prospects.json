@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-09T22:22:49+00:00",
-  "count": 108,
+  "updated_at": "2026-11-09T23:03:35+00:00",
+  "count": 120,
   "prospects": [
     {
       "company": "R Premium",
@@ -30167,6 +30167,3094 @@
       "id": "l-onard-parmentier",
       "created_at": "2026-11-09T22:16:02+00:00",
       "updated_at": "2026-11-09T22:16:02+00:00"
+    },
+    {
+      "company": "Laizeau Génie Climatique",
+      "website": "https://lgc28.fr/",
+      "domain": "lgc28.fr",
+      "sector": "Génie climatique, maintenance CVC et fluides industriels",
+      "city": "Fontenay-sur-Eure",
+      "department": "28",
+      "address": "Z.I Euroval, 34 rue du Val de l'Eure, 28630 Fontenay-sur-Eure",
+      "contact_name": "Pascal Laizeau",
+      "contact_role": "gérant",
+      "email": "",
+      "phone": "02 37 30 14 15",
+      "source": "site_officiel",
+      "evidence": [
+        {
+          "kind": "site_obsolete",
+          "source_url": "https://lgc28.fr/",
+          "quote": "![](https://lgc28.fr/images/lgc_header.gif)",
+          "observed_at": "2026-11-03",
+          "detail": "L'intégralité de la mise en page repose sur des images GIF (en-tête, séparateurs de menu, titres de rubriques, coins de blocs) et sur des tableaux HTML. Les titres « l'entreprise », « activités » et « Contact » sont des fichiers .gif et non du texte. Navigation en pages .html statiques.",
+          "source_type": "site_officiel",
+          "reliability": "haute",
+          "verified_at": "2026-11-03",
+          "observed": true,
+          "signal_level": "observe"
+        },
+        {
+          "kind": "website_gap",
+          "source_url": "https://lgc28.fr/contact.html",
+          "quote": "Contactez l'équipe LGC par courrier ou par téléphone, retrouvez ci-dessous nos coordonnées",
+          "observed_at": "2026-11-03",
+          "detail": "La page contact ne propose aucun formulaire et aucune adresse e-mail. Les seuls canaux publiés sont l'adresse postale, le téléphone 02 37 30 14 15 et le fax 02 37 30 14 16. Un professionnel qui cherche à demander un devis en dehors des horaires d'ouverture n'a aucun canal écrit.",
+          "source_type": "site_officiel",
+          "reliability": "haute",
+          "verified_at": "2026-11-03",
+          "observed": true,
+          "signal_level": "observe"
+        },
+        {
+          "kind": "parcours_incomplet",
+          "source_url": "https://lgc28.fr/",
+          "quote": "Contrat d'entretien pour les installations de chauffage et climatisation.",
+          "observed_at": "2026-11-03",
+          "detail": "L'entreprise vend des contrats d'entretien et des chiffrages, mais le site ne propose aucun chemin de demande en ligne : tous les boutons « Nous contacter » renvoient à la même page contact sans formulaire.",
+          "source_type": "site_officiel",
+          "reliability": "haute",
+          "verified_at": "2026-11-03",
+          "observed": true,
+          "signal_level": "observe"
+        },
+        {
+          "kind": "maturite_existante",
+          "source_url": "https://lgc28.fr/",
+          "quote": "Comptant déjà parmi ces plus fidèles clients : Lancaster Production, Guerlain",
+          "observed_at": "2026-11-03",
+          "detail": "Portefeuille de grands comptes et de collectivités déjà établi : le besoin n'est pas la création. La présence en ligne existe, le manque est le canal de demande écrit.",
+          "source_type": "site_officiel",
+          "reliability": "haute",
+          "verified_at": "2026-11-03",
+          "observed": true,
+          "signal_level": "observe"
+        }
+      ],
+      "publication_date": "",
+      "need": "refonte",
+      "needs": [
+        "refonte"
+      ],
+      "recommended_service": "Je peux refondre le site pour que vos demandes de contrat d'entretien arrivent par un formulaire relié à votre boîte, au lieu du seul téléphone",
+      "email_verification": "none",
+      "email_verification_basis": "aucune adresse professionnelle publiée sur les pages lues",
+      "email_provenance": "",
+      "email_dns_status": "",
+      "email_dns_checked_at": "",
+      "phone_provenance": "publie_sur_site_officiel",
+      "process_hint": "",
+      "demo_detail": "une demande de contrat d'entretien reçue par formulaire, classée par site et par type d'installation",
+      "custom_hook": "Votre page contact indique « Contactez l'équipe LGC par courrier ou par téléphone » et publie un fax.",
+      "custom_subject": "LGC : demandes de contrat d'entretien et page contact",
+      "notes": "Aucune adresse e-mail publiée sur les deux pages lues : contact téléphonique uniquement.",
+      "lot": "2026-11-03-lot12",
+      "discovered_at": "2026-11-03",
+      "email_status": "non_contacté",
+      "next_action": "",
+      "scores": {
+        "site_web": {
+          "axis": "site_web",
+          "score": 5,
+          "level": "faible",
+          "reasons": [
+            "un site est déjà en ligne : pas de création à proprement parler"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "un site existe déjà : la création n'est pas le bon service"
+          ],
+          "confidence": "haute",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": [],
+          "evaluated_at": "2026-11-03",
+          "signal_levels": {}
+        },
+        "refonte": {
+          "axis": "refonte",
+          "score": 81,
+          "level": "fort",
+          "reasons": [
+            "site existant à moderniser",
+            "+42 site_obsolete : « ![](https://lgc28.fr/images/lgc_header.gif) » (https://lgc28.fr/)",
+            "+34 parcours_incomplet : « Contrat d'entretien pour les installations de chauffage et climatisation. » (https://lgc28.fr/)"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "comportement sur mobile non vérifié"
+          ],
+          "confidence": "moyenne",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": [],
+          "evaluated_at": "2026-11-03",
+          "signal_levels": {}
+        },
+        "ia_automatisation": {
+          "axis": "ia_automatisation",
+          "score": 34,
+          "level": "faible",
+          "reasons": [
+            "+12 processus manuel signalé par le chercheur (type de preuve seul, volontairement plafonné)",
+            "+22 Réservation ou commande par téléphone — « Contactez l'équipe LGC par courrier ou par téléphone, retrouvez ci-dessous nos coordonnées » [motif : par telephone uniquement] (https://lgc28.fr/contact.html)"
+          ],
+          "evidence": [
+            {
+              "signal": "reservation_telephone",
+              "label": "Réservation ou commande par téléphone",
+              "weight": 26,
+              "matched_pattern": "par telephone uniquement",
+              "evidence_index": 1,
+              "source_url": "https://lgc28.fr/contact.html",
+              "quote": "Contactez l'équipe LGC par courrier ou par téléphone, retrouvez ci-dessous nos coordonnées",
+              "observed": true,
+              "hypothetical": false,
+              "reliability": "haute"
+            }
+          ],
+          "missing_information": [],
+          "confidence": "haute",
+          "observed_signals": [
+            "Réservation ou commande par téléphone"
+          ],
+          "hypothetical_signals": [],
+          "counter_signals": [],
+          "evaluated_at": "2026-11-03",
+          "signal_levels": {
+            "observe": 1
+          }
+        },
+        "priority": "a_approfondir",
+        "best_axis": "refonte",
+        "engine_version": "v8",
+        "evaluated_at": "2026-11-03",
+        "contactability": {
+          "email_present": false,
+          "email_verification": "none",
+          "phone_present": true,
+          "decoded_address_unconfirmed": false,
+          "blockers": [
+            "aucune adresse professionnelle publiée"
+          ],
+          "contactable": false
+        },
+        "opportunity_report": {
+          "automation": [
+            {
+              "signal": "reservation_telephone",
+              "label": "Réservation ou commande par téléphone",
+              "weight": 26,
+              "matched_pattern": "par telephone uniquement",
+              "evidence_index": 1,
+              "source_url": "https://lgc28.fr/contact.html",
+              "quote": "Contactez l'équipe LGC par courrier ou par téléphone, retrouvez ci-dessous nos coordonnées",
+              "observed": true,
+              "hypothetical": false,
+              "reliability": "haute"
+            }
+          ],
+          "maturity": [],
+          "refonte": [],
+          "presence": []
+        }
+      },
+      "scoring_version": "v8",
+      "commercial_priority": "a_approfondir",
+      "commercial_value": 57,
+      "commercial": {
+        "value": 57,
+        "tier": "a_approfondir",
+        "signal_class": "observe",
+        "signal_class_label": "problème directement observé",
+        "relevance": "propose",
+        "relevance_factor": 1.0,
+        "matched_services": [],
+        "verified": false,
+        "base": 34,
+        "magnitude": 34,
+        "best_axis": "refonte",
+        "best_axis_score": 81,
+        "confidence": "haute",
+        "reasons": [
+          "contre-signaux explicites : 0 fort(s), 1 modéré(s), 0 faible(s) → pénalité bornée -11 (68 -> 57)",
+          "contre-signal — force modere (marqueurs : le besoin n'est pas) ; délimite le besoin sans l'annuler",
+          "problème directement observé : base 34",
+          "pertinence offre : propose (×1.00)",
+          "magnitude bornée : +34 (meilleur axe refonte = 81, plafond 42)",
+          "adresse non joignable : priorité plafonnée à « à approfondir » (la valeur commerciale est conservée telle quelle)"
+        ],
+        "counter_signals": [
+          "Comptant déjà parmi ces plus fidèles clients : Lancaster Production, Guerlain"
+        ],
+        "counter_signal_penalty": 11,
+        "counter_signal_details": [
+          {
+            "quote": "Comptant déjà parmi ces plus fidèles clients : Lancaster Production, Guerlain",
+            "source_url": "https://lgc28.fr/",
+            "observed_at": "2026-11-03",
+            "strength": "modere",
+            "negates_need": false,
+            "fresh": true,
+            "reliable_source": true,
+            "penalty": 11,
+            "reason": "force modere (marqueurs : le besoin n'est pas) ; délimite le besoin sans l'annuler"
+          }
+        ],
+        "driving_evidence": [
+          {
+            "quote": "![](https://lgc28.fr/images/lgc_header.gif)",
+            "source_url": "https://lgc28.fr/",
+            "observed_at": "2026-11-03",
+            "verified_at": "2026-11-03",
+            "signal_level": "observe"
+          },
+          {
+            "quote": "Contactez l'équipe LGC par courrier ou par téléphone, retrouvez ci-dessous nos coordonnées",
+            "source_url": "https://lgc28.fr/contact.html",
+            "observed_at": "2026-11-03",
+            "verified_at": "2026-11-03",
+            "signal_level": "observe"
+          },
+          {
+            "quote": "Contrat d'entretien pour les installations de chauffage et climatisation.",
+            "source_url": "https://lgc28.fr/",
+            "observed_at": "2026-11-03",
+            "verified_at": "2026-11-03",
+            "signal_level": "observe"
+          },
+          {
+            "quote": "Comptant déjà parmi ces plus fidèles clients : Lancaster Production, Guerlain",
+            "source_url": "https://lgc28.fr/",
+            "observed_at": "2026-11-03",
+            "verified_at": "2026-11-03",
+            "signal_level": "observe"
+          }
+        ],
+        "contactable": false,
+        "capped_by_contactability": true,
+        "floor_applied": false,
+        "evaluated_at": "2026-11-03",
+        "engine_version": "v10-priority"
+      },
+      "priority_engine_version": "v10-priority",
+      "status": "nouveau",
+      "status_crm": "qualified",
+      "tier": "a_approfondir",
+      "score": 81,
+      "justification": "contre-signaux explicites : 0 fort(s), 1 modéré(s), 0 faible(s) → pénalité bornée -11 (68 -> 57) ; contre-signal — force modere (marqueurs : le besoin n'est pas) ; délimite le besoin sans l'annuler ; problème directement observé : base 34 ; pertinence offre : propose (×1.00) ; magnitude bornée : +34 (meilleur axe refonte = 81, plafond 42) ; adresse non joignable : priorité plafonnée à « à approfondir » (la valeur commerciale est conservée telle quelle)",
+      "brouillon_autorise_lot12": false,
+      "brouillon_motif": "aucune adresse publiée sur les pages lues",
+      "history": [
+        {
+          "at": "2026-11-03",
+          "action": "fiche_creee_lot12",
+          "reason": "Structure examinée sur sources publiques ; preuves citées et datées ; trois axes v8 et priorité v10 calculés par le moteur du dépôt.",
+          "source": "https://lgc28.fr/"
+        }
+      ],
+      "id": "laizeau-g-nie-climatique",
+      "created_at": "2026-11-09T23:03:35+00:00",
+      "updated_at": "2026-11-09T23:03:35+00:00"
+    },
+    {
+      "company": "L.C. Bois",
+      "website": "https://www.lc-bois.fr/",
+      "domain": "lc-bois.fr",
+      "sector": "Négoce de bois et matériaux, livraison professionnels et particuliers",
+      "city": "Barbezieux-Saint-Hilaire",
+      "department": "16",
+      "address": "13 avenue de Plaisance, 16300 Barbezieux-Saint-Hilaire",
+      "contact_name": "",
+      "contact_role": "",
+      "email": "contact@lcbois.fr",
+      "phone": "05 45 78 85 83",
+      "source": "site_officiel",
+      "evidence": [
+        {
+          "kind": "parcours_incomplet",
+          "source_url": "https://www.lc-bois.fr/",
+          "quote": "[Rénover ma toiture](https://www.lc-bois.fr/)",
+          "observed_at": "2026-11-03",
+          "detail": "Les quatre raccourcis illustrés de la page d'accueil (« Rénover ma toiture », « Démousser ma toiture », « Rénover ma charpente », « Ramoner ma cheminée ») ont tous pour cible l'URL racine https://www.lc-bois.fr/. Le visiteur qui clique revient au point de départ. Ces prestations ne correspondent d'ailleurs pas au cœur d'activité affiché, le négoce de bois.",
+          "source_type": "site_officiel",
+          "reliability": "haute",
+          "verified_at": "2026-11-03",
+          "observed": true,
+          "signal_level": "observe"
+        },
+        {
+          "kind": "website_gap",
+          "source_url": "https://www.lc-bois.fr/contact",
+          "quote": "Contacter votre spécialiste du bois à Barbezieux-Saint-Hilaire",
+          "observed_at": "2026-11-03",
+          "detail": "La page contact fonctionne (formulaire, téléphone, adresse) mais son titre de page est « Menuiserie pvc, Alu à Barbezieux-Saint-Hilaire en Charente (16) », sans rapport avec le négoce de bois. Le contenu affiché en tête d'accueil annonce « plus de 15 ans » alors qu'un pictogramme de la même page affiche « 30 ans d'expérience ».",
+          "source_type": "site_officiel",
+          "reliability": "haute",
+          "verified_at": "2026-11-03",
+          "observed": true,
+          "signal_level": "observe"
+        },
+        {
+          "kind": "processus_manuel",
+          "source_url": "https://www.lc-bois.fr/",
+          "quote": "Nous proposons également des dérivés PVC",
+          "observed_at": "2026-11-03",
+          "detail": "Le catalogue est décrit comme diversifié (agglomérés, contreplaqués, OSB, mélaminés, isolation, plaques fibro) mais aucune commande en ligne n'est proposée : le parcours publié se limite à « Devis gratuit » et au téléphone. Les demandes de prix et de disponibilité passent donc par un échange humain, pour une entreprise qui livre sur les départements 16, 17, 33 et 24.",
+          "source_type": "site_officiel",
+          "reliability": "haute",
+          "verified_at": "2026-11-03",
+          "observed": true,
+          "signal_level": "observe"
+        },
+        {
+          "kind": "maturite_existante",
+          "source_url": "https://www.lc-bois.fr/contact",
+          "quote": "En cochant cette case, j’accepte que les données saisies dans le formulaire ci-dessus soient utilisées",
+          "observed_at": "2026-11-03",
+          "detail": "Un formulaire de contact fonctionne et le consentement est configuré : le besoin porte sur les liens cassés et le parcours de devis, pas sur la création d'un canal de contact.",
+          "source_type": "site_officiel",
+          "reliability": "haute",
+          "verified_at": "2026-11-03",
+          "observed": true,
+          "signal_level": "observe"
+        }
+      ],
+      "publication_date": "",
+      "need": "refonte",
+      "needs": [
+        "refonte",
+        "automatisation"
+      ],
+      "recommended_service": "Je peux remplacer les quatre boutons services qui reviennent à l'accueil par de vraies pages, pour que chaque demande arrive déjà qualifiée",
+      "email_verification": "verified",
+      "email_verification_basis": "adresse lue directement sur une page officielle le 2026-11-03 ; MX du domaine vérifié le même jour (le MX ne prouve pas l'existence de la boîte)",
+      "email_provenance": "publiee",
+      "email_dns_status": "mx_ok",
+      "email_dns_checked_at": "2026-11-03",
+      "phone_provenance": "publie_sur_site_officiel",
+      "process_hint": "demandes de devis reçues par formulaire et par téléphone, catalogue de panneaux et de bois sans commande en ligne, livraisons planifiées sur quatre départements",
+      "demo_detail": "un raccourci « bois de charpente » qui ouvre la bonne gamme et prépare une demande de devis avec les longueurs souhaitées",
+      "custom_hook": "Sur votre accueil, les quatre raccourcis services pointent tous vers la même page d'accueil.",
+      "custom_subject": "L.C. Bois : les quatre raccourcis services reviennent à l'accueil",
+      "notes": "Adresse publiée dans les publications Facebook intégrées au site officiel ; domaine lcbois.fr distinct du domaine du site lc-bois.fr, ce qui correspond à une adresse commerciale distincte du domaine vitrine.",
+      "lot": "2026-11-03-lot12",
+      "discovered_at": "2026-11-03",
+      "email_status": "non_contacté",
+      "next_action": "",
+      "scores": {
+        "site_web": {
+          "axis": "site_web",
+          "score": 5,
+          "level": "faible",
+          "reasons": [
+            "un site est déjà en ligne : pas de création à proprement parler"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "un site existe déjà : la création n'est pas le bon service"
+          ],
+          "confidence": "haute",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": [],
+          "evaluated_at": "2026-11-03",
+          "signal_levels": {}
+        },
+        "refonte": {
+          "axis": "refonte",
+          "score": 65,
+          "level": "moyen",
+          "reasons": [
+            "site existant à moderniser",
+            "+34 parcours_incomplet : « [Rénover ma toiture](https://www.lc-bois.fr/) » (https://www.lc-bois.fr/)",
+            "+26 website_gap : « Contacter votre spécialiste du bois à Barbezieux-Saint-Hilaire » (https://www.lc-bois.fr/contact)"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "comportement sur mobile non vérifié"
+          ],
+          "confidence": "haute",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": [],
+          "evaluated_at": "2026-11-03",
+          "signal_levels": {}
+        },
+        "ia_automatisation": {
+          "axis": "ia_automatisation",
+          "score": 29,
+          "level": "faible",
+          "reasons": [
+            "+12 processus manuel signalé par le chercheur (type de preuve seul, volontairement plafonné)",
+            "+17 Réservation ou commande par téléphone — « Constat du chercheur : demandes de devis reçues par formulaire et par téléphone, catalo… » [motif : par telephone uniquement] ()"
+          ],
+          "evidence": [
+            {
+              "signal": "reservation_telephone",
+              "label": "Réservation ou commande par téléphone",
+              "weight": 26,
+              "matched_pattern": "par telephone uniquement",
+              "evidence_index": -1,
+              "source_url": "",
+              "quote": "Constat du chercheur : demandes de devis reçues par formulaire et par téléphone, catalogue de panneaux et de bois sans commande en ligne, livraisons planifiées sur quatre départements",
+              "observed": true,
+              "hypothetical": false,
+              "reliability": "moyenne"
+            }
+          ],
+          "missing_information": [
+            "processus observé sur une seule page : confirmer sur une seconde source"
+          ],
+          "confidence": "faible",
+          "observed_signals": [
+            "Réservation ou commande par téléphone"
+          ],
+          "hypothetical_signals": [],
+          "counter_signals": [],
+          "evaluated_at": "2026-11-03",
+          "signal_levels": {
+            "observe": 1
+          }
+        },
+        "priority": "moyenne",
+        "best_axis": "refonte",
+        "engine_version": "v8",
+        "evaluated_at": "2026-11-03",
+        "contactability": {
+          "email_present": true,
+          "email_verification": "verified",
+          "phone_present": true,
+          "decoded_address_unconfirmed": false,
+          "blockers": [],
+          "contactable": true
+        },
+        "opportunity_report": {
+          "automation": [
+            {
+              "signal": "reservation_telephone",
+              "label": "Réservation ou commande par téléphone",
+              "weight": 26,
+              "matched_pattern": "par telephone uniquement",
+              "evidence_index": -1,
+              "source_url": "",
+              "quote": "Constat du chercheur : demandes de devis reçues par formulaire et par téléphone, catalogue de panneaux et de bois sans commande en ligne, livraisons planifiées sur quatre départements",
+              "observed": true,
+              "hypothetical": false,
+              "reliability": "moyenne"
+            }
+          ],
+          "maturity": [],
+          "refonte": [],
+          "presence": []
+        }
+      },
+      "scoring_version": "v8",
+      "commercial_priority": "moyenne",
+      "commercial_value": 61,
+      "commercial": {
+        "value": 61,
+        "tier": "moyenne",
+        "signal_class": "observe",
+        "signal_class_label": "problème directement observé",
+        "relevance": "propose",
+        "relevance_factor": 1.0,
+        "matched_services": [],
+        "verified": false,
+        "base": 34,
+        "magnitude": 27,
+        "best_axis": "refonte",
+        "best_axis_score": 65,
+        "confidence": "haute",
+        "reasons": [
+          "contre-signaux explicites : 0 fort(s), 0 modéré(s), 1 faible(s) → pénalité bornée -0 (61 -> 61)",
+          "contre-signal — force faible (marqueurs : le besoin porte sur, un formulaire de contact fonctionne) ; délimite le besoin sans l'annuler",
+          "problème directement observé : base 34",
+          "pertinence offre : propose (×1.00)",
+          "magnitude bornée : +27 (meilleur axe refonte = 65, plafond 42)"
+        ],
+        "counter_signals": [
+          "En cochant cette case, j’accepte que les données saisies dans le formulaire ci-dessus soient utilisées"
+        ],
+        "counter_signal_penalty": 0,
+        "counter_signal_details": [
+          {
+            "quote": "En cochant cette case, j’accepte que les données saisies dans le formulaire ci-dessus soient utilisées",
+            "source_url": "https://www.lc-bois.fr/contact",
+            "observed_at": "2026-11-03",
+            "strength": "faible",
+            "negates_need": false,
+            "fresh": true,
+            "reliable_source": true,
+            "penalty": 0,
+            "reason": "force faible (marqueurs : le besoin porte sur, un formulaire de contact fonctionne) ; délimite le besoin sans l'annuler"
+          }
+        ],
+        "driving_evidence": [
+          {
+            "quote": "[Rénover ma toiture](https://www.lc-bois.fr/)",
+            "source_url": "https://www.lc-bois.fr/",
+            "observed_at": "2026-11-03",
+            "verified_at": "2026-11-03",
+            "signal_level": "observe"
+          },
+          {
+            "quote": "Contacter votre spécialiste du bois à Barbezieux-Saint-Hilaire",
+            "source_url": "https://www.lc-bois.fr/contact",
+            "observed_at": "2026-11-03",
+            "verified_at": "2026-11-03",
+            "signal_level": "observe"
+          },
+          {
+            "quote": "Nous proposons également des dérivés PVC",
+            "source_url": "https://www.lc-bois.fr/",
+            "observed_at": "2026-11-03",
+            "verified_at": "2026-11-03",
+            "signal_level": "observe"
+          },
+          {
+            "quote": "En cochant cette case, j’accepte que les données saisies dans le formulaire ci-dessus soient utilisées",
+            "source_url": "https://www.lc-bois.fr/contact",
+            "observed_at": "2026-11-03",
+            "verified_at": "2026-11-03",
+            "signal_level": "observe"
+          }
+        ],
+        "contactable": true,
+        "capped_by_contactability": false,
+        "floor_applied": false,
+        "evaluated_at": "2026-11-03",
+        "engine_version": "v10-priority"
+      },
+      "priority_engine_version": "v10-priority",
+      "status": "nouveau",
+      "status_crm": "qualified",
+      "tier": "moyenne",
+      "score": 65,
+      "justification": "contre-signaux explicites : 0 fort(s), 0 modéré(s), 1 faible(s) → pénalité bornée -0 (61 -> 61) ; contre-signal — force faible (marqueurs : le besoin porte sur, un formulaire de contact fonctionne) ; délimite le besoin sans l'annuler ; problème directement observé : base 34 ; pertinence offre : propose (×1.00) ; magnitude bornée : +27 (meilleur axe refonte = 65, plafond 42)",
+      "brouillon_autorise_lot12": false,
+      "brouillon_motif": "priorité moyenne (61) : en dessous du seuil haute",
+      "history": [
+        {
+          "at": "2026-11-03",
+          "action": "fiche_creee_lot12",
+          "reason": "Structure examinée sur sources publiques ; preuves citées et datées ; trois axes v8 et priorité v10 calculés par le moteur du dépôt.",
+          "source": "https://www.lc-bois.fr/"
+        }
+      ],
+      "id": "l-c-bois",
+      "created_at": "2026-11-09T23:03:35+00:00",
+      "updated_at": "2026-11-09T23:03:35+00:00"
+    },
+    {
+      "company": "A.C.P.T.",
+      "website": "https://www.acpt-vidange.com/",
+      "domain": "acpt-vidange.com",
+      "sector": "Assainissement, vidange et curage, nettoyage de voirie",
+      "city": "Argentan",
+      "department": "61",
+      "address": "4 rue du Commerce, 61200 Argentan",
+      "contact_name": "",
+      "contact_role": "",
+      "email": "",
+      "phone": "",
+      "source": "site_officiel",
+      "evidence": [
+        {
+          "kind": "processus_manuel",
+          "source_url": "https://www.acpt-vidange.com/",
+          "quote": "Après chaque intervention, nous établissons également un bordereau de suivi de déchets et une facture détaillée en toute transparence.",
+          "observed_at": "2026-11-03",
+          "detail": "Processus administratif répétitif explicitement publié par l'entreprise : deux documents sont produits après chaque intervention. Pour une activité de vidange avec tournées sur l'Orne et le Calvados, cela représente un volume documentaire récurrent. Le site ne décrit aucun outil produisant ces documents : le mode de production reste non vérifié.",
+          "source_type": "site_officiel",
+          "reliability": "haute",
+          "verified_at": "2026-11-03",
+          "observed": true,
+          "signal_level": "observe"
+        },
+        {
+          "kind": "website_gap",
+          "source_url": "https://www.acpt-vidange.com/contactez-nous.php",
+          "quote": "Pour toute demande de renseignements ou suggestions sur notre site",
+          "observed_at": "2026-11-03",
+          "detail": "La page contact ne propose qu'un formulaire générique (nom, téléphone, e-mail, message) sans champ décrivant l'intervention : type de fosse, volume, commune. Aucune adresse e-mail directe n'est publiée. Chaque demande doit être requalifiée par échange.",
+          "source_type": "site_officiel",
+          "reliability": "haute",
+          "verified_at": "2026-11-03",
+          "observed": true,
+          "signal_level": "observe"
+        },
+        {
+          "kind": "maturite_existante",
+          "source_url": "https://www.acpt-vidange.com/contactez-nous.php",
+          "quote": "(TRAVAUX PUBLICS AIGLONS SARL s'engage à ce que la collecte et le traitement de vos données",
+          "observed_at": "2026-11-03",
+          "detail": "Un formulaire de contact fonctionne avec consentement et politique de confidentialité : le besoin porte sur la production documentaire, pas sur le canal de contact.",
+          "source_type": "site_officiel",
+          "reliability": "haute",
+          "verified_at": "2026-11-03",
+          "observed": true,
+          "signal_level": "observe"
+        }
+      ],
+      "publication_date": "",
+      "need": "automatisation",
+      "needs": [
+        "automatisation",
+        "agent_ia"
+      ],
+      "recommended_service": "Je peux préparer le bordereau de suivi de déchets et la facture à partir des éléments saisis en intervention, pour éviter la double saisie au retour",
+      "email_verification": "none",
+      "email_verification_basis": "aucune adresse professionnelle publiée sur les pages lues",
+      "email_provenance": "",
+      "email_dns_status": "",
+      "email_dns_checked_at": "",
+      "phone_provenance": "",
+      "process_hint": "après chaque intervention établissement d'un bordereau de suivi de déchets et d'une facture détaillée",
+      "demo_detail": "une intervention saisie une fois qui produit le bordereau de déchets et la facture correspondante",
+      "custom_hook": "Votre site précise qu'après chaque intervention vous établissez un bordereau de suivi de déchets et une facture détaillée.",
+      "custom_subject": "A.C.P.T. : bordereau de déchets et facture après intervention",
+      "notes": "Raison sociale indiquée dans le bloc RGPD de la page contact : TRAVAUX PUBLICS AIGLONS SARL. Aucune adresse e-mail ni téléphone publiés sur les deux pages lues.",
+      "lot": "2026-11-03-lot12",
+      "discovered_at": "2026-11-03",
+      "email_status": "non_contacté",
+      "next_action": "",
+      "scores": {
+        "site_web": {
+          "axis": "site_web",
+          "score": 5,
+          "level": "faible",
+          "reasons": [
+            "un site est déjà en ligne : pas de création à proprement parler"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "un site existe déjà : la création n'est pas le bon service"
+          ],
+          "confidence": "haute",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": [],
+          "evaluated_at": "2026-11-03",
+          "signal_levels": {}
+        },
+        "refonte": {
+          "axis": "refonte",
+          "score": 31,
+          "level": "faible",
+          "reasons": [
+            "site existant à moderniser",
+            "+26 website_gap : « Pour toute demande de renseignements ou suggestions sur notre site » (https://www.acpt-vidange.com/contactez-nous.php)"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "comportement sur mobile non vérifié",
+            "une seule page observée : vérifier le parcours de contact sur une seconde page"
+          ],
+          "confidence": "moyenne",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": [],
+          "evaluated_at": "2026-11-03",
+          "signal_levels": {}
+        },
+        "ia_automatisation": {
+          "axis": "ia_automatisation",
+          "score": 12,
+          "level": "faible",
+          "reasons": [
+            "+12 processus manuel signalé par le chercheur (type de preuve seul, volontairement plafonné)"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "aucun processus entrant décrit publiquement : observer comment arrivent et sont traitées les demandes (devis, réservation, dossier)",
+            "processus observé sur une seule page : confirmer sur une seconde source",
+            "le processus est affirmé dans process_hint mais aucune citation ne l'établit"
+          ],
+          "confidence": "moyenne",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": [],
+          "evaluated_at": "2026-11-03",
+          "signal_levels": {}
+        },
+        "priority": "a_approfondir",
+        "best_axis": "refonte",
+        "engine_version": "v8",
+        "evaluated_at": "2026-11-03",
+        "contactability": {
+          "email_present": false,
+          "email_verification": "none",
+          "phone_present": false,
+          "decoded_address_unconfirmed": false,
+          "blockers": [
+            "aucune adresse professionnelle publiée"
+          ],
+          "contactable": false
+        },
+        "opportunity_report": {
+          "automation": [],
+          "maturity": [],
+          "refonte": [],
+          "presence": []
+        }
+      },
+      "scoring_version": "v8",
+      "commercial_priority": "a_approfondir",
+      "commercial_value": 47,
+      "commercial": {
+        "value": 47,
+        "tier": "a_approfondir",
+        "signal_class": "observe",
+        "signal_class_label": "problème directement observé",
+        "relevance": "propose",
+        "relevance_factor": 1.0,
+        "matched_services": [],
+        "verified": false,
+        "base": 34,
+        "magnitude": 13,
+        "best_axis": "refonte",
+        "best_axis_score": 31,
+        "confidence": "haute",
+        "reasons": [
+          "contre-signaux explicites : 0 fort(s), 0 modéré(s), 1 faible(s) → pénalité bornée -0 (47 -> 47)",
+          "contre-signal — force faible (marqueurs : le besoin porte sur, un formulaire de contact fonctionne) ; délimite le besoin sans l'annuler",
+          "problème directement observé : base 34",
+          "pertinence offre : propose (×1.00)",
+          "magnitude bornée : +13 (meilleur axe refonte = 31, plafond 42)",
+          "adresse non joignable : priorité plafonnée à « à approfondir » (la valeur commerciale est conservée telle quelle)"
+        ],
+        "counter_signals": [
+          "(TRAVAUX PUBLICS AIGLONS SARL s'engage à ce que la collecte et le traitement de vos données"
+        ],
+        "counter_signal_penalty": 0,
+        "counter_signal_details": [
+          {
+            "quote": "(TRAVAUX PUBLICS AIGLONS SARL s'engage à ce que la collecte et le traitement de vos données",
+            "source_url": "https://www.acpt-vidange.com/contactez-nous.php",
+            "observed_at": "2026-11-03",
+            "strength": "faible",
+            "negates_need": false,
+            "fresh": true,
+            "reliable_source": true,
+            "penalty": 0,
+            "reason": "force faible (marqueurs : le besoin porte sur, un formulaire de contact fonctionne) ; délimite le besoin sans l'annuler"
+          }
+        ],
+        "driving_evidence": [
+          {
+            "quote": "Après chaque intervention, nous établissons également un bordereau de suivi de déchets et une facture détaillée en toute transparence.",
+            "source_url": "https://www.acpt-vidange.com/",
+            "observed_at": "2026-11-03",
+            "verified_at": "2026-11-03",
+            "signal_level": "observe"
+          },
+          {
+            "quote": "Pour toute demande de renseignements ou suggestions sur notre site",
+            "source_url": "https://www.acpt-vidange.com/contactez-nous.php",
+            "observed_at": "2026-11-03",
+            "verified_at": "2026-11-03",
+            "signal_level": "observe"
+          },
+          {
+            "quote": "(TRAVAUX PUBLICS AIGLONS SARL s'engage à ce que la collecte et le traitement de vos données",
+            "source_url": "https://www.acpt-vidange.com/contactez-nous.php",
+            "observed_at": "2026-11-03",
+            "verified_at": "2026-11-03",
+            "signal_level": "observe"
+          }
+        ],
+        "contactable": false,
+        "capped_by_contactability": true,
+        "floor_applied": false,
+        "evaluated_at": "2026-11-03",
+        "engine_version": "v10-priority"
+      },
+      "priority_engine_version": "v10-priority",
+      "status": "nouveau",
+      "status_crm": "qualified",
+      "tier": "a_approfondir",
+      "score": 31,
+      "justification": "contre-signaux explicites : 0 fort(s), 0 modéré(s), 1 faible(s) → pénalité bornée -0 (47 -> 47) ; contre-signal — force faible (marqueurs : le besoin porte sur, un formulaire de contact fonctionne) ; délimite le besoin sans l'annuler ; problème directement observé : base 34 ; pertinence offre : propose (×1.00) ; magnitude bornée : +13 (meilleur axe refonte = 31, plafond 42) ; adresse non joignable : priorité plafonnée à « à approfondir » (la valeur commerciale est conservée telle quelle)",
+      "brouillon_autorise_lot12": false,
+      "brouillon_motif": "aucune adresse publiée sur les pages lues",
+      "history": [
+        {
+          "at": "2026-11-03",
+          "action": "fiche_creee_lot12",
+          "reason": "Structure examinée sur sources publiques ; preuves citées et datées ; trois axes v8 et priorité v10 calculés par le moteur du dépôt.",
+          "source": "https://www.acpt-vidange.com/"
+        }
+      ],
+      "id": "a-c-p-t",
+      "created_at": "2026-11-09T23:03:35+00:00",
+      "updated_at": "2026-11-09T23:03:35+00:00"
+    },
+    {
+      "company": "Alcamparol",
+      "website": "https://www.alcamparol.com/",
+      "domain": "alcamparol.com",
+      "sector": "Hébergement insolite, gîte de groupe et ferme équestre",
+      "city": "Sainte-Croix-Volvestre",
+      "department": "09",
+      "address": "Lieu-dit Berreté, 09230 Sainte-Croix-Volvestre",
+      "contact_name": "",
+      "contact_role": "",
+      "email": "",
+      "phone": "",
+      "source": "site_officiel",
+      "evidence": [
+        {
+          "kind": "processus_manuel",
+          "source_url": "https://www.alcamparol.com/",
+          "quote": "Pour les réservations de groupe, merci de me contacter directement par mail pour recevoir les conditions particulières et générales du contrat de location.",
+          "observed_at": "2026-11-03",
+          "detail": "Le parcours de réservation de groupe est explicitement manuel et publié par l'hébergeur : chaque demande déclenche un échange de mails pour transmettre les conditions, puis l'établissement du contrat. La structure accueille des groupes de 10 à 25 personnes en stages et retraites, ce qui rend ce parcours récurrent.",
+          "source_type": "site_officiel",
+          "reliability": "haute",
+          "verified_at": "2026-11-03",
+          "observed": true,
+          "signal_level": "observe"
+        },
+        {
+          "kind": "site_obsolete",
+          "source_url": "https://www.alcamparol.com/",
+          "quote": "http://www.alcamparol.com/wp-admin/post.php?post=2545&action=edit",
+          "observed_at": "2026-11-03",
+          "detail": "Le lien « pour recevoir des groupes » inséré dans le texte de l'accueil pointe vers l'URL d'édition de l'administration WordPress (wp-admin/post.php?action=edit), inutilisable pour un visiteur. Les liens internes et les images du diaporama sont en http:// alors que le site est servi en https://.",
+          "source_type": "site_officiel",
+          "reliability": "haute",
+          "verified_at": "2026-11-03",
+          "observed": true,
+          "signal_level": "observe"
+        },
+        {
+          "kind": "website_gap",
+          "source_url": "https://www.alcamparol.com/",
+          "quote": "Nous utilisons des cookies pour vous garantir la meilleure expérience sur notre site. Si vous continuez à utiliser ce dernier, nous considérerons que vous acceptez l'utilisation des cookies.",
+          "observed_at": "2026-11-03",
+          "detail": "Le bandeau de cookies repose sur un consentement implicite (« si vous continuez à utiliser ce dernier, nous considérerons que vous acceptez ») avec un simple bouton Ok, sans choix de refus. Aucune réservation en ligne n'est proposée pour les hébergements.",
+          "source_type": "site_officiel",
+          "reliability": "haute",
+          "verified_at": "2026-11-03",
+          "observed": true,
+          "signal_level": "observe"
+        },
+        {
+          "kind": "maturite_existante",
+          "source_url": "https://www.alcamparol.com/",
+          "quote": "La ferme est un lieu d'accueil depuis 2010.",
+          "observed_at": "2026-11-03",
+          "detail": "Le site est structuré et présente chaque hébergement sur une page dédiée : la présence en ligne existe, le besoin porte sur le parcours de réservation et sur des liens défectueux, pas sur la création.",
+          "source_type": "site_officiel",
+          "reliability": "haute",
+          "verified_at": "2026-11-03",
+          "observed": true,
+          "signal_level": "observe"
+        }
+      ],
+      "publication_date": "",
+      "need": "refonte",
+      "needs": [
+        "refonte",
+        "automatisation"
+      ],
+      "recommended_service": "Je peux mettre en ligne une demande de séjour de groupe qui envoie automatiquement les conditions et rassemble les dates, au lieu d'un échange de mails",
+      "email_verification": "none",
+      "email_verification_basis": "aucune adresse professionnelle publiée sur les pages lues",
+      "email_provenance": "",
+      "email_dns_status": "",
+      "email_dns_checked_at": "",
+      "phone_provenance": "",
+      "process_hint": "réservations de groupe traitées par échange de mails pour envoyer les conditions particulières et générales du contrat de location",
+      "demo_detail": "une demande de stage avec dates et effectif qui déclenche l'envoi des conditions et prépare le contrat de location",
+      "custom_hook": "Votre accueil demande de vous écrire par mail pour recevoir les conditions du contrat de location de groupe.",
+      "custom_subject": "Alcamparol : réservations de groupe et contrat de location",
+      "notes": "Deux tentatives de lecture de la page contact ont échoué ; aucune coordonnée électronique officielle n'a pu être relevée. Le téléphone trouvé en annuaire n'est pas importé.",
+      "lot": "2026-11-03-lot12",
+      "discovered_at": "2026-11-03",
+      "email_status": "non_contacté",
+      "next_action": "",
+      "scores": {
+        "site_web": {
+          "axis": "site_web",
+          "score": 5,
+          "level": "faible",
+          "reasons": [
+            "un site est déjà en ligne : pas de création à proprement parler"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "un site existe déjà : la création n'est pas le bon service"
+          ],
+          "confidence": "moyenne",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": [],
+          "evaluated_at": "2026-11-03",
+          "signal_levels": {}
+        },
+        "refonte": {
+          "axis": "refonte",
+          "score": 73,
+          "level": "fort",
+          "reasons": [
+            "site existant à moderniser",
+            "+42 site_obsolete : « http://www.alcamparol.com/wp-admin/post.php?post=2545&action=edit » (https://www.alcamparol.com/)",
+            "+26 website_gap : « Nous utilisons des cookies pour vous garantir la meilleure expérience sur notre site. Si vous continuez à u… » (https://www.alcamparol.com/)"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "comportement sur mobile non vérifié",
+            "une seule page observée : vérifier le parcours de contact sur une seconde page"
+          ],
+          "confidence": "moyenne",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": [],
+          "evaluated_at": "2026-11-03",
+          "signal_levels": {}
+        },
+        "ia_automatisation": {
+          "axis": "ia_automatisation",
+          "score": 34,
+          "level": "faible",
+          "reasons": [
+            "+12 processus manuel signalé par le chercheur (type de preuve seul, volontairement plafonné)",
+            "+22 Réservation ou commande par téléphone — « Pour les réservations de groupe, merci de me contacter directement par mail pour recevo… » [motif : reservation uniquement] (https://www.alcamparol.com/)"
+          ],
+          "evidence": [
+            {
+              "signal": "reservation_telephone",
+              "label": "Réservation ou commande par téléphone",
+              "weight": 26,
+              "matched_pattern": "reservation uniquement",
+              "evidence_index": 0,
+              "source_url": "https://www.alcamparol.com/",
+              "quote": "Pour les réservations de groupe, merci de me contacter directement par mail pour recevoir les conditions particulières et générales du contrat de location.",
+              "observed": true,
+              "hypothetical": false,
+              "reliability": "haute"
+            }
+          ],
+          "missing_information": [
+            "processus observé sur une seule page : confirmer sur une seconde source"
+          ],
+          "confidence": "moyenne",
+          "observed_signals": [
+            "Réservation ou commande par téléphone"
+          ],
+          "hypothetical_signals": [],
+          "counter_signals": [],
+          "evaluated_at": "2026-11-03",
+          "signal_levels": {
+            "observe": 1
+          }
+        },
+        "priority": "a_approfondir",
+        "best_axis": "refonte",
+        "engine_version": "v8",
+        "evaluated_at": "2026-11-03",
+        "contactability": {
+          "email_present": false,
+          "email_verification": "none",
+          "phone_present": false,
+          "decoded_address_unconfirmed": false,
+          "blockers": [
+            "aucune adresse professionnelle publiée"
+          ],
+          "contactable": false
+        },
+        "opportunity_report": {
+          "automation": [
+            {
+              "signal": "reservation_telephone",
+              "label": "Réservation ou commande par téléphone",
+              "weight": 26,
+              "matched_pattern": "reservation uniquement",
+              "evidence_index": 0,
+              "source_url": "https://www.alcamparol.com/",
+              "quote": "Pour les réservations de groupe, merci de me contacter directement par mail pour recevoir les conditions particulières et générales du contrat de location.",
+              "observed": true,
+              "hypothetical": false,
+              "reliability": "haute"
+            }
+          ],
+          "maturity": [],
+          "refonte": [],
+          "presence": []
+        }
+      },
+      "scoring_version": "v8",
+      "commercial_priority": "a_approfondir",
+      "commercial_value": 65,
+      "commercial": {
+        "value": 65,
+        "tier": "a_approfondir",
+        "signal_class": "observe",
+        "signal_class_label": "problème directement observé",
+        "relevance": "propose",
+        "relevance_factor": 1.0,
+        "matched_services": [],
+        "verified": false,
+        "base": 34,
+        "magnitude": 31,
+        "best_axis": "refonte",
+        "best_axis_score": 73,
+        "confidence": "haute",
+        "reasons": [
+          "contre-signaux explicites : 0 fort(s), 0 modéré(s), 1 faible(s) → pénalité bornée -0 (65 -> 65)",
+          "contre-signal — force faible (marqueurs : le besoin porte sur, présence en ligne existe) ; délimite le besoin sans l'annuler",
+          "problème directement observé : base 34",
+          "pertinence offre : propose (×1.00)",
+          "magnitude bornée : +31 (meilleur axe refonte = 73, plafond 42)",
+          "adresse non joignable : priorité plafonnée à « à approfondir » (la valeur commerciale est conservée telle quelle)"
+        ],
+        "counter_signals": [
+          "La ferme est un lieu d'accueil depuis 2010."
+        ],
+        "counter_signal_penalty": 0,
+        "counter_signal_details": [
+          {
+            "quote": "La ferme est un lieu d'accueil depuis 2010.",
+            "source_url": "https://www.alcamparol.com/",
+            "observed_at": "2026-11-03",
+            "strength": "faible",
+            "negates_need": false,
+            "fresh": true,
+            "reliable_source": true,
+            "penalty": 0,
+            "reason": "force faible (marqueurs : le besoin porte sur, présence en ligne existe) ; délimite le besoin sans l'annuler"
+          }
+        ],
+        "driving_evidence": [
+          {
+            "quote": "Pour les réservations de groupe, merci de me contacter directement par mail pour recevoir les conditions particulières et générales du contrat de location.",
+            "source_url": "https://www.alcamparol.com/",
+            "observed_at": "2026-11-03",
+            "verified_at": "2026-11-03",
+            "signal_level": "observe"
+          },
+          {
+            "quote": "http://www.alcamparol.com/wp-admin/post.php?post=2545&action=edit",
+            "source_url": "https://www.alcamparol.com/",
+            "observed_at": "2026-11-03",
+            "verified_at": "2026-11-03",
+            "signal_level": "observe"
+          },
+          {
+            "quote": "Nous utilisons des cookies pour vous garantir la meilleure expérience sur notre site. Si vous continuez à utiliser ce dernier, nous considérerons que vous acceptez l'utilisation des cookies.",
+            "source_url": "https://www.alcamparol.com/",
+            "observed_at": "2026-11-03",
+            "verified_at": "2026-11-03",
+            "signal_level": "observe"
+          },
+          {
+            "quote": "La ferme est un lieu d'accueil depuis 2010.",
+            "source_url": "https://www.alcamparol.com/",
+            "observed_at": "2026-11-03",
+            "verified_at": "2026-11-03",
+            "signal_level": "observe"
+          }
+        ],
+        "contactable": false,
+        "capped_by_contactability": true,
+        "floor_applied": false,
+        "evaluated_at": "2026-11-03",
+        "engine_version": "v10-priority"
+      },
+      "priority_engine_version": "v10-priority",
+      "status": "nouveau",
+      "status_crm": "qualified",
+      "tier": "a_approfondir",
+      "score": 73,
+      "justification": "contre-signaux explicites : 0 fort(s), 0 modéré(s), 1 faible(s) → pénalité bornée -0 (65 -> 65) ; contre-signal — force faible (marqueurs : le besoin porte sur, présence en ligne existe) ; délimite le besoin sans l'annuler ; problème directement observé : base 34 ; pertinence offre : propose (×1.00) ; magnitude bornée : +31 (meilleur axe refonte = 73, plafond 42) ; adresse non joignable : priorité plafonnée à « à approfondir » (la valeur commerciale est conservée telle quelle)",
+      "brouillon_autorise_lot12": false,
+      "brouillon_motif": "aucune adresse publiée sur les pages lues",
+      "history": [
+        {
+          "at": "2026-11-03",
+          "action": "fiche_creee_lot12",
+          "reason": "Structure examinée sur sources publiques ; preuves citées et datées ; trois axes v8 et priorité v10 calculés par le moteur du dépôt.",
+          "source": "https://www.alcamparol.com/"
+        }
+      ],
+      "id": "alcamparol",
+      "created_at": "2026-11-09T23:03:35+00:00",
+      "updated_at": "2026-11-09T23:03:35+00:00"
+    },
+    {
+      "company": "Kap'oupa Kap",
+      "website": "https://www.kapoupakap.fr/",
+      "domain": "kapoupakap.fr",
+      "sector": "Parc de loisirs et d'aventure en plein air",
+      "city": "Eus",
+      "department": "66",
+      "address": "12 route de Prades, 66500 Eus",
+      "contact_name": "",
+      "contact_role": "",
+      "email": "",
+      "phone": "06 88 48 06 45",
+      "source": "site_officiel",
+      "evidence": [
+        {
+          "kind": "parcours_incomplet",
+          "source_url": "https://www.kapoupakap.fr/activites.html",
+          "quote": "Réservation uniquement par téléphone.",
+          "observed_at": "2026-11-03",
+          "detail": "La section Deval'Mountain de la page activités précise « Réservation uniquement par téléphone » et n'affiche aucun bouton RÉSERVER, alors que Ventriglisse, Accrobranche, Mini-Golf et Base de loisirs en ont un qui pointe vers /reserver.html. Le parcours de réservation est donc incomplet pour une activité disponible toute l'année.",
+          "source_type": "site_officiel",
+          "reliability": "haute",
+          "verified_at": "2026-11-03",
+          "observed": true,
+          "signal_level": "observe"
+        },
+        {
+          "kind": "website_gap",
+          "source_url": "https://www.kapoupakap.fr/contact.html",
+          "quote": "Merci de remplir le formulaire ci-dessous afin que nous puissionstraiter votre demande",
+          "observed_at": "2026-11-03",
+          "detail": "La page contact comporte une faute d'agglutination dans sa phrase d'introduction (« nous puissionstraiter »). Le formulaire et la newsletter imposent tous deux la recopie d'un code captcha. Aucune adresse e-mail directe n'est publiée.",
+          "source_type": "site_officiel",
+          "reliability": "haute",
+          "verified_at": "2026-11-03",
+          "observed": true,
+          "signal_level": "observe"
+        },
+        {
+          "kind": "maturite_existante",
+          "source_url": "https://www.kapoupakap.fr/",
+          "quote": "UNIQUEMENT SUR RÉSERVATION, par téléphone ou via la billetterie en ligne.",
+          "observed_at": "2026-11-03",
+          "detail": "Une billetterie en ligne existe et fonctionne pour la majorité des activités : ce contre-signal est modéré, le besoin porte sur l'activité restante et non sur la création d'un système de réservation.",
+          "source_type": "site_officiel",
+          "reliability": "haute",
+          "verified_at": "2026-11-03",
+          "observed": true,
+          "signal_level": "observe"
+        }
+      ],
+      "publication_date": "",
+      "need": "refonte",
+      "needs": [
+        "refonte"
+      ],
+      "recommended_service": "Je peux intégrer la réservation du Deval'Mountain à la billetterie existante, pour qu'elle ne dépende plus du seul appel téléphonique",
+      "email_verification": "none",
+      "email_verification_basis": "aucune adresse professionnelle publiée sur les pages lues",
+      "email_provenance": "",
+      "email_dns_status": "",
+      "email_dns_checked_at": "",
+      "phone_provenance": "publie_sur_site_officiel",
+      "process_hint": "",
+      "demo_detail": "un créneau Deval'Mountain réservé dans la même billetterie que l'accrobranche, avec le nombre de participants",
+      "custom_hook": "Le Deval'Mountain est en « réservation uniquement par téléphone » alors que les autres activités ont un bouton Réserver.",
+      "custom_subject": "Kap'oupa Kap : le Deval'Mountain réservé par téléphone",
+      "notes": "Aucune adresse e-mail publiée sur la page contact lue : formulaire et téléphone uniquement.",
+      "lot": "2026-11-03-lot12",
+      "discovered_at": "2026-11-03",
+      "email_status": "non_contacté",
+      "next_action": "",
+      "scores": {
+        "site_web": {
+          "axis": "site_web",
+          "score": 5,
+          "level": "faible",
+          "reasons": [
+            "un site est déjà en ligne : pas de création à proprement parler"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "un site existe déjà : la création n'est pas le bon service"
+          ],
+          "confidence": "haute",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": [],
+          "evaluated_at": "2026-11-03",
+          "signal_levels": {}
+        },
+        "refonte": {
+          "axis": "refonte",
+          "score": 65,
+          "level": "moyen",
+          "reasons": [
+            "site existant à moderniser",
+            "+34 parcours_incomplet : « Réservation uniquement par téléphone. » (https://www.kapoupakap.fr/activites.html)",
+            "+26 website_gap : « Merci de remplir le formulaire ci-dessous afin que nous puissionstraiter votre demande » (https://www.kapoupakap.fr/contact.html)"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "comportement sur mobile non vérifié"
+          ],
+          "confidence": "haute",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": [],
+          "evaluated_at": "2026-11-03",
+          "signal_levels": {}
+        },
+        "ia_automatisation": {
+          "axis": "ia_automatisation",
+          "score": 36,
+          "level": "faible",
+          "reasons": [
+            "+12 processus manuel signalé par le chercheur (type de preuve seul, volontairement plafonné)",
+            "+24 Commande ou réservation téléphonique exclusive — « Réservation uniquement par téléphone. » [motif : reservation uniquement par telephone] (https://www.kapoupakap.fr/activites.html)"
+          ],
+          "evidence": [
+            {
+              "signal": "commande_telephone_seulement",
+              "label": "Commande ou réservation téléphonique exclusive",
+              "weight": 28,
+              "matched_pattern": "reservation uniquement par telephone",
+              "evidence_index": 0,
+              "source_url": "https://www.kapoupakap.fr/activites.html",
+              "quote": "Réservation uniquement par téléphone.",
+              "observed": true,
+              "hypothetical": false,
+              "reliability": "haute"
+            }
+          ],
+          "missing_information": [
+            "processus observé sur une seule page : confirmer sur une seconde source"
+          ],
+          "confidence": "moyenne",
+          "observed_signals": [
+            "Commande ou réservation téléphonique exclusive"
+          ],
+          "hypothetical_signals": [],
+          "counter_signals": [],
+          "evaluated_at": "2026-11-03",
+          "signal_levels": {
+            "observe": 1
+          }
+        },
+        "priority": "a_approfondir",
+        "best_axis": "refonte",
+        "engine_version": "v8",
+        "evaluated_at": "2026-11-03",
+        "contactability": {
+          "email_present": false,
+          "email_verification": "none",
+          "phone_present": true,
+          "decoded_address_unconfirmed": false,
+          "blockers": [
+            "aucune adresse professionnelle publiée"
+          ],
+          "contactable": false
+        },
+        "opportunity_report": {
+          "automation": [
+            {
+              "signal": "commande_telephone_seulement",
+              "label": "Commande ou réservation téléphonique exclusive",
+              "weight": 28,
+              "matched_pattern": "reservation uniquement par telephone",
+              "evidence_index": 0,
+              "source_url": "https://www.kapoupakap.fr/activites.html",
+              "quote": "Réservation uniquement par téléphone.",
+              "observed": true,
+              "hypothetical": false,
+              "reliability": "haute"
+            }
+          ],
+          "maturity": [],
+          "refonte": [],
+          "presence": []
+        }
+      },
+      "scoring_version": "v8",
+      "commercial_priority": "a_approfondir",
+      "commercial_value": 61,
+      "commercial": {
+        "value": 61,
+        "tier": "a_approfondir",
+        "signal_class": "observe",
+        "signal_class_label": "problème directement observé",
+        "relevance": "propose",
+        "relevance_factor": 1.0,
+        "matched_services": [],
+        "verified": false,
+        "base": 34,
+        "magnitude": 27,
+        "best_axis": "refonte",
+        "best_axis_score": 65,
+        "confidence": "haute",
+        "reasons": [
+          "contre-signaux explicites : 0 fort(s), 0 modéré(s), 1 faible(s) → pénalité bornée -0 (61 -> 61)",
+          "contre-signal — force faible (marqueurs : le besoin porte sur) ; délimite le besoin sans l'annuler",
+          "problème directement observé : base 34",
+          "pertinence offre : propose (×1.00)",
+          "magnitude bornée : +27 (meilleur axe refonte = 65, plafond 42)",
+          "adresse non joignable : priorité plafonnée à « à approfondir » (la valeur commerciale est conservée telle quelle)"
+        ],
+        "counter_signals": [
+          "UNIQUEMENT SUR RÉSERVATION, par téléphone ou via la billetterie en ligne."
+        ],
+        "counter_signal_penalty": 0,
+        "counter_signal_details": [
+          {
+            "quote": "UNIQUEMENT SUR RÉSERVATION, par téléphone ou via la billetterie en ligne.",
+            "source_url": "https://www.kapoupakap.fr/",
+            "observed_at": "2026-11-03",
+            "strength": "faible",
+            "negates_need": false,
+            "fresh": true,
+            "reliable_source": true,
+            "penalty": 0,
+            "reason": "force faible (marqueurs : le besoin porte sur) ; délimite le besoin sans l'annuler"
+          }
+        ],
+        "driving_evidence": [
+          {
+            "quote": "Réservation uniquement par téléphone.",
+            "source_url": "https://www.kapoupakap.fr/activites.html",
+            "observed_at": "2026-11-03",
+            "verified_at": "2026-11-03",
+            "signal_level": "observe"
+          },
+          {
+            "quote": "Merci de remplir le formulaire ci-dessous afin que nous puissionstraiter votre demande",
+            "source_url": "https://www.kapoupakap.fr/contact.html",
+            "observed_at": "2026-11-03",
+            "verified_at": "2026-11-03",
+            "signal_level": "observe"
+          },
+          {
+            "quote": "UNIQUEMENT SUR RÉSERVATION, par téléphone ou via la billetterie en ligne.",
+            "source_url": "https://www.kapoupakap.fr/",
+            "observed_at": "2026-11-03",
+            "verified_at": "2026-11-03",
+            "signal_level": "observe"
+          }
+        ],
+        "contactable": false,
+        "capped_by_contactability": true,
+        "floor_applied": false,
+        "evaluated_at": "2026-11-03",
+        "engine_version": "v10-priority"
+      },
+      "priority_engine_version": "v10-priority",
+      "status": "nouveau",
+      "status_crm": "qualified",
+      "tier": "a_approfondir",
+      "score": 65,
+      "justification": "contre-signaux explicites : 0 fort(s), 0 modéré(s), 1 faible(s) → pénalité bornée -0 (61 -> 61) ; contre-signal — force faible (marqueurs : le besoin porte sur) ; délimite le besoin sans l'annuler ; problème directement observé : base 34 ; pertinence offre : propose (×1.00) ; magnitude bornée : +27 (meilleur axe refonte = 65, plafond 42) ; adresse non joignable : priorité plafonnée à « à approfondir » (la valeur commerciale est conservée telle quelle)",
+      "brouillon_autorise_lot12": false,
+      "brouillon_motif": "aucune adresse publiée sur les pages lues",
+      "history": [
+        {
+          "at": "2026-11-03",
+          "action": "fiche_creee_lot12",
+          "reason": "Structure examinée sur sources publiques ; preuves citées et datées ; trois axes v8 et priorité v10 calculés par le moteur du dépôt.",
+          "source": "https://www.kapoupakap.fr/"
+        }
+      ],
+      "id": "kap-oupa-kap",
+      "created_at": "2026-11-09T23:03:35+00:00",
+      "updated_at": "2026-11-09T23:03:35+00:00"
+    },
+    {
+      "company": "MFMG",
+      "website": "https://www.mfmg.eu/",
+      "domain": "mfmg.eu",
+      "sector": "Traitement de surface, mécano-soudure et usinage",
+      "city": "Vrigne-aux-Bois",
+      "department": "08",
+      "address": "64 rue Pasteur, 08330 Vrigne-aux-Bois",
+      "contact_name": "",
+      "contact_role": "",
+      "email": "contact@mfmg.fr",
+      "phone": "03 24 52 14 05",
+      "source": "site_officiel",
+      "evidence": [
+        {
+          "kind": "website_gap",
+          "source_url": "https://www.mfmg.eu/contact/",
+          "quote": "Adresse : 64 rue Pasteur 08 330 Vignes aux Bois FRANCE",
+          "observed_at": "2026-11-03",
+          "detail": "Le bloc « NOS COORDONNÉES » de la page contact affiche un code postal mal formé (« 08 330 ») et un nom de commune erroné (« Vignes aux Bois »). La carte intégrée de la même page indique pourtant « 64 Rue Pasteur, 08330 Vrigne aux Bois ». L'incohérence est visible sur la page qui sert de référence pour un devis ou une livraison.",
+          "source_type": "site_officiel",
+          "reliability": "haute",
+          "verified_at": "2026-11-03",
+          "observed": true,
+          "signal_level": "observe"
+        },
+        {
+          "kind": "website_gap",
+          "source_url": "https://www.mfmg.eu/zingage/",
+          "quote": "Cookies management panel",
+          "observed_at": "2026-11-03",
+          "detail": "Le panneau de gestion du consentement est intégralement en anglais sur un site rédigé en français et destiné à des donneurs d'ordre français : « Cookies management panel », « Allow all cookies  Deny all cookies », « Privacy policy », « This website does not use any cookie requiring your consent ». Constat identique sur /contact/ et /recrutement/.",
+          "source_type": "site_officiel",
+          "reliability": "haute",
+          "verified_at": "2026-11-03",
+          "observed": true,
+          "signal_level": "observe"
+        },
+        {
+          "kind": "maturite_existante",
+          "source_url": "https://www.mfmg.eu/contact/",
+          "quote": "Comment nous avez-vous connus ?",
+          "observed_at": "2026-11-03",
+          "detail": "Formulaire de demande de devis structuré avec dépôt de fichier et suivi de la source commerciale, plus une page recrutement avec dépôt de CV : un formulaire de demande existe et le site est structuré. Le besoin est cosmétique et ne porte pas sur le parcours de devis.",
+          "source_type": "site_officiel",
+          "reliability": "haute",
+          "verified_at": "2026-11-03",
+          "observed": true,
+          "signal_level": "observe"
+        }
+      ],
+      "publication_date": "",
+      "need": "refonte",
+      "needs": [
+        "refonte"
+      ],
+      "recommended_service": "Je peux corriger le bandeau de cookies resté en anglais et l'adresse postale erronée de la page contact",
+      "email_verification": "verified",
+      "email_verification_basis": "adresse lue directement sur une page officielle le 2026-11-03 ; MX du domaine vérifié le même jour (le MX ne prouve pas l'existence de la boîte)",
+      "email_provenance": "publiee",
+      "email_dns_status": "mx_ok",
+      "email_dns_checked_at": "2026-11-03",
+      "phone_provenance": "publie_sur_site_officiel",
+      "process_hint": "",
+      "demo_detail": "un bandeau de consentement en français et une adresse postale cohérente avec l'établissement",
+      "custom_hook": "Le panneau de cookies de mfmg.eu est en anglais et la page contact affiche « 08 330 Vignes aux Bois ».",
+      "custom_subject": "MFMG : bandeau cookies en anglais et adresse de la page contact",
+      "notes": "Le site est mfmg.eu mais l'adresse publiée est contact@mfmg.fr : les deux domaines sont publiés par l'entreprise, aucune adresse n'a été déduite.",
+      "lot": "2026-11-03-lot12",
+      "discovered_at": "2026-11-03",
+      "email_status": "non_contacté",
+      "next_action": "",
+      "scores": {
+        "site_web": {
+          "axis": "site_web",
+          "score": 5,
+          "level": "faible",
+          "reasons": [
+            "un site est déjà en ligne : pas de création à proprement parler"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "un site existe déjà : la création n'est pas le bon service"
+          ],
+          "confidence": "haute",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": [],
+          "evaluated_at": "2026-11-03",
+          "signal_levels": {}
+        },
+        "refonte": {
+          "axis": "refonte",
+          "score": 57,
+          "level": "moyen",
+          "reasons": [
+            "site existant à moderniser",
+            "+26 website_gap : « Adresse : 64 rue Pasteur 08 330 Vignes aux Bois FRANCE » (https://www.mfmg.eu/contact/)",
+            "+26 website_gap : « Cookies management panel » (https://www.mfmg.eu/zingage/)"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "comportement sur mobile non vérifié"
+          ],
+          "confidence": "haute",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": [],
+          "evaluated_at": "2026-11-03",
+          "signal_levels": {}
+        },
+        "ia_automatisation": {
+          "axis": "ia_automatisation",
+          "score": 0,
+          "level": "faible",
+          "reasons": [
+            "aucune preuve directe sur cet axe : score volontairement bas"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "aucun processus entrant décrit publiquement : observer comment arrivent et sont traitées les demandes (devis, réservation, dossier)",
+            "processus observé sur une seule page : confirmer sur une seconde source"
+          ],
+          "confidence": "haute",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": [],
+          "evaluated_at": "2026-11-03",
+          "signal_levels": {}
+        },
+        "priority": "moyenne",
+        "best_axis": "refonte",
+        "engine_version": "v8",
+        "evaluated_at": "2026-11-03",
+        "contactability": {
+          "email_present": true,
+          "email_verification": "verified",
+          "phone_present": true,
+          "decoded_address_unconfirmed": false,
+          "blockers": [],
+          "contactable": true
+        },
+        "opportunity_report": {
+          "automation": [],
+          "maturity": [],
+          "refonte": [],
+          "presence": []
+        }
+      },
+      "scoring_version": "v8",
+      "commercial_priority": "basse",
+      "commercial_value": 34,
+      "commercial": {
+        "value": 34,
+        "tier": "basse",
+        "signal_class": "observe",
+        "signal_class_label": "problème directement observé",
+        "relevance": "propose",
+        "relevance_factor": 1.0,
+        "matched_services": [],
+        "verified": false,
+        "base": 34,
+        "magnitude": 24,
+        "best_axis": "refonte",
+        "best_axis_score": 57,
+        "confidence": "haute",
+        "reasons": [
+          "contre-signaux explicites : 1 fort(s), 0 modéré(s), 0 faible(s) → pénalité bornée -24 (58 -> 34)",
+          "contre-signal — force fort (marqueurs : besoin est cosmétique) ; délimite le besoin sans l'annuler",
+          "problème directement observé : base 34",
+          "pertinence offre : propose (×1.00)",
+          "magnitude bornée : +24 (meilleur axe refonte = 57, plafond 42)"
+        ],
+        "counter_signals": [
+          "Comment nous avez-vous connus ?"
+        ],
+        "counter_signal_penalty": 24,
+        "counter_signal_details": [
+          {
+            "quote": "Comment nous avez-vous connus ?",
+            "source_url": "https://www.mfmg.eu/contact/",
+            "observed_at": "2026-11-03",
+            "strength": "fort",
+            "negates_need": false,
+            "fresh": true,
+            "reliable_source": true,
+            "penalty": 24,
+            "reason": "force fort (marqueurs : besoin est cosmétique) ; délimite le besoin sans l'annuler"
+          }
+        ],
+        "driving_evidence": [
+          {
+            "quote": "Adresse : 64 rue Pasteur 08 330 Vignes aux Bois FRANCE",
+            "source_url": "https://www.mfmg.eu/contact/",
+            "observed_at": "2026-11-03",
+            "verified_at": "2026-11-03",
+            "signal_level": "observe"
+          },
+          {
+            "quote": "Cookies management panel",
+            "source_url": "https://www.mfmg.eu/zingage/",
+            "observed_at": "2026-11-03",
+            "verified_at": "2026-11-03",
+            "signal_level": "observe"
+          },
+          {
+            "quote": "Comment nous avez-vous connus ?",
+            "source_url": "https://www.mfmg.eu/contact/",
+            "observed_at": "2026-11-03",
+            "verified_at": "2026-11-03",
+            "signal_level": "observe"
+          }
+        ],
+        "contactable": true,
+        "capped_by_contactability": false,
+        "floor_applied": false,
+        "evaluated_at": "2026-11-03",
+        "engine_version": "v10-priority"
+      },
+      "priority_engine_version": "v10-priority",
+      "status": "nouveau",
+      "status_crm": "qualified",
+      "tier": "basse",
+      "score": 57,
+      "justification": "contre-signaux explicites : 1 fort(s), 0 modéré(s), 0 faible(s) → pénalité bornée -24 (58 -> 34) ; contre-signal — force fort (marqueurs : besoin est cosmétique) ; délimite le besoin sans l'annuler ; problème directement observé : base 34 ; pertinence offre : propose (×1.00) ; magnitude bornée : +24 (meilleur axe refonte = 57, plafond 42)",
+      "brouillon_autorise_lot12": false,
+      "brouillon_motif": "priorité basse (34) : en dessous du seuil haute",
+      "history": [
+        {
+          "at": "2026-11-03",
+          "action": "fiche_creee_lot12",
+          "reason": "Structure examinée sur sources publiques ; preuves citées et datées ; trois axes v8 et priorité v10 calculés par le moteur du dépôt.",
+          "source": "https://www.mfmg.eu/"
+        }
+      ],
+      "id": "mfmg",
+      "created_at": "2026-11-09T23:03:35+00:00",
+      "updated_at": "2026-11-09T23:03:35+00:00"
+    },
+    {
+      "company": "Tortora",
+      "website": "https://tortora.fr/",
+      "domain": "tortora.fr",
+      "sector": "Vente, installation et maintenance d'équipements de boulangerie-pâtisserie",
+      "city": "Bouilly",
+      "department": "10",
+      "address": "20 rue de la Paix, 10320 Bouilly",
+      "contact_name": "",
+      "contact_role": "",
+      "email": "",
+      "phone": "03 25 40 30 45",
+      "source": "site_officiel",
+      "evidence": [
+        {
+          "kind": "website_gap",
+          "source_url": "https://tortora.fr/contacter-lentreprise-tortora-dans-laube-pres-de-troyes/",
+          "quote": "Ceci est le lien d'édition secret, gardez-le en lieu sûr :",
+          "observed_at": "2026-11-03",
+          "detail": "Le bloc carte de la page contact, comme celui de la page d'accueil, affiche l'interface d'édition de uMap au lieu d'un plan : « Oups, c'est involontaire, je voudrais créer un compte ou me connecter », « Oui, je veux continuer à éditer sans être connecté », « Ceci est le lien d'édition secret ». Le visiteur ne voit pas de carte utilisable.",
+          "source_type": "site_officiel",
+          "reliability": "haute",
+          "verified_at": "2026-11-03",
+          "observed": true,
+          "signal_level": "observe"
+        },
+        {
+          "kind": "website_gap",
+          "source_url": "https://tortora.fr/",
+          "quote": "Créé en 1976, la société Tortora a été transmise en 2021 à deux employés de longue date, Frank Douet et Franck Pavie.",
+          "observed_at": "2026-11-03",
+          "detail": "Incohérences éditoriales entre deux pages du même site : l'accueil annonce une création en 1976 et une transmission en 2021 à Frank Douet et Franck Pavie, tandis que la page contact titre « Installé à Bouilly, près de Troyes, dans l’Aube depuis 1983 » et invite à « Contacter directement le dirigeant de l'entreprise, Frédéric Tortora ». Les informations de dirigeant et de date ne sont pas alignées.",
+          "source_type": "site_officiel",
+          "reliability": "haute",
+          "verified_at": "2026-11-03",
+          "observed": true,
+          "signal_level": "observe"
+        },
+        {
+          "kind": "maturite_existante",
+          "source_url": "https://tortora.fr/",
+          "quote": "Traçabilité de nos interventions, respect de la charte Qualité ACB",
+          "observed_at": "2026-11-03",
+          "detail": "L'entreprise revendique une traçabilité de ses interventions et une charte qualité : un suivi d'intervention existe. Le besoin porte sur le site, pas sur un processus à créer.",
+          "source_type": "site_officiel",
+          "reliability": "haute",
+          "verified_at": "2026-11-03",
+          "observed": true,
+          "signal_level": "observe"
+        }
+      ],
+      "publication_date": "",
+      "need": "refonte",
+      "needs": [
+        "refonte"
+      ],
+      "recommended_service": "Je peux remplacer la carte intégrée qui affiche une interface d'édition par un plan stable, et remettre les informations de direction à jour",
+      "email_verification": "none",
+      "email_verification_basis": "aucune adresse professionnelle publiée sur les pages lues",
+      "email_provenance": "",
+      "email_dns_status": "",
+      "email_dns_checked_at": "",
+      "phone_provenance": "publie_sur_site_officiel",
+      "process_hint": "",
+      "demo_detail": "un plan d'accès stable sur la page contact, sans message technique apparent",
+      "custom_hook": "La carte intégrée à vos pages affiche « Ceci est le lien d'édition secret » au lieu d'un plan.",
+      "custom_subject": "Tortora : la carte du site affiche un message d'édition",
+      "notes": "Une adresse fred.tortora@tortora.fr est publiée mais la page d'accueil indique une transmission en 2021 à Frank Douet et Franck Pavie : le destinataire réel est incertain, aucun brouillon n'est préparé. Adresse non importée comme canal exploitable.",
+      "lot": "2026-11-03-lot12",
+      "discovered_at": "2026-11-03",
+      "email_status": "non_contacté",
+      "next_action": "",
+      "scores": {
+        "site_web": {
+          "axis": "site_web",
+          "score": 5,
+          "level": "faible",
+          "reasons": [
+            "un site est déjà en ligne : pas de création à proprement parler"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "un site existe déjà : la création n'est pas le bon service"
+          ],
+          "confidence": "haute",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": [],
+          "evaluated_at": "2026-11-03",
+          "signal_levels": {}
+        },
+        "refonte": {
+          "axis": "refonte",
+          "score": 57,
+          "level": "moyen",
+          "reasons": [
+            "site existant à moderniser",
+            "+26 website_gap : « Ceci est le lien d'édition secret, gardez-le en lieu sûr : » (https://tortora.fr/contacter-lentreprise-tortora-dans-laube-pres-de-troyes/)",
+            "+26 website_gap : « Créé en 1976, la société Tortora a été transmise en 2021 à deux employés de longue date, Frank Douet et Fra… » (https://tortora.fr/)"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "comportement sur mobile non vérifié"
+          ],
+          "confidence": "haute",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": [],
+          "evaluated_at": "2026-11-03",
+          "signal_levels": {}
+        },
+        "ia_automatisation": {
+          "axis": "ia_automatisation",
+          "score": 0,
+          "level": "faible",
+          "reasons": [
+            "aucune preuve directe sur cet axe : score volontairement bas"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "aucun processus entrant décrit publiquement : observer comment arrivent et sont traitées les demandes (devis, réservation, dossier)",
+            "processus observé sur une seule page : confirmer sur une seconde source"
+          ],
+          "confidence": "haute",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": [],
+          "evaluated_at": "2026-11-03",
+          "signal_levels": {}
+        },
+        "priority": "a_approfondir",
+        "best_axis": "refonte",
+        "engine_version": "v8",
+        "evaluated_at": "2026-11-03",
+        "contactability": {
+          "email_present": false,
+          "email_verification": "none",
+          "phone_present": true,
+          "decoded_address_unconfirmed": false,
+          "blockers": [
+            "aucune adresse professionnelle publiée"
+          ],
+          "contactable": false
+        },
+        "opportunity_report": {
+          "automation": [],
+          "maturity": [],
+          "refonte": [],
+          "presence": []
+        }
+      },
+      "scoring_version": "v8",
+      "commercial_priority": "a_approfondir",
+      "commercial_value": 58,
+      "commercial": {
+        "value": 58,
+        "tier": "a_approfondir",
+        "signal_class": "observe",
+        "signal_class_label": "problème directement observé",
+        "relevance": "propose",
+        "relevance_factor": 1.0,
+        "matched_services": [],
+        "verified": false,
+        "base": 34,
+        "magnitude": 24,
+        "best_axis": "refonte",
+        "best_axis_score": 57,
+        "confidence": "haute",
+        "reasons": [
+          "contre-signaux explicites : 0 fort(s), 0 modéré(s), 1 faible(s) → pénalité bornée -0 (58 -> 58)",
+          "contre-signal — force faible (marqueurs : le besoin porte sur) ; délimite le besoin sans l'annuler",
+          "problème directement observé : base 34",
+          "pertinence offre : propose (×1.00)",
+          "magnitude bornée : +24 (meilleur axe refonte = 57, plafond 42)",
+          "adresse non joignable : priorité plafonnée à « à approfondir » (la valeur commerciale est conservée telle quelle)"
+        ],
+        "counter_signals": [
+          "Traçabilité de nos interventions, respect de la charte Qualité ACB"
+        ],
+        "counter_signal_penalty": 0,
+        "counter_signal_details": [
+          {
+            "quote": "Traçabilité de nos interventions, respect de la charte Qualité ACB",
+            "source_url": "https://tortora.fr/",
+            "observed_at": "2026-11-03",
+            "strength": "faible",
+            "negates_need": false,
+            "fresh": true,
+            "reliable_source": true,
+            "penalty": 0,
+            "reason": "force faible (marqueurs : le besoin porte sur) ; délimite le besoin sans l'annuler"
+          }
+        ],
+        "driving_evidence": [
+          {
+            "quote": "Ceci est le lien d'édition secret, gardez-le en lieu sûr :",
+            "source_url": "https://tortora.fr/contacter-lentreprise-tortora-dans-laube-pres-de-troyes/",
+            "observed_at": "2026-11-03",
+            "verified_at": "2026-11-03",
+            "signal_level": "observe"
+          },
+          {
+            "quote": "Créé en 1976, la société Tortora a été transmise en 2021 à deux employés de longue date, Frank Douet et Franck Pavie.",
+            "source_url": "https://tortora.fr/",
+            "observed_at": "2026-11-03",
+            "verified_at": "2026-11-03",
+            "signal_level": "observe"
+          },
+          {
+            "quote": "Traçabilité de nos interventions, respect de la charte Qualité ACB",
+            "source_url": "https://tortora.fr/",
+            "observed_at": "2026-11-03",
+            "verified_at": "2026-11-03",
+            "signal_level": "observe"
+          }
+        ],
+        "contactable": false,
+        "capped_by_contactability": true,
+        "floor_applied": false,
+        "evaluated_at": "2026-11-03",
+        "engine_version": "v10-priority"
+      },
+      "priority_engine_version": "v10-priority",
+      "status": "nouveau",
+      "status_crm": "qualified",
+      "tier": "a_approfondir",
+      "score": 57,
+      "justification": "contre-signaux explicites : 0 fort(s), 0 modéré(s), 1 faible(s) → pénalité bornée -0 (58 -> 58) ; contre-signal — force faible (marqueurs : le besoin porte sur) ; délimite le besoin sans l'annuler ; problème directement observé : base 34 ; pertinence offre : propose (×1.00) ; magnitude bornée : +24 (meilleur axe refonte = 57, plafond 42) ; adresse non joignable : priorité plafonnée à « à approfondir » (la valeur commerciale est conservée telle quelle)",
+      "brouillon_autorise_lot12": false,
+      "brouillon_motif": "aucune adresse publiée sur les pages lues",
+      "history": [
+        {
+          "at": "2026-11-03",
+          "action": "fiche_creee_lot12",
+          "reason": "Structure examinée sur sources publiques ; preuves citées et datées ; trois axes v8 et priorité v10 calculés par le moteur du dépôt.",
+          "source": "https://tortora.fr/"
+        }
+      ],
+      "id": "tortora",
+      "created_at": "2026-11-09T23:03:35+00:00",
+      "updated_at": "2026-11-09T23:03:35+00:00"
+    },
+    {
+      "company": "Ajzenstein Louis et Associés",
+      "website": "https://www.ajzenstein-expert-comptable.com/",
+      "domain": "ajzenstein-expert-comptable.com",
+      "sector": "Expertise comptable et conseil",
+      "city": "Sedan",
+      "department": "08",
+      "address": "Sedan (08200), Ardennes",
+      "contact_name": "",
+      "contact_role": "",
+      "email": "",
+      "phone": "03 24 29 13 11",
+      "source": "site_officiel",
+      "evidence": [
+        {
+          "kind": "website_gap",
+          "source_url": "https://www.ajzenstein-expert-comptable.com/expertise-comptable-08",
+          "quote": "Source : [www.experts-comptables.fr](https://www.ajzenstein-expert-comptable.com/www.experts-comptables.fr)",
+          "observed_at": "2026-11-03",
+          "detail": "Le lien présenté comme la source de la citation déontologique est construit en URL relative : il pointe vers https://www.ajzenstein-expert-comptable.com/www.experts-comptables.fr au lieu du site de l'ordre professionnel. Le lien est donc cassé sur la page qui cite l'article 158 du code de déontologie.",
+          "source_type": "site_officiel",
+          "reliability": "haute",
+          "verified_at": "2026-11-03",
+          "observed": true,
+          "signal_level": "observe"
+        },
+        {
+          "kind": "site_obsolete",
+          "source_url": "https://www.ajzenstein-expert-comptable.com/expertise-comptable-08",
+          "quote": "Conseil fiscalité Sedan. Conseil juridique Ardennes. Expert comptable 08 : Ajzenstein Louis",
+          "observed_at": "2026-11-03",
+          "detail": "Le titre de la page est une juxtaposition de mots-clés géolocalisés plutôt qu'un intitulé de cabinet. Le panneau de gestion des cookies tarteaucitron est rendu deux fois dans la page, et l'URL d'ancrage de retour en haut pointe vers « expertise-comptable-08# » sans extension, incohérente avec les autres liens en .php.",
+          "source_type": "site_officiel",
+          "reliability": "haute",
+          "verified_at": "2026-11-03",
+          "observed": true,
+          "signal_level": "observe"
+        },
+        {
+          "kind": "maturite_existante",
+          "source_url": "https://www.ajzenstein-expert-comptable.com/expertise-comptable-08",
+          "quote": "Ou envoyez-nous un mail via le formulaire contact que vous trouverez ici",
+          "observed_at": "2026-11-03",
+          "detail": "Un formulaire de contact fonctionne et le consentement est configuré : le besoin porte sur des défauts ponctuels, pas sur le canal de contact.",
+          "source_type": "site_officiel",
+          "reliability": "haute",
+          "verified_at": "2026-11-03",
+          "observed": true,
+          "signal_level": "observe"
+        }
+      ],
+      "publication_date": "",
+      "need": "refonte",
+      "needs": [
+        "refonte"
+      ],
+      "recommended_service": "Je peux corriger le lien de source cassé et alléger le titre de page pour qu'il décrive le cabinet plutôt qu'une liste de mots-clés",
+      "email_verification": "none",
+      "email_verification_basis": "aucune adresse professionnelle publiée sur les pages lues",
+      "email_provenance": "",
+      "email_dns_status": "",
+      "email_dns_checked_at": "",
+      "phone_provenance": "publie_sur_site_officiel",
+      "process_hint": "",
+      "demo_detail": "un lien de source qui ouvre réellement le site de l'ordre, et un titre de page lisible",
+      "custom_hook": "Le lien « www.experts-comptables.fr » de votre page pointe vers votre propre domaine et non vers l'ordre.",
+      "custom_subject": "Ajzenstein : lien de source cassé et titre de page",
+      "notes": "Aucune adresse e-mail publiée : la page renvoie à un formulaire de contact. Adresse postale complète non vérifiée sur les pages lues.",
+      "lot": "2026-11-03-lot12",
+      "discovered_at": "2026-11-03",
+      "email_status": "non_contacté",
+      "next_action": "",
+      "scores": {
+        "site_web": {
+          "axis": "site_web",
+          "score": 5,
+          "level": "faible",
+          "reasons": [
+            "un site est déjà en ligne : pas de création à proprement parler"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "un site existe déjà : la création n'est pas le bon service"
+          ],
+          "confidence": "moyenne",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": [],
+          "evaluated_at": "2026-11-03",
+          "signal_levels": {}
+        },
+        "refonte": {
+          "axis": "refonte",
+          "score": 73,
+          "level": "fort",
+          "reasons": [
+            "site existant à moderniser",
+            "+42 site_obsolete : « Conseil fiscalité Sedan. Conseil juridique Ardennes. Expert comptable 08 : Ajzenstein Louis » (https://www.ajzenstein-expert-comptable.com/expertise-comptable-08)",
+            "+26 website_gap : « Source : [www.experts-comptables.fr](https://www.ajzenstein-expert-comptable.com/www.experts-comptables.fr) » (https://www.ajzenstein-expert-comptable.com/expertise-comptable-08)"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "comportement sur mobile non vérifié",
+            "une seule page observée : vérifier le parcours de contact sur une seconde page"
+          ],
+          "confidence": "moyenne",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": [],
+          "evaluated_at": "2026-11-03",
+          "signal_levels": {}
+        },
+        "ia_automatisation": {
+          "axis": "ia_automatisation",
+          "score": 0,
+          "level": "faible",
+          "reasons": [
+            "aucune preuve directe sur cet axe : score volontairement bas"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "aucun processus entrant décrit publiquement : observer comment arrivent et sont traitées les demandes (devis, réservation, dossier)",
+            "processus observé sur une seule page : confirmer sur une seconde source"
+          ],
+          "confidence": "moyenne",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": [],
+          "evaluated_at": "2026-11-03",
+          "signal_levels": {}
+        },
+        "priority": "a_approfondir",
+        "best_axis": "refonte",
+        "engine_version": "v8",
+        "evaluated_at": "2026-11-03",
+        "contactability": {
+          "email_present": false,
+          "email_verification": "none",
+          "phone_present": true,
+          "decoded_address_unconfirmed": false,
+          "blockers": [
+            "aucune adresse professionnelle publiée"
+          ],
+          "contactable": false
+        },
+        "opportunity_report": {
+          "automation": [],
+          "maturity": [],
+          "refonte": [],
+          "presence": []
+        }
+      },
+      "scoring_version": "v8",
+      "commercial_priority": "a_approfondir",
+      "commercial_value": 65,
+      "commercial": {
+        "value": 65,
+        "tier": "a_approfondir",
+        "signal_class": "observe",
+        "signal_class_label": "problème directement observé",
+        "relevance": "propose",
+        "relevance_factor": 1.0,
+        "matched_services": [],
+        "verified": false,
+        "base": 34,
+        "magnitude": 31,
+        "best_axis": "refonte",
+        "best_axis_score": 73,
+        "confidence": "haute",
+        "reasons": [
+          "contre-signaux explicites : 0 fort(s), 0 modéré(s), 1 faible(s) → pénalité bornée -0 (65 -> 65)",
+          "contre-signal — force faible (marqueurs : le besoin porte sur, un formulaire de contact fonctionne) ; délimite le besoin sans l'annuler",
+          "problème directement observé : base 34",
+          "pertinence offre : propose (×1.00)",
+          "magnitude bornée : +31 (meilleur axe refonte = 73, plafond 42)",
+          "adresse non joignable : priorité plafonnée à « à approfondir » (la valeur commerciale est conservée telle quelle)"
+        ],
+        "counter_signals": [
+          "Ou envoyez-nous un mail via le formulaire contact que vous trouverez ici"
+        ],
+        "counter_signal_penalty": 0,
+        "counter_signal_details": [
+          {
+            "quote": "Ou envoyez-nous un mail via le formulaire contact que vous trouverez ici",
+            "source_url": "https://www.ajzenstein-expert-comptable.com/expertise-comptable-08",
+            "observed_at": "2026-11-03",
+            "strength": "faible",
+            "negates_need": false,
+            "fresh": true,
+            "reliable_source": true,
+            "penalty": 0,
+            "reason": "force faible (marqueurs : le besoin porte sur, un formulaire de contact fonctionne) ; délimite le besoin sans l'annuler"
+          }
+        ],
+        "driving_evidence": [
+          {
+            "quote": "Source : [www.experts-comptables.fr](https://www.ajzenstein-expert-comptable.com/www.experts-comptables.fr)",
+            "source_url": "https://www.ajzenstein-expert-comptable.com/expertise-comptable-08",
+            "observed_at": "2026-11-03",
+            "verified_at": "2026-11-03",
+            "signal_level": "observe"
+          },
+          {
+            "quote": "Conseil fiscalité Sedan. Conseil juridique Ardennes. Expert comptable 08 : Ajzenstein Louis",
+            "source_url": "https://www.ajzenstein-expert-comptable.com/expertise-comptable-08",
+            "observed_at": "2026-11-03",
+            "verified_at": "2026-11-03",
+            "signal_level": "observe"
+          },
+          {
+            "quote": "Ou envoyez-nous un mail via le formulaire contact que vous trouverez ici",
+            "source_url": "https://www.ajzenstein-expert-comptable.com/expertise-comptable-08",
+            "observed_at": "2026-11-03",
+            "verified_at": "2026-11-03",
+            "signal_level": "observe"
+          }
+        ],
+        "contactable": false,
+        "capped_by_contactability": true,
+        "floor_applied": false,
+        "evaluated_at": "2026-11-03",
+        "engine_version": "v10-priority"
+      },
+      "priority_engine_version": "v10-priority",
+      "status": "nouveau",
+      "status_crm": "qualified",
+      "tier": "a_approfondir",
+      "score": 73,
+      "justification": "contre-signaux explicites : 0 fort(s), 0 modéré(s), 1 faible(s) → pénalité bornée -0 (65 -> 65) ; contre-signal — force faible (marqueurs : le besoin porte sur, un formulaire de contact fonctionne) ; délimite le besoin sans l'annuler ; problème directement observé : base 34 ; pertinence offre : propose (×1.00) ; magnitude bornée : +31 (meilleur axe refonte = 73, plafond 42) ; adresse non joignable : priorité plafonnée à « à approfondir » (la valeur commerciale est conservée telle quelle)",
+      "brouillon_autorise_lot12": false,
+      "brouillon_motif": "aucune adresse publiée sur les pages lues",
+      "history": [
+        {
+          "at": "2026-11-03",
+          "action": "fiche_creee_lot12",
+          "reason": "Structure examinée sur sources publiques ; preuves citées et datées ; trois axes v8 et priorité v10 calculés par le moteur du dépôt.",
+          "source": "https://www.ajzenstein-expert-comptable.com/"
+        }
+      ],
+      "id": "ajzenstein-louis-et-associ-s",
+      "created_at": "2026-11-09T23:03:35+00:00",
+      "updated_at": "2026-11-09T23:03:35+00:00"
+    },
+    {
+      "company": "Blanchefleur",
+      "website": "https://www.blanchefleur-metallerie.fr/",
+      "domain": "blanchefleur-metallerie.fr",
+      "sector": "Métallerie, chaudronnerie et agencement sur mesure",
+      "city": "Sommedieue",
+      "department": "55",
+      "address": "Rue de l'usine, 55320 Sommedieue",
+      "contact_name": "Julien Blanchefleur",
+      "contact_role": "fondateur",
+      "email": "",
+      "phone": "06 69 01 83 28",
+      "source": "site_officiel",
+      "evidence": [
+        {
+          "kind": "parcours_incomplet",
+          "source_url": "https://www.blanchefleur-metallerie.fr/contact.php",
+          "quote": "Prenez contact par téléphone, par e-mail ou via le formulaire ci-dessous.",
+          "observed_at": "2026-11-03",
+          "detail": "La page contact annonce trois canaux (téléphone, e-mail, formulaire) mais n'affiche que le téléphone et le formulaire. Le lien « mail » présent en bas de page pointe vers https://www.blanchefleur-metallerie.fr/contact.php, c'est-à-dire la page courante, et non vers une adresse. Le canal e-mail annoncé n'existe pas.",
+          "source_type": "site_officiel",
+          "reliability": "haute",
+          "verified_at": "2026-11-03",
+          "observed": true,
+          "signal_level": "observe"
+        },
+        {
+          "kind": "website_gap",
+          "source_url": "https://www.blanchefleur-metallerie.fr/",
+          "quote": "This site uses cookies and gives you control over what you want to activate",
+          "observed_at": "2026-11-03",
+          "detail": "Le panneau de consentement tarteaucitron est en anglais (« Cookies management panel », « Allow all cookies  Deny all cookies », « Mandatory cookies ») sur un site entièrement rédigé en français pour une clientèle de Lorraine. Le lien téléphone de l'accueil est écrit « tel:06 69 01 83 28 », avec des espaces dans l'URI.",
+          "source_type": "site_officiel",
+          "reliability": "haute",
+          "verified_at": "2026-11-03",
+          "observed": true,
+          "signal_level": "observe"
+        },
+        {
+          "kind": "maturite_existante",
+          "source_url": "https://www.blanchefleur-metallerie.fr/contact.php",
+          "quote": "vous disposez d'un droit d'accès, de rectification, de modification et de suppression",
+          "observed_at": "2026-11-03",
+          "detail": "Un formulaire de contact fonctionne avec lien de suppression des données : le besoin porte sur le canal e-mail annoncé mais absent, pas sur la création d'un formulaire.",
+          "source_type": "site_officiel",
+          "reliability": "haute",
+          "verified_at": "2026-11-03",
+          "observed": true,
+          "signal_level": "observe"
+        }
+      ],
+      "publication_date": "",
+      "need": "refonte",
+      "needs": [
+        "refonte"
+      ],
+      "recommended_service": "Je peux faire pointer le lien « mail » vers une vraie adresse ou un formulaire, puisque la page contact n'en affiche aucune",
+      "email_verification": "none",
+      "email_verification_basis": "aucune adresse professionnelle publiée sur les pages lues",
+      "email_provenance": "",
+      "email_dns_status": "",
+      "email_dns_checked_at": "",
+      "phone_provenance": "publie_sur_site_officiel",
+      "process_hint": "",
+      "demo_detail": "un lien mail qui ouvre réellement une adresse, ou une formulation qui annonce le formulaire",
+      "custom_hook": "Vos pages proposent un contact « par mail » mais le lien renvoie à la page contact, sans adresse affichée.",
+      "custom_subject": "Blanchefleur : le lien « mail » ne mène à aucune adresse",
+      "notes": "Aucune adresse e-mail publiée sur les deux pages lues, malgré deux invitations à écrire par mail.",
+      "lot": "2026-11-03-lot12",
+      "discovered_at": "2026-11-03",
+      "email_status": "non_contacté",
+      "next_action": "",
+      "scores": {
+        "site_web": {
+          "axis": "site_web",
+          "score": 5,
+          "level": "faible",
+          "reasons": [
+            "un site est déjà en ligne : pas de création à proprement parler"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "un site existe déjà : la création n'est pas le bon service"
+          ],
+          "confidence": "haute",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": [],
+          "evaluated_at": "2026-11-03",
+          "signal_levels": {}
+        },
+        "refonte": {
+          "axis": "refonte",
+          "score": 65,
+          "level": "moyen",
+          "reasons": [
+            "site existant à moderniser",
+            "+34 parcours_incomplet : « Prenez contact par téléphone, par e-mail ou via le formulaire ci-dessous. » (https://www.blanchefleur-metallerie.fr/contact.php)",
+            "+26 website_gap : « This site uses cookies and gives you control over what you want to activate » (https://www.blanchefleur-metallerie.fr/)"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "comportement sur mobile non vérifié"
+          ],
+          "confidence": "haute",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": [],
+          "evaluated_at": "2026-11-03",
+          "signal_levels": {}
+        },
+        "ia_automatisation": {
+          "axis": "ia_automatisation",
+          "score": 34,
+          "level": "faible",
+          "reasons": [
+            "+12 processus manuel signalé par le chercheur (type de preuve seul, volontairement plafonné)",
+            "+22 Réservation ou commande par téléphone — « Prenez contact par téléphone, par e-mail ou via le formulaire ci-dessous. » [motif : par telephone uniquement] (https://www.blanchefleur-metallerie.fr/contact.php)"
+          ],
+          "evidence": [
+            {
+              "signal": "reservation_telephone",
+              "label": "Réservation ou commande par téléphone",
+              "weight": 26,
+              "matched_pattern": "par telephone uniquement",
+              "evidence_index": 0,
+              "source_url": "https://www.blanchefleur-metallerie.fr/contact.php",
+              "quote": "Prenez contact par téléphone, par e-mail ou via le formulaire ci-dessous.",
+              "observed": true,
+              "hypothetical": false,
+              "reliability": "haute"
+            }
+          ],
+          "missing_information": [
+            "processus observé sur une seule page : confirmer sur une seconde source"
+          ],
+          "confidence": "moyenne",
+          "observed_signals": [
+            "Réservation ou commande par téléphone"
+          ],
+          "hypothetical_signals": [],
+          "counter_signals": [],
+          "evaluated_at": "2026-11-03",
+          "signal_levels": {
+            "observe": 1
+          }
+        },
+        "priority": "a_approfondir",
+        "best_axis": "refonte",
+        "engine_version": "v8",
+        "evaluated_at": "2026-11-03",
+        "contactability": {
+          "email_present": false,
+          "email_verification": "none",
+          "phone_present": true,
+          "decoded_address_unconfirmed": false,
+          "blockers": [
+            "aucune adresse professionnelle publiée"
+          ],
+          "contactable": false
+        },
+        "opportunity_report": {
+          "automation": [
+            {
+              "signal": "reservation_telephone",
+              "label": "Réservation ou commande par téléphone",
+              "weight": 26,
+              "matched_pattern": "par telephone uniquement",
+              "evidence_index": 0,
+              "source_url": "https://www.blanchefleur-metallerie.fr/contact.php",
+              "quote": "Prenez contact par téléphone, par e-mail ou via le formulaire ci-dessous.",
+              "observed": true,
+              "hypothetical": false,
+              "reliability": "haute"
+            }
+          ],
+          "maturity": [],
+          "refonte": [],
+          "presence": []
+        }
+      },
+      "scoring_version": "v8",
+      "commercial_priority": "a_approfondir",
+      "commercial_value": 61,
+      "commercial": {
+        "value": 61,
+        "tier": "a_approfondir",
+        "signal_class": "observe",
+        "signal_class_label": "problème directement observé",
+        "relevance": "propose",
+        "relevance_factor": 1.0,
+        "matched_services": [],
+        "verified": false,
+        "base": 34,
+        "magnitude": 27,
+        "best_axis": "refonte",
+        "best_axis_score": 65,
+        "confidence": "haute",
+        "reasons": [
+          "contre-signaux explicites : 0 fort(s), 0 modéré(s), 1 faible(s) → pénalité bornée -0 (61 -> 61)",
+          "contre-signal — force faible (marqueurs : le besoin porte sur, un formulaire de contact fonctionne) ; délimite le besoin sans l'annuler",
+          "problème directement observé : base 34",
+          "pertinence offre : propose (×1.00)",
+          "magnitude bornée : +27 (meilleur axe refonte = 65, plafond 42)",
+          "adresse non joignable : priorité plafonnée à « à approfondir » (la valeur commerciale est conservée telle quelle)"
+        ],
+        "counter_signals": [
+          "vous disposez d'un droit d'accès, de rectification, de modification et de suppression"
+        ],
+        "counter_signal_penalty": 0,
+        "counter_signal_details": [
+          {
+            "quote": "vous disposez d'un droit d'accès, de rectification, de modification et de suppression",
+            "source_url": "https://www.blanchefleur-metallerie.fr/contact.php",
+            "observed_at": "2026-11-03",
+            "strength": "faible",
+            "negates_need": false,
+            "fresh": true,
+            "reliable_source": true,
+            "penalty": 0,
+            "reason": "force faible (marqueurs : le besoin porte sur, un formulaire de contact fonctionne) ; délimite le besoin sans l'annuler"
+          }
+        ],
+        "driving_evidence": [
+          {
+            "quote": "Prenez contact par téléphone, par e-mail ou via le formulaire ci-dessous.",
+            "source_url": "https://www.blanchefleur-metallerie.fr/contact.php",
+            "observed_at": "2026-11-03",
+            "verified_at": "2026-11-03",
+            "signal_level": "observe"
+          },
+          {
+            "quote": "This site uses cookies and gives you control over what you want to activate",
+            "source_url": "https://www.blanchefleur-metallerie.fr/",
+            "observed_at": "2026-11-03",
+            "verified_at": "2026-11-03",
+            "signal_level": "observe"
+          },
+          {
+            "quote": "vous disposez d'un droit d'accès, de rectification, de modification et de suppression",
+            "source_url": "https://www.blanchefleur-metallerie.fr/contact.php",
+            "observed_at": "2026-11-03",
+            "verified_at": "2026-11-03",
+            "signal_level": "observe"
+          }
+        ],
+        "contactable": false,
+        "capped_by_contactability": true,
+        "floor_applied": false,
+        "evaluated_at": "2026-11-03",
+        "engine_version": "v10-priority"
+      },
+      "priority_engine_version": "v10-priority",
+      "status": "nouveau",
+      "status_crm": "qualified",
+      "tier": "a_approfondir",
+      "score": 65,
+      "justification": "contre-signaux explicites : 0 fort(s), 0 modéré(s), 1 faible(s) → pénalité bornée -0 (61 -> 61) ; contre-signal — force faible (marqueurs : le besoin porte sur, un formulaire de contact fonctionne) ; délimite le besoin sans l'annuler ; problème directement observé : base 34 ; pertinence offre : propose (×1.00) ; magnitude bornée : +27 (meilleur axe refonte = 65, plafond 42) ; adresse non joignable : priorité plafonnée à « à approfondir » (la valeur commerciale est conservée telle quelle)",
+      "brouillon_autorise_lot12": false,
+      "brouillon_motif": "aucune adresse publiée sur les pages lues",
+      "history": [
+        {
+          "at": "2026-11-03",
+          "action": "fiche_creee_lot12",
+          "reason": "Structure examinée sur sources publiques ; preuves citées et datées ; trois axes v8 et priorité v10 calculés par le moteur du dépôt.",
+          "source": "https://www.blanchefleur-metallerie.fr/"
+        }
+      ],
+      "id": "blanchefleur",
+      "created_at": "2026-11-09T23:03:35+00:00",
+      "updated_at": "2026-11-09T23:03:35+00:00"
+    },
+    {
+      "company": "TAM NET 87",
+      "website": "https://www.tam-net-87.fr/",
+      "domain": "tam-net-87.fr",
+      "sector": "Nettoyage professionnel et remise en état",
+      "city": "Limoges",
+      "department": "87",
+      "address": "33 rue de Bretagne, 87100 Limoges",
+      "contact_name": "",
+      "contact_role": "",
+      "email": "",
+      "phone": "06 10 17 05 57",
+      "source": "site_officiel",
+      "evidence": [
+        {
+          "kind": "website_gap",
+          "source_url": "https://www.tam-net-87.fr/",
+          "quote": "est une [Entreprise de nettoyage à Limoges ][**entreprise de nettoyage**][d] e confiance",
+          "observed_at": "2026-11-03",
+          "detail": "Le paragraphe de présentation est fragmenté par des liens imbriqués qui coupent les mots : « est une Entreprise de nettoyage à Limoges entreprise de nettoyage d e confiance ». Plus bas, la section professionnels comporte la coquille « Intervention auprès des professionneles ».",
+          "source_type": "site_officiel",
+          "reliability": "haute",
+          "verified_at": "2026-11-03",
+          "observed": true,
+          "signal_level": "observe"
+        },
+        {
+          "kind": "parcours_incomplet",
+          "source_url": "https://www.tam-net-87.fr/",
+          "quote": "[![ Entreprise de nettoyage Haute-Vienne](https://www.tam-net-87.fr/oktThemes/ra165-s/images/accueil/encart2.jpg)](https://www.tam-net-87.fr/)",
+          "observed_at": "2026-11-03",
+          "detail": "Dans le bloc « Société de nettoyage », le visuel associé aux particuliers pointe vers la racine du site alors que le lien texte voisin pointe correctement vers /particuliers. Le visiteur qui clique sur l'image revient à l'accueil.",
+          "source_type": "site_officiel",
+          "reliability": "haute",
+          "verified_at": "2026-11-03",
+          "observed": true,
+          "signal_level": "observe"
+        },
+        {
+          "kind": "maturite_existante",
+          "source_url": "https://www.tam-net-87.fr/contact",
+          "quote": "En cochant cette case, j’accepte que les données saisies dans le formulaire ci-dessus soient utilisées",
+          "observed_at": "2026-11-03",
+          "detail": "Un formulaire de contact fonctionne avec consentement et politique de confidentialité : le besoin porte sur des défauts de liens et de texte, pas sur le canal de contact.",
+          "source_type": "site_officiel",
+          "reliability": "haute",
+          "verified_at": "2026-11-03",
+          "observed": true,
+          "signal_level": "observe"
+        }
+      ],
+      "publication_date": "",
+      "need": "refonte",
+      "needs": [
+        "refonte"
+      ],
+      "recommended_service": "Je peux corriger les liens et les textes cassés de l'accueil pour que le parcours vers vos pages professionnels et particuliers fonctionne",
+      "email_verification": "none",
+      "email_verification_basis": "aucune adresse professionnelle publiée sur les pages lues",
+      "email_provenance": "",
+      "email_dns_status": "",
+      "email_dns_checked_at": "",
+      "phone_provenance": "publie_sur_site_officiel",
+      "process_hint": "",
+      "demo_detail": "un texte d'accueil intact et un visuel Particuliers qui ouvre la bonne page",
+      "custom_hook": "Votre accueil affiche « entreprise de nettoyage d e confiance » et le visuel Particuliers renvoie à l'accueil.",
+      "custom_subject": "TAM NET 87 : liens et textes cassés sur l'accueil",
+      "notes": "Aucune adresse e-mail publiée sur les deux pages lues : formulaire et téléphone uniquement.",
+      "lot": "2026-11-03-lot12",
+      "discovered_at": "2026-11-03",
+      "email_status": "non_contacté",
+      "next_action": "",
+      "scores": {
+        "site_web": {
+          "axis": "site_web",
+          "score": 5,
+          "level": "faible",
+          "reasons": [
+            "un site est déjà en ligne : pas de création à proprement parler"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "un site existe déjà : la création n'est pas le bon service"
+          ],
+          "confidence": "haute",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": [],
+          "evaluated_at": "2026-11-03",
+          "signal_levels": {}
+        },
+        "refonte": {
+          "axis": "refonte",
+          "score": 65,
+          "level": "moyen",
+          "reasons": [
+            "site existant à moderniser",
+            "+34 parcours_incomplet : « [![ Entreprise de nettoyage Haute-Vienne](https://www.tam-net-87.fr/oktThemes/ra165-s/images/accueil/encart… » (https://www.tam-net-87.fr/)",
+            "+26 website_gap : « est une [Entreprise de nettoyage à Limoges ][**entreprise de nettoyage**][d] e confiance » (https://www.tam-net-87.fr/)"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "comportement sur mobile non vérifié",
+            "une seule page observée : vérifier le parcours de contact sur une seconde page"
+          ],
+          "confidence": "moyenne",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": [],
+          "evaluated_at": "2026-11-03",
+          "signal_levels": {}
+        },
+        "ia_automatisation": {
+          "axis": "ia_automatisation",
+          "score": 12,
+          "level": "faible",
+          "reasons": [
+            "+12 processus manuel signalé par le chercheur (type de preuve seul, volontairement plafonné)"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "aucun processus entrant décrit publiquement : observer comment arrivent et sont traitées les demandes (devis, réservation, dossier)",
+            "processus observé sur une seule page : confirmer sur une seconde source"
+          ],
+          "confidence": "moyenne",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": [],
+          "evaluated_at": "2026-11-03",
+          "signal_levels": {}
+        },
+        "priority": "a_approfondir",
+        "best_axis": "refonte",
+        "engine_version": "v8",
+        "evaluated_at": "2026-11-03",
+        "contactability": {
+          "email_present": false,
+          "email_verification": "none",
+          "phone_present": true,
+          "decoded_address_unconfirmed": false,
+          "blockers": [
+            "aucune adresse professionnelle publiée"
+          ],
+          "contactable": false
+        },
+        "opportunity_report": {
+          "automation": [],
+          "maturity": [],
+          "refonte": [],
+          "presence": []
+        }
+      },
+      "scoring_version": "v8",
+      "commercial_priority": "a_approfondir",
+      "commercial_value": 61,
+      "commercial": {
+        "value": 61,
+        "tier": "a_approfondir",
+        "signal_class": "observe",
+        "signal_class_label": "problème directement observé",
+        "relevance": "propose",
+        "relevance_factor": 1.0,
+        "matched_services": [],
+        "verified": false,
+        "base": 34,
+        "magnitude": 27,
+        "best_axis": "refonte",
+        "best_axis_score": 65,
+        "confidence": "haute",
+        "reasons": [
+          "contre-signaux explicites : 0 fort(s), 0 modéré(s), 1 faible(s) → pénalité bornée -0 (61 -> 61)",
+          "contre-signal — force faible (marqueurs : le besoin porte sur, un formulaire de contact fonctionne) ; délimite le besoin sans l'annuler",
+          "problème directement observé : base 34",
+          "pertinence offre : propose (×1.00)",
+          "magnitude bornée : +27 (meilleur axe refonte = 65, plafond 42)",
+          "adresse non joignable : priorité plafonnée à « à approfondir » (la valeur commerciale est conservée telle quelle)"
+        ],
+        "counter_signals": [
+          "En cochant cette case, j’accepte que les données saisies dans le formulaire ci-dessus soient utilisées"
+        ],
+        "counter_signal_penalty": 0,
+        "counter_signal_details": [
+          {
+            "quote": "En cochant cette case, j’accepte que les données saisies dans le formulaire ci-dessus soient utilisées",
+            "source_url": "https://www.tam-net-87.fr/contact",
+            "observed_at": "2026-11-03",
+            "strength": "faible",
+            "negates_need": false,
+            "fresh": true,
+            "reliable_source": true,
+            "penalty": 0,
+            "reason": "force faible (marqueurs : le besoin porte sur, un formulaire de contact fonctionne) ; délimite le besoin sans l'annuler"
+          }
+        ],
+        "driving_evidence": [
+          {
+            "quote": "est une [Entreprise de nettoyage à Limoges ][**entreprise de nettoyage**][d] e confiance",
+            "source_url": "https://www.tam-net-87.fr/",
+            "observed_at": "2026-11-03",
+            "verified_at": "2026-11-03",
+            "signal_level": "observe"
+          },
+          {
+            "quote": "[![ Entreprise de nettoyage Haute-Vienne](https://www.tam-net-87.fr/oktThemes/ra165-s/images/accueil/encart2.jpg)](https://www.tam-net-87.fr/)",
+            "source_url": "https://www.tam-net-87.fr/",
+            "observed_at": "2026-11-03",
+            "verified_at": "2026-11-03",
+            "signal_level": "observe"
+          },
+          {
+            "quote": "En cochant cette case, j’accepte que les données saisies dans le formulaire ci-dessus soient utilisées",
+            "source_url": "https://www.tam-net-87.fr/contact",
+            "observed_at": "2026-11-03",
+            "verified_at": "2026-11-03",
+            "signal_level": "observe"
+          }
+        ],
+        "contactable": false,
+        "capped_by_contactability": true,
+        "floor_applied": false,
+        "evaluated_at": "2026-11-03",
+        "engine_version": "v10-priority"
+      },
+      "priority_engine_version": "v10-priority",
+      "status": "nouveau",
+      "status_crm": "qualified",
+      "tier": "a_approfondir",
+      "score": 65,
+      "justification": "contre-signaux explicites : 0 fort(s), 0 modéré(s), 1 faible(s) → pénalité bornée -0 (61 -> 61) ; contre-signal — force faible (marqueurs : le besoin porte sur, un formulaire de contact fonctionne) ; délimite le besoin sans l'annuler ; problème directement observé : base 34 ; pertinence offre : propose (×1.00) ; magnitude bornée : +27 (meilleur axe refonte = 65, plafond 42) ; adresse non joignable : priorité plafonnée à « à approfondir » (la valeur commerciale est conservée telle quelle)",
+      "brouillon_autorise_lot12": false,
+      "brouillon_motif": "aucune adresse publiée sur les pages lues",
+      "history": [
+        {
+          "at": "2026-11-03",
+          "action": "fiche_creee_lot12",
+          "reason": "Structure examinée sur sources publiques ; preuves citées et datées ; trois axes v8 et priorité v10 calculés par le moteur du dépôt.",
+          "source": "https://www.tam-net-87.fr/"
+        }
+      ],
+      "id": "tam-net-87",
+      "created_at": "2026-11-09T23:03:35+00:00",
+      "updated_at": "2026-11-09T23:03:35+00:00"
+    },
+    {
+      "company": "Les Ateliers Genetier",
+      "website": "https://www.ebeniste-genetier.com/",
+      "domain": "ebeniste-genetier.com",
+      "sector": "Ébénisterie, fabrication de mobilier et agencement sur mesure",
+      "city": "Charolles",
+      "department": "71",
+      "address": "Pôle d'activité du Charolais, 3 rue Jean Ducerf, 71120 Charolles",
+      "contact_name": "",
+      "contact_role": "",
+      "email": "",
+      "phone": "09 74 56 58 70",
+      "source": "site_officiel",
+      "evidence": [
+        {
+          "kind": "website_gap",
+          "source_url": "https://www.ebeniste-genetier.com/meuble.php",
+          "quote": "Your privacy is our priority",
+          "observed_at": "2026-11-03",
+          "detail": "Le bandeau de consentement aux cookies est intégralement en anglais sur un site français destiné à une clientèle de Saône-et-Loire : « Your privacy is our priority », « I Agree », « Reject All », « Ad personalization », « Save and Exit ». Constat identique sur la page /contactez-nous.php.",
+          "source_type": "site_officiel",
+          "reliability": "haute",
+          "verified_at": "2026-11-03",
+          "observed": true,
+          "signal_level": "observe"
+        },
+        {
+          "kind": "website_gap",
+          "source_url": "https://www.ebeniste-genetier.com/meuble.php",
+          "quote": "45 ans dans la fabrication de meubles sur mesure",
+          "observed_at": "2026-11-03",
+          "detail": "Le titre de section annonce « 45 ans dans la fabrication de meubles sur mesure » alors que le paragraphe qui suit indique « Depuis 1976, nous sommes spécialisés dans la conception et la fabrication de meubles sur mesure ». En 2026, l'écart entre les deux affirmations est de cinq ans.",
+          "source_type": "site_officiel",
+          "reliability": "haute",
+          "verified_at": "2026-11-03",
+          "observed": true,
+          "signal_level": "observe"
+        },
+        {
+          "kind": "maturite_existante",
+          "source_url": "https://www.ebeniste-genetier.com/contactez-nous.php",
+          "quote": "Ce site est protégé par reCAPTCHA",
+          "observed_at": "2026-11-03",
+          "detail": "Formulaire de devis qualifié (type de demande, précisions) protégé par reCAPTCHA, et réglages d'accessibilité proposés : un formulaire de demande existe et le site est structuré. Le besoin est cosmétique.",
+          "source_type": "site_officiel",
+          "reliability": "haute",
+          "verified_at": "2026-11-03",
+          "observed": true,
+          "signal_level": "observe"
+        }
+      ],
+      "publication_date": "",
+      "need": "refonte",
+      "needs": [
+        "refonte"
+      ],
+      "recommended_service": "Je peux traduire le bandeau de consentement resté en anglais et aligner l'ancienneté annoncée sur la date de création",
+      "email_verification": "none",
+      "email_verification_basis": "aucune adresse professionnelle publiée sur les pages lues",
+      "email_provenance": "",
+      "email_dns_status": "",
+      "email_dns_checked_at": "",
+      "phone_provenance": "publie_sur_site_officiel",
+      "process_hint": "",
+      "demo_detail": "un bandeau de consentement en français et une ancienneté cohérente avec 1976",
+      "custom_hook": "Votre bandeau de consentement est en anglais et l'accueil annonce « 45 ans » pour une création en 1976.",
+      "custom_subject": "Ateliers Genetier : bandeau cookies en anglais et ancienneté",
+      "notes": "Aucune adresse e-mail en clair sur les pages lues : le bloc coordonnées propose un lien « E-mail » dont la cible n'a pas pu être relevée. Adresse non importée.",
+      "lot": "2026-11-03-lot12",
+      "discovered_at": "2026-11-03",
+      "email_status": "non_contacté",
+      "next_action": "",
+      "scores": {
+        "site_web": {
+          "axis": "site_web",
+          "score": 5,
+          "level": "faible",
+          "reasons": [
+            "un site est déjà en ligne : pas de création à proprement parler"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "un site existe déjà : la création n'est pas le bon service"
+          ],
+          "confidence": "haute",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": [],
+          "evaluated_at": "2026-11-03",
+          "signal_levels": {}
+        },
+        "refonte": {
+          "axis": "refonte",
+          "score": 57,
+          "level": "moyen",
+          "reasons": [
+            "site existant à moderniser",
+            "+26 website_gap : « Your privacy is our priority » (https://www.ebeniste-genetier.com/meuble.php)",
+            "+26 website_gap : « 45 ans dans la fabrication de meubles sur mesure » (https://www.ebeniste-genetier.com/meuble.php)"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "comportement sur mobile non vérifié",
+            "une seule page observée : vérifier le parcours de contact sur une seconde page"
+          ],
+          "confidence": "moyenne",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": [],
+          "evaluated_at": "2026-11-03",
+          "signal_levels": {}
+        },
+        "ia_automatisation": {
+          "axis": "ia_automatisation",
+          "score": 0,
+          "level": "faible",
+          "reasons": [
+            "aucune preuve directe sur cet axe : score volontairement bas"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "aucun processus entrant décrit publiquement : observer comment arrivent et sont traitées les demandes (devis, réservation, dossier)",
+            "processus observé sur une seule page : confirmer sur une seconde source"
+          ],
+          "confidence": "haute",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": [],
+          "evaluated_at": "2026-11-03",
+          "signal_levels": {}
+        },
+        "priority": "a_approfondir",
+        "best_axis": "refonte",
+        "engine_version": "v8",
+        "evaluated_at": "2026-11-03",
+        "contactability": {
+          "email_present": false,
+          "email_verification": "none",
+          "phone_present": true,
+          "decoded_address_unconfirmed": false,
+          "blockers": [
+            "aucune adresse professionnelle publiée"
+          ],
+          "contactable": false
+        },
+        "opportunity_report": {
+          "automation": [],
+          "maturity": [],
+          "refonte": [],
+          "presence": []
+        }
+      },
+      "scoring_version": "v8",
+      "commercial_priority": "basse",
+      "commercial_value": 34,
+      "commercial": {
+        "value": 34,
+        "tier": "basse",
+        "signal_class": "observe",
+        "signal_class_label": "problème directement observé",
+        "relevance": "propose",
+        "relevance_factor": 1.0,
+        "matched_services": [],
+        "verified": false,
+        "base": 34,
+        "magnitude": 24,
+        "best_axis": "refonte",
+        "best_axis_score": 57,
+        "confidence": "haute",
+        "reasons": [
+          "contre-signaux explicites : 1 fort(s), 0 modéré(s), 0 faible(s) → pénalité bornée -24 (58 -> 34)",
+          "contre-signal — force fort (marqueurs : besoin est cosmétique) ; délimite le besoin sans l'annuler",
+          "problème directement observé : base 34",
+          "pertinence offre : propose (×1.00)",
+          "magnitude bornée : +24 (meilleur axe refonte = 57, plafond 42)"
+        ],
+        "counter_signals": [
+          "Ce site est protégé par reCAPTCHA"
+        ],
+        "counter_signal_penalty": 24,
+        "counter_signal_details": [
+          {
+            "quote": "Ce site est protégé par reCAPTCHA",
+            "source_url": "https://www.ebeniste-genetier.com/contactez-nous.php",
+            "observed_at": "2026-11-03",
+            "strength": "fort",
+            "negates_need": false,
+            "fresh": true,
+            "reliable_source": true,
+            "penalty": 24,
+            "reason": "force fort (marqueurs : besoin est cosmétique) ; délimite le besoin sans l'annuler"
+          }
+        ],
+        "driving_evidence": [
+          {
+            "quote": "Your privacy is our priority",
+            "source_url": "https://www.ebeniste-genetier.com/meuble.php",
+            "observed_at": "2026-11-03",
+            "verified_at": "2026-11-03",
+            "signal_level": "observe"
+          },
+          {
+            "quote": "45 ans dans la fabrication de meubles sur mesure",
+            "source_url": "https://www.ebeniste-genetier.com/meuble.php",
+            "observed_at": "2026-11-03",
+            "verified_at": "2026-11-03",
+            "signal_level": "observe"
+          },
+          {
+            "quote": "Ce site est protégé par reCAPTCHA",
+            "source_url": "https://www.ebeniste-genetier.com/contactez-nous.php",
+            "observed_at": "2026-11-03",
+            "verified_at": "2026-11-03",
+            "signal_level": "observe"
+          }
+        ],
+        "contactable": false,
+        "capped_by_contactability": false,
+        "floor_applied": false,
+        "evaluated_at": "2026-11-03",
+        "engine_version": "v10-priority"
+      },
+      "priority_engine_version": "v10-priority",
+      "status": "nouveau",
+      "status_crm": "qualified",
+      "tier": "basse",
+      "score": 57,
+      "justification": "contre-signaux explicites : 1 fort(s), 0 modéré(s), 0 faible(s) → pénalité bornée -24 (58 -> 34) ; contre-signal — force fort (marqueurs : besoin est cosmétique) ; délimite le besoin sans l'annuler ; problème directement observé : base 34 ; pertinence offre : propose (×1.00) ; magnitude bornée : +24 (meilleur axe refonte = 57, plafond 42)",
+      "brouillon_autorise_lot12": false,
+      "brouillon_motif": "aucune adresse publiée sur les pages lues",
+      "history": [
+        {
+          "at": "2026-11-03",
+          "action": "fiche_creee_lot12",
+          "reason": "Structure examinée sur sources publiques ; preuves citées et datées ; trois axes v8 et priorité v10 calculés par le moteur du dépôt.",
+          "source": "https://www.ebeniste-genetier.com/"
+        }
+      ],
+      "id": "les-ateliers-genetier",
+      "created_at": "2026-11-09T23:03:35+00:00",
+      "updated_at": "2026-11-09T23:03:35+00:00"
+    },
+    {
+      "company": "BETEP",
+      "website": "http://www.betep.fr/",
+      "domain": "betep.fr",
+      "sector": "Bureau d'études techniques, calcul de structure et plans d'exécution",
+      "city": "Tarbes",
+      "department": "65",
+      "address": "13 rue Gaston Manent, 65000 Tarbes",
+      "contact_name": "",
+      "contact_role": "",
+      "email": "betep@betep.fr",
+      "phone": "05 62 93 14 70",
+      "source": "site_officiel",
+      "evidence": [
+        {
+          "kind": "site_obsolete",
+          "source_url": "http://www.betep.fr/",
+          "quote": "http://www.betep.fr/images/local.jpg",
+          "observed_at": "2026-11-03",
+          "detail": "Le site est servi en http sans redirection HTTPS observable, et l'ensemble de la mise en page est construit en tableaux HTML imbriqués servant à positionner le texte, les coordonnées et les images. Les rubriques MISSIONS, DOMAINE D'INTERVENTION et LOGICIELS ET MATERIEL sont de simples titres dans une colonne de tableau. Aucun formulaire de contact n'est proposé, seulement une adresse e-mail et un téléphone.",
+          "source_type": "site_officiel",
+          "reliability": "haute",
+          "verified_at": "2026-11-03",
+          "observed": true,
+          "signal_level": "observe"
+        },
+        {
+          "kind": "maturite_existante",
+          "source_url": "http://www.betep.fr/",
+          "quote": "Tous ces logiciels étant compatibles au BIM",
+          "observed_at": "2026-11-03",
+          "detail": "Le bureau d'études est outillé (Graitec, Arche, Advance, Allplan, compatibles BIM) : la maturité technique existe. Ce contre-signal porte sur l'outillage métier, pas sur le site ; le besoin porte sur la présence en ligne.",
+          "source_type": "site_officiel",
+          "reliability": "haute",
+          "verified_at": "2026-11-03",
+          "observed": true,
+          "signal_level": "observe"
+        }
+      ],
+      "publication_date": "",
+      "need": "refonte",
+      "needs": [
+        "refonte"
+      ],
+      "recommended_service": "Je peux remettre le site sur une structure moderne en HTTPS, avec une page de contact qui présente vos missions et vos références",
+      "email_verification": "verified",
+      "email_verification_basis": "adresse lue directement sur une page officielle le 2026-11-03 ; MX du domaine vérifié le même jour (le MX ne prouve pas l'existence de la boîte)",
+      "email_provenance": "publiee",
+      "email_dns_status": "mx_ok",
+      "email_dns_checked_at": "2026-11-03",
+      "phone_provenance": "publie_sur_site_officiel",
+      "process_hint": "",
+      "demo_detail": "une page d'accueil en HTTPS présentant les missions et un moyen simple de transmettre un plan",
+      "custom_hook": "Le site betep.fr est servi en http et sa mise en page repose sur des tableaux imbriqués.",
+      "custom_subject": "BETEP : site en http et mise en page par tableaux",
+      "notes": "Une seule page a pu être lue : la confiance sur l'axe refonte reste limitée, aucun brouillon n'est préparé.",
+      "lot": "2026-11-03-lot12",
+      "discovered_at": "2026-11-03",
+      "email_status": "non_contacté",
+      "next_action": "",
+      "scores": {
+        "site_web": {
+          "axis": "site_web",
+          "score": 5,
+          "level": "faible",
+          "reasons": [
+            "un site est déjà en ligne : pas de création à proprement parler"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "un site existe déjà : la création n'est pas le bon service"
+          ],
+          "confidence": "moyenne",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": [],
+          "evaluated_at": "2026-11-03",
+          "signal_levels": {}
+        },
+        "refonte": {
+          "axis": "refonte",
+          "score": 47,
+          "level": "moyen",
+          "reasons": [
+            "site existant à moderniser",
+            "+42 site_obsolete : « http://www.betep.fr/images/local.jpg » (http://www.betep.fr/)"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "comportement sur mobile non vérifié",
+            "une seule page observée : vérifier le parcours de contact sur une seconde page"
+          ],
+          "confidence": "moyenne",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": [],
+          "evaluated_at": "2026-11-03",
+          "signal_levels": {}
+        },
+        "ia_automatisation": {
+          "axis": "ia_automatisation",
+          "score": 0,
+          "level": "faible",
+          "reasons": [
+            "aucune preuve directe sur cet axe : score volontairement bas"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "aucun processus entrant décrit publiquement : observer comment arrivent et sont traitées les demandes (devis, réservation, dossier)",
+            "processus observé sur une seule page : confirmer sur une seconde source"
+          ],
+          "confidence": "moyenne",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": [],
+          "evaluated_at": "2026-11-03",
+          "signal_levels": {}
+        },
+        "priority": "moyenne",
+        "best_axis": "refonte",
+        "engine_version": "v8",
+        "evaluated_at": "2026-11-03",
+        "contactability": {
+          "email_present": true,
+          "email_verification": "verified",
+          "phone_present": true,
+          "decoded_address_unconfirmed": false,
+          "blockers": [],
+          "contactable": true
+        },
+        "opportunity_report": {
+          "automation": [],
+          "maturity": [],
+          "refonte": [],
+          "presence": []
+        }
+      },
+      "scoring_version": "v8",
+      "commercial_priority": "moyenne",
+      "commercial_value": 54,
+      "commercial": {
+        "value": 54,
+        "tier": "moyenne",
+        "signal_class": "observe",
+        "signal_class_label": "problème directement observé",
+        "relevance": "propose",
+        "relevance_factor": 1.0,
+        "matched_services": [],
+        "verified": false,
+        "base": 34,
+        "magnitude": 20,
+        "best_axis": "refonte",
+        "best_axis_score": 47,
+        "confidence": "haute",
+        "reasons": [
+          "contre-signaux explicites : 0 fort(s), 0 modéré(s), 1 faible(s) → pénalité bornée -0 (54 -> 54)",
+          "contre-signal — force faible (marqueurs : le besoin porte sur) ; délimite le besoin sans l'annuler",
+          "problème directement observé : base 34",
+          "pertinence offre : propose (×1.00)",
+          "magnitude bornée : +20 (meilleur axe refonte = 47, plafond 42)"
+        ],
+        "counter_signals": [
+          "Tous ces logiciels étant compatibles au BIM"
+        ],
+        "counter_signal_penalty": 0,
+        "counter_signal_details": [
+          {
+            "quote": "Tous ces logiciels étant compatibles au BIM",
+            "source_url": "http://www.betep.fr/",
+            "observed_at": "2026-11-03",
+            "strength": "faible",
+            "negates_need": false,
+            "fresh": true,
+            "reliable_source": true,
+            "penalty": 0,
+            "reason": "force faible (marqueurs : le besoin porte sur) ; délimite le besoin sans l'annuler"
+          }
+        ],
+        "driving_evidence": [
+          {
+            "quote": "http://www.betep.fr/images/local.jpg",
+            "source_url": "http://www.betep.fr/",
+            "observed_at": "2026-11-03",
+            "verified_at": "2026-11-03",
+            "signal_level": "observe"
+          },
+          {
+            "quote": "Tous ces logiciels étant compatibles au BIM",
+            "source_url": "http://www.betep.fr/",
+            "observed_at": "2026-11-03",
+            "verified_at": "2026-11-03",
+            "signal_level": "observe"
+          }
+        ],
+        "contactable": true,
+        "capped_by_contactability": false,
+        "floor_applied": false,
+        "evaluated_at": "2026-11-03",
+        "engine_version": "v10-priority"
+      },
+      "priority_engine_version": "v10-priority",
+      "status": "nouveau",
+      "status_crm": "qualified",
+      "tier": "moyenne",
+      "score": 47,
+      "justification": "contre-signaux explicites : 0 fort(s), 0 modéré(s), 1 faible(s) → pénalité bornée -0 (54 -> 54) ; contre-signal — force faible (marqueurs : le besoin porte sur) ; délimite le besoin sans l'annuler ; problème directement observé : base 34 ; pertinence offre : propose (×1.00) ; magnitude bornée : +20 (meilleur axe refonte = 47, plafond 42)",
+      "brouillon_autorise_lot12": false,
+      "brouillon_motif": "priorité moyenne (54) : en dessous du seuil haute",
+      "history": [
+        {
+          "at": "2026-11-03",
+          "action": "fiche_creee_lot12",
+          "reason": "Structure examinée sur sources publiques ; preuves citées et datées ; trois axes v8 et priorité v10 calculés par le moteur du dépôt.",
+          "source": "http://www.betep.fr/"
+        }
+      ],
+      "id": "betep",
+      "created_at": "2026-11-09T23:03:35+00:00",
+      "updated_at": "2026-11-09T23:03:35+00:00"
     }
   ]
 }

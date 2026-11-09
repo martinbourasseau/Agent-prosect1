@@ -1,0 +1,99 @@
+{
+  "MFMG": {
+    "email": "contact@mfmg.fr",
+    "source_url": "https://www.mfmg.eu/contact/",
+    "domain": "mfmg.fr",
+    "status": "mx_ok",
+    "mx_hosts": [
+      "vade-mx-eu-fallback01.hornetsecurity.com",
+      "vade-mx-eu-fallback02.hornetsecurity.com",
+      "vade-mx-fr01.hornetsecurity.com",
+      "vade-mx-fr02.hornetsecurity.com"
+    ],
+    "checked_at": "2026-11-09T22:52:27+00:00",
+    "detail": "4 MX publiés"
+  },
+  "HMC Conseil": {
+    "email": "contact@hmcconseil.fr",
+    "source_url": "https://hmcconseil.fr/",
+    "domain": "hmcconseil.fr",
+    "status": "mx_ok",
+    "mx_hosts": [
+      "hmcconseil-fr.mail.protection.outlook.com"
+    ],
+    "checked_at": "2026-11-09T22:52:27+00:00",
+    "detail": "1 MX publiés"
+  },
+  "L.C. BOIS": {
+    "email": "contact@lcbois.fr",
+    "source_url": "https://www.lc-bois.fr/",
+    "domain": "lcbois.fr",
+    "status": "mx_ok",
+    "mx_hosts": [
+      "lcbois-fr.mail.protection.outlook.com"
+    ],
+    "checked_at": "2026-11-09T22:52:28+00:00",
+    "detail": "1 MX publiés"
+  },
+  "Azur Nettoyage": {
+    "email": "contact@azur-nettoyage-limoges.fr",
+    "source_url": "https://azur-nettoyage-limoges.fr/",
+    "domain": "azur-nettoyage-limoges.fr",
+    "status": "mx_ok",
+    "mx_hosts": [
+      "mta-gw.infomaniak.ch"
+    ],
+    "checked_at": "2026-11-09T22:52:28+00:00",
+    "detail": "1 MX publiés"
+  },
+  "BETEP": {
+    "email": "betep@betep.fr",
+    "source_url": "http://www.betep.fr/",
+    "domain": "betep.fr",
+    "status": "mx_ok",
+    "mx_hosts": [
+      "betep-fr.mail.protection.outlook.com"
+    ],
+    "checked_at": "2026-11-09T22:52:28+00:00",
+    "detail": "1 MX publiés"
+  },
+  "Tortora": {
+    "email": "fred.tortora@tortora.fr",
+    "source_url": "https://tortora.fr/contacter-lentreprise-tortora-dans-laube-pres-de-troyes/",
+    "domain": "tortora.fr",
+    "status": "mx_ok",
+    "mx_hosts": [
+      "tortora-fr.mail.protection.outlook.com"
+    ],
+    "checked_at": "2026-11-09T22:52:28+00:00",
+    "detail": "1 MX publiés"
+  },
+  "Damiani AlpMétal": {
+    "email": "damianialpmetal@gmail.com",
+    "source_url": "https://damiani-laser-tolerie.fr/fr/page/contact",
+    "domain": "gmail.com",
+    "status": "mx_ok",
+    "mx_hosts": [
+      "alt1.gmail-smtp-in.l.google.com",
+      "alt2.gmail-smtp-in.l.google.com",
+      "alt3.gmail-smtp-in.l.google.com",
+      "alt4.gmail-smtp-in.l.google.com",
+      "gmail-smtp-in.l.google.com"
+    ],
+    "checked_at": "2026-11-09T22:52:28+00:00",
+    "detail": "5 MX publiés"
+  },
+  "LORDI": {
+    "email": "lordi@lordi.info",
+    "source_url": "https://www.lordi.info/",
+    "domain": "lordi.info",
+    "status": "mx_ok",
+    "mx_hosts": [
+      "mx1.mail.ovh.net",
+      "mx2.mail.ovh.net",
+      "mx3.mail.ovh.net"
+    ],
+    "checked_at": "2026-11-09T22:52:28+00:00",
+    "detail": "3 MX publiés"
+  }
+}

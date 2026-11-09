@@ -198,7 +198,12 @@ class ImportLot11Tests(unittest.TestCase):
         entries = [e for e in ledger.entries if e.get("lot") == LOT]
         researched = json.loads(RECHERCHES.read_text(encoding="utf-8"))["examined"]
         self.assertEqual(len(entries), len(researched))
-        self.assertEqual(self.report["registre_apres"], len(ledger.entries))
+        # Le registre est CUMULATIF : les lots suivants y ajoutent leurs
+        # propres entrées. On vérifie que le lot 11 y est bien en entier et
+        # que le total n'a pas régressé, jamais qu'il est resté figé à 213.
+        self.assertGreaterEqual(len(ledger.entries), self.report["registre_apres"])
+        noms_lot = {e.get("company") for e in entries}
+        self.assertTrue({r["company"] for r in researched} <= noms_lot)
 
 
 class BrouillonsLot11Tests(unittest.TestCase):
@@ -325,10 +330,15 @@ class SecuriteLot11Tests(unittest.TestCase):
     def test_les_fiches_anterieures_ont_garde_leurs_scores(self):
         report = json.loads(IMPORT.read_text(encoding="utf-8"))
         self.assertEqual(report["fiches_anterieures_inchangees"], 92)
-        anciennes = [r for r in CRM().records if r.get("lot") != LOT]
-        self.assertEqual(len(anciennes), 92)
-        for rec in anciennes:
-            self.assertTrue(rec["scores"]["engine_version"] == "v8")
+        # « Antérieures au lot 11 » est un instantané, pas « tout sauf le lot
+        # 11 » : cette dernière formulation grossit à chaque nouveau lot et
+        # figeait le portefeuille à 92.
+        # L'invariant réel est une RÈGLE, pas un effectif : aucune fiche du
+        # portefeuille ne doit changer de version d'axes. Le rapport d'import
+        # garde la trace figée des 92 fiches vérifiées à cet instant ; le CRM,
+        # lui, continue de croître à chaque lot.
+        for rec in CRM().records:
+            self.assertEqual(rec["scores"]["engine_version"], "v8", rec.get("company"))
 
 
 if __name__ == "__main__":
