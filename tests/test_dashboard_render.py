@@ -74,6 +74,10 @@ const cleaned = script
 const sandbox = {};
 const fn = new Function("payload", cleaned + `
   METRICS = payload.metrics;
+  // Le navigateur charge /api/campaign séparément de /api/metrics : sans cette
+  // seconde source, le bandeau afficherait « désactivé » par absence de données
+  // et le test passerait pour la mauvaise raison.
+  METRICS._campaign = payload.campaign;
   PROS = payload.prospects;
   QUEUE = payload.queue;
   const errors = [];
@@ -108,8 +112,11 @@ class RenduDashboardTests(unittest.TestCase):
             harness = tmp / "harness.js"
             harness.write_text(HARNESS, encoding="utf-8")
             data = tmp / "payload.json"
+            from prospecto.server import api_campaign_status
+
             data.write_text(json.dumps({
                 "metrics": cls.metrics,
+                "campaign": api_campaign_status(),
                 "prospects": cls.prospects,
                 "queue": cls.queue,
             }, ensure_ascii=False, default=str), encoding="utf-8")
@@ -156,6 +163,30 @@ class RenduDashboardTests(unittest.TestCase):
         html = self.result["rendered"]["delivReal"]
         self.assertIn("Messages préparés", html)
         self.assertIn("Brouillons Gmail en attente", html)
+
+    def test_le_bandeau_reflete_les_donnees_reelles(self):
+        html = self.result["rendered"]["campaignBanner"]
+        self.assertIn("Envoi automatique désactivé", html)
+        self.assertIn("Domaine à configurer avant envoi de masse", html)
+        self.assertIn("gmail_connector", html)
+
+    def test_la_configuration_d_envoi_affiche_le_blocage_reel(self):
+        html = self.result["rendered"]["sendConfig"]
+        self.assertIn("Activée", html)
+        self.assertIn("simulation (dry_run)", html)
+        dns = self.result["rendered"]["delivBox"]
+        self.assertIn("gmail.com", dns)
+        self.assertIn("❌", dns)  # DKIM absent
+
+    def test_le_bandeau_reagirait_si_l_envoi_etait_active(self):
+        """Garde-fou contre un affichage « désactivé » vrai par accident :
+        avec enabled=true, le bandeau doit changer. S'il ne change pas, c'est
+        qu'il ne lit pas la donnée."""
+        script = DASHBOARD.read_text(encoding="utf-8")
+        body = re.search(r"function renderBanner\(\)\{([\s\S]*?)\n\}", script).group(1)
+        self.assertIn("c.enabled?", body)
+        self.assertIn("Envoi automatique désactivé", body)
+        self.assertIn("Activée · envoi réel", body)
 
     def test_les_deux_lectures_des_brouillons_sont_distinguees(self):
         """3 fiches au statut brouillon et 2 éléments en file : même chiffre
