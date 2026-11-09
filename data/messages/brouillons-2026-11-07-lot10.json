@@ -169,5 +169,18 @@
       "gmail_label_id": "Label_8"
     }
   ],
-  "gmail_label_id": "Label_8"
+  "gmail_label_id": "Label_8",
+  "statut_2026_11_07_audit": {
+    "constat": "Les 5 brouillons du lot 10 ont été envoyés hors agent le 09/11/2026.",
+    "sent": true,
+    "sent_observed": true,
+    "sent_message_ids": {
+      "Étanchéité Nantaise": "1a1c00c5ee05b471",
+      "Alain Louis — Naturaliste taxidermiste": "1a1c00c520d052b1",
+      "Atelier du Bourrelier": "1a1c00c43cb2d8a0",
+      "Zicplace": "1a1c00c235cb0769",
+      "O Lames Déchues": "1a1c00beeaca3de6"
+    },
+    "note": "Les identifiants de brouillon d'origine sont conservés ci-dessus comme historique. Aucun brouillon n'a été recréé ni modifié par l'agent. Le champ 'sent' initial valait false au dépôt : il décrivait l'état au moment du dépôt, pas l'état actuel."
+  }
 }

@@ -243,3 +243,117 @@ Ensuite, sans coût : approfondir les 12 pistes ouvertes du registre (dont
 **La Châtaigneraie de Bel Air** 23 et **ERM 27**, où il ne manque que la page
 contact), puis les 27 structures restantes de D, **en sites officiels
 uniquement** (rendement 0,352 contre 0,029 pour les annuaires).
+
+---
+
+# PHASE 10 BIS — 2026-11-07 ( CETTE SECTION PRIME SUR TOUTES LES AUTRES )
+
+Rapport : `docs/rapport-final-phase10bis-2026-11-07.md`
+Délivrabilité : `docs/delivrabilite-phase10bis.md`
+**557 tests OK. CRM 92 fiches. 13 qualifiables. 0 envoi par l'agent.**
+
+## DEUX PRÉMISSES DU BRIEF ÉTAIENT FAUSSES — À SAVOIR AVANT TOUTE REPRISE
+
+1. **Il ne restait PAS 10 brouillons.** 8 ont été **envoyés hors agent le
+   09/11/2026 entre 12:22:30 et 12:23:17** (5 `Label_8` lot 10, 3 `Label_7`
+   lot 9), libellé `SENT` constaté. **Il reste 2 brouillons** : Caléo
+   (`Label_7`, `1a1b672541671292`) et Ripaud (`Label_6`, `1a1b16dee5899e57`).
+   Les 8 fiches sont passées à `contacté` ⇒ **aucune nouvelle approche**.
+   Réconciliation additive : journal des rapprochements **4 → 5** entrées.
+   `send-log.json` reste à **60** (inchangé, protégé). Total observé : **68**.
+2. **`Label_8` ÉTAIT le bon libellé.** `list_labels` : `Label_8` →
+   `Prospection/2026-11-07-lot10`. Gmail utilise des identifiants opaques.
+   **Aucun reclassement nécessaire, aucun brouillon recréé.**
+
+**PIÈGE GRAVE ÉVITÉ — à réutiliser :** `label:Prospection/2026-11-07-lot10`
+(nom imbriqué) **et** `label_ids=["Label_8"]` + `in:drafts` ont renvoyé **0
+avec `complete:true`** alors que les messages existaient, en `SENT`.
+**Un zéro filtré ne prouve jamais une disparition.** Toujours `in:anywhere`
+sur les destinataires avant de conclure.
+
+## Travaux réalisés
+
+- [x] **A** Reprise vérifiée. Aucune base SQLite. Sauvegarde `data/` dans
+      `/tmp/sauvegarde_bis` (260 fichiers). MD5 relevés avant intervention.
+- [x] **B1** **Périmètre de recherche ATTEINT : 29 structures examinées** (27
+      restants visés), 11 sites réellement lus. 4 retenues, 6 écartées,
+      19 à approfondir. **NE PAS REFAIRE** : voir
+      `phase10bis-recherches-2026-11-07.json`, clé `B1_perimetre_recherche`.
+      **5 fiches importées** : Scierie Labrue 19, Menuiserie Mirolo 02,
+      D2Bois 02, Delahautemaison 84, ERM 27 27. Toutes `mx_ok`, adresse
+      **lue directement**, statut `nouveau`, **aucun brouillon**.
+      **2 corrections de département** : Mirolo 68→**02**, AZ 68→**60**.
+- [~] **B2** Registre : D2Bois et Mirolo **qualifiées**, AZ Menuiseries
+      **ouverte** (adresse non lue), **Travaux Obat CLÔTURÉE avec preuve**
+      (Obat = éditeur SaaS de devis, concurrent direct). Les autres entrées
+      gardent leur étape manquante. Registre **131**, portefeuille **92**,
+      séparation verrouillée par test.
+- [x] **C** **La Châtaigneraie de Bel Air 23 → approfondir, PAS de brouillon.**
+      Avis bien publié sur son site mais **NON DATÉ** ⇒ ne prouve pas un
+      problème actuel. Signal solide = formulaire de réservation sans dates
+      ni nombre/gabarit de chiens. Adresse vue en index de recherche mais
+      **absente des 2 lectures directes** ⇒ non confirmée.
+      **ERM 27 27 → qualifiée, PAS de brouillon.** SIRET 33215991200085,
+      `erm27@erm27.fr` lu en clair, 3 pages lues. Besoin **modeste**
+      (consentement implicite) ; contenu à jour + prestataire web déjà crédité
+      (My Market Office). **Les horaires contradictoires du lot précédent
+      n'ont PAS été retrouvés ⇒ signal abandonné.**
+- [x] **D** **`prospecto/discovery.py` + 25 tests.** Classement par
+      **identité d'auteur**, statut de vendeur **éliminatoire et évalué en
+      premier**. 6 classes. 9 détecteurs de problèmes opérationnels, aucun ne
+      prouve une intention d'achat. Régressions sur les vraies pages d'agences.
+      **RENDEMENT : « 0,352 / 0,029 » étaient des `yield_score` LISSÉS**
+      `(q + 8×0,15)/(n + 8)`, pas des taux bruts. Réel même méthode :
+      **site_officiel 70 exam / 17 qual = 0,243 brut** ;
+      **annuaire_pro 34 exam / 0 qual = 0,000 brut**. `SourceYield` refuse de
+      comparer des méthodes différentes.
+      **Canal recrutement testé : même défaut d'auteur** via agrégateurs.
+- [x] **E** **DÉFAUT VÉRIFIÉ, NON CORRIGÉ** : `MATURITY_FACTOR=0.8` ne
+      s'applique qu'aux automatisations détectées, **pas aux preuves typées
+      `maturite_existante`** ⇒ aucun axe réduit, `counter_signals` vide.
+      ERM 27 = `refonte 89 / haute 71` malgré des contre-signaux dominants.
+      **16 fiches concernées, 5 en haute, écart simulé jusqu'à 18 points.**
+      Simulation lecture seule archivée ; **2 fiches marquées
+      `revue_humaine_requise`** (Delahautemaison, ERM 27).
+      **Aucun score modifié.** Recalibration = protocole v9 + accord utilisateur.
+- [x] **F** `check_email_v4` **5/5 conformes** sur les messages du lot 10
+      (contrôle a posteriori, ils ont été envoyés hors agent, non modifiés).
+      Libellés corrects. 2 brouillons restants.
+- [x] **G** **3 motifs réels du pré-vol** : campagne désactivée · **DKIM non
+      détecté** · **domaine expéditeur gratuit (Gmail), prospection de masse
+      proscrite par les CGU**. Le 3e est le blocage de fond : SPF/DKIM/DMARC
+      de `gmail.com` appartiennent à Google. **Domaine dédié = prérequis.**
+      Plan 7 étapes à critères d'arrêt objectifs, comparatif 5 options,
+      solution à **~10–15 €/an et 0 € d'envoi**. **Aucun DNS modifié.**
+- [x] **H** Requêtes `in:anywhere` spam+corbeille inclus, `complete:true` :
+      **0 réponse, 0 rebond, 0 opposition, 0 challenge nouveaux**.
+      Opposition Nicolas Smets maintenue. Mailinblack **NON validé**.
+- [x] **I** `enabled=false`, `dry_run=true`, pré-vol `(False,3)`. Aucun achat,
+      aucune souscription, aucun contournement, aucune suppression.
+- [x] **J** Dashboard HTTP 302, API 92 fiches / 13 qualifiables / v9.
+      **LIMITE À CORRIGER : l'API compte 60 envois (journal production) et
+      ignore les 8 du journal des rapprochements ⇒ total réel 68.**
+- [x] **K** **557 tests OK.** MD5 : `send-log`, `v4-settings`, `suppression`
+      **identiques** ; `reconciliations.json` **+1 entrée par conception**.
+      3 invariants de test corrigés (une fiche contactée n'est plus
+      « qualifiable » : vérifier la **qualité** du dossier, pas l'éligibilité).
+- [x] **L** Rapport final en 8 parties.
+
+## Reprise : où continuer exactement
+
+1. **NE PAS LANCER LE LOT 11.**
+2. **Ne pas recontacter les 8 entreprises envoyées le 09/11** (statut
+   `contacté`, `gmail_sent_message_id` renseigné).
+3. Priorité réelle : **décision domaine + webhooks de délivrance** (accord
+   utilisateur et dépense), puis **recalibration des contre-signaux**.
+4. Sans coût, ensuite : les **19 « à approfondir »** du B1 et les **3 pistes au
+   signal fort mais adresse non lue** — **DBS Location Benne 13** (la page
+   demande « type de benne, taille, ville » que le formulaire ne collecte
+   pas ; contradiction de prix 150 €/200 € HT), **AZ Menuiseries 60**
+   (`{title}` et `{vendor_count}` publiés ; mention RGPD parlant d'un champ
+   téléphone inexistant), **La Châtaigneraie 23**. Pour chacune il ne manque
+   que **lire l'adresse publiée** sur une page officielle.
+5. **Règle adresse inchangée :** l'extracteur laisse tomber certains pieds de
+   page. Une adresse présente dans l'index de recherche de la bonne URL mais
+   absente de la lecture directe reste **NON CONFIRMÉE**. Ne jamais la
+   deviner, ne jamais l'utiliser sur la foi d'un extrait.

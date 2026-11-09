@@ -1,0 +1,423 @@
+{
+  "date": "2026-11-07",
+  "lot": "2026-11-07-phase10bis",
+  "phase": "10 bis",
+  "B1_perimetre_recherche": {
+    "objectif_restant": 27,
+    "examinees_cette_passe": 29,
+    "objectif_atteint": true,
+    "decisions": {
+      "approfondir": 19,
+      "écartée": 6,
+      "retenue": 4
+    },
+    "sites_reellement_ouverts": 11,
+    "entries": [
+      {
+        "company": "Atelier Lenoir",
+        "domain": "lavage-reparation-tapis.com",
+        "department": "35",
+        "sector": "restauration_tapis",
+        "decision": "approfondir",
+        "reason": "Site officiel repéré (Dinard, devis et déplacements offerts en Bretagne) mais non ouvert : aucune preuve retenue.",
+        "source_url": "https://lavage-reparation-tapis.com/reparation-tapis/",
+        "source_type": "site_officiel"
+      },
+      {
+        "company": "Renov Cuir",
+        "domain": "renov-cuir.com",
+        "department": "",
+        "sector": "renovation_cuir",
+        "decision": "approfondir",
+        "reason": "Page devis ouverte : « This site has been temporarily disabled ». Site indisponible, identité et coordonnées non vérifiables. Ne pas conclure à une fermeture définitive.",
+        "source_url": "https://renov-cuir.com/demande-de-devis/",
+        "source_type": "site_officiel"
+      },
+      {
+        "company": "Lanoy Couverture",
+        "domain": "lanoy-couverture.fr",
+        "department": "91",
+        "sector": "couverture",
+        "decision": "écartée",
+        "reason": "DÉJÀ OUTILLÉE : le formulaire de devis demande l'adresse ET le type de prestation parmi 15 options. Deux téléphones (fixe + mobile) cohérents, garantie décennale, FAQ fournie. Aucune adresse e-mail publiée. Contre-signal décisif.",
+        "source_url": "https://lanoy-couverture.fr/devis/",
+        "source_type": "site_officiel"
+      },
+      {
+        "company": "Galerie du Château",
+        "domain": "galerie-du-chateau-tapis.fr",
+        "department": "29",
+        "sector": "restauration_tapis",
+        "decision": "approfondir",
+        "reason": "Atelier de tapis à Brest repéré, site non ouvert : aucune preuve retenue.",
+        "source_url": "https://galerie-du-chateau-tapis.fr/",
+        "source_type": "site_officiel"
+      },
+      {
+        "company": "Delahautemaison",
+        "domain": "delahautemaison.fr",
+        "department": "84",
+        "sector": "tapisserie_cannage",
+        "decision": "retenue",
+        "reason": "Formulaire de devis excellent (prestation, ville, code postal, détails, source) : contre-signal fort. Défaut vérifié : les trois liens « About Us / Special Offers / Contact » du pied de page pointent vers « # », libellés en anglais sur un site français — gabarit inachevé. Adresse publiée en clair.",
+        "source_url": "https://delahautemaison.fr/demande-de-devis-personnalise-restauration-cannage-rideaux-sur-mesure/",
+        "source_type": "site_officiel"
+      },
+      {
+        "company": "Coqwel",
+        "domain": "coqwel.com",
+        "department": "59",
+        "sector": "reconditionnement_mobile",
+        "decision": "approfondir",
+        "reason": "Auteur identifié (l'entreprise recrute et décrit « la numérisation et autonomisation des processus internes »), mais publication vue sur un agrégateur d'offres. Site officiel non ouvert : adresse non retenue.",
+        "source_url": "https://fr.indeed.com/q-assistante-de-gestion-pme-l-lille-(59)-emplois.html",
+        "source_type": "autre"
+      },
+      {
+        "company": "Almay Technologies",
+        "domain": "almay-technologies.com",
+        "department": "",
+        "sector": "usinage_aeronautique",
+        "decision": "approfondir",
+        "reason": "L'entreprise publie elle-même son offre d'emploi (auteur identifié), mais l'adresse publiée est une boîte nominative de recrutement, pas une adresse professionnelle générale. Site officiel non ouvert.",
+        "source_url": "https://www.linkedin.com/in/almay-technologies-11946b186/",
+        "source_type": "page_professionnelle"
+      },
+      {
+        "company": "Proesa Group",
+        "domain": "proesa.fr",
+        "department": "12",
+        "sector": "cabinet_recrutement",
+        "decision": "écartée",
+        "reason": "Intermédiaire de recrutement : l'annonce est publiée pour un client dont « l'identité vous sera communiquée lors des échanges ». Entreprise demandeuse non identifiable, et l'auteur est un cabinet, pas l'entreprise.",
+        "source_url": "https://careers.proesa.fr/jobs/8684467-assistant-administratif-et-facturation-h-f",
+        "source_type": "autre"
+      },
+      {
+        "company": "Centre équestre La Courbette",
+        "domain": "lacourbette.fr",
+        "department": "91",
+        "sector": "centre_equestre",
+        "decision": "approfondir",
+        "reason": "Tarifs publics détaillés, « Contactez nous par mail » mais l'adresse est masquée en « [email protected] » (protection anti-robot). Adresse non lisible : non retenue, jamais devinée.",
+        "source_url": "https://www.lacourbette.fr/centre-equestre/pension-propri%C3%A9taires/",
+        "source_type": "site_officiel"
+      },
+      {
+        "company": "La Petite Écurie",
+        "domain": "centre-equestre-la-rochelle.com",
+        "department": "17",
+        "sector": "centre_equestre",
+        "decision": "approfondir",
+        "reason": "Réservation (balade, stage, anniversaire) par message et coordonnées ; téléphone seul publié. Site non ouvert.",
+        "source_url": "https://www.centre-equestre-la-rochelle.com/pension.php",
+        "source_type": "site_officiel"
+      },
+      {
+        "company": "Centre équestre des Monts d'Or",
+        "domain": "centre-equestre-des-monts-dor.fr",
+        "department": "69",
+        "sector": "centre_equestre",
+        "decision": "approfondir",
+        "reason": "Lissieu, écurie active. Bouton « Prendre un rendez-vous » : possible outillage existant à vérifier avant toute approche. Site non ouvert.",
+        "source_url": "https://www.centre-equestre-des-monts-dor.fr/",
+        "source_type": "site_officiel"
+      },
+      {
+        "company": "Centre équestre Equain",
+        "domain": "equain.fr",
+        "department": "01",
+        "sector": "centre_equestre",
+        "decision": "approfondir",
+        "reason": "Hébergement de passage : « Merci de contacter le bureau… pour préciser le jour et les modalités » = réservation manuelle. TENTATIVE DE LECTURE ÉCHOUÉE (erreur de récupération) : aucune preuve retenue, ne pas conclure.",
+        "source_url": "https://www.equain.fr/Pension-chevaux-a-la-nuitee.html?lang=fr",
+        "source_type": "site_officiel"
+      },
+      {
+        "company": "Écurie des Roncinnières",
+        "domain": "ecuries-des-roncinnieres.com",
+        "department": "49",
+        "sector": "centre_equestre",
+        "decision": "approfondir",
+        "reason": "Boutons « Réserver » pour des chevaux à vendre et pension par téléphone/formulaire. Site non ouvert : outillage réel non vérifié.",
+        "source_url": "https://www.ecuries-des-roncinnieres.com/pension",
+        "source_type": "site_officiel"
+      },
+      {
+        "company": "MSF Menuiserie Scierie Francilienne",
+        "domain": "charpente-scierie-yvelines-msf.fr",
+        "department": "78",
+        "sector": "scierie_menuiserie",
+        "decision": "approfondir",
+        "reason": "Site réalisé par Solocal, trois domaines parallèles (scierie-msf.com, menuiserie-msf.com). Avis client publié. Site non ouvert ; prestataire web existant = contre-signal à vérifier.",
+        "source_url": "https://www.charpente-scierie-yvelines-msf.fr/",
+        "source_type": "site_officiel"
+      },
+      {
+        "company": "Menuiserie Bourgeois",
+        "domain": "menuiserie-scierie-bourgeois-77.fr",
+        "department": "77",
+        "sector": "scierie_menuiserie",
+        "decision": "approfondir",
+        "reason": "Entreprise familiale depuis 1973, horaires publics, « Demande de devis ». Site non ouvert.",
+        "source_url": "https://www.menuiserie-scierie-bourgeois-77.fr/",
+        "source_type": "site_officiel"
+      },
+      {
+        "company": "Scierie des Combrailles",
+        "domain": "scieriedescombrailles.fr",
+        "department": "63",
+        "sector": "scierie",
+        "decision": "approfondir",
+        "reason": "Adresse contact@scieriedescombrailles.fr vue en extrait seulement, non lue directement : non retenue.",
+        "source_url": "https://www.scieriedescombrailles.fr/",
+        "source_type": "site_officiel"
+      },
+      {
+        "company": "Scierie Labrue",
+        "domain": "scierielabrue.com",
+        "department": "19",
+        "sector": "scierie",
+        "decision": "retenue",
+        "reason": "Deux pages lues. Adresse publiée en clair deux fois. Défauts vérifiés : panneau de consentement entièrement en ANGLAIS sur un site français, et il affirme « This website does not use any cookie requiring your consent » tout en listant Google Analytics ; lien « Réalisations clients » vers « # ». Formulaire partiellement qualifié (type de projet).",
+        "source_url": "https://scierielabrue.com/Contact/",
+        "source_type": "site_officiel"
+      },
+      {
+        "company": "Location Benne IDF (locationbenne.net)",
+        "domain": "locationbenne.net",
+        "department": "75",
+        "sector": "location_benne",
+        "decision": "approfondir",
+        "reason": "Formulaire demandant la ville, site en http non sécurisé, pages par département. Site non ouvert.",
+        "source_url": "http://www.locationbenne.net/pages/contact-entreprise.php",
+        "source_type": "site_officiel"
+      },
+      {
+        "company": "DBS Location Benne",
+        "domain": "dbslocationbenne.fr",
+        "department": "13",
+        "sector": "location_benne",
+        "decision": "approfondir",
+        "reason": "SIGNAL LE PLUS FORT DU LOT mais adresse non lue. La page contact demande explicitement « type de benne, taille de la benne, ville » pour chiffrer, alors que le formulaire ne propose que Nom/Prénom/Téléphone/Email/Message : le besoin est écrit par l'entreprise et l'outil ne le collecte pas. Contradiction de prix (dès 150 € sur l'accueil, « débutant à 200 € HT » sur contact). Aucune adresse e-mail lue sur les deux pages.",
+        "source_url": "https://www.dbslocationbenne.fr/contact",
+        "source_type": "site_officiel"
+      },
+      {
+        "company": "LOC'B",
+        "domain": "bennes-location.com",
+        "department": "75",
+        "sector": "location_benne",
+        "decision": "écartée",
+        "reason": "DÉJÀ OUTILLÉE : « Réservez votre benne en ligne » et devis en ligne annoncés. Par ailleurs pages SEO pour Genève, Montréal et la Belgique : périmètre international, hors cible locale.",
+        "source_url": "https://bennes-location.com/",
+        "source_type": "site_officiel"
+      },
+      {
+        "company": "Bennes & Co",
+        "domain": "bennesandco.com",
+        "department": "62",
+        "sector": "location_benne",
+        "decision": "approfondir",
+        "reason": "Calais, bennesandco@gmail.com vu en extrait seulement : non retenu. Site non ouvert.",
+        "source_url": "https://bennesandco.com/bennes/",
+        "source_type": "site_officiel"
+      },
+      {
+        "company": "PSL Blanchisserie",
+        "domain": "psl-sarl.fr",
+        "department": "70",
+        "sector": "blanchisserie",
+        "decision": "approfondir",
+        "reason": "Luxeuil-les-Bains, contact@pslsarl.com vu en extrait seulement : non retenu. Site non ouvert.",
+        "source_url": "https://psl-sarl.fr/accueil/",
+        "source_type": "site_officiel"
+      },
+      {
+        "company": "Blanc Comme Neige",
+        "domain": "blanccommeneige.fr",
+        "department": "74",
+        "sector": "blanchisserie",
+        "decision": "écartée",
+        "reason": "DÉJÀ OUTILLÉE : « Vous pouvez passer commande en ligne ». Trois boutiques et points relais, parcours de commande existant.",
+        "source_url": "https://www.blanccommeneige.fr/",
+        "source_type": "site_officiel"
+      },
+      {
+        "company": "Hublo",
+        "domain": "hublo.eu",
+        "department": "75",
+        "sector": "pressing",
+        "decision": "écartée",
+        "reason": "DÉJÀ OUTILLÉE et largement : application mobile, choix de créneau en ligne, commande et livraison 24/48 h, société à mission. Aucune opportunité sur notre offre.",
+        "source_url": "https://hublo.eu/",
+        "source_type": "site_officiel"
+      },
+      {
+        "company": "Pressing Perce Neige",
+        "domain": "pressingperceneige.com",
+        "department": "38",
+        "sector": "blanchisserie",
+        "decision": "approfondir",
+        "reason": "Villard-de-Lans, pressingperceneige@orange.fr vu en extrait seulement : non retenu. Site non ouvert.",
+        "source_url": "https://pressingperceneige.com/",
+        "source_type": "site_officiel"
+      },
+      {
+        "company": "Easypro",
+        "domain": "easypro.fr",
+        "department": "81",
+        "sector": "fournisseur_lessive",
+        "decision": "écartée",
+        "reason": "DÉJÀ OUTILLÉE : vente en ligne avec paiement sécurisé, livraison 4 jours, cuves 1000 L. Parcours d'achat complet.",
+        "source_url": "https://www.easypro.fr/fr",
+        "source_type": "site_officiel"
+      },
+      {
+        "company": "Menuiserie Mirolo",
+        "domain": "menuiserie-mirolo.fr",
+        "department": "02",
+        "sector": "menuiserie",
+        "decision": "retenue",
+        "reason": "CORRECTION DE DÉPARTEMENT : le registre indiquait 68, l'entreprise est à Saint-Quentin (02). Adresse lue en clair (mailto). Site Wix avec marquage « Créé avec Wix.com », libellés de navigation dupliqués/tronqués (« Notre / Notre entreprise / Devis et Contact / Devis et »).",
+        "source_url": "https://www.menuiserie-mirolo.fr/",
+        "source_type": "site_officiel"
+      },
+      {
+        "company": "D2Bois",
+        "domain": "escaliers-d2bois.fr",
+        "department": "02",
+        "sector": "fabrication_escaliers",
+        "decision": "retenue",
+        "reason": "Adresse lue en clair (mailto), SIREN 495183287. Défaut daté et vérifiable : une icône Google+ est encore publiée, service fermé en avril 2019 ; fichiers icônes datés de 2015. Aucun formulaire sur la page contact : dépôt de demande par e-mail ou téléphone seulement.",
+        "source_url": "https://escaliers-d2bois.fr/contact",
+        "source_type": "site_officiel"
+      },
+      {
+        "company": "AZ Menuiseries Escaliers",
+        "domain": "az-menuiseries.fr",
+        "department": "60",
+        "sector": "menuiserie",
+        "decision": "approfondir",
+        "reason": "CORRECTION DE DÉPARTEMENT : registre 68, entreprise à Sempigny (60). Deux pages lues. Défauts forts : variables de gabarit publiées telles quelles (« {title} » deux fois, « Gérer {vendor_count} fournisseurs ») et la mention RGPD dit recueillir le numéro de téléphone alors qu'aucun champ téléphone n'existe. Message du formulaire « facultatif ». Mais adresse e-mail NON LUE (extrait seulement) : non retenue.",
+        "source_url": "https://az-menuiseries.fr/contact-demande-de-renseignements/",
+        "source_type": "site_officiel"
+      }
+    ]
+  },
+  "C_opportunites_prioritaires": [
+    {
+      "company": "La Châtaigneraie de Bel Air",
+      "decision": "approfondir — coordonnées insuffisantes",
+      "department": "23",
+      "domain": "lachataigneraiedebelair.fr",
+      "identity": "LA CHATAIGNERAIE DE BEL AIR, 7 Le Theilloux 23230 Bord-Saint-Georges, 06 19 55 23 67",
+      "pages_read": [
+        "https://lachataigneraiedebelair.fr/",
+        "https://lachataigneraiedebelair.fr/index.php/contact-reservation/"
+      ],
+      "signal_review": "L'avis « Un peu déçu que sa répond pas au téléphone quand on appelle » est bien publié SUR LE SITE de l'établissement, dans un carrousel d'avis Google (Trustindex), aux côtés de 8 avis très positifs. MAIS aucune date n'est affichée sur l'avis : impossible d'établir qu'il décrit un problème actuel. Un avis non daté ne prouve pas une difficulté présente.",
+      "signal_parcours": "Le formulaire de la page Contact & réservation est explicitement destiné à « toute demande de réservation » mais ne demande que Nom, Téléphone, Email, Message : ni dates de séjour, ni nombre de chiens, ni taille, ni statut vaccinal. L'accueil confirme que « la réservation d'un séjour peut se faire par téléphone ou e-mail ». Chaque réservation exige donc un échange manuel de cadrage.",
+      "solution_assessment": "Un formulaire de réservation qualifié (dates, nombre et gabarit des chiens, vaccination) est la réponse la plus directe et la moins coûteuse. Un agent IA de pré-qualification n'aurait de sens qu'après ce formulaire : automatiser un cadrage inexistant n'apporterait rien. Une gestion des demandes avec accusé automatique traiterait le symptôme « on n'arrive pas à vous joindre ».",
+      "why_not_draft": "Adresse contact@lachataigneraiedebelair.fr présente dans l'index de recherche de la page officielle, mais ABSENTE des deux lectures directes (accueil et page contact). Non confirmée : aucun brouillon.",
+      "next_step": "Relire la page contact dans un navigateur complet, ou les mentions légales, pour lire l'adresse publiée. Ne pas utiliser l'adresse vue en extrait.",
+      "source": "https://lachataigneraiedebelair.fr/index.php/contact-reservation/"
+    },
+    {
+      "company": "ERM 27",
+      "decision": "qualifiée — besoin modeste, pas de brouillon",
+      "department": "27",
+      "domain": "erm27.fr",
+      "identity": "ERM27, SIRET 33215991200085, 38 rue du Coudray 27240 Sylvains-les-Moulins, 02 59 43 12 33, erm27@erm27.fr",
+      "pages_read": [
+        "https://erm27.fr/affutage-industriel/",
+        "https://erm27.fr/contactez-nous/",
+        "https://erm27.fr/mentions-legales-et-confidentialite/"
+      ],
+      "signal_review": "Aucun avis client sur les pages lues : le signal « avis » ne s'applique pas à cette entreprise.",
+      "signal_parcours": "Coordonnées entièrement vérifiées. Mais le besoin est MODESTE : le seul défaut directement constaté est un bandeau de consentement implicite (« Si vous continuez à utiliser ce site, nous supposerons que vous en êtes satisfait »), non conforme à l'exigence de consentement explicite, et des mentions légales citant encore la directive 95/46/CE. Le contenu technique est riche et à jour. Les horaires contradictoires évoqués au lot précédent n'ont PAS été retrouvés dans les pages lues : signal non retenu.",
+      "solution_assessment": "Ni refonte ni agent IA ne sont justifiés par les preuves actuelles. Au mieux une mise en conformité du consentement. L'entreprise a déjà un prestataire web identifié (My Market Office, cité comme créateur dans les mentions légales) : contre-signal commercial à ne pas ignorer.",
+      "why_not_draft": "Coordonnées vérifiées mais besoin insuffisamment étayé pour une approche commerciale honnête. La fiche est conservée sans brouillon.",
+      "next_step": "Lire les champs réels du formulaire de contact et la page recrutement avant d'envisager une approche.",
+      "source": "https://erm27.fr/contactez-nous/"
+    }
+  ],
+  "imported": [
+    {
+      "company": "Scierie Labrue",
+      "department": "19",
+      "dns": "mx_ok",
+      "axes": {
+        "site_web": 5,
+        "refonte": 89,
+        "ia_automatisation": 12
+      },
+      "tier": "haute",
+      "value": 71
+    },
+    {
+      "company": "D2Bois",
+      "department": "02",
+      "dns": "mx_ok",
+      "axes": {
+        "site_web": 5,
+        "refonte": 81,
+        "ia_automatisation": 12
+      },
+      "tier": "moyenne",
+      "value": 68
+    },
+    {
+      "company": "Menuiserie Mirolo",
+      "department": "02",
+      "dns": "mx_ok",
+      "axes": {
+        "site_web": 5,
+        "refonte": 89,
+        "ia_automatisation": 0
+      },
+      "tier": "haute",
+      "value": 71
+    },
+    {
+      "company": "Delahautemaison",
+      "department": "84",
+      "dns": "mx_ok",
+      "axes": {
+        "site_web": 5,
+        "refonte": 47,
+        "ia_automatisation": 0
+      },
+      "tier": "moyenne",
+      "value": 54
+    },
+    {
+      "company": "ERM 27",
+      "department": "27",
+      "dns": "mx_ok",
+      "axes": {
+        "site_web": 5,
+        "refonte": 89,
+        "ia_automatisation": 0
+      },
+      "tier": "haute",
+      "value": 71
+    }
+  ],
+  "regle_adresse": "Une adresse n'est retenue que si elle a été LUE DIRECTEMENT sur une page officielle. L'extracteur laisse tomber certains pieds de page et widgets : une adresse présente dans l'index de recherche de la bonne URL mais absente de la lecture directe reste NON CONFIRMÉE. Trois pistes au signal fort (DBS Location Benne, AZ Menuiseries, La Châtaigneraie) restent ouvertes pour cette seule raison.",
+  "corrections_departement": [
+    {
+      "company": "Menuiserie Mirolo",
+      "avant": "68",
+      "apres": "02",
+      "preuve": "19 r Aumônier Robert Prévot 02100 SAINT QUENTIN, lu sur le site"
+    },
+    {
+      "company": "AZ Menuiseries Escaliers",
+      "avant": "68",
+      "apres": "60",
+      "preuve": "Grande Rue 60400 Sempigny, lu sur le site"
+    }
+  ],
+  "methode": "Découverte par identité d'auteur (prospecto/discovery.py) et non par vocabulaire de besoin. Les pages d'agences sont écartées parce qu'elles VENDENT la prestation, pas parce qu'elles contiennent certains mots. Les structures déjà outillées sont écartées même lorsqu'elles sont belles."
+}

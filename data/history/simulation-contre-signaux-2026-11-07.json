@@ -1,0 +1,530 @@
+{
+  "date": "2026-11-07",
+  "section": "E — vérification de la prise en compte des contre-signaux",
+  "defaut_verifie": "MATURITY_FACTOR (0.8) n'est appliqué qu'aux automatisations détectées par le moteur, pas aux preuves typées « maturite_existante » ajoutées à la main. Celles-ci ne réduisent aucun axe et laissent counter_signals vide.",
+  "preuve_du_defaut": {
+    "company": "ERM 27",
+    "refonte_obtenu": 89,
+    "priorite_obtenue": "haute",
+    "attendu_metier": "besoin modeste : consentement non conforme, contenu à jour, prestataire web déjà en place"
+  },
+  "aucun_score_modifie": true,
+  "protocole_requis_pour_corriger": "Recalibration tracée : simulation lecture seule, avant/après sur les 92 fiches, revue des faux positifs et négatifs, archive avec crm_before. Décision réservée à l'utilisateur. Aucun coefficient n'a été touché dans cette passe.",
+  "fiches_avec_contre_signal_explicite": 16,
+  "ecart_maximal_simule": 18,
+  "repartition_priorites_concernees": {
+    "moyenne": 11,
+    "haute": 5
+  },
+  "fiches_marquees_revue_humaine": [
+    {
+      "company": "Delahautemaison",
+      "priorite": "moyenne",
+      "valeur": 54,
+      "ratio_contre_signaux": 0.67
+    }
+  ],
+  "rows": [
+    {
+      "company": "Caléo Tests & Services",
+      "department": "62",
+      "status": "brouillon_en_attente",
+      "priorite_actuelle": "moyenne",
+      "valeur_actuelle": 61,
+      "contre_signaux_explicites": [
+        {
+          "quote": "Une carte par instrument (ou par lot d'instruments identiques) : désignation, quantité, marque, modèle, n° de série, plage de mesure, prestation souhaitée, beso",
+          "detail": "Contre-signal : la structure de collecte existe déjà et elle est pertinente. Le manque est la persistence, pas le formulaire.",
+          "url": "https://www.caleo-ts.fr/demande-de-devis/"
+        }
+      ],
+      "axes_actuels": {
+        "site_web": 5,
+        "refonte": 39,
+        "ia_automatisation": 64
+      },
+      "axes_simules": {
+        "site_web": 4,
+        "refonte": 31,
+        "ia_automatisation": 51
+      },
+      "ecart": {
+        "site_web": 1,
+        "refonte": 8,
+        "ia_automatisation": 13
+      },
+      "counter_signals_enregistres": [],
+      "lot": "2026-11-06-lot9"
+    },
+    {
+      "company": "Cordonnerie Canfora David",
+      "department": "03",
+      "status": "brouillon_en_attente",
+      "priorite_actuelle": "moyenne",
+      "valeur_actuelle": 63,
+      "contre_signaux_explicites": [
+        {
+          "quote": "Site vitrine réalisé par Solocal, avec appel téléphonique et lien e-mail, page horaires et page avis.",
+          "detail": "Contre-signal : une présence en ligne existe et les coordonnées sont joignables. Le manque est la collecte structurée d'une demande, pas le site entier.",
+          "url": "https://www.cordonnerie-canfora-moulins.fr/bourrellerie"
+        }
+      ],
+      "axes_actuels": {
+        "site_web": 5,
+        "refonte": 56,
+        "ia_automatisation": 70
+      },
+      "axes_simules": {
+        "site_web": 4,
+        "refonte": 45,
+        "ia_automatisation": 56
+      },
+      "ecart": {
+        "site_web": 1,
+        "refonte": 11,
+        "ia_automatisation": 14
+      },
+      "counter_signals_enregistres": [],
+      "lot": "2026-11-06-lot9"
+    },
+    {
+      "company": "Froger Étanchéité",
+      "department": "35",
+      "status": "brouillon_en_attente",
+      "priorite_actuelle": "moyenne",
+      "valeur_actuelle": 62,
+      "contre_signaux_explicites": [
+        {
+          "quote": "Une question, une demande de devis ? Remplissez le formulaire ou contactez-nous directement par téléphone.",
+          "detail": "Contre-signal : un formulaire de contact fonctionne et affiche une confirmation. Le défaut observé porte sur le lien e-mail, pas sur une absence totale de collecte.",
+          "url": "https://froger-etancheite.fr/"
+        }
+      ],
+      "axes_actuels": {
+        "site_web": 5,
+        "refonte": 39,
+        "ia_automatisation": 66
+      },
+      "axes_simules": {
+        "site_web": 4,
+        "refonte": 31,
+        "ia_automatisation": 53
+      },
+      "ecart": {
+        "site_web": 1,
+        "refonte": 8,
+        "ia_automatisation": 13
+      },
+      "counter_signals_enregistres": [],
+      "lot": "2026-11-06-lot9"
+    },
+    {
+      "company": "Cordes et Âme",
+      "department": "75",
+      "status": "brouillon_en_attente",
+      "priorite_actuelle": "moyenne",
+      "valeur_actuelle": 50,
+      "contre_signaux_explicites": [
+        {
+          "quote": "Boutique en ligne avec panier et page « Demande une location ».",
+          "detail": "Contre-signal : une boutique en ligne et une page de demande de location existent. Le besoin porte sur la description des demandes d'atelier, pas sur la vente.",
+          "url": "https://www.cordesetame.fr/"
+        }
+      ],
+      "axes_actuels": {
+        "site_web": 5,
+        "refonte": 5,
+        "ia_automatisation": 39
+      },
+      "axes_simules": {
+        "site_web": 4,
+        "refonte": 4,
+        "ia_automatisation": 31
+      },
+      "ecart": {
+        "site_web": 1,
+        "refonte": 1,
+        "ia_automatisation": 8
+      },
+      "counter_signals_enregistres": [],
+      "lot": "2026-11-06-lot9"
+    },
+    {
+      "company": "O Lames Déchues",
+      "department": "95",
+      "status": "brouillon_en_attente",
+      "priorite_actuelle": "haute",
+      "valeur_actuelle": 71,
+      "contre_signaux_explicites": [
+        {
+          "quote": "J'accepte les paiements en espèces, par carte bancaire et par chèque.",
+          "detail": "Encaissement sur place déjà possible en CB : contre-signal à un besoin de paiement en ligne.",
+          "url": "https://olamesdechues.fr/"
+        }
+      ],
+      "axes_actuels": {
+        "site_web": 5,
+        "refonte": 89,
+        "ia_automatisation": 27
+      },
+      "axes_simules": {
+        "site_web": 4,
+        "refonte": 71,
+        "ia_automatisation": 22
+      },
+      "ecart": {
+        "site_web": 1,
+        "refonte": 18,
+        "ia_automatisation": 5
+      },
+      "counter_signals_enregistres": [],
+      "lot": "2026-11-07-approfondissement"
+    },
+    {
+      "company": "Zicplace",
+      "department": "93",
+      "status": "brouillon_en_attente",
+      "priorite_actuelle": "moyenne",
+      "valeur_actuelle": 68,
+      "contre_signaux_explicites": [
+        {
+          "quote": "Diagnostic en magasin, devis gratuit, réparation en atelier. Tarifs indicatifs : réglage + changement de corde 58 €, changement de cordes 20 €.",
+          "detail": "Grille tarifaire complète et parcours en quatre étapes déjà publiés : contre-signal, le besoin n'est pas la refonte du contenu.",
+          "url": "https://zicplace.fr/reparation-entretien-instrument"
+        }
+      ],
+      "axes_actuels": {
+        "site_web": 5,
+        "refonte": 81,
+        "ia_automatisation": 31
+      },
+      "axes_simules": {
+        "site_web": 4,
+        "refonte": 65,
+        "ia_automatisation": 25
+      },
+      "ecart": {
+        "site_web": 1,
+        "refonte": 16,
+        "ia_automatisation": 6
+      },
+      "counter_signals_enregistres": [],
+      "lot": "2026-11-07-approfondissement"
+    },
+    {
+      "company": "Étanchéité Nantaise",
+      "department": "44",
+      "status": "brouillon_en_attente",
+      "priorite_actuelle": "moyenne",
+      "valeur_actuelle": 50,
+      "contre_signaux_explicites": [
+        {
+          "quote": "Envoyez-nous un message — Envoyer",
+          "detail": "Un formulaire fonctionnel existe déjà et dépose côté serveur : contre-signal, le besoin porte sur la qualification, pas sur la création du formulaire.",
+          "url": "https://etancheite-nantaise.fr/contact"
+        }
+      ],
+      "axes_actuels": {
+        "site_web": 5,
+        "refonte": 39,
+        "ia_automatisation": 22
+      },
+      "axes_simules": {
+        "site_web": 4,
+        "refonte": 31,
+        "ia_automatisation": 18
+      },
+      "ecart": {
+        "site_web": 1,
+        "refonte": 8,
+        "ia_automatisation": 4
+      },
+      "counter_signals_enregistres": [],
+      "lot": "2026-11-07-approfondissement"
+    },
+    {
+      "company": "Fermetures Leichnam",
+      "department": "02",
+      "status": "nouveau",
+      "priorite_actuelle": "moyenne",
+      "valeur_actuelle": 68,
+      "contre_signaux_explicites": [
+        {
+          "quote": "Devis gratuit, conseils personnalisés, intervention à Saint-Quentin et dans tous les Hauts-de-France. Un fabricant menuisier à votre écoute.",
+          "detail": "Contre-signal : l'offre commerciale est claire, un magasin d'exposition existe et le téléphone est mis en avant. Le besoin porte sur le parcours de demande, pas sur le contenu.",
+          "url": "https://fermetures-leichnam.fr/contact/"
+        }
+      ],
+      "axes_actuels": {
+        "site_web": 5,
+        "refonte": 81,
+        "ia_automatisation": 12
+      },
+      "axes_simules": {
+        "site_web": 4,
+        "refonte": 65,
+        "ia_automatisation": 10
+      },
+      "ecart": {
+        "site_web": 1,
+        "refonte": 16,
+        "ia_automatisation": 2
+      },
+      "counter_signals_enregistres": [],
+      "lot": "2026-11-07-approfondissement-pistes"
+    },
+    {
+      "company": "Forages Berenguer",
+      "department": "34",
+      "status": "nouveau",
+      "priorite_actuelle": "moyenne",
+      "valeur_actuelle": 50,
+      "contre_signaux_explicites": [
+        {
+          "quote": "Devis et déplacement gratuit — Travaux grande profondeur & accès difficile — Suivi des normes européennes & norme NFX10-999",
+          "detail": "Contre-signal : site entretenu, actualités récentes, panneau de consentement configuré, contenu technique riche. Le besoin n'est pas une refonte.",
+          "url": "https://www.foragemontpellier.fr/contact"
+        }
+      ],
+      "axes_actuels": {
+        "site_web": 5,
+        "refonte": 39,
+        "ia_automatisation": 12
+      },
+      "axes_simules": {
+        "site_web": 4,
+        "refonte": 31,
+        "ia_automatisation": 10
+      },
+      "ecart": {
+        "site_web": 1,
+        "refonte": 8,
+        "ia_automatisation": 2
+      },
+      "counter_signals_enregistres": [],
+      "lot": "2026-11-07-approfondissement-pistes"
+    },
+    {
+      "company": "Ouest Affûtage",
+      "department": "22",
+      "status": "nouveau",
+      "priorite_actuelle": "haute",
+      "valeur_actuelle": 71,
+      "contre_signaux_explicites": [
+        {
+          "quote": "Créée par P.Turmel en 1979, la société rachetée par sa fille en 2006 continue à prospérer avec les mêmes valeurs : Qualité - Service - Disponibilité",
+          "detail": "Contre-signal : site structuré, panneau de consentement configuré (Matomo), pages par métier. Le besoin n'est pas une création de site.",
+          "url": "https://ouestaffutage-22.fr/"
+        }
+      ],
+      "axes_actuels": {
+        "site_web": 5,
+        "refonte": 89,
+        "ia_automatisation": 12
+      },
+      "axes_simules": {
+        "site_web": 4,
+        "refonte": 71,
+        "ia_automatisation": 10
+      },
+      "ecart": {
+        "site_web": 1,
+        "refonte": 18,
+        "ia_automatisation": 2
+      },
+      "counter_signals_enregistres": [],
+      "lot": "2026-11-07-lot10-suite"
+    },
+    {
+      "company": "Sellerie Industrielle de l'Est",
+      "department": "57",
+      "status": "nouveau",
+      "priorite_actuelle": "moyenne",
+      "valeur_actuelle": 50,
+      "contre_signaux_explicites": [
+        {
+          "quote": "Professionnel de la Sellerie Bateau depuis plus de 35 ans",
+          "detail": "Contre-signal : site multi-activités structuré, galerie de réalisations, formulaire avec antispam et mention RGPD. Le besoin porte sur la qualification, pas sur la refonte.",
+          "url": "https://www.57sie.com/fr/sellerie-bateau"
+        }
+      ],
+      "axes_actuels": {
+        "site_web": 5,
+        "refonte": 39,
+        "ia_automatisation": 34
+      },
+      "axes_simules": {
+        "site_web": 4,
+        "refonte": 31,
+        "ia_automatisation": 27
+      },
+      "ecart": {
+        "site_web": 1,
+        "refonte": 8,
+        "ia_automatisation": 7
+      },
+      "counter_signals_enregistres": [],
+      "lot": "2026-11-07-lot10-suite"
+    },
+    {
+      "company": "Scierie Labrue",
+      "department": "19",
+      "status": "nouveau",
+      "priorite_actuelle": "haute",
+      "valeur_actuelle": 71,
+      "contre_signaux_explicites": [
+        {
+          "quote": "Nom / E-mail / Type de projet (Charpente traditionnelle, Aménagement Intérieur, Aménagement extérieur, Ossature, Coffrage, Autre) / Décrivez votre projet ici",
+          "detail": "Contre-signal : le formulaire qualifie déjà le type de projet. Le besoin n'est pas la création d'un parcours de devis.",
+          "url": "https://scierielabrue.com/Contact/"
+        }
+      ],
+      "axes_actuels": {
+        "site_web": 5,
+        "refonte": 89,
+        "ia_automatisation": 12
+      },
+      "axes_simules": {
+        "site_web": 4,
+        "refonte": 71,
+        "ia_automatisation": 10
+      },
+      "ecart": {
+        "site_web": 1,
+        "refonte": 18,
+        "ia_automatisation": 2
+      },
+      "counter_signals_enregistres": [],
+      "lot": "2026-11-07-phase10bis"
+    },
+    {
+      "company": "D2Bois",
+      "department": "02",
+      "status": "nouveau",
+      "priorite_actuelle": "moyenne",
+      "valeur_actuelle": 68,
+      "contre_signaux_explicites": [
+        {
+          "quote": "Spécialisé dans les escaliers depuis sa création, D2Bois vous apporte ses conseils et sa maîtrise éprouvés par plus de 35 ans de pratique.",
+          "detail": "Contre-signal : contenu métier structuré (qualité, environnement, livraison), horaires précis. Le besoin porte sur la reprise du site, pas sur le contenu.",
+          "url": "https://escaliers-d2bois.fr/contact"
+        }
+      ],
+      "axes_actuels": {
+        "site_web": 5,
+        "refonte": 81,
+        "ia_automatisation": 12
+      },
+      "axes_simules": {
+        "site_web": 4,
+        "refonte": 65,
+        "ia_automatisation": 10
+      },
+      "ecart": {
+        "site_web": 1,
+        "refonte": 16,
+        "ia_automatisation": 2
+      },
+      "counter_signals_enregistres": [],
+      "lot": "2026-11-07-phase10bis"
+    },
+    {
+      "company": "Menuiserie Mirolo",
+      "department": "02",
+      "status": "nouveau",
+      "priorite_actuelle": "haute",
+      "valeur_actuelle": 71,
+      "contre_signaux_explicites": [
+        {
+          "quote": "Demande de devis ou de rendez-vous",
+          "detail": "Contre-signal : un formulaire de demande existe. Ses champs n'ont pas pu être lus (rendus en JavaScript) : aucun défaut de qualification n'est affirmé.",
+          "url": "https://www.menuiserie-mirolo.fr/"
+        }
+      ],
+      "axes_actuels": {
+        "site_web": 5,
+        "refonte": 89,
+        "ia_automatisation": 0
+      },
+      "axes_simules": {
+        "site_web": 4,
+        "refonte": 71,
+        "ia_automatisation": 0
+      },
+      "ecart": {
+        "site_web": 1,
+        "refonte": 18,
+        "ia_automatisation": 0
+      },
+      "counter_signals_enregistres": [],
+      "lot": "2026-11-07-phase10bis"
+    },
+    {
+      "company": "Delahautemaison",
+      "department": "84",
+      "status": "nouveau",
+      "priorite_actuelle": "moyenne",
+      "valeur_actuelle": 54,
+      "contre_signaux_explicites": [
+        {
+          "quote": "Type de prestation souhaitée / Ville / Code postal / Détails du projet / Comment nous avez-vous connus ?",
+          "detail": "CONTRE-SIGNAL MAJEUR : le formulaire de devis est déjà pleinement qualifié et le panneau de consentement est correctement configuré. Le besoin est cosmétique, pas fonctionnel : priorité volontairement basse.",
+          "url": "https://delahautemaison.fr/demande-de-devis-personnalise-restauration-cannage-rideaux-sur-mesure/"
+        },
+        {
+          "quote": "Site réalisé par CNDSEO",
+          "detail": "Un prestataire web est déjà crédité en pied de page : l'entreprise a un interlocuteur identifié pour ce type de travaux.",
+          "url": "https://delahautemaison.fr/demande-de-devis-personnalise-restauration-cannage-rideaux-sur-mesure/"
+        }
+      ],
+      "axes_actuels": {
+        "site_web": 5,
+        "refonte": 47,
+        "ia_automatisation": 0
+      },
+      "axes_simules": {
+        "site_web": 4,
+        "refonte": 38,
+        "ia_automatisation": 0
+      },
+      "ecart": {
+        "site_web": 1,
+        "refonte": 9,
+        "ia_automatisation": 0
+      },
+      "counter_signals_enregistres": [],
+      "lot": "2026-11-07-phase10bis"
+    },
+    {
+      "company": "ERM 27",
+      "department": "27",
+      "status": "nouveau",
+      "priorite_actuelle": "haute",
+      "valeur_actuelle": 71,
+      "contre_signaux_explicites": [
+        {
+          "quote": "Nous disposons entre autre de 5 affûteuses de grandes capacités de 2 à 4 mètres maximum",
+          "detail": "CONTRE-SIGNAL : contenu technique riche, précis et à jour. Créateur du site identifié (My Market Office) : prestataire web déjà en place. Aucun besoin de refonte ni d'automatisation n'est étayé.",
+          "url": "https://erm27.fr/affutage-industriel/"
+        }
+      ],
+      "axes_actuels": {
+        "site_web": 5,
+        "refonte": 89,
+        "ia_automatisation": 0
+      },
+      "axes_simules": {
+        "site_web": 4,
+        "refonte": 71,
+        "ia_automatisation": 0
+      },
+      "ecart": {
+        "site_web": 1,
+        "refonte": 18,
+        "ia_automatisation": 0
+      },
+      "counter_signals_enregistres": [],
+      "lot": "2026-11-07-phase10bis"
+    }
+  ]
+}

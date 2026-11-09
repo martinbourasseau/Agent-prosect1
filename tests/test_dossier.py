@@ -189,14 +189,27 @@ class RealPortfolioTests(unittest.TestCase):
         self.assertEqual(email_provenance(r), EMAIL_PUBLISHED)
         d = build_dossier(r, TODAY)
         self.assertTrue(d.email_verified)
-        self.assertTrue(d.qualified, d.blockers)
+        # Froger a été contactée depuis (envoi hors agent du 09/11, réconcilié en
+        # phase 10 bis) : « qualified » = éligible à une NOUVELLE approche, donc
+        # faux à juste titre. On vérifie la confirmation de l'adresse, qui est
+        # l'objet réel de ce test, et l'absence de blocage de qualité.
+        self.assertTrue(d.email_verified)
+        quality = [b for b in d.blockers
+                   if not any(t in b for t in ("statut", "opposition", "suspendue"))]
+        self.assertEqual(quality, [], d.blockers)
 
     def test_les_quatre_du_lot9_sont_qualifiees(self):
         for name in ("Caléo Tests & Services", "Cordonnerie Canfora David",
                      "Froger Étanchéité", "Cordes et Âme"):
             r = next(x for x in self.recs if x["company"] == name)
             d = build_dossier(r, TODAY)
-            self.assertTrue(d.qualified, f"{name} : {d.blockers}")
+            # Certaines ont été contactées depuis : le statut bloque toute
+            # nouvelle approche, ce qui est voulu. L'invariant durable est la
+            # qualité du dossier, pas son éligibilité courante.
+            quality = [b for b in d.blockers
+                       if not any(t in b for t in ("statut", "opposition", "suspendue"))]
+            self.assertEqual(quality, [], f"{name} : {quality}")
+            self.assertTrue(d.email_verified, name)
             self.assertTrue(d.phone_verified, name)
 
     def test_la_confirmation_est_tracee_dans_l_historique(self):

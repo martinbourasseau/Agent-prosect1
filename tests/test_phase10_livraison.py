@@ -94,13 +94,21 @@ class Lot10IntegrityTests(unittest.TestCase):
 
 
 class RecoveryIntegrityTests(unittest.TestCase):
-    def test_les_quatre_recuperations_sont_qualifiables(self):
+    def test_les_quatre_recuperations_ont_un_dossier_complet(self):
+        # Ces 4 fiches ont été contactées depuis (envois hors agent du 09/11,
+        # réconciliés en phase 10 bis). « qualified » signifie « éligible à une
+        # NOUVELLE approche » : il devient donc faux, et c'est le comportement
+        # correct. L'invariant durable est l'absence de blocage de QUALITÉ ;
+        # le seul blocage admissible désormais est le statut.
         recs = records()
         got = [r for r in recs if r.get("lot") == RECOVERIES]
         self.assertEqual(len(got), 4)
+        status_blockers = ("statut", "opposition", "suspendue")
         for rec in got:
             dossier = build_dossier(rec)
-            self.assertTrue(dossier.qualified, (rec["company"], dossier.blockers))
+            quality = [b for b in dossier.blockers
+                       if not any(t in b for t in status_blockers)]
+            self.assertEqual(quality, [], (rec["company"], quality))
 
     def test_les_recuperations_ont_une_adresse_publiee_et_une_preuve_datee(self):
         for rec in records():

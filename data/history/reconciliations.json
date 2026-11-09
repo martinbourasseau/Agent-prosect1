@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-06",
-  "count": 4,
+  "updated_at": "2026-11-09T13:58:44+00:00",
+  "count": 5,
   "note": "Journal des rapprochements réels. Les entrées de fixture ont été mises en quarantaine dans reconciliations-pollution-tests-2026-11-06.json.",
   "reconciliations": [
     {
@@ -80,6 +80,74 @@
         "Le Centre Formation",
         "Kévin Jenback — Couverture, zinguerie, ramonage",
         "MSF PRO Industries"
+      ]
+    },
+    {
+      "at": "2026-11-07",
+      "matched": 8,
+      "already_sent": 0,
+      "unmatched": [],
+      "updated_companies": [
+        "Étanchéité Nantaise",
+        "Alain Louis — Naturaliste taxidermiste",
+        "Atelier du Bourrelier",
+        "Zicplace",
+        "O Lames Déchues",
+        "Cordes et Âme",
+        "Froger Étanchéité",
+        "Cordonnerie Canfora David"
+      ],
+      "origin": "phase10bis-audit-gmail",
+      "note": "8 brouillons retrouvés ENVOYÉS hors agent le 09/11/2026 (5 Label_8 lot 10, 3 Label_7 lot 9). Réconciliation additive : send-log.json reste à 60 entrées, les paramètres de campagne et la liste de suppression sont inchangés.",
+      "sent_messages": [
+        {
+          "company": "Étanchéité Nantaise",
+          "gmail_message_id": "1a1c00c5ee05b471",
+          "at": "2026-11-09T12:23:17+01:00",
+          "label": "Label_8"
+        },
+        {
+          "company": "Alain Louis — Naturaliste taxidermiste",
+          "gmail_message_id": "1a1c00c520d052b1",
+          "at": "2026-11-09T12:23:15+01:00",
+          "label": "Label_8"
+        },
+        {
+          "company": "Atelier du Bourrelier",
+          "gmail_message_id": "1a1c00c43cb2d8a0",
+          "at": "2026-11-09T12:23:11+01:00",
+          "label": "Label_8"
+        },
+        {
+          "company": "Zicplace",
+          "gmail_message_id": "1a1c00c235cb0769",
+          "at": "2026-11-09T12:23:02+01:00",
+          "label": "Label_8"
+        },
+        {
+          "company": "O Lames Déchues",
+          "gmail_message_id": "1a1c00beeaca3de6",
+          "at": "2026-11-09T12:22:49+01:00",
+          "label": "Label_8"
+        },
+        {
+          "company": "Cordes et Âme",
+          "gmail_message_id": "1a1c00bc51a16abd",
+          "at": "2026-11-09T12:22:38+01:00",
+          "label": "Label_7"
+        },
+        {
+          "company": "Froger Étanchéité",
+          "gmail_message_id": "1a1c00bb68372697",
+          "at": "2026-11-09T12:22:34+01:00",
+          "label": "Label_7"
+        },
+        {
+          "company": "Cordonnerie Canfora David",
+          "gmail_message_id": "1a1c00ba70772b3c",
+          "at": "2026-11-09T12:22:30+01:00",
+          "label": "Label_7"
+        }
       ]
     }
   ]

@@ -1,0 +1,115 @@
+{
+  "date": "2026-11-07",
+  "audit": "Phase 10 bis — F (brouillons) et H (conversations)",
+  "constat_majeur": "Le brief annonçait 10 brouillons en attente. État réel : 8 ont été ENVOYÉS hors agent le 09/11/2026 entre 12:22:30 et 12:23:17, et 2 restent en brouillon. L'agent n'a effectué aucun envoi.",
+  "label_verification": {
+    "question": "Label_8 est-il le bon libellé pour le lot 10 ?",
+    "reponse": "OUI. list_labels donne Label_8 -> nom « Prospection/2026-11-07-lot10 ». Gmail attribue des identifiants opaques ; Label_8 EST le libellé attendu. Aucun reclassement n'était nécessaire, aucun brouillon n'a été recréé.",
+    "autres": {
+      "Label_6": "Prospection/2026-11-06-lot8",
+      "Label_7": "Prospection/2026-11-06-lot9"
+    }
+  },
+  "piege_requete": "Deux requêtes ont renvoyé 0 avec complete:true alors que les messages existaient : le nom imbriqué label:Prospection/2026-11-07-lot10, et le filtre label_ids=[Label_8] combiné à in:drafts. Les messages étaient en SENT. Un zéro filtré ne prouve jamais une disparition : toujours interroger in:anywhere avant de conclure.",
+  "envois_hors_agent": [
+    {
+      "company": "Étanchéité Nantaise",
+      "email": "etancheitenantaise@gmail.com",
+      "status_before": "brouillon_en_attente",
+      "sent_message_id": "1a1c00c5ee05b471",
+      "label": "Label_8",
+      "sent_at": "2026-11-09T12:23:17+01:00"
+    },
+    {
+      "company": "Alain Louis — Naturaliste taxidermiste",
+      "email": "alain.louis.naturaliste@orange.fr",
+      "status_before": "brouillon_en_attente",
+      "sent_message_id": "1a1c00c520d052b1",
+      "label": "Label_8",
+      "sent_at": "2026-11-09T12:23:15+01:00"
+    },
+    {
+      "company": "Atelier du Bourrelier",
+      "email": "contact@atelierdubourrelier.com",
+      "status_before": "brouillon_en_attente",
+      "sent_message_id": "1a1c00c43cb2d8a0",
+      "label": "Label_8",
+      "sent_at": "2026-11-09T12:23:11+01:00"
+    },
+    {
+      "company": "Zicplace",
+      "email": "bonjour@zicplace.com",
+      "status_before": "brouillon_en_attente",
+      "sent_message_id": "1a1c00c235cb0769",
+      "label": "Label_8",
+      "sent_at": "2026-11-09T12:23:02+01:00"
+    },
+    {
+      "company": "O Lames Déchues",
+      "email": "olamesdechues@gmail.com",
+      "status_before": "brouillon_en_attente",
+      "sent_message_id": "1a1c00beeaca3de6",
+      "label": "Label_8",
+      "sent_at": "2026-11-09T12:22:49+01:00"
+    },
+    {
+      "company": "Cordes et Âme",
+      "email": "ateliercordesetame@gmail.com",
+      "status_before": "brouillon_en_attente",
+      "sent_message_id": "1a1c00bc51a16abd",
+      "label": "Label_7",
+      "sent_at": "2026-11-09T12:22:38+01:00"
+    },
+    {
+      "company": "Froger Étanchéité",
+      "email": "frogeretancheite@gmail.com",
+      "status_before": "brouillon_en_attente",
+      "sent_message_id": "1a1c00bb68372697",
+      "label": "Label_7",
+      "sent_at": "2026-11-09T12:22:34+01:00"
+    },
+    {
+      "company": "Cordonnerie Canfora David",
+      "email": "david.canfora@sfr.fr",
+      "status_before": "brouillon_en_attente",
+      "sent_message_id": "1a1c00ba70772b3c",
+      "label": "Label_7",
+      "sent_at": "2026-11-09T12:22:30+01:00"
+    }
+  ],
+  "introuvables": [],
+  "brouillons_restants": [
+    {
+      "company": "Caléo",
+      "to": "contact@caleo-ts.fr",
+      "gmail_message_id": "1a1b672541671292",
+      "label": "Label_7"
+    },
+    {
+      "company": "Pépinières Ripaud",
+      "to": "info@ripaudpepinieres.com",
+      "gmail_message_id": "1a1b16dee5899e57",
+      "label": "Label_6"
+    }
+  ],
+  "conversations": {
+    "requete": "in:anywhere {from:<les 8 destinataires> from:mailer-daemon} newer_than:20d, spam et corbeille inclus",
+    "complete": true,
+    "resultats": 1,
+    "nouvelles_reponses_humaines": 0,
+    "nouvelles_reponses_automatiques": 0,
+    "nouveaux_rebonds": 0,
+    "nouvelles_oppositions": 0,
+    "nouveaux_challenges": 0,
+    "seul_resultat": "Rebond connu du 04/11/2026, contact@severine-lesourd.com."
+  },
+  "protections": {
+    "opposition_nicolas_smets": "maintenue (statut opposition + liste de suppression)",
+    "liste_suppression": 2,
+    "challenge_mailinblack": "NON validé",
+    "envois_par_agent": 0,
+    "enabled": false,
+    "dry_run": true
+  },
+  "ecritures": "Additives : 1 entrée de rapprochement (4 -> 5), 8 fiches passées à « contacté » avec historique, archive de brouillons annotée. send-log.json, v4-settings.json et suppression.json inchangés."
+}

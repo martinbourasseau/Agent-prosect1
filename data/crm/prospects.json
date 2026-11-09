@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-08T17:44:46+00:00",
-  "count": 87,
+  "updated_at": "2026-11-09T13:58:44+00:00",
+  "count": 92,
   "prospects": [
     {
       "company": "R Premium",
@@ -17541,8 +17541,8 @@
       "notes": "Lot 9. Entrepreneur individuel, 17 rue du Pont 03000 Moulins, SIREN 482141652, RCS Cusset, SIRET 48214165200016, APE 9523Z. Directeur de la publication : M. CANFORA DAVID — prénom et fonction vérifiés dans les mentions légales consultées le 2026-11-06. L'adresse david.canfora@sfr.fr y est publiée comme « Adresse électronique » de l'entreprise et reprise en lien mailto en pied de page : c'est une boîte d'opérateur grand public, mais c'est le contact professionnel publié, non une adresse déduite. Téléphone 04 70 44 38 79 relevé sur la même page. Site réalisé par Solocal. Allier (03) et secteur cordonnerie/bourrellerie : deux nouveautés au CRM. Coordonnées relu et confirmées le 2026-11-07 sur la page mentions légales : adresse électronique et téléphone publiés en clair, SIREN 482141652, directeur de publication M. CANFORA DAVID.",
       "lot": "2026-11-06-lot9",
       "discovered_at": "2026-11-06",
-      "email_status": "brouillon",
-      "next_action": "validation manuelle du brouillon ; aucun envoi tant que le pré-vol bloque",
+      "email_status": "contacté",
+      "next_action": "aucune nouvelle approche : entreprise déjà contactée",
       "scores": {
         "site_web": {
           "axis": "site_web",
@@ -17735,7 +17735,7 @@
       "email_dns_status": "mx_ok",
       "phone_verification": "verified",
       "contact_name_source": "https://www.cordonnerie-canfora-moulins.fr/mentions-legales",
-      "status": "brouillon_en_attente",
+      "status": "contacté",
       "id": "cordonnerie-canfora-david",
       "created_at": "2026-11-06T16:32:44+00:00",
       "updated_at": "2026-11-07",
@@ -17777,6 +17777,17 @@
             "value": 63
           },
           "reason": "Priorité transversale distincte des trois scores d'axe : classe de signal, pertinence offre, vérification, magnitude bornée. Les scores v8 sont inchangés."
+        },
+        {
+          "at": "2026-11-07",
+          "action": "envoi_hors_agent_reconcilie",
+          "status_before": "brouillon_en_attente",
+          "status_after": "contacté",
+          "gmail_sent_message_id": "1a1c00ba70772b3c",
+          "gmail_label_id": "Label_7",
+          "sent_at_observed": "2026-11-09T12:22:30+01:00",
+          "reason": "Brouillon retrouvé envoyé dans Gmail (libellé SENT) le 09/11/2026. Envoi effectué hors agent : enabled=false et dry_run=true sont restés actifs, journal de production inchangé à 60 entrées.",
+          "source": "gmail in:anywhere to:david.canfora@sfr.fr"
         }
       ],
       "commercial": {
@@ -17836,7 +17847,10 @@
         "engine_version": "v9-priority"
       },
       "commercial_value": 63,
-      "priority_engine_version": "v9-priority"
+      "priority_engine_version": "v9-priority",
+      "gmail_sent_message_id": "1a1c00ba70772b3c",
+      "sent_observed_at": "2026-11-09T12:22:30+01:00",
+      "sent_observed_transport": "gmail_manual_observed"
     },
     {
       "company": "Froger Étanchéité",
@@ -17916,8 +17930,8 @@
       "notes": "Lot 9. Centre d'Affaires Alizés, 22 rue de la Rigourdière, 35510 Cesson-Sévigné. Membre CSFE et FFB (publié sur l'accueil). Rayon de 100 km autour de Rennes (35) et Laval (53). Téléphone 06 35 41 64 70 relevé sur https://froger-etancheite.fr/ le 2026-11-06, présent en lien tel:0635416470. ATTENTION — adresse e-mail : le site publie mailto:moc.liamg%40etiehcnateregorf, soit la chaîne inversée. Lue à l'endroit elle donne frogeretancheite@gmail.com, cohérente avec la raison sociale. Il s'agit du décodage déterministe d'une adresse publiée, PAS d'une adresse déduite du nom de domaine. Aucun envoi n'est effectué ; le brouillon reste à valider et l'adresse peut être confirmée par téléphone avant validation. Aucun dirigeant nommé sur les pages consultées : aucun prénom n'est utilisé. Ille-et-Vilaine (35) et secteur étanchéité : deux nouveautés au CRM. CONFIRMATION INDÉPENDANTE le 2026-11-07 : l'adresse avait été reconstituée depuis le lien brouillé mailto:moc.liamg%40etiehcnateregorf. L'accueil la publie désormais en clair, « E-mail : frogeretancheite@gmail.com », avec un mailto non obfusqué. La reconstitution est confirmée par une publication explicite ; elle n'est plus une hypothèse.",
       "lot": "2026-11-06-lot9",
       "discovered_at": "2026-11-06",
-      "email_status": "brouillon",
-      "next_action": "validation manuelle du brouillon ; aucun envoi tant que le pré-vol bloque",
+      "email_status": "contacté",
+      "next_action": "aucune nouvelle approche : entreprise déjà contactée",
       "scores": {
         "site_web": {
           "axis": "site_web",
@@ -18081,7 +18095,7 @@
       "email_dns_status": "mx_ok",
       "phone_verification": "verified",
       "contact_name_source": "",
-      "status": "brouillon_en_attente",
+      "status": "contacté",
       "id": "froger-tanch-it",
       "created_at": "2026-11-06T16:32:44+00:00",
       "updated_at": "2026-11-07",
@@ -18123,6 +18137,17 @@
             "value": 62
           },
           "reason": "Priorité transversale distincte des trois scores d'axe : classe de signal, pertinence offre, vérification, magnitude bornée. Les scores v8 sont inchangés."
+        },
+        {
+          "at": "2026-11-07",
+          "action": "envoi_hors_agent_reconcilie",
+          "status_before": "brouillon_en_attente",
+          "status_after": "contacté",
+          "gmail_sent_message_id": "1a1c00bb68372697",
+          "gmail_label_id": "Label_7",
+          "sent_at_observed": "2026-11-09T12:22:34+01:00",
+          "reason": "Brouillon retrouvé envoyé dans Gmail (libellé SENT) le 09/11/2026. Envoi effectué hors agent : enabled=false et dry_run=true sont restés actifs, journal de production inchangé à 60 entrées.",
+          "source": "gmail in:anywhere to:frogeretancheite@gmail.com"
         }
       ],
       "commercial": {
@@ -18182,7 +18207,10 @@
         "engine_version": "v9-priority"
       },
       "commercial_value": 62,
-      "priority_engine_version": "v9-priority"
+      "priority_engine_version": "v9-priority",
+      "gmail_sent_message_id": "1a1c00bb68372697",
+      "sent_observed_at": "2026-11-09T12:22:34+01:00",
+      "sent_observed_transport": "gmail_manual_observed"
     },
     {
       "company": "Cordes et Âme",
@@ -18262,8 +18290,8 @@
       "notes": "Lot 9. Atelier depuis 1958, 46 rue de Rome 75008 Paris. Équipe nommée publiquement : Jean-Baptiste Ferrier (maître luthier et chef d'atelier), Hitomi Amano et Brigid Pierce (luthières) — prénom et fonction vérifiés sur https://www.cordesetame.fr/ le 2026-11-06. Adresse ateliercordesetame@gmail.com publiée en clair en lien mailto dans la section Contact ; téléphone 01 42 93 42 91 en lien tel:0142934291 sur la même page. C'est une boîte Gmail mais c'est le contact professionnel publié de l'atelier. La difficulté opérationnelle est énoncée par l'entreprise elle-même : fait observé, pas déduction sectorielle. Une boutique avec panier existe déjà (Squarespace) : l'opportunité ne porte donc PAS sur une création de site. Paris (75) déjà présent au CRM (France-PNL) mais secteur lutherie neuf. Coordonnées relues et confirmées le 2026-11-07 sur l'accueil : adresse publiée trois fois dont une en texte clair, téléphone 01 42 93 42 91. La difficulté de réponse est toujours publiée.",
       "lot": "2026-11-06-lot9",
       "discovered_at": "2026-11-06",
-      "email_status": "brouillon",
-      "next_action": "validation manuelle du brouillon ; aucun envoi tant que le pré-vol bloque",
+      "email_status": "contacté",
+      "next_action": "aucune nouvelle approche : entreprise déjà contactée",
       "scores": {
         "site_web": {
           "axis": "site_web",
@@ -18417,7 +18445,7 @@
       "email_dns_status": "mx_ok",
       "phone_verification": "verified",
       "contact_name_source": "https://www.cordesetame.fr/",
-      "status": "brouillon_en_attente",
+      "status": "contacté",
       "id": "cordes-et-me",
       "created_at": "2026-11-06T16:32:44+00:00",
       "updated_at": "2026-11-07",
@@ -18459,6 +18487,17 @@
             "value": 50
           },
           "reason": "Priorité transversale distincte des trois scores d'axe : classe de signal, pertinence offre, vérification, magnitude bornée. Les scores v8 sont inchangés."
+        },
+        {
+          "at": "2026-11-07",
+          "action": "envoi_hors_agent_reconcilie",
+          "status_before": "brouillon_en_attente",
+          "status_after": "contacté",
+          "gmail_sent_message_id": "1a1c00bc51a16abd",
+          "gmail_label_id": "Label_7",
+          "sent_at_observed": "2026-11-09T12:22:38+01:00",
+          "reason": "Brouillon retrouvé envoyé dans Gmail (libellé SENT) le 09/11/2026. Envoi effectué hors agent : enabled=false et dry_run=true sont restés actifs, journal de production inchangé à 60 entrées.",
+          "source": "gmail in:anywhere to:ateliercordesetame@gmail.com"
         }
       ],
       "commercial": {
@@ -18520,7 +18559,10 @@
         "engine_version": "v9-priority"
       },
       "commercial_value": 50,
-      "priority_engine_version": "v9-priority"
+      "priority_engine_version": "v9-priority",
+      "gmail_sent_message_id": "1a1c00bc51a16abd",
+      "sent_observed_at": "2026-11-09T12:22:38+01:00",
+      "sent_observed_transport": "gmail_manual_observed"
     },
     {
       "company": "O Lames Déchues",
@@ -18624,10 +18666,10 @@
       "discovered_at": "2026-11-07",
       "created_at": "2026-11-07",
       "updated_at": "2026-11-07",
-      "status": "brouillon_en_attente",
-      "email_status": "brouillon",
+      "status": "contacté",
+      "email_status": "contacté",
       "status_crm": "qualified",
-      "next_action": "validation manuelle du brouillon ; aucun envoi tant que le pré-vol bloque",
+      "next_action": "aucune nouvelle approche : entreprise déjà contactée",
       "justification": "https://olamesdechues.fr/ ; https://olamesdechues.fr/",
       "notes": "Récupération de la section G (approfondissement du lot 9), source officielle relue le 2026-11-07. Voir data/history/approfondissement-lot9-2026-11-07.json.",
       "scores": {
@@ -18824,6 +18866,17 @@
           "check_email_v4": "conforme",
           "sent": false,
           "reason": "Message individuel fondé sur une observation relue ; aucune référence commerciale citée."
+        },
+        {
+          "at": "2026-11-07",
+          "action": "envoi_hors_agent_reconcilie",
+          "status_before": "brouillon_en_attente",
+          "status_after": "contacté",
+          "gmail_sent_message_id": "1a1c00beeaca3de6",
+          "gmail_label_id": "Label_8",
+          "sent_at_observed": "2026-11-09T12:22:49+01:00",
+          "reason": "Brouillon retrouvé envoyé dans Gmail (libellé SENT) le 09/11/2026. Envoi effectué hors agent : enabled=false et dry_run=true sont restés actifs, journal de production inchangé à 60 entrées.",
+          "source": "gmail in:anywhere to:olamesdechues@gmail.com"
         }
       ],
       "gmail_draft_id": "r-5364782935530613267",
@@ -18836,7 +18889,10 @@
         "body": "Bonjour,\n\nVotre FAQ indique « Retrouvez mon planning hebdomadaire [...] sur cette page [ou section « Planning »] ». Le marqueur de gabarit est resté publié, et aucune section Planning n'apparaît. Pour une tournée en camion-atelier, c'est l'information que vos clients viennent chercher en premier.\n\nVos passages réguliers chez les restaurateurs et les coiffeurs se calent aussi un par un, par téléphone.\n\nJe peux vous préparer gratuitement une maquette : un planning de tournée tenu à jour, et une demande de passage récurrent qui vous arrive déjà qualifiée. Démonstration sans engagement, vous ne gardez que ce qui vous sert.\n\nSi le sujet ne vous intéresse pas, dites-le moi et je ne vous relance pas — répondez simplement « ne pas me relancer ».\n\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website",
         "message_version": "v9",
         "variant": "lot10-individuel"
-      }
+      },
+      "gmail_sent_message_id": "1a1c00beeaca3de6",
+      "sent_observed_at": "2026-11-09T12:22:49+01:00",
+      "sent_observed_transport": "gmail_manual_observed"
     },
     {
       "company": "Zicplace",
@@ -18940,10 +18996,10 @@
       "discovered_at": "2026-11-07",
       "created_at": "2026-11-07",
       "updated_at": "2026-11-07",
-      "status": "brouillon_en_attente",
-      "email_status": "brouillon",
+      "status": "contacté",
+      "email_status": "contacté",
       "status_crm": "qualified",
-      "next_action": "validation manuelle du brouillon ; aucun envoi tant que le pré-vol bloque",
+      "next_action": "aucune nouvelle approche : entreprise déjà contactée",
       "justification": "https://zicplace.fr/reparation-entretien-instrument ; https://zicplace.fr/reparation-entretien-instrument",
       "notes": "Récupération de la section G (approfondissement du lot 9), source officielle relue le 2026-11-07. Voir data/history/approfondissement-lot9-2026-11-07.json.",
       "scores": {
@@ -19140,6 +19196,17 @@
           "check_email_v4": "conforme",
           "sent": false,
           "reason": "Message individuel fondé sur une observation relue ; aucune référence commerciale citée."
+        },
+        {
+          "at": "2026-11-07",
+          "action": "envoi_hors_agent_reconcilie",
+          "status_before": "brouillon_en_attente",
+          "status_after": "contacté",
+          "gmail_sent_message_id": "1a1c00c235cb0769",
+          "gmail_label_id": "Label_8",
+          "sent_at_observed": "2026-11-09T12:23:02+01:00",
+          "reason": "Brouillon retrouvé envoyé dans Gmail (libellé SENT) le 09/11/2026. Envoi effectué hors agent : enabled=false et dry_run=true sont restés actifs, journal de production inchangé à 60 entrées.",
+          "source": "gmail in:anywhere to:bonjour@zicplace.com"
         }
       ],
       "gmail_draft_id": "r8291386275938075826",
@@ -19152,7 +19219,10 @@
         "body": "Bonjour,\n\nVotre page réparation annonce plus de 2 000 interventions annuelles et n'offre qu'un point d'entrée : « Passez au magasin avec votre matériel ». Le diagnostic commence donc toujours au comptoir, ou par téléphone pour un ampli lourd.\n\nJ'ai aussi relevé deux horaires différents sur cette même page : Lun–Sam 10h–20h dans le bloc dépôt, Mar–Sam 11h–19h30 en pied de page.\n\nJe vous prépare gratuitement une maquette de dépôt en ligne : instrument, symptôme, photo, et une fiche reprise sans ressaisie à l'arrivée en atelier. Votre grille tarifaire et votre parcours en quatre étapes sont déjà clairs, je n'y touche pas. Démonstration sans engagement.\n\nPour arrêter là, répondez « ne pas me relancer ».\n\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website",
         "message_version": "v9",
         "variant": "lot10-individuel"
-      }
+      },
+      "gmail_sent_message_id": "1a1c00c235cb0769",
+      "sent_observed_at": "2026-11-09T12:23:02+01:00",
+      "sent_observed_transport": "gmail_manual_observed"
     },
     {
       "company": "Atelier du Bourrelier",
@@ -19246,10 +19316,10 @@
       "discovered_at": "2026-11-07",
       "created_at": "2026-11-07",
       "updated_at": "2026-11-07",
-      "status": "brouillon_en_attente",
-      "email_status": "brouillon",
+      "status": "contacté",
+      "email_status": "contacté",
       "status_crm": "qualified",
-      "next_action": "validation manuelle du brouillon ; aucun envoi tant que le pré-vol bloque",
+      "next_action": "aucune nouvelle approche : entreprise déjà contactée",
       "justification": "https://atelierdubourrelier.com/mieux-nous-connnaitre/ ; https://atelierdubourrelier.com/mieux-nous-connnaitre/",
       "notes": "Récupération de la section G (approfondissement du lot 9), source officielle relue le 2026-11-07. Voir data/history/approfondissement-lot9-2026-11-07.json.",
       "scores": {
@@ -19449,6 +19519,17 @@
           "check_email_v4": "conforme",
           "sent": false,
           "reason": "Message individuel fondé sur une observation relue ; aucune référence commerciale citée."
+        },
+        {
+          "at": "2026-11-07",
+          "action": "envoi_hors_agent_reconcilie",
+          "status_before": "brouillon_en_attente",
+          "status_after": "contacté",
+          "gmail_sent_message_id": "1a1c00c43cb2d8a0",
+          "gmail_label_id": "Label_8",
+          "sent_at_observed": "2026-11-09T12:23:11+01:00",
+          "reason": "Brouillon retrouvé envoyé dans Gmail (libellé SENT) le 09/11/2026. Envoi effectué hors agent : enabled=false et dry_run=true sont restés actifs, journal de production inchangé à 60 entrées.",
+          "source": "gmail in:anywhere to:contact@atelierdubourrelier.com"
         }
       ],
       "gmail_draft_id": "r-4868647836702402127",
@@ -19461,7 +19542,10 @@
         "body": "Bonjour Lisa,\n\nVotre navigation propose Accueil, Prestations, Nous trouver, Mieux nous connaître et Recrutement : le contact n'existe qu'en pied de page. Pour un atelier qui travaille le sur-mesure et la restauration, c'est un détour pour qui veut lancer un projet.\n\nL'encart « Retrouvez-moi sur ce salon » est également publié sans nom, sans lieu ni date.\n\nJe peux vous montrer gratuitement une maquette de demande de projet : type d'objet, cuir, usage, état actuel — de quoi préparer un chiffrage avant le premier échange. Démonstration sans engagement, et vous restez seule juge de la suite.\n\nSi vous préférez ne pas être sollicitée, répondez « ne pas me relancer » et j'en reste là.\n\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website",
         "message_version": "v9",
         "variant": "lot10-individuel"
-      }
+      },
+      "gmail_sent_message_id": "1a1c00c43cb2d8a0",
+      "sent_observed_at": "2026-11-09T12:23:11+01:00",
+      "sent_observed_transport": "gmail_manual_observed"
     },
     {
       "company": "Étanchéité Nantaise",
@@ -19542,10 +19626,10 @@
       "discovered_at": "2026-11-07",
       "created_at": "2026-11-07",
       "updated_at": "2026-11-07",
-      "status": "brouillon_en_attente",
-      "email_status": "brouillon",
+      "status": "contacté",
+      "email_status": "contacté",
       "status_crm": "qualified",
-      "next_action": "validation manuelle du brouillon ; aucun envoi tant que le pré-vol bloque",
+      "next_action": "aucune nouvelle approche : entreprise déjà contactée",
       "justification": "https://etancheite-nantaise.fr/contact ; https://etancheite-nantaise.fr/",
       "notes": "Récupération de la section G (approfondissement du lot 9), source officielle relue le 2026-11-07. Voir data/history/approfondissement-lot9-2026-11-07.json.",
       "scores": {
@@ -19739,6 +19823,17 @@
           "check_email_v4": "conforme",
           "sent": false,
           "reason": "Message individuel fondé sur une observation relue ; aucune référence commerciale citée."
+        },
+        {
+          "at": "2026-11-07",
+          "action": "envoi_hors_agent_reconcilie",
+          "status_before": "brouillon_en_attente",
+          "status_after": "contacté",
+          "gmail_sent_message_id": "1a1c00c5ee05b471",
+          "gmail_label_id": "Label_8",
+          "sent_at_observed": "2026-11-09T12:23:17+01:00",
+          "reason": "Brouillon retrouvé envoyé dans Gmail (libellé SENT) le 09/11/2026. Envoi effectué hors agent : enabled=false et dry_run=true sont restés actifs, journal de production inchangé à 60 entrées.",
+          "source": "gmail in:anywhere to:etancheitenantaise@gmail.com"
         }
       ],
       "gmail_draft_id": "r5641186055023628194",
@@ -19751,7 +19846,10 @@
         "body": "Bonjour,\n\nVotre formulaire de contact ne comporte que Nom, Téléphone, E-mail et Votre Message. Ni le type de toiture, ni la surface, ni la commune du chantier n'y sont demandés — alors que vous annoncez un devis gratuit sous 48 h sur une zone de 150 km autour de Fay-de-Bretagne.\n\nCes informations vous manquent donc à chaque première réponse, et il faut un aller-retour de plus avant de chiffrer.\n\nJe peux vous préparer gratuitement une maquette du même formulaire, avec les trois champs de qualification et un récapitulatif repris tel quel dans le devis. Démonstration sans engagement.\n\nSi cela ne vous parle pas, répondez « ne pas me relancer ».\n\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website",
         "message_version": "v9",
         "variant": "lot10-individuel"
-      }
+      },
+      "gmail_sent_message_id": "1a1c00c5ee05b471",
+      "sent_observed_at": "2026-11-09T12:23:17+01:00",
+      "sent_observed_transport": "gmail_manual_observed"
     },
     {
       "company": "Alain Louis — Naturaliste taxidermiste",
@@ -19845,10 +19943,10 @@
       "discovered_at": "2026-11-07",
       "created_at": "2026-11-07",
       "updated_at": "2026-11-07",
-      "status": "brouillon_en_attente",
-      "email_status": "brouillon",
+      "status": "contacté",
+      "email_status": "contacté",
       "status_crm": "qualified",
-      "next_action": "validation manuelle du brouillon ; aucun envoi tant que le pré-vol bloque",
+      "next_action": "aucune nouvelle approche : entreprise déjà contactée",
       "justification": "https://www.louis-alain-naturaliste.fr/naturaliste-taxidermiste-gazeran",
       "notes": "Lot 10, piste sectorielle du planificateur (taxidermie).",
       "scores": {
@@ -20017,6 +20115,17 @@
           "check_email_v4": "conforme",
           "sent": false,
           "reason": "Message individuel fondé sur une observation relue ; aucune référence commerciale citée."
+        },
+        {
+          "at": "2026-11-07",
+          "action": "envoi_hors_agent_reconcilie",
+          "status_before": "brouillon_en_attente",
+          "status_after": "contacté",
+          "gmail_sent_message_id": "1a1c00c520d052b1",
+          "gmail_label_id": "Label_8",
+          "sent_at_observed": "2026-11-09T12:23:15+01:00",
+          "reason": "Brouillon retrouvé envoyé dans Gmail (libellé SENT) le 09/11/2026. Envoi effectué hors agent : enabled=false et dry_run=true sont restés actifs, journal de production inchangé à 60 entrées.",
+          "source": "gmail in:anywhere to:alain.louis.naturaliste@orange.fr"
         }
       ],
       "gmail_draft_id": "r-3698618390914515863",
@@ -20029,7 +20138,10 @@
         "body": "Bonjour Monsieur Louis,\n\nSur votre page Naturaliste, les quatre visuels de la galerie portent un lien intitulé « Button » qui renvoie à la page elle-même. Le libellé du gabarit n'a pas été remplacé.\n\nVotre bouton « Demander un devis » mène par ailleurs à la page contact générique, et vous demandez d'appeler avant de venir : l'espèce, la taille et l'état de la pièce ne sont donc décrits qu'au téléphone.\n\nJe vous prépare gratuitement une maquette de demande de naturalisation qui recueille ces éléments avant l'appel. Démonstration sans engagement ; vos textes et vos photos ne bougent pas.\n\nPour que je n'insiste pas, répondez « ne pas me relancer ».\n\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website",
         "message_version": "v9",
         "variant": "lot10-individuel"
-      }
+      },
+      "gmail_sent_message_id": "1a1c00c520d052b1",
+      "sent_observed_at": "2026-11-09T12:23:15+01:00",
+      "sent_observed_transport": "gmail_manual_observed"
     },
     {
       "company": "Fermetures Leichnam",
@@ -20993,6 +21105,1181 @@
       "scoring_version": "v8",
       "score": 39,
       "id": "sellerie-industrielle-de-l-est"
+    },
+    {
+      "company": "Scierie Labrue",
+      "website": "https://scierielabrue.com/",
+      "domain": "scierielabrue.com",
+      "sector": "Scierie, sciage et charpente sur mesure",
+      "city": "Saillac",
+      "department": "19",
+      "email": "contact@scierielabrue.com",
+      "phone": "05 55 25 39 16",
+      "need": "refonte",
+      "needs": [
+        "refonte"
+      ],
+      "recommended_service": "une remise en état du parcours de demande et du bandeau de consentement",
+      "evidence": [
+        {
+          "kind": "site_obsolete",
+          "quote": "This website does not use any cookie requiring your consent.",
+          "detail": "Le panneau de consentement affirme n'utiliser aucun cookie soumis à consentement, tout en listant juste au-dessus « Google Analytics (universal) — This service can install 8 cookies ». Les deux énoncés se contredisent sur la même page.",
+          "source_url": "https://scierielabrue.com/Contact/",
+          "source_type": "site_officiel",
+          "observed_at": "2026-11-07",
+          "verified_at": "2026-11-07",
+          "reliability": "haute",
+          "observed": true
+        },
+        {
+          "kind": "site_obsolete",
+          "quote": "Cookies management panel — Allow all cookies — Deny all cookies",
+          "detail": "Le panneau de consentement est intégralement en anglais sur un site destiné à des clients français de Corrèze ; le bloc adresse est titré « Office Location ». Gabarit non localisé.",
+          "source_url": "https://scierielabrue.com/Contact/",
+          "source_type": "site_officiel",
+          "observed_at": "2026-11-07",
+          "verified_at": "2026-11-07",
+          "reliability": "haute",
+          "observed": true
+        },
+        {
+          "kind": "parcours_incomplet",
+          "quote": "Réalisations clients",
+          "detail": "Le lien « Réalisations clients » du pied de page pointe vers « # » : la galerie de références n'est pas accessible depuis cette page.",
+          "source_url": "https://scierielabrue.com/Contact/",
+          "source_type": "site_officiel",
+          "observed_at": "2026-11-07",
+          "verified_at": "2026-11-07",
+          "reliability": "haute",
+          "observed": true
+        },
+        {
+          "kind": "maturite_existante",
+          "quote": "Nom / E-mail / Type de projet (Charpente traditionnelle, Aménagement Intérieur, Aménagement extérieur, Ossature, Coffrage, Autre) / Décrivez votre projet ici",
+          "detail": "Contre-signal : le formulaire qualifie déjà le type de projet. Le besoin n'est pas la création d'un parcours de devis.",
+          "source_url": "https://scierielabrue.com/Contact/",
+          "source_type": "site_officiel",
+          "observed_at": "2026-11-07",
+          "verified_at": "2026-11-07",
+          "reliability": "haute",
+          "observed": true
+        },
+        {
+          "kind": "signal_confiance",
+          "quote": "Scierie Labrue — Le Bourg, 19500 SAILLAC — contact@scierielabrue.com — 05 55 25 39 16",
+          "detail": "Adresse publiée en clair, lue directement sur l'accueil puis sur la page contact. Entreprise familiale en activité depuis 1910.",
+          "source_url": "https://scierielabrue.com/",
+          "source_type": "site_officiel",
+          "observed_at": "2026-11-07",
+          "verified_at": "2026-11-07",
+          "reliability": "haute",
+          "observed": true
+        }
+      ],
+      "source": "site_officiel",
+      "contact_name": "",
+      "contact_role": "",
+      "publication_date": "",
+      "email_verification": "verified",
+      "email_provenance": "publiee",
+      "email_verification_basis": "adresse lue directement sur une page officielle le 2026-11-07",
+      "phone_verification": "verified",
+      "email_dns_status": "mx_ok",
+      "email_dns_checked_at": "2026-11-07",
+      "lot": "2026-11-07-phase10bis",
+      "discovered_at": "2026-11-07",
+      "created_at": "2026-11-07",
+      "updated_at": "2026-11-09T13:53:46+00:00",
+      "status": "nouveau",
+      "email_status": "nouveau",
+      "status_crm": "qualified",
+      "next_action": "aucun envoi ; brouillon seulement si le besoin est étayé",
+      "justification": "https://scierielabrue.com/Contact/",
+      "notes": "Phase 10 bis. Adresse lue directement, jamais déduite d'un extrait.",
+      "history": [
+        {
+          "at": "2026-11-07",
+          "action": "fiche_creee_phase10bis",
+          "reason": "Structure examinée sur son site officiel ; adresse lue directement.",
+          "source": "https://scierielabrue.com/"
+        }
+      ],
+      "scores": {
+        "site_web": {
+          "axis": "site_web",
+          "score": 5,
+          "level": "faible",
+          "reasons": [
+            "un site est déjà en ligne : pas de création à proprement parler"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "un site existe déjà : la création n'est pas le bon service"
+          ],
+          "confidence": "haute",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": [],
+          "evaluated_at": "2026-11-09",
+          "signal_levels": {}
+        },
+        "refonte": {
+          "axis": "refonte",
+          "score": 89,
+          "level": "fort",
+          "reasons": [
+            "site existant à moderniser",
+            "+42 site_obsolete : « This website does not use any cookie requiring your consent. » (https://scierielabrue.com/Contact/)",
+            "+42 site_obsolete : « Cookies management panel — Allow all cookies — Deny all cookies » (https://scierielabrue.com/Contact/)"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "comportement sur mobile non vérifié",
+            "une seule page observée : vérifier le parcours de contact sur une seconde page"
+          ],
+          "confidence": "moyenne",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": [],
+          "evaluated_at": "2026-11-09",
+          "signal_levels": {}
+        },
+        "ia_automatisation": {
+          "axis": "ia_automatisation",
+          "score": 12,
+          "level": "faible",
+          "reasons": [
+            "+12 processus manuel signalé par le chercheur (type de preuve seul, volontairement plafonné)"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "aucun processus entrant décrit publiquement : observer comment arrivent et sont traitées les demandes (devis, réservation, dossier)",
+            "processus observé sur une seule page : confirmer sur une seconde source"
+          ],
+          "confidence": "moyenne",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": [],
+          "evaluated_at": "2026-11-09",
+          "signal_levels": {}
+        },
+        "priority": "haute",
+        "best_axis": "refonte",
+        "engine_version": "v8",
+        "evaluated_at": "2026-11-09",
+        "contactability": {
+          "email_present": true,
+          "email_verification": "verified",
+          "phone_present": false,
+          "decoded_address_unconfirmed": false,
+          "blockers": [],
+          "contactable": true
+        },
+        "opportunity_report": {
+          "automation": [],
+          "maturity": [],
+          "refonte": [],
+          "presence": []
+        }
+      },
+      "commercial": {
+        "value": 71,
+        "tier": "haute",
+        "signal_class": "observe",
+        "signal_class_label": "problème directement observé",
+        "relevance": "propose",
+        "relevance_factor": 1.0,
+        "matched_services": [],
+        "verified": false,
+        "base": 34,
+        "magnitude": 37,
+        "best_axis": "refonte",
+        "best_axis_score": 89,
+        "confidence": "haute",
+        "reasons": [
+          "problème directement observé : base 34",
+          "pertinence offre : propose (×1.00)",
+          "magnitude bornée : +37 (meilleur axe refonte = 89, plafond 42)"
+        ],
+        "counter_signals": [],
+        "driving_evidence": [
+          {
+            "quote": "This website does not use any cookie requiring your consent.",
+            "source_url": "https://scierielabrue.com/Contact/",
+            "observed_at": "2026-11-07",
+            "verified_at": "2026-11-07",
+            "signal_level": "observe"
+          },
+          {
+            "quote": "Cookies management panel — Allow all cookies — Deny all cookies",
+            "source_url": "https://scierielabrue.com/Contact/",
+            "observed_at": "2026-11-07",
+            "verified_at": "2026-11-07",
+            "signal_level": "observe"
+          },
+          {
+            "quote": "Réalisations clients",
+            "source_url": "https://scierielabrue.com/Contact/",
+            "observed_at": "2026-11-07",
+            "verified_at": "2026-11-07",
+            "signal_level": "observe"
+          },
+          {
+            "quote": "Nom / E-mail / Type de projet (Charpente traditionnelle, Aménagement Intérieur, Aménagement extérieur, Ossature, Coffrage, Autre) / Décrivez votre projet ici",
+            "source_url": "https://scierielabrue.com/Contact/",
+            "observed_at": "2026-11-07",
+            "verified_at": "2026-11-07",
+            "signal_level": "observe"
+          }
+        ],
+        "contactable": true,
+        "capped_by_contactability": false,
+        "floor_applied": false,
+        "evaluated_at": "2026-11-07",
+        "engine_version": "v9-priority"
+      },
+      "commercial_priority": "haute",
+      "commercial_value": 71,
+      "priority_engine_version": "v9-priority",
+      "tier": "haute",
+      "scoring_version": "v8",
+      "score": 89,
+      "id": "scierie-labrue"
+    },
+    {
+      "company": "D2Bois",
+      "website": "https://escaliers-d2bois.fr/",
+      "domain": "escaliers-d2bois.fr",
+      "sector": "Fabrication d'escaliers en bois sur mesure",
+      "city": "Dercy",
+      "department": "02",
+      "email": "contact.d2bois@orange.fr",
+      "phone": "03 23 80 89 32",
+      "need": "refonte",
+      "needs": [
+        "refonte"
+      ],
+      "recommended_service": "une refonte du site et un parcours de demande d'escalier qui qualifie le projet",
+      "evidence": [
+        {
+          "kind": "site_obsolete",
+          "quote": "googleplus-100.png",
+          "detail": "Une icône de réseau social Google+ est encore publiée dans le bloc « Réseaux sociaux ». Google+ a fermé en avril 2019 : le site n'a pas été repris depuis. Les fichiers d'icônes sont datés de septembre 2015.",
+          "source_url": "https://escaliers-d2bois.fr/contact",
+          "source_type": "site_officiel",
+          "observed_at": "2026-11-07",
+          "verified_at": "2026-11-07",
+          "reliability": "haute",
+          "observed": true
+        },
+        {
+          "kind": "parcours_incomplet",
+          "quote": "Information de contact — Numéro de téléphone — Email — Horaires d'ouverture",
+          "detail": "La page contact ne propose aucun formulaire : pour un escalier sur mesure, la demande passe par un e-mail ou un appel libre, sans recueil de la configuration, des dimensions ou de l'essence.",
+          "source_url": "https://escaliers-d2bois.fr/contact",
+          "source_type": "site_officiel",
+          "observed_at": "2026-11-07",
+          "verified_at": "2026-11-07",
+          "reliability": "haute",
+          "observed": true
+        },
+        {
+          "kind": "maturite_existante",
+          "quote": "Spécialisé dans les escaliers depuis sa création, D2Bois vous apporte ses conseils et sa maîtrise éprouvés par plus de 35 ans de pratique.",
+          "detail": "Contre-signal : contenu métier structuré (qualité, environnement, livraison), horaires précis. Le besoin porte sur la reprise du site, pas sur le contenu.",
+          "source_url": "https://escaliers-d2bois.fr/contact",
+          "source_type": "site_officiel",
+          "observed_at": "2026-11-07",
+          "verified_at": "2026-11-07",
+          "reliability": "haute",
+          "observed": true
+        },
+        {
+          "kind": "signal_confiance",
+          "quote": "1 Bis, rue du Moulin 02270 DERCY — Tél. 03 23 80 89 32 — contact.d2bois@orange.fr",
+          "detail": "Adresse publiée en clair sous forme de lien mailto, lue directement. SIREN 495183287, SARL créée en 2007, capital 180 000 EUR (registre consulté).",
+          "source_url": "https://escaliers-d2bois.fr/contact",
+          "source_type": "site_officiel",
+          "observed_at": "2026-11-07",
+          "verified_at": "2026-11-07",
+          "reliability": "haute",
+          "observed": true
+        }
+      ],
+      "source": "site_officiel",
+      "contact_name": "",
+      "contact_role": "",
+      "publication_date": "",
+      "email_verification": "verified",
+      "email_provenance": "publiee",
+      "email_verification_basis": "adresse lue directement sur une page officielle le 2026-11-07",
+      "phone_verification": "verified",
+      "email_dns_status": "mx_ok",
+      "email_dns_checked_at": "2026-11-07",
+      "lot": "2026-11-07-phase10bis",
+      "discovered_at": "2026-11-07",
+      "created_at": "2026-11-07",
+      "updated_at": "2026-11-09T13:53:46+00:00",
+      "status": "nouveau",
+      "email_status": "nouveau",
+      "status_crm": "qualified",
+      "next_action": "aucun envoi ; brouillon seulement si le besoin est étayé",
+      "justification": "https://escaliers-d2bois.fr/contact",
+      "notes": "Phase 10 bis. Adresse lue directement, jamais déduite d'un extrait.",
+      "history": [
+        {
+          "at": "2026-11-07",
+          "action": "fiche_creee_phase10bis",
+          "reason": "Structure examinée sur son site officiel ; adresse lue directement.",
+          "source": "https://escaliers-d2bois.fr/contact"
+        }
+      ],
+      "scores": {
+        "site_web": {
+          "axis": "site_web",
+          "score": 5,
+          "level": "faible",
+          "reasons": [
+            "un site est déjà en ligne : pas de création à proprement parler"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "un site existe déjà : la création n'est pas le bon service"
+          ],
+          "confidence": "moyenne",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": [],
+          "evaluated_at": "2026-11-09",
+          "signal_levels": {}
+        },
+        "refonte": {
+          "axis": "refonte",
+          "score": 81,
+          "level": "fort",
+          "reasons": [
+            "site existant à moderniser",
+            "+42 site_obsolete : « googleplus-100.png » (https://escaliers-d2bois.fr/contact)",
+            "+34 parcours_incomplet : « Information de contact — Numéro de téléphone — Email — Horaires d'ouverture » (https://escaliers-d2bois.fr/contact)"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "comportement sur mobile non vérifié",
+            "une seule page observée : vérifier le parcours de contact sur une seconde page"
+          ],
+          "confidence": "moyenne",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": [],
+          "evaluated_at": "2026-11-09",
+          "signal_levels": {}
+        },
+        "ia_automatisation": {
+          "axis": "ia_automatisation",
+          "score": 12,
+          "level": "faible",
+          "reasons": [
+            "+12 processus manuel signalé par le chercheur (type de preuve seul, volontairement plafonné)"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "aucun processus entrant décrit publiquement : observer comment arrivent et sont traitées les demandes (devis, réservation, dossier)",
+            "processus observé sur une seule page : confirmer sur une seconde source"
+          ],
+          "confidence": "moyenne",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": [],
+          "evaluated_at": "2026-11-09",
+          "signal_levels": {}
+        },
+        "priority": "haute",
+        "best_axis": "refonte",
+        "engine_version": "v8",
+        "evaluated_at": "2026-11-09",
+        "contactability": {
+          "email_present": true,
+          "email_verification": "verified",
+          "phone_present": false,
+          "decoded_address_unconfirmed": false,
+          "blockers": [],
+          "contactable": true
+        },
+        "opportunity_report": {
+          "automation": [],
+          "maturity": [],
+          "refonte": [],
+          "presence": []
+        }
+      },
+      "commercial": {
+        "value": 68,
+        "tier": "moyenne",
+        "signal_class": "observe",
+        "signal_class_label": "problème directement observé",
+        "relevance": "propose",
+        "relevance_factor": 1.0,
+        "matched_services": [],
+        "verified": false,
+        "base": 34,
+        "magnitude": 34,
+        "best_axis": "refonte",
+        "best_axis_score": 81,
+        "confidence": "haute",
+        "reasons": [
+          "problème directement observé : base 34",
+          "pertinence offre : propose (×1.00)",
+          "magnitude bornée : +34 (meilleur axe refonte = 81, plafond 42)"
+        ],
+        "counter_signals": [],
+        "driving_evidence": [
+          {
+            "quote": "googleplus-100.png",
+            "source_url": "https://escaliers-d2bois.fr/contact",
+            "observed_at": "2026-11-07",
+            "verified_at": "2026-11-07",
+            "signal_level": "observe"
+          },
+          {
+            "quote": "Information de contact — Numéro de téléphone — Email — Horaires d'ouverture",
+            "source_url": "https://escaliers-d2bois.fr/contact",
+            "observed_at": "2026-11-07",
+            "verified_at": "2026-11-07",
+            "signal_level": "observe"
+          },
+          {
+            "quote": "Spécialisé dans les escaliers depuis sa création, D2Bois vous apporte ses conseils et sa maîtrise éprouvés par plus de 35 ans de pratique.",
+            "source_url": "https://escaliers-d2bois.fr/contact",
+            "observed_at": "2026-11-07",
+            "verified_at": "2026-11-07",
+            "signal_level": "observe"
+          },
+          {
+            "quote": "1 Bis, rue du Moulin 02270 DERCY — Tél. 03 23 80 89 32 — contact.d2bois@orange.fr",
+            "source_url": "https://escaliers-d2bois.fr/contact",
+            "observed_at": "2026-11-07",
+            "verified_at": "2026-11-07",
+            "signal_level": "observe"
+          }
+        ],
+        "contactable": true,
+        "capped_by_contactability": false,
+        "floor_applied": false,
+        "evaluated_at": "2026-11-07",
+        "engine_version": "v9-priority"
+      },
+      "commercial_priority": "moyenne",
+      "commercial_value": 68,
+      "priority_engine_version": "v9-priority",
+      "tier": "moyenne",
+      "scoring_version": "v8",
+      "score": 81,
+      "id": "d2bois"
+    },
+    {
+      "company": "Menuiserie Mirolo",
+      "website": "https://www.menuiserie-mirolo.fr/",
+      "domain": "menuiserie-mirolo.fr",
+      "sector": "Menuiserie bois sur mesure, agencement et escaliers",
+      "city": "Saint-Quentin",
+      "department": "02",
+      "email": "menuiserie.mirolo@wanadoo.fr",
+      "phone": "03 23 68 10 66",
+      "need": "refonte",
+      "needs": [
+        "refonte"
+      ],
+      "recommended_service": "une navigation et un parcours de demande de devis remis en état",
+      "evidence": [
+        {
+          "kind": "site_obsolete",
+          "quote": "Notre / Notre entreprise / Devis et Contact / Devis et",
+          "detail": "Les libellés de navigation sont dupliqués et tronqués tels qu'affichés : le menu ne présente pas d'intitulés propres.",
+          "source_url": "https://www.menuiserie-mirolo.fr/",
+          "source_type": "site_officiel",
+          "observed_at": "2026-11-07",
+          "verified_at": "2026-11-07",
+          "reliability": "haute",
+          "observed": true
+        },
+        {
+          "kind": "site_obsolete",
+          "quote": "Créé avec Wix.com",
+          "detail": "Le marquage promotionnel de l'éditeur est resté en pied de page, signe d'un site publié sans personnalisation finale.",
+          "source_url": "https://www.menuiserie-mirolo.fr/",
+          "source_type": "site_officiel",
+          "observed_at": "2026-11-07",
+          "verified_at": "2026-11-07",
+          "reliability": "haute",
+          "observed": true
+        },
+        {
+          "kind": "maturite_existante",
+          "quote": "Demande de devis ou de rendez-vous",
+          "detail": "Contre-signal : un formulaire de demande existe. Ses champs n'ont pas pu être lus (rendus en JavaScript) : aucun défaut de qualification n'est affirmé.",
+          "source_url": "https://www.menuiserie-mirolo.fr/",
+          "source_type": "site_officiel",
+          "observed_at": "2026-11-07",
+          "verified_at": "2026-11-07",
+          "reliability": "haute",
+          "observed": true
+        },
+        {
+          "kind": "signal_confiance",
+          "quote": "Menuiserie Mirolo — Tél : 03 23 68 10 66 — menuiserie.mirolo@wanadoo.fr — 19 r Aumônier Robert Prévot 02100 SAINT QUENTIN",
+          "detail": "Adresse publiée en clair en lien mailto, lue directement. Entreprise familiale depuis 1958. Le département enregistré au registre d'exploration (68) était erroné : corrigé en 02.",
+          "source_url": "https://www.menuiserie-mirolo.fr/",
+          "source_type": "site_officiel",
+          "observed_at": "2026-11-07",
+          "verified_at": "2026-11-07",
+          "reliability": "haute",
+          "observed": true
+        }
+      ],
+      "source": "site_officiel",
+      "contact_name": "",
+      "contact_role": "",
+      "publication_date": "",
+      "email_verification": "verified",
+      "email_provenance": "publiee",
+      "email_verification_basis": "adresse lue directement sur une page officielle le 2026-11-07",
+      "phone_verification": "verified",
+      "email_dns_status": "mx_ok",
+      "email_dns_checked_at": "2026-11-07",
+      "lot": "2026-11-07-phase10bis",
+      "discovered_at": "2026-11-07",
+      "created_at": "2026-11-07",
+      "updated_at": "2026-11-09T13:53:46+00:00",
+      "status": "nouveau",
+      "email_status": "nouveau",
+      "status_crm": "qualified",
+      "next_action": "aucun envoi ; brouillon seulement si le besoin est étayé",
+      "justification": "https://www.menuiserie-mirolo.fr/",
+      "notes": "Phase 10 bis. Adresse lue directement, jamais déduite d'un extrait.",
+      "history": [
+        {
+          "at": "2026-11-07",
+          "action": "fiche_creee_phase10bis",
+          "reason": "Structure examinée sur son site officiel ; adresse lue directement.",
+          "source": "https://www.menuiserie-mirolo.fr/"
+        }
+      ],
+      "scores": {
+        "site_web": {
+          "axis": "site_web",
+          "score": 5,
+          "level": "faible",
+          "reasons": [
+            "un site est déjà en ligne : pas de création à proprement parler"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "un site existe déjà : la création n'est pas le bon service"
+          ],
+          "confidence": "moyenne",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": [],
+          "evaluated_at": "2026-11-09",
+          "signal_levels": {}
+        },
+        "refonte": {
+          "axis": "refonte",
+          "score": 89,
+          "level": "fort",
+          "reasons": [
+            "site existant à moderniser",
+            "+42 site_obsolete : « Notre / Notre entreprise / Devis et Contact / Devis et » (https://www.menuiserie-mirolo.fr/)",
+            "+42 site_obsolete : « Créé avec Wix.com » (https://www.menuiserie-mirolo.fr/)"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "comportement sur mobile non vérifié",
+            "une seule page observée : vérifier le parcours de contact sur une seconde page"
+          ],
+          "confidence": "moyenne",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": [],
+          "evaluated_at": "2026-11-09",
+          "signal_levels": {}
+        },
+        "ia_automatisation": {
+          "axis": "ia_automatisation",
+          "score": 0,
+          "level": "faible",
+          "reasons": [
+            "aucune preuve directe sur cet axe : score volontairement bas"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "aucun processus entrant décrit publiquement : observer comment arrivent et sont traitées les demandes (devis, réservation, dossier)",
+            "processus observé sur une seule page : confirmer sur une seconde source"
+          ],
+          "confidence": "moyenne",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": [],
+          "evaluated_at": "2026-11-09",
+          "signal_levels": {}
+        },
+        "priority": "haute",
+        "best_axis": "refonte",
+        "engine_version": "v8",
+        "evaluated_at": "2026-11-09",
+        "contactability": {
+          "email_present": true,
+          "email_verification": "verified",
+          "phone_present": false,
+          "decoded_address_unconfirmed": false,
+          "blockers": [],
+          "contactable": true
+        },
+        "opportunity_report": {
+          "automation": [],
+          "maturity": [],
+          "refonte": [],
+          "presence": []
+        }
+      },
+      "commercial": {
+        "value": 71,
+        "tier": "haute",
+        "signal_class": "observe",
+        "signal_class_label": "problème directement observé",
+        "relevance": "propose",
+        "relevance_factor": 1.0,
+        "matched_services": [],
+        "verified": false,
+        "base": 34,
+        "magnitude": 37,
+        "best_axis": "refonte",
+        "best_axis_score": 89,
+        "confidence": "haute",
+        "reasons": [
+          "problème directement observé : base 34",
+          "pertinence offre : propose (×1.00)",
+          "magnitude bornée : +37 (meilleur axe refonte = 89, plafond 42)"
+        ],
+        "counter_signals": [],
+        "driving_evidence": [
+          {
+            "quote": "Notre / Notre entreprise / Devis et Contact / Devis et",
+            "source_url": "https://www.menuiserie-mirolo.fr/",
+            "observed_at": "2026-11-07",
+            "verified_at": "2026-11-07",
+            "signal_level": "observe"
+          },
+          {
+            "quote": "Créé avec Wix.com",
+            "source_url": "https://www.menuiserie-mirolo.fr/",
+            "observed_at": "2026-11-07",
+            "verified_at": "2026-11-07",
+            "signal_level": "observe"
+          },
+          {
+            "quote": "Demande de devis ou de rendez-vous",
+            "source_url": "https://www.menuiserie-mirolo.fr/",
+            "observed_at": "2026-11-07",
+            "verified_at": "2026-11-07",
+            "signal_level": "observe"
+          },
+          {
+            "quote": "Menuiserie Mirolo — Tél : 03 23 68 10 66 — menuiserie.mirolo@wanadoo.fr — 19 r Aumônier Robert Prévot 02100 SAINT QUENTIN",
+            "source_url": "https://www.menuiserie-mirolo.fr/",
+            "observed_at": "2026-11-07",
+            "verified_at": "2026-11-07",
+            "signal_level": "observe"
+          }
+        ],
+        "contactable": true,
+        "capped_by_contactability": false,
+        "floor_applied": false,
+        "evaluated_at": "2026-11-07",
+        "engine_version": "v9-priority"
+      },
+      "commercial_priority": "haute",
+      "commercial_value": 71,
+      "priority_engine_version": "v9-priority",
+      "tier": "haute",
+      "scoring_version": "v8",
+      "score": 89,
+      "id": "menuiserie-mirolo"
+    },
+    {
+      "company": "Delahautemaison",
+      "website": "https://delahautemaison.fr/",
+      "domain": "delahautemaison.fr",
+      "sector": "Tapisserie, cannage et rempaillage de mobilier ancien",
+      "city": "Lapalud",
+      "department": "84",
+      "email": "contact.delahautemaison@gmail.com",
+      "phone": "06 01 35 18 38",
+      "need": "refonte",
+      "needs": [
+        "refonte"
+      ],
+      "recommended_service": "la remise en état des liens de navigation du pied de page",
+      "evidence": [
+        {
+          "kind": "site_obsolete",
+          "quote": "About Us / Special Offers / Contact",
+          "detail": "Les trois liens « Liens utiles » du pied de page pointent tous vers « # » et portent des intitulés en anglais restés du gabarit, sur un site d'artisan français. Aucun n'est fonctionnel.",
+          "source_url": "https://delahautemaison.fr/demande-de-devis-personnalise-restauration-cannage-rideaux-sur-mesure/",
+          "source_type": "site_officiel",
+          "observed_at": "2026-11-07",
+          "verified_at": "2026-11-07",
+          "reliability": "haute",
+          "observed": true
+        },
+        {
+          "kind": "maturite_existante",
+          "quote": "Type de prestation souhaitée / Ville / Code postal / Détails du projet / Comment nous avez-vous connus ?",
+          "detail": "CONTRE-SIGNAL MAJEUR : le formulaire de devis est déjà pleinement qualifié et le panneau de consentement est correctement configuré. Le besoin est cosmétique, pas fonctionnel : priorité volontairement basse.",
+          "source_url": "https://delahautemaison.fr/demande-de-devis-personnalise-restauration-cannage-rideaux-sur-mesure/",
+          "source_type": "site_officiel",
+          "observed_at": "2026-11-07",
+          "verified_at": "2026-11-07",
+          "reliability": "haute",
+          "observed": true
+        },
+        {
+          "kind": "maturite_existante",
+          "quote": "Site réalisé par CNDSEO",
+          "detail": "Un prestataire web est déjà crédité en pied de page : l'entreprise a un interlocuteur identifié pour ce type de travaux.",
+          "source_url": "https://delahautemaison.fr/demande-de-devis-personnalise-restauration-cannage-rideaux-sur-mesure/",
+          "source_type": "site_officiel",
+          "observed_at": "2026-11-07",
+          "verified_at": "2026-11-07",
+          "reliability": "haute",
+          "observed": true
+        },
+        {
+          "kind": "signal_confiance",
+          "quote": "Lapalud — 06.01.35.18.38 — contact.delahautemaison@gmail.com",
+          "detail": "Adresse publiée en clair dans le bloc Information, lue directement.",
+          "source_url": "https://delahautemaison.fr/demande-de-devis-personnalise-restauration-cannage-rideaux-sur-mesure/",
+          "source_type": "site_officiel",
+          "observed_at": "2026-11-07",
+          "verified_at": "2026-11-07",
+          "reliability": "haute",
+          "observed": true
+        }
+      ],
+      "source": "site_officiel",
+      "contact_name": "",
+      "contact_role": "",
+      "publication_date": "",
+      "email_verification": "verified",
+      "email_provenance": "publiee",
+      "email_verification_basis": "adresse lue directement sur une page officielle le 2026-11-07",
+      "phone_verification": "verified",
+      "email_dns_status": "mx_ok",
+      "email_dns_checked_at": "2026-11-07",
+      "lot": "2026-11-07-phase10bis",
+      "discovered_at": "2026-11-07",
+      "created_at": "2026-11-07",
+      "updated_at": "2026-11-09T13:53:46+00:00",
+      "status": "nouveau",
+      "email_status": "nouveau",
+      "status_crm": "qualified",
+      "next_action": "aucun envoi ; brouillon seulement si le besoin est étayé",
+      "justification": "https://delahautemaison.fr/demande-de-devis-personnalise-restauration-cannage-rideaux-sur-mesure/",
+      "notes": "Phase 10 bis. Adresse lue directement, jamais déduite d'un extrait.",
+      "history": [
+        {
+          "at": "2026-11-07",
+          "action": "fiche_creee_phase10bis",
+          "reason": "Structure examinée sur son site officiel ; adresse lue directement.",
+          "source": "https://delahautemaison.fr/demande-de-devis-personnalise-restauration-cannage-rideaux-sur-mesure/"
+        },
+        {
+          "at": "2026-11-07",
+          "action": "marquee_revue_humaine_requise",
+          "reason": "Contre-signaux majoritaires : 2 preuve(s) « maturité existante » sur 3 preuve(s) de besoin. Le moteur v8 n'applique pas MATURITY_FACTOR aux contre-signaux explicites : la priorité affichée est probablement surévaluée. Ne pas rédiger de brouillon avant revue.",
+          "source": "data/history/simulation-contre-signaux-2026-11-07.json"
+        }
+      ],
+      "scores": {
+        "site_web": {
+          "axis": "site_web",
+          "score": 5,
+          "level": "faible",
+          "reasons": [
+            "un site est déjà en ligne : pas de création à proprement parler"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "un site existe déjà : la création n'est pas le bon service"
+          ],
+          "confidence": "moyenne",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": [],
+          "evaluated_at": "2026-11-09",
+          "signal_levels": {}
+        },
+        "refonte": {
+          "axis": "refonte",
+          "score": 47,
+          "level": "moyen",
+          "reasons": [
+            "site existant à moderniser",
+            "+42 site_obsolete : « About Us / Special Offers / Contact » (https://delahautemaison.fr/demande-de-devis-personnalise-restauration-cannage-rideaux-sur-mesure/)"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "comportement sur mobile non vérifié",
+            "une seule page observée : vérifier le parcours de contact sur une seconde page"
+          ],
+          "confidence": "moyenne",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": [],
+          "evaluated_at": "2026-11-09",
+          "signal_levels": {}
+        },
+        "ia_automatisation": {
+          "axis": "ia_automatisation",
+          "score": 0,
+          "level": "faible",
+          "reasons": [
+            "aucune preuve directe sur cet axe : score volontairement bas"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "aucun processus entrant décrit publiquement : observer comment arrivent et sont traitées les demandes (devis, réservation, dossier)",
+            "processus observé sur une seule page : confirmer sur une seconde source"
+          ],
+          "confidence": "moyenne",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": [],
+          "evaluated_at": "2026-11-09",
+          "signal_levels": {}
+        },
+        "priority": "moyenne",
+        "best_axis": "refonte",
+        "engine_version": "v8",
+        "evaluated_at": "2026-11-09",
+        "contactability": {
+          "email_present": true,
+          "email_verification": "verified",
+          "phone_present": false,
+          "decoded_address_unconfirmed": false,
+          "blockers": [],
+          "contactable": true
+        },
+        "opportunity_report": {
+          "automation": [],
+          "maturity": [],
+          "refonte": [],
+          "presence": []
+        }
+      },
+      "commercial": {
+        "value": 54,
+        "tier": "moyenne",
+        "signal_class": "observe",
+        "signal_class_label": "problème directement observé",
+        "relevance": "propose",
+        "relevance_factor": 1.0,
+        "matched_services": [],
+        "verified": false,
+        "base": 34,
+        "magnitude": 20,
+        "best_axis": "refonte",
+        "best_axis_score": 47,
+        "confidence": "haute",
+        "reasons": [
+          "problème directement observé : base 34",
+          "pertinence offre : propose (×1.00)",
+          "magnitude bornée : +20 (meilleur axe refonte = 47, plafond 42)"
+        ],
+        "counter_signals": [],
+        "driving_evidence": [
+          {
+            "quote": "About Us / Special Offers / Contact",
+            "source_url": "https://delahautemaison.fr/demande-de-devis-personnalise-restauration-cannage-rideaux-sur-mesure/",
+            "observed_at": "2026-11-07",
+            "verified_at": "2026-11-07",
+            "signal_level": "observe"
+          },
+          {
+            "quote": "Type de prestation souhaitée / Ville / Code postal / Détails du projet / Comment nous avez-vous connus ?",
+            "source_url": "https://delahautemaison.fr/demande-de-devis-personnalise-restauration-cannage-rideaux-sur-mesure/",
+            "observed_at": "2026-11-07",
+            "verified_at": "2026-11-07",
+            "signal_level": "observe"
+          },
+          {
+            "quote": "Site réalisé par CNDSEO",
+            "source_url": "https://delahautemaison.fr/demande-de-devis-personnalise-restauration-cannage-rideaux-sur-mesure/",
+            "observed_at": "2026-11-07",
+            "verified_at": "2026-11-07",
+            "signal_level": "observe"
+          },
+          {
+            "quote": "Lapalud — 06.01.35.18.38 — contact.delahautemaison@gmail.com",
+            "source_url": "https://delahautemaison.fr/demande-de-devis-personnalise-restauration-cannage-rideaux-sur-mesure/",
+            "observed_at": "2026-11-07",
+            "verified_at": "2026-11-07",
+            "signal_level": "observe"
+          }
+        ],
+        "contactable": true,
+        "capped_by_contactability": false,
+        "floor_applied": false,
+        "evaluated_at": "2026-11-07",
+        "engine_version": "v9-priority"
+      },
+      "commercial_priority": "moyenne",
+      "commercial_value": 54,
+      "priority_engine_version": "v9-priority",
+      "tier": "moyenne",
+      "scoring_version": "v8",
+      "score": 47,
+      "id": "delahautemaison",
+      "revue_humaine_requise": true,
+      "revue_motif": "Contre-signaux majoritaires : 2 preuve(s) « maturité existante » sur 3 preuve(s) de besoin. Le moteur v8 n'applique pas MATURITY_FACTOR aux contre-signaux explicites : la priorité affichée est probablement surévaluée. Ne pas rédiger de brouillon avant revue."
+    },
+    {
+      "company": "ERM 27",
+      "website": "https://erm27.fr/",
+      "domain": "erm27.fr",
+      "sector": "Affûtage industriel et fabrication d'outils coupants",
+      "city": "Sylvains-les-Moulins",
+      "department": "27",
+      "email": "erm27@erm27.fr",
+      "phone": "02 59 43 12 33",
+      "need": "refonte",
+      "needs": [
+        "refonte"
+      ],
+      "recommended_service": "la mise en conformité du consentement et des mentions légales",
+      "evidence": [
+        {
+          "kind": "site_obsolete",
+          "quote": "Nous utilisons des cookies pour vous garantir la meilleure expérience sur notre site web. Si vous continuez à utiliser ce site, nous supposerons que vous en êtes satisfait.",
+          "detail": "Consentement déduit de la poursuite de navigation : ne satisfait pas l'exigence de consentement explicite. Défaut de faible portée commerciale.",
+          "source_url": "https://erm27.fr/contactez-nous/",
+          "source_type": "site_officiel",
+          "observed_at": "2026-11-07",
+          "verified_at": "2026-11-07",
+          "reliability": "haute",
+          "observed": true
+        },
+        {
+          "kind": "site_obsolete",
+          "quote": "la Directive Européenne du 24 octobre 1995 — articles 38 et suivants de la loi 78-17",
+          "detail": "Les mentions légales citent encore la directive 95/46/CE, abrogée par le RGPD, dans un bloc partiellement mis à jour.",
+          "source_url": "https://erm27.fr/mentions-legales-et-confidentialite/",
+          "source_type": "site_officiel",
+          "observed_at": "2026-11-07",
+          "verified_at": "2026-11-07",
+          "reliability": "haute",
+          "observed": true
+        },
+        {
+          "kind": "maturite_existante",
+          "quote": "Nous disposons entre autre de 5 affûteuses de grandes capacités de 2 à 4 mètres maximum",
+          "detail": "CONTRE-SIGNAL : contenu technique riche, précis et à jour. Créateur du site identifié (My Market Office) : prestataire web déjà en place. Aucun besoin de refonte ni d'automatisation n'est étayé.",
+          "source_url": "https://erm27.fr/affutage-industriel/",
+          "source_type": "site_officiel",
+          "observed_at": "2026-11-07",
+          "verified_at": "2026-11-07",
+          "reliability": "haute",
+          "observed": true
+        },
+        {
+          "kind": "signal_confiance",
+          "quote": "ERM27 — SIRET 33215991200085 — 38 rue du Coudray 27240 Sylvains les Moulins — erm27@erm27.fr — +33 (0)2 59 43 12 33",
+          "detail": "Adresse publiée en clair, lue directement ; SIREN et adresse confirmés par les mentions légales.",
+          "source_url": "https://erm27.fr/contactez-nous/",
+          "source_type": "site_officiel",
+          "observed_at": "2026-11-07",
+          "verified_at": "2026-11-07",
+          "reliability": "haute",
+          "observed": true
+        }
+      ],
+      "source": "site_officiel",
+      "contact_name": "",
+      "contact_role": "",
+      "publication_date": "",
+      "email_verification": "verified",
+      "email_provenance": "publiee",
+      "email_verification_basis": "adresse lue directement sur une page officielle le 2026-11-07",
+      "phone_verification": "verified",
+      "email_dns_status": "mx_ok",
+      "email_dns_checked_at": "2026-11-07",
+      "lot": "2026-11-07-phase10bis",
+      "discovered_at": "2026-11-07",
+      "created_at": "2026-11-07",
+      "updated_at": "2026-11-09T13:53:47+00:00",
+      "status": "nouveau",
+      "email_status": "nouveau",
+      "status_crm": "qualified",
+      "next_action": "aucun envoi ; brouillon seulement si le besoin est étayé",
+      "justification": "https://erm27.fr/contactez-nous/",
+      "notes": "Phase 10 bis. Adresse lue directement, jamais déduite d'un extrait.",
+      "history": [
+        {
+          "at": "2026-11-07",
+          "action": "fiche_creee_phase10bis",
+          "reason": "Structure examinée sur son site officiel ; adresse lue directement.",
+          "source": "https://erm27.fr/contactez-nous/"
+        },
+        {
+          "at": "2026-11-07",
+          "action": "marquee_revue_humaine_requise",
+          "reason": "Analyse C : coordonnées vérifiées mais besoin insuffisamment étayé. Seul défaut de faible portée (consentement implicite) ; contenu technique à jour et prestataire web déjà crédité (My Market Office). Priorité v8 surévaluée car les contre-signaux explicites ne réduisent aucun axe. Aucun brouillon.",
+          "source": "data/history/phase10bis-recherches-2026-11-07.json"
+        }
+      ],
+      "scores": {
+        "site_web": {
+          "axis": "site_web",
+          "score": 5,
+          "level": "faible",
+          "reasons": [
+            "un site est déjà en ligne : pas de création à proprement parler"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "un site existe déjà : la création n'est pas le bon service"
+          ],
+          "confidence": "haute",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": [],
+          "evaluated_at": "2026-11-09",
+          "signal_levels": {}
+        },
+        "refonte": {
+          "axis": "refonte",
+          "score": 89,
+          "level": "fort",
+          "reasons": [
+            "site existant à moderniser",
+            "+42 site_obsolete : « Nous utilisons des cookies pour vous garantir la meilleure expérience sur notre site web. Si vous continuez… » (https://erm27.fr/contactez-nous/)",
+            "+42 site_obsolete : « la Directive Européenne du 24 octobre 1995 — articles 38 et suivants de la loi 78-17 » (https://erm27.fr/mentions-legales-et-confidentialite/)"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "comportement sur mobile non vérifié"
+          ],
+          "confidence": "haute",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": [],
+          "evaluated_at": "2026-11-09",
+          "signal_levels": {}
+        },
+        "ia_automatisation": {
+          "axis": "ia_automatisation",
+          "score": 0,
+          "level": "faible",
+          "reasons": [
+            "aucune preuve directe sur cet axe : score volontairement bas"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "aucun processus entrant décrit publiquement : observer comment arrivent et sont traitées les demandes (devis, réservation, dossier)",
+            "processus observé sur une seule page : confirmer sur une seconde source"
+          ],
+          "confidence": "haute",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": [],
+          "evaluated_at": "2026-11-09",
+          "signal_levels": {}
+        },
+        "priority": "haute",
+        "best_axis": "refonte",
+        "engine_version": "v8",
+        "evaluated_at": "2026-11-09",
+        "contactability": {
+          "email_present": true,
+          "email_verification": "verified",
+          "phone_present": false,
+          "decoded_address_unconfirmed": false,
+          "blockers": [],
+          "contactable": true
+        },
+        "opportunity_report": {
+          "automation": [],
+          "maturity": [],
+          "refonte": [],
+          "presence": []
+        }
+      },
+      "commercial": {
+        "value": 71,
+        "tier": "haute",
+        "signal_class": "observe",
+        "signal_class_label": "problème directement observé",
+        "relevance": "propose",
+        "relevance_factor": 1.0,
+        "matched_services": [],
+        "verified": false,
+        "base": 34,
+        "magnitude": 37,
+        "best_axis": "refonte",
+        "best_axis_score": 89,
+        "confidence": "haute",
+        "reasons": [
+          "problème directement observé : base 34",
+          "pertinence offre : propose (×1.00)",
+          "magnitude bornée : +37 (meilleur axe refonte = 89, plafond 42)"
+        ],
+        "counter_signals": [],
+        "driving_evidence": [
+          {
+            "quote": "Nous utilisons des cookies pour vous garantir la meilleure expérience sur notre site web. Si vous continuez à utiliser ce site, nous supposerons que vous en êtes satisfait.",
+            "source_url": "https://erm27.fr/contactez-nous/",
+            "observed_at": "2026-11-07",
+            "verified_at": "2026-11-07",
+            "signal_level": "observe"
+          },
+          {
+            "quote": "la Directive Européenne du 24 octobre 1995 — articles 38 et suivants de la loi 78-17",
+            "source_url": "https://erm27.fr/mentions-legales-et-confidentialite/",
+            "observed_at": "2026-11-07",
+            "verified_at": "2026-11-07",
+            "signal_level": "observe"
+          },
+          {
+            "quote": "Nous disposons entre autre de 5 affûteuses de grandes capacités de 2 à 4 mètres maximum",
+            "source_url": "https://erm27.fr/affutage-industriel/",
+            "observed_at": "2026-11-07",
+            "verified_at": "2026-11-07",
+            "signal_level": "observe"
+          },
+          {
+            "quote": "ERM27 — SIRET 33215991200085 — 38 rue du Coudray 27240 Sylvains les Moulins — erm27@erm27.fr — +33 (0)2 59 43 12 33",
+            "source_url": "https://erm27.fr/contactez-nous/",
+            "observed_at": "2026-11-07",
+            "verified_at": "2026-11-07",
+            "signal_level": "observe"
+          }
+        ],
+        "contactable": true,
+        "capped_by_contactability": false,
+        "floor_applied": false,
+        "evaluated_at": "2026-11-07",
+        "engine_version": "v9-priority"
+      },
+      "commercial_priority": "haute",
+      "commercial_value": 71,
+      "priority_engine_version": "v9-priority",
+      "tier": "haute",
+      "scoring_version": "v8",
+      "score": 89,
+      "id": "erm-27",
+      "revue_humaine_requise": true,
+      "revue_motif": "Analyse C : coordonnées vérifiées mais besoin insuffisamment étayé. Seul défaut de faible portée (consentement implicite) ; contenu technique à jour et prestataire web déjà crédité (My Market Office). Priorité v8 surévaluée car les contre-signaux explicites ne réduisent aucun axe. Aucun brouillon."
     }
   ]
 }

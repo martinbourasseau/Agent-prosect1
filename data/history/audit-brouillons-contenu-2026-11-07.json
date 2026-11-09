@@ -1,0 +1,44 @@
+{
+  "date": "2026-11-07",
+  "controle": "check_email_v4 sur les 5 messages du lot 10",
+  "conformes": 5,
+  "total": 5,
+  "resultats": [
+    {
+      "company": "O Lames Déchues",
+      "conforme": true,
+      "violations": [],
+      "mots": 137,
+      "gmail_sent_message_id": "1a1c00beeaca3de6"
+    },
+    {
+      "company": "Zicplace",
+      "conforme": true,
+      "violations": [],
+      "mots": 129,
+      "gmail_sent_message_id": "1a1c00c235cb0769"
+    },
+    {
+      "company": "Atelier du Bourrelier",
+      "conforme": true,
+      "violations": [],
+      "mots": 128,
+      "gmail_sent_message_id": "1a1c00c43cb2d8a0"
+    },
+    {
+      "company": "Alain Louis — Naturaliste taxidermiste",
+      "conforme": true,
+      "violations": [],
+      "mots": 125,
+      "gmail_sent_message_id": "1a1c00c520d052b1"
+    },
+    {
+      "company": "Étanchéité Nantaise",
+      "conforme": true,
+      "violations": [],
+      "mots": 124,
+      "gmail_sent_message_id": "1a1c00c5ee05b471"
+    }
+  ],
+  "note": "Messages déjà envoyés hors agent le 09/11. Contrôle a posteriori : aucun n'a été modifié."
+}
