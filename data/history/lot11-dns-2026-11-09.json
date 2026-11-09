@@ -1,0 +1,179 @@
+{
+ "Métallerie des Alpilles": {
+  "email": "contact@metalleriedesalpilles.fr",
+  "domain": "metalleriedesalpilles.fr",
+  "status": "mx_ok",
+  "mx_hosts": [
+   "fb.mail.gandi.net",
+   "spool.mail.gandi.net"
+  ],
+  "checked_at": "2026-11-09T22:09:40+00:00",
+  "detail": "2 MX publiés"
+ },
+ "FMESURE": {
+  "email": "fanny.ribiere@fmesure.fr",
+  "domain": "fmesure.fr",
+  "status": "mx_ok",
+  "mx_hosts": [
+   "mx00.ionos.fr",
+   "mx01.ionos.fr"
+  ],
+  "checked_at": "2026-11-09T22:09:41+00:00",
+  "detail": "2 MX publiés"
+ },
+ "CS Dépannages": {
+  "email": "steph.csdep@gmail.com",
+  "domain": "gmail.com",
+  "status": "mx_ok",
+  "mx_hosts": [
+   "alt1.gmail-smtp-in.l.google.com",
+   "alt2.gmail-smtp-in.l.google.com",
+   "alt3.gmail-smtp-in.l.google.com",
+   "alt4.gmail-smtp-in.l.google.com",
+   "gmail-smtp-in.l.google.com"
+  ],
+  "checked_at": "2026-11-09T22:09:41+00:00",
+  "detail": "5 MX publiés"
+ },
+ "Bureau Bois Concept": {
+  "email": "contact@etudebbc.fr",
+  "domain": "etudebbc.fr",
+  "status": "mx_ok",
+  "mx_hosts": [
+   "etudebbc-fr.mail.protection.outlook.com"
+  ],
+  "checked_at": "2026-11-09T22:09:41+00:00",
+  "detail": "1 MX publiés"
+ },
+ "Transports Francis Valette": {
+  "email": "valetterodez@gmail.com",
+  "domain": "gmail.com",
+  "status": "mx_ok",
+  "mx_hosts": [
+   "alt1.gmail-smtp-in.l.google.com",
+   "alt2.gmail-smtp-in.l.google.com",
+   "alt3.gmail-smtp-in.l.google.com",
+   "alt4.gmail-smtp-in.l.google.com",
+   "gmail-smtp-in.l.google.com"
+  ],
+  "checked_at": "2026-11-09T22:09:41+00:00",
+  "detail": "5 MX publiés"
+ },
+ "Transports Bonnevialle": {
+  "email": "exploitation@transports-bonnevialle.fr",
+  "domain": "transports-bonnevialle.fr",
+  "status": "mx_ok",
+  "mx_hosts": [
+   "mx1.planet-work.com",
+   "mx2.planet-work.com",
+   "mx3.planet-work.com"
+  ],
+  "checked_at": "2026-11-09T22:09:41+00:00",
+  "detail": "3 MX publiés"
+ },
+ "SAS Adrien Fernandes D&S": {
+  "email": "afd.services@icloud.com",
+  "domain": "icloud.com",
+  "status": "mx_ok",
+  "mx_hosts": [
+   "mx01.mail.icloud.com",
+   "mx02.mail.icloud.com"
+  ],
+  "checked_at": "2026-11-09T22:09:41+00:00",
+  "detail": "2 MX publiés"
+ },
+ "ETS Frézouls": {
+  "email": "contact@frezouls.fr",
+  "domain": "frezouls.fr",
+  "status": "mx_ok",
+  "mx_hosts": [
+   "frezouls-fr.mail.protection.outlook.com"
+  ],
+  "checked_at": "2026-11-09T22:09:41+00:00",
+  "detail": "1 MX publiés"
+ },
+ "La Conserverie des Producteurs": {
+  "email": "conserverie.producteurs@gmail.com",
+  "domain": "gmail.com",
+  "status": "mx_ok",
+  "mx_hosts": [
+   "alt1.gmail-smtp-in.l.google.com",
+   "alt2.gmail-smtp-in.l.google.com",
+   "alt3.gmail-smtp-in.l.google.com",
+   "alt4.gmail-smtp-in.l.google.com",
+   "gmail-smtp-in.l.google.com"
+  ],
+  "checked_at": "2026-11-09T22:09:41+00:00",
+  "detail": "5 MX publiés"
+ },
+ "Multi Pneus 36": {
+  "email": "multipneus36000@gmail.com",
+  "domain": "gmail.com",
+  "status": "mx_ok",
+  "mx_hosts": [
+   "alt1.gmail-smtp-in.l.google.com",
+   "alt2.gmail-smtp-in.l.google.com",
+   "alt3.gmail-smtp-in.l.google.com",
+   "alt4.gmail-smtp-in.l.google.com",
+   "gmail-smtp-in.l.google.com"
+  ],
+  "checked_at": "2026-11-09T22:09:41+00:00",
+  "detail": "5 MX publiés"
+ },
+ "L'Océane des Plastics": {
+  "email": "contact@loceanedesplastics.fr",
+  "domain": "loceanedesplastics.fr",
+  "status": "mx_ok",
+  "mx_hosts": [
+   "vade-mx-eu-fallback01.hornetsecurity.com",
+   "vade-mx-eu-fallback02.hornetsecurity.com",
+   "vade-mx-fr01.hornetsecurity.com",
+   "vade-mx-fr02.hornetsecurity.com"
+  ],
+  "checked_at": "2026-11-09T22:09:41+00:00",
+  "detail": "4 MX publiés"
+ },
+ "Plast e-Concept": {
+  "email": "contact@plasteconcept.com",
+  "domain": "plasteconcept.com",
+  "status": "mx_ok",
+  "mx_hosts": [
+   "alt1.aspmx.l.google.com",
+   "alt2.aspmx.l.google.com",
+   "aspmx.l.google.com",
+   "aspmx2.googlemail.com",
+   "aspmx3.googlemail.com",
+   "mx1.hostinger.fr"
+  ],
+  "checked_at": "2026-11-09T22:09:41+00:00",
+  "detail": "6 MX publiés"
+ },
+ "Miditraçage Esvia": {
+  "email": "contactweb@miditracage.com",
+  "domain": "miditracage.com",
+  "status": "mx_ok",
+  "mx_hosts": [
+   "vade-mx-eu-fallback01.hornetsecurity.com",
+   "vade-mx-eu-fallback02.hornetsecurity.com",
+   "vade-mx-fr01.hornetsecurity.com",
+   "vade-mx-fr02.hornetsecurity.com"
+  ],
+  "checked_at": "2026-11-09T22:09:41+00:00",
+  "detail": "4 MX publiés"
+ },
+ "3DM Impression": {
+  "email": "",
+  "status": "none",
+  "note": "aucune adresse publiée sur les pages lues"
+ },
+ "Léonard & Parmentier": {
+  "email": "",
+  "status": "none",
+  "note": "aucune adresse publiée sur les pages lues"
+ },
+ "Occibox": {
+  "email": "",
+  "status": "none",
+  "note": "aucune adresse publiée sur les pages lues"
+ }
+}

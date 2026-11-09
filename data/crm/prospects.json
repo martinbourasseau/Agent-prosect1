@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-09T14:41:33+00:00",
-  "count": 92,
+  "updated_at": "2026-11-09T22:22:49+00:00",
+  "count": 108,
   "prospects": [
     {
       "company": "R Premium",
@@ -25691,6 +25691,4482 @@
         },
         "simulation": "simulation-priorite-v10-2026-11-07.json"
       }
+    },
+    {
+      "company": "Miditraçage Esvia",
+      "website": "https://www.miditracage-esvia.com/",
+      "domain": "miditracage-esvia.com",
+      "sector": "Signalisation routière et marquage — TP",
+      "city": "Saint-Saturnin-lès-Avignon",
+      "department": "84",
+      "address": "Agence d'Avignon, Saint-Saturnin-lès-Avignon (84)",
+      "contact_name": "",
+      "contact_role": "",
+      "email": "contactweb@miditracage.com",
+      "phone": "",
+      "source": "site_officiel",
+      "evidence": [
+        {
+          "kind": "public_need",
+          "source_url": "https://www.miditracage-esvia.com/actualites/2026/04/29/assistant-e-administratif-et-commercial-avignon/",
+          "quote": "Saisie et envoie des devis demandés",
+          "observed_at": "2026-11-09",
+          "detail": "Offre d'emploi publiée par l'entreprise le 29/04/2026. La mission énumère la charge administrative manuelle : saisie et envoi des devis, suivi des relances factures clients, saisie et suivi de la facturation, classement et archivage. L'entreprise recrute pour absorber cette charge.",
+          "source_type": "site_officiel",
+          "reliability": "haute",
+          "verified_at": "2026-11-09",
+          "observed": true,
+          "signal_level": "exprime"
+        },
+        {
+          "kind": "processus_manuel",
+          "source_url": "https://www.miditracage-esvia.com/actualites/2026/04/29/assistant-e-administratif-et-commercial-avignon/",
+          "quote": "Centralisation et vérification du dossier administratif des chantiers (devis/Arrêtés de circulation/DICT/dossiers de sous-traitance/DC4)",
+          "observed_at": "2026-11-09",
+          "detail": "Le dossier administratif de chaque chantier est rassemblé et vérifié manuellement, pièce par pièce.",
+          "source_type": "site_officiel",
+          "reliability": "haute",
+          "verified_at": "2026-11-09",
+          "observed": true,
+          "signal_level": "exprime"
+        },
+        {
+          "kind": "processus_manuel",
+          "source_url": "https://www.miditracage-esvia.com/actualites/2026/04/29/assistant-e-administratif-et-commercial-avignon/",
+          "quote": "Suivi des relances factures clients",
+          "observed_at": "2026-11-09",
+          "detail": "Les relances de factures sont une tâche listée du poste, donc suivies à la main.",
+          "source_type": "site_officiel",
+          "reliability": "haute",
+          "verified_at": "2026-11-09",
+          "observed": true,
+          "signal_level": "exprime"
+        },
+        {
+          "kind": "signal_confiance",
+          "source_url": "https://www.miditracage-esvia.com/",
+          "quote": "Créée en 1984, sous l'égide de son fondateur Michel REY, la société familiale Miditraçage est spécialisée dans la signalisation routière.",
+          "observed_at": "2026-11-09",
+          "detail": "Entreprise familiale créée en 1984, filiale Esvia depuis 2018, implantation nationale, actualités d'octobre 2026 : activité réelle et récente.",
+          "source_type": "site_officiel",
+          "reliability": "haute",
+          "verified_at": "2026-11-09",
+          "observed": true,
+          "signal_level": "observe"
+        },
+        {
+          "kind": "maturite_existante",
+          "source_url": "https://www.miditracage-esvia.com/",
+          "quote": "Salon des Maires du Var",
+          "observed_at": "2026-11-09",
+          "detail": "Le site est récent et tenu à jour (actualités d'octobre 2026, site WordPress soigné). La refonte n'est pas le besoin : seul l'axe automatisation est visé.",
+          "source_type": "site_officiel",
+          "reliability": "haute",
+          "verified_at": "2026-11-09",
+          "observed": true,
+          "signal_level": "observe"
+        }
+      ],
+      "publication_date": "",
+      "need": "automatisation",
+      "needs": [
+        "automatisation",
+        "agent_ia"
+      ],
+      "recommended_service": "Je peux mettre en place un circuit qui prépare les devis à partir des demandes reçues et suit les relances de factures sans ressaisie",
+      "email_verification": "verified",
+      "email_verification_basis": "adresse lue directement sur une page officielle le 2026-11-09 ; MX du domaine vérifié le même jour (le MX ne prouve pas l'existence de la boîte)",
+      "email_provenance": "publiee",
+      "email_dns_status": "mx_ok",
+      "email_dns_checked_at": "2026-11-09",
+      "process_hint": "saisie et envoi manuels des devis, relances factures clients suivies à la main, dossiers administratifs de chantier centralisés et vérifiés manuellement, classement et archivage",
+      "demo_detail": "une demande de devis transformée en devis pré-rempli, avec le dossier de chantier (DICT, DC4, sous-traitance) rassemblé au même endroit",
+      "custom_hook": "Votre offre d'assistant administratif du 29 avril liste « Saisie et envoie des devis demandés », « Suivi des relances factures clients » et « Classement et archivage ».",
+      "custom_subject": "Miditraçage : la saisie des devis et les relances facturées à la main",
+      "notes": "Meilleur besoin exprimé du lot. Cible automatisation, PAS refonte : le site est récent et à jour.",
+      "lot": "2026-11-09-lot11",
+      "discovered_at": "2026-11-09",
+      "email_status": "non_contacté",
+      "next_action": "valider le brouillon (aucun envoi : pré-vol bloqué)",
+      "scores": {
+        "site_web": {
+          "axis": "site_web",
+          "score": 5,
+          "level": "faible",
+          "reasons": [
+            "un site est déjà en ligne : pas de création à proprement parler"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "un site existe déjà : la création n'est pas le bon service"
+          ],
+          "confidence": "haute",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": [],
+          "evaluated_at": "2026-11-09",
+          "signal_levels": {}
+        },
+        "refonte": {
+          "axis": "refonte",
+          "score": 15,
+          "level": "faible",
+          "reasons": [
+            "site existant à moderniser",
+            "+10 public_need : « Saisie et envoie des devis demandés » (https://www.miditracage-esvia.com/actualites/2026/04/29/assistant-e-administratif-et-commercial-avignon/)"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "comportement sur mobile non vérifié",
+            "une seule page observée : vérifier le parcours de contact sur une seconde page"
+          ],
+          "confidence": "moyenne",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": [],
+          "evaluated_at": "2026-11-09",
+          "signal_levels": {}
+        },
+        "ia_automatisation": {
+          "axis": "ia_automatisation",
+          "score": 46,
+          "level": "moyen",
+          "reasons": [
+            "+12 processus manuel signalé par le chercheur (type de preuve seul, volontairement plafonné)",
+            "+34 besoin exprimé publiquement par l'entreprise : « Saisie et envoie des devis demandés » (https://www.miditracage-esvia.com/actualites/2026/04/29/assistant-e-administratif-et-commercial-avignon/) [niveau : exprimé]"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "aucun processus entrant décrit publiquement : observer comment arrivent et sont traitées les demandes (devis, réservation, dossier)",
+            "processus observé sur une seule page : confirmer sur une seconde source",
+            "le processus est affirmé dans process_hint mais aucune citation ne l'établit"
+          ],
+          "confidence": "moyenne",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": [],
+          "evaluated_at": "2026-11-09",
+          "signal_levels": {}
+        },
+        "priority": "moyenne",
+        "best_axis": "ia_automatisation",
+        "engine_version": "v8",
+        "evaluated_at": "2026-11-09",
+        "contactability": {
+          "email_present": true,
+          "email_verification": "verified",
+          "phone_present": false,
+          "decoded_address_unconfirmed": false,
+          "blockers": [],
+          "contactable": true
+        },
+        "opportunity_report": {
+          "automation": [],
+          "maturity": [],
+          "refonte": [],
+          "presence": []
+        }
+      },
+      "scoring_version": "v8",
+      "commercial_priority": "haute",
+      "commercial_value": 77,
+      "commercial": {
+        "value": 77,
+        "tier": "haute",
+        "signal_class": "exprime_verifie",
+        "signal_class_label": "besoin exprimé et vérifié",
+        "relevance": "propose",
+        "relevance_factor": 1.0,
+        "matched_services": [
+          "ia_automatisation"
+        ],
+        "verified": true,
+        "base": 58,
+        "magnitude": 19,
+        "best_axis": "ia_automatisation",
+        "best_axis_score": 46,
+        "confidence": "haute",
+        "reasons": [
+          "contre-signaux explicites : 0 fort(s), 0 modéré(s), 1 faible(s) → pénalité bornée -0 (77 -> 77)",
+          "contre-signal — force faible (aucun marqueur explicite : prudence) ; délimite le besoin sans l'annuler",
+          "besoin exprimé et vérifié : base 58",
+          "pertinence offre : propose (×1.00) — services concernés : ia_automatisation",
+          "magnitude bornée : +19 (meilleur axe ia_automatisation = 46, plafond 42)"
+        ],
+        "counter_signals": [
+          "Salon des Maires du Var"
+        ],
+        "counter_signal_penalty": 0,
+        "counter_signal_details": [
+          {
+            "quote": "Salon des Maires du Var",
+            "source_url": "https://www.miditracage-esvia.com/",
+            "observed_at": "2026-11-09",
+            "strength": "faible",
+            "negates_need": false,
+            "fresh": true,
+            "reliable_source": true,
+            "penalty": 0,
+            "reason": "force faible (aucun marqueur explicite : prudence) ; délimite le besoin sans l'annuler"
+          }
+        ],
+        "driving_evidence": [
+          {
+            "quote": "Saisie et envoie des devis demandés",
+            "source_url": "https://www.miditracage-esvia.com/actualites/2026/04/29/assistant-e-administratif-et-commercial-avignon/",
+            "observed_at": "2026-11-09",
+            "verified_at": "2026-11-09",
+            "signal_level": "exprime"
+          }
+        ],
+        "contactable": true,
+        "capped_by_contactability": false,
+        "floor_applied": false,
+        "evaluated_at": "2026-11-09",
+        "engine_version": "v10-priority"
+      },
+      "priority_engine_version": "v10-priority",
+      "status": "brouillon_créé",
+      "status_crm": "qualified",
+      "tier": "haute",
+      "score": 46,
+      "justification": "contre-signaux explicites : 0 fort(s), 0 modéré(s), 1 faible(s) → pénalité bornée -0 (77 -> 77) ; contre-signal — force faible (aucun marqueur explicite : prudence) ; délimite le besoin sans l'annuler ; besoin exprimé et vérifié : base 58 ; pertinence offre : propose (×1.00) — services concernés : ia_automatisation ; magnitude bornée : +19 (meilleur axe ia_automatisation = 46, plafond 42)",
+      "brouillon_autorise_lot11": true,
+      "brouillon_motif": "joignable, priorité haute, confiance suffisante sur l'axe porteur",
+      "history": [
+        {
+          "at": "2026-11-09",
+          "action": "fiche_creee_lot11",
+          "reason": "Structure examinée sur sources publiques ; preuves citées et datées ; trois axes v8 et priorité v10 calculés par le moteur du dépôt.",
+          "source": "https://www.miditracage-esvia.com/"
+        },
+        {
+          "at": "2026-11-09",
+          "action": "redaction_personnalisee_lot11",
+          "reason": "Proposition en phrase complète et observation factuelle ajoutées ; sujet remis sous 70 caractères. Axes v8 et priorité v10 inchangés.",
+          "source": "https://www.miditracage-esvia.com/"
+        },
+        {
+          "at": "2026-11-09",
+          "action": "brouillon_mis_en_file",
+          "reason": "Contrôle v4 conforme ; en attente de validation humaine. Aucun envoi.",
+          "source": "data/queue:2026-11-09-lot11-001"
+        },
+        {
+          "at": "2026-11-09",
+          "action": "brouillon_gmail_cree",
+          "reason": "Brouillon enregistré dans Gmail, non envoyé. Validation humaine requise.",
+          "source": "gmail:draft/r4042321371979229617"
+        },
+        {
+          "at": "2026-11-09",
+          "action": "statut_brouillon_cree",
+          "reason": "Brouillon Gmail existant et rapproché : statut aligné sur la convention du tableau de bord (brouillon_créé). Aucun envoi, email_status inchangé.",
+          "source": "data/history/lot11-brouillons-2026-11-09.json"
+        }
+      ],
+      "id": "miditra-age-esvia",
+      "created_at": "2026-11-09T22:16:02+00:00",
+      "updated_at": "2026-11-09T22:16:02+00:00",
+      "observation": "Le poste est ouvert pour votre agence d'Avignon et couvre aussi les DICT, DC4, PPSPS et situations de travaux",
+      "gmail_draft_id": "r4042321371979229617",
+      "gmail_draft_message_id": "1a1c2638fdfbe9c8"
+    },
+    {
+      "company": "3DM Impression",
+      "website": "https://3dm-impression.fr/",
+      "domain": "3dm-impression.fr",
+      "sector": "Impression 3D à façon et prototypage",
+      "city": "Mont-de-Marsan",
+      "department": "40",
+      "address": "Mont-de-Marsan (40)",
+      "contact_name": "Marceau",
+      "contact_role": "Fondateur",
+      "email": "",
+      "phone": "",
+      "source": "site_officiel",
+      "evidence": [
+        {
+          "kind": "site_obsolete",
+          "source_url": "https://3dm-impression.fr/",
+          "quote": "https://3dmimpression9462.live-website.com/boutique/",
+          "observed_at": "2026-11-09",
+          "detail": "Les trois boutons « Voir la boutique » de la page d'accueil pointent vers le domaine de préproduction de l'hébergeur (live-website.com) et non vers le domaine public. Un visiteur quitte le site de marque au moment d'acheter.",
+          "source_type": "site_officiel",
+          "reliability": "haute",
+          "verified_at": "2026-11-09",
+          "observed": true,
+          "signal_level": "observe"
+        },
+        {
+          "kind": "site_obsolete",
+          "source_url": "https://3dm-impression.fr/",
+          "quote": "website.s_image_text_default_image.jpg",
+          "observed_at": "2026-11-09",
+          "detail": "Une image de gabarit par défaut de l'éditeur est encore publiée dans la section « À propos ».",
+          "source_type": "site_officiel",
+          "reliability": "haute",
+          "verified_at": "2026-11-09",
+          "observed": true,
+          "signal_level": "observe"
+        },
+        {
+          "kind": "parcours_incomplet",
+          "source_url": "https://3dm-impression.fr/",
+          "quote": "Note 0 sur 5",
+          "observed_at": "2026-11-09",
+          "detail": "Tous les produits de la vitrine affichent « Note 0 sur 5 » : le bloc d'avis est actif mais vide, ce qui dévalorise les produits.",
+          "source_type": "site_officiel",
+          "reliability": "haute",
+          "verified_at": "2026-11-09",
+          "observed": true,
+          "signal_level": "observe"
+        },
+        {
+          "kind": "signal_confiance",
+          "source_url": "https://3dm-impression.fr/",
+          "quote": "3DM Impression est une jeune micro-entreprise basée dans les Landes (40)",
+          "observed_at": "2026-11-09",
+          "detail": "Micro-entreprise identifiée, fondateur nommé (RENAULT Marceau), diplômé en conception et prototypage. Chiffres publiés : +3000 impressions, +42 clients.",
+          "source_type": "site_officiel",
+          "reliability": "haute",
+          "verified_at": "2026-11-09",
+          "observed": true,
+          "signal_level": "observe"
+        },
+        {
+          "kind": "maturite_existante",
+          "source_url": "https://3dm-impression.fr/",
+          "quote": "Voir la boutique",
+          "observed_at": "2026-11-09",
+          "detail": "Une boutique WooCommerce existe déjà avec catalogue et fiches produits : il ne s'agit pas de créer un site mais de corriger le parcours existant.",
+          "source_type": "site_officiel",
+          "reliability": "haute",
+          "verified_at": "2026-11-09",
+          "observed": true,
+          "signal_level": "observe"
+        }
+      ],
+      "publication_date": "",
+      "need": "refonte",
+      "needs": [
+        "refonte"
+      ],
+      "recommended_service": "la correction des liens de boutique pour qu'ils restent sur votre domaine",
+      "email_verification": "none",
+      "email_verification_basis": "aucune adresse professionnelle publiée sur les pages lues",
+      "email_provenance": "",
+      "email_dns_status": "",
+      "email_dns_checked_at": "",
+      "process_hint": "boutique en ligne dont les boutons d'achat renvoient vers le domaine de préproduction de l'hébergeur",
+      "demo_detail": "un parcours d'achat qui reste sur 3dm-impression.fr du catalogue au panier",
+      "custom_hook": "Vos trois boutons « Voir la boutique » renvoient vers 3dmimpression9462.live-website.com au lieu de 3dm-impression.fr.",
+      "custom_subject": "3DM Impression : vos boutons boutique quittent votre domaine",
+      "notes": "Aucune adresse e-mail publiée sur les pages lues : pas de brouillon possible. Défaut technique réparable et vérifiable.",
+      "lot": "2026-11-09-lot11",
+      "discovered_at": "2026-11-09",
+      "email_status": "non_contacté",
+      "next_action": "",
+      "scores": {
+        "site_web": {
+          "axis": "site_web",
+          "score": 5,
+          "level": "faible",
+          "reasons": [
+            "un site est déjà en ligne : pas de création à proprement parler"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "un site existe déjà : la création n'est pas le bon service"
+          ],
+          "confidence": "moyenne",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": [],
+          "evaluated_at": "2026-11-09",
+          "signal_levels": {}
+        },
+        "refonte": {
+          "axis": "refonte",
+          "score": 89,
+          "level": "fort",
+          "reasons": [
+            "site existant à moderniser",
+            "+42 site_obsolete : « https://3dmimpression9462.live-website.com/boutique/ » (https://3dm-impression.fr/)",
+            "+42 site_obsolete : « website.s_image_text_default_image.jpg » (https://3dm-impression.fr/)"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "comportement sur mobile non vérifié",
+            "une seule page observée : vérifier le parcours de contact sur une seconde page"
+          ],
+          "confidence": "moyenne",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": [],
+          "evaluated_at": "2026-11-09",
+          "signal_levels": {}
+        },
+        "ia_automatisation": {
+          "axis": "ia_automatisation",
+          "score": 12,
+          "level": "faible",
+          "reasons": [
+            "+12 processus manuel signalé par le chercheur (type de preuve seul, volontairement plafonné)"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "aucun processus entrant décrit publiquement : observer comment arrivent et sont traitées les demandes (devis, réservation, dossier)",
+            "processus observé sur une seule page : confirmer sur une seconde source",
+            "le processus est affirmé dans process_hint mais aucune citation ne l'établit"
+          ],
+          "confidence": "moyenne",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": [],
+          "evaluated_at": "2026-11-09",
+          "signal_levels": {}
+        },
+        "priority": "a_approfondir",
+        "best_axis": "refonte",
+        "engine_version": "v8",
+        "evaluated_at": "2026-11-09",
+        "contactability": {
+          "email_present": false,
+          "email_verification": "none",
+          "phone_present": false,
+          "decoded_address_unconfirmed": false,
+          "blockers": [
+            "aucune adresse professionnelle publiée"
+          ],
+          "contactable": false
+        },
+        "opportunity_report": {
+          "automation": [],
+          "maturity": [],
+          "refonte": [],
+          "presence": []
+        }
+      },
+      "scoring_version": "v8",
+      "commercial_priority": "a_approfondir",
+      "commercial_value": 71,
+      "commercial": {
+        "value": 71,
+        "tier": "a_approfondir",
+        "signal_class": "observe",
+        "signal_class_label": "problème directement observé",
+        "relevance": "propose",
+        "relevance_factor": 1.0,
+        "matched_services": [],
+        "verified": false,
+        "base": 34,
+        "magnitude": 37,
+        "best_axis": "refonte",
+        "best_axis_score": 89,
+        "confidence": "haute",
+        "reasons": [
+          "contre-signaux explicites : 0 fort(s), 0 modéré(s), 1 faible(s) → pénalité bornée -0 (71 -> 71)",
+          "contre-signal — force faible (aucun marqueur explicite : prudence) ; délimite le besoin sans l'annuler",
+          "problème directement observé : base 34",
+          "pertinence offre : propose (×1.00)",
+          "magnitude bornée : +37 (meilleur axe refonte = 89, plafond 42)",
+          "adresse non joignable : priorité plafonnée à « à approfondir » (la valeur commerciale est conservée telle quelle)"
+        ],
+        "counter_signals": [
+          "Voir la boutique"
+        ],
+        "counter_signal_penalty": 0,
+        "counter_signal_details": [
+          {
+            "quote": "Voir la boutique",
+            "source_url": "https://3dm-impression.fr/",
+            "observed_at": "2026-11-09",
+            "strength": "faible",
+            "negates_need": false,
+            "fresh": true,
+            "reliable_source": true,
+            "penalty": 0,
+            "reason": "force faible (aucun marqueur explicite : prudence) ; délimite le besoin sans l'annuler"
+          }
+        ],
+        "driving_evidence": [
+          {
+            "quote": "https://3dmimpression9462.live-website.com/boutique/",
+            "source_url": "https://3dm-impression.fr/",
+            "observed_at": "2026-11-09",
+            "verified_at": "2026-11-09",
+            "signal_level": "observe"
+          },
+          {
+            "quote": "website.s_image_text_default_image.jpg",
+            "source_url": "https://3dm-impression.fr/",
+            "observed_at": "2026-11-09",
+            "verified_at": "2026-11-09",
+            "signal_level": "observe"
+          },
+          {
+            "quote": "Note 0 sur 5",
+            "source_url": "https://3dm-impression.fr/",
+            "observed_at": "2026-11-09",
+            "verified_at": "2026-11-09",
+            "signal_level": "observe"
+          },
+          {
+            "quote": "3DM Impression est une jeune micro-entreprise basée dans les Landes (40)",
+            "source_url": "https://3dm-impression.fr/",
+            "observed_at": "2026-11-09",
+            "verified_at": "2026-11-09",
+            "signal_level": "observe"
+          }
+        ],
+        "contactable": false,
+        "capped_by_contactability": true,
+        "floor_applied": false,
+        "evaluated_at": "2026-11-09",
+        "engine_version": "v10-priority"
+      },
+      "priority_engine_version": "v10-priority",
+      "status": "nouveau",
+      "status_crm": "qualified",
+      "tier": "a_approfondir",
+      "score": 89,
+      "justification": "contre-signaux explicites : 0 fort(s), 0 modéré(s), 1 faible(s) → pénalité bornée -0 (71 -> 71) ; contre-signal — force faible (aucun marqueur explicite : prudence) ; délimite le besoin sans l'annuler ; problème directement observé : base 34 ; pertinence offre : propose (×1.00) ; magnitude bornée : +37 (meilleur axe refonte = 89, plafond 42) ; adresse non joignable : priorité plafonnée à « à approfondir » (la valeur commerciale est conservée telle quelle)",
+      "brouillon_autorise_lot11": false,
+      "brouillon_motif": "aucune adresse publiée",
+      "history": [
+        {
+          "at": "2026-11-09",
+          "action": "fiche_creee_lot11",
+          "reason": "Structure examinée sur sources publiques ; preuves citées et datées ; trois axes v8 et priorité v10 calculés par le moteur du dépôt.",
+          "source": "https://3dm-impression.fr/"
+        }
+      ],
+      "id": "3dm-impression",
+      "created_at": "2026-11-09T22:16:02+00:00",
+      "updated_at": "2026-11-09T22:16:02+00:00"
+    },
+    {
+      "company": "Multi Pneus 36",
+      "website": "https://multipneus36.fr/",
+      "domain": "multipneus36.fr",
+      "sector": "Pneumatique, montage et mécanique automobile",
+      "city": "Châteauroux",
+      "department": "36",
+      "address": "103 Avenue d'Argenton, 36000 Châteauroux",
+      "contact_name": "Abdelkader",
+      "contact_role": "Gérant",
+      "email": "multipneus36000@gmail.com",
+      "phone": "02 54 27 37 67",
+      "source": "site_officiel",
+      "evidence": [
+        {
+          "kind": "site_obsolete",
+          "source_url": "https://multipneus36.fr/",
+          "quote": "-125+",
+          "observed_at": "2026-11-09",
+          "detail": "Le compteur d'animation de la page d'accueil affiche « -125+ Ans d'expérience » : valeur négative publiée, visible avant tout défilement.",
+          "source_type": "site_officiel",
+          "reliability": "haute",
+          "verified_at": "2026-11-09",
+          "observed": true,
+          "signal_level": "observe"
+        },
+        {
+          "kind": "site_obsolete",
+          "source_url": "https://multipneus36.fr/",
+          "quote": "-1250%",
+          "observed_at": "2026-11-09",
+          "detail": "Second compteur cassé affichant « -1250% Sans rendez-vous ».",
+          "source_type": "site_officiel",
+          "reliability": "haute",
+          "verified_at": "2026-11-09",
+          "observed": true,
+          "signal_level": "observe"
+        },
+        {
+          "kind": "processus_manuel",
+          "source_url": "https://multipneus36.fr/",
+          "quote": "01 Vous appelez",
+          "observed_at": "2026-11-09",
+          "detail": "Le parcours publié en trois étapes commence par un appel téléphonique, puis « On vous propose un créneau » : aucun formulaire ni réservation en ligne, chaque créneau est fixé oralement.",
+          "source_type": "site_officiel",
+          "reliability": "haute",
+          "verified_at": "2026-11-09",
+          "observed": true,
+          "signal_level": "observe"
+        },
+        {
+          "kind": "parcours_incomplet",
+          "source_url": "https://multipneus36.fr/",
+          "quote": "Tout message transmis via le formulaire de contact",
+          "observed_at": "2026-11-09",
+          "detail": "La politique de confidentialité décrit les données collectées par un formulaire de contact, alors qu'aucun formulaire n'est présent sur la page : le parcours annoncé n'existe pas.",
+          "source_type": "site_officiel",
+          "reliability": "haute",
+          "verified_at": "2026-11-09",
+          "observed": true,
+          "signal_level": "observe"
+        },
+        {
+          "kind": "website_gap",
+          "source_url": "https://www.multi-pneus.fr/vente-montage-pneus/c-3.html",
+          "quote": "103 Avenue D'Argenton, 36000 Châteauroux",
+          "observed_at": "2026-11-09",
+          "detail": "Trois domaines distincts décrivent la même entreprise à la même adresse avec le même téléphone (multipneus36.fr, multi-pneus-36.fr, multi-pneus.fr) : le référencement et les avis sont dispersés.",
+          "source_type": "site_officiel",
+          "reliability": "haute",
+          "verified_at": "2026-11-09",
+          "observed": true,
+          "signal_level": "observe"
+        },
+        {
+          "kind": "signal_confiance",
+          "source_url": "https://multipneus36.fr/",
+          "quote": "SIRET : 102 391 802 00018",
+          "observed_at": "2026-11-09",
+          "detail": "SAS au capital de 5 000 €, RCS Châteauroux, gérant nommé (Abdelkader BOUDELLI), note Google 4,6/5 publiée.",
+          "source_type": "site_officiel",
+          "reliability": "haute",
+          "verified_at": "2026-11-09",
+          "observed": true,
+          "signal_level": "observe"
+        },
+        {
+          "kind": "maturite_existante",
+          "source_url": "https://multipneus36.fr/",
+          "quote": "SANS RENDEZ-VOUS",
+          "observed_at": "2026-11-09",
+          "detail": "L'entreprise revendique le sans-rendez-vous comme un argument commercial : le besoin n'est pas un agenda en ligne imposé aux clients. La proposition doit porter sur la qualification de la demande entrante.",
+          "source_type": "site_officiel",
+          "reliability": "haute",
+          "verified_at": "2026-11-09",
+          "observed": true,
+          "signal_level": "observe"
+        }
+      ],
+      "publication_date": "",
+      "need": "refonte",
+      "needs": [
+        "refonte",
+        "automatisation"
+      ],
+      "recommended_service": "une demande de créneau qui arrive avec le véhicule et la prestation, au lieu d'un appel à reprendre",
+      "email_verification": "verified",
+      "email_verification_basis": "adresse lue directement sur une page officielle le 2026-11-09 ; MX du domaine vérifié le même jour (le MX ne prouve pas l'existence de la boîte)",
+      "email_provenance": "publiee",
+      "email_dns_status": "mx_ok",
+      "email_dns_checked_at": "2026-11-09",
+      "process_hint": "prise de créneau uniquement par téléphone, trois domaines pour la même entreprise",
+      "demo_detail": "une demande indiquant véhicule, dimension de pneu et créneau souhaité, prête à être confirmée",
+      "custom_hook": "En haut de votre accueil, deux compteurs affichent « -125+ Ans d'expérience » et « -1250% Sans rendez-vous ».",
+      "custom_subject": "Multi Pneus 36 : votre page d'accueil annonce « -125+ ans d'expérience »",
+      "notes": "Doublon de domaine traité : multi-pneus-36.fr et multi-pneus.fr ne créent pas de fiche séparée.",
+      "lot": "2026-11-09-lot11",
+      "discovered_at": "2026-11-09",
+      "email_status": "non_contacté",
+      "next_action": "",
+      "scores": {
+        "site_web": {
+          "axis": "site_web",
+          "score": 5,
+          "level": "faible",
+          "reasons": [
+            "un site est déjà en ligne : pas de création à proprement parler"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "un site existe déjà : la création n'est pas le bon service"
+          ],
+          "confidence": "haute",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": [],
+          "evaluated_at": "2026-11-09",
+          "signal_levels": {}
+        },
+        "refonte": {
+          "axis": "refonte",
+          "score": 89,
+          "level": "fort",
+          "reasons": [
+            "site existant à moderniser",
+            "+42 site_obsolete : « -125+ » (https://multipneus36.fr/)",
+            "+42 site_obsolete : « -1250% » (https://multipneus36.fr/)"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "comportement sur mobile non vérifié"
+          ],
+          "confidence": "moyenne",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": [],
+          "evaluated_at": "2026-11-09",
+          "signal_levels": {}
+        },
+        "ia_automatisation": {
+          "axis": "ia_automatisation",
+          "score": 29,
+          "level": "faible",
+          "reasons": [
+            "+12 processus manuel signalé par le chercheur (type de preuve seul, volontairement plafonné)",
+            "+17 Réservation ou commande par téléphone — « Constat du chercheur : prise de créneau uniquement par téléphone, trois domaines pour l… » [motif : par telephone uniquement] ()"
+          ],
+          "evidence": [
+            {
+              "signal": "reservation_telephone",
+              "label": "Réservation ou commande par téléphone",
+              "weight": 26,
+              "matched_pattern": "par telephone uniquement",
+              "evidence_index": -1,
+              "source_url": "",
+              "quote": "Constat du chercheur : prise de créneau uniquement par téléphone, trois domaines pour la même entreprise",
+              "observed": true,
+              "hypothetical": false,
+              "reliability": "moyenne"
+            }
+          ],
+          "missing_information": [
+            "processus observé sur une seule page : confirmer sur une seconde source"
+          ],
+          "confidence": "faible",
+          "observed_signals": [
+            "Réservation ou commande par téléphone"
+          ],
+          "hypothetical_signals": [],
+          "counter_signals": [],
+          "evaluated_at": "2026-11-09",
+          "signal_levels": {
+            "observe": 1
+          }
+        },
+        "priority": "haute",
+        "best_axis": "refonte",
+        "engine_version": "v8",
+        "evaluated_at": "2026-11-09",
+        "contactability": {
+          "email_present": true,
+          "email_verification": "verified",
+          "phone_present": true,
+          "decoded_address_unconfirmed": false,
+          "blockers": [],
+          "contactable": true
+        },
+        "opportunity_report": {
+          "automation": [
+            {
+              "signal": "reservation_telephone",
+              "label": "Réservation ou commande par téléphone",
+              "weight": 26,
+              "matched_pattern": "par telephone uniquement",
+              "evidence_index": -1,
+              "source_url": "",
+              "quote": "Constat du chercheur : prise de créneau uniquement par téléphone, trois domaines pour la même entreprise",
+              "observed": true,
+              "hypothetical": false,
+              "reliability": "moyenne"
+            }
+          ],
+          "maturity": [],
+          "refonte": [],
+          "presence": []
+        }
+      },
+      "scoring_version": "v8",
+      "commercial_priority": "moyenne",
+      "commercial_value": 60,
+      "commercial": {
+        "value": 60,
+        "tier": "moyenne",
+        "signal_class": "observe",
+        "signal_class_label": "problème directement observé",
+        "relevance": "propose",
+        "relevance_factor": 1.0,
+        "matched_services": [],
+        "verified": false,
+        "base": 34,
+        "magnitude": 37,
+        "best_axis": "refonte",
+        "best_axis_score": 89,
+        "confidence": "haute",
+        "reasons": [
+          "contre-signaux explicites : 0 fort(s), 1 modéré(s), 0 faible(s) → pénalité bornée -11 (71 -> 60)",
+          "contre-signal — force modere (marqueurs : le besoin n'est pas) ; délimite le besoin sans l'annuler",
+          "problème directement observé : base 34",
+          "pertinence offre : propose (×1.00)",
+          "magnitude bornée : +37 (meilleur axe refonte = 89, plafond 42)"
+        ],
+        "counter_signals": [
+          "SANS RENDEZ-VOUS"
+        ],
+        "counter_signal_penalty": 11,
+        "counter_signal_details": [
+          {
+            "quote": "SANS RENDEZ-VOUS",
+            "source_url": "https://multipneus36.fr/",
+            "observed_at": "2026-11-09",
+            "strength": "modere",
+            "negates_need": false,
+            "fresh": true,
+            "reliable_source": true,
+            "penalty": 11,
+            "reason": "force modere (marqueurs : le besoin n'est pas) ; délimite le besoin sans l'annuler"
+          }
+        ],
+        "driving_evidence": [
+          {
+            "quote": "-125+",
+            "source_url": "https://multipneus36.fr/",
+            "observed_at": "2026-11-09",
+            "verified_at": "2026-11-09",
+            "signal_level": "observe"
+          },
+          {
+            "quote": "-1250%",
+            "source_url": "https://multipneus36.fr/",
+            "observed_at": "2026-11-09",
+            "verified_at": "2026-11-09",
+            "signal_level": "observe"
+          },
+          {
+            "quote": "01 Vous appelez",
+            "source_url": "https://multipneus36.fr/",
+            "observed_at": "2026-11-09",
+            "verified_at": "2026-11-09",
+            "signal_level": "observe"
+          },
+          {
+            "quote": "Tout message transmis via le formulaire de contact",
+            "source_url": "https://multipneus36.fr/",
+            "observed_at": "2026-11-09",
+            "verified_at": "2026-11-09",
+            "signal_level": "observe"
+          }
+        ],
+        "contactable": true,
+        "capped_by_contactability": false,
+        "floor_applied": false,
+        "evaluated_at": "2026-11-09",
+        "engine_version": "v10-priority"
+      },
+      "priority_engine_version": "v10-priority",
+      "status": "nouveau",
+      "status_crm": "qualified",
+      "tier": "moyenne",
+      "score": 89,
+      "justification": "contre-signaux explicites : 0 fort(s), 1 modéré(s), 0 faible(s) → pénalité bornée -11 (71 -> 60) ; contre-signal — force modere (marqueurs : le besoin n'est pas) ; délimite le besoin sans l'annuler ; problème directement observé : base 34 ; pertinence offre : propose (×1.00) ; magnitude bornée : +37 (meilleur axe refonte = 89, plafond 42)",
+      "brouillon_autorise_lot11": false,
+      "brouillon_motif": "priorité moyenne",
+      "history": [
+        {
+          "at": "2026-11-09",
+          "action": "fiche_creee_lot11",
+          "reason": "Structure examinée sur sources publiques ; preuves citées et datées ; trois axes v8 et priorité v10 calculés par le moteur du dépôt.",
+          "source": "https://multipneus36.fr/"
+        }
+      ],
+      "id": "multi-pneus-36",
+      "created_at": "2026-11-09T22:16:02+00:00",
+      "updated_at": "2026-11-09T22:16:02+00:00"
+    },
+    {
+      "company": "L'Océane des Plastics",
+      "website": "https://www.loceanedesplastics.fr/",
+      "domain": "loceanedesplastics.fr",
+      "sector": "Rotomoulage et plasturgie — pièces techniques",
+      "city": "Muzillac",
+      "department": "56",
+      "address": "15 rue Hinzal, 56190 Muzillac",
+      "contact_name": "",
+      "contact_role": "",
+      "email": "contact@loceanedesplastics.fr",
+      "phone": "02 97 41 60 60",
+      "source": "site_officiel",
+      "evidence": [
+        {
+          "kind": "site_obsolete",
+          "source_url": "https://www.loceanedesplastics.fr/",
+          "quote": "http://www.loceanedesplastics.net/",
+          "observed_at": "2026-11-09",
+          "detail": "Les cinq diapositives de la page d'accueil, ainsi que les fichiers associés, pointent vers loceanedesplastics.net en http, alors que le site est servi sur loceanedesplastics.fr : incohérence de domaine et liens non sécurisés.",
+          "source_type": "site_officiel",
+          "reliability": "haute",
+          "verified_at": "2026-11-09",
+          "observed": true,
+          "signal_level": "observe"
+        },
+        {
+          "kind": "site_obsolete",
+          "source_url": "https://www.loceanedesplastics.fr/",
+          "quote": "les 14, 15 et 16 novembre 2017",
+          "observed_at": "2026-11-09",
+          "detail": "L'actualité mise en avant annonce la présence au salon METSTRADE de novembre 2017, soit neuf ans avant la date de vérification.",
+          "source_type": "site_officiel",
+          "reliability": "haute",
+          "verified_at": "2026-11-09",
+          "observed": true,
+          "signal_level": "observe"
+        },
+        {
+          "kind": "site_obsolete",
+          "source_url": "https://www.loceanedesplastics.fr/",
+          "quote": "nous avons lancé depuis quelques mois la certification ISO 9001",
+          "observed_at": "2026-11-09",
+          "detail": "Le site présente les certifications ISO 9001 et 14001 comme en cours, alors qu'un extrait les donne pour obtenues : contenu non mis à jour.",
+          "source_type": "site_officiel",
+          "reliability": "haute",
+          "verified_at": "2026-11-09",
+          "observed": true,
+          "signal_level": "observe"
+        },
+        {
+          "kind": "signal_confiance",
+          "source_url": "https://www.loceanedesplastics.fr/",
+          "quote": "une équipe de 40 personnes",
+          "observed_at": "2026-11-09",
+          "detail": "Entreprise de 40 salariés créée en 1989, dirigée par Anne et Gwennaël Gautier depuis 2005, bureau d'études intégré, 6 carrousel et 2 îlots robotisés.",
+          "source_type": "site_officiel",
+          "reliability": "haute",
+          "verified_at": "2026-11-09",
+          "observed": true,
+          "signal_level": "observe"
+        },
+        {
+          "kind": "maturite_existante",
+          "source_url": "https://www.loceanedesplastics.fr/contact",
+          "quote": "Pièce jointe",
+          "observed_at": "2026-11-09",
+          "detail": "Un formulaire de demande existe déjà et accepte une pièce jointe : le dépôt de cahier des charges est possible. Le besoin porte sur la cohérence et la fraîcheur du site, pas sur un nouveau parcours.",
+          "source_type": "site_officiel",
+          "reliability": "haute",
+          "verified_at": "2026-11-09",
+          "observed": true,
+          "signal_level": "observe"
+        },
+        {
+          "kind": "maturite_existante",
+          "source_url": "https://www.loceanedesplastics.fr/",
+          "quote": "BUREAU D'ETUDES INTEGRE",
+          "observed_at": "2026-11-09",
+          "detail": "Bureau d'études intégré avec CAO Solidworks et cellules robotisées : l'entreprise est outillée en interne sur la conception, ce qui limite le besoin d'automatisation externe.",
+          "source_type": "site_officiel",
+          "reliability": "haute",
+          "verified_at": "2026-11-09",
+          "observed": true,
+          "signal_level": "observe"
+        }
+      ],
+      "publication_date": "",
+      "need": "refonte",
+      "needs": [
+        "refonte"
+      ],
+      "recommended_service": "la remise en cohérence du site et de ses liens sur un seul domaine",
+      "email_verification": "verified",
+      "email_verification_basis": "adresse lue directement sur une page officielle le 2026-11-09 ; MX du domaine vérifié le même jour (le MX ne prouve pas l'existence de la boîte)",
+      "email_provenance": "publiee",
+      "email_dns_status": "mx_ok",
+      "email_dns_checked_at": "2026-11-09",
+      "process_hint": "liens et fichiers servis depuis un autre domaine que celui du site, actualité la plus récente datée de 2017",
+      "demo_detail": "une page d'accueil dont tous les liens et tous les fichiers restent sur loceanedesplastics.fr",
+      "custom_hook": "Votre site est servi sur loceanedesplastics.fr, mais les cinq liens du diaporama pointent vers loceanedesplastics.net.",
+      "custom_subject": "L'Océane des Plastics : votre accueil renvoie vers un autre domaine",
+      "notes": "Cible refonte uniquement. Entreprise outillée : ne pas proposer d'automatisation de production.",
+      "lot": "2026-11-09-lot11",
+      "discovered_at": "2026-11-09",
+      "email_status": "non_contacté",
+      "next_action": "",
+      "scores": {
+        "site_web": {
+          "axis": "site_web",
+          "score": 5,
+          "level": "faible",
+          "reasons": [
+            "un site est déjà en ligne : pas de création à proprement parler"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "un site existe déjà : la création n'est pas le bon service"
+          ],
+          "confidence": "haute",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": [],
+          "evaluated_at": "2026-11-09",
+          "signal_levels": {}
+        },
+        "refonte": {
+          "axis": "refonte",
+          "score": 89,
+          "level": "fort",
+          "reasons": [
+            "site existant à moderniser",
+            "+42 site_obsolete : « http://www.loceanedesplastics.net/ » (https://www.loceanedesplastics.fr/)",
+            "+42 site_obsolete : « les 14, 15 et 16 novembre 2017 » (https://www.loceanedesplastics.fr/)"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "comportement sur mobile non vérifié",
+            "une seule page observée : vérifier le parcours de contact sur une seconde page"
+          ],
+          "confidence": "moyenne",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": [],
+          "evaluated_at": "2026-11-09",
+          "signal_levels": {}
+        },
+        "ia_automatisation": {
+          "axis": "ia_automatisation",
+          "score": 0,
+          "level": "faible",
+          "reasons": [
+            "aucune preuve directe sur cet axe : score volontairement bas"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "aucun processus entrant décrit publiquement : observer comment arrivent et sont traitées les demandes (devis, réservation, dossier)",
+            "processus observé sur une seule page : confirmer sur une seconde source",
+            "le processus est affirmé dans process_hint mais aucune citation ne l'établit"
+          ],
+          "confidence": "haute",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": [],
+          "evaluated_at": "2026-11-09",
+          "signal_levels": {}
+        },
+        "priority": "haute",
+        "best_axis": "refonte",
+        "engine_version": "v8",
+        "evaluated_at": "2026-11-09",
+        "contactability": {
+          "email_present": true,
+          "email_verification": "verified",
+          "phone_present": true,
+          "decoded_address_unconfirmed": false,
+          "blockers": [],
+          "contactable": true
+        },
+        "opportunity_report": {
+          "automation": [],
+          "maturity": [],
+          "refonte": [],
+          "presence": []
+        }
+      },
+      "scoring_version": "v8",
+      "commercial_priority": "moyenne",
+      "commercial_value": 60,
+      "commercial": {
+        "value": 60,
+        "tier": "moyenne",
+        "signal_class": "observe",
+        "signal_class_label": "problème directement observé",
+        "relevance": "propose",
+        "relevance_factor": 1.0,
+        "matched_services": [],
+        "verified": false,
+        "base": 34,
+        "magnitude": 37,
+        "best_axis": "refonte",
+        "best_axis_score": 89,
+        "confidence": "haute",
+        "reasons": [
+          "contre-signaux explicites : 0 fort(s), 1 modéré(s), 1 faible(s) → pénalité bornée -11 (71 -> 60)",
+          "contre-signal — force modere (marqueurs : formulaire de demande existe) ; délimite le besoin sans l'annuler",
+          "contre-signal — force faible (aucun marqueur explicite : prudence) ; délimite le besoin sans l'annuler",
+          "problème directement observé : base 34",
+          "pertinence offre : propose (×1.00)",
+          "magnitude bornée : +37 (meilleur axe refonte = 89, plafond 42)"
+        ],
+        "counter_signals": [
+          "Pièce jointe",
+          "BUREAU D'ETUDES INTEGRE"
+        ],
+        "counter_signal_penalty": 11,
+        "counter_signal_details": [
+          {
+            "quote": "Pièce jointe",
+            "source_url": "https://www.loceanedesplastics.fr/contact",
+            "observed_at": "2026-11-09",
+            "strength": "modere",
+            "negates_need": false,
+            "fresh": true,
+            "reliable_source": true,
+            "penalty": 11,
+            "reason": "force modere (marqueurs : formulaire de demande existe) ; délimite le besoin sans l'annuler"
+          },
+          {
+            "quote": "BUREAU D'ETUDES INTEGRE",
+            "source_url": "https://www.loceanedesplastics.fr/",
+            "observed_at": "2026-11-09",
+            "strength": "faible",
+            "negates_need": false,
+            "fresh": true,
+            "reliable_source": true,
+            "penalty": 0,
+            "reason": "force faible (aucun marqueur explicite : prudence) ; délimite le besoin sans l'annuler"
+          }
+        ],
+        "driving_evidence": [
+          {
+            "quote": "http://www.loceanedesplastics.net/",
+            "source_url": "https://www.loceanedesplastics.fr/",
+            "observed_at": "2026-11-09",
+            "verified_at": "2026-11-09",
+            "signal_level": "observe"
+          },
+          {
+            "quote": "les 14, 15 et 16 novembre 2017",
+            "source_url": "https://www.loceanedesplastics.fr/",
+            "observed_at": "2026-11-09",
+            "verified_at": "2026-11-09",
+            "signal_level": "observe"
+          },
+          {
+            "quote": "nous avons lancé depuis quelques mois la certification ISO 9001",
+            "source_url": "https://www.loceanedesplastics.fr/",
+            "observed_at": "2026-11-09",
+            "verified_at": "2026-11-09",
+            "signal_level": "observe"
+          },
+          {
+            "quote": "une équipe de 40 personnes",
+            "source_url": "https://www.loceanedesplastics.fr/",
+            "observed_at": "2026-11-09",
+            "verified_at": "2026-11-09",
+            "signal_level": "observe"
+          }
+        ],
+        "contactable": true,
+        "capped_by_contactability": false,
+        "floor_applied": false,
+        "evaluated_at": "2026-11-09",
+        "engine_version": "v10-priority"
+      },
+      "priority_engine_version": "v10-priority",
+      "status": "nouveau",
+      "status_crm": "qualified",
+      "tier": "moyenne",
+      "score": 89,
+      "justification": "contre-signaux explicites : 0 fort(s), 1 modéré(s), 1 faible(s) → pénalité bornée -11 (71 -> 60) ; contre-signal — force modere (marqueurs : formulaire de demande existe) ; délimite le besoin sans l'annuler ; contre-signal — force faible (aucun marqueur explicite : prudence) ; délimite le besoin sans l'annuler ; problème directement observé : base 34 ; pertinence offre : propose (×1.00) ; magnitude bornée : +37 (meilleur axe refonte = 89, plafond 42)",
+      "brouillon_autorise_lot11": false,
+      "brouillon_motif": "priorité moyenne",
+      "history": [
+        {
+          "at": "2026-11-09",
+          "action": "fiche_creee_lot11",
+          "reason": "Structure examinée sur sources publiques ; preuves citées et datées ; trois axes v8 et priorité v10 calculés par le moteur du dépôt.",
+          "source": "https://www.loceanedesplastics.fr/"
+        }
+      ],
+      "id": "l-oc-ane-des-plastics",
+      "created_at": "2026-11-09T22:16:02+00:00",
+      "updated_at": "2026-11-09T22:16:02+00:00"
+    },
+    {
+      "company": "Métallerie des Alpilles",
+      "website": "https://metalleriedesalpilles.fr/",
+      "domain": "metalleriedesalpilles.fr",
+      "sector": "Ferronnerie d'art, menuiseries acier et mobilier",
+      "city": "Alpilles",
+      "department": "13",
+      "address": "Bouches-du-Rhône (13), secteur Alpilles",
+      "contact_name": "",
+      "contact_role": "",
+      "email": "contact@metalleriedesalpilles.fr",
+      "phone": "06 98 56 65 16",
+      "source": "site_officiel",
+      "evidence": [
+        {
+          "kind": "site_obsolete",
+          "source_url": "https://metalleriedesalpilles.fr/",
+          "quote": "Created with Sketch.",
+          "observed_at": "2026-11-09",
+          "detail": "Le bouton « Nos services » de la page d'accueil contient le texte « Arrow RightCreated with Sketch. » : mention laissée par l'outil de conception, publiée telle quelle.",
+          "source_type": "site_officiel",
+          "reliability": "haute",
+          "verified_at": "2026-11-09",
+          "observed": true,
+          "signal_level": "observe"
+        },
+        {
+          "kind": "site_obsolete",
+          "source_url": "https://metalleriedesalpilles.fr/",
+          "quote": "rf.selliplasedeirellatem%40tcatnoc",
+          "observed_at": "2026-11-09",
+          "detail": "L'adresse e-mail visible est la chaîne inversée et encodée de contact@metalleriedesalpilles.fr. Le lien mailto est correct, mais le texte affiché est illisible et non copiable pour un visiteur.",
+          "source_type": "site_officiel",
+          "reliability": "haute",
+          "verified_at": "2026-11-09",
+          "observed": true,
+          "signal_level": "observe"
+        },
+        {
+          "kind": "website_gap",
+          "source_url": "https://metalleriedesalpilles.fr/",
+          "quote": "0974991623",
+          "observed_at": "2026-11-09",
+          "detail": "Deux numéros différents sont publiés dans le même bloc contact : un lien tel: vers 0974991623 et le numéro affiché 06 98 56 65 16. Le visiteur ne sait pas lequel composer.",
+          "source_type": "site_officiel",
+          "reliability": "haute",
+          "verified_at": "2026-11-09",
+          "observed": true,
+          "signal_level": "observe"
+        },
+        {
+          "kind": "signal_confiance",
+          "source_url": "https://metalleriedesalpilles.fr/",
+          "quote": "Nous disposons d’une assurance garantie décennale couvrant tous nos services.",
+          "observed_at": "2026-11-09",
+          "detail": "Garantie décennale annoncée, trois domaines de prestation décrits (menuiseries acier, ferronnerie d'art, mobilier), travail pour particuliers et professionnels.",
+          "source_type": "site_officiel",
+          "reliability": "haute",
+          "verified_at": "2026-11-09",
+          "observed": true,
+          "signal_level": "observe"
+        },
+        {
+          "kind": "maturite_existante",
+          "source_url": "https://metalleriedesalpilles.fr/",
+          "quote": "Demandez votre devis gratuit",
+          "observed_at": "2026-11-09",
+          "detail": "Un parcours de demande de devis est déjà annoncé : le besoin porte sur la lisibilité du contact, pas sur la création d'un formulaire.",
+          "source_type": "site_officiel",
+          "reliability": "haute",
+          "verified_at": "2026-11-09",
+          "observed": true,
+          "signal_level": "observe"
+        }
+      ],
+      "publication_date": "",
+      "need": "refonte",
+      "needs": [
+        "refonte"
+      ],
+      "recommended_service": "Je peux corriger l'affichage du contact pour que l'adresse se lise à l'endroit et qu'un seul numéro soit proposé",
+      "email_verification": "verified",
+      "email_verification_basis": "adresse lue directement sur une page officielle le 2026-11-09 ; MX du domaine vérifié le même jour (le MX ne prouve pas l'existence de la boîte)",
+      "email_provenance": "publiee",
+      "email_dns_status": "mx_ok",
+      "email_dns_checked_at": "2026-11-09",
+      "process_hint": "marqueur de gabarit publié dans la navigation, adresse e-mail affichée inversée, deux numéros de téléphone",
+      "demo_detail": "une adresse e-mail affichée à l'endroit et un numéro unique, avec une demande de projet décrivant l'ouvrage",
+      "custom_hook": "Votre bloc contact affiche l'adresse inversée « rf.selliplasedeirellatem@tcatnoc », et le bouton de navigation porte la mention « Created with Sketch. ».",
+      "custom_subject": "Métallerie des Alpilles : votre e-mail s'affiche à l'envers",
+      "notes": "Adresse lue directement dans le lien mailto de l'icône Email (contact@metalleriedesalpilles.fr) ; seul le texte affiché du second lien est inversé. Défauts réparables sans refonte complète.",
+      "lot": "2026-11-09-lot11",
+      "discovered_at": "2026-11-09",
+      "email_status": "non_contacté",
+      "next_action": "valider le brouillon (aucun envoi : pré-vol bloqué)",
+      "scores": {
+        "site_web": {
+          "axis": "site_web",
+          "score": 5,
+          "level": "faible",
+          "reasons": [
+            "un site est déjà en ligne : pas de création à proprement parler"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "un site existe déjà : la création n'est pas le bon service"
+          ],
+          "confidence": "moyenne",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": [],
+          "evaluated_at": "2026-11-09",
+          "signal_levels": {}
+        },
+        "refonte": {
+          "axis": "refonte",
+          "score": 89,
+          "level": "fort",
+          "reasons": [
+            "site existant à moderniser",
+            "+42 site_obsolete : « Created with Sketch. » (https://metalleriedesalpilles.fr/)",
+            "+42 site_obsolete : « rf.selliplasedeirellatem%40tcatnoc » (https://metalleriedesalpilles.fr/)"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "comportement sur mobile non vérifié",
+            "une seule page observée : vérifier le parcours de contact sur une seconde page"
+          ],
+          "confidence": "moyenne",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": [],
+          "evaluated_at": "2026-11-09",
+          "signal_levels": {}
+        },
+        "ia_automatisation": {
+          "axis": "ia_automatisation",
+          "score": 0,
+          "level": "faible",
+          "reasons": [
+            "aucune preuve directe sur cet axe : score volontairement bas"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "aucun processus entrant décrit publiquement : observer comment arrivent et sont traitées les demandes (devis, réservation, dossier)",
+            "processus observé sur une seule page : confirmer sur une seconde source",
+            "le processus est affirmé dans process_hint mais aucune citation ne l'établit"
+          ],
+          "confidence": "moyenne",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": [],
+          "evaluated_at": "2026-11-09",
+          "signal_levels": {}
+        },
+        "priority": "haute",
+        "best_axis": "refonte",
+        "engine_version": "v8",
+        "evaluated_at": "2026-11-09",
+        "contactability": {
+          "email_present": true,
+          "email_verification": "verified",
+          "phone_present": true,
+          "decoded_address_unconfirmed": false,
+          "blockers": [],
+          "contactable": true
+        },
+        "opportunity_report": {
+          "automation": [],
+          "maturity": [],
+          "refonte": [],
+          "presence": []
+        }
+      },
+      "scoring_version": "v8",
+      "commercial_priority": "haute",
+      "commercial_value": 71,
+      "commercial": {
+        "value": 71,
+        "tier": "haute",
+        "signal_class": "observe",
+        "signal_class_label": "problème directement observé",
+        "relevance": "propose",
+        "relevance_factor": 1.0,
+        "matched_services": [],
+        "verified": false,
+        "base": 34,
+        "magnitude": 37,
+        "best_axis": "refonte",
+        "best_axis_score": 89,
+        "confidence": "haute",
+        "reasons": [
+          "contre-signaux explicites : 0 fort(s), 0 modéré(s), 1 faible(s) → pénalité bornée -0 (71 -> 71)",
+          "contre-signal — force faible (marqueurs : le besoin porte sur) ; délimite le besoin sans l'annuler",
+          "problème directement observé : base 34",
+          "pertinence offre : propose (×1.00)",
+          "magnitude bornée : +37 (meilleur axe refonte = 89, plafond 42)"
+        ],
+        "counter_signals": [
+          "Demandez votre devis gratuit"
+        ],
+        "counter_signal_penalty": 0,
+        "counter_signal_details": [
+          {
+            "quote": "Demandez votre devis gratuit",
+            "source_url": "https://metalleriedesalpilles.fr/",
+            "observed_at": "2026-11-09",
+            "strength": "faible",
+            "negates_need": false,
+            "fresh": true,
+            "reliable_source": true,
+            "penalty": 0,
+            "reason": "force faible (marqueurs : le besoin porte sur) ; délimite le besoin sans l'annuler"
+          }
+        ],
+        "driving_evidence": [
+          {
+            "quote": "Created with Sketch.",
+            "source_url": "https://metalleriedesalpilles.fr/",
+            "observed_at": "2026-11-09",
+            "verified_at": "2026-11-09",
+            "signal_level": "observe"
+          },
+          {
+            "quote": "rf.selliplasedeirellatem%40tcatnoc",
+            "source_url": "https://metalleriedesalpilles.fr/",
+            "observed_at": "2026-11-09",
+            "verified_at": "2026-11-09",
+            "signal_level": "observe"
+          },
+          {
+            "quote": "0974991623",
+            "source_url": "https://metalleriedesalpilles.fr/",
+            "observed_at": "2026-11-09",
+            "verified_at": "2026-11-09",
+            "signal_level": "observe"
+          },
+          {
+            "quote": "Nous disposons d’une assurance garantie décennale couvrant tous nos services.",
+            "source_url": "https://metalleriedesalpilles.fr/",
+            "observed_at": "2026-11-09",
+            "verified_at": "2026-11-09",
+            "signal_level": "observe"
+          }
+        ],
+        "contactable": true,
+        "capped_by_contactability": false,
+        "floor_applied": false,
+        "evaluated_at": "2026-11-09",
+        "engine_version": "v10-priority"
+      },
+      "priority_engine_version": "v10-priority",
+      "status": "brouillon_créé",
+      "status_crm": "qualified",
+      "tier": "haute",
+      "score": 89,
+      "justification": "contre-signaux explicites : 0 fort(s), 0 modéré(s), 1 faible(s) → pénalité bornée -0 (71 -> 71) ; contre-signal — force faible (marqueurs : le besoin porte sur) ; délimite le besoin sans l'annuler ; problème directement observé : base 34 ; pertinence offre : propose (×1.00) ; magnitude bornée : +37 (meilleur axe refonte = 89, plafond 42)",
+      "brouillon_autorise_lot11": true,
+      "brouillon_motif": "joignable, priorité haute, confiance suffisante sur l'axe porteur",
+      "history": [
+        {
+          "at": "2026-11-09",
+          "action": "fiche_creee_lot11",
+          "reason": "Structure examinée sur sources publiques ; preuves citées et datées ; trois axes v8 et priorité v10 calculés par le moteur du dépôt.",
+          "source": "https://metalleriedesalpilles.fr/"
+        },
+        {
+          "at": "2026-11-09",
+          "action": "redaction_personnalisee_lot11",
+          "reason": "Proposition en phrase complète et observation factuelle ajoutées ; sujet remis sous 70 caractères. Axes v8 et priorité v10 inchangés.",
+          "source": "https://metalleriedesalpilles.fr/"
+        },
+        {
+          "at": "2026-11-09",
+          "action": "brouillon_mis_en_file",
+          "reason": "Contrôle v4 conforme ; en attente de validation humaine. Aucun envoi.",
+          "source": "data/queue:2026-11-09-lot11-002"
+        },
+        {
+          "at": "2026-11-09",
+          "action": "brouillon_gmail_cree",
+          "reason": "Brouillon enregistré dans Gmail, non envoyé. Validation humaine requise.",
+          "source": "gmail:draft/r2207186572977723131"
+        },
+        {
+          "at": "2026-11-09",
+          "action": "statut_brouillon_cree",
+          "reason": "Brouillon Gmail existant et rapproché : statut aligné sur la convention du tableau de bord (brouillon_créé). Aucun envoi, email_status inchangé.",
+          "source": "data/history/lot11-brouillons-2026-11-09.json"
+        }
+      ],
+      "id": "m-tallerie-des-alpilles",
+      "created_at": "2026-11-09T22:16:02+00:00",
+      "updated_at": "2026-11-09T22:16:02+00:00",
+      "observation": "Un visiteur qui copie l'adresse récupère la chaîne inversée, et l'icône téléphone compose un numéro différent de celui affiché",
+      "gmail_draft_id": "r2207186572977723131",
+      "gmail_draft_message_id": "1a1c2639c4412b5b"
+    },
+    {
+      "company": "Bureau Bois Concept",
+      "website": "https://www.etudebbc.fr/",
+      "domain": "etudebbc.fr",
+      "sector": "Bureau d'études structure bois et diagnostic charpente",
+      "city": "Gap",
+      "department": "05",
+      "address": "près de Gap, Hautes-Alpes (05)",
+      "contact_name": "",
+      "contact_role": "",
+      "email": "contact@etudebbc.fr",
+      "phone": "06 08 49 32 97",
+      "source": "site_officiel",
+      "evidence": [
+        {
+          "kind": "public_need",
+          "source_url": "https://www.etudebbc.fr/",
+          "quote": "DISPONIBLE POUR DE NOUVEAUX PROJETS",
+          "observed_at": "2026-11-09",
+          "detail": "L'entreprise déclare publiquement chercher de nouveaux projets : besoin de flux commercial exprimé par elle-même.",
+          "source_type": "site_officiel",
+          "reliability": "haute",
+          "verified_at": "2026-11-09",
+          "observed": true,
+          "signal_level": "exprime"
+        },
+        {
+          "kind": "parcours_incomplet",
+          "source_url": "https://www.etudebbc.fr/contactus",
+          "quote": "Question",
+          "observed_at": "2026-11-09",
+          "detail": "Le formulaire de contact comporte Nom, Numéro de téléphone, E-mail, Société, Sujet et Question. Aucun champ ne qualifie la demande technique (type d'ouvrage, portée, essence, mission EXE/PAC ou diagnostic), alors que ce sont les éléments que le bureau d'études doit connaître pour chiffrer.",
+          "source_type": "site_officiel",
+          "reliability": "haute",
+          "verified_at": "2026-11-09",
+          "observed": true,
+          "signal_level": "observe"
+        },
+        {
+          "kind": "site_obsolete",
+          "source_url": "https://www.etudebbc.fr/contactus",
+          "quote": "Contacter Le GIE Tétraèdre",
+          "observed_at": "2026-11-09",
+          "detail": "Le titre de la page contact est « Contacter Le GIE Tétraèdre » alors que la page affiche « Eurl Bureau Bois Concept » : titre porté d'une autre entité, visible dans l'onglet et les résultats de recherche.",
+          "source_type": "site_officiel",
+          "reliability": "haute",
+          "verified_at": "2026-11-09",
+          "observed": true,
+          "signal_level": "observe"
+        },
+        {
+          "kind": "signal_confiance",
+          "source_url": "https://www.etudebbc.fr/",
+          "quote": "Chantier SDIS Sisteron",
+          "observed_at": "2026-11-09",
+          "detail": "Réalisations récentes et datées publiées, dont des chantiers 2025 (SDIS Sisteron, flèche de La Roche des Arnauds, chapelle de Breil-sur-Roya) : activité vérifiable et à jour.",
+          "source_type": "site_officiel",
+          "reliability": "haute",
+          "verified_at": "2026-11-09",
+          "observed": true,
+          "signal_level": "observe"
+        },
+        {
+          "kind": "maturite_existante",
+          "source_url": "https://www.etudebbc.fr/",
+          "quote": "Nos études",
+          "observed_at": "2026-11-09",
+          "detail": "Le site est récent, sous Odoo, avec un portfolio riche et à jour : la refonte globale n'est pas justifiée. Seul le parcours de demande et le titre de page sont à corriger.",
+          "source_type": "site_officiel",
+          "reliability": "haute",
+          "verified_at": "2026-11-09",
+          "observed": true,
+          "signal_level": "observe"
+        }
+      ],
+      "publication_date": "",
+      "need": "automatisation",
+      "needs": [
+        "automatisation",
+        "refonte"
+      ],
+      "recommended_service": "Je peux ajouter à votre formulaire les quelques champs qui décrivent l'ouvrage, pour que la demande arrive déjà chiffrable",
+      "email_verification": "verified",
+      "email_verification_basis": "adresse lue directement sur une page officielle le 2026-11-09 ; MX du domaine vérifié le même jour (le MX ne prouve pas l'existence de la boîte)",
+      "email_provenance": "publiee",
+      "email_dns_status": "mx_ok",
+      "email_dns_checked_at": "2026-11-09",
+      "process_hint": "formulaire de contact générique sans champ décrivant l'ouvrage bois",
+      "demo_detail": "une demande précisant type d'ouvrage, portée, essence et mission (EXE, PAC ou diagnostic), reprise telle quelle dans l'étude",
+      "custom_hook": "Votre accueil affiche « DISPONIBLE POUR DE NOUVEAUX PROJETS », et votre formulaire demande un Sujet et une Question, sans décrire l'ouvrage.",
+      "custom_subject": "Bureau Bois Concept : disponible, mais sans champ projet",
+      "notes": "Besoin commercial exprimé + défaut de parcours qualifiable. Bon candidat.",
+      "lot": "2026-11-09-lot11",
+      "discovered_at": "2026-11-09",
+      "email_status": "non_contacté",
+      "next_action": "valider le brouillon (aucun envoi : pré-vol bloqué)",
+      "scores": {
+        "site_web": {
+          "axis": "site_web",
+          "score": 5,
+          "level": "faible",
+          "reasons": [
+            "un site est déjà en ligne : pas de création à proprement parler"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "un site existe déjà : la création n'est pas le bon service"
+          ],
+          "confidence": "haute",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": [],
+          "evaluated_at": "2026-11-09",
+          "signal_levels": {}
+        },
+        "refonte": {
+          "axis": "refonte",
+          "score": 81,
+          "level": "fort",
+          "reasons": [
+            "site existant à moderniser",
+            "+42 site_obsolete : « Contacter Le GIE Tétraèdre » (https://www.etudebbc.fr/contactus)",
+            "+34 parcours_incomplet : « Question » (https://www.etudebbc.fr/contactus)"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "comportement sur mobile non vérifié",
+            "une seule page observée : vérifier le parcours de contact sur une seconde page"
+          ],
+          "confidence": "moyenne",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": [],
+          "evaluated_at": "2026-11-09",
+          "signal_levels": {}
+        },
+        "ia_automatisation": {
+          "axis": "ia_automatisation",
+          "score": 12,
+          "level": "faible",
+          "reasons": [
+            "+12 processus manuel signalé par le chercheur (type de preuve seul, volontairement plafonné)"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "aucun processus entrant décrit publiquement : observer comment arrivent et sont traitées les demandes (devis, réservation, dossier)",
+            "processus observé sur une seule page : confirmer sur une seconde source",
+            "le processus est affirmé dans process_hint mais aucune citation ne l'établit"
+          ],
+          "confidence": "moyenne",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": [],
+          "evaluated_at": "2026-11-09",
+          "signal_levels": {}
+        },
+        "priority": "haute",
+        "best_axis": "refonte",
+        "engine_version": "v8",
+        "evaluated_at": "2026-11-09",
+        "contactability": {
+          "email_present": true,
+          "email_verification": "verified",
+          "phone_present": true,
+          "decoded_address_unconfirmed": false,
+          "blockers": [],
+          "contactable": true
+        },
+        "opportunity_report": {
+          "automation": [],
+          "maturity": [],
+          "refonte": [],
+          "presence": []
+        }
+      },
+      "scoring_version": "v8",
+      "commercial_priority": "haute",
+      "commercial_value": 92,
+      "commercial": {
+        "value": 92,
+        "tier": "haute",
+        "signal_class": "exprime_verifie",
+        "signal_class_label": "besoin exprimé et vérifié",
+        "relevance": "propose",
+        "relevance_factor": 1.0,
+        "matched_services": [
+          "ia_automatisation"
+        ],
+        "verified": true,
+        "base": 58,
+        "magnitude": 34,
+        "best_axis": "refonte",
+        "best_axis_score": 81,
+        "confidence": "haute",
+        "reasons": [
+          "contre-signaux explicites : 0 fort(s), 0 modéré(s), 1 faible(s) → pénalité bornée -0 (92 -> 92)",
+          "contre-signal — force faible (aucun marqueur explicite : prudence) ; délimite le besoin sans l'annuler",
+          "besoin exprimé et vérifié : base 58",
+          "pertinence offre : propose (×1.00) — services concernés : ia_automatisation",
+          "magnitude bornée : +34 (meilleur axe refonte = 81, plafond 42)"
+        ],
+        "counter_signals": [
+          "Nos études"
+        ],
+        "counter_signal_penalty": 0,
+        "counter_signal_details": [
+          {
+            "quote": "Nos études",
+            "source_url": "https://www.etudebbc.fr/",
+            "observed_at": "2026-11-09",
+            "strength": "faible",
+            "negates_need": false,
+            "fresh": true,
+            "reliable_source": true,
+            "penalty": 0,
+            "reason": "force faible (aucun marqueur explicite : prudence) ; délimite le besoin sans l'annuler"
+          }
+        ],
+        "driving_evidence": [
+          {
+            "quote": "DISPONIBLE POUR DE NOUVEAUX PROJETS",
+            "source_url": "https://www.etudebbc.fr/",
+            "observed_at": "2026-11-09",
+            "verified_at": "2026-11-09",
+            "signal_level": "exprime"
+          }
+        ],
+        "contactable": true,
+        "capped_by_contactability": false,
+        "floor_applied": false,
+        "evaluated_at": "2026-11-09",
+        "engine_version": "v10-priority"
+      },
+      "priority_engine_version": "v10-priority",
+      "status": "brouillon_créé",
+      "status_crm": "qualified",
+      "tier": "haute",
+      "score": 81,
+      "justification": "contre-signaux explicites : 0 fort(s), 0 modéré(s), 1 faible(s) → pénalité bornée -0 (92 -> 92) ; contre-signal — force faible (aucun marqueur explicite : prudence) ; délimite le besoin sans l'annuler ; besoin exprimé et vérifié : base 58 ; pertinence offre : propose (×1.00) — services concernés : ia_automatisation ; magnitude bornée : +34 (meilleur axe refonte = 81, plafond 42)",
+      "brouillon_autorise_lot11": true,
+      "brouillon_motif": "joignable, priorité haute, confiance suffisante sur l'axe porteur",
+      "history": [
+        {
+          "at": "2026-11-09",
+          "action": "fiche_creee_lot11",
+          "reason": "Structure examinée sur sources publiques ; preuves citées et datées ; trois axes v8 et priorité v10 calculés par le moteur du dépôt.",
+          "source": "https://www.etudebbc.fr/"
+        },
+        {
+          "at": "2026-11-09",
+          "action": "redaction_personnalisee_lot11",
+          "reason": "Proposition en phrase complète et observation factuelle ajoutées ; sujet remis sous 70 caractères. Axes v8 et priorité v10 inchangés.",
+          "source": "https://www.etudebbc.fr/"
+        },
+        {
+          "at": "2026-11-09",
+          "action": "brouillon_mis_en_file",
+          "reason": "Contrôle v4 conforme ; en attente de validation humaine. Aucun envoi.",
+          "source": "data/queue:2026-11-09-lot11-003"
+        },
+        {
+          "at": "2026-11-09",
+          "action": "brouillon_gmail_cree",
+          "reason": "Brouillon enregistré dans Gmail, non envoyé. Validation humaine requise.",
+          "source": "gmail:draft/r8619847980088428557"
+        },
+        {
+          "at": "2026-11-09",
+          "action": "statut_brouillon_cree",
+          "reason": "Brouillon Gmail existant et rapproché : statut aligné sur la convention du tableau de bord (brouillon_créé). Aucun envoi, email_status inchangé.",
+          "source": "data/history/lot11-brouillons-2026-11-09.json"
+        }
+      ],
+      "id": "bureau-bois-concept",
+      "created_at": "2026-11-09T22:16:02+00:00",
+      "updated_at": "2026-11-09T22:16:02+00:00",
+      "observation": "Le titre de cette page contact est « Contacter Le GIE Tétraèdre », une autre entité que l'EURL affichée",
+      "gmail_draft_id": "r8619847980088428557",
+      "gmail_draft_message_id": "1a1c263ab077a895"
+    },
+    {
+      "company": "La Conserverie des Producteurs",
+      "website": "https://conserverie-producteurs.fr/",
+      "domain": "conserverie-producteurs.fr",
+      "sector": "Conserverie artisanale — transformation à façon",
+      "city": "Termes-d'Armagnac",
+      "department": "32",
+      "address": "505 rue de la Colline, 32400 Termes-d'Armagnac",
+      "contact_name": "Yves",
+      "contact_role": "Gérant",
+      "email": "conserverie.producteurs@gmail.com",
+      "phone": "06 10 85 46 80",
+      "source": "site_officiel",
+      "evidence": [
+        {
+          "kind": "parcours_incomplet",
+          "source_url": "https://conserverie-producteurs.fr/",
+          "quote": "N’hésitez à me contacter pour adapter la formule",
+          "observed_at": "2026-11-09",
+          "detail": "Les trois formules sont décrites mais aucune demande structurée n'existe : ni volume, ni recette, ni conditionnement, ni créneau d'atelier ne sont collectés avant l'échange.",
+          "source_type": "site_officiel",
+          "reliability": "haute",
+          "verified_at": "2026-11-09",
+          "observed": true,
+          "signal_level": "observe"
+        },
+        {
+          "kind": "processus_manuel",
+          "source_url": "https://conserverie-producteurs.fr/",
+          "quote": "Celle-ci vous sera réservée avec tous le matériels inclus",
+          "observed_at": "2026-11-09",
+          "detail": "La location de la conserverie implique une réservation de créneau, annoncée sans calendrier ni demande de réservation : la réservation se fait par contact direct.",
+          "source_type": "site_officiel",
+          "reliability": "haute",
+          "verified_at": "2026-11-09",
+          "observed": true,
+          "signal_level": "observe"
+        },
+        {
+          "kind": "processus_manuel",
+          "source_url": "https://conserverie-producteurs.fr/",
+          "quote": "je peux m’approvisionner sous 2 semaines sur toutes les tailles",
+          "observed_at": "2026-11-09",
+          "detail": "Les bocaux sont listés avec prix, mais le stock n'est pas consultable : chaque demande de taille particulière déclenche un échange puis un approvisionnement de deux semaines.",
+          "source_type": "site_officiel",
+          "reliability": "haute",
+          "verified_at": "2026-11-09",
+          "observed": true,
+          "signal_level": "observe"
+        },
+        {
+          "kind": "signal_confiance",
+          "source_url": "https://conserverie-producteurs.fr/",
+          "quote": "Agrément : FR 32 443 104 CE",
+          "observed_at": "2026-11-09",
+          "detail": "Agrément sanitaire publié, SIREN 978 037 604 00011, gérant nommé (Yves CHAMPOMIER), adresse complète. Traçabilité et barèmes de stérilisation validés par un prestataire externe : obligations réglementaires réelles.",
+          "source_type": "site_officiel",
+          "reliability": "haute",
+          "verified_at": "2026-11-09",
+          "observed": true,
+          "signal_level": "observe"
+        },
+        {
+          "kind": "maturite_existante",
+          "source_url": "https://conserverie-producteurs.fr/",
+          "quote": "Twist off 130ml",
+          "observed_at": "2026-11-09",
+          "detail": "Les prix des bocaux sont déjà publiés (0,39 € à 1,15 €) : l'entreprise sait publier une grille. Le manque porte sur la demande de prestation, pas sur la transparence tarifaire.",
+          "source_type": "site_officiel",
+          "reliability": "haute",
+          "verified_at": "2026-11-09",
+          "observed": true,
+          "signal_level": "observe"
+        }
+      ],
+      "publication_date": "",
+      "need": "automatisation",
+      "needs": [
+        "automatisation",
+        "refonte"
+      ],
+      "recommended_service": "une demande de lot qui précise la recette, le volume et le conditionnement avant l'échange",
+      "email_verification": "verified",
+      "email_verification_basis": "adresse lue directement sur une page officielle le 2026-11-09 ; MX du domaine vérifié le même jour (le MX ne prouve pas l'existence de la boîte)",
+      "email_provenance": "publiee",
+      "email_dns_status": "mx_ok",
+      "email_dns_checked_at": "2026-11-09",
+      "process_hint": "trois formules de prestation sans tarif ni demande structurée, réservation d'atelier par simple contact",
+      "demo_detail": "une demande indiquant produit, quantité, bocal et formule souhaitée, avec le créneau d'atelier demandé",
+      "custom_hook": "Vous proposez trois formules — partielle, complète, location d'atelier — et chaque demande passe par « n'hésitez pas à me contacter ».",
+      "custom_subject": "Conserverie des Producteurs : trois formules, aucune demande de lot",
+      "notes": "Micro-entreprise réelle, obligations de traçabilité qui rendent la demande structurée utile.",
+      "lot": "2026-11-09-lot11",
+      "discovered_at": "2026-11-09",
+      "email_status": "non_contacté",
+      "next_action": "",
+      "scores": {
+        "site_web": {
+          "axis": "site_web",
+          "score": 5,
+          "level": "faible",
+          "reasons": [
+            "un site est déjà en ligne : pas de création à proprement parler"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "un site existe déjà : la création n'est pas le bon service"
+          ],
+          "confidence": "moyenne",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": [],
+          "evaluated_at": "2026-11-09",
+          "signal_levels": {}
+        },
+        "refonte": {
+          "axis": "refonte",
+          "score": 39,
+          "level": "faible",
+          "reasons": [
+            "site existant à moderniser",
+            "+34 parcours_incomplet : « N’hésitez à me contacter pour adapter la formule » (https://conserverie-producteurs.fr/)"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "comportement sur mobile non vérifié",
+            "une seule page observée : vérifier le parcours de contact sur une seconde page"
+          ],
+          "confidence": "moyenne",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": [],
+          "evaluated_at": "2026-11-09",
+          "signal_levels": {}
+        },
+        "ia_automatisation": {
+          "axis": "ia_automatisation",
+          "score": 12,
+          "level": "faible",
+          "reasons": [
+            "+12 processus manuel signalé par le chercheur (type de preuve seul, volontairement plafonné)"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "aucun processus entrant décrit publiquement : observer comment arrivent et sont traitées les demandes (devis, réservation, dossier)",
+            "processus observé sur une seule page : confirmer sur une seconde source",
+            "le processus est affirmé dans process_hint mais aucune citation ne l'établit"
+          ],
+          "confidence": "moyenne",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": [],
+          "evaluated_at": "2026-11-09",
+          "signal_levels": {}
+        },
+        "priority": "basse",
+        "best_axis": "refonte",
+        "engine_version": "v8",
+        "evaluated_at": "2026-11-09",
+        "contactability": {
+          "email_present": true,
+          "email_verification": "verified",
+          "phone_present": true,
+          "decoded_address_unconfirmed": false,
+          "blockers": [],
+          "contactable": true
+        },
+        "opportunity_report": {
+          "automation": [],
+          "maturity": [],
+          "refonte": [],
+          "presence": []
+        }
+      },
+      "scoring_version": "v8",
+      "commercial_priority": "moyenne",
+      "commercial_value": 50,
+      "commercial": {
+        "value": 50,
+        "tier": "moyenne",
+        "signal_class": "observe",
+        "signal_class_label": "problème directement observé",
+        "relevance": "propose",
+        "relevance_factor": 1.0,
+        "matched_services": [],
+        "verified": false,
+        "base": 34,
+        "magnitude": 16,
+        "best_axis": "refonte",
+        "best_axis_score": 39,
+        "confidence": "haute",
+        "reasons": [
+          "contre-signaux explicites : 0 fort(s), 0 modéré(s), 1 faible(s) → pénalité bornée -0 (50 -> 50)",
+          "contre-signal — force faible (aucun marqueur explicite : prudence) ; délimite le besoin sans l'annuler",
+          "problème directement observé : base 34",
+          "pertinence offre : propose (×1.00)",
+          "magnitude bornée : +16 (meilleur axe refonte = 39, plafond 42)"
+        ],
+        "counter_signals": [
+          "Twist off 130ml"
+        ],
+        "counter_signal_penalty": 0,
+        "counter_signal_details": [
+          {
+            "quote": "Twist off 130ml",
+            "source_url": "https://conserverie-producteurs.fr/",
+            "observed_at": "2026-11-09",
+            "strength": "faible",
+            "negates_need": false,
+            "fresh": true,
+            "reliable_source": true,
+            "penalty": 0,
+            "reason": "force faible (aucun marqueur explicite : prudence) ; délimite le besoin sans l'annuler"
+          }
+        ],
+        "driving_evidence": [
+          {
+            "quote": "N’hésitez à me contacter pour adapter la formule",
+            "source_url": "https://conserverie-producteurs.fr/",
+            "observed_at": "2026-11-09",
+            "verified_at": "2026-11-09",
+            "signal_level": "observe"
+          },
+          {
+            "quote": "Celle-ci vous sera réservée avec tous le matériels inclus",
+            "source_url": "https://conserverie-producteurs.fr/",
+            "observed_at": "2026-11-09",
+            "verified_at": "2026-11-09",
+            "signal_level": "observe"
+          },
+          {
+            "quote": "je peux m’approvisionner sous 2 semaines sur toutes les tailles",
+            "source_url": "https://conserverie-producteurs.fr/",
+            "observed_at": "2026-11-09",
+            "verified_at": "2026-11-09",
+            "signal_level": "observe"
+          },
+          {
+            "quote": "Agrément : FR 32 443 104 CE",
+            "source_url": "https://conserverie-producteurs.fr/",
+            "observed_at": "2026-11-09",
+            "verified_at": "2026-11-09",
+            "signal_level": "observe"
+          }
+        ],
+        "contactable": true,
+        "capped_by_contactability": false,
+        "floor_applied": false,
+        "evaluated_at": "2026-11-09",
+        "engine_version": "v10-priority"
+      },
+      "priority_engine_version": "v10-priority",
+      "status": "nouveau",
+      "status_crm": "qualified",
+      "tier": "moyenne",
+      "score": 39,
+      "justification": "contre-signaux explicites : 0 fort(s), 0 modéré(s), 1 faible(s) → pénalité bornée -0 (50 -> 50) ; contre-signal — force faible (aucun marqueur explicite : prudence) ; délimite le besoin sans l'annuler ; problème directement observé : base 34 ; pertinence offre : propose (×1.00) ; magnitude bornée : +16 (meilleur axe refonte = 39, plafond 42)",
+      "brouillon_autorise_lot11": false,
+      "brouillon_motif": "priorité moyenne",
+      "history": [
+        {
+          "at": "2026-11-09",
+          "action": "fiche_creee_lot11",
+          "reason": "Structure examinée sur sources publiques ; preuves citées et datées ; trois axes v8 et priorité v10 calculés par le moteur du dépôt.",
+          "source": "https://conserverie-producteurs.fr/"
+        }
+      ],
+      "id": "la-conserverie-des-producteurs",
+      "created_at": "2026-11-09T22:16:02+00:00",
+      "updated_at": "2026-11-09T22:16:02+00:00"
+    },
+    {
+      "company": "CS Dépannages",
+      "website": "https://www.cs-depannages.com/",
+      "domain": "cs-depannages.com",
+      "sector": "Vitrerie, miroiterie, serrurerie et dépannage",
+      "city": "Reims",
+      "department": "51",
+      "address": "36 rue Clovis Chezel, 51100 Reims",
+      "contact_name": "",
+      "contact_role": "",
+      "email": "steph.csdep@gmail.com",
+      "phone": "07 83 30 73 70",
+      "source": "site_officiel",
+      "evidence": [
+        {
+          "kind": "parcours_incomplet",
+          "source_url": "https://www.cs-depannages.com/contact",
+          "quote": "Code de sécurité",
+          "observed_at": "2026-11-09",
+          "detail": "Le formulaire demande Nom, Prénom, Adresse, Code Postal, Ville, Téléphone, E-mail, Sujet, Message et un code de sécurité. Aucun champ ne qualifie l'intervention (type de vitrage, dimensions, effraction, degré d'urgence) alors que l'activité est le dépannage d'urgence.",
+          "source_type": "site_officiel",
+          "reliability": "haute",
+          "verified_at": "2026-11-09",
+          "observed": true,
+          "signal_level": "observe"
+        },
+        {
+          "kind": "site_obsolete",
+          "source_url": "https://www.cs-depannages.com/contact",
+          "quote": "Restez en contact  en vous inscrivant à notre newsletter",
+          "observed_at": "2026-11-09",
+          "detail": "Un bloc d'inscription à newsletter est affiché immédiatement au-dessus du formulaire de contact, sur la page où un client en urgence cherche à joindre l'entreprise.",
+          "source_type": "site_officiel",
+          "reliability": "haute",
+          "verified_at": "2026-11-09",
+          "observed": true,
+          "signal_level": "observe"
+        },
+        {
+          "kind": "processus_manuel",
+          "source_url": "https://www.cs-depannages.com/contact",
+          "quote": "ASTREINTE 24h/24 ET 7J/7",
+          "observed_at": "2026-11-09",
+          "detail": "L'astreinte est annoncée mais la seule entrée écrite est un formulaire générique : chaque demande doit être lue puis requalifiée par téléphone.",
+          "source_type": "site_officiel",
+          "reliability": "haute",
+          "verified_at": "2026-11-09",
+          "observed": true,
+          "signal_level": "observe"
+        },
+        {
+          "kind": "website_gap",
+          "source_url": "https://www.cs-depannages-reims.com/vitrerie",
+          "quote": "07 83 30 73 70",
+          "observed_at": "2026-11-09",
+          "detail": "Deux domaines distincts pour la même activité et le même téléphone (cs-depannages.com et cs-depannages-reims.com) : référencement dispersé.",
+          "source_type": "site_officiel",
+          "reliability": "haute",
+          "verified_at": "2026-11-09",
+          "observed": true,
+          "signal_level": "observe"
+        },
+        {
+          "kind": "signal_confiance",
+          "source_url": "https://www.cs-depannages.com/contact",
+          "quote": "36, rue Clovis Chezel",
+          "observed_at": "2026-11-09",
+          "detail": "Adresse complète, téléphone mobile et e-mail publiés, page Facebook active, prestations détaillées (vitrines sécurisées de bijouterie, mise en sécurité après effraction).",
+          "source_type": "site_officiel",
+          "reliability": "haute",
+          "verified_at": "2026-11-09",
+          "observed": true,
+          "signal_level": "observe"
+        }
+      ],
+      "publication_date": "",
+      "need": "refonte",
+      "needs": [
+        "refonte",
+        "automatisation"
+      ],
+      "recommended_service": "une demande de dépannage qui décrit le vitrage et le degré d'urgence dès le premier message",
+      "email_verification": "verified",
+      "email_verification_basis": "adresse lue directement sur une page officielle le 2026-11-09 ; MX du domaine vérifié le même jour (le MX ne prouve pas l'existence de la boîte)",
+      "email_provenance": "publiee",
+      "email_dns_status": "mx_ok",
+      "email_dns_checked_at": "2026-11-09",
+      "process_hint": "formulaire de contact sans champ d'urgence ni nature de vitrage, bloc newsletter mélangé",
+      "demo_detail": "une demande indiquant type de vitrage, dimensions approximatives, commune et urgence, prête à être priorisée",
+      "custom_hook": "Vous annoncez une astreinte 24h/24 et 7j/7, mais votre formulaire demande l'adresse postale et un sujet, sans champ sur l'urgence ni le vitrage.",
+      "custom_subject": "CS Dépannages : votre formulaire ne demande pas s'il y a urgence",
+      "notes": "Friction claire entre l'urgence revendiquée et un formulaire administratif.",
+      "lot": "2026-11-09-lot11",
+      "discovered_at": "2026-11-09",
+      "email_status": "non_contacté",
+      "next_action": "",
+      "scores": {
+        "site_web": {
+          "axis": "site_web",
+          "score": 5,
+          "level": "faible",
+          "reasons": [
+            "un site est déjà en ligne : pas de création à proprement parler"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "un site existe déjà : la création n'est pas le bon service"
+          ],
+          "confidence": "haute",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": [],
+          "evaluated_at": "2026-11-09",
+          "signal_levels": {}
+        },
+        "refonte": {
+          "axis": "refonte",
+          "score": 81,
+          "level": "fort",
+          "reasons": [
+            "site existant à moderniser",
+            "+42 site_obsolete : « Restez en contact  en vous inscrivant à notre newsletter » (https://www.cs-depannages.com/contact)",
+            "+34 parcours_incomplet : « Code de sécurité » (https://www.cs-depannages.com/contact)"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "comportement sur mobile non vérifié"
+          ],
+          "confidence": "moyenne",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": [],
+          "evaluated_at": "2026-11-09",
+          "signal_levels": {}
+        },
+        "ia_automatisation": {
+          "axis": "ia_automatisation",
+          "score": 12,
+          "level": "faible",
+          "reasons": [
+            "+12 processus manuel signalé par le chercheur (type de preuve seul, volontairement plafonné)"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "aucun processus entrant décrit publiquement : observer comment arrivent et sont traitées les demandes (devis, réservation, dossier)",
+            "ce qui est déjà automatisé n'est pas documenté (réservation en ligne, paiement, espace client, réponse automatique)",
+            "processus observé sur une seule page : confirmer sur une seconde source",
+            "le processus est affirmé dans process_hint mais aucune citation ne l'établit"
+          ],
+          "confidence": "moyenne",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": [],
+          "evaluated_at": "2026-11-09",
+          "signal_levels": {}
+        },
+        "priority": "haute",
+        "best_axis": "refonte",
+        "engine_version": "v8",
+        "evaluated_at": "2026-11-09",
+        "contactability": {
+          "email_present": true,
+          "email_verification": "verified",
+          "phone_present": true,
+          "decoded_address_unconfirmed": false,
+          "blockers": [],
+          "contactable": true
+        },
+        "opportunity_report": {
+          "automation": [],
+          "maturity": [],
+          "refonte": [],
+          "presence": []
+        }
+      },
+      "scoring_version": "v8",
+      "commercial_priority": "moyenne",
+      "commercial_value": 68,
+      "commercial": {
+        "value": 68,
+        "tier": "moyenne",
+        "signal_class": "observe",
+        "signal_class_label": "problème directement observé",
+        "relevance": "propose",
+        "relevance_factor": 1.0,
+        "matched_services": [],
+        "verified": false,
+        "base": 34,
+        "magnitude": 34,
+        "best_axis": "refonte",
+        "best_axis_score": 81,
+        "confidence": "haute",
+        "reasons": [
+          "problème directement observé : base 34",
+          "pertinence offre : propose (×1.00)",
+          "magnitude bornée : +34 (meilleur axe refonte = 81, plafond 42)"
+        ],
+        "counter_signals": [],
+        "counter_signal_penalty": 0,
+        "counter_signal_details": [],
+        "driving_evidence": [
+          {
+            "quote": "Code de sécurité",
+            "source_url": "https://www.cs-depannages.com/contact",
+            "observed_at": "2026-11-09",
+            "verified_at": "2026-11-09",
+            "signal_level": "observe"
+          },
+          {
+            "quote": "Restez en contact  en vous inscrivant à notre newsletter",
+            "source_url": "https://www.cs-depannages.com/contact",
+            "observed_at": "2026-11-09",
+            "verified_at": "2026-11-09",
+            "signal_level": "observe"
+          },
+          {
+            "quote": "ASTREINTE 24h/24 ET 7J/7",
+            "source_url": "https://www.cs-depannages.com/contact",
+            "observed_at": "2026-11-09",
+            "verified_at": "2026-11-09",
+            "signal_level": "observe"
+          },
+          {
+            "quote": "07 83 30 73 70",
+            "source_url": "https://www.cs-depannages-reims.com/vitrerie",
+            "observed_at": "2026-11-09",
+            "verified_at": "2026-11-09",
+            "signal_level": "observe"
+          }
+        ],
+        "contactable": true,
+        "capped_by_contactability": false,
+        "floor_applied": false,
+        "evaluated_at": "2026-11-09",
+        "engine_version": "v10-priority"
+      },
+      "priority_engine_version": "v10-priority",
+      "status": "nouveau",
+      "status_crm": "qualified",
+      "tier": "moyenne",
+      "score": 81,
+      "justification": "problème directement observé : base 34 ; pertinence offre : propose (×1.00) ; magnitude bornée : +34 (meilleur axe refonte = 81, plafond 42)",
+      "brouillon_autorise_lot11": false,
+      "brouillon_motif": "priorité moyenne",
+      "history": [
+        {
+          "at": "2026-11-09",
+          "action": "fiche_creee_lot11",
+          "reason": "Structure examinée sur sources publiques ; preuves citées et datées ; trois axes v8 et priorité v10 calculés par le moteur du dépôt.",
+          "source": "https://www.cs-depannages.com/"
+        }
+      ],
+      "id": "cs-d-pannages",
+      "created_at": "2026-11-09T22:16:02+00:00",
+      "updated_at": "2026-11-09T22:16:02+00:00"
+    },
+    {
+      "company": "ETS Frézouls",
+      "website": "https://www.frezouls.fr/",
+      "domain": "frezouls.fr",
+      "sector": "Électricité, alarmes, vidéosurveillance et contrôle d'accès",
+      "city": "Albi",
+      "department": "81",
+      "address": "2 rue Alan Turing, Zone Innoprod, 81000 Albi",
+      "contact_name": "",
+      "contact_role": "",
+      "email": "contact@frezouls.fr",
+      "phone": "05 63 47 55 55",
+      "source": "site_officiel",
+      "evidence": [
+        {
+          "kind": "site_obsolete",
+          "source_url": "https://www.frezouls.fr/controle-dacces/",
+          "quote": "http://frezouls.fr/controle-dacces/interphone/",
+          "observed_at": "2026-11-09",
+          "detail": "Les deux liens « En savoir + » de la page contrôle d'accès sont écrits en http absolu, alors que la page est servie en https : le visiteur est renvoyé vers une URL non sécurisée.",
+          "source_type": "site_officiel",
+          "reliability": "haute",
+          "verified_at": "2026-11-09",
+          "observed": true,
+          "signal_level": "observe"
+        },
+        {
+          "kind": "site_obsolete",
+          "source_url": "https://www.frezouls.fr/controle-dacces/",
+          "quote": "wp-content/uploads/2018/12/interphone-petite.jpg",
+          "observed_at": "2026-11-09",
+          "detail": "Les images et le logo de la page sont tous datés d'avril et décembre 2018 dans leurs chemins : aucun renouvellement visible depuis.",
+          "source_type": "site_officiel",
+          "reliability": "haute",
+          "verified_at": "2026-11-09",
+          "observed": true,
+          "signal_level": "observe"
+        },
+        {
+          "kind": "parcours_incomplet",
+          "source_url": "https://www.frezouls.fr/controle-dacces/",
+          "quote": "En savoir +",
+          "observed_at": "2026-11-09",
+          "detail": "La page contrôle d'accès, qui s'adresse explicitement aux professionnels pour leurs bâtiments, ne propose aucun formulaire : uniquement des liens vers d'autres pages.",
+          "source_type": "site_officiel",
+          "reliability": "haute",
+          "verified_at": "2026-11-09",
+          "observed": true,
+          "signal_level": "observe"
+        },
+        {
+          "kind": "signal_confiance",
+          "source_url": "https://www.frezouls.fr/contact/",
+          "quote": "2 rue Alan Turing Zone Innoprod",
+          "observed_at": "2026-11-09",
+          "detail": "Adresse complète, téléphone fixe, e-mail et horaires publiés. Garantie décennale et biennale annoncées.",
+          "source_type": "site_officiel",
+          "reliability": "haute",
+          "verified_at": "2026-11-09",
+          "observed": true,
+          "signal_level": "observe"
+        },
+        {
+          "kind": "maturite_existante",
+          "source_url": "https://www.frezouls.fr/contact/",
+          "quote": "captcha",
+          "observed_at": "2026-11-09",
+          "detail": "Un formulaire avec captcha existe sur la page contact : l'entreprise sait collecter une demande. Le manque est la qualification sur les pages métier.",
+          "source_type": "site_officiel",
+          "reliability": "haute",
+          "verified_at": "2026-11-09",
+          "observed": true,
+          "signal_level": "observe"
+        }
+      ],
+      "publication_date": "",
+      "need": "refonte",
+      "needs": [
+        "refonte"
+      ],
+      "recommended_service": "Je peux remettre les liens internes en https et ajouter sur les pages métier un formulaire qui qualifie le bâtiment",
+      "email_verification": "verified",
+      "email_verification_basis": "adresse lue directement sur une page officielle le 2026-11-09 ; MX du domaine vérifié le même jour (le MX ne prouve pas l'existence de la boîte)",
+      "email_provenance": "publiee",
+      "email_dns_status": "mx_ok",
+      "email_dns_checked_at": "2026-11-09",
+      "process_hint": "liens internes en http sur un site servi en https, ressources datées de 2018",
+      "demo_detail": "une page contrôle d'accès dont les liens internes restent en https et dont le formulaire qualifie le bâtiment",
+      "custom_hook": "Sur votre page Contrôle d'accès, les liens « En savoir + » vers Interphone et Digicode sont en http://frezouls.fr alors que le site est servi en https.",
+      "custom_subject": "Frézouls : vos liens « En savoir + » repassent en http",
+      "notes": "Cible refonte. Ne pas proposer d'agent IA : activité de pose et dépannage.",
+      "lot": "2026-11-09-lot11",
+      "discovered_at": "2026-11-09",
+      "email_status": "non_contacté",
+      "next_action": "valider le brouillon (aucun envoi : pré-vol bloqué)",
+      "scores": {
+        "site_web": {
+          "axis": "site_web",
+          "score": 5,
+          "level": "faible",
+          "reasons": [
+            "un site est déjà en ligne : pas de création à proprement parler"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "un site existe déjà : la création n'est pas le bon service"
+          ],
+          "confidence": "haute",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": [],
+          "evaluated_at": "2026-11-09",
+          "signal_levels": {}
+        },
+        "refonte": {
+          "axis": "refonte",
+          "score": 89,
+          "level": "fort",
+          "reasons": [
+            "site existant à moderniser",
+            "+42 site_obsolete : « http://frezouls.fr/controle-dacces/interphone/ » (https://www.frezouls.fr/controle-dacces/)",
+            "+42 site_obsolete : « wp-content/uploads/2018/12/interphone-petite.jpg » (https://www.frezouls.fr/controle-dacces/)"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "comportement sur mobile non vérifié",
+            "une seule page observée : vérifier le parcours de contact sur une seconde page"
+          ],
+          "confidence": "moyenne",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": [],
+          "evaluated_at": "2026-11-09",
+          "signal_levels": {}
+        },
+        "ia_automatisation": {
+          "axis": "ia_automatisation",
+          "score": 12,
+          "level": "faible",
+          "reasons": [
+            "+12 processus manuel signalé par le chercheur (type de preuve seul, volontairement plafonné)"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "aucun processus entrant décrit publiquement : observer comment arrivent et sont traitées les demandes (devis, réservation, dossier)",
+            "processus observé sur une seule page : confirmer sur une seconde source",
+            "le processus est affirmé dans process_hint mais aucune citation ne l'établit"
+          ],
+          "confidence": "moyenne",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": [],
+          "evaluated_at": "2026-11-09",
+          "signal_levels": {}
+        },
+        "priority": "haute",
+        "best_axis": "refonte",
+        "engine_version": "v8",
+        "evaluated_at": "2026-11-09",
+        "contactability": {
+          "email_present": true,
+          "email_verification": "verified",
+          "phone_present": true,
+          "decoded_address_unconfirmed": false,
+          "blockers": [],
+          "contactable": true
+        },
+        "opportunity_report": {
+          "automation": [],
+          "maturity": [],
+          "refonte": [],
+          "presence": []
+        }
+      },
+      "scoring_version": "v8",
+      "commercial_priority": "haute",
+      "commercial_value": 71,
+      "commercial": {
+        "value": 71,
+        "tier": "haute",
+        "signal_class": "observe",
+        "signal_class_label": "problème directement observé",
+        "relevance": "propose",
+        "relevance_factor": 1.0,
+        "matched_services": [],
+        "verified": false,
+        "base": 34,
+        "magnitude": 37,
+        "best_axis": "refonte",
+        "best_axis_score": 89,
+        "confidence": "haute",
+        "reasons": [
+          "contre-signaux explicites : 0 fort(s), 0 modéré(s), 1 faible(s) → pénalité bornée -0 (71 -> 71)",
+          "contre-signal — force faible (marqueurs : le manque est) ; délimite le besoin sans l'annuler",
+          "problème directement observé : base 34",
+          "pertinence offre : propose (×1.00)",
+          "magnitude bornée : +37 (meilleur axe refonte = 89, plafond 42)"
+        ],
+        "counter_signals": [
+          "captcha"
+        ],
+        "counter_signal_penalty": 0,
+        "counter_signal_details": [
+          {
+            "quote": "captcha",
+            "source_url": "https://www.frezouls.fr/contact/",
+            "observed_at": "2026-11-09",
+            "strength": "faible",
+            "negates_need": false,
+            "fresh": true,
+            "reliable_source": true,
+            "penalty": 0,
+            "reason": "force faible (marqueurs : le manque est) ; délimite le besoin sans l'annuler"
+          }
+        ],
+        "driving_evidence": [
+          {
+            "quote": "http://frezouls.fr/controle-dacces/interphone/",
+            "source_url": "https://www.frezouls.fr/controle-dacces/",
+            "observed_at": "2026-11-09",
+            "verified_at": "2026-11-09",
+            "signal_level": "observe"
+          },
+          {
+            "quote": "wp-content/uploads/2018/12/interphone-petite.jpg",
+            "source_url": "https://www.frezouls.fr/controle-dacces/",
+            "observed_at": "2026-11-09",
+            "verified_at": "2026-11-09",
+            "signal_level": "observe"
+          },
+          {
+            "quote": "En savoir +",
+            "source_url": "https://www.frezouls.fr/controle-dacces/",
+            "observed_at": "2026-11-09",
+            "verified_at": "2026-11-09",
+            "signal_level": "observe"
+          },
+          {
+            "quote": "2 rue Alan Turing Zone Innoprod",
+            "source_url": "https://www.frezouls.fr/contact/",
+            "observed_at": "2026-11-09",
+            "verified_at": "2026-11-09",
+            "signal_level": "observe"
+          }
+        ],
+        "contactable": true,
+        "capped_by_contactability": false,
+        "floor_applied": false,
+        "evaluated_at": "2026-11-09",
+        "engine_version": "v10-priority"
+      },
+      "priority_engine_version": "v10-priority",
+      "status": "brouillon_créé",
+      "status_crm": "qualified",
+      "tier": "haute",
+      "score": 89,
+      "justification": "contre-signaux explicites : 0 fort(s), 0 modéré(s), 1 faible(s) → pénalité bornée -0 (71 -> 71) ; contre-signal — force faible (marqueurs : le manque est) ; délimite le besoin sans l'annuler ; problème directement observé : base 34 ; pertinence offre : propose (×1.00) ; magnitude bornée : +37 (meilleur axe refonte = 89, plafond 42)",
+      "brouillon_autorise_lot11": true,
+      "brouillon_motif": "joignable, priorité haute, confiance suffisante sur l'axe porteur",
+      "history": [
+        {
+          "at": "2026-11-09",
+          "action": "fiche_creee_lot11",
+          "reason": "Structure examinée sur sources publiques ; preuves citées et datées ; trois axes v8 et priorité v10 calculés par le moteur du dépôt.",
+          "source": "https://www.frezouls.fr/"
+        },
+        {
+          "at": "2026-11-09",
+          "action": "redaction_personnalisee_lot11",
+          "reason": "Proposition en phrase complète et observation factuelle ajoutées ; sujet remis sous 70 caractères. Axes v8 et priorité v10 inchangés.",
+          "source": "https://www.frezouls.fr/"
+        },
+        {
+          "at": "2026-11-09",
+          "action": "brouillon_mis_en_file",
+          "reason": "Contrôle v4 conforme ; en attente de validation humaine. Aucun envoi.",
+          "source": "data/queue:2026-11-09-lot11-004"
+        },
+        {
+          "at": "2026-11-09",
+          "action": "brouillon_gmail_cree",
+          "reason": "Brouillon enregistré dans Gmail, non envoyé. Validation humaine requise.",
+          "source": "gmail:draft/r-2619464416091008266"
+        },
+        {
+          "at": "2026-11-09",
+          "action": "statut_brouillon_cree",
+          "reason": "Brouillon Gmail existant et rapproché : statut aligné sur la convention du tableau de bord (brouillon_créé). Aucun envoi, email_status inchangé.",
+          "source": "data/history/lot11-brouillons-2026-11-09.json"
+        }
+      ],
+      "id": "ets-fr-zouls",
+      "created_at": "2026-11-09T22:16:02+00:00",
+      "updated_at": "2026-11-09T22:16:02+00:00",
+      "observation": "Les images et le logo de cette page sont datés de 2018 dans leurs chemins d'accès",
+      "gmail_draft_id": "r-2619464416091008266",
+      "gmail_draft_message_id": "1a1c263b80ce4a95"
+    },
+    {
+      "company": "Transports Francis Valette",
+      "website": "https://www.transports-valette.fr/",
+      "domain": "transports-valette.fr",
+      "sector": "Transport de marchandises, entreposage et logistique",
+      "city": "Rodez",
+      "department": "12",
+      "address": "928 Avenue du Causse, BP 83338, 12000 Rodez",
+      "contact_name": "",
+      "contact_role": "",
+      "email": "valetterodez@gmail.com",
+      "phone": "05 65 78 51 00",
+      "source": "site_officiel",
+      "evidence": [
+        {
+          "kind": "public_need",
+          "source_url": "https://www.transports-valette.fr/stockage-logistique",
+          "quote": "nous vous proposerons bientôt un tout nouveau service",
+          "observed_at": "2026-11-09",
+          "detail": "L'entreprise annonce publiquement un service de vente de litiges à venir sur son site. La page catalogue est liée mais le service n'est pas ouvert : projet web annoncé et non réalisé.",
+          "source_type": "site_officiel",
+          "reliability": "haute",
+          "verified_at": "2026-11-09",
+          "observed": true,
+          "signal_level": "exprime"
+        },
+        {
+          "kind": "parcours_incomplet",
+          "source_url": "https://www.transports-valette.fr/stockage-logistique",
+          "quote": "En cochant cette case, j'accepte de partager les réponses de mon formulaire",
+          "observed_at": "2026-11-09",
+          "detail": "Le formulaire de contact demande de partager les réponses et présente un consentement ambigu, sans décrire ce qui est partagé.",
+          "source_type": "site_officiel",
+          "reliability": "haute",
+          "verified_at": "2026-11-09",
+          "observed": true,
+          "signal_level": "observe"
+        },
+        {
+          "kind": "signal_confiance",
+          "source_url": "https://www.transports-valette.fr/stockage-logistique",
+          "quote": "Au service des professionnels depuis plus de 60 ans",
+          "observed_at": "2026-11-09",
+          "detail": "Trois plateformes (Rodez, Goussainville, Millau), adresses et téléphones publiés, plus de 60 ans d'activité.",
+          "source_type": "site_officiel",
+          "reliability": "haute",
+          "verified_at": "2026-11-09",
+          "observed": true,
+          "signal_level": "observe"
+        },
+        {
+          "kind": "maturite_existante",
+          "source_url": "https://www.transports-valette.fr/stockage-logistique",
+          "quote": "Suivre mon colis",
+          "observed_at": "2026-11-09",
+          "detail": "Le suivi de colis est déjà externalisé à Station Chargeur : le besoin n'est pas un outil de suivi, il porte sur le catalogue de litiges annoncé publiquement et non réalisé.",
+          "source_type": "site_officiel",
+          "reliability": "haute",
+          "verified_at": "2026-11-09",
+          "observed": true,
+          "signal_level": "observe"
+        }
+      ],
+      "publication_date": "",
+      "need": "site_web",
+      "needs": [
+        "site_web",
+        "automatisation"
+      ],
+      "recommended_service": "la mise en ligne du catalogue de litiges annoncé, avec demande d'achat par lot",
+      "email_verification": "verified",
+      "email_verification_basis": "adresse lue directement sur une page officielle le 2026-11-09 ; MX du domaine vérifié le même jour (le MX ne prouve pas l'existence de la boîte)",
+      "email_provenance": "publiee",
+      "email_dns_status": "mx_ok",
+      "email_dns_checked_at": "2026-11-09",
+      "process_hint": "service de vente de litiges annoncé comme à venir, page catalogue vide d'offre",
+      "demo_detail": "un catalogue de lots disponibles avec demande d'achat, au lieu d'une annonce « prochainement »",
+      "custom_hook": "Votre page stockage annonce « nous vous proposerons bientôt un tout nouveau service ! Découvrez prochainement sur notre site, les litiges disponibles à la vente ».",
+      "custom_subject": "Transports Valette : vos litiges « disponibles à la vente » restent à venir",
+      "notes": "Projet web annoncé publiquement et non réalisé : besoin exprimé exploitable.",
+      "lot": "2026-11-09-lot11",
+      "discovered_at": "2026-11-09",
+      "email_status": "non_contacté",
+      "next_action": "",
+      "scores": {
+        "site_web": {
+          "axis": "site_web",
+          "score": 5,
+          "level": "faible",
+          "reasons": [
+            "un site est déjà en ligne : pas de création à proprement parler"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "un site existe déjà : la création n'est pas le bon service"
+          ],
+          "confidence": "moyenne",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": [],
+          "evaluated_at": "2026-11-09",
+          "signal_levels": {}
+        },
+        "refonte": {
+          "axis": "refonte",
+          "score": 49,
+          "level": "moyen",
+          "reasons": [
+            "site existant à moderniser",
+            "+34 parcours_incomplet : « En cochant cette case, j'accepte de partager les réponses de mon formulaire » (https://www.transports-valette.fr/stockage-logistique)",
+            "+10 public_need : « nous vous proposerons bientôt un tout nouveau service » (https://www.transports-valette.fr/stockage-logistique)"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "comportement sur mobile non vérifié",
+            "une seule page observée : vérifier le parcours de contact sur une seconde page"
+          ],
+          "confidence": "moyenne",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": [],
+          "evaluated_at": "2026-11-09",
+          "signal_levels": {}
+        },
+        "ia_automatisation": {
+          "axis": "ia_automatisation",
+          "score": 12,
+          "level": "faible",
+          "reasons": [
+            "+12 processus manuel signalé par le chercheur (type de preuve seul, volontairement plafonné)"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "aucun processus entrant décrit publiquement : observer comment arrivent et sont traitées les demandes (devis, réservation, dossier)",
+            "processus observé sur une seule page : confirmer sur une seconde source",
+            "le processus est affirmé dans process_hint mais aucune citation ne l'établit"
+          ],
+          "confidence": "moyenne",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": [],
+          "evaluated_at": "2026-11-09",
+          "signal_levels": {}
+        },
+        "priority": "moyenne",
+        "best_axis": "refonte",
+        "engine_version": "v8",
+        "evaluated_at": "2026-11-09",
+        "contactability": {
+          "email_present": true,
+          "email_verification": "verified",
+          "phone_present": true,
+          "decoded_address_unconfirmed": false,
+          "blockers": [],
+          "contactable": true
+        },
+        "opportunity_report": {
+          "automation": [],
+          "maturity": [],
+          "refonte": [],
+          "presence": []
+        }
+      },
+      "scoring_version": "v8",
+      "commercial_priority": "moyenne",
+      "commercial_value": 48,
+      "commercial": {
+        "value": 48,
+        "tier": "moyenne",
+        "signal_class": "exprime_verifie",
+        "signal_class_label": "besoin exprimé et vérifié",
+        "relevance": "incertaine",
+        "relevance_factor": 0.65,
+        "matched_services": [],
+        "verified": true,
+        "base": 58,
+        "magnitude": 21,
+        "best_axis": "refonte",
+        "best_axis_score": 49,
+        "confidence": "haute",
+        "reasons": [
+          "contre-signaux explicites : 0 fort(s), 1 modéré(s), 0 faible(s) → pénalité bornée -11 (59 -> 48)",
+          "contre-signal — force modere (marqueurs : le besoin n'est pas) ; délimite le besoin sans l'annuler",
+          "besoin exprimé et vérifié : base 58",
+          "pertinence offre : incertaine (×0.65)",
+          "magnitude bornée : +21 (meilleur axe refonte = 49, plafond 42)"
+        ],
+        "counter_signals": [
+          "Suivre mon colis"
+        ],
+        "counter_signal_penalty": 11,
+        "counter_signal_details": [
+          {
+            "quote": "Suivre mon colis",
+            "source_url": "https://www.transports-valette.fr/stockage-logistique",
+            "observed_at": "2026-11-09",
+            "strength": "modere",
+            "negates_need": false,
+            "fresh": true,
+            "reliable_source": true,
+            "penalty": 11,
+            "reason": "force modere (marqueurs : le besoin n'est pas) ; délimite le besoin sans l'annuler"
+          }
+        ],
+        "driving_evidence": [
+          {
+            "quote": "nous vous proposerons bientôt un tout nouveau service",
+            "source_url": "https://www.transports-valette.fr/stockage-logistique",
+            "observed_at": "2026-11-09",
+            "verified_at": "2026-11-09",
+            "signal_level": "exprime"
+          }
+        ],
+        "contactable": true,
+        "capped_by_contactability": false,
+        "floor_applied": false,
+        "evaluated_at": "2026-11-09",
+        "engine_version": "v10-priority"
+      },
+      "priority_engine_version": "v10-priority",
+      "status": "nouveau",
+      "status_crm": "qualified",
+      "tier": "moyenne",
+      "score": 49,
+      "justification": "contre-signaux explicites : 0 fort(s), 1 modéré(s), 0 faible(s) → pénalité bornée -11 (59 -> 48) ; contre-signal — force modere (marqueurs : le besoin n'est pas) ; délimite le besoin sans l'annuler ; besoin exprimé et vérifié : base 58 ; pertinence offre : incertaine (×0.65) ; magnitude bornée : +21 (meilleur axe refonte = 49, plafond 42)",
+      "brouillon_autorise_lot11": false,
+      "brouillon_motif": "priorité moyenne",
+      "history": [
+        {
+          "at": "2026-11-09",
+          "action": "fiche_creee_lot11",
+          "reason": "Structure examinée sur sources publiques ; preuves citées et datées ; trois axes v8 et priorité v10 calculés par le moteur du dépôt.",
+          "source": "https://www.transports-valette.fr/"
+        }
+      ],
+      "id": "transports-francis-valette",
+      "created_at": "2026-11-09T22:16:02+00:00",
+      "updated_at": "2026-11-09T22:16:02+00:00"
+    },
+    {
+      "company": "Occibox",
+      "website": "https://occi-box.fr/",
+      "domain": "occi-box.fr",
+      "sector": "Location de box de stockage et self-stockage",
+      "city": "Olemps",
+      "department": "12",
+      "address": "700 Route de la Mouline, 12510 Olemps",
+      "contact_name": "",
+      "contact_role": "",
+      "email": "",
+      "phone": "05 65 68 76 15",
+      "source": "site_officiel",
+      "evidence": [
+        {
+          "kind": "parcours_incomplet",
+          "source_url": "https://occi-box.fr/",
+          "quote": "Nous contacter",
+          "observed_at": "2026-11-09",
+          "detail": "Les trois blocs de services (large choix de box, box sécurisés, durée indéterminée) renvoient tous au même lien « Nous contacter ». Aucun tarif, aucune disponibilité, aucune réservation en ligne pour une activité de location à durée libre.",
+          "source_type": "site_officiel",
+          "reliability": "haute",
+          "verified_at": "2026-11-09",
+          "observed": true,
+          "signal_level": "observe"
+        },
+        {
+          "kind": "processus_manuel",
+          "source_url": "https://occi-box.fr/contact-us/",
+          "quote": "05 65 68 76 15",
+          "observed_at": "2026-11-09",
+          "detail": "La page contact ne comporte qu'une adresse et un téléphone : aucune adresse e-mail, aucun formulaire. Toute demande de box passe par un appel.",
+          "source_type": "site_officiel",
+          "reliability": "haute",
+          "verified_at": "2026-11-09",
+          "observed": true,
+          "signal_level": "observe"
+        },
+        {
+          "kind": "site_obsolete",
+          "source_url": "https://occi-box.fr/",
+          "quote": "En poursuivant votre navigation sur notre site, vous acceptez l’utilisation de cookies",
+          "observed_at": "2026-11-09",
+          "detail": "Bandeau de consentement implicite, sans choix de refus : la poursuite de la navigation vaut acceptation.",
+          "source_type": "site_officiel",
+          "reliability": "haute",
+          "verified_at": "2026-11-09",
+          "observed": true,
+          "signal_level": "observe"
+        },
+        {
+          "kind": "signal_confiance",
+          "source_url": "https://occi-box.fr/",
+          "quote": "700 Route De La Mouline",
+          "observed_at": "2026-11-09",
+          "detail": "Adresse complète et téléphone publiés, accès par digicode 24h/24, parking et moyens de manutention gratuits : exploitation réelle.",
+          "source_type": "site_officiel",
+          "reliability": "haute",
+          "verified_at": "2026-11-09",
+          "observed": true,
+          "signal_level": "observe"
+        }
+      ],
+      "publication_date": "",
+      "need": "refonte",
+      "needs": [
+        "refonte",
+        "automatisation"
+      ],
+      "recommended_service": "la consultation des tailles disponibles et une demande de box sans appel préalable",
+      "email_verification": "none",
+      "email_verification_basis": "aucune adresse professionnelle publiée sur les pages lues",
+      "email_provenance": "",
+      "email_dns_status": "",
+      "email_dns_checked_at": "",
+      "process_hint": "ni tarif ni disponibilité ni réservation en ligne, chaque demande passe par un contact téléphonique",
+      "demo_detail": "une grille des tailles libres avec demande de réservation, au lieu d'un appel pour connaître la disponibilité",
+      "custom_hook": "Vous proposez des box de 1 à 20 m² en accès libre, mais aucune taille disponible ni tarif n'est consultable : chaque demande passe par « Nous contacter ».",
+      "custom_subject": "Occibox : vos box de 1 à 20 m² sans disponibilité consultable",
+      "notes": "Aucune adresse e-mail publiée : pas de brouillon possible. Fiche conservée pour approche téléphonique ou courrier.",
+      "lot": "2026-11-09-lot11",
+      "discovered_at": "2026-11-09",
+      "email_status": "non_contacté",
+      "next_action": "",
+      "scores": {
+        "site_web": {
+          "axis": "site_web",
+          "score": 5,
+          "level": "faible",
+          "reasons": [
+            "un site est déjà en ligne : pas de création à proprement parler"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "un site existe déjà : la création n'est pas le bon service"
+          ],
+          "confidence": "haute",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": [],
+          "evaluated_at": "2026-11-09",
+          "signal_levels": {}
+        },
+        "refonte": {
+          "axis": "refonte",
+          "score": 81,
+          "level": "fort",
+          "reasons": [
+            "site existant à moderniser",
+            "+42 site_obsolete : « En poursuivant votre navigation sur notre site, vous acceptez l’utilisation de cookies » (https://occi-box.fr/)",
+            "+34 parcours_incomplet : « Nous contacter » (https://occi-box.fr/)"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "comportement sur mobile non vérifié",
+            "une seule page observée : vérifier le parcours de contact sur une seconde page"
+          ],
+          "confidence": "moyenne",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": [],
+          "evaluated_at": "2026-11-09",
+          "signal_levels": {}
+        },
+        "ia_automatisation": {
+          "axis": "ia_automatisation",
+          "score": 12,
+          "level": "faible",
+          "reasons": [
+            "+12 processus manuel signalé par le chercheur (type de preuve seul, volontairement plafonné)"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "aucun processus entrant décrit publiquement : observer comment arrivent et sont traitées les demandes (devis, réservation, dossier)",
+            "ce qui est déjà automatisé n'est pas documenté (réservation en ligne, paiement, espace client, réponse automatique)",
+            "le processus est affirmé dans process_hint mais aucune citation ne l'établit"
+          ],
+          "confidence": "haute",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": [],
+          "evaluated_at": "2026-11-09",
+          "signal_levels": {}
+        },
+        "priority": "a_approfondir",
+        "best_axis": "refonte",
+        "engine_version": "v8",
+        "evaluated_at": "2026-11-09",
+        "contactability": {
+          "email_present": false,
+          "email_verification": "none",
+          "phone_present": true,
+          "decoded_address_unconfirmed": false,
+          "blockers": [
+            "aucune adresse professionnelle publiée"
+          ],
+          "contactable": false
+        },
+        "opportunity_report": {
+          "automation": [],
+          "maturity": [],
+          "refonte": [],
+          "presence": []
+        }
+      },
+      "scoring_version": "v8",
+      "commercial_priority": "a_approfondir",
+      "commercial_value": 68,
+      "commercial": {
+        "value": 68,
+        "tier": "a_approfondir",
+        "signal_class": "observe",
+        "signal_class_label": "problème directement observé",
+        "relevance": "propose",
+        "relevance_factor": 1.0,
+        "matched_services": [],
+        "verified": false,
+        "base": 34,
+        "magnitude": 34,
+        "best_axis": "refonte",
+        "best_axis_score": 81,
+        "confidence": "haute",
+        "reasons": [
+          "problème directement observé : base 34",
+          "pertinence offre : propose (×1.00)",
+          "magnitude bornée : +34 (meilleur axe refonte = 81, plafond 42)",
+          "adresse non joignable : priorité plafonnée à « à approfondir » (la valeur commerciale est conservée telle quelle)"
+        ],
+        "counter_signals": [],
+        "counter_signal_penalty": 0,
+        "counter_signal_details": [],
+        "driving_evidence": [
+          {
+            "quote": "Nous contacter",
+            "source_url": "https://occi-box.fr/",
+            "observed_at": "2026-11-09",
+            "verified_at": "2026-11-09",
+            "signal_level": "observe"
+          },
+          {
+            "quote": "05 65 68 76 15",
+            "source_url": "https://occi-box.fr/contact-us/",
+            "observed_at": "2026-11-09",
+            "verified_at": "2026-11-09",
+            "signal_level": "observe"
+          },
+          {
+            "quote": "En poursuivant votre navigation sur notre site, vous acceptez l’utilisation de cookies",
+            "source_url": "https://occi-box.fr/",
+            "observed_at": "2026-11-09",
+            "verified_at": "2026-11-09",
+            "signal_level": "observe"
+          },
+          {
+            "quote": "700 Route De La Mouline",
+            "source_url": "https://occi-box.fr/",
+            "observed_at": "2026-11-09",
+            "verified_at": "2026-11-09",
+            "signal_level": "observe"
+          }
+        ],
+        "contactable": false,
+        "capped_by_contactability": true,
+        "floor_applied": false,
+        "evaluated_at": "2026-11-09",
+        "engine_version": "v10-priority"
+      },
+      "priority_engine_version": "v10-priority",
+      "status": "nouveau",
+      "status_crm": "qualified",
+      "tier": "a_approfondir",
+      "score": 81,
+      "justification": "problème directement observé : base 34 ; pertinence offre : propose (×1.00) ; magnitude bornée : +34 (meilleur axe refonte = 81, plafond 42) ; adresse non joignable : priorité plafonnée à « à approfondir » (la valeur commerciale est conservée telle quelle)",
+      "brouillon_autorise_lot11": false,
+      "brouillon_motif": "aucune adresse publiée",
+      "history": [
+        {
+          "at": "2026-11-09",
+          "action": "fiche_creee_lot11",
+          "reason": "Structure examinée sur sources publiques ; preuves citées et datées ; trois axes v8 et priorité v10 calculés par le moteur du dépôt.",
+          "source": "https://occi-box.fr/"
+        }
+      ],
+      "id": "occibox",
+      "created_at": "2026-11-09T22:16:02+00:00",
+      "updated_at": "2026-11-09T22:16:02+00:00"
+    },
+    {
+      "company": "SAS Adrien Fernandes D&S",
+      "website": "https://www.afd-services.com/",
+      "domain": "afd-services.com",
+      "sector": "Menuiserie, fermetures, automatismes et domotique",
+      "city": "Auxerre",
+      "department": "89",
+      "address": "2 allée de la Source, 89000 Auxerre",
+      "contact_name": "Adrien",
+      "contact_role": "Gérant",
+      "email": "afd.services@icloud.com",
+      "phone": "03 86 33 23 20",
+      "source": "site_officiel",
+      "evidence": [
+        {
+          "kind": "parcours_incomplet",
+          "source_url": "https://www.afd-services.com/domotique.html",
+          "quote": "Nous situer   Nous contacter",
+          "observed_at": "2026-11-09",
+          "detail": "La page domotique se termine par un bloc adresse, deux numéros et un e-mail : aucun formulaire. L'arborescence compte une vingtaine de pages de prestations, toutes sans collecte de demande.",
+          "source_type": "site_officiel",
+          "reliability": "haute",
+          "verified_at": "2026-11-09",
+          "observed": true,
+          "signal_level": "observe"
+        },
+        {
+          "kind": "site_obsolete",
+          "source_url": "https://www.afd-services.com/domotique.html",
+          "quote": "images/map.jpg",
+          "observed_at": "2026-11-09",
+          "detail": "La carte de localisation est une image fixe (map.jpg) et non une carte interactive : le visiteur ne peut ni zoomer ni obtenir un itinéraire depuis le bloc.",
+          "source_type": "site_officiel",
+          "reliability": "haute",
+          "verified_at": "2026-11-09",
+          "observed": true,
+          "signal_level": "observe"
+        },
+        {
+          "kind": "processus_manuel",
+          "source_url": "https://www.afd-services.com/domotique.html",
+          "quote": "votre expert en domotique vous propose un contrat de maintenance",
+          "observed_at": "2026-11-09",
+          "detail": "Un contrat de maintenance est proposé mais aucune demande de contrat n'est structurée : chaque demande doit être qualifiée par téléphone.",
+          "source_type": "site_officiel",
+          "reliability": "haute",
+          "verified_at": "2026-11-09",
+          "observed": true,
+          "signal_level": "observe"
+        },
+        {
+          "kind": "signal_confiance",
+          "source_url": "https://www.afd-services.com/domotique.html",
+          "quote": "2, allée de la Source",
+          "observed_at": "2026-11-09",
+          "detail": "SAS identifiée, gérant nommé, adresse, deux téléphones, horaires et e-mail publiés, page Facebook de groupe.",
+          "source_type": "site_officiel",
+          "reliability": "haute",
+          "verified_at": "2026-11-09",
+          "observed": true,
+          "signal_level": "observe"
+        },
+        {
+          "kind": "maturite_existante",
+          "source_url": "https://www.afd-services.com/domotique.html",
+          "quote": "contrat de maintenance",
+          "observed_at": "2026-11-09",
+          "detail": "L'entreprise a déjà une offre de maintenance récurrente : le besoin est la collecte de la demande, pas la création de l'offre.",
+          "source_type": "site_officiel",
+          "reliability": "haute",
+          "verified_at": "2026-11-09",
+          "observed": true,
+          "signal_level": "observe"
+        }
+      ],
+      "publication_date": "",
+      "need": "refonte",
+      "needs": [
+        "refonte",
+        "automatisation"
+      ],
+      "recommended_service": "une demande d'intervention qui décrit l'équipement et la panne avant le déplacement",
+      "email_verification": "verified",
+      "email_verification_basis": "adresse lue directement sur une page officielle le 2026-11-09 ; MX du domaine vérifié le même jour (le MX ne prouve pas l'existence de la boîte)",
+      "email_provenance": "publiee",
+      "email_dns_status": "mx_ok",
+      "email_dns_checked_at": "2026-11-09",
+      "process_hint": "site en pages statiques, carte remplacée par une image fixe, aucun formulaire de demande",
+      "demo_detail": "une demande indiquant équipement, marque, symptôme et commune, reprise dans l'ordre d'intervention",
+      "custom_hook": "Votre site déroule une vingtaine de pages de prestations, mais la page domotique ne propose que le téléphone et l'e-mail : aucune demande écrite.",
+      "custom_subject": "Adrien Fernandes : vingt pages, aucune demande d'intervention en ligne",
+      "notes": "Adresse iCloud publiée : exploitable mais personnelle. Brouillon possible.",
+      "lot": "2026-11-09-lot11",
+      "discovered_at": "2026-11-09",
+      "email_status": "non_contacté",
+      "next_action": "",
+      "scores": {
+        "site_web": {
+          "axis": "site_web",
+          "score": 5,
+          "level": "faible",
+          "reasons": [
+            "un site est déjà en ligne : pas de création à proprement parler"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "un site existe déjà : la création n'est pas le bon service"
+          ],
+          "confidence": "moyenne",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": [],
+          "evaluated_at": "2026-11-09",
+          "signal_levels": {}
+        },
+        "refonte": {
+          "axis": "refonte",
+          "score": 98,
+          "level": "fort",
+          "reasons": [
+            "site existant à moderniser",
+            "+42 site_obsolete : « images/map.jpg » (https://www.afd-services.com/domotique.html)",
+            "+34 parcours_incomplet : « Nous situer   Nous contacter » (https://www.afd-services.com/domotique.html)",
+            "+17 Contact réduit à un lien mailto ou une carte — « Constat du chercheur : site en pages statiques, carte remplacée par une image fixe, auc… » [motif : aucun formulaire] ()"
+          ],
+          "evidence": [
+            {
+              "signal": "contact_pauvre",
+              "label": "Contact réduit à un lien mailto ou une carte",
+              "weight": 26,
+              "matched_pattern": "aucun formulaire",
+              "evidence_index": -1,
+              "source_url": "",
+              "quote": "Constat du chercheur : site en pages statiques, carte remplacée par une image fixe, aucun formulaire de demande",
+              "observed": true,
+              "hypothetical": false,
+              "reliability": "moyenne"
+            }
+          ],
+          "missing_information": [
+            "comportement sur mobile non vérifié",
+            "une seule page observée : vérifier le parcours de contact sur une seconde page"
+          ],
+          "confidence": "faible",
+          "observed_signals": [
+            "Contact réduit à un lien mailto ou une carte"
+          ],
+          "hypothetical_signals": [],
+          "counter_signals": [],
+          "evaluated_at": "2026-11-09",
+          "signal_levels": {
+            "observe": 1
+          }
+        },
+        "ia_automatisation": {
+          "axis": "ia_automatisation",
+          "score": 12,
+          "level": "faible",
+          "reasons": [
+            "+12 processus manuel signalé par le chercheur (type de preuve seul, volontairement plafonné)"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "aucun processus entrant décrit publiquement : observer comment arrivent et sont traitées les demandes (devis, réservation, dossier)",
+            "processus observé sur une seule page : confirmer sur une seconde source",
+            "le processus est affirmé dans process_hint mais aucune citation ne l'établit"
+          ],
+          "confidence": "moyenne",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": [],
+          "evaluated_at": "2026-11-09",
+          "signal_levels": {}
+        },
+        "priority": "haute",
+        "best_axis": "refonte",
+        "engine_version": "v8",
+        "evaluated_at": "2026-11-09",
+        "contactability": {
+          "email_present": true,
+          "email_verification": "verified",
+          "phone_present": true,
+          "decoded_address_unconfirmed": false,
+          "blockers": [],
+          "contactable": true
+        },
+        "opportunity_report": {
+          "automation": [],
+          "maturity": [],
+          "refonte": [
+            {
+              "signal": "contact_pauvre",
+              "label": "Contact réduit à un lien mailto ou une carte",
+              "weight": 26,
+              "matched_pattern": "aucun formulaire",
+              "evidence_index": -1,
+              "source_url": "",
+              "quote": "Constat du chercheur : site en pages statiques, carte remplacée par une image fixe, aucun formulaire de demande",
+              "observed": true,
+              "hypothetical": false,
+              "reliability": "moyenne"
+            }
+          ],
+          "presence": []
+        }
+      },
+      "scoring_version": "v8",
+      "commercial_priority": "haute",
+      "commercial_value": 75,
+      "commercial": {
+        "value": 75,
+        "tier": "haute",
+        "signal_class": "observe",
+        "signal_class_label": "problème directement observé",
+        "relevance": "propose",
+        "relevance_factor": 1.0,
+        "matched_services": [],
+        "verified": false,
+        "base": 34,
+        "magnitude": 41,
+        "best_axis": "refonte",
+        "best_axis_score": 98,
+        "confidence": "haute",
+        "reasons": [
+          "contre-signaux explicites : 0 fort(s), 0 modéré(s), 1 faible(s) → pénalité bornée -0 (75 -> 75)",
+          "contre-signal — force faible (aucun marqueur explicite : prudence) ; délimite le besoin sans l'annuler",
+          "problème directement observé : base 34",
+          "pertinence offre : propose (×1.00)",
+          "magnitude bornée : +41 (meilleur axe refonte = 98, plafond 42)"
+        ],
+        "counter_signals": [
+          "contrat de maintenance"
+        ],
+        "counter_signal_penalty": 0,
+        "counter_signal_details": [
+          {
+            "quote": "contrat de maintenance",
+            "source_url": "https://www.afd-services.com/domotique.html",
+            "observed_at": "2026-11-09",
+            "strength": "faible",
+            "negates_need": false,
+            "fresh": true,
+            "reliable_source": true,
+            "penalty": 0,
+            "reason": "force faible (aucun marqueur explicite : prudence) ; délimite le besoin sans l'annuler"
+          }
+        ],
+        "driving_evidence": [
+          {
+            "quote": "Nous situer   Nous contacter",
+            "source_url": "https://www.afd-services.com/domotique.html",
+            "observed_at": "2026-11-09",
+            "verified_at": "2026-11-09",
+            "signal_level": "observe"
+          },
+          {
+            "quote": "images/map.jpg",
+            "source_url": "https://www.afd-services.com/domotique.html",
+            "observed_at": "2026-11-09",
+            "verified_at": "2026-11-09",
+            "signal_level": "observe"
+          },
+          {
+            "quote": "votre expert en domotique vous propose un contrat de maintenance",
+            "source_url": "https://www.afd-services.com/domotique.html",
+            "observed_at": "2026-11-09",
+            "verified_at": "2026-11-09",
+            "signal_level": "observe"
+          },
+          {
+            "quote": "2, allée de la Source",
+            "source_url": "https://www.afd-services.com/domotique.html",
+            "observed_at": "2026-11-09",
+            "verified_at": "2026-11-09",
+            "signal_level": "observe"
+          }
+        ],
+        "contactable": true,
+        "capped_by_contactability": false,
+        "floor_applied": false,
+        "evaluated_at": "2026-11-09",
+        "engine_version": "v10-priority"
+      },
+      "priority_engine_version": "v10-priority",
+      "status": "nouveau",
+      "status_crm": "qualified",
+      "tier": "haute",
+      "score": 98,
+      "justification": "contre-signaux explicites : 0 fort(s), 0 modéré(s), 1 faible(s) → pénalité bornée -0 (75 -> 75) ; contre-signal — force faible (aucun marqueur explicite : prudence) ; délimite le besoin sans l'annuler ; problème directement observé : base 34 ; pertinence offre : propose (×1.00) ; magnitude bornée : +41 (meilleur axe refonte = 98, plafond 42)",
+      "brouillon_autorise_lot11": false,
+      "brouillon_motif": "confiance faible sur l'axe refonte : vérifier avant contact",
+      "history": [
+        {
+          "at": "2026-11-09",
+          "action": "fiche_creee_lot11",
+          "reason": "Structure examinée sur sources publiques ; preuves citées et datées ; trois axes v8 et priorité v10 calculés par le moteur du dépôt.",
+          "source": "https://www.afd-services.com/"
+        }
+      ],
+      "id": "sas-adrien-fernandes-d-s",
+      "created_at": "2026-11-09T22:16:02+00:00",
+      "updated_at": "2026-11-09T22:16:02+00:00"
+    },
+    {
+      "company": "Plast e-Concept",
+      "website": "https://plasteconcept.com/",
+      "domain": "plasteconcept.com",
+      "sector": "Injection plastique — pièces techniques et outillages",
+      "city": "Arzal",
+      "department": "56",
+      "address": "Parc d'activités de la Corne du Cerf, Secteur B n°11, 56190 Arzal",
+      "contact_name": "",
+      "contact_role": "",
+      "email": "contact@plasteconcept.com",
+      "phone": "02 97 26 11 41",
+      "source": "site_officiel",
+      "evidence": [
+        {
+          "kind": "parcours_incomplet",
+          "source_url": "https://plasteconcept.com/contact/",
+          "quote": "N’hésitez pas à nous faire part de vos projets industriels",
+          "observed_at": "2026-11-09",
+          "detail": "La page contact invite à décrire le projet mais n'expose aucun formulaire : téléphone et e-mail uniquement, pour une activité où chaque projet exige matière, quantité et tolérances.",
+          "source_type": "site_officiel",
+          "reliability": "haute",
+          "verified_at": "2026-11-09",
+          "observed": true,
+          "signal_level": "observe"
+        },
+        {
+          "kind": "processus_manuel",
+          "source_url": "https://plasteconcept.com/qui-sommes-nous/",
+          "quote": "sont stockés dans notre zone de stockage dédié pour une disponibilité immédiate",
+          "observed_at": "2026-11-09",
+          "detail": "Le stockage des moules clients est présenté comme un service, mais aucun inventaire ni portail client ne permet au client de voir ses outillages : chaque question de disponibilité passe par un échange.",
+          "source_type": "site_officiel",
+          "reliability": "haute",
+          "verified_at": "2026-11-09",
+          "observed": true,
+          "signal_level": "observe"
+        },
+        {
+          "kind": "site_obsolete",
+          "source_url": "https://plasteconcept.com/contact/",
+          "quote": "561900 Arzal",
+          "observed_at": "2026-11-09",
+          "detail": "Le code postal est écrit « 561900 Arzal » (six chiffres) sur la page contact, contre « 56190 ARZAL » sur la page Qui sommes-nous : erreur de saisie publiée.",
+          "source_type": "site_officiel",
+          "reliability": "haute",
+          "verified_at": "2026-11-09",
+          "observed": true,
+          "signal_level": "observe"
+        },
+        {
+          "kind": "signal_confiance",
+          "source_url": "https://plasteconcept.com/qui-sommes-nous/",
+          "quote": "842 640 237 00025",
+          "observed_at": "2026-11-09",
+          "detail": "SIRET, RCS Vannes, code APE 2229A et date d'immatriculation publiés. Équipe de 4 personnes décrite, atelier de maintenance propre.",
+          "source_type": "site_officiel",
+          "reliability": "haute",
+          "verified_at": "2026-11-09",
+          "observed": true,
+          "signal_level": "observe"
+        },
+        {
+          "kind": "maturite_existante",
+          "source_url": "https://plasteconcept.com/qui-sommes-nous/",
+          "quote": "notre propre atelier de maintenance",
+          "observed_at": "2026-11-09",
+          "detail": "L'entreprise a son atelier de maintenance et recycle en temps réel : les processus de production sont maîtrisés. Ne pas proposer d'automatiser la production.",
+          "source_type": "site_officiel",
+          "reliability": "haute",
+          "verified_at": "2026-11-09",
+          "observed": true,
+          "signal_level": "observe"
+        }
+      ],
+      "publication_date": "",
+      "need": "refonte",
+      "needs": [
+        "refonte",
+        "automatisation"
+      ],
+      "recommended_service": "une demande de projet outillée, et un inventaire des moules stockés consultable par le client",
+      "email_verification": "verified",
+      "email_verification_basis": "adresse lue directement sur une page officielle le 2026-11-09 ; MX du domaine vérifié le même jour (le MX ne prouve pas l'existence de la boîte)",
+      "email_provenance": "publiee",
+      "email_dns_status": "mx_ok",
+      "email_dns_checked_at": "2026-11-09",
+      "process_hint": "demande de projet sans formulaire, stockage des moules clients sans inventaire consultable",
+      "demo_detail": "un espace client listant les moules stockés et leur disponibilité, avec demande de nouvelle série",
+      "custom_hook": "Vous écrivez que les moules de vos clients « sont stockés dans notre zone de stockage dédiée pour une disponibilité immédiate », mais aucun inventaire n'est consultable.",
+      "custom_subject": "Plast e-Concept : vos clients ne voient pas leurs moules stockés",
+      "notes": "Petite structure, service de stockage de moules qui justifie un espace client.",
+      "lot": "2026-11-09-lot11",
+      "discovered_at": "2026-11-09",
+      "email_status": "non_contacté",
+      "next_action": "",
+      "scores": {
+        "site_web": {
+          "axis": "site_web",
+          "score": 5,
+          "level": "faible",
+          "reasons": [
+            "un site est déjà en ligne : pas de création à proprement parler"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "un site existe déjà : la création n'est pas le bon service"
+          ],
+          "confidence": "haute",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": [],
+          "evaluated_at": "2026-11-09",
+          "signal_levels": {}
+        },
+        "refonte": {
+          "axis": "refonte",
+          "score": 98,
+          "level": "fort",
+          "reasons": [
+            "site existant à moderniser",
+            "+42 site_obsolete : « 561900 Arzal » (https://plasteconcept.com/contact/)",
+            "+34 parcours_incomplet : « N’hésitez pas à nous faire part de vos projets industriels » (https://plasteconcept.com/contact/)",
+            "+17 Contact réduit à un lien mailto ou une carte — « Constat du chercheur : demande de projet sans formulaire, stockage des moules clients s… » [motif : sans formulaire] ()"
+          ],
+          "evidence": [
+            {
+              "signal": "contact_pauvre",
+              "label": "Contact réduit à un lien mailto ou une carte",
+              "weight": 26,
+              "matched_pattern": "sans formulaire",
+              "evidence_index": -1,
+              "source_url": "",
+              "quote": "Constat du chercheur : demande de projet sans formulaire, stockage des moules clients sans inventaire consultable",
+              "observed": true,
+              "hypothetical": false,
+              "reliability": "moyenne"
+            }
+          ],
+          "missing_information": [
+            "comportement sur mobile non vérifié",
+            "une seule page observée : vérifier le parcours de contact sur une seconde page"
+          ],
+          "confidence": "faible",
+          "observed_signals": [
+            "Contact réduit à un lien mailto ou une carte"
+          ],
+          "hypothetical_signals": [],
+          "counter_signals": [],
+          "evaluated_at": "2026-11-09",
+          "signal_levels": {
+            "observe": 1
+          }
+        },
+        "ia_automatisation": {
+          "axis": "ia_automatisation",
+          "score": 12,
+          "level": "faible",
+          "reasons": [
+            "+12 processus manuel signalé par le chercheur (type de preuve seul, volontairement plafonné)"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "aucun processus entrant décrit publiquement : observer comment arrivent et sont traitées les demandes (devis, réservation, dossier)",
+            "le processus est affirmé dans process_hint mais aucune citation ne l'établit"
+          ],
+          "confidence": "haute",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": [],
+          "evaluated_at": "2026-11-09",
+          "signal_levels": {}
+        },
+        "priority": "haute",
+        "best_axis": "refonte",
+        "engine_version": "v8",
+        "evaluated_at": "2026-11-09",
+        "contactability": {
+          "email_present": true,
+          "email_verification": "verified",
+          "phone_present": true,
+          "decoded_address_unconfirmed": false,
+          "blockers": [],
+          "contactable": true
+        },
+        "opportunity_report": {
+          "automation": [],
+          "maturity": [],
+          "refonte": [
+            {
+              "signal": "contact_pauvre",
+              "label": "Contact réduit à un lien mailto ou une carte",
+              "weight": 26,
+              "matched_pattern": "sans formulaire",
+              "evidence_index": -1,
+              "source_url": "",
+              "quote": "Constat du chercheur : demande de projet sans formulaire, stockage des moules clients sans inventaire consultable",
+              "observed": true,
+              "hypothetical": false,
+              "reliability": "moyenne"
+            }
+          ],
+          "presence": []
+        }
+      },
+      "scoring_version": "v8",
+      "commercial_priority": "haute",
+      "commercial_value": 75,
+      "commercial": {
+        "value": 75,
+        "tier": "haute",
+        "signal_class": "observe",
+        "signal_class_label": "problème directement observé",
+        "relevance": "propose",
+        "relevance_factor": 1.0,
+        "matched_services": [],
+        "verified": false,
+        "base": 34,
+        "magnitude": 41,
+        "best_axis": "refonte",
+        "best_axis_score": 98,
+        "confidence": "haute",
+        "reasons": [
+          "contre-signaux explicites : 0 fort(s), 0 modéré(s), 1 faible(s) → pénalité bornée -0 (75 -> 75)",
+          "contre-signal — force faible (aucun marqueur explicite : prudence) ; délimite le besoin sans l'annuler",
+          "problème directement observé : base 34",
+          "pertinence offre : propose (×1.00)",
+          "magnitude bornée : +41 (meilleur axe refonte = 98, plafond 42)"
+        ],
+        "counter_signals": [
+          "notre propre atelier de maintenance"
+        ],
+        "counter_signal_penalty": 0,
+        "counter_signal_details": [
+          {
+            "quote": "notre propre atelier de maintenance",
+            "source_url": "https://plasteconcept.com/qui-sommes-nous/",
+            "observed_at": "2026-11-09",
+            "strength": "faible",
+            "negates_need": false,
+            "fresh": true,
+            "reliable_source": true,
+            "penalty": 0,
+            "reason": "force faible (aucun marqueur explicite : prudence) ; délimite le besoin sans l'annuler"
+          }
+        ],
+        "driving_evidence": [
+          {
+            "quote": "N’hésitez pas à nous faire part de vos projets industriels",
+            "source_url": "https://plasteconcept.com/contact/",
+            "observed_at": "2026-11-09",
+            "verified_at": "2026-11-09",
+            "signal_level": "observe"
+          },
+          {
+            "quote": "sont stockés dans notre zone de stockage dédié pour une disponibilité immédiate",
+            "source_url": "https://plasteconcept.com/qui-sommes-nous/",
+            "observed_at": "2026-11-09",
+            "verified_at": "2026-11-09",
+            "signal_level": "observe"
+          },
+          {
+            "quote": "561900 Arzal",
+            "source_url": "https://plasteconcept.com/contact/",
+            "observed_at": "2026-11-09",
+            "verified_at": "2026-11-09",
+            "signal_level": "observe"
+          },
+          {
+            "quote": "842 640 237 00025",
+            "source_url": "https://plasteconcept.com/qui-sommes-nous/",
+            "observed_at": "2026-11-09",
+            "verified_at": "2026-11-09",
+            "signal_level": "observe"
+          }
+        ],
+        "contactable": true,
+        "capped_by_contactability": false,
+        "floor_applied": false,
+        "evaluated_at": "2026-11-09",
+        "engine_version": "v10-priority"
+      },
+      "priority_engine_version": "v10-priority",
+      "status": "nouveau",
+      "status_crm": "qualified",
+      "tier": "haute",
+      "score": 98,
+      "justification": "contre-signaux explicites : 0 fort(s), 0 modéré(s), 1 faible(s) → pénalité bornée -0 (75 -> 75) ; contre-signal — force faible (aucun marqueur explicite : prudence) ; délimite le besoin sans l'annuler ; problème directement observé : base 34 ; pertinence offre : propose (×1.00) ; magnitude bornée : +41 (meilleur axe refonte = 98, plafond 42)",
+      "brouillon_autorise_lot11": false,
+      "brouillon_motif": "confiance faible sur l'axe refonte : vérifier avant contact",
+      "history": [
+        {
+          "at": "2026-11-09",
+          "action": "fiche_creee_lot11",
+          "reason": "Structure examinée sur sources publiques ; preuves citées et datées ; trois axes v8 et priorité v10 calculés par le moteur du dépôt.",
+          "source": "https://plasteconcept.com/"
+        }
+      ],
+      "id": "plast-e-concept",
+      "created_at": "2026-11-09T22:16:02+00:00",
+      "updated_at": "2026-11-09T22:16:02+00:00"
+    },
+    {
+      "company": "Transports Bonnevialle",
+      "website": "https://transports-bonnevialle.com/",
+      "domain": "transports-bonnevialle.com",
+      "sector": "Transport sous température dirigée et logistique",
+      "city": "Onet-le-Château",
+      "department": "12",
+      "address": "Onet-le-Château, Aveyron (12)",
+      "contact_name": "",
+      "contact_role": "",
+      "email": "exploitation@transports-bonnevialle.fr",
+      "phone": "05 65 67 09 47",
+      "source": "site_officiel",
+      "evidence": [
+        {
+          "kind": "site_obsolete",
+          "source_url": "https://transports-bonnevialle.com/",
+          "quote": "{title}",
+          "observed_at": "2026-11-09",
+          "detail": "Le bandeau de consentement publie les marqueurs de gabarit non résolus « {title} » et « Gérer {vendor_count} fournisseurs », visibles sur l'accueil et la page contact.",
+          "source_type": "site_officiel",
+          "reliability": "haute",
+          "verified_at": "2026-11-09",
+          "observed": true,
+          "signal_level": "observe"
+        },
+        {
+          "kind": "parcours_incomplet",
+          "source_url": "https://transports-bonnevialle.com/contact/",
+          "quote": "Votre message",
+          "observed_at": "2026-11-09",
+          "detail": "Le formulaire de contact ne demande que Nom, Téléphone, E-mail et Message : aucune qualification du flux (origine, destination, température dirigée, nombre de palettes, fréquence) alors que l'activité est le transport sous température.",
+          "source_type": "site_officiel",
+          "reliability": "haute",
+          "verified_at": "2026-11-09",
+          "observed": true,
+          "signal_level": "observe"
+        },
+        {
+          "kind": "signal_confiance",
+          "source_url": "https://transports-bonnevialle.com/",
+          "quote": "En 2024, notre espace d'exploitation s'agrandit. 7000 m² de stockage et entreposage.",
+          "observed_at": "2026-11-09",
+          "detail": "Entreprise familiale de 4 générations depuis 1956, labellisation RSE LUCIE 26000 obtenue en juillet 2025, membre fondateur du groupement Astre, 7000 m² logistiques. Croissance réelle et documentée.",
+          "source_type": "site_officiel",
+          "reliability": "haute",
+          "verified_at": "2026-11-09",
+          "observed": true,
+          "signal_level": "observe"
+        },
+        {
+          "kind": "maturite_existante",
+          "source_url": "https://transports-bonnevialle.com/",
+          "quote": "Système EDI",
+          "observed_at": "2026-11-09",
+          "detail": "Les échanges logistiques sont déjà pleinement automatisés par un système EDI exploité en interne : l'automatisation des flux est en place. Ne pas proposer d'automatiser ce qui l'est déjà ; seul le volet site reste pertinent.",
+          "source_type": "site_officiel",
+          "reliability": "haute",
+          "verified_at": "2026-11-09",
+          "observed": true,
+          "signal_level": "observe"
+        }
+      ],
+      "publication_date": "",
+      "need": "refonte",
+      "needs": [
+        "refonte"
+      ],
+      "recommended_service": "la correction des marqueurs de gabarit et une demande de devis qui qualifie le flux",
+      "email_verification": "verified",
+      "email_verification_basis": "adresse lue directement sur une page officielle le 2026-11-09 ; MX du domaine vérifié le même jour (le MX ne prouve pas l'existence de la boîte)",
+      "email_provenance": "publiee",
+      "email_dns_status": "mx_ok",
+      "email_dns_checked_at": "2026-11-09",
+      "process_hint": "marqueurs de gabarit de consentement non résolus, demande de devis générique",
+      "demo_detail": "une demande de devis précisant origine, destination, température et fréquence, sans ressaisie",
+      "custom_hook": "Votre bandeau de consentement affiche les marqueurs « {title} » et « Gérer {vendor_count} fournisseurs » au lieu de leur valeur.",
+      "custom_subject": "Transports Bonnevialle : « {title} » s'affiche dans votre bandeau cookies",
+      "notes": "Contre-signal fort EDI : priorité réduite, cible site uniquement.",
+      "lot": "2026-11-09-lot11",
+      "discovered_at": "2026-11-09",
+      "email_status": "non_contacté",
+      "next_action": "",
+      "scores": {
+        "site_web": {
+          "axis": "site_web",
+          "score": 5,
+          "level": "faible",
+          "reasons": [
+            "un site est déjà en ligne : pas de création à proprement parler"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "un site existe déjà : la création n'est pas le bon service"
+          ],
+          "confidence": "haute",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": [],
+          "evaluated_at": "2026-11-09",
+          "signal_levels": {}
+        },
+        "refonte": {
+          "axis": "refonte",
+          "score": 81,
+          "level": "fort",
+          "reasons": [
+            "site existant à moderniser",
+            "+42 site_obsolete : « {title} » (https://transports-bonnevialle.com/)",
+            "+34 parcours_incomplet : « Votre message » (https://transports-bonnevialle.com/contact/)"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "comportement sur mobile non vérifié"
+          ],
+          "confidence": "haute",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": [],
+          "evaluated_at": "2026-11-09",
+          "signal_levels": {}
+        },
+        "ia_automatisation": {
+          "axis": "ia_automatisation",
+          "score": 12,
+          "level": "faible",
+          "reasons": [
+            "+12 processus manuel signalé par le chercheur (type de preuve seul, volontairement plafonné)"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "aucun processus entrant décrit publiquement : observer comment arrivent et sont traitées les demandes (devis, réservation, dossier)",
+            "processus observé sur une seule page : confirmer sur une seconde source",
+            "le processus est affirmé dans process_hint mais aucune citation ne l'établit"
+          ],
+          "confidence": "moyenne",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": [],
+          "evaluated_at": "2026-11-09",
+          "signal_levels": {}
+        },
+        "priority": "haute",
+        "best_axis": "refonte",
+        "engine_version": "v8",
+        "evaluated_at": "2026-11-09",
+        "contactability": {
+          "email_present": true,
+          "email_verification": "verified",
+          "phone_present": true,
+          "decoded_address_unconfirmed": false,
+          "blockers": [],
+          "contactable": true
+        },
+        "opportunity_report": {
+          "automation": [],
+          "maturity": [],
+          "refonte": [],
+          "presence": []
+        }
+      },
+      "scoring_version": "v8",
+      "commercial_priority": "basse",
+      "commercial_value": 44,
+      "commercial": {
+        "value": 44,
+        "tier": "basse",
+        "signal_class": "observe",
+        "signal_class_label": "problème directement observé",
+        "relevance": "propose",
+        "relevance_factor": 1.0,
+        "matched_services": [],
+        "verified": false,
+        "base": 34,
+        "magnitude": 34,
+        "best_axis": "refonte",
+        "best_axis_score": 81,
+        "confidence": "haute",
+        "reasons": [
+          "contre-signaux explicites : 1 fort(s), 0 modéré(s), 0 faible(s) → pénalité bornée -24 (68 -> 44)",
+          "contre-signal — force fort (marqueurs : déjà pleinement) ; délimite le besoin sans l'annuler",
+          "problème directement observé : base 34",
+          "pertinence offre : propose (×1.00)",
+          "magnitude bornée : +34 (meilleur axe refonte = 81, plafond 42)"
+        ],
+        "counter_signals": [
+          "Système EDI"
+        ],
+        "counter_signal_penalty": 24,
+        "counter_signal_details": [
+          {
+            "quote": "Système EDI",
+            "source_url": "https://transports-bonnevialle.com/",
+            "observed_at": "2026-11-09",
+            "strength": "fort",
+            "negates_need": false,
+            "fresh": true,
+            "reliable_source": true,
+            "penalty": 24,
+            "reason": "force fort (marqueurs : déjà pleinement) ; délimite le besoin sans l'annuler"
+          }
+        ],
+        "driving_evidence": [
+          {
+            "quote": "{title}",
+            "source_url": "https://transports-bonnevialle.com/",
+            "observed_at": "2026-11-09",
+            "verified_at": "2026-11-09",
+            "signal_level": "observe"
+          },
+          {
+            "quote": "Votre message",
+            "source_url": "https://transports-bonnevialle.com/contact/",
+            "observed_at": "2026-11-09",
+            "verified_at": "2026-11-09",
+            "signal_level": "observe"
+          },
+          {
+            "quote": "En 2024, notre espace d'exploitation s'agrandit. 7000 m² de stockage et entreposage.",
+            "source_url": "https://transports-bonnevialle.com/",
+            "observed_at": "2026-11-09",
+            "verified_at": "2026-11-09",
+            "signal_level": "observe"
+          },
+          {
+            "quote": "Système EDI",
+            "source_url": "https://transports-bonnevialle.com/",
+            "observed_at": "2026-11-09",
+            "verified_at": "2026-11-09",
+            "signal_level": "observe"
+          }
+        ],
+        "contactable": true,
+        "capped_by_contactability": false,
+        "floor_applied": false,
+        "evaluated_at": "2026-11-09",
+        "engine_version": "v10-priority"
+      },
+      "priority_engine_version": "v10-priority",
+      "status": "nouveau",
+      "status_crm": "qualified",
+      "tier": "basse",
+      "score": 81,
+      "justification": "contre-signaux explicites : 1 fort(s), 0 modéré(s), 0 faible(s) → pénalité bornée -24 (68 -> 44) ; contre-signal — force fort (marqueurs : déjà pleinement) ; délimite le besoin sans l'annuler ; problème directement observé : base 34 ; pertinence offre : propose (×1.00) ; magnitude bornée : +34 (meilleur axe refonte = 81, plafond 42)",
+      "brouillon_autorise_lot11": false,
+      "brouillon_motif": "priorité basse",
+      "history": [
+        {
+          "at": "2026-11-09",
+          "action": "fiche_creee_lot11",
+          "reason": "Structure examinée sur sources publiques ; preuves citées et datées ; trois axes v8 et priorité v10 calculés par le moteur du dépôt.",
+          "source": "https://transports-bonnevialle.com/"
+        }
+      ],
+      "id": "transports-bonnevialle",
+      "created_at": "2026-11-09T22:16:02+00:00",
+      "updated_at": "2026-11-09T22:16:02+00:00"
+    },
+    {
+      "company": "FMESURE",
+      "website": "http://fmesure.fr/",
+      "domain": "fmesure.fr",
+      "sector": "Géomètre-expert — topographie et plans de bâtiments",
+      "city": "Valence",
+      "department": "26",
+      "address": "17 rue Racine, 26000 Valence ; 35 Grande Rue, 26340 Saillans",
+      "contact_name": "Fanny",
+      "contact_role": "Géomètre-expert",
+      "email": "fanny.ribiere@fmesure.fr",
+      "phone": "06 32 65 22 27",
+      "source": "site_officiel",
+      "evidence": [
+        {
+          "kind": "parcours_incomplet",
+          "source_url": "http://fmesure.fr/contact",
+          "quote": "fanny.ribiere@fmesure.fr",
+          "observed_at": "2026-11-09",
+          "detail": "La page contact ne comporte que deux adresses de bureaux, un téléphone mobile et une adresse e-mail : aucun formulaire, aucun champ décrivant la mission (relevé terrestre, plan d'intérieur, implantation, copropriété).",
+          "source_type": "site_officiel",
+          "reliability": "haute",
+          "verified_at": "2026-11-09",
+          "observed": true,
+          "signal_level": "observe"
+        },
+        {
+          "kind": "site_obsolete",
+          "source_url": "http://fmesure.fr/contact",
+          "quote": "2017-08-12",
+          "observed_at": "2026-11-09",
+          "detail": "Une date brute « 2017-08-12 » est publiée telle quelle au-dessus de la mention « © 2025 FMESURE » : résidu de gabarit visible.",
+          "source_type": "site_officiel",
+          "reliability": "haute",
+          "verified_at": "2026-11-09",
+          "observed": true,
+          "signal_level": "observe"
+        },
+        {
+          "kind": "processus_manuel",
+          "source_url": "http://fmesure.fr/topographie",
+          "quote": "Le relevé terrestre permet d’établir les plans",
+          "observed_at": "2026-11-09",
+          "detail": "Quatre familles de missions sont décrites (relevés, plans de bâtiments, implantations) mais toutes aboutissent au même contact unique : la qualification se fait par échange.",
+          "source_type": "site_officiel",
+          "reliability": "haute",
+          "verified_at": "2026-11-09",
+          "observed": true,
+          "signal_level": "observe"
+        },
+        {
+          "kind": "signal_confiance",
+          "source_url": "https://www.geometre-expert.fr/cabinet/fmesure-sarl-de-geometres-experts/",
+          "quote": "SIRET : 82082872100044",
+          "observed_at": "2026-11-09",
+          "detail": "Cabinet inscrit à l'ordre des géomètres-experts, numéro 2017B200008, SARL créée le 21/07/2017, deux bureaux. Vérifié sur le registre professionnel.",
+          "source_type": "registre_public",
+          "reliability": "haute",
+          "verified_at": "2026-11-09",
+          "observed": true,
+          "signal_level": "observe"
+        },
+        {
+          "kind": "maturite_existante",
+          "source_url": "https://www.geometre-expert.fr/cabinet/fmesure-sarl-de-geometres-experts/",
+          "quote": "Géomètre-Expert",
+          "observed_at": "2026-11-09",
+          "detail": "Profession réglementée avec inscription à l'ordre : la communication est encadrée. Proposition à limiter au parcours de demande, sans promesse commerciale.",
+          "source_type": "site_officiel",
+          "reliability": "haute",
+          "verified_at": "2026-11-09",
+          "observed": true,
+          "signal_level": "observe"
+        }
+      ],
+      "publication_date": "",
+      "need": "refonte",
+      "needs": [
+        "refonte",
+        "automatisation"
+      ],
+      "recommended_service": "une demande de relevé qui décrit le terrain ou le bâtiment avant le déplacement",
+      "email_verification": "verified",
+      "email_verification_basis": "adresse lue directement sur une page officielle le 2026-11-09 ; MX du domaine vérifié le même jour (le MX ne prouve pas l'existence de la boîte)",
+      "email_provenance": "publiee",
+      "email_dns_status": "mx_ok",
+      "email_dns_checked_at": "2026-11-09",
+      "process_hint": "page contact sans formulaire, deux bureaux, demande de relevé non structurée",
+      "demo_detail": "une demande indiquant adresse du bien, type de mission et surface, orientée vers le bon bureau",
+      "custom_hook": "Votre page contact tient en deux adresses, un mobile et un e-mail, sans formulaire : rien ne distingue une demande de plan d'intérieur d'un relevé topographique.",
+      "custom_subject": "FMESURE : deux bureaux, une seule ligne de contact",
+      "notes": "Site servi en http. Deux bureaux à orienter : bon cas de demande structurée.",
+      "lot": "2026-11-09-lot11",
+      "discovered_at": "2026-11-09",
+      "email_status": "non_contacté",
+      "next_action": "",
+      "scores": {
+        "site_web": {
+          "axis": "site_web",
+          "score": 5,
+          "level": "faible",
+          "reasons": [
+            "un site est déjà en ligne : pas de création à proprement parler"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "un site existe déjà : la création n'est pas le bon service"
+          ],
+          "confidence": "haute",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": [],
+          "evaluated_at": "2026-11-09",
+          "signal_levels": {}
+        },
+        "refonte": {
+          "axis": "refonte",
+          "score": 98,
+          "level": "fort",
+          "reasons": [
+            "site existant à moderniser",
+            "+42 site_obsolete : « 2017-08-12 » (http://fmesure.fr/contact)",
+            "+34 parcours_incomplet : « fanny.ribiere@fmesure.fr » (http://fmesure.fr/contact)",
+            "+17 Contact réduit à un lien mailto ou une carte — « Constat du chercheur : page contact sans formulaire, deux bureaux, demande de relevé no… » [motif : sans formulaire] ()"
+          ],
+          "evidence": [
+            {
+              "signal": "contact_pauvre",
+              "label": "Contact réduit à un lien mailto ou une carte",
+              "weight": 26,
+              "matched_pattern": "sans formulaire",
+              "evidence_index": -1,
+              "source_url": "",
+              "quote": "Constat du chercheur : page contact sans formulaire, deux bureaux, demande de relevé non structurée",
+              "observed": true,
+              "hypothetical": false,
+              "reliability": "moyenne"
+            }
+          ],
+          "missing_information": [
+            "comportement sur mobile non vérifié",
+            "une seule page observée : vérifier le parcours de contact sur une seconde page"
+          ],
+          "confidence": "faible",
+          "observed_signals": [
+            "Contact réduit à un lien mailto ou une carte"
+          ],
+          "hypothetical_signals": [],
+          "counter_signals": [],
+          "evaluated_at": "2026-11-09",
+          "signal_levels": {
+            "observe": 1
+          }
+        },
+        "ia_automatisation": {
+          "axis": "ia_automatisation",
+          "score": 12,
+          "level": "faible",
+          "reasons": [
+            "+12 processus manuel signalé par le chercheur (type de preuve seul, volontairement plafonné)"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "aucun processus entrant décrit publiquement : observer comment arrivent et sont traitées les demandes (devis, réservation, dossier)",
+            "le processus est affirmé dans process_hint mais aucune citation ne l'établit"
+          ],
+          "confidence": "haute",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": [],
+          "evaluated_at": "2026-11-09",
+          "signal_levels": {}
+        },
+        "priority": "haute",
+        "best_axis": "refonte",
+        "engine_version": "v8",
+        "evaluated_at": "2026-11-09",
+        "contactability": {
+          "email_present": true,
+          "email_verification": "verified",
+          "phone_present": true,
+          "decoded_address_unconfirmed": false,
+          "blockers": [],
+          "contactable": true
+        },
+        "opportunity_report": {
+          "automation": [],
+          "maturity": [],
+          "refonte": [
+            {
+              "signal": "contact_pauvre",
+              "label": "Contact réduit à un lien mailto ou une carte",
+              "weight": 26,
+              "matched_pattern": "sans formulaire",
+              "evidence_index": -1,
+              "source_url": "",
+              "quote": "Constat du chercheur : page contact sans formulaire, deux bureaux, demande de relevé non structurée",
+              "observed": true,
+              "hypothetical": false,
+              "reliability": "moyenne"
+            }
+          ],
+          "presence": []
+        }
+      },
+      "scoring_version": "v8",
+      "commercial_priority": "haute",
+      "commercial_value": 75,
+      "commercial": {
+        "value": 75,
+        "tier": "haute",
+        "signal_class": "observe",
+        "signal_class_label": "problème directement observé",
+        "relevance": "propose",
+        "relevance_factor": 1.0,
+        "matched_services": [],
+        "verified": false,
+        "base": 34,
+        "magnitude": 41,
+        "best_axis": "refonte",
+        "best_axis_score": 98,
+        "confidence": "haute",
+        "reasons": [
+          "contre-signaux explicites : 0 fort(s), 0 modéré(s), 1 faible(s) → pénalité bornée -0 (75 -> 75)",
+          "contre-signal — force faible (aucun marqueur explicite : prudence) ; délimite le besoin sans l'annuler",
+          "problème directement observé : base 34",
+          "pertinence offre : propose (×1.00)",
+          "magnitude bornée : +41 (meilleur axe refonte = 98, plafond 42)"
+        ],
+        "counter_signals": [
+          "Géomètre-Expert"
+        ],
+        "counter_signal_penalty": 0,
+        "counter_signal_details": [
+          {
+            "quote": "Géomètre-Expert",
+            "source_url": "https://www.geometre-expert.fr/cabinet/fmesure-sarl-de-geometres-experts/",
+            "observed_at": "2026-11-09",
+            "strength": "faible",
+            "negates_need": false,
+            "fresh": true,
+            "reliable_source": true,
+            "penalty": 0,
+            "reason": "force faible (aucun marqueur explicite : prudence) ; délimite le besoin sans l'annuler"
+          }
+        ],
+        "driving_evidence": [
+          {
+            "quote": "fanny.ribiere@fmesure.fr",
+            "source_url": "http://fmesure.fr/contact",
+            "observed_at": "2026-11-09",
+            "verified_at": "2026-11-09",
+            "signal_level": "observe"
+          },
+          {
+            "quote": "2017-08-12",
+            "source_url": "http://fmesure.fr/contact",
+            "observed_at": "2026-11-09",
+            "verified_at": "2026-11-09",
+            "signal_level": "observe"
+          },
+          {
+            "quote": "Le relevé terrestre permet d’établir les plans",
+            "source_url": "http://fmesure.fr/topographie",
+            "observed_at": "2026-11-09",
+            "verified_at": "2026-11-09",
+            "signal_level": "observe"
+          },
+          {
+            "quote": "SIRET : 82082872100044",
+            "source_url": "https://www.geometre-expert.fr/cabinet/fmesure-sarl-de-geometres-experts/",
+            "observed_at": "2026-11-09",
+            "verified_at": "2026-11-09",
+            "signal_level": "observe"
+          }
+        ],
+        "contactable": true,
+        "capped_by_contactability": false,
+        "floor_applied": false,
+        "evaluated_at": "2026-11-09",
+        "engine_version": "v10-priority"
+      },
+      "priority_engine_version": "v10-priority",
+      "status": "nouveau",
+      "status_crm": "qualified",
+      "tier": "haute",
+      "score": 98,
+      "justification": "contre-signaux explicites : 0 fort(s), 0 modéré(s), 1 faible(s) → pénalité bornée -0 (75 -> 75) ; contre-signal — force faible (aucun marqueur explicite : prudence) ; délimite le besoin sans l'annuler ; problème directement observé : base 34 ; pertinence offre : propose (×1.00) ; magnitude bornée : +41 (meilleur axe refonte = 98, plafond 42)",
+      "brouillon_autorise_lot11": false,
+      "brouillon_motif": "confiance faible sur l'axe refonte : vérifier avant contact",
+      "history": [
+        {
+          "at": "2026-11-09",
+          "action": "fiche_creee_lot11",
+          "reason": "Structure examinée sur sources publiques ; preuves citées et datées ; trois axes v8 et priorité v10 calculés par le moteur du dépôt.",
+          "source": "http://fmesure.fr/"
+        }
+      ],
+      "id": "fmesure",
+      "created_at": "2026-11-09T22:16:02+00:00",
+      "updated_at": "2026-11-09T22:16:02+00:00"
+    },
+    {
+      "company": "Léonard & Parmentier",
+      "website": "https://chaudronnerie-charpente-roanne.com/",
+      "domain": "chaudronnerie-charpente-roanne.com",
+      "sector": "Chaudronnerie, tôlerie, serrurerie et ferronnerie",
+      "city": "Renaison",
+      "department": "42",
+      "address": "Renaison (42), interventions dans un rayon de 40 km",
+      "contact_name": "",
+      "contact_role": "",
+      "email": "",
+      "phone": "04 81 17 09 64",
+      "source": "site_officiel",
+      "evidence": [
+        {
+          "kind": "parcours_incomplet",
+          "source_url": "https://chaudronnerie-charpente-roanne.com/",
+          "quote": "Message",
+          "observed_at": "2026-11-09",
+          "detail": "Le formulaire de contact comporte Nom Prénom, Société, Téléphone, Email et Message. Aucun champ ne décrit l'ouvrage (escalier, garde-corps, portail, charpente), ses dimensions ou sa matière, alors que tout devis de métallerie en dépend.",
+          "source_type": "site_officiel",
+          "reliability": "haute",
+          "verified_at": "2026-11-09",
+          "observed": true,
+          "signal_level": "observe"
+        },
+        {
+          "kind": "site_obsolete",
+          "source_url": "https://chaudronnerie-charpente-roanne.com/",
+          "quote": "{title}",
+          "observed_at": "2026-11-09",
+          "detail": "Le bandeau de consentement publie des marqueurs de gabarit non résolus : « {title} » et « Gérer {vendor_count} fournisseurs ».",
+          "source_type": "site_officiel",
+          "reliability": "haute",
+          "verified_at": "2026-11-09",
+          "observed": true,
+          "signal_level": "observe"
+        },
+        {
+          "kind": "processus_manuel",
+          "source_url": "https://chaudronnerie-charpente-roanne.com/",
+          "quote": "Contactez-nous pour parler de votre projet",
+          "observed_at": "2026-11-09",
+          "detail": "Chaque section de prestation se termine par une invitation à contacter, sans collecte d'éléments techniques : la qualification du projet se fait entièrement par échange.",
+          "source_type": "site_officiel",
+          "reliability": "haute",
+          "verified_at": "2026-11-09",
+          "observed": true,
+          "signal_level": "observe"
+        },
+        {
+          "kind": "signal_confiance",
+          "source_url": "https://chaudronnerie-charpente-roanne.com/",
+          "quote": "Depuis 1973",
+          "observed_at": "2026-11-09",
+          "detail": "Entreprise active depuis 1973, plus de 50 ans d'expérience annoncés, zone d'intervention précise (40 km autour de Renaison), téléphone publié.",
+          "source_type": "site_officiel",
+          "reliability": "haute",
+          "verified_at": "2026-11-09",
+          "observed": true,
+          "signal_level": "observe"
+        }
+      ],
+      "publication_date": "",
+      "need": "refonte",
+      "needs": [
+        "refonte",
+        "automatisation"
+      ],
+      "recommended_service": "une demande qui décrit l'ouvrage métallique et ses dimensions avant le devis",
+      "email_verification": "none",
+      "email_verification_basis": "aucune adresse professionnelle publiée sur les pages lues",
+      "email_provenance": "",
+      "email_dns_status": "",
+      "email_dns_checked_at": "",
+      "process_hint": "formulaire générique sans qualification de l'ouvrage métallique",
+      "demo_detail": "une demande précisant type d'ouvrage, dimensions, matière et délai, reprise dans le chiffrage",
+      "custom_hook": "Votre formulaire « NOUS CONTACTER » demande Nom, Société, Téléphone, Email et Message : rien sur l'ouvrage à fabriquer.",
+      "custom_subject": "Léonard & Parmentier : votre formulaire ne demande pas l'ouvrage",
+      "notes": "Aucune adresse e-mail publiée : pas de brouillon possible.",
+      "lot": "2026-11-09-lot11",
+      "discovered_at": "2026-11-09",
+      "email_status": "non_contacté",
+      "next_action": "",
+      "scores": {
+        "site_web": {
+          "axis": "site_web",
+          "score": 5,
+          "level": "faible",
+          "reasons": [
+            "un site est déjà en ligne : pas de création à proprement parler"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "un site existe déjà : la création n'est pas le bon service"
+          ],
+          "confidence": "moyenne",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": [],
+          "evaluated_at": "2026-11-09",
+          "signal_levels": {}
+        },
+        "refonte": {
+          "axis": "refonte",
+          "score": 81,
+          "level": "fort",
+          "reasons": [
+            "site existant à moderniser",
+            "+42 site_obsolete : « {title} » (https://chaudronnerie-charpente-roanne.com/)",
+            "+34 parcours_incomplet : « Message » (https://chaudronnerie-charpente-roanne.com/)"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "comportement sur mobile non vérifié",
+            "une seule page observée : vérifier le parcours de contact sur une seconde page"
+          ],
+          "confidence": "moyenne",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": [],
+          "evaluated_at": "2026-11-09",
+          "signal_levels": {}
+        },
+        "ia_automatisation": {
+          "axis": "ia_automatisation",
+          "score": 12,
+          "level": "faible",
+          "reasons": [
+            "+12 processus manuel signalé par le chercheur (type de preuve seul, volontairement plafonné)"
+          ],
+          "evidence": [],
+          "missing_information": [
+            "aucun processus entrant décrit publiquement : observer comment arrivent et sont traitées les demandes (devis, réservation, dossier)",
+            "ce qui est déjà automatisé n'est pas documenté (réservation en ligne, paiement, espace client, réponse automatique)",
+            "processus observé sur une seule page : confirmer sur une seconde source",
+            "le processus est affirmé dans process_hint mais aucune citation ne l'établit"
+          ],
+          "confidence": "moyenne",
+          "observed_signals": [],
+          "hypothetical_signals": [],
+          "counter_signals": [],
+          "evaluated_at": "2026-11-09",
+          "signal_levels": {}
+        },
+        "priority": "a_approfondir",
+        "best_axis": "refonte",
+        "engine_version": "v8",
+        "evaluated_at": "2026-11-09",
+        "contactability": {
+          "email_present": false,
+          "email_verification": "none",
+          "phone_present": true,
+          "decoded_address_unconfirmed": false,
+          "blockers": [
+            "aucune adresse professionnelle publiée"
+          ],
+          "contactable": false
+        },
+        "opportunity_report": {
+          "automation": [],
+          "maturity": [],
+          "refonte": [],
+          "presence": []
+        }
+      },
+      "scoring_version": "v8",
+      "commercial_priority": "a_approfondir",
+      "commercial_value": 68,
+      "commercial": {
+        "value": 68,
+        "tier": "a_approfondir",
+        "signal_class": "observe",
+        "signal_class_label": "problème directement observé",
+        "relevance": "propose",
+        "relevance_factor": 1.0,
+        "matched_services": [],
+        "verified": false,
+        "base": 34,
+        "magnitude": 34,
+        "best_axis": "refonte",
+        "best_axis_score": 81,
+        "confidence": "haute",
+        "reasons": [
+          "problème directement observé : base 34",
+          "pertinence offre : propose (×1.00)",
+          "magnitude bornée : +34 (meilleur axe refonte = 81, plafond 42)",
+          "adresse non joignable : priorité plafonnée à « à approfondir » (la valeur commerciale est conservée telle quelle)"
+        ],
+        "counter_signals": [],
+        "counter_signal_penalty": 0,
+        "counter_signal_details": [],
+        "driving_evidence": [
+          {
+            "quote": "Message",
+            "source_url": "https://chaudronnerie-charpente-roanne.com/",
+            "observed_at": "2026-11-09",
+            "verified_at": "2026-11-09",
+            "signal_level": "observe"
+          },
+          {
+            "quote": "{title}",
+            "source_url": "https://chaudronnerie-charpente-roanne.com/",
+            "observed_at": "2026-11-09",
+            "verified_at": "2026-11-09",
+            "signal_level": "observe"
+          },
+          {
+            "quote": "Contactez-nous pour parler de votre projet",
+            "source_url": "https://chaudronnerie-charpente-roanne.com/",
+            "observed_at": "2026-11-09",
+            "verified_at": "2026-11-09",
+            "signal_level": "observe"
+          },
+          {
+            "quote": "Depuis 1973",
+            "source_url": "https://chaudronnerie-charpente-roanne.com/",
+            "observed_at": "2026-11-09",
+            "verified_at": "2026-11-09",
+            "signal_level": "observe"
+          }
+        ],
+        "contactable": false,
+        "capped_by_contactability": true,
+        "floor_applied": false,
+        "evaluated_at": "2026-11-09",
+        "engine_version": "v10-priority"
+      },
+      "priority_engine_version": "v10-priority",
+      "status": "nouveau",
+      "status_crm": "qualified",
+      "tier": "a_approfondir",
+      "score": 81,
+      "justification": "problème directement observé : base 34 ; pertinence offre : propose (×1.00) ; magnitude bornée : +34 (meilleur axe refonte = 81, plafond 42) ; adresse non joignable : priorité plafonnée à « à approfondir » (la valeur commerciale est conservée telle quelle)",
+      "brouillon_autorise_lot11": false,
+      "brouillon_motif": "aucune adresse publiée",
+      "history": [
+        {
+          "at": "2026-11-09",
+          "action": "fiche_creee_lot11",
+          "reason": "Structure examinée sur sources publiques ; preuves citées et datées ; trois axes v8 et priorité v10 calculés par le moteur du dépôt.",
+          "source": "https://chaudronnerie-charpente-roanne.com/"
+        }
+      ],
+      "id": "l-onard-parmentier",
+      "created_at": "2026-11-09T22:16:02+00:00",
+      "updated_at": "2026-11-09T22:16:02+00:00"
     }
   ]
 }

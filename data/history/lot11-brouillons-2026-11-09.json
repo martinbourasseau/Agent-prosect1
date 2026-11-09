@@ -1,0 +1,66 @@
+{
+  "lot": "2026-11-09-lot11",
+  "date": "2026-11-09",
+  "campagne": "2026-11-09-lot11",
+  "envoi_autorise": false,
+  "regle": "joignable (MX ok) + priorité haute + confiance non faible sur l'axe porteur",
+  "controle": "check_email_v4 conforme pour les 4 ; ≤167 mots ; sujet ≤70 caractères",
+  "brouillons": [
+    {
+      "company": "Miditraçage Esvia",
+      "to": "contactweb@miditracage.com",
+      "subject": "Miditraçage : la saisie des devis et les relances facturées à la main",
+      "body": "Bonjour,\n\nVotre offre d'assistant administratif du 29 avril liste « Saisie et envoie des devis demandés », « Suivi des relances factures clients » et « Classement et archivage ».\n\nLe poste est ouvert pour votre agence d'Avignon et couvre aussi les DICT, DC4, PPSPS et situations de travaux.\n\nJe peux mettre en place un circuit qui prépare les devis à partir des demandes reçues et suit les relances de factures sans ressaisie.\n\nJe vous prépare une première maquette gratuite, sans engagement : une demande de devis transformée en devis pré-rempli, avec le dossier de chantier (DICT, DC4, sous-traitance) rassemblé au même endroit.\n\nUn échange de quinze minutes vous conviendrait-il pour voir à quoi cela ressemblerait ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+      "queue_id": "2026-11-09-lot11-001",
+      "words": 157,
+      "draft_id": "r4042321371979229617",
+      "message_id": "1a1c2638fdfbe9c8",
+      "label": "Label_9 (Prospection/2026-11-09-lot11)",
+      "statut": "brouillon Gmail non envoyé"
+    },
+    {
+      "company": "Métallerie des Alpilles",
+      "to": "contact@metalleriedesalpilles.fr",
+      "subject": "Métallerie des Alpilles : votre e-mail s'affiche à l'envers",
+      "body": "Bonjour,\n\nVotre bloc contact affiche l'adresse inversée « rf.selliplasedeirellatem@tcatnoc », et le bouton de navigation porte la mention « Created with Sketch. ».\n\nUn visiteur qui copie l'adresse récupère la chaîne inversée, et l'icône téléphone compose un numéro différent de celui affiché.\n\nJe peux corriger l'affichage du contact pour que l'adresse se lise à l'endroit et qu'un seul numéro soit proposé.\n\nJe vous montre gratuitement, sans engagement, une démonstration : une adresse e-mail affichée à l'endroit et un numéro unique, avec une demande de projet décrivant l'ouvrage.\n\nDites-moi si le sujet mérite qu'on en parle.\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+      "queue_id": "2026-11-09-lot11-002",
+      "words": 135,
+      "draft_id": "r2207186572977723131",
+      "message_id": "1a1c2639c4412b5b",
+      "label": "Label_9 (Prospection/2026-11-09-lot11)",
+      "statut": "brouillon Gmail non envoyé"
+    },
+    {
+      "company": "Bureau Bois Concept",
+      "to": "contact@etudebbc.fr",
+      "subject": "Bureau Bois Concept : disponible, mais sans champ projet",
+      "body": "Bonjour,\n\nVotre accueil affiche « DISPONIBLE POUR DE NOUVEAUX PROJETS », et votre formulaire demande un Sujet et une Question, sans décrire l'ouvrage.\n\nLe titre de cette page contact est « Contacter Le GIE Tétraèdre », une autre entité que l'EURL affichée.\n\nJe peux ajouter à votre formulaire les quelques champs qui décrivent l'ouvrage, pour que la demande arrive déjà chiffrable.\n\nSans engagement, je vous prépare gratuitement une démonstration : une demande précisant type d'ouvrage, portée, essence et mission (EXE, PAC ou diagnostic), reprise telle quelle dans l'étude.\n\nSouhaitez-vous que je vous montre cela sur un cas concret de votre activité ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+      "queue_id": "2026-11-09-lot11-003",
+      "words": 142,
+      "draft_id": "r8619847980088428557",
+      "message_id": "1a1c263ab077a895",
+      "label": "Label_9 (Prospection/2026-11-09-lot11)",
+      "statut": "brouillon Gmail non envoyé"
+    },
+    {
+      "company": "ETS Frézouls",
+      "to": "contact@frezouls.fr",
+      "subject": "Frézouls : vos liens « En savoir + » repassent en http",
+      "body": "Bonjour,\n\nSur votre page Contrôle d'accès, les liens « En savoir + » vers Interphone et Digicode sont en http://frezouls.fr alors que le site est servi en https.\n\nLes images et le logo de cette page sont datés de 2018 dans leurs chemins d'accès.\n\nJe peux remettre les liens internes en https et ajouter sur les pages métier un formulaire qui qualifie le bâtiment.\n\nJe vous prépare une première maquette gratuite, sans engagement : une page contrôle d'accès dont les liens internes restent en https et dont le formulaire qualifie le bâtiment.\n\nDites-moi si le sujet mérite qu'on en parle.\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+      "queue_id": "2026-11-09-lot11-004",
+      "words": 140,
+      "draft_id": "r-2619464416091008266",
+      "message_id": "1a1c263b80ce4a95",
+      "label": "Label_9 (Prospection/2026-11-09-lot11)",
+      "statut": "brouillon Gmail non envoyé"
+    }
+  ],
+  "fiches_anterieures_inchangees": 92,
+  "label_gmail": "Label_9",
+  "verifications": [
+    "4 brouillons relus via list_drafts : destinataires et sujets exacts",
+    "corps du brouillon Miditraçage relu intégralement : signature officielle conforme",
+    "expéditeur Martin BOURASSEAU <martin.bourasseau4@gmail.com>",
+    "aucun appel à send_draft ni send_message"
+  ]
+}

@@ -262,7 +262,11 @@ class TraceabilityTests(unittest.TestCase):
     def test_la_evaluation_est_datee_et_expliquee(self):
         for rec in CRM().records:
             c = rec["commercial"]
-            self.assertEqual(c["evaluated_at"], TODAY.isoformat())
+            # Une évaluation est datée et jamais future : la date exacte dépend
+            # du lot, la figer ferait échouer tout nouveau portefeuille.
+            self.assertTrue(c["evaluated_at"], rec["company"])
+            evaluated = date.fromisoformat(c["evaluated_at"][:10])
+            self.assertLessEqual(evaluated, date.today())
             self.assertTrue(c["reasons"])
             self.assertIn(c["confidence"], ("haute", "moyenne", "faible"))
             self.assertIn(c["signal_class"], BASE_BY_CLASS)

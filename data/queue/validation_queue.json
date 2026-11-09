@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-09T14:25:18+00:00",
+  "updated_at": "2026-11-09T22:20:03+00:00",
   "items": [
     {
       "id": "2026-11-03-v2-001",
@@ -2975,6 +2975,170 @@
           "sent_at_observed": "2026-11-09T12:23:17+01:00",
           "source": "data/history/audit-gmail-phase10bis-2026-11-07.json",
           "reason": "brouillon envoyé depuis l'interface Gmail ; l'agent n'a effectué aucun envoi (enabled=false, dry_run=true)"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-09-lot11-001",
+      "campaign": "2026-11-09-lot11",
+      "to": "contactweb@miditracage.com",
+      "company": "Miditraçage Esvia",
+      "subject": "Miditraçage : la saisie des devis et les relances facturées à la main",
+      "body": "Bonjour,\n\nVotre offre d'assistant administratif du 29 avril liste « Saisie et envoie des devis demandés », « Suivi des relances factures clients » et « Classement et archivage ».\n\nLe poste est ouvert pour votre agence d'Avignon et couvre aussi les DICT, DC4, PPSPS et situations de travaux.\n\nJe peux mettre en place un circuit qui prépare les devis à partir des demandes reçues et suit les relances de factures sans ressaisie.\n\nJe vous prépare une première maquette gratuite, sans engagement : une demande de devis transformée en devis pré-rempli, avec le dossier de chantier (DICT, DC4, sous-traitance) rassemblé au même endroit.\n\nUn échange de quinze minutes vous conviendrait-il pour voir à quoi cela ressemblerait ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+      "need": "automatisation",
+      "evidence_sources": [
+        "https://www.miditracage-esvia.com/actualites/2026/04/29/assistant-e-administratif-et-commercial-avignon/",
+        "https://www.miditracage-esvia.com/actualites/2026/04/29/assistant-e-administratif-et-commercial-avignon/",
+        "https://www.miditracage-esvia.com/actualites/2026/04/29/assistant-e-administratif-et-commercial-avignon/",
+        "https://www.miditracage-esvia.com/",
+        "https://www.miditracage-esvia.com/"
+      ],
+      "status": "pending",
+      "created_at": "2026-11-09T22:17:21+00:00",
+      "updated_at": "2026-11-09T22:17:21+00:00",
+      "gmail_draft_id": "r4042321371979229617",
+      "gmail_message_id": "1a1c2638fdfbe9c8",
+      "decision_reason": "",
+      "history": [
+        {
+          "at": "2026-11-09T22:17:21+00:00",
+          "action": "created",
+          "status": "pending"
+        },
+        {
+          "at": "2026-11-09",
+          "action": "brouillon_gmail_cree",
+          "reason": "Brouillon Gmail créé (draft r4042321371979229617, message 1a1c2638fdfbe9c8), libellé Prospection/2026-11-09-lot11. Aucun envoi : pré-vol toujours bloqué.",
+          "status": "pending"
+        },
+        {
+          "at": "2026-11-09",
+          "action": "gmail_draft_id_renseigne",
+          "reason": "Le tableau de bord classe les brouillons par gmail_draft_id : identifiant reporté pour que les 4 brouillons du lot ne soient pas comptés comme « en attente ».",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-09-lot11-002",
+      "campaign": "2026-11-09-lot11",
+      "to": "contact@metalleriedesalpilles.fr",
+      "company": "Métallerie des Alpilles",
+      "subject": "Métallerie des Alpilles : votre e-mail s'affiche à l'envers",
+      "body": "Bonjour,\n\nVotre bloc contact affiche l'adresse inversée « rf.selliplasedeirellatem@tcatnoc », et le bouton de navigation porte la mention « Created with Sketch. ».\n\nUn visiteur qui copie l'adresse récupère la chaîne inversée, et l'icône téléphone compose un numéro différent de celui affiché.\n\nJe peux corriger l'affichage du contact pour que l'adresse se lise à l'endroit et qu'un seul numéro soit proposé.\n\nJe vous montre gratuitement, sans engagement, une démonstration : une adresse e-mail affichée à l'endroit et un numéro unique, avec une demande de projet décrivant l'ouvrage.\n\nDites-moi si le sujet mérite qu'on en parle.\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+      "need": "refonte",
+      "evidence_sources": [
+        "https://metalleriedesalpilles.fr/",
+        "https://metalleriedesalpilles.fr/",
+        "https://metalleriedesalpilles.fr/",
+        "https://metalleriedesalpilles.fr/",
+        "https://metalleriedesalpilles.fr/"
+      ],
+      "status": "pending",
+      "created_at": "2026-11-09T22:17:21+00:00",
+      "updated_at": "2026-11-09T22:17:21+00:00",
+      "gmail_draft_id": "r2207186572977723131",
+      "gmail_message_id": "1a1c2639c4412b5b",
+      "decision_reason": "",
+      "history": [
+        {
+          "at": "2026-11-09T22:17:21+00:00",
+          "action": "created",
+          "status": "pending"
+        },
+        {
+          "at": "2026-11-09",
+          "action": "brouillon_gmail_cree",
+          "reason": "Brouillon Gmail créé (draft r2207186572977723131, message 1a1c2639c4412b5b), libellé Prospection/2026-11-09-lot11. Aucun envoi : pré-vol toujours bloqué.",
+          "status": "pending"
+        },
+        {
+          "at": "2026-11-09",
+          "action": "gmail_draft_id_renseigne",
+          "reason": "Le tableau de bord classe les brouillons par gmail_draft_id : identifiant reporté pour que les 4 brouillons du lot ne soient pas comptés comme « en attente ».",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-09-lot11-003",
+      "campaign": "2026-11-09-lot11",
+      "to": "contact@etudebbc.fr",
+      "company": "Bureau Bois Concept",
+      "subject": "Bureau Bois Concept : disponible, mais sans champ projet",
+      "body": "Bonjour,\n\nVotre accueil affiche « DISPONIBLE POUR DE NOUVEAUX PROJETS », et votre formulaire demande un Sujet et une Question, sans décrire l'ouvrage.\n\nLe titre de cette page contact est « Contacter Le GIE Tétraèdre », une autre entité que l'EURL affichée.\n\nJe peux ajouter à votre formulaire les quelques champs qui décrivent l'ouvrage, pour que la demande arrive déjà chiffrable.\n\nSans engagement, je vous prépare gratuitement une démonstration : une demande précisant type d'ouvrage, portée, essence et mission (EXE, PAC ou diagnostic), reprise telle quelle dans l'étude.\n\nSouhaitez-vous que je vous montre cela sur un cas concret de votre activité ?\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+      "need": "automatisation",
+      "evidence_sources": [
+        "https://www.etudebbc.fr/",
+        "https://www.etudebbc.fr/contactus",
+        "https://www.etudebbc.fr/contactus",
+        "https://www.etudebbc.fr/",
+        "https://www.etudebbc.fr/"
+      ],
+      "status": "pending",
+      "created_at": "2026-11-09T22:17:21+00:00",
+      "updated_at": "2026-11-09T22:17:21+00:00",
+      "gmail_draft_id": "r8619847980088428557",
+      "gmail_message_id": "1a1c263ab077a895",
+      "decision_reason": "",
+      "history": [
+        {
+          "at": "2026-11-09T22:17:21+00:00",
+          "action": "created",
+          "status": "pending"
+        },
+        {
+          "at": "2026-11-09",
+          "action": "brouillon_gmail_cree",
+          "reason": "Brouillon Gmail créé (draft r8619847980088428557, message 1a1c263ab077a895), libellé Prospection/2026-11-09-lot11. Aucun envoi : pré-vol toujours bloqué.",
+          "status": "pending"
+        },
+        {
+          "at": "2026-11-09",
+          "action": "gmail_draft_id_renseigne",
+          "reason": "Le tableau de bord classe les brouillons par gmail_draft_id : identifiant reporté pour que les 4 brouillons du lot ne soient pas comptés comme « en attente ».",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-09-lot11-004",
+      "campaign": "2026-11-09-lot11",
+      "to": "contact@frezouls.fr",
+      "company": "ETS Frézouls",
+      "subject": "Frézouls : vos liens « En savoir + » repassent en http",
+      "body": "Bonjour,\n\nSur votre page Contrôle d'accès, les liens « En savoir + » vers Interphone et Digicode sont en http://frezouls.fr alors que le site est servi en https.\n\nLes images et le logo de cette page sont datés de 2018 dans leurs chemins d'accès.\n\nJe peux remettre les liens internes en https et ajouter sur les pages métier un formulaire qui qualifie le bâtiment.\n\nJe vous prépare une première maquette gratuite, sans engagement : une page contrôle d'accès dont les liens internes restent en https et dont le formulaire qualifie le bâtiment.\n\nDites-moi si le sujet mérite qu'on en parle.\n\nSi le sujet ne vous concerne pas, répondez « ne pas me relancer » : je le note et je ne vous écrirai plus.\n\nBonne journée,\nMartin BOURASSEAU\nCréation de sites web · Refonte · Agents IA · Automatisation\nhttps://prospecto.website\n",
+      "need": "refonte",
+      "evidence_sources": [
+        "https://www.frezouls.fr/controle-dacces/",
+        "https://www.frezouls.fr/controle-dacces/",
+        "https://www.frezouls.fr/controle-dacces/",
+        "https://www.frezouls.fr/contact/",
+        "https://www.frezouls.fr/contact/"
+      ],
+      "status": "pending",
+      "created_at": "2026-11-09T22:17:21+00:00",
+      "updated_at": "2026-11-09T22:17:21+00:00",
+      "gmail_draft_id": "r-2619464416091008266",
+      "gmail_message_id": "1a1c263b80ce4a95",
+      "decision_reason": "",
+      "history": [
+        {
+          "at": "2026-11-09T22:17:21+00:00",
+          "action": "created",
+          "status": "pending"
+        },
+        {
+          "at": "2026-11-09",
+          "action": "brouillon_gmail_cree",
+          "reason": "Brouillon Gmail créé (draft r-2619464416091008266, message 1a1c263b80ce4a95), libellé Prospection/2026-11-09-lot11. Aucun envoi : pré-vol toujours bloqué.",
+          "status": "pending"
+        },
+        {
+          "at": "2026-11-09",
+          "action": "gmail_draft_id_renseigne",
+          "reason": "Le tableau de bord classe les brouillons par gmail_draft_id : identifiant reporté pour que les 4 brouillons du lot ne soient pas comptés comme « en attente ».",
+          "status": "pending"
         }
       ]
     }

@@ -1,0 +1,261 @@
+{
+  "lot": "2026-11-09-lot11",
+  "date": "2026-11-09",
+  "crm_avant": 92,
+  "crm_apres": 108,
+  "fiches_creees": 16,
+  "collisions": [],
+  "bloquees_suppression": [],
+  "registre_avant": 131,
+  "registre_apres": 213,
+  "registre_ajouts": 82,
+  "brouillons_autorises": [
+    "Miditraçage Esvia",
+    "Métallerie des Alpilles",
+    "Bureau Bois Concept",
+    "ETS Frézouls"
+  ],
+  "fiches": [
+    {
+      "company": "Miditraçage Esvia",
+      "department": "84",
+      "axes": {
+        "site_web": 5,
+        "refonte": 15,
+        "ia_automatisation": 46
+      },
+      "priorite": 77,
+      "palier": "haute",
+      "penalite_contre_signaux": 0,
+      "email": "contactweb@miditracage.com",
+      "brouillon": true,
+      "brouillon_motif": "joignable, priorité haute, confiance suffisante sur l'axe porteur"
+    },
+    {
+      "company": "3DM Impression",
+      "department": "40",
+      "axes": {
+        "site_web": 5,
+        "refonte": 89,
+        "ia_automatisation": 12
+      },
+      "priorite": 71,
+      "palier": "a_approfondir",
+      "penalite_contre_signaux": 0,
+      "email": "",
+      "brouillon": false,
+      "brouillon_motif": "aucune adresse publiée"
+    },
+    {
+      "company": "Multi Pneus 36",
+      "department": "36",
+      "axes": {
+        "site_web": 5,
+        "refonte": 89,
+        "ia_automatisation": 29
+      },
+      "priorite": 60,
+      "palier": "moyenne",
+      "penalite_contre_signaux": 11,
+      "email": "multipneus36000@gmail.com",
+      "brouillon": false,
+      "brouillon_motif": "priorité moyenne"
+    },
+    {
+      "company": "L'Océane des Plastics",
+      "department": "56",
+      "axes": {
+        "site_web": 5,
+        "refonte": 89,
+        "ia_automatisation": 0
+      },
+      "priorite": 60,
+      "palier": "moyenne",
+      "penalite_contre_signaux": 11,
+      "email": "contact@loceanedesplastics.fr",
+      "brouillon": false,
+      "brouillon_motif": "priorité moyenne"
+    },
+    {
+      "company": "Métallerie des Alpilles",
+      "department": "13",
+      "axes": {
+        "site_web": 5,
+        "refonte": 89,
+        "ia_automatisation": 0
+      },
+      "priorite": 71,
+      "palier": "haute",
+      "penalite_contre_signaux": 0,
+      "email": "contact@metalleriedesalpilles.fr",
+      "brouillon": true,
+      "brouillon_motif": "joignable, priorité haute, confiance suffisante sur l'axe porteur"
+    },
+    {
+      "company": "Bureau Bois Concept",
+      "department": "05",
+      "axes": {
+        "site_web": 5,
+        "refonte": 81,
+        "ia_automatisation": 12
+      },
+      "priorite": 92,
+      "palier": "haute",
+      "penalite_contre_signaux": 0,
+      "email": "contact@etudebbc.fr",
+      "brouillon": true,
+      "brouillon_motif": "joignable, priorité haute, confiance suffisante sur l'axe porteur"
+    },
+    {
+      "company": "La Conserverie des Producteurs",
+      "department": "32",
+      "axes": {
+        "site_web": 5,
+        "refonte": 39,
+        "ia_automatisation": 12
+      },
+      "priorite": 50,
+      "palier": "moyenne",
+      "penalite_contre_signaux": 0,
+      "email": "conserverie.producteurs@gmail.com",
+      "brouillon": false,
+      "brouillon_motif": "priorité moyenne"
+    },
+    {
+      "company": "CS Dépannages",
+      "department": "51",
+      "axes": {
+        "site_web": 5,
+        "refonte": 81,
+        "ia_automatisation": 12
+      },
+      "priorite": 68,
+      "palier": "moyenne",
+      "penalite_contre_signaux": 0,
+      "email": "steph.csdep@gmail.com",
+      "brouillon": false,
+      "brouillon_motif": "priorité moyenne"
+    },
+    {
+      "company": "ETS Frézouls",
+      "department": "81",
+      "axes": {
+        "site_web": 5,
+        "refonte": 89,
+        "ia_automatisation": 12
+      },
+      "priorite": 71,
+      "palier": "haute",
+      "penalite_contre_signaux": 0,
+      "email": "contact@frezouls.fr",
+      "brouillon": true,
+      "brouillon_motif": "joignable, priorité haute, confiance suffisante sur l'axe porteur"
+    },
+    {
+      "company": "Transports Francis Valette",
+      "department": "12",
+      "axes": {
+        "site_web": 5,
+        "refonte": 49,
+        "ia_automatisation": 12
+      },
+      "priorite": 48,
+      "palier": "moyenne",
+      "penalite_contre_signaux": 11,
+      "email": "valetterodez@gmail.com",
+      "brouillon": false,
+      "brouillon_motif": "priorité moyenne"
+    },
+    {
+      "company": "Occibox",
+      "department": "12",
+      "axes": {
+        "site_web": 5,
+        "refonte": 81,
+        "ia_automatisation": 12
+      },
+      "priorite": 68,
+      "palier": "a_approfondir",
+      "penalite_contre_signaux": 0,
+      "email": "",
+      "brouillon": false,
+      "brouillon_motif": "aucune adresse publiée"
+    },
+    {
+      "company": "SAS Adrien Fernandes D&S",
+      "department": "89",
+      "axes": {
+        "site_web": 5,
+        "refonte": 98,
+        "ia_automatisation": 12
+      },
+      "priorite": 75,
+      "palier": "haute",
+      "penalite_contre_signaux": 0,
+      "email": "afd.services@icloud.com",
+      "brouillon": false,
+      "brouillon_motif": "confiance faible sur l'axe refonte : vérifier avant contact"
+    },
+    {
+      "company": "Plast e-Concept",
+      "department": "56",
+      "axes": {
+        "site_web": 5,
+        "refonte": 98,
+        "ia_automatisation": 12
+      },
+      "priorite": 75,
+      "palier": "haute",
+      "penalite_contre_signaux": 0,
+      "email": "contact@plasteconcept.com",
+      "brouillon": false,
+      "brouillon_motif": "confiance faible sur l'axe refonte : vérifier avant contact"
+    },
+    {
+      "company": "Transports Bonnevialle",
+      "department": "12",
+      "axes": {
+        "site_web": 5,
+        "refonte": 81,
+        "ia_automatisation": 12
+      },
+      "priorite": 44,
+      "palier": "basse",
+      "penalite_contre_signaux": 24,
+      "email": "exploitation@transports-bonnevialle.fr",
+      "brouillon": false,
+      "brouillon_motif": "priorité basse"
+    },
+    {
+      "company": "FMESURE",
+      "department": "26",
+      "axes": {
+        "site_web": 5,
+        "refonte": 98,
+        "ia_automatisation": 12
+      },
+      "priorite": 75,
+      "palier": "haute",
+      "penalite_contre_signaux": 0,
+      "email": "fanny.ribiere@fmesure.fr",
+      "brouillon": false,
+      "brouillon_motif": "confiance faible sur l'axe refonte : vérifier avant contact"
+    },
+    {
+      "company": "Léonard & Parmentier",
+      "department": "42",
+      "axes": {
+        "site_web": 5,
+        "refonte": 81,
+        "ia_automatisation": 12
+      },
+      "priorite": 68,
+      "palier": "a_approfondir",
+      "penalite_contre_signaux": 0,
+      "email": "",
+      "brouillon": false,
+      "brouillon_motif": "aucune adresse publiée"
+    }
+  ],
+  "fiches_anterieures_inchangees": 92
+}

@@ -145,7 +145,6 @@ class RenduDashboardTests(unittest.TestCase):
                       if s["source_type"] == "site_officiel")
         attendu = f"{source['qualification_rate'] * 100:.0f} %"
         self.assertIn(attendu, self.result["rendered"]["srcBox"])
-        self.assertIn("24 %", self.result["rendered"]["srcBox"])
 
     def test_la_distinction_envoye_delivre_est_affichee(self):
         html = self.result["rendered"]["delivReal"]
@@ -209,7 +208,8 @@ class RenduDashboardTests(unittest.TestCase):
     def test_les_contre_signaux_sont_affiches(self):
         html = self.result["rendered"]["csBox"]
         self.assertIn("contre-signal", html)
-        self.assertIn("16", html)
+        attendu = self.metrics["scoring"]["contre_signaux"]["fiches_avec_contre_signal"]
+        self.assertIn(str(attendu), html)
 
     def test_les_marches_publics_sont_affiches_comme_registre_distinct(self):
         html = self.result["rendered"]["mpBox"]
@@ -255,8 +255,12 @@ class MetriquesDashboardTests(unittest.TestCase):
             self.assertNotIn("raw_rate", row)
 
     def test_priorite_statistiques_coherentes(self):
+        from prospecto.crm import CRM
+
         pv = self.metrics["scoring"]["priority_value"]
-        self.assertEqual(pv["n"], 92)
+        values = [r for r in CRM().records
+                  if isinstance(r.get("commercial_value"), (int, float))]
+        self.assertEqual(pv["n"], len(values))
         self.assertLessEqual(pv["min"], pv["mediane"])
         self.assertLessEqual(pv["mediane"], pv["max"])
         self.assertLessEqual(pv["min"], pv["moyenne"])
@@ -274,10 +278,26 @@ class MetriquesDashboardTests(unittest.TestCase):
         self.assertEqual(self.metrics["scoring"]["priority_value"]["mediane"], expected)
 
     def test_contre_signaux_exposes_par_force(self):
+        from prospecto.crm import CRM
+
         cs = self.metrics["scoring"]["contre_signaux"]
-        self.assertEqual(cs["par_force"], {"fort": 2, "modere": 8, "faible": 7})
-        self.assertEqual(cs["fiches_avec_contre_signal"], 16)
-        self.assertEqual(cs["fiches_penalisees"], 9)
+        records = CRM().records
+        attendu = {"fort": 0, "modere": 0, "faible": 0}
+        avec, penalisees = 0, 0
+        for rec in records:
+            block = rec.get("commercial") or {}
+            details = block.get("counter_signal_details") or []
+            if details:
+                avec += 1
+            for d in details:
+                if d.get("strength") in attendu:
+                    attendu[d["strength"]] += 1
+            if block.get("counter_signal_penalty"):
+                penalisees += 1
+        self.assertEqual(cs["par_force"], attendu)
+        self.assertEqual(cs["fiches_avec_contre_signal"], avec)
+        self.assertEqual(cs["fiches_penalisees"], penalisees)
+        self.assertLessEqual(penalisees, avec)
 
     def test_marches_publics_registre_distinct(self):
         mp = self.metrics["marches_publics"]

@@ -172,7 +172,11 @@ class PortefeuilleReelTests(unittest.TestCase):
             self.assertEqual(row["priority_engine_version"], "v9-priority")
 
     def test_chaque_fiche_modifiee_garde_une_trace(self):
-        for rec in self.crm.values():
+        # Seules les fiches MIGRÉES de v9 vers v10 portent un bloc de calibration.
+        # Une fiche créée directement sous v10 n'a jamais eu d'avant/après : lui
+        # réclamer ce bloc ferait échouer tout ajout de portefeuille ultérieur.
+        for row in self.applied["crm_before"]:
+            rec = self.crm[row["company"]]
             block = rec.get("calibration_priorite_commerciale_v10")
             self.assertIsNotNone(block, rec["company"])
             self.assertIn("avant", block)

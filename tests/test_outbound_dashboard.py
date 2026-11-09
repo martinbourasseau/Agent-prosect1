@@ -219,10 +219,18 @@ class DashboardCoherenceTests(unittest.TestCase):
         self.assertEqual(p["acceptes_par_fournisseur"], 68,
                          "acceptation ≠ remise : les 68 sont acceptés, 3 prouvés remis")
 
-    def test_il_reste_deux_brouillons_apres_synchronisation_de_la_file(self):
+    def test_les_brouillons_restants_sont_comptes_depuis_la_file(self):
+        """Après synchronisation, aucun envoi externe ne reste compté en brouillon."""
+        from prospecto.queue import ValidationQueue
+
         p = self.m["pipeline"]
-        self.assertEqual(p["brouillons"], 2)
-        self.assertEqual(p["en_attente"], 1)
+        items = ValidationQueue().items
+        ouverts = [i for i in items if i.status not in ("sent", "rejected", "obsolete")]
+        drafts = [i for i in ouverts if getattr(i, "gmail_draft_id", None)]
+        waiting = [i for i in ouverts if not getattr(i, "gmail_draft_id", None)]
+        self.assertEqual(p["brouillons"], len(drafts))
+        self.assertEqual(p["en_attente"], len(waiting))
+        self.assertEqual(p["brouillons"] + p["en_attente"], len(ouverts))
 
     def test_la_file_garde_l_historique_des_huit_envois_externes(self):
         from prospecto.queue import ValidationQueue
